@@ -11,9 +11,9 @@ profile:
 
 settings:
   timezone: "Australia/Melbourne"
-  lookback_hours: 26          # how far back to read each run (a little over a day)
-  content_items: 6            # stories that get a full Persian brief + content ideas
-  other_items: 10             # extra important headlines (Persian title + one line)
+  lookback_hours: 26          # how far back to read; stories already sent are always skipped
+  content_items: 5            # per run (3 runs a day): stories with a full Persian brief + ideas
+  other_items: 8              # per run: extra important headlines (Persian title + one line)
   ideas_per_item: 2           # content ideas per story
   min_worthiness: 6           # 1-10: below this a story never becomes a content pick
   min_importance_other: 6     # 1-10: threshold for the "other important news" list

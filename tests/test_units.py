@@ -178,3 +178,8 @@ def test_pick_keeps_one_story_per_topic():
                                    "min_importance_other": 6}, set())
     assert [i.story_key for i in content] == ["ouster", "gpt7"]
     assert [i.story_key for i in others] == ["no-return"]
+
+
+def test_edition_name():
+    from radar.persian import edition_name
+    assert [edition_name(h) for h in (7, 13, 20, 2)] == ["صبح", "ظهر", "شب", "شب"]

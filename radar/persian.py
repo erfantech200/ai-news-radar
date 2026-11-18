@@ -55,3 +55,12 @@ def language_name(code: str) -> str:
 
 def category_name(code: str) -> str:
     return CATEGORIES_FA.get(code, code or "")
+
+
+def edition_name(hour: int) -> str:
+    """Which daily edition a run belongs to, by local hour."""
+    if 4 <= hour < 11:
+        return "صبح"
+    if 11 <= hour < 17:
+        return "ظهر"
+    return "شب"

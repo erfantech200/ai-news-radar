@@ -16,6 +16,7 @@ from .collectors import collect_all
 from .dedup import dedupe
 from .llm import LLM, LLMError
 from .models import NewsItem
+from .persian import edition_name
 from .state import State
 from .telegram import Telegram, TelegramError
 
@@ -170,7 +171,8 @@ def run(config_path: Path, dry_run: bool = False, llm: LLM | None = None,
     out_dir = out_dir or ROOT
     tz = ZoneInfo(settings.get("timezone", "Australia/Melbourne"))
     now = datetime.now(timezone.utc)
-    today = now.astimezone(tz).date()
+    local_now = now.astimezone(tz)
+    today = local_now.date()
     since = now - timedelta(hours=float(settings.get("lookback_hours", 26)))
 
     state = State(out_dir / "state" / "state.json")
@@ -189,7 +191,8 @@ def run(config_path: Path, dry_run: bool = False, llm: LLM | None = None,
     official = {s["name"] for s in cfg["sources"] if s.get("official")}
     result = render.DayResult(day=today, content_items=[], other_items=[], scanned=len(items),
                               source_count=len([s for s in cfg["sources"] if s.get("enabled", True)]),
-                              failed_sources=failures)
+                              failed_sources=failures, edition=edition_name(local_now.hour),
+                              clock=local_now.strftime("%H:%M"))
     llm_ok = True
     try:
         if items:
@@ -217,12 +220,14 @@ def run(config_path: Path, dry_run: bool = False, llm: LLM | None = None,
     result.models = llm.used_models
 
     # ---- archive
-    rel = f"reports/{today.year}/{today.isoformat()}.md"
+    # One file per run: several editions a day must not overwrite each other.
+    stem = f"reports/{today.year}/{today.isoformat()}-{local_now.strftime('%H%M')}"
+    rel = f"{stem}.md"
     result.archive_url = archive_url(rel)
     report_path = out_dir / rel
     report_path.parent.mkdir(parents=True, exist_ok=True)
     report_path.write_text(render.markdown(result), encoding="utf-8")
-    data_path = out_dir / f"reports/{today.year}/{today.isoformat()}.json"
+    data_path = out_dir / f"{stem}.json"
     data_path.write_text(json.dumps({
         "content": [i.to_dict() for i in content],
         "others": [i.to_dict() for i in others],

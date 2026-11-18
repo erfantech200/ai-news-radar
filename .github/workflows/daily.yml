@@ -2,8 +2,10 @@ name: Daily AI news radar
 
 on:
   schedule:
-    # 20:17 UTC = 07:17 Melbourne in summer (AEDT), 06:17 in winter (AEST).
-    - cron: "17 20 * * *"
+    # GitHub cron is UTC. Melbourne times below are summer (AEDT); in winter (AEST) each is 1h earlier.
+    - cron: "17 20 * * *"   # 07:17 Melbourne · US West Coast lunch, East Coast afternoon
+    - cron: "17 2 * * *"    # 13:17 Melbourne · end of the US working day
+    - cron: "17 9 * * *"    # 20:17 Melbourne · Europe's morning, Asia's afternoon
   workflow_dispatch: {}   # "Run workflow" button for a manual run
 
 permissions:

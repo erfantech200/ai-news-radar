@@ -18,6 +18,8 @@ class DayResult:
     content_items: list[NewsItem]
     other_items: list[NewsItem]
     daily_brief: str = ""
+    edition: str = ""         # صبح / ظهر / شب
+    clock: str = ""           # local time of the run, e.g. 07:17
     scanned: int = 0
     source_count: int = 0
     failed_sources: list[str] = field(default_factory=list)
@@ -60,12 +62,17 @@ def _published_label(item: NewsItem) -> str:
 
 # --------------------------------------------------------------------- Telegram
 def tg_header(r: DayResult) -> str:
-    lines = [f"📡 <b>رادار هوش مصنوعی</b>",
-             f"🗓 {jalali_label(r.day)} ({r.day.isoformat()})", ""]
+    title = "📡 <b>رادار هوش مصنوعی</b>"
+    if r.edition:
+        title += f" · نسخهٔ {h(r.edition)}"
+    when = f"🗓 {jalali_label(r.day)} ({r.day.isoformat()})"
+    if r.clock:
+        when += f" · ساعت {fa_digits(r.clock)}"
+    lines = [title, when, ""]
     if r.degraded:
         lines += [f"⚠️ {h(r.degraded)}", ""]
     if r.daily_brief:
-        lines += [f"🧭 <b>تصویر کلی امروز:</b> {h(r.daily_brief)}", ""]
+        lines += [f"🧭 <b>تصویر کلی:</b> {h(r.daily_brief)}", ""]
     lines.append(f"📊 {fa_digits(r.scanned)} خبر از {fa_digits(r.source_count)} منبع بررسی شد · "
                  f"{fa_digits(len(r.content_items))} سوژهٔ محتوا · "
                  f"{fa_digits(len(r.other_items))} خبر مهم دیگه")
@@ -196,11 +203,13 @@ def split_message(text: str, limit: int = TG_LIMIT) -> list[str]:
 
 # --------------------------------------------------------------------- Markdown
 def markdown(r: DayResult) -> str:
-    md = [f"# رادار هوش مصنوعی — {jalali_label(r.day)} ({r.day.isoformat()})", ""]
+    edition = f" · نسخهٔ {r.edition}" if r.edition else ""
+    clock = f" · ساعت {fa_digits(r.clock)}" if r.clock else ""
+    md = [f"# رادار هوش مصنوعی{edition} — {jalali_label(r.day)} ({r.day.isoformat()}){clock}", ""]
     if r.degraded:
         md += [f"> ⚠️ {r.degraded}", ""]
     if r.daily_brief:
-        md += [f"**تصویر کلی امروز:** {r.daily_brief}", ""]
+        md += [f"**تصویر کلی:** {r.daily_brief}", ""]
     md += [f"{fa_digits(r.scanned)} خبر از {fa_digits(r.source_count)} منبع بررسی شد.", ""]
 
     md += ["## سوژه‌های محتوا", ""]

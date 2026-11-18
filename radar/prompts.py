@@ -86,7 +86,8 @@ For every item:
 - caution_fa: empty string, or a short warning if the story is a rumour, unverified,
   sponsored, or easy to misrepresent.
 
-Also write daily_brief_fa: 2-3 Persian sentences about the big picture of today's news.
+Also write daily_brief_fa: 2-3 Persian sentences about the big picture of the news in this
+batch (the page gets several updates a day; this batch covers the hours since the last one).
 
 Schema:
 {{"daily_brief_fa": "...", "items": [{{"id": "...", "title_fa": "...", "summary_fa": "...",
