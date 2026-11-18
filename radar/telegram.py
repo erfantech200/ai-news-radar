@@ -77,14 +77,21 @@ class Telegram:
         caption = tg_caption(item, n)
         images = images[:max_images]
         sent_photo = False
-        if len(images) >= 2:
+        for _ in range(3):  # Telegram names the picture it couldn't fetch; drop it and retry
+            if len(images) < 2:
+                break
             album = [{"type": "photo", "media": m.url} for m in images]
             album[0].update(caption=caption, parse_mode="HTML")
             try:
                 self.call("sendMediaGroup", {"chat_id": self.chat_id, "media": album})
                 sent_photo = True
+                break
             except TelegramError as exc:
                 log.info("album failed for %s: %s", item.url, exc)
+                bad = re.search(r"message #(\d+)", str(exc))
+                if not bad or not 1 <= int(bad.group(1)) <= len(images):
+                    break
+                images = images[:int(bad.group(1)) - 1] + images[int(bad.group(1)):]
         if not sent_photo:
             for m in images[:3]:
                 try:

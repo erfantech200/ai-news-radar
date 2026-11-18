@@ -173,10 +173,10 @@ def run(config_path: Path, dry_run: bool = False, llm: LLM | None = None,
     today = now.astimezone(tz).date()
     since = now - timedelta(hours=float(settings.get("lookback_hours", 26)))
 
-    # Check Telegram first, so a setup problem fails fast without spending Gemini quota.
-    tg = None if dry_run else prepare_telegram()
-
     state = State(out_dir / "state" / "state.json")
+    # Check Telegram first, so a setup problem fails fast without spending Gemini quota.
+    tg = None if dry_run else prepare_telegram(state)
+
     raw, failures = collect_all(cfg["sources"], since)
     fresh = [i for i in raw if not state.is_seen(i.canonical)]
     items = dedupe(fresh)
@@ -249,16 +249,19 @@ def run(config_path: Path, dry_run: bool = False, llm: LLM | None = None,
     return result
 
 
-def prepare_telegram() -> Telegram | None:
+def prepare_telegram(state: State) -> Telegram | None:
+    """Chat ID comes from the TELEGRAM_CHAT_ID secret, else from state (remembered after the
+    first successful discovery), else from the bot's recent messages."""
     token = os.getenv("TELEGRAM_BOT_TOKEN", "").strip()
     if not token:
         log.warning("TELEGRAM_BOT_TOKEN not set; Telegram delivery is off")
         return None
-    tg = Telegram(token, os.getenv("TELEGRAM_CHAT_ID", "").strip())
+    tg = Telegram(token, os.getenv("TELEGRAM_CHAT_ID", "").strip() or state.telegram_chat_id)
     if not tg.chat_id:
         tg.chat_id = tg.discover_chat_id()
-        tg.text(f"👋 Chat ID شما: <code>{tg.chat_id}</code>\n"
-                "این عدد رو در تنظیمات ریپو با اسم TELEGRAM_CHAT_ID ذخیره کن تا همیشه کار کنه.")
+        state.telegram_chat_id = tg.chat_id
+        state.save()  # remember it right away, even if a later step fails
+        tg.text("👋 ربات وصل شد. از این به بعد گزارش روزانه همین‌جا میاد.")
     return tg
 
 

@@ -155,7 +155,9 @@ def test_telegram_delivery(setup, monkeypatch):
     def fake_call(self, method, payload):
         calls.append((method, payload))
         if method == "sendMediaGroup":
-            raise telegram.TelegramError("album failed")
+            n = len(payload["media"])
+            raise telegram.TelegramError(
+                f'sendMediaGroup: failed to send message #{n} with "WEBPAGE_CURL_FAILED"')
         if method == "getUpdates":
             return [{"message": {"chat": {"id": 42}}}]
         return {}
@@ -170,7 +172,15 @@ def test_telegram_delivery(setup, monkeypatch):
     assert "sendVideo" in methods
     assert all(p.get("chat_id") == "42" for m, p in calls if m != "getUpdates")
     texts = [p["text"] for m, p in calls if m == "sendMessage"]
-    assert any("Chat ID" in t for t in texts)
+    assert any("ربات وصل شد" in t for t in texts)
+    albums = [len(p["media"]) for m, p in calls if m == "sendMediaGroup"]
+    assert albums[:2] == [albums[0], albums[0] - 1]   # bad picture dropped, album retried
+    # chat id remembered: the next run needs no getUpdates
+    assert json.loads((tmp / "state/state.json").read_text())["telegram_chat_id"] == "42"
+    calls.clear()
+    (tmp / "state/state.json").write_text(json.dumps({"telegram_chat_id": "42"}))
+    pipeline.run(cfg, dry_run=False, llm=FakeLLM(), out_dir=tmp)
+    assert "getUpdates" not in [m for m, _ in calls]
     assert any("رادار هوش مصنوعی" in t for t in texts)
     assert any("خبرهای مهم دیگه" in t for t in texts)
 

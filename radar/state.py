@@ -20,6 +20,7 @@ class State:
                 data = {}
         self.seen: dict[str, str] = data.get("seen", {})
         self.reported: list[dict] = data.get("reported", [])
+        self.telegram_chat_id: str = str(data.get("telegram_chat_id") or "")
 
     def is_seen(self, canonical: str) -> bool:
         return canonical in self.seen
@@ -50,5 +51,7 @@ class State:
 
     def save(self) -> None:
         self.path.parent.mkdir(parents=True, exist_ok=True)
-        self.path.write_text(json.dumps({"seen": self.seen, "reported": self.reported},
-                                        ensure_ascii=False, indent=1), encoding="utf-8")
+        data = {"seen": self.seen, "reported": self.reported}
+        if self.telegram_chat_id:
+            data["telegram_chat_id"] = self.telegram_chat_id
+        self.path.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
