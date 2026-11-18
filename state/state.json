@@ -91,7 +91,28 @@
   "https://huggingface.co/papers/2611.21072": "2026-11-18",
   "https://huggingface.co/papers/2611.21003": "2026-11-18",
   "https://huggingface.co/papers/2611.21218": "2026-11-18",
-  "https://huggingface.co/papers/2611.21607": "2026-11-18"
+  "https://huggingface.co/papers/2611.21607": "2026-11-18",
+  "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership": "2026-11-18",
+  "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt": "2026-11-18",
+  "https://engadget.com/2320221/palmer-luckeys-slab-seastead-is-way-cooler-than-a-floating-data-center": "2026-11-18",
+  "https://engadget.com/2320202/faa-suspends-installation-router-ground-stop-flights-across-us": "2026-11-18",
+  "https://engadget.com/2320163/youtube-will-start-boosting-public-view-counts-when-you-watch-on-a-tv": "2026-11-18",
+  "https://engadget.com/2315721/pc-wont-read-external-hard-drive-fixes": "2026-11-18",
+  "https://reddit.com/r/recruitinghell/comments/1xyr6ml/interviewed_at_a_yc_startup_spent_30_hours": "2026-11-18",
+  "https://revscope.co/blog/search-seo-geo-2026": "2026-11-18",
+  "https://consumerrights.wiki/w/ID.me_terms_required_for_IRS_sign-in": "2026-11-18",
+  "https://nicolasbouliane.com/blog/death-by-ai": "2026-11-18",
+  "https://github.com/microsoft/onnxruntime": "2026-11-18",
+  "https://wiki.archiveteam.org/index.php/Apple_Discussions": "2026-11-18",
+  "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review": "2026-11-18",
+  "https://browser.engineering/": "2026-11-18",
+  "https://newsletter.posthog.com/p/decision-models": "2026-11-18",
+  "https://huggingface.co/papers/2611.22115": "2026-11-18",
+  "https://huggingface.co/papers/2611.22055": "2026-11-18",
+  "https://huggingface.co/papers/2611.21099": "2026-11-18",
+  "https://huggingface.co/papers/2611.23143": "2026-11-18",
+  "https://huggingface.co/papers/2611.21479": "2026-11-18",
+  "https://huggingface.co/papers/2611.23226": "2026-11-18"
  },
  "reported": [
   {
@@ -189,6 +210,49 @@
    "title": "Optimizely compromised, served malware on Zoom, GitLab",
    "title_fa": "هک زنجیره تأمین Optimizely و تزریق بدافزار در وب‌سایت‌های زوم و گیت‌لب",
    "url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely"
+  },
+  {
+   "date": "2026-11-18",
+   "title": "Google's AI answers reducing search traffic by 40%",
+   "title_fa": "ضربه مهلک هوش مصنوعی گوگل به وب‌سایت‌ها: کاهش ۴۰ درصدی ترافیک ورودی جستجو!",
+   "url": "https://revscope.co/blog/search-seo-geo-2026"
+  },
+  {
+   "date": "2026-11-18",
+   "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
+   "title_fa": "تحقیق دانشگاه هاروارد: هوش مصنوعی خروجی برنامه‌نویسان را زیاد نکرده، فقط بازبینی کد را کندتر کرده است!",
+   "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review"
+  },
+  {
+   "date": "2026-11-18",
+   "title": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future deals in doubt",
+   "title_fa": "ارزش سرمایه‌گذاری انویدیا در استارتاپ‌ها به ۶۵ میلیارد دلار رسید؛ آینده نامعلوم با تغییرات مدیریتی",
+   "url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt"
+  },
+  {
+   "date": "2026-11-18",
+   "title": "Microsoft's ONNX Runtime has disappeared from GitHub",
+   "title_fa": "ناپدید شدن ناگهانی پروژه کلیدی ONNX Runtime مایکروسافت از گیت‌هاب جنجال آفرید",
+   "url": "https://github.com/microsoft/onnxruntime"
+  },
+  {
+   "date": "2026-11-18",
+   "title": "FastFrames: Video Generation at Interactive Latency",
+   "title_fa": "رونمایی از FastFrames؛ مدل جدید تولید ویدیوی آنی و Real-time با سرعت باورنکردنی",
+   "url": "https://huggingface.co/papers/2611.23226"
+  },
+  {
+   "date": "2026-11-18",
+   "title": "TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks",
+   "title_fa": "رونمایی از Xing 4؛ پیشرفت چشمگیر مدل‌های هوش مصنوعی چین روی تراشه‌های بومی اسند",
+   "url": "https://huggingface.co/papers/2611.22115"
+  },
+  {
+   "date": "2026-11-18",
+   "title": "FAA suspends installation of router that led to a ground stop of flights across the US",
+   "title_fa": "روتر معیوبی که تمام پروازهای آمریکا را زمین‌گیر کرد؛ دستور فوری سازمان هوانوردی برای توقف نصب",
+   "url": "https://engadget.com/2320202/faa-suspends-installation-router-ground-stop-flights-across-us"
   }
- ]
+ ],
+ "telegram_chat_id": "925911315"
 }

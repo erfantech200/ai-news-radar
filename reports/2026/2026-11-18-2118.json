@@ -1,0 +1,1063 @@
+{
+ "content": [
+  {
+   "title": "Google's AI answers reducing search traffic by 40%",
+   "url": "https://revscope.co/blog/search-seo-geo-2026/",
+   "source": "revscope.co",
+   "published": "2026-11-18T00:17:58+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 389 امتیاز، 294 کامنت",
+   "signal_value": 389,
+   "discussion_url": "https://news.ycombinator.com/item?id=50540178",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 8,
+   "worthiness": 8,
+   "category": "big_tech",
+   "story_key": "google-ai-overviews-traffic-drop-40-percent",
+   "topic_key": "google-ai-search-impact",
+   "already_reported": false,
+   "viral": 8,
+   "title_fa": "ضربه مهلک هوش مصنوعی گوگل به وب‌سایت‌ها: کاهش ۴۰ درصدی ترافیک ورودی جستجو!",
+   "one_liner_fa": "گزارش‌های جدید نشان می‌دهد پاسخ‌های هوش مصنوعی گوگل در نتایج جستجو باعث افت ۴۰ درصدی کلیک‌ها و ترافیک ارسالی به وب‌سایت‌ها شده است.",
+   "deep": {},
+   "alert": {},
+   "alerted": true,
+   "id": "695d1f9a1c"
+  },
+  {
+   "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
+   "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/",
+   "source": "complexdiscovery.com",
+   "published": "2026-11-17T21:16:12+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 184 امتیاز، 256 کامنت",
+   "signal_value": 184,
+   "discussion_url": "https://news.ycombinator.com/item?id=50538303",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://complexdiscovery.com/wp-content/uploads/2026/10/AI-Report-One.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://complexdiscovery.com/wp-content/uploads/2026/10/ai-coding-agents-review-bottleneck-header.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://complexdiscovery.com/wp-content/uploads/2026/10/ai-coding-agents-review-bottleneck-footer.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://complexdiscovery.com/wp-content/uploads/2026/10/AI-Report-Two.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 8,
+   "category": "research",
+   "story_key": "harvard-study-ai-coding-agents-bottleneck-code-review",
+   "topic_key": "ai-coding-agents-revolution",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "تحقیق دانشگاه هاروارد: هوش مصنوعی خروجی برنامه‌نویسان را زیاد نکرده، فقط بازبینی کد را کندتر کرده است!",
+   "one_liner_fa": "محققان هاروارد دریافتند ابزارهای هوش مصنوعی تولید کد با وجود سرعت بالا، با تحمیل حجم عظیمی از بررسی کدها به برنامه‌نویسان، گلوگاه جدیدی در توسعه نرم‌افزار ایجاد کرده‌اند.",
+   "deep": {
+    "id": "6e090bb95c",
+    "title_fa": "تحقیق دانشگاه هاروارد: هوش مصنوعی خروجی برنامه‌نویسان را زیاد نکرده، فقط بازبینی کد را کندتر کرده است!",
+    "summary_fa": "یک پژوهش دانشگاه هاروارد روی بیش از ۷۰۰ هزار کارمند در ۷۱۸ شرکت نشان می‌دهد ابزارهای ایجنتیک کدنویسی، حجم کدهای ارائه‌شده را حدود ۳۰ درصد افزایش داده‌اند، اما این موضوع هیچ جهش قابل‌سنجشی در کار تمام‌شده و خروجی نهایی ایجاد نکرده است. در مقابل، زمان لازم برای گذراندن کدها از مرحله بررسی (Code Review) حدود ۴۹ درصد طولانی‌تر شده و گلوگاه اصلی از کدنویسی به بازبینی انسان‌ها منتقل شده است. این مطالعه نشان می‌دهد که صرف سرعت در پیش‌نویس کردن به معنی سرعت در رسیدن به محصول نهایی نیست.",
+    "key_points_fa": [
+     "پژوهشگران هاروارد (فیونا چن و جیمز استراتون) داده‌های ۷۲۵,۹۳۸ شاغل در ۷۱۸ شرکت را بررسی کردند.",
+     "میزان خطوط کد اضافه شده حدود ۳۰٪ (۱,۴۹۴ خط در ماه برای هر نیرو) و پول‌ریکوئست‌ها ۲۳٪ افزایش یافته است.",
+     "زمان بررسی و تأیید کدها (Code Review) تا ۴۹٪ کندتر و طولانی‌تر شده است.",
+     "تس Desde‌های نهایی تکمیل‌شده (Issues بسته شده روی Jira) تغییر معناداری نداشته و عملاً نزدیک به صفر بوده است.",
+     "این دیتا از بررسی ۶۸.۳ میلیون تسک جیرا و ۴۹.۱ میلیون پول‌ریکوئست بین ژانویه ۲۰۲۱ تا مارس ۲۰۲۶ استخراج شده است."
+    ],
+    "why_it_matters_fa": "این تحقیق هشدار مهمی برای تیم‌های توسعه نرم‌افزار و مدیران فنی است؛ ابزارهای هوش مصنوعی تولید کد را منفجر می‌کنند، اما کیفیت و هزینه بررسی انسانی تبدیل به باتل‌نک (گلوگاه) جدید تیم‌ها می‌شود.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "چرا هوش مصنوعی کدت رو سریع‌تر نمی‌کنه؟",
+      "hook_fa": "فکر می‌کنی هوش مصنوعی برنامه‌نویسی سرعتت رو دو برابر کرده؟ هاروارد خلافش رو ثابت کرد!",
+      "angle_fa": "بررسی واقعیت بازدهی هوش مصنوعی؛ تفاوت بین «کد بیشتر نوشتن» و «پروژه تحویل دادن».",
+      "outline_fa": [
+       "طرح سوال: چرا با اینکه ابزارهای کدنویسی هوش مصنوعی فراگیر شدن، پروژه‌ها سریع‌تر تموم نمیشن؟",
+       "ارائه آمار تحقیق هاروارد: ۳۰ درصد کد بیشتر، ولی بازبینی ۴۹ درصد کندتر!",
+       "توضیح مشکل: انسان‌ها حالا باید کوهی از کدهای نصفه‌نیمه تولید هوش مصنوعی رو چک کنند.",
+       "نتیجه‌گیری و پیشنهاد: روی تست و خودکارسازی ریویو سرمایه‌گذاری کنید نه فقط تولید کد."
+      ],
+      "visual_tip_fa": "اسکرین‌شات از نمودارهای پژوهش (موجود در تصاویر مقاله) همراه با ویدیوهایی از کلافگی مهندسان پای سیستم و گیت‌هاب."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "سراب بازدهی با AI در شرکت‌های نرم‌افزاری",
+      "hook_fa": "کدنویسی با هوش مصنوعی؛ توهم سرعت یا کارایی واقعی؟",
+      "angle_fa": "نگاه تحلیلی به داده‌های Jellyfish و جیرا برای مدیران محصول و توسعه‌دهندگان.",
+      "outline_fa": [
+       "اسلاید ۱: معرفی جامعه آماری بزرگ پژوهش (بیش از ۷۰۰ هزار مهندس و ۷۰۰ شرکت).",
+       "اسلاید ۲: اینفوگرافیک تضاد آمار: ۳۰٪ لاین کد بیشتر در مقابل رشد عملاً صفر در تسک‌های حل‌شده.",
+       "اسلاید ۳: چرا زمان Code Review حدود ۴۹ درصد طولانی‌تر شده؟",
+       "اسلاید ۴: درس بزرگ برای شرکت‌ها: متریک غلط را اندازه نگیرید (حجم کد ملاک نیست).",
+       "اسلاید ۵: سوال تعاملی از مخاطبان درباره تجربه شخصی‌شان از کدهای هوش مصنوعی."
+      ],
+      "visual_tip_fa": "اسلایدهای تمیز و اینفوگرافیک با فونت‌های درشت از اعداد ۳۰٪ و ۴۹٪ و مقایسه قبل و بعد."
+     }
+    ],
+    "hashtags": [
+     "#برنامه_نویسی",
+     "#هوش_مصنوعی",
+     "#مهندسی_نرم_افزار",
+     "#هاروارد",
+     "#AICoding",
+     "#SoftwareEngineering",
+     "#GitHub"
+    ],
+    "caution_fa": "این مقاله فعلاً در مرحله working paper (پیش‌نویس علمی) است و داوری همتا (Peer Review) رسمی آن هنوز منتشر نشده است."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "6e090bb95c"
+  },
+  {
+   "title": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future deals in doubt",
+   "url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
+   "source": "TechCrunch",
+   "published": "2026-11-18T01:44:21+00:00",
+   "origin": "TechCrunch",
+   "summary": "The value of Nvidia’s private investments has nearly tripled over the past nine months, fueled by Jensen Huang’s aggressive dealmaking and rising valuations of its existing portfolio companies.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-2150167239.jpg?resize=1200,771",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2024/04/Dominic-Madori-Davis.jpg?w=150",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2025/08/IMG_0758.jpg?w=150",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 7,
+   "category": "business_funding",
+   "story_key": "nvidia-startup-portfolio-65b",
+   "topic_key": "nvidia-leadership-crisis",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "ارزش سرمایه‌گذاری انویدیا در استارتاپ‌ها به ۶۵ میلیارد دلار رسید؛ آینده نامعلوم با تغییرات مدیریتی",
+   "one_liner_fa": "ارزش سبد سرمایه‌گذاری انویدیا در استارتاپ‌ها با مدیریت هوانگ به ۶۵ میلیارد دلار رسیده، اما کنار رفتن او سرنوشت معاملات آینده این غول تراشه‌سازی را در هاله‌ای از ابهام برده است.",
+   "deep": {
+    "id": "bc1083d540",
+    "title_fa": "ارزش سرمایه‌گذاری انویدیا در استارتاپ‌ها به ۶۵ میلیارد دلار رسید؛ آینده نامعلوم با تغییرات مدیریتی",
+    "summary_fa": "انویدیا (Nvidia) اعلام کرد ارزش سهام این شرکت در استارتاپ‌ها و شرکت‌های خصوصی هوش مصنوعی به رقم خیره‌کننده ۶۵.۵ میلیارد دلار رسیده است؛ در حالی که این رقم در ابتدای سال ۲۲ میلیارد دلار بود. انویدیا تنها در ۹ ماه اخیر ۵۸ میلیارد دلار سهام خریده و در بیش از ۳۵۰ استارتاپ بزرگ نظیر اوپن‌ای‌آی (OpenAI) و آنتروپیک (Anthropic) مشارکت دارد. با این حال با ورود مدیرعامل موقت و رویکرد محافظه‌کارانه‌تر مالی، احتمال کاهش این تزریق عظیم سرمایه به اکوسیستم استارتاپی هوش مصنوعی وجود دارد.",
+    "key_points_fa": [
+     "ارزش سهام انویدیا در شرکت‌ها از ۲۲ میلیارد دلار در ژانویه به ۶۵.۵ میلیارد دلار جهش یافته است.",
+     "انویدیا تنها در فصل اخیر ۱۶ میلیارد دلار و طی ۹ ماه گذشته ۵۸ میلیارد دلار برای خرید سهام هزینه کرده است.",
+     "بیش از ۳۵۰ استارتاپ هوش مصنوعی، دیتاسنتر و رباتیک (از جمله OpenAI، Anthropic، Crusoe و Lambda) در پرتفوی انویدیا هستند.",
+     "انویدیا ۱۱۸ میلیارد دلار ضمانت مالی دیتاسنترها را برعهده گرفته که ۱۰۵ میلیارد دلار آن مربوط به دیتاسنتر ۵۰۰ میلیارد دلاری OpenAI در اوهایو است.",
+     "کولت کرس (Colette Kress) رویکرد محتاطانه‌تری دارد و اعلام کرده جریان نقدینگی مازاد به جای ریخت‌وپاش به سهام‌داران بازگردانده خواهد شد."
+    ],
+    "why_it_matters_fa": "انویدیا نه فقط تولیدکننده اصلی چیپ‌های هوش مصنوعی، بلکه یکی از بزرگ‌ترین حامیان مالی تمام استارتاپ‌های نامدار دنیاست. هر تغییری در تزریق سرمایه انویدیا می‌تواند کل صنعت هوش مصنوعی را بلرزاند.",
+    "content_ideas": [
+     {
+      "format": "پست",
+      "title_fa": "امپراتوری ۶۵ میلیارد دلاری انویدیا؛ وقتی غول تراشه‌ساز کل بازار AI را می‌خرد!",
+      "hook_fa": "انویدیا فقط سخت‌افزار نمی‌فروشه، داره کل شرکت‌های آینده هوش مصنوعی رو می‌خره!",
+      "angle_fa": "روایت چگونگی کنترل چرخه هوش مصنوعی از تراشه تا سرمایه استارتاپ‌ها توسط انویدیا.",
+      "outline_fa": [
+       "معرفی عدد باورنکردنی: ۶۵.۵ میلیارد دلار سرمایه‌گذاری انویدیا در شرکت‌های خصوصی.",
+       "بررسی نام‌های بزرگ سبد انویدیا: OpenAI، Anthropic و مراکز داده نسل بعد.",
+       "داستان ضمانت عجیب ۱۰۵ میلیارد دلاری برای پروژه دیتاسنتر عظیم اوهایو.",
+       "چالش پیش‌رو: چرا دوران ولخرجی‌های جنسی هوانگ ممکن است با تیم جدید تمام شود؟"
+      ],
+      "visual_tip_fa": "تصویر پرتره جنسی هوانگ و نماد انویدیا همراه با لوگوی استارتاپ‌های بزرگی که سرمایه‌شان از انویدیا تأمین شده است."
+     },
+     {
+      "format": "استوری",
+      "title_fa": "نقشه نفوذ انویدیا در دنیای هوش مصنوعی",
+      "hook_fa": "فکر می‌کردید انویدیا فقط کارت گرافیک می‌فروشه؟ ببینید پولش کجاهاست!",
+      "angle_fa": "یک رشته استوری سریالی برای نشان دادن حجم نفوذ مالی انویدیا در سیلیکون‌ولی.",
+      "outline_fa": [
+       "استوری ۱: مقایسه رشد سرمایه‌گذاری از ۲۲ میلیارد دلار به ۶۵.۵ میلیارد در کمتر از یک سال.",
+       "استوری ۲: لیست ۳۵۰ استارتاپی که پول انویدیا پشتوانه‌شونه.",
+       "استوری ۳: سوال تعاملی: آیا این انحصار به نفع هوش مصنوعیه یا خطرناک؟"
+      ],
+      "visual_tip_fa": "نمودار میله‌ای ساده از رشد ۲۲ به ۶۵ میلیارد دلار، استیکر نظرسنجی و اسکرین‌شات خبر بلومبرگ/تک‌کرانچ."
+     }
+    ],
+    "hashtags": [
+     "#انویدیا",
+     "#Nvidia",
+     "#سرمایه_گذاری",
+     "#هوش_مصنوعی",
+     "#استارتاپ",
+     "#OpenAI",
+     "#تکنولوژی"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "bc1083d540"
+  },
+  {
+   "title": "Microsoft's ONNX Runtime has disappeared from GitHub",
+   "url": "https://github.com/microsoft/onnxruntime",
+   "source": "github.com",
+   "published": "2026-11-17T23:18:49+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 325 امتیاز، 71 کامنت",
+   "signal_value": 325,
+   "discussion_url": "https://news.ycombinator.com/item?id=50539610",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 6,
+   "category": "open_source",
+   "story_key": "microsoft-onnx-runtime-github-disappearance",
+   "topic_key": "microsoft-ai-developer-ecosystem",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "ناپدید شدن ناگهانی پروژه کلیدی ONNX Runtime مایکروسافت از گیت‌هاب جنجال آفرید",
+   "one_liner_fa": "مخزن گیت‌هاب ران‌تایم محبوب ONNX مایکروسافت به شکلی غیرمنتظره از دسترس خارج شد و نگرانی‌های زیادی میان توسعه‌دهندگان به وجود آورد.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "1f0a788392"
+  },
+  {
+   "title": "FastFrames: Video Generation at Interactive Latency",
+   "url": "https://huggingface.co/papers/2611.23226",
+   "source": "Hugging Face Papers",
+   "published": "2026-11-16T19:00:00+00:00",
+   "origin": "Hugging Face Papers",
+   "summary": "Autoregressive video diffusion models generate frames based on new observations and inputs, making them a promising medium for interactive visual experiences. However, existing models are orders of magnitude too slow for fluid interaction. This paper introduces FastFrames, a family of fast autoregressive video diffusion models that achieves interactive latency without compromising quality. We profile the inference pipeline of state-of-the-art models and find that operations often treated as fixed implementation details, such as VAE decoding and KV cache updates, in fact account for over half of end-to-end inference latency. We challenge the assumption that these components are indispensable and replace them with lightweight alternatives. Our 1.3B variant runs at 36 ms per frame, or 28 responses per second (RPS), on a single B200 GPU while matching the generation quality of a state-of-the",
+   "lang": "en",
+   "signal": "Hugging Face: 20 رأی",
+   "signal_value": 20,
+   "discussion_url": "https://github.com/apple-aiml-research/ml-fastframes",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.23226/gradient.png",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://cdn-avatars.huggingface.co/v1/production/uploads/1653390727490-5dd96eb166059660ed1ee413.jpeg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.23226.png",
+     "origin": "hf"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 6,
+   "category": "research",
+   "story_key": "fastframes-interactive-latency-video-generation",
+   "topic_key": "real-time-video-generation",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "رونمایی از FastFrames؛ مدل جدید تولید ویدیوی آنی و Real-time با سرعت باورنکردنی",
+   "one_liner_fa": "",
+   "deep": {
+    "id": "71047f93c5",
+    "title_fa": "رونمایی از FastFrames؛ مدل جدید تولید ویدیوی آنی و Real-time با سرعت باورنکردنی",
+    "summary_fa": "محققان از مدل FastFrames رونمایی کرده‌اند، یک خانواده جدید از مدل‌های دیفیوژن خودبازگشتی (Autoregressive Diffusion) که امکان تولید ویدیو با تاخیر فوق‌العاده کم و به‌صورت تعاملی را فراهم می‌کند. پژوهشگران با بهینه‌سازی گلوگاه‌های مخفی سیستم نظیر VAE Decoding و کش KV، موفق شدند سرعت را تا ۸ برابر افزایش دهند. نسخه ۱.۳ میلیارد پارامتری این مدل می‌تواند در تنها ۳۶ میلی‌ثانیه فریم بسازد (۲۸ فریم بر ثانیه) و راه را برای ساخت دنیاهای مجازی و بازی‌های هوش مصنوعی کاملاً تعاملی باز کند.",
+    "key_points_fa": [
+     "مدل فست‌فریمز (FastFrames) امکان تولید ویدیو به‌صورت بی‌درنگ (Real-time) و تعاملی را ممکن ساخته است.",
+     "تحلیل نشان داد فرایندهایی مثل VAE Decoding و کش KV بیش از نیمی از تاخیر کل را رقم می‌زدند و حالا با جایگزین‌های سبک ارتقا یافته‌اند.",
+     "نسخه 1.3B روی یک پردازنده گرافیکی B200 به سرعت ۳۶ میلی‌ثانیه برای هر فریم (۲۸ فریم بر ثانیه) می‌رسد و کیفیتی معادل مدل‌های ۸ برابر کندتر دارد.",
+     "نسخه بزرگ‌تر 14B به نرخ ۲۲ فریم بر ثانیه با کیفیت واقع‌گرایانه خیره‌کننده دست یافته است.",
+     "کدها، مدل‌ها و دموها در پروژه Apple ML روی گیت‌هاب قرار گرفته و در دسترس همگان است."
+    ],
+    "why_it_matters_fa": "تا امروز ساخت ویدیو با هوش مصنوعی چند دقیقه طول می‌کشید؛ حالا با رسیدن به نرخ ۲۸ فریم بر ثانیه، تولید ویدیوها آنی شده و ساخت جهان‌های تعاملی و گیمینگ هوش مصنوعی وارد فاز عملی شده است.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "پایان انتظار برای تولید ویدیو با هوش مصنوعی!",
+      "hook_fa": "تولید ویدیوی هوش مصنوعی بالاخره Real-Time شد! ۲۸ فریم در هر ثانیه!",
+      "angle_fa": "نمایش سرعت انفجاری این مدل جدید و توضیح اینکه چطور بازی‌های ویدیویی نسل بعد را عوض خواهد کرد.",
+      "outline_fa": [
+       "قلاب و نمایش سرعت تولید فریم‌ها به صورت آنی با تکان خوردن ورودی.",
+       "معرفی FastFrames و اینکه کدهای اون اوپن‌سورس روی گیت‌هاب منتشر شده.",
+       "بیان تفاوت بزرگ: قبلاً دقیقه‌ها معطل رندر بودیم، الان همزمان با دستور شما فریم تولید میشه.",
+       "کاربردها: بازی‌سازی، شبیه‌سازی فیزیک و دوربین‌های هوشمند تعاملی."
+      ],
+      "visual_tip_fa": "استفاده از ویدیوهای دموی صفحه پروژه FastFrames در حال حرکت دادن اشیاء و تولید فوری ویدیوی تعاملی."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "مدل FastFrames چطور ویدیوها رو آنی تولید می‌کنه؟",
+      "hook_fa": "تکنولوژی ساخت ویدیوی آنی هوش مصنوعی چطور کار می‌کنه؟",
+      "angle_fa": "کالبدشکافی فنی به زبان ساده برای پی بردن به ترفند مهندسان در افزایش ۸ برابری سرعت.",
+      "outline_fa": [
+       "اسلاید ۱: معرفی FastFrames و آمار ۲۸ فریم بر ثانیه روی تراشه B200.",
+       "اسلاید ۲: نقطه ضعف مدل‌های قبلی چی بود؟ (تلف شدن ۵۰ درصد توان روی VAE و کشینگ).",
+       "اسلاید ۳: راه‌حل نبوغ‌آمیز محققان برای سبک‌سازی معماری بدون افت کیفیت تصویر.",
+       "اسلاید ۴: کاربردهای تعاملی: فیزیک همزمان، تغییر زاویه دوربین بدون رندر قبلی.",
+       "اسلاید ۵: لینک و آدرس گیت‌هاب برای تست و بررسی توسط مخاطبان پیج."
+      ],
+      "visual_tip_fa": "مقایسه فریم به فریم کیفیت مدل قبلی و این مدل، نمودار زمان پاسخ‌دهی بر حسب میلی‌ثانیه."
+     }
+    ],
+    "hashtags": [
+     "#تولید_ویدیو",
+     "#FastFrames",
+     "#هوش_مصنوعی",
+     "#هوش_مصنوعی_ویدیو",
+     "#تکنولوژی_جدید",
+     "#DiffusionModels",
+     "#MachineLearning"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "71047f93c5"
+  }
+ ],
+ "others": [
+  {
+   "title": "TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks",
+   "url": "https://huggingface.co/papers/2611.22115",
+   "source": "Hugging Face Papers",
+   "published": "2026-11-16T19:00:00+00:00",
+   "origin": "Hugging Face Papers",
+   "summary": "We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend. This report describes the design principles and systems engineering behind the series, spanning architecture selection, large-scale pretraining, and reasoning and agentic post-training. We study how sparse activation, attention design, model depth and width, and speculative decoding balance model capacity with computation, memory access, and execution overhead. Our pretraining infrastructure builds on MindSpore HyperParallel, combining topology-aware hybrid sharding, efficient distributed optimizer execution, and coordinated management of long-sequence workloads and activation memory. CPU affinity and core isolation further reduce host scheduling interference. Together, these mechanisms support the pretraining of ",
+   "lang": "en",
+   "signal": "Hugging Face: 143 رأی",
+   "signal_value": 143,
+   "discussion_url": "https://github.com/XingChen-AGI",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.22115.png",
+     "origin": "hf"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 5,
+   "category": "model_release",
+   "story_key": "telechat-xing4-frontier-agentic-model-ascend",
+   "topic_key": "china-domestic-ai-chips",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "رونمایی از Xing 4؛ پیشرفت چشمگیر مدل‌های هوش مصنوعی چین روی تراشه‌های بومی اسند",
+   "one_liner_fa": "پژوهشگران از مدل‌های ایجنتی پرچمدار سری Xing 4 رونمایی کردند که کاملاً روی زیرساخت پردازشی و تراشه‌های بومی چینی اسند آموزش داده شده‌اند.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "b5c8370aae"
+  },
+  {
+   "title": "FAA suspends installation of router that led to a ground stop of flights across the US",
+   "url": "https://www.engadget.com/2320202/faa-suspends-installation-router-ground-stop-flights-across-us/",
+   "source": "Engadget",
+   "published": "2026-11-18T09:05:26+00:00",
+   "origin": "Engadget",
+   "summary": "The FAA has also disabled the other 68 routers that had already been installed.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/faa-suspends-installation-of-router-that-led-to-a-ground-stop-of-flights-across-the-us/l-intro-1794992381.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 5,
+   "category": "other_tech",
+   "story_key": "faa-router-ground-stop",
+   "topic_key": "us-aviation-tech-failures",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "روتر معیوبی که تمام پروازهای آمریکا را زمین‌گیر کرد؛ دستور فوری سازمان هوانوردی برای توقف نصب",
+   "one_liner_fa": "سازمان هوانوردی فدرال آمریکا پس از توقف سراسری پروازها، دستور داد نصب یک مدل روتر شبکه فوراً متوقف و ده‌ها دستگاه نصب‌شده خاموش شوند.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "6c116f3a6f"
+  }
+ ],
+ "scored": [
+  {
+   "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+   "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+   "source": "OpenAI",
+   "published": "2026-11-18T00:00:00+00:00",
+   "origin": "OpenAI",
+   "summary": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 3,
+   "category": "big_tech",
+   "story_key": "openai-le-figaro-partnership",
+   "topic_key": "ai-publisher-deals",
+   "already_reported": false,
+   "viral": 2,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "6cab9c8cd3"
+  },
+  {
+   "title": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future deals in doubt",
+   "url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
+   "source": "TechCrunch",
+   "published": "2026-11-18T01:44:21+00:00",
+   "origin": "TechCrunch",
+   "summary": "The value of Nvidia’s private investments has nearly tripled over the past nine months, fueled by Jensen Huang’s aggressive dealmaking and rising valuations of its existing portfolio companies.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-2150167239.jpg?resize=1200,771",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2024/04/Dominic-Madori-Davis.jpg?w=150",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2025/08/IMG_0758.jpg?w=150",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 7,
+   "category": "business_funding",
+   "story_key": "nvidia-startup-portfolio-65b",
+   "topic_key": "nvidia-leadership-crisis",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "ارزش سرمایه‌گذاری انویدیا در استارتاپ‌ها به ۶۵ میلیارد دلار رسید؛ آینده نامعلوم با تغییرات مدیریتی",
+   "one_liner_fa": "ارزش سبد سرمایه‌گذاری انویدیا در استارتاپ‌ها با مدیریت هوانگ به ۶۵ میلیارد دلار رسیده، اما کنار رفتن او سرنوشت معاملات آینده این غول تراشه‌سازی را در هاله‌ای از ابهام برده است.",
+   "deep": {
+    "id": "bc1083d540",
+    "title_fa": "ارزش سرمایه‌گذاری انویدیا در استارتاپ‌ها به ۶۵ میلیارد دلار رسید؛ آینده نامعلوم با تغییرات مدیریتی",
+    "summary_fa": "انویدیا (Nvidia) اعلام کرد ارزش سهام این شرکت در استارتاپ‌ها و شرکت‌های خصوصی هوش مصنوعی به رقم خیره‌کننده ۶۵.۵ میلیارد دلار رسیده است؛ در حالی که این رقم در ابتدای سال ۲۲ میلیارد دلار بود. انویدیا تنها در ۹ ماه اخیر ۵۸ میلیارد دلار سهام خریده و در بیش از ۳۵۰ استارتاپ بزرگ نظیر اوپن‌ای‌آی (OpenAI) و آنتروپیک (Anthropic) مشارکت دارد. با این حال با ورود مدیرعامل موقت و رویکرد محافظه‌کارانه‌تر مالی، احتمال کاهش این تزریق عظیم سرمایه به اکوسیستم استارتاپی هوش مصنوعی وجود دارد.",
+    "key_points_fa": [
+     "ارزش سهام انویدیا در شرکت‌ها از ۲۲ میلیارد دلار در ژانویه به ۶۵.۵ میلیارد دلار جهش یافته است.",
+     "انویدیا تنها در فصل اخیر ۱۶ میلیارد دلار و طی ۹ ماه گذشته ۵۸ میلیارد دلار برای خرید سهام هزینه کرده است.",
+     "بیش از ۳۵۰ استارتاپ هوش مصنوعی، دیتاسنتر و رباتیک (از جمله OpenAI، Anthropic، Crusoe و Lambda) در پرتفوی انویدیا هستند.",
+     "انویدیا ۱۱۸ میلیارد دلار ضمانت مالی دیتاسنترها را برعهده گرفته که ۱۰۵ میلیارد دلار آن مربوط به دیتاسنتر ۵۰۰ میلیارد دلاری OpenAI در اوهایو است.",
+     "کولت کرس (Colette Kress) رویکرد محتاطانه‌تری دارد و اعلام کرده جریان نقدینگی مازاد به جای ریخت‌وپاش به سهام‌داران بازگردانده خواهد شد."
+    ],
+    "why_it_matters_fa": "انویدیا نه فقط تولیدکننده اصلی چیپ‌های هوش مصنوعی، بلکه یکی از بزرگ‌ترین حامیان مالی تمام استارتاپ‌های نامدار دنیاست. هر تغییری در تزریق سرمایه انویدیا می‌تواند کل صنعت هوش مصنوعی را بلرزاند.",
+    "content_ideas": [
+     {
+      "format": "پست",
+      "title_fa": "امپراتوری ۶۵ میلیارد دلاری انویدیا؛ وقتی غول تراشه‌ساز کل بازار AI را می‌خرد!",
+      "hook_fa": "انویدیا فقط سخت‌افزار نمی‌فروشه، داره کل شرکت‌های آینده هوش مصنوعی رو می‌خره!",
+      "angle_fa": "روایت چگونگی کنترل چرخه هوش مصنوعی از تراشه تا سرمایه استارتاپ‌ها توسط انویدیا.",
+      "outline_fa": [
+       "معرفی عدد باورنکردنی: ۶۵.۵ میلیارد دلار سرمایه‌گذاری انویدیا در شرکت‌های خصوصی.",
+       "بررسی نام‌های بزرگ سبد انویدیا: OpenAI، Anthropic و مراکز داده نسل بعد.",
+       "داستان ضمانت عجیب ۱۰۵ میلیارد دلاری برای پروژه دیتاسنتر عظیم اوهایو.",
+       "چالش پیش‌رو: چرا دوران ولخرجی‌های جنسی هوانگ ممکن است با تیم جدید تمام شود؟"
+      ],
+      "visual_tip_fa": "تصویر پرتره جنسی هوانگ و نماد انویدیا همراه با لوگوی استارتاپ‌های بزرگی که سرمایه‌شان از انویدیا تأمین شده است."
+     },
+     {
+      "format": "استوری",
+      "title_fa": "نقشه نفوذ انویدیا در دنیای هوش مصنوعی",
+      "hook_fa": "فکر می‌کردید انویدیا فقط کارت گرافیک می‌فروشه؟ ببینید پولش کجاهاست!",
+      "angle_fa": "یک رشته استوری سریالی برای نشان دادن حجم نفوذ مالی انویدیا در سیلیکون‌ولی.",
+      "outline_fa": [
+       "استوری ۱: مقایسه رشد سرمایه‌گذاری از ۲۲ میلیارد دلار به ۶۵.۵ میلیارد در کمتر از یک سال.",
+       "استوری ۲: لیست ۳۵۰ استارتاپی که پول انویدیا پشتوانه‌شونه.",
+       "استوری ۳: سوال تعاملی: آیا این انحصار به نفع هوش مصنوعیه یا خطرناک؟"
+      ],
+      "visual_tip_fa": "نمودار میله‌ای ساده از رشد ۲۲ به ۶۵ میلیارد دلار، استیکر نظرسنجی و اسکرین‌شات خبر بلومبرگ/تک‌کرانچ."
+     }
+    ],
+    "hashtags": [
+     "#انویدیا",
+     "#Nvidia",
+     "#سرمایه_گذاری",
+     "#هوش_مصنوعی",
+     "#استارتاپ",
+     "#OpenAI",
+     "#تکنولوژی"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "bc1083d540"
+  },
+  {
+   "title": "Palmer Luckey says his SLAB seastead is 'way cooler' than a floating data center",
+   "url": "https://www.engadget.com/2320221/palmer-luckeys-slab-seastead-is-way-cooler-than-a-floating-data-center/",
+   "source": "Engadget",
+   "published": "2026-11-18T09:41:44+00:00",
+   "origin": "Engadget",
+   "summary": "Palmer Luckey is touting a new 'SLAB' seastead that would act as a lawless city state.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/palmer-luckeys-slab-seastead-is-way-cooler-than-a-floating-data-center/l-intro-1794994368.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 4,
+   "category": "other_tech",
+   "story_key": "palmer-luckey-slab-seastead",
+   "topic_key": "palmer-luckey-projects",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "629fd25d6f"
+  },
+  {
+   "title": "FAA suspends installation of router that led to a ground stop of flights across the US",
+   "url": "https://www.engadget.com/2320202/faa-suspends-installation-router-ground-stop-flights-across-us/",
+   "source": "Engadget",
+   "published": "2026-11-18T09:05:26+00:00",
+   "origin": "Engadget",
+   "summary": "The FAA has also disabled the other 68 routers that had already been installed.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/faa-suspends-installation-of-router-that-led-to-a-ground-stop-of-flights-across-the-us/l-intro-1794992381.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 5,
+   "category": "other_tech",
+   "story_key": "faa-router-ground-stop",
+   "topic_key": "us-aviation-tech-failures",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "روتر معیوبی که تمام پروازهای آمریکا را زمین‌گیر کرد؛ دستور فوری سازمان هوانوردی برای توقف نصب",
+   "one_liner_fa": "سازمان هوانوردی فدرال آمریکا پس از توقف سراسری پروازها، دستور داد نصب یک مدل روتر شبکه فوراً متوقف و ده‌ها دستگاه نصب‌شده خاموش شوند.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "6c116f3a6f"
+  },
+  {
+   "title": "YouTube will start boosting public view counts when you watch on a TV",
+   "url": "https://www.engadget.com/2320163/youtube-will-start-boosting-public-view-counts-when-you-watch-on-a-tv/",
+   "source": "Engadget",
+   "published": "2026-11-18T06:08:00+00:00",
+   "origin": "Engadget",
+   "summary": "YouTube view counts are about to go up (again) thanks to a new metric.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/youtube-will-start-boosting-public-view-counts-when-you-watch-on-a-tv/l-intro-1794981997.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 5,
+   "category": "big_tech",
+   "story_key": "youtube-tv-views-metric",
+   "topic_key": "youtube-creator-metrics",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "75502df6b5"
+  },
+  {
+   "title": "Interviewed at a YC startup, found out they used my LinkedIn without permission",
+   "url": "https://reddit.com/r/recruitinghell/comments/1xyr6ml/interviewed_at_a_yc_startup_spent_30_hours/",
+   "source": "reddit.com",
+   "published": "2026-11-18T05:11:30+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 404 امتیاز، 106 کامنت",
+   "signal_value": 404,
+   "discussion_url": "https://news.ycombinator.com/item?id=50542135",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 6,
+   "category": "safety_ethics",
+   "story_key": "yc-startup-linkedin-abuse",
+   "topic_key": "startup-recruitment-ethics",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "1740a57369"
+  },
+  {
+   "title": "Google's AI answers reducing search traffic by 40%",
+   "url": "https://revscope.co/blog/search-seo-geo-2026/",
+   "source": "revscope.co",
+   "published": "2026-11-18T00:17:58+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 389 امتیاز، 294 کامنت",
+   "signal_value": 389,
+   "discussion_url": "https://news.ycombinator.com/item?id=50540178",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 8,
+   "worthiness": 8,
+   "category": "big_tech",
+   "story_key": "google-ai-overviews-traffic-drop-40-percent",
+   "topic_key": "google-ai-search-impact",
+   "already_reported": false,
+   "viral": 8,
+   "title_fa": "ضربه مهلک هوش مصنوعی گوگل به وب‌سایت‌ها: کاهش ۴۰ درصدی ترافیک ورودی جستجو!",
+   "one_liner_fa": "گزارش‌های جدید نشان می‌دهد پاسخ‌های هوش مصنوعی گوگل در نتایج جستجو باعث افت ۴۰ درصدی کلیک‌ها و ترافیک ارسالی به وب‌سایت‌ها شده است.",
+   "deep": {},
+   "alert": {},
+   "alerted": true,
+   "id": "695d1f9a1c"
+  },
+  {
+   "title": "AI is killing All About Berlin",
+   "url": "https://nicolasbouliane.com/blog/death-by-ai",
+   "source": "nicolasbouliane.com",
+   "published": "2026-11-18T06:47:26+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 336 امتیاز، 296 کامنت",
+   "signal_value": 336,
+   "discussion_url": "https://news.ycombinator.com/item?id=50542705",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 6,
+   "category": "safety_ethics",
+   "story_key": "ai-killing-niche-publishers",
+   "topic_key": "google-ai-search-impact",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "f1feb2e4bb"
+  },
+  {
+   "title": "Microsoft's ONNX Runtime has disappeared from GitHub",
+   "url": "https://github.com/microsoft/onnxruntime",
+   "source": "github.com",
+   "published": "2026-11-17T23:18:49+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 325 امتیاز، 71 کامنت",
+   "signal_value": 325,
+   "discussion_url": "https://news.ycombinator.com/item?id=50539610",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 6,
+   "category": "open_source",
+   "story_key": "microsoft-onnx-runtime-github-disappearance",
+   "topic_key": "microsoft-ai-developer-ecosystem",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "ناپدید شدن ناگهانی پروژه کلیدی ONNX Runtime مایکروسافت از گیت‌هاب جنجال آفرید",
+   "one_liner_fa": "مخزن گیت‌هاب ران‌تایم محبوب ONNX مایکروسافت به شکلی غیرمنتظره از دسترس خارج شد و نگرانی‌های زیادی میان توسعه‌دهندگان به وجود آورد.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "1f0a788392"
+  },
+  {
+   "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
+   "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/",
+   "source": "complexdiscovery.com",
+   "published": "2026-11-17T21:16:12+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 184 امتیاز، 256 کامنت",
+   "signal_value": 184,
+   "discussion_url": "https://news.ycombinator.com/item?id=50538303",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://complexdiscovery.com/wp-content/uploads/2026/10/AI-Report-One.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://complexdiscovery.com/wp-content/uploads/2026/10/ai-coding-agents-review-bottleneck-header.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://complexdiscovery.com/wp-content/uploads/2026/10/ai-coding-agents-review-bottleneck-footer.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://complexdiscovery.com/wp-content/uploads/2026/10/AI-Report-Two.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 8,
+   "category": "research",
+   "story_key": "harvard-study-ai-coding-agents-bottleneck-code-review",
+   "topic_key": "ai-coding-agents-revolution",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "تحقیق دانشگاه هاروارد: هوش مصنوعی خروجی برنامه‌نویسان را زیاد نکرده، فقط بازبینی کد را کندتر کرده است!",
+   "one_liner_fa": "محققان هاروارد دریافتند ابزارهای هوش مصنوعی تولید کد با وجود سرعت بالا، با تحمیل حجم عظیمی از بررسی کدها به برنامه‌نویسان، گلوگاه جدیدی در توسعه نرم‌افزار ایجاد کرده‌اند.",
+   "deep": {
+    "id": "6e090bb95c",
+    "title_fa": "تحقیق دانشگاه هاروارد: هوش مصنوعی خروجی برنامه‌نویسان را زیاد نکرده، فقط بازبینی کد را کندتر کرده است!",
+    "summary_fa": "یک پژوهش دانشگاه هاروارد روی بیش از ۷۰۰ هزار کارمند در ۷۱۸ شرکت نشان می‌دهد ابزارهای ایجنتیک کدنویسی، حجم کدهای ارائه‌شده را حدود ۳۰ درصد افزایش داده‌اند، اما این موضوع هیچ جهش قابل‌سنجشی در کار تمام‌شده و خروجی نهایی ایجاد نکرده است. در مقابل، زمان لازم برای گذراندن کدها از مرحله بررسی (Code Review) حدود ۴۹ درصد طولانی‌تر شده و گلوگاه اصلی از کدنویسی به بازبینی انسان‌ها منتقل شده است. این مطالعه نشان می‌دهد که صرف سرعت در پیش‌نویس کردن به معنی سرعت در رسیدن به محصول نهایی نیست.",
+    "key_points_fa": [
+     "پژوهشگران هاروارد (فیونا چن و جیمز استراتون) داده‌های ۷۲۵,۹۳۸ شاغل در ۷۱۸ شرکت را بررسی کردند.",
+     "میزان خطوط کد اضافه شده حدود ۳۰٪ (۱,۴۹۴ خط در ماه برای هر نیرو) و پول‌ریکوئست‌ها ۲۳٪ افزایش یافته است.",
+     "زمان بررسی و تأیید کدها (Code Review) تا ۴۹٪ کندتر و طولانی‌تر شده است.",
+     "تس Desde‌های نهایی تکمیل‌شده (Issues بسته شده روی Jira) تغییر معناداری نداشته و عملاً نزدیک به صفر بوده است.",
+     "این دیتا از بررسی ۶۸.۳ میلیون تسک جیرا و ۴۹.۱ میلیون پول‌ریکوئست بین ژانویه ۲۰۲۱ تا مارس ۲۰۲۶ استخراج شده است."
+    ],
+    "why_it_matters_fa": "این تحقیق هشدار مهمی برای تیم‌های توسعه نرم‌افزار و مدیران فنی است؛ ابزارهای هوش مصنوعی تولید کد را منفجر می‌کنند، اما کیفیت و هزینه بررسی انسانی تبدیل به باتل‌نک (گلوگاه) جدید تیم‌ها می‌شود.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "چرا هوش مصنوعی کدت رو سریع‌تر نمی‌کنه؟",
+      "hook_fa": "فکر می‌کنی هوش مصنوعی برنامه‌نویسی سرعتت رو دو برابر کرده؟ هاروارد خلافش رو ثابت کرد!",
+      "angle_fa": "بررسی واقعیت بازدهی هوش مصنوعی؛ تفاوت بین «کد بیشتر نوشتن» و «پروژه تحویل دادن».",
+      "outline_fa": [
+       "طرح سوال: چرا با اینکه ابزارهای کدنویسی هوش مصنوعی فراگیر شدن، پروژه‌ها سریع‌تر تموم نمیشن؟",
+       "ارائه آمار تحقیق هاروارد: ۳۰ درصد کد بیشتر، ولی بازبینی ۴۹ درصد کندتر!",
+       "توضیح مشکل: انسان‌ها حالا باید کوهی از کدهای نصفه‌نیمه تولید هوش مصنوعی رو چک کنند.",
+       "نتیجه‌گیری و پیشنهاد: روی تست و خودکارسازی ریویو سرمایه‌گذاری کنید نه فقط تولید کد."
+      ],
+      "visual_tip_fa": "اسکرین‌شات از نمودارهای پژوهش (موجود در تصاویر مقاله) همراه با ویدیوهایی از کلافگی مهندسان پای سیستم و گیت‌هاب."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "سراب بازدهی با AI در شرکت‌های نرم‌افزاری",
+      "hook_fa": "کدنویسی با هوش مصنوعی؛ توهم سرعت یا کارایی واقعی؟",
+      "angle_fa": "نگاه تحلیلی به داده‌های Jellyfish و جیرا برای مدیران محصول و توسعه‌دهندگان.",
+      "outline_fa": [
+       "اسلاید ۱: معرفی جامعه آماری بزرگ پژوهش (بیش از ۷۰۰ هزار مهندس و ۷۰۰ شرکت).",
+       "اسلاید ۲: اینفوگرافیک تضاد آمار: ۳۰٪ لاین کد بیشتر در مقابل رشد عملاً صفر در تسک‌های حل‌شده.",
+       "اسلاید ۳: چرا زمان Code Review حدود ۴۹ درصد طولانی‌تر شده؟",
+       "اسلاید ۴: درس بزرگ برای شرکت‌ها: متریک غلط را اندازه نگیرید (حجم کد ملاک نیست).",
+       "اسلاید ۵: سوال تعاملی از مخاطبان درباره تجربه شخصی‌شان از کدهای هوش مصنوعی."
+      ],
+      "visual_tip_fa": "اسلایدهای تمیز و اینفوگرافیک با فونت‌های درشت از اعداد ۳۰٪ و ۴۹٪ و مقایسه قبل و بعد."
+     }
+    ],
+    "hashtags": [
+     "#برنامه_نویسی",
+     "#هوش_مصنوعی",
+     "#مهندسی_نرم_افزار",
+     "#هاروارد",
+     "#AICoding",
+     "#SoftwareEngineering",
+     "#GitHub"
+    ],
+    "caution_fa": "این مقاله فعلاً در مرحله working paper (پیش‌نویس علمی) است و داوری همتا (Peer Review) رسمی آن هنوز منتشر نشده است."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "6e090bb95c"
+  },
+  {
+   "title": "Not Everything Needs an LLM",
+   "url": "https://newsletter.posthog.com/p/decision-models",
+   "source": "newsletter.posthog.com",
+   "published": "2026-11-17T18:16:18+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 158 امتیاز، 69 کامنت",
+   "signal_value": 158,
+   "discussion_url": "https://news.ycombinator.com/item?id=50535740",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 6,
+   "category": "tools_for_creators",
+   "story_key": "not-everything-needs-llm-argument",
+   "topic_key": "pragmatic-ai-engineering",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "b8930a9a56"
+  },
+  {
+   "title": "TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks",
+   "url": "https://huggingface.co/papers/2611.22115",
+   "source": "Hugging Face Papers",
+   "published": "2026-11-16T19:00:00+00:00",
+   "origin": "Hugging Face Papers",
+   "summary": "We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend. This report describes the design principles and systems engineering behind the series, spanning architecture selection, large-scale pretraining, and reasoning and agentic post-training. We study how sparse activation, attention design, model depth and width, and speculative decoding balance model capacity with computation, memory access, and execution overhead. Our pretraining infrastructure builds on MindSpore HyperParallel, combining topology-aware hybrid sharding, efficient distributed optimizer execution, and coordinated management of long-sequence workloads and activation memory. CPU affinity and core isolation further reduce host scheduling interference. Together, these mechanisms support the pretraining of ",
+   "lang": "en",
+   "signal": "Hugging Face: 143 رأی",
+   "signal_value": 143,
+   "discussion_url": "https://github.com/XingChen-AGI",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.22115.png",
+     "origin": "hf"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 5,
+   "category": "model_release",
+   "story_key": "telechat-xing4-frontier-agentic-model-ascend",
+   "topic_key": "china-domestic-ai-chips",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "رونمایی از Xing 4؛ پیشرفت چشمگیر مدل‌های هوش مصنوعی چین روی تراشه‌های بومی اسند",
+   "one_liner_fa": "پژوهشگران از مدل‌های ایجنتی پرچمدار سری Xing 4 رونمایی کردند که کاملاً روی زیرساخت پردازشی و تراشه‌های بومی چینی اسند آموزش داده شده‌اند.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "b5c8370aae"
+  },
+  {
+   "title": "Weight-Space Programming Doesn't Need Transformers",
+   "url": "https://huggingface.co/papers/2611.22055",
+   "source": "Hugging Face Papers",
+   "published": "2026-11-16T19:00:00+00:00",
+   "origin": "Hugging Face Papers",
+   "summary": "Standard neural architectures such as the Transformer were chosen because they train well with gradient descent and run fast on GPUs. In weight-space programming, a large language model (LLM) writes target weights by hand without gradient-based training, so those reasons no longer apply. Should we keep the Transformer? Given minimal guidance, ten labeled examples, and a sandbox, mainly on multiple-choice questions, we task three frontier LLMs with either generating the weights of a fixed architecture or designing the architecture themselves. When free to design, all three compile plain-text facts into a sparse table queried by a fixed procedure, reaching up to 54.4% test accuracy. An LLM-designed model achieves higher test accuracy than the most accurate released Transformer that the same LLM wrote while using about 1,800x fewer parameters. Without gradients, they choose a table, in whic",
+   "lang": "en",
+   "signal": "Hugging Face: 40 رأی",
+   "signal_value": 40,
+   "discussion_url": "https://github.com/effl-lab/Weight-Space-Programming",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.22055.png",
+     "origin": "hf"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 5,
+   "category": "research",
+   "story_key": "weight-space-programming-no-transformers",
+   "topic_key": "next-gen-neural-architectures",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "62671662bf"
+  },
+  {
+   "title": "ForceHarness: Turning Force into Action and Physics for Frozen Frontier Models",
+   "url": "https://huggingface.co/papers/2611.21099",
+   "source": "Hugging Face Papers",
+   "published": "2026-11-15T19:00:00+00:00",
+   "origin": "Hugging Face Papers",
+   "summary": "Frontier multimodal models can now control robots zero-shot from images, yet many manipulation tasks depend on contact forces that images cannot show. Bringing force to an API-only frozen model raises two challenges. First, contact evolves much faster than an API model can decide, so the system must close the loop on force beneath the model. Second, a frozen model cannot interpret raw force streams, so force must be returned in a form the model can reason about. Therefore, we present ForceHarness, a harness that lets frozen models use force without demonstrations or finetuning. After calibrating hand force from a wrist sensor or joint torques alone, ForceHarness addresses the first challenge with self-terminating force primitives that regulate force on their own and return at a contact event. To address the second challenge, a physics translation layer turns each force trace into physica",
+   "lang": "en",
+   "signal": "Hugging Face: 39 رأی",
+   "signal_value": 39,
+   "discussion_url": "https://github.com/showlab/ForceHarness",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.21099.png",
+     "origin": "hf"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 5,
+   "category": "research",
+   "story_key": "forceharness-force-control-frozen-frontier-models",
+   "topic_key": "multimodal-robotics-ai",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "5ed8080e8d"
+  },
+  {
+   "title": "FastFrames: Video Generation at Interactive Latency",
+   "url": "https://huggingface.co/papers/2611.23226",
+   "source": "Hugging Face Papers",
+   "published": "2026-11-16T19:00:00+00:00",
+   "origin": "Hugging Face Papers",
+   "summary": "Autoregressive video diffusion models generate frames based on new observations and inputs, making them a promising medium for interactive visual experiences. However, existing models are orders of magnitude too slow for fluid interaction. This paper introduces FastFrames, a family of fast autoregressive video diffusion models that achieves interactive latency without compromising quality. We profile the inference pipeline of state-of-the-art models and find that operations often treated as fixed implementation details, such as VAE decoding and KV cache updates, in fact account for over half of end-to-end inference latency. We challenge the assumption that these components are indispensable and replace them with lightweight alternatives. Our 1.3B variant runs at 36 ms per frame, or 28 responses per second (RPS), on a single B200 GPU while matching the generation quality of a state-of-the",
+   "lang": "en",
+   "signal": "Hugging Face: 20 رأی",
+   "signal_value": 20,
+   "discussion_url": "https://github.com/apple-aiml-research/ml-fastframes",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.23226/gradient.png",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://cdn-avatars.huggingface.co/v1/production/uploads/1653390727490-5dd96eb166059660ed1ee413.jpeg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.23226.png",
+     "origin": "hf"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 6,
+   "category": "research",
+   "story_key": "fastframes-interactive-latency-video-generation",
+   "topic_key": "real-time-video-generation",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "رونمایی از FastFrames؛ مدل جدید تولید ویدیوی آنی و Real-time با سرعت باورنکردنی",
+   "one_liner_fa": "",
+   "deep": {
+    "id": "71047f93c5",
+    "title_fa": "رونمایی از FastFrames؛ مدل جدید تولید ویدیوی آنی و Real-time با سرعت باورنکردنی",
+    "summary_fa": "محققان از مدل FastFrames رونمایی کرده‌اند، یک خانواده جدید از مدل‌های دیفیوژن خودبازگشتی (Autoregressive Diffusion) که امکان تولید ویدیو با تاخیر فوق‌العاده کم و به‌صورت تعاملی را فراهم می‌کند. پژوهشگران با بهینه‌سازی گلوگاه‌های مخفی سیستم نظیر VAE Decoding و کش KV، موفق شدند سرعت را تا ۸ برابر افزایش دهند. نسخه ۱.۳ میلیارد پارامتری این مدل می‌تواند در تنها ۳۶ میلی‌ثانیه فریم بسازد (۲۸ فریم بر ثانیه) و راه را برای ساخت دنیاهای مجازی و بازی‌های هوش مصنوعی کاملاً تعاملی باز کند.",
+    "key_points_fa": [
+     "مدل فست‌فریمز (FastFrames) امکان تولید ویدیو به‌صورت بی‌درنگ (Real-time) و تعاملی را ممکن ساخته است.",
+     "تحلیل نشان داد فرایندهایی مثل VAE Decoding و کش KV بیش از نیمی از تاخیر کل را رقم می‌زدند و حالا با جایگزین‌های سبک ارتقا یافته‌اند.",
+     "نسخه 1.3B روی یک پردازنده گرافیکی B200 به سرعت ۳۶ میلی‌ثانیه برای هر فریم (۲۸ فریم بر ثانیه) می‌رسد و کیفیتی معادل مدل‌های ۸ برابر کندتر دارد.",
+     "نسخه بزرگ‌تر 14B به نرخ ۲۲ فریم بر ثانیه با کیفیت واقع‌گرایانه خیره‌کننده دست یافته است.",
+     "کدها، مدل‌ها و دموها در پروژه Apple ML روی گیت‌هاب قرار گرفته و در دسترس همگان است."
+    ],
+    "why_it_matters_fa": "تا امروز ساخت ویدیو با هوش مصنوعی چند دقیقه طول می‌کشید؛ حالا با رسیدن به نرخ ۲۸ فریم بر ثانیه، تولید ویدیوها آنی شده و ساخت جهان‌های تعاملی و گیمینگ هوش مصنوعی وارد فاز عملی شده است.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "پایان انتظار برای تولید ویدیو با هوش مصنوعی!",
+      "hook_fa": "تولید ویدیوی هوش مصنوعی بالاخره Real-Time شد! ۲۸ فریم در هر ثانیه!",
+      "angle_fa": "نمایش سرعت انفجاری این مدل جدید و توضیح اینکه چطور بازی‌های ویدیویی نسل بعد را عوض خواهد کرد.",
+      "outline_fa": [
+       "قلاب و نمایش سرعت تولید فریم‌ها به صورت آنی با تکان خوردن ورودی.",
+       "معرفی FastFrames و اینکه کدهای اون اوپن‌سورس روی گیت‌هاب منتشر شده.",
+       "بیان تفاوت بزرگ: قبلاً دقیقه‌ها معطل رندر بودیم، الان همزمان با دستور شما فریم تولید میشه.",
+       "کاربردها: بازی‌سازی، شبیه‌سازی فیزیک و دوربین‌های هوشمند تعاملی."
+      ],
+      "visual_tip_fa": "استفاده از ویدیوهای دموی صفحه پروژه FastFrames در حال حرکت دادن اشیاء و تولید فوری ویدیوی تعاملی."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "مدل FastFrames چطور ویدیوها رو آنی تولید می‌کنه؟",
+      "hook_fa": "تکنولوژی ساخت ویدیوی آنی هوش مصنوعی چطور کار می‌کنه؟",
+      "angle_fa": "کالبدشکافی فنی به زبان ساده برای پی بردن به ترفند مهندسان در افزایش ۸ برابری سرعت.",
+      "outline_fa": [
+       "اسلاید ۱: معرفی FastFrames و آمار ۲۸ فریم بر ثانیه روی تراشه B200.",
+       "اسلاید ۲: نقطه ضعف مدل‌های قبلی چی بود؟ (تلف شدن ۵۰ درصد توان روی VAE و کشینگ).",
+       "اسلاید ۳: راه‌حل نبوغ‌آمیز محققان برای سبک‌سازی معماری بدون افت کیفیت تصویر.",
+       "اسلاید ۴: کاربردهای تعاملی: فیزیک همزمان، تغییر زاویه دوربین بدون رندر قبلی.",
+       "اسلاید ۵: لینک و آدرس گیت‌هاب برای تست و بررسی توسط مخاطبان پیج."
+      ],
+      "visual_tip_fa": "مقایسه فریم به فریم کیفیت مدل قبلی و این مدل، نمودار زمان پاسخ‌دهی بر حسب میلی‌ثانیه."
+     }
+    ],
+    "hashtags": [
+     "#تولید_ویدیو",
+     "#FastFrames",
+     "#هوش_مصنوعی",
+     "#هوش_مصنوعی_ویدیو",
+     "#تکنولوژی_جدید",
+     "#DiffusionModels",
+     "#MachineLearning"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "71047f93c5"
+  }
+ ],
+ "failed_sources": [],
+ "models": [
+  "gemini-3.8-flash",
+  "gemini-3.8-flash"
+ ]
+}
