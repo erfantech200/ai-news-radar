@@ -47,6 +47,9 @@ worthiness (1-10): how good this is as the basis for a piece of content for THIS
 category: one of {json.dumps(CATEGORIES)}
 story_key: a short English kebab-case slug for the underlying event. Items about the same
   event MUST share the same story_key.
+topic_key: a short English kebab-case slug for the broader ongoing saga or main subject the
+  event belongs to (e.g. "nvidia-leadership-crisis", "gpt-6-launch"). Different events in the
+  same saga (follow-ups, reactions, investigations) share one topic_key.
 already_reported: true if the item is the same story as one of the previously reported
   stories below AND brings no significant new development.
 
@@ -58,7 +61,7 @@ title_fa (a punchy Persian headline) and one_liner_fa (one Persian sentence summ
 
 Schema:
 {{"items": [{{"id": "...", "importance": 0, "worthiness": 0, "category": "...",
-  "story_key": "...", "already_reported": false, "title_fa": "...", "one_liner_fa": "..."}}]}}
+  "story_key": "...", "topic_key": "...", "already_reported": false, "title_fa": "...", "one_liner_fa": "..."}}]}}
 
 Items:
 {chr(10).join(json.dumps(i, ensure_ascii=False) for i in items)}"""

@@ -17,6 +17,7 @@ settings:
   ideas_per_item: 2           # content ideas per story
   min_worthiness: 6           # 1-10: below this a story never becomes a content pick
   min_importance_other: 6     # 1-10: threshold for the "other important news" list
+  max_per_topic: 1            # content picks from the same saga (e.g. one company's drama)
   max_triage_items: 300
   triage_batch_size: 150      # items per scoring request (fewer requests = less quota)
   article_chars: 6000         # how much of each article the deep agent reads

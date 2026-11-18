@@ -10,9 +10,18 @@ from .models import Media
 
 VIDEO_FILE_RE = re.compile(r"\.(mp4|webm|mov|m4v|m3u8)(\?|$)", re.I)
 IMAGE_FILE_RE = re.compile(r"\.(jpe?g|png|webp|avif|gif)(\?|$)", re.I)
-JUNK_IMAGE_RE = re.compile(
-    r"(logo|icon|avatar|sprite|pixel|spacer|blank|placeholder|badge|emoji|gravatar|"
-    r"tracking|1x1|favicon|author|headshot|profile|button|banner-ad|/ads?/)", re.I)
+# Matched against the file name only, as whole words ("site-logo.png", "favicon-32.png").
+# Never applied to the og/twitter hero image, which the publisher chose on purpose.
+JUNK_NAME_RE = re.compile(
+    r"(^|[\W_])(logo|icon|avatar|sprite|pixel|spacer|blank|placeholder|badge|emoji|"
+    r"gravatar|favicon|1x1|tracking|headshot)s?([\W_]|$)", re.I)
+
+
+def is_junk_image(url: str) -> bool:
+    path = urlsplit(url).path
+    if "/ads/" in path or "/ad/" in path:
+        return True
+    return bool(JUNK_NAME_RE.search(path.rsplit("/", 1)[-1]))
 EMBED_HOSTS = (
     "youtube.com", "youtube-nocookie.com", "youtu.be", "vimeo.com", "player.vimeo.com",
     "twitter.com", "x.com", "platform.twitter.com", "tiktok.com", "instagram.com",
@@ -93,7 +102,8 @@ def extract_media(html: str, base_url: str) -> list[Media]:
             return
         if kind == "embed":
             url = _normalise_embed(url)
-        if kind == "image" and JUNK_IMAGE_RE.search(url):
+        # The publisher's own og/twitter image is always kept: it is the hero picture.
+        if kind == "image" and origin != "og" and is_junk_image(url):
             return
         if url in seen:
             return
@@ -193,4 +203,4 @@ def media_from_feed_entry(entry) -> list[Media]:
             out.append(Media("image", url, "rss"))
         elif url and etype.startswith("video"):
             out.append(Media("video", url, "rss"))
-    return [m for m in out if not JUNK_IMAGE_RE.search(m.url)]
+    return [m for m in out if m.kind != "image" or not is_junk_image(m.url)]

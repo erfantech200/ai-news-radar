@@ -63,6 +63,7 @@ def triage(llm: LLM, profile: dict, items: list[NewsItem], previous: list[str],
                 continue
             item.category = str(row.get("category") or "")
             item.story_key = str(row.get("story_key") or item.id)
+            item.topic_key = str(row.get("topic_key") or item.story_key)
             item.already_reported = bool(row.get("already_reported"))
             item.title_fa = str(row.get("title_fa") or "")
             item.one_liner_fa = str(row.get("one_liner_fa") or "")
@@ -102,7 +103,18 @@ def pick(items: list[NewsItem], settings: dict, official: set[str]):
 
     ranked = sorted(leaders, key=lambda i: (0.6 * i.worthiness + 0.4 * i.importance,
                                             i.signal_value), reverse=True)
-    content = [i for i in ranked if i.worthiness >= min_worth][:n_content]
+    # Keep the content picks diverse: at most `max_per_topic` stories from one saga,
+    # the rest of that saga drops to the "other important news" list.
+    max_per_topic = int(settings.get("max_per_topic", 1))
+    content, per_topic = [], {}
+    for item in ranked:
+        if len(content) >= n_content or item.worthiness < min_worth:
+            continue
+        key = item.topic_key or item.story_key or item.id
+        if per_topic.get(key, 0) >= max_per_topic:
+            continue
+        per_topic[key] = per_topic.get(key, 0) + 1
+        content.append(item)
     chosen = {id(i) for i in content}
     others = sorted((i for i in leaders if id(i) not in chosen and i.importance >= min_imp),
                     key=lambda i: (i.importance, i.signal_value), reverse=True)[:n_other]

@@ -73,6 +73,7 @@ class NewsItem:
     worthiness: int = 0
     category: str = ""
     story_key: str = ""
+    topic_key: str = ""
     already_reported: bool = False
     title_fa: str = ""
     one_liner_fa: str = ""

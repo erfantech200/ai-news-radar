@@ -149,3 +149,32 @@ def test_llm_all_failing_raises(monkeypatch):
                         lambda *a, **k: FakeResp(403, {"error": "denied"}))
     with pytest.raises(llm_mod.LLMError):
         llm_mod.LLM("key", models=["m1"]).generate_json("s", "p")
+
+
+def test_og_image_never_filtered_but_inline_junk_is():
+    html = """<html><head><meta property="og:image"
+      content="https://cdn.x.com/images/Vids_Avatar_Hero.width-1300.webp"></head>
+      <body><article><img src="https://cdn.x.com/site-logo.png">
+      <img src="https://cdn.x.com/authors/avatar_jane.jpg">
+      <img src="https://cdn.x.com/biologos-lab.jpg"></article></body></html>"""
+    urls = [m.url for m in extract_media(html, "https://x.com/a")]
+    assert urls[0].endswith("Vids_Avatar_Hero.width-1300.webp")
+    assert "https://cdn.x.com/biologos-lab.jpg" in urls       # "logo" inside a word is fine
+    assert not any("site-logo" in u or "avatar_jane" in u for u in urls)
+
+
+def test_pick_keeps_one_story_per_topic():
+    from radar.pipeline import pick
+
+    def mk(title, imp, worth, story, topic):
+        i = NewsItem(title, f"https://n.com/{story}", "S")
+        i.importance, i.worthiness, i.story_key, i.topic_key = imp, worth, story, topic
+        return i
+
+    items = [mk("Nvidia ousts CEO", 9, 9, "ouster", "nvidia-crisis"),
+             mk("Nvidia board won't reinstate", 8, 8, "no-return", "nvidia-crisis"),
+             mk("GPT-7 launches", 9, 8, "gpt7", "gpt7")]
+    content, others = pick(items, {"content_items": 5, "min_worthiness": 6,
+                                   "min_importance_other": 6}, set())
+    assert [i.story_key for i in content] == ["ouster", "gpt7"]
+    assert [i.story_key for i in others] == ["no-return"]
