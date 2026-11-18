@@ -173,3 +173,20 @@ def test_telegram_delivery(setup, monkeypatch):
     assert any("Chat ID" in t for t in texts)
     assert any("رادار هوش مصنوعی" in t for t in texts)
     assert any("خبرهای مهم دیگه" in t for t in texts)
+
+
+def test_telegram_problem_fails_before_using_llm(setup, monkeypatch):
+    tmp, cfg = setup
+
+    def no_chat(self, method, payload):
+        if method == "getUpdates":
+            return []
+        return {}
+
+    monkeypatch.setattr(telegram.Telegram, "call", no_chat)
+    monkeypatch.setenv("TELEGRAM_BOT_TOKEN", "t")
+    monkeypatch.delenv("TELEGRAM_CHAT_ID", raising=False)
+    llm = FakeLLM()
+    with pytest.raises(telegram.TelegramError):
+        pipeline.run(cfg, dry_run=False, llm=llm, out_dir=tmp)
+    assert llm.prompts == []   # no Gemini quota spent

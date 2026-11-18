@@ -173,6 +173,9 @@ def run(config_path: Path, dry_run: bool = False, llm: LLM | None = None,
     today = now.astimezone(tz).date()
     since = now - timedelta(hours=float(settings.get("lookback_hours", 26)))
 
+    # Check Telegram first, so a setup problem fails fast without spending Gemini quota.
+    tg = None if dry_run else prepare_telegram()
+
     state = State(out_dir / "state" / "state.json")
     raw, failures = collect_all(cfg["sources"], since)
     fresh = [i for i in raw if not state.is_seen(i.canonical)]
@@ -234,8 +237,8 @@ def run(config_path: Path, dry_run: bool = False, llm: LLM | None = None,
             print("\n" + "=" * 60 + "\n" + render.tg_item(item, n))
         print("\n" + "=" * 60 + "\n" + render.tg_others(others))
         print("\n" + render.tg_footer(result))
-    else:
-        deliver(result)
+    elif tg:
+        deliver(result, tg)
 
     # Only remember items once they were actually judged, so a failed day retries tomorrow.
     if llm_ok:
@@ -246,16 +249,20 @@ def run(config_path: Path, dry_run: bool = False, llm: LLM | None = None,
     return result
 
 
-def deliver(result: render.DayResult) -> None:
-    token = os.getenv("TELEGRAM_BOT_TOKEN", "")
+def prepare_telegram() -> Telegram | None:
+    token = os.getenv("TELEGRAM_BOT_TOKEN", "").strip()
     if not token:
-        log.warning("TELEGRAM_BOT_TOKEN not set; skipping Telegram delivery")
-        return
+        log.warning("TELEGRAM_BOT_TOKEN not set; Telegram delivery is off")
+        return None
     tg = Telegram(token, os.getenv("TELEGRAM_CHAT_ID", "").strip())
     if not tg.chat_id:
         tg.chat_id = tg.discover_chat_id()
         tg.text(f"👋 Chat ID شما: <code>{tg.chat_id}</code>\n"
                 "این عدد رو در تنظیمات ریپو با اسم TELEGRAM_CHAT_ID ذخیره کن تا همیشه کار کنه.")
+    return tg
+
+
+def deliver(result: render.DayResult, tg: Telegram) -> None:
     tg.text(render.tg_header(result))
     for n, item in enumerate(result.content_items, 1):
         try:
