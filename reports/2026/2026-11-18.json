@@ -1,0 +1,2576 @@
+{
+ "content": [
+  {
+   "title": "Introducing GPT-6.2 Astra and Sol",
+   "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+   "source": "OpenAI",
+   "published": "2026-11-17T17:45:00+00:00",
+   "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+   "lang": "en",
+   "signal": "Hacker News: 1057 امتیاز، 667 کامنت",
+   "signal_value": 1057,
+   "discussion_url": "https://news.ycombinator.com/item?id=50535230",
+   "media": [],
+   "also_covered_by": [
+    "Simon Willison"
+   ],
+   "importance": 10,
+   "worthiness": 10,
+   "category": "model_release",
+   "story_key": "gpt-6-2-astra-sol-launch",
+   "topic_key": "openai-models",
+   "already_reported": false,
+   "title_fa": "اوپن‌ای‌آی از مدل‌های جدید GPT-6.2 آسترا و سول رونمایی کرد",
+   "one_liner_fa": "اوپن‌ای‌آی (OpenAI) دو مدل جدید GPT-6.2 به نام‌های آسترا (Astra) برای کارهای سنگین و سل (Sol) برای امور روزمره را با قدرت بالاتر و هزینه کمتر عرضه کرد.",
+   "deep": {
+    "id": "549a77347d",
+    "title_fa": "اوپن‌ای‌آی از مدل‌های جدید GPT-6.2 آسترا و سول رونمایی کرد",
+    "summary_fa": "شرکت اوپن‌ای‌آی (OpenAI) به صورت رسمی دو مدل جدید با نام‌های GPT-6.2 Astra و GPT-6.2 Sol را معرفی کرد. طبق بیانیه منتشرشده، این مدل‌ها در خروجی‌های حرفه‌ای، کدنویسی و قابلیت کنترل مستقیم کامپیوتر (Computer Use) ارتقای چشمگیری داشته‌اند. علاوه بر این، مصرف بهینه و کاهش هزینه‌ها از ویژگی‌های کلیدی این دو نسخه است. دسترسی به این مدل‌ها از طریق سرویس‌های ChatGPT Work، ابزار کدکس (Codex) و رابط کاربری برنامه‌نویسی (API) فراهم شده است.",
+    "key_points_fa": [
+     "معرفی رسمی دو مدل GPT-6.2 Astra و GPT-6.2 Sol توسط اوپن‌ای‌آی",
+     "بهبود محسوس در عملکرد خروجی‌های تخصصی و امور کاری",
+     "پیشرفت در کدنویسی و مهارت کنترل محیط کامپیوتر (Computer Use)",
+     "بهینه‌سازی کارایی و کاهش هزینه‌های پردازشی برای کاربران",
+     "در دسترس قرار گرفتن در سرویس ChatGPT Work، ابزار Codex و از طریق API"
+    ],
+    "why_it_matters_fa": "تمرکز مدل‌های جدید روی کاهش هزینه‌ها و کنترل کامپیوتر، گامی بزرگ برای خودکارسازی واقعی کارها در محیط کار و توسعه نرم‌افزار است.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "مدل‌های جدید اوپن‌ای‌آی بالاخره معرفی شدند!",
+      "hook_fa": "اوپن‌ای‌آی همین چند دقیقه پیش با معرفی GPT-6.2 همه رو غافلگیر کرد!",
+      "angle_fa": "بررسی سریع ویژگی‌های جدید شامل کنترل کامپیوتر و کدنویسی پیشرفته‌تر با قیمت کمتر.",
+      "outline_fa": [
+       "اعلام خبر معرفی دو مدل Astra و Sol از خانواده GPT-6.2",
+       "توضیح پیشرفت چشمگیر در کدنویسی و قابلیت اجرای دستورات در کامپیوتر",
+       "اشاره به کاهش هزینه‌ها و ابزارهای تحت پشتیبانی مثل ChatGPT Work"
+      ],
+      "visual_tip_fa": "نمایش متن اطلاعیه رسمی اوپن‌ای‌آی با تایپوگرافی متحرک جذاب و مقایسه نام مدل‌ها روی صفحه."
+     },
+     {
+      "format": "پست",
+      "title_fa": "همه‌چیز درباره GPT-6.2 Astra و Sol",
+      "hook_fa": "آیا هوش مصنوعی بالاخره کنترل کامل سیستم رو دست می‌گیره؟",
+      "angle_fa": "بررسی عمیق‌تر پتانسیل‌های کنترل کامپیوتر و دسترسی به API برای دولوپرها و کاربران بیزینس.",
+      "outline_fa": [
+       "معرفی اجمالی نسل جدید مدل‌ها",
+       "بررسی نقش قابلیت Computer Use در کارهای روزمره اداری و برنامه‌نویسی",
+       "نحوه دسترسی از طریق API و ChatGPT Work"
+      ],
+      "visual_tip_fa": "اسلایدهای مینیمال با پالت تیره و لوگوی اوپن‌ای‌آی به همراه اینفوگرافیک ویژگی‌های اعلام‌شده."
+     }
+    ],
+    "hashtags": [
+     "#هوش_مصنوعی",
+     "#اوپن_ای_ای",
+     "#OpenAI",
+     "#ChatGPT",
+     "#تکنولوژی",
+     "#GPT6"
+    ],
+    "caution_fa": "اطلاعات منتشرشده در متن منبع بسیار کوتاه است؛ از گمانه‌زنی و اضافه کردن بنچمارک‌ها یا قیمت‌های تخمینی خودداری کنید."
+   },
+   "id": "549a77347d"
+  },
+  {
+   "title": "Anyone can create a personal avatar of themselves in Google Vids, at no cost.",
+   "url": "https://blog.google/products-and-platforms/products/workspace/vids-personal-avatars-no-cost/",
+   "source": "Google Blog",
+   "published": "2026-11-17T17:00:00+00:00",
+   "summary": "Create custom avatars in Google Vids for free. Design your digital likeness using a selfie and voice recording to narrate videos. Try it out today.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Vids_Personal_Avatars_Freemium_static_1.max-1440x810.png",
+     "origin": "og"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 9,
+   "category": "tools_for_creators",
+   "story_key": "google-vids-free-personal-avatars",
+   "topic_key": "google-workspace-ai",
+   "already_reported": false,
+   "title_fa": "گوگل ساخت آواتار شخصی ویدیویی را برای همه رایگان کرد",
+   "one_liner_fa": "گوگل (Google) امکان ساخت رایگان آواتار هوش مصنوعی با استفاده از سلفی و نمونه صدا را به سرویس Google Vids اضافه کرد.",
+   "deep": {
+    "id": "79b64e624c",
+    "title_fa": "گوگل ساخت آواتار شخصی ویدیویی را برای همه رایگان کرد",
+    "summary_fa": "گوگل (Google) قابلیت ساخت آواتار شخصی را در سرویس گوگل ویدز (Google Vids) به صورت کاملاً رایگان در اختیار تمام دارندگان حساب شخصی گوگل قرار داد. کاربران می‌توانند با اسکن یک کد QR چهره و صدای خود را به یک آواتار دیجیتال تبدیل کنند. با تایپ متن سناریو، این آواتار به شکل خودکار و هماهنگ صحبت می‌کند و نیازی به تجهیزات فیلم‌برداری نیست. این ویژگی فقط برای صاحب حساب طراحی شده و از طریق آدرس vids.new روی نسخه دسکتاپ قابل استفاده است.",
+    "key_points_fa": [
+     "عرضه رایگان آواتار شخصی در سرویس Google Vids برای همه دارندگان اکانت گوگل",
+     "ساخت آواتار با اسکن یک کد QR ساده بدون نیاز به تجهیزات فیلم‌برداری",
+     "امکان تولید ویدیو تنها با نوشتن متن صحبت‌ها برای آواتار",
+     "حفظ هویت بصری و صدای آواتار در تمام بخش‌های پروژه",
+     "محدودیت امنیتی برای ساخت آواتار تنها بر اساس چهره صاحب حساب کاربری",
+     "دسترسی از طریق لینک vids.new بر روی مرورگر دسکتاپ"
+    ],
+    "why_it_matters_fa": "حالا بدون نیاز به استودیو یا جلوی دوربین رفتن، هر کاربر می‌تواند ویدیوهای آموزشی یا پرزنتیشن حرفه‌ای با چهره و صدای خودش بسازد.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "با این ابزار گوگل دیگه لازم نیست جلو دوربین بری!",
+      "hook_fa": "تنها با یک اسکن، همزاد دیجیتال خودت رو کاملاً رایگان بساز!",
+      "angle_fa": "آموزش گام‌به‌گام و تست سریع ساخت آواتار برای تولیدکنندگان محتوا و کارمندان.",
+      "outline_fa": [
+       "معرفی سرویس جدید گوگل در vids.new",
+       "نحوه اسکن QR و کپی شدن چهره و صدا",
+       "تایپ یک متن نمونه و صحبت کردن آواتار",
+       "نتیجه‌گیری درباره حذف دردسرهای نور و دوربین"
+      ],
+      "visual_tip_fa": "فیلم‌برداری از صفحه نمایش هنگام ورود به vids.new و اسکن کد با موبایل همراه با تصویر رسمی موجود در مقاله."
+     },
+     {
+      "format": "استوری",
+      "title_fa": "تست ابزار جدید گوگل: vids.new",
+      "hook_fa": "ابزار رایگان جدید گوگل برای تولید محتوا اومد!",
+      "angle_fa": "معرفی مستقیم لینک و دعوت مخاطبان به تست آنی روی دسکتاپ.",
+      "outline_fa": [
+       "نمایش محیط سایت vids.new",
+       "توضیح کوتاه قابلیت آواتار رایگان",
+       "قراردادن استیکر لینک و نظرسنجی از کیفیت آواتارها"
+      ],
+      "visual_tip_fa": "اسکرین‌شات از محیط Google Vids به همراه استیکر لینک خروجی به vids.new."
+     }
+    ],
+    "hashtags": [
+     "#گوگل",
+     "#گوگل_ویدز",
+     "#GoogleVids",
+     "#هوش_مصنوعی",
+     "#تولید_محتوا",
+     "#آواتار"
+    ],
+    "caution_fa": ""
+   },
+   "id": "79b64e624c"
+  },
+  {
+   "title": "NVIDIA's board chair says the company is not considering reinstating Jensen Huang as CEO",
+   "url": "https://www.engadget.com/2319982/nvidias-board-chair-says-the-company-is-not-considering-reinstating-jensen-huang-as-ceo/",
+   "source": "Engadget",
+   "published": "2026-11-17T22:21:27+00:00",
+   "summary": "NVIDIA's board chair said it doesn't want Jensen Huang back in the CEO role during the company's first earnings call since his resignation.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/nvidias-board-chair-says-the-company-is-not-considering-reinstating-jensen-huang-as-ceo/l-intro-1794956015.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/nvidias-board-chair-says-the-company-is-not-considering-reinstating-jensen-huang-as-ceo/intro-1794956015.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [
+    "TechCrunch"
+   ],
+   "importance": 8,
+   "worthiness": 8,
+   "category": "big_tech",
+   "story_key": "nvidia-rejects-huang-return",
+   "topic_key": "nvidia-crisis",
+   "already_reported": false,
+   "title_fa": "تخته‌گاز انویدیا بدون جن‌سن هوانگ؛ بازگشت مدیرعامل سابق منتفی شد",
+   "one_liner_fa": "رئیس هیئت‌مدیره انویدیا (NVIDIA) در اولین گزارش مالی شرکت پس از استعفای جن‌سن هوانگ رسماً اعلام کرد هیچ برنامه‌ای برای بازگرداندن او وجود ندارد.",
+   "deep": {
+    "id": "c0493b17ff",
+    "title_fa": "تخته‌گاز انویدیا بدون جن‌سن هوانگ؛ بازگشت مدیرعامل سابق منتفی شد",
+    "summary_fa": "هاروی جونز (Harvey Jones)، رئیس هیئت مدیره انویدیا (NVIDIA)، اعلام کرد که این شرکت هیچ برنامه‌ای برای بازگرداندن جن‌سن هوانگ (Jensen Huang) به سمت مدیرعاملی ندارد. هوانگ در ۱۲ نوامبر پس از نقض کدهای اخلاقی استعفا داده بود، هرچند بعداً تمایل خود را برای بازگشت ابراز کرد. همزمان، انویدیا درآمد خیره‌کننده سه‌ماهه سوم خود را ۱۱۵.۸ میلیارد دلار گزارش داد که رشد سالانه ۱۰۳ درصدی را نشان می‌دهد. با وجود این رکوردزنی‌ها، گزارش‌ها از آغاز تحقیقات کمیسیون بورس (SEC) و اف‌بی‌آی (FBI) پیرامون وضعیت اخیر حکایت دارد.",
+    "key_points_fa": [
+     "رد رسمی و قطعی بازگشت جن‌سن هوانگ توسط رئیس هیئت مدیره انویدیا",
+     "استعفای داوطلبانه هوانگ در ۱۲ نوامبر در پی رفتار مغایر با اصول اخلاقی شرکت",
+     "مدیریت موقت شرکت توسط کولت کرس (Colette Kress) و جست‌وجو برای مدیرعامل دائم",
+     "درآمد باورنکردنی ۱۱۵.۸ میلیارد دلاری در سه‌ماهه سوم (رشد سالانه ۱۰۳٪ و بالاتر از پیش‌بینی ۱۰۹.۱ میلیاردی)",
+     "درآمد ۱۰۷.۶ میلیارد دلاری بخش دیتاسنتر انویدیا در این فصل",
+     "افت ۱۱ درصدی سهام انویدیا از زمان استعفای هوانگ تا پیش از گزارش",
+     "آغاز بررسی‌های نظارتی توسط SEC و FBI در خصوص تحولات اخیر"
+    ],
+    "why_it_matters_fa": "انویدیا ستون فقرات سخت‌افزاری انقلاب هوش مصنوعی است و تغییر رهبری آن همزمان با درآمدهای فضایی، بازارهای جهانی و مسیر آینده این صنعت را تحت تأثیر قرار می‌دهد.",
+    "content_ideas": [
+     {
+      "format": "کاروسل",
+      "title_fa": "پایان دوران جن‌سن هوانگ در انویدیا؛ پشت پرده چه می‌گذرد؟",
+      "hook_fa": "۱۱۵ میلیارد دلار درآمد، ولی مدیرعامل افسانه‌ای اخراج شد؟!",
+      "angle_fa": "روایت تناقض بزرگ: رکورد تاریخی درآمد در مقابل بحران مدیریتی و ورود FBI.",
+      "outline_fa": [
+       "ماجرای رد بازگشت هوانگ توسط هیئت مدیره پس از استعفای بحث‌برانگیز",
+       "بررسی ارقام عجیب درآمد ۱۱۵.۸ میلیارد دلاری و بخش دیتاسنتر",
+       "جزئیات بیانیه‌های کولت کرس و پیام اخیر هوانگ در توییتر (X)",
+       "تحقیقات SEC و FBI و سناریوهای پیش روی غول تراشه‌سازی"
+      ],
+      "visual_tip_fa": "تصاویر رسمی هوانگ و کرس در اسلاید اول، استفاده از نمودارهای ستونی درآمد و بولت‌های پرکنتراست در اسلایدهای بعدی."
+     },
+     {
+      "format": "ریلز",
+      "title_fa": "انویدیا رسماً درهای بازگشت رو بست!",
+      "hook_fa": "فکر می‌کردید جن‌سن هوانگ برمی‌گرده؟ هیئت مدیره انویدیا گفت اصلاً حرفشم نزنید!",
+      "angle_fa": "توضیح کوتاه و شوکه‌کننده آخرین جلسه مالی و بیانیه صریح رئیس هیئت مدیره علی‌رغم سود نجومی.",
+      "outline_fa": [
+       "خلاصه واکنش تند هیئت مدیره به پست توییتری هوانگ",
+       "اعلام آمار وحشتناک فروش ۱۱۵ میلیارد دلاری در سه ماه",
+       "اشاره به چالش‌های پیش رو از جمله بررسی‌های قانونی نهادهای فدرال"
+      ],
+      "visual_tip_fa": "تیترهای خبرگزاری‌ها همراه با عکس جن‌سن هوانگ در کت چرمی معروفش و گرافیک قرمز برای عبارت رد صلاحیت بازگشت."
+     }
+    ],
+    "hashtags": [
+     "#انویدیا",
+     "#Nvidia",
+     "#تکنولوژی",
+     "#جن_سن_هوانگ",
+     "#هوش_مصنوعی",
+     "#اقتصاد_دیجیتال"
+    ],
+    "caution_fa": "روی قطعی بودن تصمیم هیئت مدیره تأکید کنید و ماجرای بازگشت را شایعه ندانید؛ صراحتاً در گزارش رسمی مالی این موضوع اعلام شده است."
+   },
+   "id": "c0493b17ff"
+  },
+  {
+   "title": "Google expands access to Gemini Tasks, which can help with calls, purchases",
+   "url": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
+   "source": "TechCrunch",
+   "published": "2026-11-17T19:02:20+00:00",
+   "summary": "Gemini's Task mode can help users coordinate calls, log into websites, and even make purchases on the user's behalf.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2026/06/gemini-app-GettyImages-2276204472-1.jpg?w=1024",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2026/06/gemini-app-GettyImages-2276204472-1.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2025/12/495cdfd5deaad915a1ad58ab35edcbaa84b90c4ce9b7ded356c5ad1b61884800.png?w=668",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2026/11/google-gemini-app.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2202707012.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-157503102.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2026/03/jensen-huang-gtc-getty.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 8,
+   "category": "product_launch",
+   "story_key": "gemini-tasks-expansion",
+   "topic_key": "google-gemini-agent",
+   "already_reported": false,
+   "title_fa": "قابلیت تسک در جیمینای گوگل؛ هوش مصنوعی دستیار تلفنی و خرید شما شد",
+   "one_liner_fa": "گوگل دسترسی به حالت Gemini Tasks را توسعه داد؛ قابلیتی که می‌تواند هماهنگی تماس‌ها، ورود به سایت‌ها و انجام خریدهای اینترنتی را به طور خودکار انجام دهد.",
+   "deep": {
+    "id": "3aa0c6065a",
+    "title_fa": "قابلیت تسک در جیمینای گوگل؛ هوش مصنوعی دستیار تلفنی و خرید شما شد",
+    "summary_fa": "گوگل (Google) دسترسی به قابلیت تسک (Tasks) را در هوش مصنوعی جیمینای (Gemini) به شکل چشمگیری گسترش داد تا به یک دستیار شخصی اجرایی تبدیل شود. برخلاف حالت مکالمه معمولی، بخش تسک می‌تواند به نمایندگی از کاربر با کسب‌وکارها تماس تلفنی برقرار کند، نوبت رزرو کند یا از طریق گوگل پلی (Google Pay) خریدهای آنلاین انجام دهد. این ویژگی که بر پایه مدل جدید جیمینای ۴ هایدروژن (Gemini 4 Hydrogen) کار می‌کند، اکنون برای صدها میلیون کاربر به صورت رایگان فعال شده و فقط با زدن یک سوییچ درون برنامه در دسترس است.",
+    "key_points_fa": [
+     "تبدیل چت‌بات به دستیار اجرایی با اضافه شدن سوییچ Tasks",
+     "امکان برقراری تماس صوتی مستقل برای هماهنگی وقت و خدمات",
+     "قابلیت انجام مستقیم خریدها با پشتیبانی از گوگل پلی (Google Pay)",
+     "امکان ورود ایمن به وب‌سایت‌ها و تحلیل مدارکی مانند قبوض برق",
+     "عرضه رایگان برای صدها میلیون کاربر متکی بر مدل جدید Gemini 4 Hydrogen",
+     "تغییر آسان وضعیت میان چت متنی ساده و حالت کارهای اجرایی با یک دکمه"
+    ],
+    "why_it_matters_fa": "هوش مصنوعی از یک مشاور متنی صرف در حال تبدیل شدن به یک مأمور هوشمند (AI Agent) است که می‌تواند به جای شما کارهای خسته‌کننده اداری و تماس‌ها را انجام دهد.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "این هوش مصنوعی خودش به جای شما تلفن می‌زنه!",
+      "hook_fa": "دیگه لازم نیست خودت به تعمیرگاه یا دکتر زنگ بزنی؛ جیمینای خودش زنگ می‌زنه و وقت می‌گیره!",
+      "angle_fa": "معرفی جنبه‌های کاربری و کاربردی هوش مصنوعی ایجنتیک گوگل در زندگی واقعی.",
+      "outline_fa": [
+       "دموی ذهنی از سناریوی زنگ زدن هوش مصنوعی و رزرو وقت",
+       "معرفی بخش جدید Tasks در اپلیکیشن Gemini",
+       "توضیح قابلیت‌های خرید آنلاین و تحلیل فاکتورها",
+       "روش فعال‌سازی و رایگان بودن آن با مدل Gemini 4 Hydrogen"
+      ],
+      "visual_tip_fa": "استفاده از اسکرین‌شات‌های اپلیکیشن با نمایش دکمه سوییچ Tasks و انیمیشن برقراری تماس صوتی."
+     },
+     {
+      "format": "پست",
+      "title_fa": "راهنمای قابلیت Tasks در Gemini گوگل",
+      "hook_fa": "چگونه هوش مصنوعی را به منشی ۲۴ ساعته خودمان تبدیل کنیم؟",
+      "angle_fa": "بررسی فنی‌تر ورود گوگل به حیطه AI Agentها و کارهایی که تسک برای کاربر انجام می‌دهد.",
+      "outline_fa": [
+       "تفاوت حالت معمولی Chat با حالت وظایف Tasks",
+       "فهرست کارهایی که می‌تواند بکند (تماس، خرید، لاگین)",
+       "مدل زبانی پشتیبان (Gemini 4 Hydrogen) و وضعیت دسترسی کاربران"
+      ],
+      "visual_tip_fa": "اینفوگرافیک گام‌به‌گام کارکرد تسک‌ها همراه با آیکون‌های تماس، پرداخت و امنیت."
+     }
+    ],
+    "hashtags": [
+     "#گوگل",
+     "#جیمینای",
+     "#Gemini",
+     "#دستیار_هوش_مصنوعی",
+     "#تکنولوژی",
+     "#ای_آی"
+    ],
+    "caution_fa": ""
+   },
+   "id": "3aa0c6065a"
+  },
+  {
+   "title": "Waymo is pausing all freeway rides after California DMV says the robotaxis are 'imminent hazard to public safety'",
+   "url": "https://www.engadget.com/2319947/waymo-is-pausing-all-freeway-rides-after-california-dmv-says-the-robotaxis-are-imminent-hazard-to-public-safety/",
+   "source": "Engadget",
+   "published": "2026-11-17T21:57:49+00:00",
+   "summary": "Restrictions were made by California's DMV after a driverless Waymo was caught trying to pass a Highway Patrol vehicle that was slowing traffic.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/waymo-is-pausing-all-freeway-rides-after-california-dmv-says-the-robotaxis-are-imminent-hazard-to-public-safety/l-intro-1794952210.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "embed",
+     "url": "https://www.youtube.com/watch?v=PT2wtolCEg8",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/waymo-is-pausing-all-freeway-rides-after-california-dmv-says-the-robotaxis-are-imminent-hazard-to-public-safety/intro-1794952210.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://img.youtube.com/vi/PT2wtolCEg8/maxresdefault.jpg",
+     "origin": "youtube"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 8,
+   "category": "safety_ethics",
+   "story_key": "waymo-california-freeway-pause",
+   "topic_key": "waymo-autonomous-vehicles",
+   "already_reported": false,
+   "title_fa": "ترمز ویمو کشیده شد؛ توقف تاکسی‌های خودران در بزرگراه‌های آمریکا",
+   "one_liner_fa": "در پی سبقت غیرمجاز و پرخطر یک تاکسی خودران ویمو (Waymo) از خودروی پلیس، اداره خودروهای کالیفرنیا تردد آنها در بزرگراه‌ها را متوقف کرد.",
+   "deep": {
+    "id": "083795dd17",
+    "title_fa": "ترمز ویمو کشیده شد؛ توقف تاکسی‌های خودران در بزرگراه‌های آمریکا",
+    "summary_fa": "اداره وسایل نقلیه کالیفرنیا (DMV) با «خطر قریب‌الوقوع برای ایمنی عمومی» خواندن تاکسی‌های خودران ویمو (Waymo)، تردد آن‌ها را در تمام بزرگراه‌های این ایالت ممنوع کرد. در پی این تصمیم که از ۱۱ نوامبر اجرایی شده، ویمو سرویس‌دهی بزرگراهی خود را در سراسر آمریکا متوقف کرده است. علت این ممنوعیت، ورود خودروهای ویمو به محوطه کارگاهی و تلاش خطرناک برای سبقت از ماشین پلیس راهور اعلام شده است. فعالیت این تاکسی‌ها فعلاً تنها به خیابان‌های داخل شهری محدود خواهد بود.",
+    "key_points_fa": [
+     "ممنوعیت تردد تاکسی‌های خودران ویمو در بزرگراه‌های ایالت کالیفرنیا توسط DMV",
+     "توصیف تاکسی‌های بدون راننده ویمو به عنوان «خطر قریب‌الوقوع برای ایمنی عمومی»",
+     "تعلیق داوطلبانه سفرهای بزرگراهی توسط ویمو در کل بازارهای فعال خود در آمریکا",
+     "دلایل توقیف: ورود به منطقه کارگاهی مسدود و تلاش برای سبقت از خودروی گشت پلیس",
+     "ادامه ارائه خدمات ویمو صرفاً در خیابان‌های عادی و شهری (Surface streets)",
+     "سابقه فراخوان ۳۸۰۰ دستگاه خودروی ویمو در ژوئن گذشته برای مشکلات مشابه"
+    ],
+    "why_it_matters_fa": "حذف دسترسی به بزرگراه‌ها باعث افزایش زمان سفر، بالا رفتن هزینه‌ها و یک چالش رگولاتوری بزرگ برای آینده تاکسی‌های اینترنتی خودران می‌شود.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "بزرگراه‌ها به روی ماشین‌های خودران بسته شد!",
+      "hook_fa": "پلیس راهور آمریکا ترمز روبوتاکسی‌های ویمو رو کشید؛ سبقت از ماشین پلیس کار دستشون داد!",
+      "angle_fa": "روایت حادثه و چالش‌های فنی هوش مصنوعی در درک شرایط جاده و علائم پلیس.",
+      "outline_fa": [
+       "توضیح ماجرای سبقت گرفتن تاکسی خودران از ماشین پلیس",
+       "حکم تند اداره راهنمایی و رانندگی و لغو تردد در اتوبان‌ها",
+       "پیامدهای این تصمیم بر زمان سفر مسافران و آینده خودروهای بی‌راننده"
+      ],
+      "visual_tip_fa": "استفاده از ویدیوی ضمیمه‌شده به مقاله در یوتوب و فوتیج‌های موجود از خطاهای روبوتاکسی‌ها در خیابان."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "چرا خودروهای خودران ویمو در بزرگراه‌ها ممنوع شدند؟",
+      "hook_fa": "آیا هوش مصنوعی واقعاً برای رانندگی در سرعت‌های بالا آماده است؟",
+      "angle_fa": "تحلیل موشکافانه خطاهای سیستم رانندگی خودران در موقعیت‌های خاص و قوانین ایمنی.",
+      "outline_fa": [
+       "شرح ماجرای منطقه کارگاهی برلینگیم و پلیس بزرگراه",
+       "سابقه مشکلات ویمو و فراخوان‌های قبلی خودروها",
+       "تاثیر روی رقبایی مثل اوبر و آینده حمل‌ونقل شهری"
+      ],
+      "visual_tip_fa": "تصاویر روبوتاکسی‌های ویمو در جاده‌ها با علائم هشداردهنده و اینفوگرافیک دلایل توقف."
+     }
+    ],
+    "hashtags": [
+     "#ویمو",
+     "#خودرو_خودران",
+     "#Waymo",
+     "#تکنولوژی",
+     "#ماشین_هوشمند",
+     "#اخبار_فناوری"
+    ],
+    "caution_fa": ""
+   },
+   "id": "083795dd17"
+  },
+  {
+   "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
+   "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
+   "source": "TechCrunch",
+   "published": "2026-11-17T22:29:05+00:00",
+   "summary": "Amazon will own just under 15% of Anthropic after the IPO, with the option to go much higher. Google is a close second with holdings of nearly 14%.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2022/09/GettyImages-1415078085.jpg?resize=1200,721",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2025/08/julie-bort-disrupt.jpg?w=150",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 8,
+   "worthiness": 7,
+   "category": "business_funding",
+   "story_key": "anthropic-ipo-ownership-amazon-google",
+   "topic_key": "anthropic-ipo",
+   "already_reported": false,
+   "title_fa": "سهم ۳۰ درصدی آمازون و گوگل از آنتروپیک در آستانه عرضه اولیه سهام",
+   "one_liner_fa": "بر اساس اطلاعات منتشرشده از عرضه عمومی سهام (IPO) آنتروپیک (Anthropic)، آمازون حدود ۱۵ درصد و گوگل نزدیک به ۱۴ درصد از سهام این شرکت را تصاحب خواهند کرد.",
+   "deep": {
+    "id": "b397f013e7",
+    "title_fa": "سهم ۳۰ درصدی آمازون و گوگل از آنتروپیک در آستانه عرضه اولیه سهام",
+    "summary_fa": "بر اساس اطلاعات منتشرشده از اسناد عرضه اولیه عمومی سهام (IPO) آنتروپیک (Anthropic)، دو غول فناوری آمازون (Amazon) و گوگل (Google) در مجموع نزدیک به ۳۰ درصد از این شرکت هوش مصنوعی را در اختیار خواهند داشت. سهم آمازون حدود ۱۴.۷ درصد خواهد بود که پتانسیل افزایش تا ۲۳.۸ درصد را نیز دارد. گوگل نیز حدود ۱۳.۷ درصد از سهام بدون حق رأی را به دست می‌آورد. همچنین آنتروپیک متعهد شده طی یک دهه آینده بیش از ۱۰۰ میلیارد دلار از سرویس‌های ابری آمازون (AWS) استفاده کند.",
+    "key_points_fa": [
+     "مالکیت نزدیک به ۳۰ درصدی آمازون و گوگل بر سهام آنتروپیک پس از IPO",
+     "سهم ۱۴.۷ درصدی آمازون با امکان افزایش به ۲۳.۸ درصد در صورت تبدیل تمام اسناد سرمایه‌گذاری",
+     "سهم ۱۳.۷ درصدی گوگل از سهام بدون حق رأی شرکت",
+     "خرید ۲۶ میلیارد دلار سهام بدون رأی توسط کنسرسیومی از غول‌های تراشه شامل گوگل، انویدیا، AMD و مایکروسافت",
+     "سرمایه‌گذاری ۱۰ میلیارد دلاری مستقل توسط هر کدام از شرکت‌های گوگل و انویدیا",
+     "تعهد تجاری آنتروپیک به پرداخت بیش از ۱۰۰ میلیارد دلار برای خرید خدمات کلاود AWS طی ۱۰ سال"
+    ],
+    "why_it_matters_fa": "سازنده مدل‌های کلاود (Claude) در حال تبدیل شدن به یک غول مستقل در بورس است و سرمایه‌گذاری‌های سنگین ابری نشان از نبرد عظیم زیرساخت در حوزه هوش مصنوعی دارد.",
+    "content_ideas": [
+     {
+      "format": "کاروسل",
+      "title_fa": "چه کسانی صاحب واقعی سازنده مدل کلود هستند؟",
+      "hook_fa": "پشت صحنه شرکت آنتروپیک چه غول‌هایی نشسته‌اند؟",
+      "angle_fa": "بررسی اتحادهای بزرگ هوش مصنوعی و برندگان مالی عرضه اولیه سهام آنتروپیک.",
+      "outline_fa": [
+       "توضیح ورود آنتروپیک به بورس و ارزش‌گذاری آن",
+       "سهم عظیم آمازون و معامله ۱۰۰ میلیارد دلاری سرورهای ابری",
+       "حضور پررنگ گوگل، انویدیا و مایکروسافت در صف سهامداران",
+       "مقایسه این ائتلاف با مدل همکاری اوپن‌ای‌آی و مایکروسافت"
+      ],
+      "visual_tip_fa": "نمودار دایره‌ای از ساختار مالکان سهام آنتروپیک با لوگوهای آمازون، گوگل و آنتروپیک."
+     },
+     {
+      "format": "استوری",
+      "title_fa": "قرارداد نجومی ۱۰۰ میلیارد دلاری آمازون و کلود!",
+      "hook_fa": "رقابت غول‌های ابری وارد ابعاد چند صد میلیارد دلاری شد!",
+      "angle_fa": "اشتراک ارقام حیرت‌انگیز مالی IPO و میزان وابستگی سازندگان مدل‌ها به پردازش ابری.",
+      "outline_fa": [
+       "اشاره به تعهد ۱۰۰ میلیارد دلاری استفاده از سرورهای AWS",
+       "سهم مالکیت ۱۴.۷ درصدی آمازون",
+       "طرح سوال برای مخاطب: فکر می‌کنی کلود قوی‌تره یا چت‌جی‌پی‌تی؟"
+      ],
+      "visual_tip_fa": "اسکرین‌شات تیتر خبر همراه با گیف‌های جذاب مربوط به پول و سرورهای پردازشی."
+     }
+    ],
+    "hashtags": [
+     "#آنتروپیک",
+     "#کلود",
+     "#Anthropic",
+     "#Claude",
+     "#آمازون",
+     "#گوگل",
+     "#بورس"
+    ],
+    "caution_fa": ""
+   },
+   "id": "b397f013e7"
+  }
+ ],
+ "others": [
+  {
+   "title": "Nvidia is abandoning China after Jensen Huang’s ouster",
+   "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
+   "source": "TechCrunch",
+   "published": "2026-11-17T23:37:48+00:00",
+   "summary": "Nvidia's interim CEO says the company is done selling chips to China. How much will that cost?",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 8,
+   "worthiness": 7,
+   "category": "big_tech",
+   "story_key": "nvidia-exits-china",
+   "topic_key": "nvidia-crisis",
+   "already_reported": false,
+   "title_fa": "پایان حضور انویدیا در چین پس از برکناری جن‌سن هوانگ",
+   "one_liner_fa": "مدیرعامل موقت انویدیا (NVIDIA) اعلام کرد که این شرکت فروش تراشه‌های خود را به بازار چین کاملاً متوقف می‌کند.",
+   "deep": {},
+   "id": "8239fbdc62"
+  },
+  {
+   "title": "SEC reportedly investigating Nvidia amid Huang exit",
+   "url": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/",
+   "source": "TechCrunch",
+   "published": "2026-11-17T21:48:07+00:00",
+   "summary": "The SEC is opening a probe into Nvidia following the departure of CEO Jensen Huang, who admitted to an affair with an alleged Chinese spy, reports The Wall Street Journal.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 8,
+   "worthiness": 8,
+   "category": "policy_regulation",
+   "story_key": "sec-investigates-nvidia-huang",
+   "topic_key": "nvidia-crisis",
+   "already_reported": false,
+   "title_fa": "آغاز تحقیقات رسمی نهاد نظارتی بورس آمریکا درباره انویدیا و ماجرای هوانگ",
+   "one_liner_fa": "کمیسیون بورس و اوراق بهادار آمریکا (SEC) در پی استعفای جن‌سن هوانگ (Jensen Huang) و ماجرای ارتباط با مظنون به جاسوسی، بررسی‌های خود را علیه انویدیا آغاز کرد.",
+   "deep": {},
+   "id": "28fff23dec"
+  },
+  {
+   "title": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials",
+   "url": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
+   "source": "TechCrunch",
+   "published": "2026-11-17T14:50:58+00:00",
+   "summary": "Isomorphic Labs, the AI drug-discovery platform that was spun out of Google’s DeepMind in 2021, has raised $5 billion in a Series C funding round.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 8,
+   "worthiness": 6,
+   "category": "business_funding",
+   "story_key": "isomorphic-labs-5b-funding",
+   "topic_key": "ai-biotech-drug-discovery",
+   "already_reported": false,
+   "title_fa": "سرمایه‌گذاری تاریخی ۵ میلیارد دلاری روی پلتفرم کشف داروی هوش مصنوعی دیپ‌مایند",
+   "one_liner_fa": "شرکت آیزومورفیک لبز (Isomorphic Labs)، زیرمجموعه دیپ‌مایند گوگل، موفق به جذب سرمایه عظیم ۵ میلیارد دلاری برای بردن داروهای هوش مصنوعی به فاز آزمایش بالینی شد.",
+   "deep": {},
+   "id": "ed47f6db49"
+  },
+  {
+   "title": "Highly classified US national security communications network goes down",
+   "url": "https://www.cnn.com/2026/11/17/politics/highly-classified-national-security-communications-network-goes-down",
+   "source": "cnn.com",
+   "published": "2026-11-17T15:38:28+00:00",
+   "summary": "https://www.reuters.com/technology/highly-classified-us-nati...",
+   "lang": "en",
+   "signal": "Hacker News: 449 امتیاز، 531 کامنت",
+   "signal_value": 449,
+   "discussion_url": "https://news.ycombinator.com/item?id=50532849",
+   "media": [],
+   "also_covered_by": [
+    "reuters.com"
+   ],
+   "importance": 7,
+   "worthiness": 6,
+   "category": "other_tech",
+   "story_key": "us-nsa-network-outage",
+   "topic_key": "us-national-security-outage",
+   "already_reported": false,
+   "title_fa": "قطعی مرموز شبکه ارتباطات فوق‌محرمانه امنیت ملی آمریکا",
+   "one_liner_fa": "شبکه ارتباطی طبقه‌بندی‌شده و فوق‌محرمانه امنیت ملی ایالات متحده با اختلال و قطعی گسترده روبه‌رو شد.",
+   "deep": {},
+   "id": "654cd43c84"
+  },
+  {
+   "title": "MAI Code 2 and Code 2 Flash",
+   "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
+   "source": "microsoft.ai",
+   "published": "2026-11-17T18:25:13+00:00",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 271 امتیاز، 129 کامنت",
+   "signal_value": 271,
+   "discussion_url": "https://news.ycombinator.com/item?id=50535885",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 7,
+   "category": "model_release",
+   "story_key": "mai-code-2-release",
+   "topic_key": "microsoft-ai-models",
+   "already_reported": false,
+   "title_fa": "پاسخ مایکروسافت با مدل‌های جدید برنامه‌نویسی MAI Code 2 و Flash",
+   "one_liner_fa": "تیم هوش مصنوعی مایکروسافت از دو مدل جدید و قدرتمند کدنویسی با نام‌های MAI Code 2 و Code 2 Flash رونمایی کرد.",
+   "deep": {},
+   "id": "23791fed6f"
+  },
+  {
+   "title": "Nvidia promises that revenue will keep soaring — for now",
+   "url": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
+   "source": "TechCrunch",
+   "published": "2026-11-18T00:16:50+00:00",
+   "summary": "Despite the turmoil Nvidia is in after the departure of its disgraced founder and CEO Jensen Huang, the company projected that its streak of record-breaking revenue isn't about to stop.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 7,
+   "category": "big_tech",
+   "story_key": "nvidia-financial-outlook-post-huang",
+   "topic_key": "nvidia-crisis",
+   "already_reported": false,
+   "title_fa": "ادعای انویدیا: رکوردهای درآمدی پس از برکناری جن‌سن هوانگ متوقف نمی‌شود",
+   "one_liner_fa": "انویدیا (NVIDIA) علی‌رغم شوک بزرگ ناشی از کناره‌گیری جن‌سن هوانگ (Jensen Huang)، پیش‌بینی کرد رشد درآمد تاریخی‌اش کماکان پابرجا خواهد بود.",
+   "deep": {},
+   "id": "9f7286d0bf"
+  },
+  {
+   "title": "Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit",
+   "url": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/",
+   "source": "TechCrunch",
+   "published": "2026-11-17T23:04:35+00:00",
+   "summary": "Nvidia's interim CEO reaffirmed its open source AI strategy and plans to acquire Hugging Face, despite Jensen Huang's sudden departure.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 7,
+   "category": "big_tech",
+   "story_key": "nvidia-open-source-strategy-post-huang",
+   "topic_key": "nvidia-crisis",
+   "already_reported": false,
+   "title_fa": "پایبندی انویدیا به استراتژی متن‌باز و برنامه خرید هاگینگ فیس",
+   "one_liner_fa": "مدیرعامل موقت انویدیا (NVIDIA) اعلام کرد استراتژی هوش مصنوعی متن‌باز و برنامه تصاحب هاگینگ فیس (Hugging Face) با وجود رفتن هوانگ بدون تغییر ادامه دارد.",
+   "deep": {},
+   "id": "8f07365d37"
+  },
+  {
+   "title": "Jensen Huang says he would be ‘honored’ if allowed to return as Nvidia CEO",
+   "url": "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo/",
+   "source": "TechCrunch",
+   "published": "2026-11-17T16:44:15+00:00",
+   "summary": "In the first public statement since his resignation, Nvidia founder Jensen Huang signaled his willingness to return as CEO.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/jensen-huang-said-hed-be-honored-to-return-as-nvidia-ceo-because-of-course-he-would/l-intro-1794936519.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [
+    "Engadget"
+   ],
+   "importance": 7,
+   "worthiness": 7,
+   "category": "big_tech",
+   "story_key": "huang-wants-return-nvidia",
+   "topic_key": "nvidia-crisis",
+   "already_reported": false,
+   "title_fa": "جن‌سن هوانگ: افتخار می‌کنم اگر اجازه بازگشت به مدیریت انویدیا را داشته باشم",
+   "one_liner_fa": "جن‌سن هوانگ (Jensen Huang) در اولین واکنش رسمی پس از استعفای شوکه‌کننده‌اش، برای بازگشت به عنوان مدیرعامل انویدیا ابراز تمایل کرد.",
+   "deep": {},
+   "id": "950a39f90b"
+  },
+  {
+   "title": "Windows 11 is collecting data on which coding agents and developer tools you use",
+   "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+   "source": "xusheng.dev",
+   "published": "2026-11-16T22:58:20+00:00",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 709 امتیاز، 590 کامنت",
+   "signal_value": 709,
+   "discussion_url": "https://news.ycombinator.com/item?id=50524736",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "safety_ethics",
+   "story_key": "windows-11-telemetry-dev-tools",
+   "topic_key": "microsoft-privacy",
+   "already_reported": false,
+   "title_fa": "جاسوسی ویندوز ۱۱ از ایجنت‌ها و ابزارهای کدنویسی برنامه‌نویسان!",
+   "one_liner_fa": "افشای داده‌های تلمتری ویندوز ۱۱ نشان داد که مایکروسافت اطلاعات استفاده توسعه‌دهندگان از ابزارهای کدنویسی و ایجنت‌های هوش مصنوعی را جمع‌آوری می‌کند.",
+   "deep": {},
+   "id": "81bd7f76e2"
+  },
+  {
+   "title": "Optimizely compromised, served malware on Zoom, GitLab",
+   "url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
+   "source": "blog.report-uri.com",
+   "published": "2026-11-16T23:00:34+00:00",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 664 امتیاز، 263 کامنت",
+   "signal_value": 664,
+   "discussion_url": "https://news.ycombinator.com/item?id=50524767",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 5,
+   "category": "safety_ethics",
+   "story_key": "optimizely-supply-chain-malware",
+   "topic_key": "cybersecurity-incidents",
+   "already_reported": false,
+   "title_fa": "هک زنجیره تأمین Optimizely و تزریق بدافزار در وب‌سایت‌های زوم و گیت‌لب",
+   "one_liner_fa": "حمله سایبری به زیرساخت پلتفرم Optimizely سبب انتشار اسکریپت‌های آلوده و بدافزار در سرویس‌های محبوبی چون زوم (Zoom) و گیت‌لب (GitLab) شد.",
+   "deep": {},
+   "id": "5c4fbe6517"
+  }
+ ],
+ "scored": [
+  {
+   "title": "Introducing GPT-6.2 Astra and Sol",
+   "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+   "source": "OpenAI",
+   "published": "2026-11-17T17:45:00+00:00",
+   "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+   "lang": "en",
+   "signal": "Hacker News: 1057 امتیاز، 667 کامنت",
+   "signal_value": 1057,
+   "discussion_url": "https://news.ycombinator.com/item?id=50535230",
+   "media": [],
+   "also_covered_by": [
+    "Simon Willison"
+   ],
+   "importance": 10,
+   "worthiness": 10,
+   "category": "model_release",
+   "story_key": "gpt-6-2-astra-sol-launch",
+   "topic_key": "openai-models",
+   "already_reported": false,
+   "title_fa": "اوپن‌ای‌آی از مدل‌های جدید GPT-6.2 آسترا و سول رونمایی کرد",
+   "one_liner_fa": "اوپن‌ای‌آی (OpenAI) دو مدل جدید GPT-6.2 به نام‌های آسترا (Astra) برای کارهای سنگین و سل (Sol) برای امور روزمره را با قدرت بالاتر و هزینه کمتر عرضه کرد.",
+   "deep": {
+    "id": "549a77347d",
+    "title_fa": "اوپن‌ای‌آی از مدل‌های جدید GPT-6.2 آسترا و سول رونمایی کرد",
+    "summary_fa": "شرکت اوپن‌ای‌آی (OpenAI) به صورت رسمی دو مدل جدید با نام‌های GPT-6.2 Astra و GPT-6.2 Sol را معرفی کرد. طبق بیانیه منتشرشده، این مدل‌ها در خروجی‌های حرفه‌ای، کدنویسی و قابلیت کنترل مستقیم کامپیوتر (Computer Use) ارتقای چشمگیری داشته‌اند. علاوه بر این، مصرف بهینه و کاهش هزینه‌ها از ویژگی‌های کلیدی این دو نسخه است. دسترسی به این مدل‌ها از طریق سرویس‌های ChatGPT Work، ابزار کدکس (Codex) و رابط کاربری برنامه‌نویسی (API) فراهم شده است.",
+    "key_points_fa": [
+     "معرفی رسمی دو مدل GPT-6.2 Astra و GPT-6.2 Sol توسط اوپن‌ای‌آی",
+     "بهبود محسوس در عملکرد خروجی‌های تخصصی و امور کاری",
+     "پیشرفت در کدنویسی و مهارت کنترل محیط کامپیوتر (Computer Use)",
+     "بهینه‌سازی کارایی و کاهش هزینه‌های پردازشی برای کاربران",
+     "در دسترس قرار گرفتن در سرویس ChatGPT Work، ابزار Codex و از طریق API"
+    ],
+    "why_it_matters_fa": "تمرکز مدل‌های جدید روی کاهش هزینه‌ها و کنترل کامپیوتر، گامی بزرگ برای خودکارسازی واقعی کارها در محیط کار و توسعه نرم‌افزار است.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "مدل‌های جدید اوپن‌ای‌آی بالاخره معرفی شدند!",
+      "hook_fa": "اوپن‌ای‌آی همین چند دقیقه پیش با معرفی GPT-6.2 همه رو غافلگیر کرد!",
+      "angle_fa": "بررسی سریع ویژگی‌های جدید شامل کنترل کامپیوتر و کدنویسی پیشرفته‌تر با قیمت کمتر.",
+      "outline_fa": [
+       "اعلام خبر معرفی دو مدل Astra و Sol از خانواده GPT-6.2",
+       "توضیح پیشرفت چشمگیر در کدنویسی و قابلیت اجرای دستورات در کامپیوتر",
+       "اشاره به کاهش هزینه‌ها و ابزارهای تحت پشتیبانی مثل ChatGPT Work"
+      ],
+      "visual_tip_fa": "نمایش متن اطلاعیه رسمی اوپن‌ای‌آی با تایپوگرافی متحرک جذاب و مقایسه نام مدل‌ها روی صفحه."
+     },
+     {
+      "format": "پست",
+      "title_fa": "همه‌چیز درباره GPT-6.2 Astra و Sol",
+      "hook_fa": "آیا هوش مصنوعی بالاخره کنترل کامل سیستم رو دست می‌گیره؟",
+      "angle_fa": "بررسی عمیق‌تر پتانسیل‌های کنترل کامپیوتر و دسترسی به API برای دولوپرها و کاربران بیزینس.",
+      "outline_fa": [
+       "معرفی اجمالی نسل جدید مدل‌ها",
+       "بررسی نقش قابلیت Computer Use در کارهای روزمره اداری و برنامه‌نویسی",
+       "نحوه دسترسی از طریق API و ChatGPT Work"
+      ],
+      "visual_tip_fa": "اسلایدهای مینیمال با پالت تیره و لوگوی اوپن‌ای‌آی به همراه اینفوگرافیک ویژگی‌های اعلام‌شده."
+     }
+    ],
+    "hashtags": [
+     "#هوش_مصنوعی",
+     "#اوپن_ای_ای",
+     "#OpenAI",
+     "#ChatGPT",
+     "#تکنولوژی",
+     "#GPT6"
+    ],
+    "caution_fa": "اطلاعات منتشرشده در متن منبع بسیار کوتاه است؛ از گمانه‌زنی و اضافه کردن بنچمارک‌ها یا قیمت‌های تخمینی خودداری کنید."
+   },
+   "id": "549a77347d"
+  },
+  {
+   "title": "Strengthening NATO and allied cyber defenses with AI",
+   "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+   "source": "OpenAI",
+   "published": "2026-11-17T00:00:00+00:00",
+   "summary": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 4,
+   "category": "safety_ethics",
+   "story_key": "openai-nato-cyber-defense",
+   "topic_key": "openai-cybersecurity",
+   "already_reported": false,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "id": "590cb0b9c5"
+  },
+  {
+   "title": "Introducing ChatGPT for Sales",
+   "url": "https://openai.com/index/introducing-chatgpt-for-sales",
+   "source": "OpenAI",
+   "published": "2026-11-17T08:00:00+00:00",
+   "summary": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "product_launch",
+   "story_key": "chatgpt-sales-plugins",
+   "topic_key": "openai-enterprise",
+   "already_reported": false,
+   "title_fa": "چت‌جی‌پی‌تی وارد تیم فروش شد؛ دستیار جدید ChatGPT for Sales",
+   "one_liner_fa": "اوپن‌ای‌آی (OpenAI) پلاگین اختصاصی فروش و بیش از ۳۰ افزونه شرکتی جدید را برای تحقیق روی مشتریان و به‌روزرسانی خودکار CRM معرفی کرد.",
+   "deep": {},
+   "id": "c6c361c53b"
+  },
+  {
+   "title": "Astra for Law leads in legal intelligence",
+   "url": "https://openai.com/index/astra-law-6-2",
+   "source": "OpenAI",
+   "published": "2026-11-17T00:00:00+00:00",
+   "summary": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 5,
+   "category": "product_launch",
+   "story_key": "astra-for-law",
+   "topic_key": "openai-enterprise",
+   "already_reported": false,
+   "title_fa": "مدل تخصصی حقوقی اوپن‌ای‌آی با نام Astra for Law معرفی شد",
+   "one_liner_fa": "اوپن‌ای‌آی (OpenAI) مدل Astra for Law را با کسب رتبه نخست در ۲۴ شاخه حقوقی، برای مشترکان سازمانی چت‌جی‌پی‌تی در دسترس قرار داد.",
+   "deep": {},
+   "id": "0604bc2b50"
+  },
+  {
+   "title": "Introducing OpenAI for Chile",
+   "url": "https://openai.com/index/introducing-openai-for-chile",
+   "source": "OpenAI",
+   "published": "2026-11-17T00:00:00+00:00",
+   "summary": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 3,
+   "category": "big_tech",
+   "story_key": "openai-chile-partnership",
+   "topic_key": "openai-global-partnerships",
+   "already_reported": false,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "id": "58da9c66b1"
+  },
+  {
+   "title": "See what 5 builders are making with Gemini 4 Carbon",
+   "url": "https://blog.google/products-and-platforms/products/gemini/gemini-4-carbon-builders/",
+   "source": "Google Blog",
+   "published": "2026-11-17T21:00:00+00:00",
+   "summary": "Collage of different projects made with Gemini 4 Carbon",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/5_buildersGemini_4_Carbon_hero.max-600x600.format-webp.webp",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 5,
+   "category": "big_tech",
+   "story_key": "gemini-4-carbon-projects",
+   "topic_key": "google-gemini",
+   "already_reported": false,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "id": "da24d2c714"
+  },
+  {
+   "title": "Read the EmbeddingGemma 2 technical report.",
+   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2-technical-report/",
+   "source": "Google Blog",
+   "published": "2026-11-17T17:00:00+00:00",
+   "summary": "The Google EmbeddingGemma 2 technical report details our new multimodal model, covering its unified vector space and compact design. Read the report.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/EmbeddingGemma_2_explained_soci.max-600x600.format-webp.webp",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 4,
+   "category": "research",
+   "story_key": "embedding-gemma-2-report",
+   "topic_key": "google-gemma",
+   "already_reported": false,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "id": "35e69ca0e0"
+  },
+  {
+   "title": "Put Gemini to work for you",
+   "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+   "source": "Google Blog",
+   "published": "2026-11-17T17:00:00+00:00",
+   "summary": "A user interface displaying the prompt \"What can I get done for you?\" above an input box containing placeholder text \"Describe a task\".",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hero_2784_x_1566.max-600x600.format-webp.webp",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 4,
+   "category": "big_tech",
+   "story_key": "google-gemini-workplace-features",
+   "topic_key": "google-gemini",
+   "already_reported": false,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "id": "cb1d8f8bc8"
+  },
+  {
+   "title": "Temporary threads are now available in AI Mode in Search.",
+   "url": "https://blog.google/products-and-platforms/products/search/temporary-threads-ai-mode/",
+   "source": "Google Blog",
+   "published": "2026-11-17T17:00:00+00:00",
+   "summary": "Google AI Mode now offers temporary threads for private searches. Keep your history clean and avoid personalization. Try this new feature today.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AIM_Temporary_Thread_Stills_278.max-600x600.format-webp.webp",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 6,
+   "category": "product_launch",
+   "story_key": "google-search-ai-temporary-threads",
+   "topic_key": "google-search",
+   "already_reported": false,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "id": "2b53593861"
+  },
+  {
+   "title": "From easier entry to smarter savings, here’s what’s new in Google Home.",
+   "url": "https://blog.google/products-and-platforms/devices/google-nest/google-home-updates-november-2026/",
+   "source": "Google Blog",
+   "published": "2026-11-17T17:00:00+00:00",
+   "summary": "Google Home updates bring keyless entry, smarter audio alerts, and faster Gemini performance. See what’s new in the November 2026 update.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/resized_S0_Hero_-_Desktop_copy.max-600x600.format-webp.webp",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 4,
+   "category": "product_launch",
+   "story_key": "google-home-update-nov-2026",
+   "topic_key": "google-home",
+   "already_reported": false,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "id": "19575a6d8d"
+  },
+  {
+   "title": "Anyone can create a personal avatar of themselves in Google Vids, at no cost.",
+   "url": "https://blog.google/products-and-platforms/products/workspace/vids-personal-avatars-no-cost/",
+   "source": "Google Blog",
+   "published": "2026-11-17T17:00:00+00:00",
+   "summary": "Create custom avatars in Google Vids for free. Design your digital likeness using a selfie and voice recording to narrate videos. Try it out today.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Vids_Personal_Avatars_Freemium_static_1.max-1440x810.png",
+     "origin": "og"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 9,
+   "category": "tools_for_creators",
+   "story_key": "google-vids-free-personal-avatars",
+   "topic_key": "google-workspace-ai",
+   "already_reported": false,
+   "title_fa": "گوگل ساخت آواتار شخصی ویدیویی را برای همه رایگان کرد",
+   "one_liner_fa": "گوگل (Google) امکان ساخت رایگان آواتار هوش مصنوعی با استفاده از سلفی و نمونه صدا را به سرویس Google Vids اضافه کرد.",
+   "deep": {
+    "id": "79b64e624c",
+    "title_fa": "گوگل ساخت آواتار شخصی ویدیویی را برای همه رایگان کرد",
+    "summary_fa": "گوگل (Google) قابلیت ساخت آواتار شخصی را در سرویس گوگل ویدز (Google Vids) به صورت کاملاً رایگان در اختیار تمام دارندگان حساب شخصی گوگل قرار داد. کاربران می‌توانند با اسکن یک کد QR چهره و صدای خود را به یک آواتار دیجیتال تبدیل کنند. با تایپ متن سناریو، این آواتار به شکل خودکار و هماهنگ صحبت می‌کند و نیازی به تجهیزات فیلم‌برداری نیست. این ویژگی فقط برای صاحب حساب طراحی شده و از طریق آدرس vids.new روی نسخه دسکتاپ قابل استفاده است.",
+    "key_points_fa": [
+     "عرضه رایگان آواتار شخصی در سرویس Google Vids برای همه دارندگان اکانت گوگل",
+     "ساخت آواتار با اسکن یک کد QR ساده بدون نیاز به تجهیزات فیلم‌برداری",
+     "امکان تولید ویدیو تنها با نوشتن متن صحبت‌ها برای آواتار",
+     "حفظ هویت بصری و صدای آواتار در تمام بخش‌های پروژه",
+     "محدودیت امنیتی برای ساخت آواتار تنها بر اساس چهره صاحب حساب کاربری",
+     "دسترسی از طریق لینک vids.new بر روی مرورگر دسکتاپ"
+    ],
+    "why_it_matters_fa": "حالا بدون نیاز به استودیو یا جلوی دوربین رفتن، هر کاربر می‌تواند ویدیوهای آموزشی یا پرزنتیشن حرفه‌ای با چهره و صدای خودش بسازد.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "با این ابزار گوگل دیگه لازم نیست جلو دوربین بری!",
+      "hook_fa": "تنها با یک اسکن، همزاد دیجیتال خودت رو کاملاً رایگان بساز!",
+      "angle_fa": "آموزش گام‌به‌گام و تست سریع ساخت آواتار برای تولیدکنندگان محتوا و کارمندان.",
+      "outline_fa": [
+       "معرفی سرویس جدید گوگل در vids.new",
+       "نحوه اسکن QR و کپی شدن چهره و صدا",
+       "تایپ یک متن نمونه و صحبت کردن آواتار",
+       "نتیجه‌گیری درباره حذف دردسرهای نور و دوربین"
+      ],
+      "visual_tip_fa": "فیلم‌برداری از صفحه نمایش هنگام ورود به vids.new و اسکن کد با موبایل همراه با تصویر رسمی موجود در مقاله."
+     },
+     {
+      "format": "استوری",
+      "title_fa": "تست ابزار جدید گوگل: vids.new",
+      "hook_fa": "ابزار رایگان جدید گوگل برای تولید محتوا اومد!",
+      "angle_fa": "معرفی مستقیم لینک و دعوت مخاطبان به تست آنی روی دسکتاپ.",
+      "outline_fa": [
+       "نمایش محیط سایت vids.new",
+       "توضیح کوتاه قابلیت آواتار رایگان",
+       "قراردادن استیکر لینک و نظرسنجی از کیفیت آواتارها"
+      ],
+      "visual_tip_fa": "اسکرین‌شات از محیط Google Vids به همراه استیکر لینک خروجی به vids.new."
+     }
+    ],
+    "hashtags": [
+     "#گوگل",
+     "#گوگل_ویدز",
+     "#GoogleVids",
+     "#هوش_مصنوعی",
+     "#تولید_محتوا",
+     "#آواتار"
+    ],
+    "caution_fa": ""
+   },
+   "id": "79b64e624c"
+  },
+  {
+   "title": "Google Wallet is now available on iOS in the U.S.",
+   "url": "https://blog.google/products-and-platforms/platforms/google-pay/wallet-available-ios-united-states/",
+   "source": "Google Blog",
+   "published": "2026-11-17T17:00:00+00:00",
+   "summary": "Google Wallet is now available on iOS in the U.S. Manage your tickets, boarding passes, and receipts in one secure hub. Get the details.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/hero_clean_aurora_straight_v2.max-600x600.format-webp.webp",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 4,
+   "category": "product_launch",
+   "story_key": "google-wallet-ios-us",
+   "topic_key": "google-wallet",
+   "already_reported": false,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "id": "f6c89c33d8"
+  },
+  {
+   "title": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents",
+   "url": "https://blogs.nvidia.com/blog/ian-buck-sc26/",
+   "source": "NVIDIA Blog",
+   "published": "2026-11-17T14:00:10+00:00",
+   "summary": "NVIDIA’s Ian Buck kicked off the company’s week at SC26 in Chicago on Monday with new tools for AI agents, software that can plan experiments, run code and check results on researchers’ own systems. In NVIDIA’s special address, Buck announced Nemotron for Science, the Rubin HPC GPU and an expanded Vera CPU platform for high-performance […]",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/Buck-Talk-SC26-scaled.jpeg",
+     "origin": "rss"
+    },
+    {
+     "kind": "image",
+     "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/Buck-Talk-SC26-842x450.jpeg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 5,
+   "category": "hardware_chips",
+   "story_key": "nvidia-sc26-science-agents",
+   "topic_key": "nvidia-hardware",
+   "already_reported": false,
+   "title_fa": "ورود انویدیا به عصر ایجنت‌های علمی و معرفی ابزارهای نوین در SC26",
+   "one_liner_fa": "انویدیا (NVIDIA) با معرفی پلتفرم‌هایی چون Nemotron for Science از نسل جدید ابزارهای ایجنتیک برای انجام و تحلیل خودکار آزمایش‌های علمی رونمایی کرد.",
+   "deep": {},
+   "id": "dec0868225"
+  },
+  {
+   "title": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab",
+   "url": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/",
+   "source": "NVIDIA Blog",
+   "published": "2026-11-16T23:00:05+00:00",
+   "summary": "At SC26, an annual supercomputing conference taking place this week in Chicago, NVIDIA is introducing the DGX Spark HPC Developer Kit for researchers, academics and developers. The kit is a four-node cluster of NVIDIA DGX Spark systems, each connected directly to its two neighbors in a ring, with an NVIDIA HPC SDK installation playbook coming […]",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/nv-blog-1280x680-1.jpg",
+     "origin": "rss"
+    },
+    {
+     "kind": "image",
+     "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/nv-blog-1280x680-1-842x450.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 6,
+   "category": "hardware_chips",
+   "story_key": "nvidia-dgx-spark-devkit",
+   "topic_key": "nvidia-hardware",
+   "already_reported": false,
+   "title_fa": "کیت توسعه DGX Spark انویدیا؛ ابررایانه ۴ نودی روی میز کار شما",
+   "one_liner_fa": "انویدیا (NVIDIA) کیت توسعه رومیزی DGX Spark را برای پژوهشگران هوش مصنوعی و پردازش موازی فوق‌سریع معرفی کرد.",
+   "deep": {},
+   "id": "8617ffe05c"
+  },
+  {
+   "title": "Nvidia promises that revenue will keep soaring — for now",
+   "url": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
+   "source": "TechCrunch",
+   "published": "2026-11-18T00:16:50+00:00",
+   "summary": "Despite the turmoil Nvidia is in after the departure of its disgraced founder and CEO Jensen Huang, the company projected that its streak of record-breaking revenue isn't about to stop.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 7,
+   "category": "big_tech",
+   "story_key": "nvidia-financial-outlook-post-huang",
+   "topic_key": "nvidia-crisis",
+   "already_reported": false,
+   "title_fa": "ادعای انویدیا: رکوردهای درآمدی پس از برکناری جن‌سن هوانگ متوقف نمی‌شود",
+   "one_liner_fa": "انویدیا (NVIDIA) علی‌رغم شوک بزرگ ناشی از کناره‌گیری جن‌سن هوانگ (Jensen Huang)، پیش‌بینی کرد رشد درآمد تاریخی‌اش کماکان پابرجا خواهد بود.",
+   "deep": {},
+   "id": "9f7286d0bf"
+  },
+  {
+   "title": "Nvidia is abandoning China after Jensen Huang’s ouster",
+   "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
+   "source": "TechCrunch",
+   "published": "2026-11-17T23:37:48+00:00",
+   "summary": "Nvidia's interim CEO says the company is done selling chips to China. How much will that cost?",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 8,
+   "worthiness": 7,
+   "category": "big_tech",
+   "story_key": "nvidia-exits-china",
+   "topic_key": "nvidia-crisis",
+   "already_reported": false,
+   "title_fa": "پایان حضور انویدیا در چین پس از برکناری جن‌سن هوانگ",
+   "one_liner_fa": "مدیرعامل موقت انویدیا (NVIDIA) اعلام کرد که این شرکت فروش تراشه‌های خود را به بازار چین کاملاً متوقف می‌کند.",
+   "deep": {},
+   "id": "8239fbdc62"
+  },
+  {
+   "title": "Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit",
+   "url": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/",
+   "source": "TechCrunch",
+   "published": "2026-11-17T23:04:35+00:00",
+   "summary": "Nvidia's interim CEO reaffirmed its open source AI strategy and plans to acquire Hugging Face, despite Jensen Huang's sudden departure.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 7,
+   "category": "big_tech",
+   "story_key": "nvidia-open-source-strategy-post-huang",
+   "topic_key": "nvidia-crisis",
+   "already_reported": false,
+   "title_fa": "پایبندی انویدیا به استراتژی متن‌باز و برنامه خرید هاگینگ فیس",
+   "one_liner_fa": "مدیرعامل موقت انویدیا (NVIDIA) اعلام کرد استراتژی هوش مصنوعی متن‌باز و برنامه تصاحب هاگینگ فیس (Hugging Face) با وجود رفتن هوانگ بدون تغییر ادامه دارد.",
+   "deep": {},
+   "id": "8f07365d37"
+  },
+  {
+   "title": "Nvidia says it doesn’t plan to reappoint Jensen Huang as CEO",
+   "url": "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/",
+   "source": "TechCrunch",
+   "published": "2026-11-17T22:42:27+00:00",
+   "summary": "The former CEO offered to return to his top role at the company after his resignation last week.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 8,
+   "worthiness": 8,
+   "category": "big_tech",
+   "story_key": "nvidia-rejects-huang-return",
+   "topic_key": "nvidia-crisis",
+   "already_reported": false,
+   "title_fa": "رد قاطعانه بازگشت جن‌سن هوانگ توسط هیئت‌مدیره انویدیا",
+   "one_liner_fa": "انویدیا (NVIDIA) اعلام کرد هیچ تصمیمی برای بازگرداندن بنیان‌گذار خود، جن‌سن هوانگ (Jensen Huang)، به پست مدیرعاملی ندارد.",
+   "deep": {},
+   "id": "01ad01e5cd"
+  },
+  {
+   "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
+   "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
+   "source": "TechCrunch",
+   "published": "2026-11-17T22:29:05+00:00",
+   "summary": "Amazon will own just under 15% of Anthropic after the IPO, with the option to go much higher. Google is a close second with holdings of nearly 14%.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2022/09/GettyImages-1415078085.jpg?resize=1200,721",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2025/08/julie-bort-disrupt.jpg?w=150",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 8,
+   "worthiness": 7,
+   "category": "business_funding",
+   "story_key": "anthropic-ipo-ownership-amazon-google",
+   "topic_key": "anthropic-ipo",
+   "already_reported": false,
+   "title_fa": "سهم ۳۰ درصدی آمازون و گوگل از آنتروپیک در آستانه عرضه اولیه سهام",
+   "one_liner_fa": "بر اساس اطلاعات منتشرشده از عرضه عمومی سهام (IPO) آنتروپیک (Anthropic)، آمازون حدود ۱۵ درصد و گوگل نزدیک به ۱۴ درصد از سهام این شرکت را تصاحب خواهند کرد.",
+   "deep": {
+    "id": "b397f013e7",
+    "title_fa": "سهم ۳۰ درصدی آمازون و گوگل از آنتروپیک در آستانه عرضه اولیه سهام",
+    "summary_fa": "بر اساس اطلاعات منتشرشده از اسناد عرضه اولیه عمومی سهام (IPO) آنتروپیک (Anthropic)، دو غول فناوری آمازون (Amazon) و گوگل (Google) در مجموع نزدیک به ۳۰ درصد از این شرکت هوش مصنوعی را در اختیار خواهند داشت. سهم آمازون حدود ۱۴.۷ درصد خواهد بود که پتانسیل افزایش تا ۲۳.۸ درصد را نیز دارد. گوگل نیز حدود ۱۳.۷ درصد از سهام بدون حق رأی را به دست می‌آورد. همچنین آنتروپیک متعهد شده طی یک دهه آینده بیش از ۱۰۰ میلیارد دلار از سرویس‌های ابری آمازون (AWS) استفاده کند.",
+    "key_points_fa": [
+     "مالکیت نزدیک به ۳۰ درصدی آمازون و گوگل بر سهام آنتروپیک پس از IPO",
+     "سهم ۱۴.۷ درصدی آمازون با امکان افزایش به ۲۳.۸ درصد در صورت تبدیل تمام اسناد سرمایه‌گذاری",
+     "سهم ۱۳.۷ درصدی گوگل از سهام بدون حق رأی شرکت",
+     "خرید ۲۶ میلیارد دلار سهام بدون رأی توسط کنسرسیومی از غول‌های تراشه شامل گوگل، انویدیا، AMD و مایکروسافت",
+     "سرمایه‌گذاری ۱۰ میلیارد دلاری مستقل توسط هر کدام از شرکت‌های گوگل و انویدیا",
+     "تعهد تجاری آنتروپیک به پرداخت بیش از ۱۰۰ میلیارد دلار برای خرید خدمات کلاود AWS طی ۱۰ سال"
+    ],
+    "why_it_matters_fa": "سازنده مدل‌های کلاود (Claude) در حال تبدیل شدن به یک غول مستقل در بورس است و سرمایه‌گذاری‌های سنگین ابری نشان از نبرد عظیم زیرساخت در حوزه هوش مصنوعی دارد.",
+    "content_ideas": [
+     {
+      "format": "کاروسل",
+      "title_fa": "چه کسانی صاحب واقعی سازنده مدل کلود هستند؟",
+      "hook_fa": "پشت صحنه شرکت آنتروپیک چه غول‌هایی نشسته‌اند؟",
+      "angle_fa": "بررسی اتحادهای بزرگ هوش مصنوعی و برندگان مالی عرضه اولیه سهام آنتروپیک.",
+      "outline_fa": [
+       "توضیح ورود آنتروپیک به بورس و ارزش‌گذاری آن",
+       "سهم عظیم آمازون و معامله ۱۰۰ میلیارد دلاری سرورهای ابری",
+       "حضور پررنگ گوگل، انویدیا و مایکروسافت در صف سهامداران",
+       "مقایسه این ائتلاف با مدل همکاری اوپن‌ای‌آی و مایکروسافت"
+      ],
+      "visual_tip_fa": "نمودار دایره‌ای از ساختار مالکان سهام آنتروپیک با لوگوهای آمازون، گوگل و آنتروپیک."
+     },
+     {
+      "format": "استوری",
+      "title_fa": "قرارداد نجومی ۱۰۰ میلیارد دلاری آمازون و کلود!",
+      "hook_fa": "رقابت غول‌های ابری وارد ابعاد چند صد میلیارد دلاری شد!",
+      "angle_fa": "اشتراک ارقام حیرت‌انگیز مالی IPO و میزان وابستگی سازندگان مدل‌ها به پردازش ابری.",
+      "outline_fa": [
+       "اشاره به تعهد ۱۰۰ میلیارد دلاری استفاده از سرورهای AWS",
+       "سهم مالکیت ۱۴.۷ درصدی آمازون",
+       "طرح سوال برای مخاطب: فکر می‌کنی کلود قوی‌تره یا چت‌جی‌پی‌تی؟"
+      ],
+      "visual_tip_fa": "اسکرین‌شات تیتر خبر همراه با گیف‌های جذاب مربوط به پول و سرورهای پردازشی."
+     }
+    ],
+    "hashtags": [
+     "#آنتروپیک",
+     "#کلود",
+     "#Anthropic",
+     "#Claude",
+     "#آمازون",
+     "#گوگل",
+     "#بورس"
+    ],
+    "caution_fa": ""
+   },
+   "id": "b397f013e7"
+  },
+  {
+   "title": "SEC reportedly investigating Nvidia amid Huang exit",
+   "url": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/",
+   "source": "TechCrunch",
+   "published": "2026-11-17T21:48:07+00:00",
+   "summary": "The SEC is opening a probe into Nvidia following the departure of CEO Jensen Huang, who admitted to an affair with an alleged Chinese spy, reports The Wall Street Journal.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 8,
+   "worthiness": 8,
+   "category": "policy_regulation",
+   "story_key": "sec-investigates-nvidia-huang",
+   "topic_key": "nvidia-crisis",
+   "already_reported": false,
+   "title_fa": "آغاز تحقیقات رسمی نهاد نظارتی بورس آمریکا درباره انویدیا و ماجرای هوانگ",
+   "one_liner_fa": "کمیسیون بورس و اوراق بهادار آمریکا (SEC) در پی استعفای جن‌سن هوانگ (Jensen Huang) و ماجرای ارتباط با مظنون به جاسوسی، بررسی‌های خود را علیه انویدیا آغاز کرد.",
+   "deep": {},
+   "id": "28fff23dec"
+  },
+  {
+   "title": "Model ML raises $250M to automate investment banking grunt work",
+   "url": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/",
+   "source": "TechCrunch",
+   "published": "2026-11-17T19:32:11+00:00",
+   "summary": "The startup says its agents understand the full context of deals that bankers and consultants are working on and can automatically update financial models and presentations when new developments affect their analysis.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 4,
+   "category": "business_funding",
+   "story_key": "model-ml-250m-funding",
+   "topic_key": "fintech-ai-agents",
+   "already_reported": false,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "id": "776157cf22"
+  },
+  {
+   "title": "Google expands access to Gemini Tasks, which can help with calls, purchases",
+   "url": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
+   "source": "TechCrunch",
+   "published": "2026-11-17T19:02:20+00:00",
+   "summary": "Gemini's Task mode can help users coordinate calls, log into websites, and even make purchases on the user's behalf.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2026/06/gemini-app-GettyImages-2276204472-1.jpg?w=1024",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2026/06/gemini-app-GettyImages-2276204472-1.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2025/12/495cdfd5deaad915a1ad58ab35edcbaa84b90c4ce9b7ded356c5ad1b61884800.png?w=668",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2026/11/google-gemini-app.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2202707012.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-157503102.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2026/03/jensen-huang-gtc-getty.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 8,
+   "category": "product_launch",
+   "story_key": "gemini-tasks-expansion",
+   "topic_key": "google-gemini-agent",
+   "already_reported": false,
+   "title_fa": "قابلیت تسک در جیمینای گوگل؛ هوش مصنوعی دستیار تلفنی و خرید شما شد",
+   "one_liner_fa": "گوگل دسترسی به حالت Gemini Tasks را توسعه داد؛ قابلیتی که می‌تواند هماهنگی تماس‌ها، ورود به سایت‌ها و انجام خریدهای اینترنتی را به طور خودکار انجام دهد.",
+   "deep": {
+    "id": "3aa0c6065a",
+    "title_fa": "قابلیت تسک در جیمینای گوگل؛ هوش مصنوعی دستیار تلفنی و خرید شما شد",
+    "summary_fa": "گوگل (Google) دسترسی به قابلیت تسک (Tasks) را در هوش مصنوعی جیمینای (Gemini) به شکل چشمگیری گسترش داد تا به یک دستیار شخصی اجرایی تبدیل شود. برخلاف حالت مکالمه معمولی، بخش تسک می‌تواند به نمایندگی از کاربر با کسب‌وکارها تماس تلفنی برقرار کند، نوبت رزرو کند یا از طریق گوگل پلی (Google Pay) خریدهای آنلاین انجام دهد. این ویژگی که بر پایه مدل جدید جیمینای ۴ هایدروژن (Gemini 4 Hydrogen) کار می‌کند، اکنون برای صدها میلیون کاربر به صورت رایگان فعال شده و فقط با زدن یک سوییچ درون برنامه در دسترس است.",
+    "key_points_fa": [
+     "تبدیل چت‌بات به دستیار اجرایی با اضافه شدن سوییچ Tasks",
+     "امکان برقراری تماس صوتی مستقل برای هماهنگی وقت و خدمات",
+     "قابلیت انجام مستقیم خریدها با پشتیبانی از گوگل پلی (Google Pay)",
+     "امکان ورود ایمن به وب‌سایت‌ها و تحلیل مدارکی مانند قبوض برق",
+     "عرضه رایگان برای صدها میلیون کاربر متکی بر مدل جدید Gemini 4 Hydrogen",
+     "تغییر آسان وضعیت میان چت متنی ساده و حالت کارهای اجرایی با یک دکمه"
+    ],
+    "why_it_matters_fa": "هوش مصنوعی از یک مشاور متنی صرف در حال تبدیل شدن به یک مأمور هوشمند (AI Agent) است که می‌تواند به جای شما کارهای خسته‌کننده اداری و تماس‌ها را انجام دهد.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "این هوش مصنوعی خودش به جای شما تلفن می‌زنه!",
+      "hook_fa": "دیگه لازم نیست خودت به تعمیرگاه یا دکتر زنگ بزنی؛ جیمینای خودش زنگ می‌زنه و وقت می‌گیره!",
+      "angle_fa": "معرفی جنبه‌های کاربری و کاربردی هوش مصنوعی ایجنتیک گوگل در زندگی واقعی.",
+      "outline_fa": [
+       "دموی ذهنی از سناریوی زنگ زدن هوش مصنوعی و رزرو وقت",
+       "معرفی بخش جدید Tasks در اپلیکیشن Gemini",
+       "توضیح قابلیت‌های خرید آنلاین و تحلیل فاکتورها",
+       "روش فعال‌سازی و رایگان بودن آن با مدل Gemini 4 Hydrogen"
+      ],
+      "visual_tip_fa": "استفاده از اسکرین‌شات‌های اپلیکیشن با نمایش دکمه سوییچ Tasks و انیمیشن برقراری تماس صوتی."
+     },
+     {
+      "format": "پست",
+      "title_fa": "راهنمای قابلیت Tasks در Gemini گوگل",
+      "hook_fa": "چگونه هوش مصنوعی را به منشی ۲۴ ساعته خودمان تبدیل کنیم؟",
+      "angle_fa": "بررسی فنی‌تر ورود گوگل به حیطه AI Agentها و کارهایی که تسک برای کاربر انجام می‌دهد.",
+      "outline_fa": [
+       "تفاوت حالت معمولی Chat با حالت وظایف Tasks",
+       "فهرست کارهایی که می‌تواند بکند (تماس، خرید، لاگین)",
+       "مدل زبانی پشتیبان (Gemini 4 Hydrogen) و وضعیت دسترسی کاربران"
+      ],
+      "visual_tip_fa": "اینفوگرافیک گام‌به‌گام کارکرد تسک‌ها همراه با آیکون‌های تماس، پرداخت و امنیت."
+     }
+    ],
+    "hashtags": [
+     "#گوگل",
+     "#جیمینای",
+     "#Gemini",
+     "#دستیار_هوش_مصنوعی",
+     "#تکنولوژی",
+     "#ای_آی"
+    ],
+    "caution_fa": ""
+   },
+   "id": "3aa0c6065a"
+  },
+  {
+   "title": "Google to keep Gemini chats for 2 months, up from 72 hours, even with history off",
+   "url": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/",
+   "source": "TechCrunch",
+   "published": "2026-11-17T18:48:23+00:00",
+   "summary": "Google's Gemini update extending chat retention will roll out globally over the coming weeks.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "safety_ethics",
+   "story_key": "gemini-chat-retention-privacy",
+   "topic_key": "google-gemini-privacy",
+   "already_reported": false,
+   "title_fa": "تغییر جنجالی حریم خصوصی گوگل: نگهداری چت‌های جمینای تا ۲ ماه حتی با خاموش بودن تاریخچه!",
+   "one_liner_fa": "گوگل اعلام کرد مدت زمان نگهداری مکالمات کاربران در جمینای (Gemini) را حتی در صورت غیرفعال بودن تاریخچه، از ۷۲ ساعت به ۲ ماه افزایش می‌دهد.",
+   "deep": {},
+   "id": "3a4b135687"
+  },
+  {
+   "title": "Proton’s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop",
+   "url": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/",
+   "source": "TechCrunch",
+   "published": "2026-11-17T17:32:25+00:00",
+   "summary": "Proton's new Lumo Desktop app for Windows, Mac, and Linux lets users automate tasks across files and connected apps, with granular controls over what its AI can access.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "product_launch",
+   "story_key": "proton-lumo-desktop-launch",
+   "topic_key": "proton-lumo",
+   "already_reported": false,
+   "title_fa": "لومو روی دسکتاپ؛ جایگزین امن و محافظ حریم خصوصی برای چت‌جی‌پی‌تی",
+   "one_liner_fa": "پروتون (Proton) نسخه دسکتاپ دستیار هوش مصنوعی خود به نام لومو (Lumo) را با تمرکز ویژه بر امنیت و کنترل دسترسی فایل‌ها برای ویندوز، مک و لینوکس عرضه کرد.",
+   "deep": {},
+   "id": "6ab4eb3121"
+  },
+  {
+   "title": "AI models can be tricked into identifying civilians as military targets by telling them it’s a game",
+   "url": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/",
+   "source": "TechCrunch",
+   "published": "2026-11-17T17:20:41+00:00",
+   "summary": "Vals, a San Francisco-based AI evaluation startup, tested whether leading AI models could be manipulated into participating in autonomous warfare. They usually compiled.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "safety_ethics",
+   "story_key": "ai-models-civilian-targets-game-jailbreak",
+   "topic_key": "ai-military-safety",
+   "already_reported": false,
+   "title_fa": "فریب خطرناک هوش مصنوعی: تبدیل غیرنظامیان به اهداف نظامی در قالب یک بازی ساده!",
+   "one_liner_fa": "آزمایش‌های یک استارتاپ امنیتی نشان داد که با معرفی عملیات به شکل بازی، می‌توان مدل‌های پیشرو هوش مصنوعی را برای تعیین غیرنظامیان به عنوان اهداف جنگی فریب داد.",
+   "deep": {},
+   "id": "b20533735b"
+  },
+  {
+   "title": "Jensen Huang says he would be ‘honored’ if allowed to return as Nvidia CEO",
+   "url": "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo/",
+   "source": "TechCrunch",
+   "published": "2026-11-17T16:44:15+00:00",
+   "summary": "In the first public statement since his resignation, Nvidia founder Jensen Huang signaled his willingness to return as CEO.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/jensen-huang-said-hed-be-honored-to-return-as-nvidia-ceo-because-of-course-he-would/l-intro-1794936519.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [
+    "Engadget"
+   ],
+   "importance": 7,
+   "worthiness": 7,
+   "category": "big_tech",
+   "story_key": "huang-wants-return-nvidia",
+   "topic_key": "nvidia-crisis",
+   "already_reported": false,
+   "title_fa": "جن‌سن هوانگ: افتخار می‌کنم اگر اجازه بازگشت به مدیریت انویدیا را داشته باشم",
+   "one_liner_fa": "جن‌سن هوانگ (Jensen Huang) در اولین واکنش رسمی پس از استعفای شوکه‌کننده‌اش، برای بازگشت به عنوان مدیرعامل انویدیا ابراز تمایل کرد.",
+   "deep": {},
+   "id": "950a39f90b"
+  },
+  {
+   "title": "Daydream’s new AI agent acts as your personal stylist — and can shop for you, too",
+   "url": "https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too/",
+   "source": "TechCrunch",
+   "published": "2026-11-17T16:32:55+00:00",
+   "summary": "Daydream's new AI shopping agent can remember your style, virtually try on clothes, plan outfits around your wardrobe, track sales, and complete purchases.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 6,
+   "category": "product_launch",
+   "story_key": "daydream-ai-shopping-agent",
+   "topic_key": "ai-shopping-agents",
+   "already_reported": false,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "id": "9073920a14"
+  },
+  {
+   "title": "Voyage Labs raises $12 million for a specialized AI travel assistant",
+   "url": "https://techcrunch.com/2026/11/17/voyage-labs-raises-12-million-for-a-specialized-ai-travel-assistant/",
+   "source": "TechCrunch",
+   "published": "2026-11-17T15:00:00+00:00",
+   "summary": "Voyage Labs’ flagship product is called Atlas, meant to work as a personal assistant for your trip-planning, available today in private beta.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 4,
+   "category": "business_funding",
+   "story_key": "voyage-labs-12m-funding",
+   "topic_key": "ai-travel-agents",
+   "already_reported": false,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "id": "df92921082"
+  },
+  {
+   "title": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials",
+   "url": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
+   "source": "TechCrunch",
+   "published": "2026-11-17T14:50:58+00:00",
+   "summary": "Isomorphic Labs, the AI drug-discovery platform that was spun out of Google’s DeepMind in 2021, has raised $5 billion in a Series C funding round.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 8,
+   "worthiness": 6,
+   "category": "business_funding",
+   "story_key": "isomorphic-labs-5b-funding",
+   "topic_key": "ai-biotech-drug-discovery",
+   "already_reported": false,
+   "title_fa": "سرمایه‌گذاری تاریخی ۵ میلیارد دلاری روی پلتفرم کشف داروی هوش مصنوعی دیپ‌مایند",
+   "one_liner_fa": "شرکت آیزومورفیک لبز (Isomorphic Labs)، زیرمجموعه دیپ‌مایند گوگل، موفق به جذب سرمایه عظیم ۵ میلیارد دلاری برای بردن داروهای هوش مصنوعی به فاز آزمایش بالینی شد.",
+   "deep": {},
+   "id": "ed47f6db49"
+  },
+  {
+   "title": "Science Corporation’s brain tech is worth $3.5 billion after new funding",
+   "url": "https://techcrunch.com/2026/11/17/science-corporations-brain-tech-is-worth-3-5-billion-after-new-funding/",
+   "source": "TechCrunch",
+   "published": "2026-11-17T14:26:46+00:00",
+   "summary": "Science Corp. raised a $400 million Series D to scale up its anti-blindness business.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 6,
+   "category": "business_funding",
+   "story_key": "science-corp-400m-funding",
+   "topic_key": "bci-neurotech",
+   "already_reported": false,
+   "title_fa": "ارزش ۳.۵ میلیارد دلاری ساینس کورپ؛ پیشرفت چشمگیر فناوری درمان نابینایی با رابط مغزی",
+   "one_liner_fa": "استارتاپ رابط مغز و رایانه ساینس کورپ (Science Corp) با جذب ۴۰۰ میلیون دلار سرمایه جدید، ارزش خود را به ۳.۵ میلیارد دلار رساند.",
+   "deep": {},
+   "id": "6755813e5c"
+  },
+  {
+   "title": "Nvidia’s first big move after Jensen Huang’s exit targets national security",
+   "url": "https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security/",
+   "source": "TechCrunch",
+   "published": "2026-11-17T14:05:30+00:00",
+   "summary": "The new standing committee will give board-level oversight of national security policies, export control compliance, and global trade risks, the company said.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 5,
+   "category": "big_tech",
+   "story_key": "nvidia-national-security-committee",
+   "topic_key": "nvidia-crisis",
+   "already_reported": false,
+   "title_fa": "اقدام فوری انویدیا: تشکیل کمیته امنیت ملی پس از بحران اخیر",
+   "one_liner_fa": "انویدیا (NVIDIA) برای نظارت مستقیم هیئت‌مدیره بر قوانین کنترل صادرات و ریسک‌های تجارت جهانی، یک کمیته امنیت ملی ایجاد کرد.",
+   "deep": {},
+   "id": "2a8f3e96bb"
+  },
+  {
+   "title": "You can now see and edit what Google Gemini remembers about you",
+   "url": "https://www.engadget.com/2315475/google-gemini-memory-summary-see-what-remembers-about-you/",
+   "source": "Engadget",
+   "published": "2026-11-18T00:00:00+00:00",
+   "summary": "Editing the AI's memory is one way you can shape its responses.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/you-can-now-see-and-edit-what-google-gemini-remembers-about-you/l-intro-1794427961.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "product_launch",
+   "story_key": "gemini-memory-management",
+   "topic_key": "google-gemini",
+   "already_reported": false,
+   "title_fa": "امکان مشاهده و ویرایش حافظه هوش مصنوعی جمینای فراهم شد",
+   "one_liner_fa": "گوگل قابلیتی را فعال کرده که به کاربران امکان می‌دهد حافظه و اطلاعاتی را که جمینای (Gemini) از آنها ذخیره کرده مدیریت و ویرایش کنند.",
+   "deep": {},
+   "id": "83e37ded13"
+  },
+  {
+   "title": "Oregon is the latest state to sue OpenAI over child safety",
+   "url": "https://www.engadget.com/2320041/oregon-is-the-latest-state-to-sue-openai-over-child-safety/",
+   "source": "Engadget",
+   "published": "2026-11-17T23:45:32+00:00",
+   "summary": "Oregon's Attorney General filed a lawsuit against the maker of ChatGPT over alleged child safety issues.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/oregon-is-the-latest-state-to-sue-openai-over-child-safety/l-intro-1794959005.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 5,
+   "category": "policy_regulation",
+   "story_key": "oregon-sues-openai-child-safety",
+   "topic_key": "openai-legal-battles",
+   "already_reported": false,
+   "title_fa": "شکایت دادستان اورگان از اوپن‌ای‌آی به دلیل به خطر انداختن ایمنی کودکان",
+   "one_liner_fa": "دادستان کل ایالت اورگان با طرح دادخواستی قانونی، سازنده چت‌جی‌پی‌تی را به نقض استانداردهای محافظت از کودکان متهم کرد.",
+   "deep": {},
+   "id": "743b55ca58"
+  },
+  {
+   "title": "NVIDIA's board chair says the company is not considering reinstating Jensen Huang as CEO",
+   "url": "https://www.engadget.com/2319982/nvidias-board-chair-says-the-company-is-not-considering-reinstating-jensen-huang-as-ceo/",
+   "source": "Engadget",
+   "published": "2026-11-17T22:21:27+00:00",
+   "summary": "NVIDIA's board chair said it doesn't want Jensen Huang back in the CEO role during the company's first earnings call since his resignation.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/nvidias-board-chair-says-the-company-is-not-considering-reinstating-jensen-huang-as-ceo/l-intro-1794956015.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/nvidias-board-chair-says-the-company-is-not-considering-reinstating-jensen-huang-as-ceo/intro-1794956015.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [
+    "TechCrunch"
+   ],
+   "importance": 8,
+   "worthiness": 8,
+   "category": "big_tech",
+   "story_key": "nvidia-rejects-huang-return",
+   "topic_key": "nvidia-crisis",
+   "already_reported": false,
+   "title_fa": "تخته‌گاز انویدیا بدون جن‌سن هوانگ؛ بازگشت مدیرعامل سابق منتفی شد",
+   "one_liner_fa": "رئیس هیئت‌مدیره انویدیا (NVIDIA) در اولین گزارش مالی شرکت پس از استعفای جن‌سن هوانگ رسماً اعلام کرد هیچ برنامه‌ای برای بازگرداندن او وجود ندارد.",
+   "deep": {
+    "id": "c0493b17ff",
+    "title_fa": "تخته‌گاز انویدیا بدون جن‌سن هوانگ؛ بازگشت مدیرعامل سابق منتفی شد",
+    "summary_fa": "هاروی جونز (Harvey Jones)، رئیس هیئت مدیره انویدیا (NVIDIA)، اعلام کرد که این شرکت هیچ برنامه‌ای برای بازگرداندن جن‌سن هوانگ (Jensen Huang) به سمت مدیرعاملی ندارد. هوانگ در ۱۲ نوامبر پس از نقض کدهای اخلاقی استعفا داده بود، هرچند بعداً تمایل خود را برای بازگشت ابراز کرد. همزمان، انویدیا درآمد خیره‌کننده سه‌ماهه سوم خود را ۱۱۵.۸ میلیارد دلار گزارش داد که رشد سالانه ۱۰۳ درصدی را نشان می‌دهد. با وجود این رکوردزنی‌ها، گزارش‌ها از آغاز تحقیقات کمیسیون بورس (SEC) و اف‌بی‌آی (FBI) پیرامون وضعیت اخیر حکایت دارد.",
+    "key_points_fa": [
+     "رد رسمی و قطعی بازگشت جن‌سن هوانگ توسط رئیس هیئت مدیره انویدیا",
+     "استعفای داوطلبانه هوانگ در ۱۲ نوامبر در پی رفتار مغایر با اصول اخلاقی شرکت",
+     "مدیریت موقت شرکت توسط کولت کرس (Colette Kress) و جست‌وجو برای مدیرعامل دائم",
+     "درآمد باورنکردنی ۱۱۵.۸ میلیارد دلاری در سه‌ماهه سوم (رشد سالانه ۱۰۳٪ و بالاتر از پیش‌بینی ۱۰۹.۱ میلیاردی)",
+     "درآمد ۱۰۷.۶ میلیارد دلاری بخش دیتاسنتر انویدیا در این فصل",
+     "افت ۱۱ درصدی سهام انویدیا از زمان استعفای هوانگ تا پیش از گزارش",
+     "آغاز بررسی‌های نظارتی توسط SEC و FBI در خصوص تحولات اخیر"
+    ],
+    "why_it_matters_fa": "انویدیا ستون فقرات سخت‌افزاری انقلاب هوش مصنوعی است و تغییر رهبری آن همزمان با درآمدهای فضایی، بازارهای جهانی و مسیر آینده این صنعت را تحت تأثیر قرار می‌دهد.",
+    "content_ideas": [
+     {
+      "format": "کاروسل",
+      "title_fa": "پایان دوران جن‌سن هوانگ در انویدیا؛ پشت پرده چه می‌گذرد؟",
+      "hook_fa": "۱۱۵ میلیارد دلار درآمد، ولی مدیرعامل افسانه‌ای اخراج شد؟!",
+      "angle_fa": "روایت تناقض بزرگ: رکورد تاریخی درآمد در مقابل بحران مدیریتی و ورود FBI.",
+      "outline_fa": [
+       "ماجرای رد بازگشت هوانگ توسط هیئت مدیره پس از استعفای بحث‌برانگیز",
+       "بررسی ارقام عجیب درآمد ۱۱۵.۸ میلیارد دلاری و بخش دیتاسنتر",
+       "جزئیات بیانیه‌های کولت کرس و پیام اخیر هوانگ در توییتر (X)",
+       "تحقیقات SEC و FBI و سناریوهای پیش روی غول تراشه‌سازی"
+      ],
+      "visual_tip_fa": "تصاویر رسمی هوانگ و کرس در اسلاید اول، استفاده از نمودارهای ستونی درآمد و بولت‌های پرکنتراست در اسلایدهای بعدی."
+     },
+     {
+      "format": "ریلز",
+      "title_fa": "انویدیا رسماً درهای بازگشت رو بست!",
+      "hook_fa": "فکر می‌کردید جن‌سن هوانگ برمی‌گرده؟ هیئت مدیره انویدیا گفت اصلاً حرفشم نزنید!",
+      "angle_fa": "توضیح کوتاه و شوکه‌کننده آخرین جلسه مالی و بیانیه صریح رئیس هیئت مدیره علی‌رغم سود نجومی.",
+      "outline_fa": [
+       "خلاصه واکنش تند هیئت مدیره به پست توییتری هوانگ",
+       "اعلام آمار وحشتناک فروش ۱۱۵ میلیارد دلاری در سه ماه",
+       "اشاره به چالش‌های پیش رو از جمله بررسی‌های قانونی نهادهای فدرال"
+      ],
+      "visual_tip_fa": "تیترهای خبرگزاری‌ها همراه با عکس جن‌سن هوانگ در کت چرمی معروفش و گرافیک قرمز برای عبارت رد صلاحیت بازگشت."
+     }
+    ],
+    "hashtags": [
+     "#انویدیا",
+     "#Nvidia",
+     "#تکنولوژی",
+     "#جن_سن_هوانگ",
+     "#هوش_مصنوعی",
+     "#اقتصاد_دیجیتال"
+    ],
+    "caution_fa": "روی قطعی بودن تصمیم هیئت مدیره تأکید کنید و ماجرای بازگشت را شایعه ندانید؛ صراحتاً در گزارش رسمی مالی این موضوع اعلام شده است."
+   },
+   "id": "c0493b17ff"
+  },
+  {
+   "title": "Waymo is pausing all freeway rides after California DMV says the robotaxis are 'imminent hazard to public safety'",
+   "url": "https://www.engadget.com/2319947/waymo-is-pausing-all-freeway-rides-after-california-dmv-says-the-robotaxis-are-imminent-hazard-to-public-safety/",
+   "source": "Engadget",
+   "published": "2026-11-17T21:57:49+00:00",
+   "summary": "Restrictions were made by California's DMV after a driverless Waymo was caught trying to pass a Highway Patrol vehicle that was slowing traffic.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/waymo-is-pausing-all-freeway-rides-after-california-dmv-says-the-robotaxis-are-imminent-hazard-to-public-safety/l-intro-1794952210.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "embed",
+     "url": "https://www.youtube.com/watch?v=PT2wtolCEg8",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/waymo-is-pausing-all-freeway-rides-after-california-dmv-says-the-robotaxis-are-imminent-hazard-to-public-safety/intro-1794952210.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://img.youtube.com/vi/PT2wtolCEg8/maxresdefault.jpg",
+     "origin": "youtube"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 8,
+   "category": "safety_ethics",
+   "story_key": "waymo-california-freeway-pause",
+   "topic_key": "waymo-autonomous-vehicles",
+   "already_reported": false,
+   "title_fa": "ترمز ویمو کشیده شد؛ توقف تاکسی‌های خودران در بزرگراه‌های آمریکا",
+   "one_liner_fa": "در پی سبقت غیرمجاز و پرخطر یک تاکسی خودران ویمو (Waymo) از خودروی پلیس، اداره خودروهای کالیفرنیا تردد آنها در بزرگراه‌ها را متوقف کرد.",
+   "deep": {
+    "id": "083795dd17",
+    "title_fa": "ترمز ویمو کشیده شد؛ توقف تاکسی‌های خودران در بزرگراه‌های آمریکا",
+    "summary_fa": "اداره وسایل نقلیه کالیفرنیا (DMV) با «خطر قریب‌الوقوع برای ایمنی عمومی» خواندن تاکسی‌های خودران ویمو (Waymo)، تردد آن‌ها را در تمام بزرگراه‌های این ایالت ممنوع کرد. در پی این تصمیم که از ۱۱ نوامبر اجرایی شده، ویمو سرویس‌دهی بزرگراهی خود را در سراسر آمریکا متوقف کرده است. علت این ممنوعیت، ورود خودروهای ویمو به محوطه کارگاهی و تلاش خطرناک برای سبقت از ماشین پلیس راهور اعلام شده است. فعالیت این تاکسی‌ها فعلاً تنها به خیابان‌های داخل شهری محدود خواهد بود.",
+    "key_points_fa": [
+     "ممنوعیت تردد تاکسی‌های خودران ویمو در بزرگراه‌های ایالت کالیفرنیا توسط DMV",
+     "توصیف تاکسی‌های بدون راننده ویمو به عنوان «خطر قریب‌الوقوع برای ایمنی عمومی»",
+     "تعلیق داوطلبانه سفرهای بزرگراهی توسط ویمو در کل بازارهای فعال خود در آمریکا",
+     "دلایل توقیف: ورود به منطقه کارگاهی مسدود و تلاش برای سبقت از خودروی گشت پلیس",
+     "ادامه ارائه خدمات ویمو صرفاً در خیابان‌های عادی و شهری (Surface streets)",
+     "سابقه فراخوان ۳۸۰۰ دستگاه خودروی ویمو در ژوئن گذشته برای مشکلات مشابه"
+    ],
+    "why_it_matters_fa": "حذف دسترسی به بزرگراه‌ها باعث افزایش زمان سفر، بالا رفتن هزینه‌ها و یک چالش رگولاتوری بزرگ برای آینده تاکسی‌های اینترنتی خودران می‌شود.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "بزرگراه‌ها به روی ماشین‌های خودران بسته شد!",
+      "hook_fa": "پلیس راهور آمریکا ترمز روبوتاکسی‌های ویمو رو کشید؛ سبقت از ماشین پلیس کار دستشون داد!",
+      "angle_fa": "روایت حادثه و چالش‌های فنی هوش مصنوعی در درک شرایط جاده و علائم پلیس.",
+      "outline_fa": [
+       "توضیح ماجرای سبقت گرفتن تاکسی خودران از ماشین پلیس",
+       "حکم تند اداره راهنمایی و رانندگی و لغو تردد در اتوبان‌ها",
+       "پیامدهای این تصمیم بر زمان سفر مسافران و آینده خودروهای بی‌راننده"
+      ],
+      "visual_tip_fa": "استفاده از ویدیوی ضمیمه‌شده به مقاله در یوتوب و فوتیج‌های موجود از خطاهای روبوتاکسی‌ها در خیابان."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "چرا خودروهای خودران ویمو در بزرگراه‌ها ممنوع شدند؟",
+      "hook_fa": "آیا هوش مصنوعی واقعاً برای رانندگی در سرعت‌های بالا آماده است؟",
+      "angle_fa": "تحلیل موشکافانه خطاهای سیستم رانندگی خودران در موقعیت‌های خاص و قوانین ایمنی.",
+      "outline_fa": [
+       "شرح ماجرای منطقه کارگاهی برلینگیم و پلیس بزرگراه",
+       "سابقه مشکلات ویمو و فراخوان‌های قبلی خودروها",
+       "تاثیر روی رقبایی مثل اوبر و آینده حمل‌ونقل شهری"
+      ],
+      "visual_tip_fa": "تصاویر روبوتاکسی‌های ویمو در جاده‌ها با علائم هشداردهنده و اینفوگرافیک دلایل توقف."
+     }
+    ],
+    "hashtags": [
+     "#ویمو",
+     "#خودرو_خودران",
+     "#Waymo",
+     "#تکنولوژی",
+     "#ماشین_هوشمند",
+     "#اخبار_فناوری"
+    ],
+    "caution_fa": ""
+   },
+   "id": "083795dd17"
+  },
+  {
+   "title": "Jensen Huang said he'd be 'honored' to return as NVIDIA CEO, because of course he would",
+   "url": "https://www.engadget.com/2319382/jensen-huang-said-hed-be-honored-to-return-as-nvidia-ceo-because-of-course-he-would/",
+   "source": "Engadget",
+   "published": "2026-11-17T17:29:48+00:00",
+   "summary": "Huang is set to testify before congressional committees on December 1.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/jensen-huang-said-hed-be-honored-to-return-as-nvidia-ceo-because-of-course-he-would/l-intro-1794936519.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 6,
+   "category": "big_tech",
+   "story_key": "huang-wants-return-nvidia",
+   "topic_key": "nvidia-crisis",
+   "already_reported": false,
+   "title_fa": "آمادگی هوانگ برای حضور در کنگره همزمان با ابراز تمایل برای بازگشت به انویدیا",
+   "one_liner_fa": "در حالی که جن‌سن هوانگ خود را آماده ادای توضیحات در کنگره آمریکا می‌کند، بار دیگر اعلام کرد مشتاق بازگشت به جایگاه خود در انویدیا است.",
+   "deep": {},
+   "id": "be1a96e592"
+  },
+  {
+   "title": "External sandboxes for coding agents",
+   "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+   "source": "Simon Willison",
+   "published": "2026-11-17T22:52:29+00:00",
+   "summary": "External sandboxes for coding agents I've been exploring new ways to sandbox code that is executed by agents, with a focus on making it safer to try out local models without worrying that a mistake or prompt injection attack might cause them to take damaging actions on a machine. I worked on this project with Prime Radiant , the AI research lab behind Superpowers and other projects . My post on the Prime Radiant blog introduces the external sandbox pattern, where code executed by the agent runs inside a dedicated sandbox while the agent itself lives outside of that sandbox. To demonstrate this",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 4,
+   "category": "research",
+   "story_key": "external-sandboxes-coding-agents",
+   "topic_key": "coding-agents-security",
+   "already_reported": false,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "id": "c60558e985"
+  },
+  {
+   "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
+   "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+   "source": "Simon Willison",
+   "published": "2026-11-17T22:38:52+00:00",
+   "summary": "GPT‑6.2 Astra and GPT‑6.2 Sol OpenAI: We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work. They're available in the API as gpt-6.2-astra and gpt-6.2-sol . I shipped LLM 0.38 with support for the new models. 6.2 Astra is 80% of the price of 6 Astra - $8/MTok input and $40/MTok output, the same price as Claude Fable 5.2 (which was also 80% of its predecessor). 6 Astra and Fable 5 were both $10/$50. The cached price is an even bigger discount - $0.40/million compared to $1/million for the older model.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 10,
+   "worthiness": 9,
+   "category": "model_release",
+   "story_key": "gpt-6-2-astra-sol-launch",
+   "topic_key": "openai-models",
+   "already_reported": false,
+   "title_fa": "عرضه مدل‌های GPT-6.2 Astra و Sol در API اوپن‌ای‌آی",
+   "one_liner_fa": "سایمون ویلیسون گزارش داد که دو مدل پرچمدار جدید GPT-6.2 Astra و نسخه سبک‌تر Sol برای استفاده برنامه‌نویسان در دسترس قرار گرفته‌اند.",
+   "deep": {},
+   "id": "5cbc55e1b4"
+  },
+  {
+   "title": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide",
+   "url": "https://simonwillison.net/2026/Nov/17/datasette-lite/",
+   "source": "Simon Willison",
+   "published": "2026-11-17T16:48:33+00:00",
+   "summary": "Datasette Lite is my port of the Datasette Python application to run directly in the browser using WebAssembly and Pyodide . I've released a complete rewrite of Datasette Lite using service workers, and it's now almost indistinguishable from the real server-side application. You can now do all of the following, using a carefully crafted URL to lite.datasette.io : Load client-side Datasette to browse any SQLite database, JSON file, CSV file or SQL script Select a released version of Datasette to load from PyPI Load a specific commit, tag, or branch name from the Datasette GitHub repository Pick",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 3,
+   "category": "open_source",
+   "story_key": "datasette-lite-rewrite",
+   "topic_key": "datasette",
+   "already_reported": false,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "id": "5b15888867"
+  },
+  {
+   "title": "New Evidence Shows School Phone Bans Are Gradually Improving Test Scores",
+   "url": "https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html",
+   "source": "nytimes.com",
+   "published": "2026-11-17T11:45:51+00:00",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 1144 امتیاز، 574 کامنت",
+   "signal_value": 1144,
+   "discussion_url": "https://news.ycombinator.com/item?id=50530163",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 5,
+   "category": "other_tech",
+   "story_key": "school-phone-bans-test-scores",
+   "topic_key": "tech-education",
+   "already_reported": false,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "id": "a589afa528"
+  },
+  {
+   "title": "Windows 11 is collecting data on which coding agents and developer tools you use",
+   "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+   "source": "xusheng.dev",
+   "published": "2026-11-16T22:58:20+00:00",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 709 امتیاز، 590 کامنت",
+   "signal_value": 709,
+   "discussion_url": "https://news.ycombinator.com/item?id=50524736",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "safety_ethics",
+   "story_key": "windows-11-telemetry-dev-tools",
+   "topic_key": "microsoft-privacy",
+   "already_reported": false,
+   "title_fa": "جاسوسی ویندوز ۱۱ از ایجنت‌ها و ابزارهای کدنویسی برنامه‌نویسان!",
+   "one_liner_fa": "افشای داده‌های تلمتری ویندوز ۱۱ نشان داد که مایکروسافت اطلاعات استفاده توسعه‌دهندگان از ابزارهای کدنویسی و ایجنت‌های هوش مصنوعی را جمع‌آوری می‌کند.",
+   "deep": {},
+   "id": "81bd7f76e2"
+  },
+  {
+   "title": "Optimizely compromised, served malware on Zoom, GitLab",
+   "url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
+   "source": "blog.report-uri.com",
+   "published": "2026-11-16T23:00:34+00:00",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 664 امتیاز، 263 کامنت",
+   "signal_value": 664,
+   "discussion_url": "https://news.ycombinator.com/item?id=50524767",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 5,
+   "category": "safety_ethics",
+   "story_key": "optimizely-supply-chain-malware",
+   "topic_key": "cybersecurity-incidents",
+   "already_reported": false,
+   "title_fa": "هک زنجیره تأمین Optimizely و تزریق بدافزار در وب‌سایت‌های زوم و گیت‌لب",
+   "one_liner_fa": "حمله سایبری به زیرساخت پلتفرم Optimizely سبب انتشار اسکریپت‌های آلوده و بدافزار در سرویس‌های محبوبی چون زوم (Zoom) و گیت‌لب (GitLab) شد.",
+   "deep": {},
+   "id": "5c4fbe6517"
+  },
+  {
+   "title": "Apple Services Down",
+   "url": "https://developer.apple.com/system-status/",
+   "source": "developer.apple.com",
+   "published": "2026-11-17T17:47:14+00:00",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 619 امتیاز، 342 کامنت",
+   "signal_value": 619,
+   "discussion_url": "https://news.ycombinator.com/item?id=50535238",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 4,
+   "category": "other_tech",
+   "story_key": "apple-services-outage",
+   "topic_key": "apple-infrastructure",
+   "already_reported": false,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "id": "2722a52f92"
+  },
+  {
+   "title": "Java4Shell: RCE in OpenJDK when processing Base64",
+   "url": "https://calif.io/java4shell/",
+   "source": "calif.io",
+   "published": "2026-11-17T21:11:28+00:00",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 450 امتیاز، 116 کامنت",
+   "signal_value": 450,
+   "discussion_url": "https://news.ycombinator.com/item?id=50538240",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 5,
+   "category": "safety_ethics",
+   "story_key": "java4shell-openjdk-vulnerability",
+   "topic_key": "cybersecurity-vulnerabilities",
+   "already_reported": false,
+   "title_fa": "کشف آسیب‌پذیری بحرانی Java4Shell با امکان کنترل کامل سرورهای جاوا",
+   "one_liner_fa": "یک رخنه امنیتی بحرانی از نوع RCE در بخش پردازش Base64 بسته نرم‌افزاری OpenJDK کشف شد که میلیون‌ها سرور را در معرض خطر قرار داده است.",
+   "deep": {},
+   "id": "86aeaafbc0"
+  },
+  {
+   "title": "Highly classified US national security communications network goes down",
+   "url": "https://www.cnn.com/2026/11/17/politics/highly-classified-national-security-communications-network-goes-down",
+   "source": "cnn.com",
+   "published": "2026-11-17T15:38:28+00:00",
+   "summary": "https://www.reuters.com/technology/highly-classified-us-nati...",
+   "lang": "en",
+   "signal": "Hacker News: 449 امتیاز، 531 کامنت",
+   "signal_value": 449,
+   "discussion_url": "https://news.ycombinator.com/item?id=50532849",
+   "media": [],
+   "also_covered_by": [
+    "reuters.com"
+   ],
+   "importance": 7,
+   "worthiness": 6,
+   "category": "other_tech",
+   "story_key": "us-nsa-network-outage",
+   "topic_key": "us-national-security-outage",
+   "already_reported": false,
+   "title_fa": "قطعی مرموز شبکه ارتباطات فوق‌محرمانه امنیت ملی آمریکا",
+   "one_liner_fa": "شبکه ارتباطی طبقه‌بندی‌شده و فوق‌محرمانه امنیت ملی ایالات متحده با اختلال و قطعی گسترده روبه‌رو شد.",
+   "deep": {},
+   "id": "654cd43c84"
+  },
+  {
+   "title": "Nvidia stopped disclosing Singapore sales as revenues hit $104B",
+   "url": "https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf",
+   "source": "ft.com",
+   "published": "2026-11-17T17:12:06+00:00",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 371 امتیاز، 179 کامنت",
+   "signal_value": 371,
+   "discussion_url": "https://news.ycombinator.com/item?id=50534631",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 4,
+   "category": "big_tech",
+   "story_key": "nvidia-singapore-sales-disclosure",
+   "topic_key": "nvidia-crisis",
+   "already_reported": false,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "id": "3da82e8464"
+  },
+  {
+   "title": "NSA Internal Network Down",
+   "url": "https://www.reuters.com/technology/highly-classified-us-national-security-communications-network-is-down-cnn-2026-11-17/",
+   "source": "reuters.com",
+   "published": "2026-11-17T15:50:48+00:00",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 333 امتیاز، 4 کامنت",
+   "signal_value": 333,
+   "discussion_url": "https://news.ycombinator.com/item?id=50533089",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 5,
+   "category": "safety_ethics",
+   "story_key": "us-nsa-network-outage",
+   "topic_key": "us-national-security-outage",
+   "already_reported": false,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "id": "b1e509712f"
+  },
+  {
+   "title": "MAI Code 2 and Code 2 Flash",
+   "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
+   "source": "microsoft.ai",
+   "published": "2026-11-17T18:25:13+00:00",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 271 امتیاز، 129 کامنت",
+   "signal_value": 271,
+   "discussion_url": "https://news.ycombinator.com/item?id=50535885",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 7,
+   "category": "model_release",
+   "story_key": "mai-code-2-release",
+   "topic_key": "microsoft-ai-models",
+   "already_reported": false,
+   "title_fa": "پاسخ مایکروسافت با مدل‌های جدید برنامه‌نویسی MAI Code 2 و Flash",
+   "one_liner_fa": "تیم هوش مصنوعی مایکروسافت از دو مدل جدید و قدرتمند کدنویسی با نام‌های MAI Code 2 و Code 2 Flash رونمایی کرد.",
+   "deep": {},
+   "id": "23791fed6f"
+  },
+  {
+   "title": "Phrack 73 Released",
+   "url": "https://phrack.org/issues/73/introduction_md",
+   "source": "phrack.org",
+   "published": "2026-11-17T18:31:25+00:00",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 260 امتیاز، 28 کامنت",
+   "signal_value": 260,
+   "discussion_url": "https://news.ycombinator.com/item?id=50535992",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 3,
+   "category": "other_tech",
+   "story_key": "phrack-73-release",
+   "topic_key": "phrack-zine",
+   "already_reported": false,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "id": "0818b59eab"
+  },
+  {
+   "title": "How the Claude Code team thinks about verification",
+   "url": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
+   "source": "claude.dev",
+   "published": "2026-11-17T10:20:40+00:00",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 256 امتیاز، 201 کامنت",
+   "signal_value": 256,
+   "discussion_url": "https://news.ycombinator.com/item?id=50529612",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 5,
+   "category": "research",
+   "story_key": "claude-code-verification",
+   "topic_key": "anthropic-claude",
+   "already_reported": false,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "id": "069078b2b4"
+  },
+  {
+   "title": "jQuery 4.1.0",
+   "url": "https://github.com/jquery/jquery/releases/tag/4.1.0",
+   "source": "github.com",
+   "published": "2026-11-17T19:50:40+00:00",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 237 امتیاز، 129 کامنت",
+   "signal_value": 237,
+   "discussion_url": "https://news.ycombinator.com/item?id=50537156",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 4,
+   "category": "open_source",
+   "story_key": "jquery-4-1-release",
+   "topic_key": "jquery",
+   "already_reported": false,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "id": "6f09965645"
+  },
+  {
+   "title": "Solid 2.0",
+   "url": "https://www.solidjs.com/blog/solid-2-0-the-long-hold/",
+   "source": "solidjs.com",
+   "published": "2026-11-17T18:56:17+00:00",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 209 امتیاز، 55 کامنت",
+   "signal_value": 209,
+   "discussion_url": "https://news.ycombinator.com/item?id=50536387",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 4,
+   "category": "open_source",
+   "story_key": "solidjs-2-release",
+   "topic_key": "web-dev-frameworks",
+   "already_reported": false,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "id": "7265b41f1a"
+  },
+  {
+   "title": "Baidu, Xiaomi CEOs warn of growing gap between AI hype and returns",
+   "url": "https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns",
+   "source": "scmp.com",
+   "published": "2026-11-17T14:19:59+00:00",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 185 امتیاز، 239 کامنت",
+   "signal_value": 185,
+   "discussion_url": "https://news.ycombinator.com/item?id=50531751",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 6,
+   "category": "big_tech",
+   "story_key": "chinese-ceos-ai-hype-warning",
+   "topic_key": "ai-market-bubble",
+   "already_reported": false,
+   "title_fa": "هشدار مدیران بایدو و شیائومی: تبلیغات هوش مصنوعی با بازده اقتصادی آن همخوانی ندارد",
+   "one_liner_fa": "مدیران ارشد غول‌های فناوری چین، بایدو (Baidu) و شیائومی (Xiaomi)، درباره ایجاد حباب توخالی و فاصله زیاد میان ادعاهای هوش مصنوعی و درآمدهای واقعی هشدار دادند.",
+   "deep": {},
+   "id": "246f1a63c5"
+  },
+  {
+   "title": "Sage S2.1 Flash Technical Report",
+   "url": "https://huggingface.co/papers/2611.21072",
+   "source": "Hugging Face Papers",
+   "published": "2026-11-15T19:00:00+00:00",
+   "summary": "We introduce Sage S1.5 Flash, a 320-billion-parameter general-purpose mixture-of-experts model designed to reason over scientific evidence and act in interactive environments. Sage Sci-Perception uses dedicated encoders for molecular graphs and biological sequences and represents spectra as ordered patches of measurements. Modality-specific projectors map these representations into the input space of a shared backbone, which processes them alongside text and images. To develop the model's agent capabilities, we construct verifiable environments for tool use, search, and coding, as well as specialized workflows involving machine learning experiments and scientific software. Task completion is checked against execution results, changes in environment state, or submitted artifacts. We evaluate Sage S1.5 Flash on 33 benchmarks across seven domains. In the primary comparison against five base",
+   "lang": "en",
+   "signal": "Hugging Face: 85 رأی",
+   "signal_value": 85,
+   "discussion_url": "https://github.com/InternLM/Sage-S2.1-Flash",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.21072.png",
+     "origin": "hf"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 4,
+   "category": "model_release",
+   "story_key": "sage-s2-1-flash-release",
+   "topic_key": "sage-science-models",
+   "already_reported": false,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "id": "c618f0b74f"
+  },
+  {
+   "title": "K2-Horizon: A Frontier Fleet of Open Source Language Models",
+   "url": "https://huggingface.co/papers/2611.21003",
+   "source": "Hugging Face Papers",
+   "published": "2026-11-15T19:00:00+00:00",
+   "summary": "We present K2-Horizon, a fleet of six fully open language models, from a 0.9B dense model to a 375B-A23B MoE, built for general-purpose reasoning and agentic work across math and science, software engineering, deep research, office automation, and beyond. The models lead or are competitive with strong open models of their size on agentic and coding benchmarks. On the modeling side, to strengthen reasoning, we introduce Mixture-of-Value Attention (MoVA), applying MoE to attention value projections, and softplus attention gating, a more flexible, theoretically motivated gate. Our 36B-A4B model uses both and nearly matches a 32B dense model trained on the same data, with one-seventh the active parameters. We also introduce Uno, lossless diffusion adapters that speed up decoding by up to 2.2x without a separate draft model. Our release follows the LLM360 definition of open source for transpa",
+   "lang": "en",
+   "signal": "Hugging Face: 72 رأی",
+   "signal_value": 72,
+   "discussion_url": "https://ifm.ai/k2/",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.21003.png",
+     "origin": "hf"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 6,
+   "category": "open_source",
+   "story_key": "k2-horizon-model-fleet",
+   "topic_key": "open-source-llms",
+   "already_reported": false,
+   "title_fa": "انتشار خانواده مدل‌های متن‌باز K2-Horizon تا مقیاس ۳۷۵ میلیارد پارامتر",
+   "one_liner_fa": "یک ناوگان شامل شش مدل زبانی کاملاً متن‌باز به نام K2-Horizon با تمرکز بر استدلال پیچیده و کارهای ایجنتیک در دسترس عموم قرار گرفت.",
+   "deep": {},
+   "id": "e1f0b02699"
+  },
+  {
+   "title": "InclusionMed: Benchmarking AI for Inclusive Healthcare",
+   "url": "https://huggingface.co/papers/2611.21218",
+   "source": "Hugging Face Papers",
+   "published": "2026-11-15T19:00:00+00:00",
+   "summary": "Advancing medical AI for inclusive healthcare requires evaluation across diverse healthcare roles, tasks, and care settings, but benchmark coverage remains uneven. We introduce InclusionMed, an open medical AI evaluation initiative for inclusive healthcare. The InclusionMed Atlas organizes benchmarks across three healthcare roles and three AI capabilities. For the first release, we selected four public benchmarks from 388 candidates through structured audits and independent reproduction. With InclusionMed-DxFiles, our private diagnostic reasoning benchmark, the Atlas contains five benchmarks covering three of its nine role--capability cells. We evaluated frontier large language models on the Atlas and aggregated their results into the InclusionMed Index, with overall scores ranging from 17.5 to 49.1 out of 100. The Index also reports scores by healthcare role and AI capability, showing t",
+   "lang": "en",
+   "signal": "Hugging Face: 62 رأی",
+   "signal_value": 62,
+   "discussion_url": "https://github.com/panuvi/inclusionmed",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.21218.png",
+     "origin": "hf"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 3,
+   "category": "research",
+   "story_key": "inclusionmed-healthcare-benchmark",
+   "topic_key": "ai-healthcare-eval",
+   "already_reported": false,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "id": "15712514dc"
+  },
+  {
+   "title": "ScaleVLA: Scaling Vision-Language-Action Models to 552 Billion Parameters",
+   "url": "https://huggingface.co/papers/2611.21607",
+   "source": "Hugging Face Papers",
+   "published": "2026-11-15T19:00:00+00:00",
+   "summary": "Frontier Vision-Language Models (VLMs) such as GPT-6 Astra have demonstrated remarkable capabilities in robot control, suggesting that broad pretraining provides knowledge valuable for physical action. Yet most Vision-Language-Action (VLA) policies still rely on much smaller VLM backbones, leaving this potential largely untapped. We ask whether frontier-scale representations can provide a stronger foundation for robot learning. We introduce ScaleVLA, which connects a 552B DeepSeek-V4.1-Flash backbone to a trainable action DiT, and systematically compare VLMs from 2B to 552B under a shared training setup. We evaluate three fundamental capabilities of robot foundation models. In sample efficiency, just 10 demonstrations outperform a 2B backbone trained with 50 (87.8% vs. 85.6%). In generalization, LIBERO-PRO success reaches 45.1%, compared with at most 31.3% for smaller backbones. In preci",
+   "lang": "en",
+   "signal": "Hugging Face: 41 رأی",
+   "signal_value": 41,
+   "discussion_url": "https://galaxygeneralrobotics.github.io/scalevla/",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.21607.png",
+     "origin": "hf"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 4,
+   "category": "research",
+   "story_key": "scalevla-552b-paper",
+   "topic_key": "robotics-vla-models",
+   "already_reported": false,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "id": "0904df37e9"
+  }
+ ],
+ "failed_sources": [],
+ "models": [
+  "gemini-3.8-flash",
+  "gemini-3.8-flash"
+ ]
+}
