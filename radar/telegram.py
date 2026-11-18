@@ -48,7 +48,13 @@ class Telegram:
             msg = upd.get("message") or upd.get("channel_post") or upd.get("my_chat_member")
             if msg and msg.get("chat", {}).get("id"):
                 return str(msg["chat"]["id"])
-        raise TelegramError("no chat found: send any message to your bot first, then re-run")
+        # Explain which bot this token belongs to, so a token/bot mix-up is obvious in the log.
+        me = self.call("getMe", {}) or {}
+        hook = self.call("getWebhookInfo", {}) or {}
+        raise TelegramError(
+            f"no chat found for bot @{me.get('username', '?')} "
+            f"(webhook: {hook.get('url') or 'none'}, pending updates: "
+            f"{hook.get('pending_update_count', '?')}). Send any message to this bot, then re-run")
 
     # ------------------------------------------------------------------ senders
     def text(self, html: str) -> None:
