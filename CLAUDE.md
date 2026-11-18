@@ -18,6 +18,13 @@ committed); the digest restores it read-only to mark already-alerted stories. Tr
 `viral`; `item.hot` (viral >= 8 or importance >= 9) drives the 🔥 highlights.
 Actions budget (private repo, 2000 min/month): ~44 alert runs/day must stay under 1 minute each.
 
+Desktop visualiser (`desktop/`, built by `.github/workflows/desktop.yml` on windows-latest with
+PyInstaller, published as a GitHub Release): pywebview window over `desktop/ui/index.html`. The
+Python `Api` runs the real collectors per source, `radar.dedup`, and `desktop/scoring.py` (local
+keyword/engagement scoring, no API key). With a read-only GitHub token (stored in
+%APPDATA%/AINewsRadar/settings.json) it loads the latest `reports/*.json`. Browser preview:
+`desktop/ui/index.html?demo` uses mock data. Windows minutes count 2x: build only on demand.
+
 Rules:
 - Keep Gemini usage to ~2 requests per run, ~6/day (free tier quota is small). Batch, never per-item calls.
 - Every source and article fetch must fail soft; one bad site never stops the run.

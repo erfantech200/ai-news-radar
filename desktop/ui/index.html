@@ -1,0 +1,851 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>AI News Radar</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+@font-face { font-family: Vazirmatn; src: url(fonts/Vazirmatn-Regular.woff2) format("woff2"); font-weight: 400; }
+@font-face { font-family: Vazirmatn; src: url(fonts/Vazirmatn-Bold.woff2) format("woff2"); font-weight: 700; }
+@font-face { font-family: Vazirmatn; src: url(fonts/Vazirmatn-Black.woff2) format("woff2"); font-weight: 900; }
+
+:root {
+  --bg: #03050b;
+  --panel: rgba(9, 15, 30, 0.66);
+  --panel-solid: #070c18;
+  --line: rgba(90, 170, 255, 0.16);
+  --line-strong: rgba(90, 190, 255, 0.38);
+  --cyan: #38eaff;
+  --blue: #4c8dff;
+  --violet: #a46bff;
+  --pink: #ff4fa8;
+  --green: #35ffa0;
+  --amber: #ffc23e;
+  --red: #ff4f5e;
+  --text: #d6e5ff;
+  --dim: #6c80a6;
+  --mono: "Cascadia Mono", "Cascadia Code", Consolas, "JetBrains Mono", monospace;
+  --sans: Bahnschrift, "Segoe UI Variable", "Segoe UI", Vazirmatn, system-ui, sans-serif;
+  --fa: Vazirmatn, Tahoma, sans-serif;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; }
+body {
+  background:
+    radial-gradient(1200px 700px at 50% 45%, rgba(40, 80, 200, 0.16), transparent 60%),
+    radial-gradient(900px 600px at 85% 10%, rgba(164, 107, 255, 0.10), transparent 60%),
+    var(--bg);
+  color: var(--text); font-family: var(--sans); overflow: hidden; user-select: none;
+}
+.fa { font-family: var(--fa); direction: rtl; unicode-bidi: plaintext; }
+#bg, #fx { position: fixed; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+#bg { z-index: 0; }
+#fx { z-index: 5; }
+body::after { /* scanlines */
+  content: ""; position: fixed; inset: 0; z-index: 6; pointer-events: none;
+  background: repeating-linear-gradient(to bottom, rgba(255,255,255,0.018) 0 1px, transparent 1px 3px);
+}
+
+#app {
+  position: relative; z-index: 2; height: 100vh; display: grid;
+  grid-template-rows: 58px 1fr 210px; gap: 10px; padding: 10px;
+}
+.panel {
+  background: var(--panel); border: 1px solid var(--line); border-radius: 14px;
+  backdrop-filter: blur(6px); position: relative; overflow: hidden;
+}
+.panel::before { /* corner brackets */
+  content: ""; position: absolute; inset: 0; pointer-events: none; border-radius: 14px;
+  background:
+    linear-gradient(var(--cyan), var(--cyan)) top left / 18px 1.5px no-repeat,
+    linear-gradient(var(--cyan), var(--cyan)) top left / 1.5px 18px no-repeat,
+    linear-gradient(var(--cyan), var(--cyan)) bottom right / 18px 1.5px no-repeat,
+    linear-gradient(var(--cyan), var(--cyan)) bottom right / 1.5px 18px no-repeat;
+  opacity: 0.55;
+}
+.ptitle {
+  display: flex; align-items: center; justify-content: space-between; padding: 10px 14px 8px;
+  font-size: 11px; letter-spacing: 0.22em; color: var(--dim); text-transform: uppercase;
+  border-bottom: 1px solid var(--line);
+}
+.ptitle b { color: var(--text); font-weight: 600; letter-spacing: 0.18em; }
+.ptitle .fa { letter-spacing: 0; font-size: 12px; }
+
+/* ── header ─────────────────────────────── */
+header { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 18px; padding: 0 16px; }
+.brand { display: flex; align-items: center; gap: 12px; }
+.brand svg { width: 38px; height: 38px; }
+.brand h1 { margin: 0; font-size: 19px; letter-spacing: 0.28em; font-weight: 700;
+  background: linear-gradient(90deg, var(--cyan), var(--violet)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.brand .fa { font-size: 12px; color: var(--dim); margin-top: 1px; }
+.sweep { transform-origin: 50% 50%; animation: spin 3.2s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.status { display: flex; justify-content: center; gap: 22px; font-size: 12px; letter-spacing: 0.12em; color: var(--dim); }
+.status span b { color: var(--text); font-weight: 600; }
+.pill { display: inline-flex; align-items: center; gap: 8px; padding: 5px 12px; border-radius: 99px;
+  border: 1px solid rgba(53,255,160,0.35); color: var(--green); background: rgba(53,255,160,0.07); font-weight: 600; }
+.pill i { width: 8px; height: 8px; border-radius: 50%; background: var(--green); box-shadow: 0 0 10px var(--green); animation: blink 1.6s infinite; }
+.pill.busy { color: var(--cyan); border-color: rgba(56,234,255,0.4); background: rgba(56,234,255,0.08); }
+.pill.busy i { background: var(--cyan); box-shadow: 0 0 10px var(--cyan); animation-duration: 0.5s; }
+@keyframes blink { 50% { opacity: 0.25; } }
+.right { display: flex; align-items: center; gap: 14px; }
+.clock { text-align: right; font-family: var(--mono); font-size: 13px; line-height: 1.25; }
+.clock small { display: block; color: var(--dim); font-size: 10px; letter-spacing: 0.15em; font-family: var(--sans); }
+.btn { width: 36px; height: 36px; border-radius: 10px; border: 1px solid var(--line-strong); background: rgba(56,234,255,0.06);
+  color: var(--cyan); font-size: 16px; cursor: pointer; display: grid; place-items: center; transition: 0.2s; }
+.btn:hover { background: rgba(56,234,255,0.16); box-shadow: 0 0 16px rgba(56,234,255,0.35); }
+
+/* ── main ───────────────────────────────── */
+main { display: grid; grid-template-columns: minmax(250px, 22%) 1fr minmax(320px, 27%); gap: 10px; min-height: 0; }
+
+/* sources */
+#sources { display: flex; flex-direction: column; min-height: 0; }
+#srcList { overflow: hidden; padding: 6px 8px; display: flex; flex-direction: column; gap: 4px; }
+.src { display: grid; grid-template-columns: 12px 1fr auto; align-items: center; gap: 9px; padding: 6px 8px;
+  border-radius: 8px; font-size: 12.5px; position: relative; overflow: hidden; border: 1px solid transparent; }
+.src .led { width: 8px; height: 8px; border-radius: 50%; background: #2a3550; }
+.src .name { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.src .name em { font-style: normal; font-size: 9.5px; color: var(--dim); letter-spacing: 0.12em; margin-left: 6px; }
+.src .meta { font-family: var(--mono); font-size: 11px; color: var(--dim); }
+.src.fetching { border-color: rgba(56,234,255,0.25); background: rgba(56,234,255,0.05); }
+.src.fetching .led { background: var(--cyan); box-shadow: 0 0 10px var(--cyan); animation: blink 0.4s infinite; }
+.src.fetching::after { content: ""; position: absolute; top: 0; bottom: 0; width: 40%; left: -40%;
+  background: linear-gradient(90deg, transparent, rgba(56,234,255,0.18), transparent); animation: scan 0.9s linear infinite; }
+@keyframes scan { to { left: 100%; } }
+.src.ok .led { background: var(--green); box-shadow: 0 0 8px var(--green); }
+.src.ok .meta { color: var(--green); }
+.src.fail .led { background: var(--red); box-shadow: 0 0 8px var(--red); }
+.src.fail .meta { color: var(--red); }
+.src.flash { animation: flash 0.8s; }
+@keyframes flash { 0% { background: rgba(53,255,160,0.25); } 100% { background: transparent; } }
+
+/* brain */
+#core { display: flex; flex-direction: column; min-height: 0; }
+#brainWrap { position: relative; flex: 1; min-height: 0; }
+#brain { position: absolute; inset: 0; width: 100%; height: 100%; }
+#thought { position: absolute; left: 0; right: 0; bottom: 14px; text-align: center; pointer-events: none; }
+#thought .label { font-size: 10px; letter-spacing: 0.35em; color: var(--dim); }
+#thought .txt { margin: 6px auto 0; max-width: 78%; font-size: 15px; min-height: 22px; color: var(--text);
+  text-shadow: 0 0 12px rgba(56,234,255,0.45); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+#thought .txt.fa { font-size: 16px; }
+.caret { display: inline-block; width: 8px; height: 15px; background: var(--cyan); margin-left: 3px; vertical-align: -2px; animation: blink 0.8s infinite; }
+#modeTag { position: absolute; top: 12px; left: 14px; font-size: 10px; letter-spacing: 0.25em; color: var(--dim); }
+#modeTag b { color: var(--cyan); }
+#reportTag { position: absolute; top: 12px; right: 14px; font-size: 11px; color: var(--dim); text-align: right; }
+#reportTag b { color: var(--green); }
+
+/* output */
+#output { display: flex; flex-direction: column; min-height: 0; }
+#reportBox { margin: 8px 10px 0; padding: 10px 12px; border-radius: 10px; border: 1px solid rgba(53,255,160,0.25);
+  background: linear-gradient(135deg, rgba(53,255,160,0.07), rgba(56,234,255,0.04)); font-size: 12px; display: none; }
+#reportBox .fa { font-size: 13px; }
+#reportBox .row { display: flex; justify-content: space-between; gap: 10px; color: var(--dim); margin-top: 4px; font-family: var(--mono); font-size: 11px; }
+#feed { flex: 1; overflow: hidden; padding: 8px 10px; display: flex; flex-direction: column; gap: 8px; }
+.card { border: 1px solid var(--line); border-radius: 11px; padding: 9px 12px; background: rgba(6, 11, 24, 0.75);
+  animation: cardIn 0.6s cubic-bezier(.2,.9,.3,1.2); position: relative; overflow: hidden; flex-shrink: 0; }
+.card::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, transparent, rgba(56,234,255,0.12), transparent);
+  transform: translateX(-100%); animation: sheen 1.2s 0.2s; pointer-events: none; }
+@keyframes sheen { to { transform: translateX(100%); } }
+@keyframes cardIn { from { opacity: 0; transform: translateX(-30px) scale(0.96); } to { opacity: 1; transform: none; } }
+.card.hot { border-color: rgba(255,79,168,0.55); box-shadow: 0 0 22px rgba(255,79,168,0.18), inset 0 0 18px rgba(255,79,168,0.06); }
+.card .top { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; margin-bottom: 6px; }
+.chip { font-size: 10.5px; padding: 2px 8px; border-radius: 99px; border: 1px solid var(--line-strong); color: var(--cyan); }
+.chip.cat { font-family: var(--fa); }
+.chip.hot { border-color: var(--pink); color: #fff; background: linear-gradient(90deg, var(--pink), #ff7a45); font-weight: 700; animation: pulseHot 1.4s infinite; }
+@keyframes pulseHot { 50% { box-shadow: 0 0 14px rgba(255,79,168,0.7); } }
+.chip.ai { border-color: rgba(53,255,160,0.5); color: var(--green); }
+.card .title { font-size: 13.5px; line-height: 1.45; color: #eef4ff; }
+.card .title.fa { font-size: 14px; font-weight: 700; }
+.card .sub { font-size: 11px; color: var(--dim); margin-top: 4px; display: flex; justify-content: space-between; gap: 8px; }
+.tags { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 7px; }
+.tag { font-family: var(--fa); font-size: 11px; color: var(--violet); unicode-bidi: plaintext; }
+.bars { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-top: 8px; }
+.bar { font-size: 9.5px; letter-spacing: 0.12em; color: var(--dim); }
+.bar .track { height: 4px; border-radius: 4px; background: rgba(255,255,255,0.07); margin-top: 3px; overflow: hidden; }
+.bar .fill { height: 100%; width: 0; border-radius: 4px; transition: width 1.1s cubic-bezier(.2,.8,.2,1); }
+.bar .num { float: right; color: var(--text); font-family: var(--mono); }
+.card .done { margin-top: 7px; font-size: 11px; color: var(--green); font-family: var(--fa); }
+
+/* ── bottom ─────────────────────────────── */
+footer { display: grid; grid-template-columns: 1fr minmax(320px, 27%); gap: 10px; min-height: 0; }
+#term { display: flex; flex-direction: column; min-height: 0; }
+#log { flex: 1; overflow: hidden; padding: 8px 14px; font-family: var(--mono); font-size: 12px; line-height: 1.55;
+  display: flex; flex-direction: column; justify-content: flex-end; }
+#log div { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex-shrink: 0; }
+#log .t { color: #44557a; }
+#log .k { display: inline-block; width: 62px; font-weight: 700; }
+.k-FETCH { color: var(--cyan); } .k-OK { color: var(--green); } .k-FAIL { color: var(--red); }
+.k-DEDUPE { color: var(--blue); } .k-TRIAGE { color: var(--amber); } .k-READ { color: #9fb6ff; }
+.k-TAG { color: var(--violet); } .k-HOT { color: var(--pink); } .k-BRIEF { color: var(--green); }
+.k-READY { color: var(--green); } .k-SYS { color: var(--dim); } .k-BRAIN { color: var(--cyan); } .k-REPORT { color: var(--green); }
+#stats { display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: auto 1fr 1fr 1fr; }
+#stats .ptitle { grid-column: 1 / -1; }
+.stat { padding: 8px 14px; border-top: 1px solid var(--line); border-right: 1px solid var(--line); }
+.stat:nth-child(odd) { border-right: none; }
+.stat .v { font-family: var(--mono); font-size: 22px; font-weight: 600; color: #fff; text-shadow: 0 0 14px rgba(56,234,255,0.4); }
+.stat .l { font-size: 9.5px; letter-spacing: 0.18em; color: var(--dim); margin-top: 1px; }
+.stat .l .fa { letter-spacing: 0; font-size: 11px; margin-left: 4px; }
+.stat.hot .v { color: var(--pink); text-shadow: 0 0 14px rgba(255,79,168,0.5); }
+
+/* settings modal */
+#modal { position: fixed; inset: 0; z-index: 20; display: none; place-items: center; background: rgba(2,4,10,0.7); backdrop-filter: blur(4px); }
+#modal.open { display: grid; }
+.dlg { width: min(520px, 92vw); background: var(--panel-solid); border: 1px solid var(--line-strong); border-radius: 16px; padding: 22px; }
+.dlg h2 { margin: 0 0 4px; font-size: 15px; letter-spacing: 0.2em; }
+.dlg p { color: var(--dim); font-size: 13px; line-height: 1.7; margin: 8px 0 14px; }
+.dlg label { display: block; font-size: 11px; letter-spacing: 0.15em; color: var(--dim); margin: 12px 0 5px; }
+.dlg input { width: 100%; padding: 10px 12px; border-radius: 9px; border: 1px solid var(--line-strong); background: #050913; color: var(--text); font-family: var(--mono); font-size: 13px; }
+.dlg .row { display: flex; gap: 10px; justify-content: flex-end; margin-top: 18px; }
+.dlg button { padding: 9px 16px; border-radius: 9px; border: 1px solid var(--line-strong); background: rgba(56,234,255,0.08); color: var(--cyan); cursor: pointer; font-family: var(--sans); }
+.dlg button.primary { background: linear-gradient(90deg, var(--cyan), var(--blue)); color: #02101a; font-weight: 700; border: none; }
+#boot { position: fixed; inset: 0; z-index: 30; background: var(--bg); display: grid; place-items: center; transition: opacity 0.8s; }
+#boot.gone { opacity: 0; pointer-events: none; }
+#boot pre { font-family: var(--mono); color: var(--cyan); font-size: 13px; line-height: 1.7; min-width: 520px; }
+</style>
+</head>
+<body>
+<canvas id="bg"></canvas>
+<div id="app">
+  <header class="panel">
+    <div class="brand">
+      <svg viewBox="0 0 40 40">
+        <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#38eaff"/><stop offset="1" stop-color="#a46bff"/></linearGradient>
+          <radialGradient id="sw" cx="0" cy="0" r="1"><stop offset="0" stop-color="#38eaff" stop-opacity="0.7"/><stop offset="1" stop-color="#38eaff" stop-opacity="0"/></radialGradient></defs>
+        <circle cx="20" cy="20" r="18" fill="none" stroke="url(#g)" stroke-width="1.5"/>
+        <circle cx="20" cy="20" r="11" fill="none" stroke="#38eaff" stroke-opacity="0.35"/>
+        <circle cx="20" cy="20" r="4" fill="none" stroke="#38eaff" stroke-opacity="0.5"/>
+        <g class="sweep"><path d="M20 20 L20 2 A18 18 0 0 1 35.6 11 Z" fill="url(#g)" opacity="0.45"/></g>
+        <circle cx="27" cy="12" r="1.8" fill="#ff4fa8"/><circle cx="12" cy="25" r="1.4" fill="#35ffa0"/>
+      </svg>
+      <div><h1>AI NEWS RADAR</h1><div class="fa">رادار هوش مصنوعی · سیستم خودکار خبر</div></div>
+    </div>
+    <div class="status">
+      <span class="pill" id="pill"><i></i><span id="pillTxt">SYSTEM ONLINE</span></span>
+      <span>CYCLE <b id="cycleNo">0</b></span>
+      <span>NEXT SWEEP <b id="nextSweep">--:--</b></span>
+      <span>NEXT DIGEST <b id="nextDigest">--:--</b></span>
+    </div>
+    <div class="right">
+      <div class="clock"><small>MELBOURNE</small><span id="clkMel">--:--:--</span></div>
+      <div class="clock"><small>LOCAL</small><span id="clkLoc">--:--:--</span></div>
+      <button class="btn" id="btnRun" title="Run a sweep now">⟳</button>
+      <button class="btn" id="btnSet" title="Settings">⚙</button>
+      <button class="btn" id="btnFull" title="Fullscreen (F11)">⛶</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="panel" id="sources">
+      <div class="ptitle"><b>Sources</b><span class="fa">منابع زنده</span></div>
+      <div id="srcList"></div>
+    </section>
+
+    <section class="panel" id="core">
+      <div class="ptitle"><b>Neural Core</b><span id="stageName" class="fa">آماده</span></div>
+      <div id="brainWrap">
+        <canvas id="brain"></canvas>
+        <div id="modeTag">MODE <b id="modeTxt">LIVE</b></div>
+        <div id="reportTag"></div>
+        <div id="thought"><div class="label">PROCESSING</div><div class="txt" id="thoughtTxt">Initializing<span class="caret"></span></div></div>
+      </div>
+    </section>
+
+    <section class="panel" id="output">
+      <div class="ptitle"><b>Processed</b><span class="fa">تحلیل‌شده و تگ‌خورده</span></div>
+      <div id="reportBox"></div>
+      <div id="feed"></div>
+    </section>
+  </main>
+
+  <footer>
+    <section class="panel" id="term">
+      <div class="ptitle"><b>System Log</b><span>radar@core:~$</span></div>
+      <div id="log"></div>
+    </section>
+    <section class="panel" id="stats">
+      <div class="ptitle"><b>Telemetry</b><span class="fa">آمار</span></div>
+      <div class="stat"><div class="v" id="stScanned">0</div><div class="l">SCANNED<span class="fa">خبر</span></div></div>
+      <div class="stat"><div class="v" id="stOnline">0/0</div><div class="l">SOURCES<span class="fa">منبع فعال</span></div></div>
+      <div class="stat"><div class="v" id="stTagged">0</div><div class="l">TAGGED<span class="fa">تگ‌خورده</span></div></div>
+      <div class="stat hot"><div class="v" id="stHot">0</div><div class="l">HOT 🔥<span class="fa">داغ</span></div></div>
+      <div class="stat"><div class="v" id="stLatency">0<small>ms</small></div><div class="l">AVG LATENCY</div></div>
+      <div class="stat"><div class="v" id="stUptime">00:00</div><div class="l">UPTIME</div></div>
+    </section>
+  </footer>
+</div>
+<canvas id="fx"></canvas>
+
+<div id="modal"><div class="dlg">
+  <h2>SETTINGS</h2>
+  <p class="fa">برای نمایش خروجی واقعی ربات (تیترهای فارسی، امتیازهای Gemini و ایده‌های محتوا) یه توکن گیت‌هاب فقط‌خواندنی وارد کن. بدون توکن، برنامه خبرهای زنده رو مستقیم از منابع می‌گیره و خودش امتیاز می‌ده.</p>
+  <label>GITHUB TOKEN (read-only, optional)</label>
+  <input id="inToken" type="password" placeholder="github_pat_…">
+  <label>REPOSITORY</label>
+  <input id="inRepo" placeholder="erfantech200/ai-news-radar">
+  <label>SWEEP EVERY (MINUTES)</label>
+  <input id="inEvery" type="number" min="2" max="120" placeholder="10">
+  <div class="row"><button id="btnCancel">Cancel</button><button class="primary" id="btnSave">Save</button></div>
+</div></div>
+
+<div id="boot"><pre id="bootTxt"></pre></div>
+
+<script>
+"use strict";
+/* ───────────────────────── helpers ───────────────────────── */
+const $ = (id) => document.getElementById(id);
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+const rand = (a, b) => a + Math.random() * (b - a);
+const pick = (arr) => arr[Math.floor(Math.random() * arr.length)];
+const isFa = (s) => /[؀-ۿ]/.test(s || "");
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const bdi = (s) => `<bdi>${s}</bdi>`;
+const faDigits = (s) => String(s).replace(/\d/g, (d) => "۰۱۲۳۴۵۶۷۸۹"[d]);
+const pad = (n) => String(n).padStart(2, "0");
+const COLORS = { cyan: "#38eaff", blue: "#4c8dff", violet: "#a46bff", pink: "#ff4fa8", green: "#35ffa0", amber: "#ffc23e" };
+const STAGES = [
+  { en: "COLLECT", fa: "جمع‌آوری", color: COLORS.cyan },
+  { en: "DEDUPE", fa: "حذف تکراری", color: COLORS.blue },
+  { en: "TRIAGE", fa: "امتیازدهی", color: COLORS.amber },
+  { en: "TAG", fa: "تگ‌گذاری", color: COLORS.violet },
+  { en: "BRIEF", fa: "خلاصه‌نویسی", color: COLORS.green },
+  { en: "DELIVER", fa: "آماده‌سازی ارسال", color: COLORS.pink },
+];
+
+/* ───────────────────────── log ───────────────────────── */
+const logEl = $("log");
+function log(kind, msg) {
+  const d = new Date();
+  const t = `${pad(d.getHours())}:${pad(d.getMinutes())}:${pad(d.getSeconds())}.${String(d.getMilliseconds()).padStart(3, "0")}`;
+  const row = document.createElement("div");
+  row.innerHTML = `<span class="t">[${t}]</span> <span class="k k-${kind}">${kind}</span> ${msg}`;
+  logEl.appendChild(row);
+  while (logEl.children.length > 60) logEl.removeChild(logEl.firstChild);
+}
+
+/* ───────────────────────── thought line (typewriter) ───────────────────────── */
+let thoughtToken = 0;
+async function think(text) {
+  const el = $("thoughtTxt");
+  const my = ++thoughtToken;
+  el.classList.toggle("fa", isFa(text));
+  for (let i = 0; i <= text.length; i += 2) {
+    if (my !== thoughtToken) return;
+    el.innerHTML = esc(text.slice(0, i)) + '<span class="caret"></span>';
+    await sleep(14);
+  }
+}
+
+/* ───────────────────────── background grid + stars ───────────────────────── */
+const bg = $("bg"), bgx = bg.getContext("2d");
+const stars = Array.from({ length: 140 }, () => ({ x: Math.random(), y: Math.random(), z: Math.random() }));
+function drawBg(t) {
+  const w = bg.width, h = bg.height;
+  bgx.clearRect(0, 0, w, h);
+  bgx.strokeStyle = "rgba(70,130,255,0.05)"; bgx.lineWidth = 1;
+  const step = 46 * devicePixelRatio, off = (t * 0.01) % step;
+  bgx.beginPath();
+  for (let x = -off; x < w; x += step) { bgx.moveTo(x, 0); bgx.lineTo(x, h); }
+  for (let y = -off; y < h; y += step) { bgx.moveTo(0, y); bgx.lineTo(w, y); }
+  bgx.stroke();
+  for (const s of stars) {
+    const a = 0.25 + 0.5 * Math.abs(Math.sin(t * 0.0006 + s.z * 9));
+    bgx.fillStyle = `rgba(150,200,255,${a * s.z})`;
+    bgx.fillRect(s.x * w, s.y * h, 1.4 * devicePixelRatio, 1.4 * devicePixelRatio);
+  }
+}
+
+/* ───────────────────────── neural brain ───────────────────────── */
+class Brain {
+  constructor(canvas) {
+    this.c = canvas; this.x = canvas.getContext("2d");
+    this.activity = 0.25; this.target = 0.25; this.stage = -1; this.stagePulse = 0;
+    this.flash = 0; this.flashColor = COLORS.cyan; this.pulses = []; this.fires = new Map();
+    const N = 300, pts = [];
+    while (pts.length < N) {
+      const u = rand(-1, 1), th = rand(0, Math.PI * 2), r = Math.sqrt(1 - u * u);
+      let x = r * Math.cos(th) * 1.28, y = u * 0.92, z = r * Math.sin(th) * 1.0;
+      if (y > 0.55) { x *= 0.86; z *= 0.86; }                // narrower base
+      if (y < -0.2 && Math.abs(x) < 0.25) continue;          // top fissure
+      x += Math.sign(x || 1) * 0.07;                         // two hemispheres
+      pts.push({ x, y, z, hue: x > 0 ? 1 : 0 });
+    }
+    // brainstem
+    for (let i = 0; i < 14; i++) pts.push({ x: rand(-0.08, 0.08), y: 0.92 + i * 0.045, z: rand(-0.12, 0.12), hue: 0.5 });
+    this.pts = pts;
+    const edges = [], keys = new Set();
+    for (let i = 0; i < pts.length; i++) {
+      const d = pts.map((p, j) => [j, (p.x - pts[i].x) ** 2 + (p.y - pts[i].y) ** 2 + (p.z - pts[i].z) ** 2])
+        .filter((e) => e[0] !== i).sort((a, b) => a[1] - b[1]).slice(0, 3);
+      for (const [j] of d) {
+        const key = i < j ? `${i}-${j}` : `${j}-${i}`;
+        if (!keys.has(key)) { keys.add(key); edges.push([i, j]); }
+      }
+    }
+    this.edges = edges;
+    this.proj = new Array(pts.length);
+  }
+  resize() {
+    const r = this.c.getBoundingClientRect();
+    this.c.width = r.width * devicePixelRatio; this.c.height = r.height * devicePixelRatio;
+  }
+  center() { // in window coordinates
+    const r = this.c.getBoundingClientRect();
+    return { x: r.left + r.width / 2, y: r.top + r.height * 0.45, r: Math.min(r.width, r.height) * 0.24 };
+  }
+  setStage(i) { this.stage = i; this.stagePulse = 1; this.flash = 0.6; this.flashColor = i >= 0 ? STAGES[i].color : COLORS.cyan; }
+  absorb(color) { this.flash = 1; this.flashColor = color || COLORS.cyan; this.burst(26, color); }
+  burst(n, color) {
+    for (let k = 0; k < n; k++) this.pulses.push({ e: Math.floor(Math.random() * this.edges.length), t: 0, s: rand(0.012, 0.03), c: color || pick([COLORS.cyan, COLORS.violet, COLORS.blue]) });
+  }
+  draw(t) {
+    const ctx = this.x, W = this.c.width, H = this.c.height, dpr = devicePixelRatio;
+    ctx.clearRect(0, 0, W, H);
+    this.activity += (this.target - this.activity) * 0.03;
+    this.flash *= 0.94; this.stagePulse *= 0.96;
+    const cx = W / 2, cy = H * 0.45, R = Math.min(W, H) * 0.24;
+    const yaw = Math.sin(t * 0.00018) * 0.55, pitch = -0.18 + Math.sin(t * 0.00011) * 0.06;
+    const cyw = Math.cos(yaw), syw = Math.sin(yaw), cp = Math.cos(pitch), sp = Math.sin(pitch);
+    const breathe = 1 + Math.sin(t * 0.0016) * 0.012 * (1 + this.activity);
+
+    // core glow
+    const glow = ctx.createRadialGradient(cx, cy, 0, cx, cy, R * 1.7);
+    const ga = 0.10 + this.activity * 0.18 + this.flash * 0.25;
+    glow.addColorStop(0, hexA(this.flashColor, ga)); glow.addColorStop(0.45, hexA(COLORS.violet, ga * 0.35)); glow.addColorStop(1, "transparent");
+    ctx.fillStyle = glow; ctx.fillRect(0, 0, W, H);
+
+    // project
+    for (let i = 0; i < this.pts.length; i++) {
+      const p = this.pts[i];
+      let x = p.x * cyw + p.z * syw, z = -p.x * syw + p.z * cyw, y = p.y;
+      const y2 = y * cp - z * sp, z2 = y * sp + z * cp;
+      const f = 2.8 / (2.8 + z2);
+      this.proj[i] = { x: cx + x * R * f * breathe, y: cy + y2 * R * f * breathe, z: z2, f };
+    }
+    // edges
+    ctx.lineWidth = 1 * dpr;
+    for (const [a, b] of this.edges) {
+      const A = this.proj[a], B = this.proj[b];
+      const depth = (2 - (A.z + B.z) / 2) / 3;
+      const al = 0.05 + depth * (0.16 + this.activity * 0.18);
+      ctx.strokeStyle = this.pts[a].hue > 0.5 ? `rgba(164,107,255,${al})` : `rgba(56,234,255,${al})`;
+      ctx.beginPath(); ctx.moveTo(A.x, A.y); ctx.lineTo(B.x, B.y); ctx.stroke();
+    }
+    // random firing neurons
+    if (Math.random() < 0.15 + this.activity * 0.9) this.fires.set(Math.floor(Math.random() * this.pts.length), 1);
+    if (Math.random() < 0.08 + this.activity * 0.6) this.burst(1);
+    // nodes
+    for (let i = 0; i < this.pts.length; i++) {
+      const P = this.proj[i];
+      const depth = (2 - P.z) / 3;
+      let fire = this.fires.get(i) || 0;
+      if (fire) { fire *= 0.9; if (fire < 0.05) this.fires.delete(i); else this.fires.set(i, fire); }
+      const r = (1 + depth * 1.4 + fire * 3) * dpr;
+      ctx.fillStyle = fire ? hexA(COLORS.cyan, 0.5 + fire * 0.5) : `rgba(190,225,255,${0.25 + depth * 0.55})`;
+      ctx.beginPath(); ctx.arc(P.x, P.y, r, 0, Math.PI * 2); ctx.fill();
+      if (fire > 0.3) { ctx.fillStyle = hexA(COLORS.cyan, fire * 0.18); ctx.beginPath(); ctx.arc(P.x, P.y, r * 4, 0, Math.PI * 2); ctx.fill(); }
+    }
+    // pulses along synapses
+    ctx.globalCompositeOperation = "lighter";
+    this.pulses = this.pulses.filter((p) => (p.t += p.s * (1 + this.activity)) < 1);
+    for (const p of this.pulses.slice(-160)) {
+      const [a, b] = this.edges[p.e], A = this.proj[a], B = this.proj[b];
+      const x = A.x + (B.x - A.x) * p.t, y = A.y + (B.y - A.y) * p.t;
+      const g = ctx.createRadialGradient(x, y, 0, x, y, 7 * dpr);
+      g.addColorStop(0, hexA(p.c, 0.95)); g.addColorStop(1, "transparent");
+      ctx.fillStyle = g; ctx.beginPath(); ctx.arc(x, y, 7 * dpr, 0, Math.PI * 2); ctx.fill();
+    }
+    ctx.globalCompositeOperation = "source-over";
+
+    // holographic scan line
+    const sy = cy - R * 1.15 + ((t * 0.08) % (R * 2.6));
+    const sg = ctx.createLinearGradient(0, sy - 18 * dpr, 0, sy + 2);
+    sg.addColorStop(0, "transparent"); sg.addColorStop(1, hexA(COLORS.cyan, 0.12 + this.activity * 0.1));
+    ctx.fillStyle = sg; ctx.fillRect(cx - R * 1.6, sy - 18 * dpr, R * 3.2, 18 * dpr + 2);
+
+    // orbit rings
+    ctx.save(); ctx.translate(cx, cy);
+    for (let k = 0; k < 2; k++) {
+      ctx.save(); ctx.rotate(t * 0.0002 * (k ? -1 : 1) + k);
+      ctx.strokeStyle = hexA(k ? COLORS.violet : COLORS.cyan, 0.18 + this.activity * 0.12);
+      ctx.setLineDash([4 * dpr, 10 * dpr]); ctx.lineWidth = 1.2 * dpr;
+      ctx.beginPath(); ctx.ellipse(0, 0, R * (1.62 + k * 0.1), R * (0.42 + k * 0.08), 0, 0, Math.PI * 2); ctx.stroke();
+      ctx.restore();
+    }
+    ctx.restore(); ctx.setLineDash([]);
+
+    // stage ring
+    const RR = Math.min(W * 0.36, H * 0.38, R * 1.9), n = STAGES.length, a0 = -Math.PI / 3;
+    ctx.lineWidth = 2 * dpr;
+    ctx.strokeStyle = "rgba(90,170,255,0.12)";
+    ctx.beginPath(); ctx.arc(cx, cy, RR, 0, Math.PI * 2); ctx.stroke();
+    if (this.stage >= 0) {
+      ctx.strokeStyle = hexA(STAGES[this.stage].color, 0.75); ctx.lineWidth = 2.5 * dpr;
+      ctx.shadowColor = STAGES[this.stage].color; ctx.shadowBlur = 14 * dpr;
+      ctx.beginPath(); ctx.arc(cx, cy, RR, a0, a0 + (Math.PI * 2 * this.stage) / n + 0.001); ctx.stroke();
+      ctx.shadowBlur = 0;
+    }
+    // runner dot
+    const ang = t * 0.0012;
+    ctx.fillStyle = COLORS.cyan;
+    ctx.beginPath(); ctx.arc(cx + Math.cos(ang) * RR, cy + Math.sin(ang) * RR, 2.5 * dpr, 0, Math.PI * 2); ctx.fill();
+    for (let i = 0; i < n; i++) {
+      const a = a0 + (Math.PI * 2 * i) / n;
+      const x = cx + Math.cos(a) * RR, y = cy + Math.sin(a) * RR;
+      const active = i === this.stage, done = this.stage > i;
+      const col = STAGES[i].color;
+      const rr = (active ? 9 + this.stagePulse * 6 + Math.sin(t * 0.008) * 1.5 : 6) * dpr;
+      ctx.fillStyle = active ? col : done ? hexA(col, 0.55) : "#0a1224";
+      ctx.strokeStyle = active || done ? col : "rgba(90,170,255,0.35)"; ctx.lineWidth = 1.5 * dpr;
+      if (active) { ctx.shadowColor = col; ctx.shadowBlur = 22 * dpr; }
+      ctx.beginPath(); ctx.arc(x, y, rr, 0, Math.PI * 2); ctx.fill(); ctx.stroke(); ctx.shadowBlur = 0;
+      const lx = x + Math.cos(a) * 26 * dpr, ly = y + Math.sin(a) * 22 * dpr;
+      ctx.textAlign = Math.cos(a) > 0.3 ? "left" : Math.cos(a) < -0.3 ? "right" : "center";
+      ctx.fillStyle = active ? "#ffffff" : done ? hexA(col, 0.9) : "rgba(140,165,210,0.65)";
+      ctx.font = `${active ? 700 : 600} ${11 * dpr}px Bahnschrift, "Segoe UI", sans-serif`;
+      ctx.fillText(STAGES[i].en, lx, ly - 2 * dpr);
+      ctx.font = `${10.5 * dpr}px Vazirmatn, Tahoma, sans-serif`;
+      ctx.fillStyle = active ? hexA(col, 1) : "rgba(120,145,190,0.6)";
+      ctx.fillText(STAGES[i].fa, lx, ly + 13 * dpr);
+    }
+  }
+}
+function hexA(hex, a) {
+  const n = parseInt(hex.slice(1), 16);
+  return `rgba(${(n >> 16) & 255},${(n >> 8) & 255},${n & 255},${Math.max(0, Math.min(1, a))})`;
+}
+
+/* ───────────────────────── overlay particles (data streams) ───────────────────────── */
+const fx = $("fx"), fxx = fx.getContext("2d");
+let streams = [];
+function stream(from, to, color, onArrive, dur = 900) {
+  const mid = { x: (from.x + to.x) / 2 + rand(-60, 60), y: Math.min(from.y, to.y) - rand(30, 110) };
+  streams.push({ from, to, mid, color, t0: performance.now(), dur, onArrive, trail: [] });
+}
+function drawFx(now) {
+  const dpr = devicePixelRatio;
+  fxx.clearRect(0, 0, fx.width, fx.height);
+  fxx.globalCompositeOperation = "lighter";
+  streams = streams.filter((s) => {
+    const k = Math.min(1, (now - s.t0) / s.dur), e = k < 0.5 ? 2 * k * k : 1 - Math.pow(-2 * k + 2, 2) / 2;
+    const x = (1 - e) ** 2 * s.from.x + 2 * (1 - e) * e * s.mid.x + e * e * s.to.x;
+    const y = (1 - e) ** 2 * s.from.y + 2 * (1 - e) * e * s.mid.y + e * e * s.to.y;
+    s.trail.push({ x, y }); if (s.trail.length > 18) s.trail.shift();
+    s.trail.forEach((p, i) => {
+      const a = (i / s.trail.length) * 0.8;
+      fxx.fillStyle = hexA(s.color, a * 0.6);
+      fxx.beginPath(); fxx.arc(p.x * dpr, p.y * dpr, (1 + i * 0.18) * dpr, 0, Math.PI * 2); fxx.fill();
+    });
+    const g = fxx.createRadialGradient(x * dpr, y * dpr, 0, x * dpr, y * dpr, 10 * dpr);
+    g.addColorStop(0, hexA(s.color, 1)); g.addColorStop(1, "transparent");
+    fxx.fillStyle = g; fxx.beginPath(); fxx.arc(x * dpr, y * dpr, 10 * dpr, 0, Math.PI * 2); fxx.fill();
+    if (k >= 1) { s.onArrive && s.onArrive(); return false; }
+    return true;
+  });
+  fxx.globalCompositeOperation = "source-over";
+}
+function elPoint(el, side = "right") {
+  const r = el.getBoundingClientRect();
+  return { x: side === "right" ? r.right - 6 : r.left + 6, y: r.top + r.height / 2 };
+}
+
+/* ───────────────────────── state & UI ───────────────────────── */
+const S = { api: null, meta: null, cycle: 0, busy: false, items: [], scored: [], report: null,
+  stats: { scanned: 0, online: 0, total: 0, tagged: 0, hot: 0, lat: [] }, started: Date.now(),
+  nextSweepAt: 0, every: 10 };
+const brain = new Brain($("brain"));
+
+function setStage(i) {
+  brain.setStage(i);
+  $("stageName").textContent = i >= 0 ? `${STAGES[i].fa} · ${STAGES[i].en}` : "در حالت آماده‌باش";
+}
+function setBusy(b) {
+  S.busy = b; brain.target = b ? 0.85 : 0.28;
+  $("pill").classList.toggle("busy", b);
+  $("pillTxt").textContent = b ? "PROCESSING" : "SYSTEM ONLINE";
+}
+function renderStats() {
+  const st = S.stats;
+  $("stScanned").textContent = st.scanned;
+  $("stOnline").textContent = `${st.online}/${st.total}`;
+  $("stTagged").textContent = st.tagged;
+  $("stHot").textContent = st.hot;
+  const avg = st.lat.length ? Math.round(st.lat.reduce((a, b) => a + b, 0) / st.lat.length) : 0;
+  $("stLatency").innerHTML = `${avg}<small style="font-size:12px;color:#6c80a6">ms</small>`;
+}
+function buildSources() {
+  const list = $("srcList"); list.innerHTML = "";
+  S.meta.sources.forEach((s, i) => {
+    const row = document.createElement("div");
+    row.className = "src"; row.id = `src${i}`;
+    row.innerHTML = `<span class="led"></span><span class="name">${esc(s.name)}<em>${esc(s.kind)}</em></span><span class="meta">idle</span>`;
+    list.appendChild(row);
+  });
+  S.stats.total = S.meta.sources.length; renderStats();
+}
+
+function addCard(item, opts = {}) {
+  const feed = $("feed");
+  const title = item.title_fa || item.title;
+  const card = document.createElement("div");
+  card.className = "card" + (item.hot ? " hot" : "");
+  const tags = (item.tags || []).slice(0, 4).map((t) => `<span class="tag">${esc(t)}</span>`).join("");
+  card.innerHTML = `
+    <div class="top">
+      ${item.hot ? '<span class="chip hot">🔥 HOT · داغ</span>' : ""}
+      <span class="chip cat">${esc(item.category_fa || "تکنولوژی")}</span>
+      ${item.ai ? '<span class="chip ai">GEMINI ✓</span>' : ""}
+    </div>
+    <div class="title ${isFa(title) ? "fa" : ""}">${esc(title)}</div>
+    <div class="sub"><span>${esc(item.source || "")}</span><span>${esc(item.signal || item.ago || "")}</span></div>
+    <div class="tags">${tags}</div>
+    <div class="bars">
+      ${bar("IMPACT", item.importance, COLORS.amber)}${bar("CONTENT", item.worthiness, COLORS.green)}${bar("VIRAL", item.viral, COLORS.pink)}
+    </div>
+    ${opts.done ? `<div class="done">${esc(opts.done)}</div>` : ""}`;
+  feed.prepend(card);
+  requestAnimationFrame(() => card.querySelectorAll(".fill").forEach((f) => (f.style.width = f.dataset.w)));
+  while (feed.children.length > 24) feed.removeChild(feed.lastChild);
+  return card;
+}
+function bar(label, v, color) {
+  v = Math.max(0, Math.min(10, Number(v) || 0));
+  return `<div class="bar">${label}<span class="num">${v}</span><div class="track"><div class="fill" data-w="${v * 10}%" style="background:${color};box-shadow:0 0 8px ${color}"></div></div></div>`;
+}
+
+/* ───────────────────────── the cycle ───────────────────────── */
+async function fetchOne(i) {
+  const row = $(`src${i}`), meta = row.querySelector(".meta");
+  row.className = "src fetching"; meta.textContent = "fetching…";
+  log("FETCH", `${esc(S.meta.sources[i].host)} …`);
+  const t0 = performance.now();
+  let res;
+  try { res = await S.api.fetch_source(i); } catch (e) { res = { ok: false, error: String(e), items: [] }; }
+  const ms = res.ms || Math.round(performance.now() - t0);
+  if (res.ok) {
+    row.className = "src ok flash"; meta.textContent = `${res.items.length} · ${ms}ms`;
+    log("OK", `${esc(S.meta.sources[i].name)} → <b>${res.items.length}</b> items · ${ms} ms`);
+    S.stats.online++; S.stats.lat.push(ms);
+    // data packets fly into the brain
+    const c = brain.center(), n = Math.min(4, Math.max(1, Math.ceil(res.items.length / 6)));
+    for (let k = 0; k < n; k++) setTimeout(() => stream(elPoint(row), { x: c.x + rand(-20, 20), y: c.y + rand(-20, 20) }, COLORS.cyan, () => brain.absorb(COLORS.cyan), rand(700, 1100)), k * 140);
+  } else {
+    row.className = "src fail"; meta.textContent = "offline";
+    log("FAIL", `${esc(S.meta.sources[i].name)} · ${esc((res.error || "error").slice(0, 80))}`);
+  }
+  renderStats();
+  return res.items || [];
+}
+
+async function runCycle() {
+  if (S.busy) return;
+  setBusy(true); S.cycle++; $("cycleNo").textContent = S.cycle;
+  S.stats.online = 0; S.stats.lat = [];
+  log("SYS", `── sweep #${S.cycle} started · ${S.meta.sources.length} sources ──`);
+
+  // 1 COLLECT
+  setStage(0); think("Collecting fresh signals from every source…");
+  const all = [];
+  await Promise.all(S.meta.sources.map((_, i) => sleep(i * 120).then(() => fetchOne(i)).then((items) => all.push(...items))));
+  S.stats.scanned += all.length; renderStats();
+  await sleep(500);
+
+  // 2 DEDUPE
+  setStage(1); think(`Merging duplicates across ${all.length} items…`);
+  const unique = await S.api.dedupe(all);
+  log("DEDUPE", `${all.length} → <b>${unique.length}</b> unique stories (${all.length - unique.length} duplicates merged)`);
+  brain.burst(40, COLORS.blue); await sleep(1100);
+
+  // 3 TRIAGE
+  setStage(2); think(`Scoring ${unique.length} stories: impact · content value · virality`);
+  log("TRIAGE", `scoring ${unique.length} stories · signals: engagement, coverage, entities, recency`);
+  const scored = await S.api.score(unique);
+  scored.sort((a, b) => (b.hot - a.hot) || (b.importance + b.viral) - (a.importance + a.viral));
+  brain.burst(60, COLORS.amber); await sleep(1200);
+
+  // 4/5 TAG + BRIEF: stream the best stories through the brain one by one
+  setStage(3);
+  const show = scored.slice(0, Math.min(18, scored.length));
+  const outTarget = () => elPoint($("feed"), "left");
+  for (const [idx, item] of show.entries()) {
+    if (idx === Math.floor(show.length * 0.55)) setStage(4);
+    await think(`${isFa(item.title) ? "" : "Reading: "}${item.title}`);
+    log("READ", `"${bdi(esc(item.title.slice(0, 90)))}" <span style="color:#6c80a6">(${esc(item.source)})</span>`);
+    const c = brain.center();
+    await new Promise((r) => stream(elPoint($("sources"), "right"), c, item.hot ? COLORS.pink : COLORS.violet, () => { brain.absorb(item.hot ? COLORS.pink : COLORS.violet); r(); }, 650));
+    await sleep(350);
+    log("TAG", `${(item.tags || []).slice(0, 3).map((t) => bdi(esc(t))).join(" ")} · impact ${item.importance} · viral ${item.viral}`);
+    if (item.hot) log("HOT", `🔥 high viral potential → flagged for the top of the digest`);
+    await new Promise((r) => stream({ x: c.x, y: c.y }, outTarget(), item.hot ? COLORS.pink : COLORS.green, r, 700));
+    addCard(item, { done: item.hot ? "🔥 هایلایت شد · اولویت انتشار" : "✓ تحلیل و تگ‌گذاری شد" });
+    S.stats.tagged++; if (item.hot) S.stats.hot++; renderStats();
+    await sleep(rand(350, 750));
+  }
+
+  // real AI output from the bot, if connected
+  if (S.meta.has_token) await showReport();
+
+  // 6 DELIVER
+  setStage(5);
+  const hot = scored.filter((x) => x.hot).length;
+  think(`Packaging ${Math.min(5, scored.length)} briefs · ${hot} hot stories highlighted`);
+  log("BRIEF", `top ${Math.min(5, scored.length)} stories selected for content · ${hot} hot`);
+  brain.burst(50, COLORS.pink); await sleep(1300);
+  log("READY", `digest package ready for Telegram · next sweep in ${S.every} min`);
+  await sleep(900);
+  setStage(-1); setBusy(false);
+  think("Monitoring sources · waiting for the next sweep");
+  S.nextSweepAt = Date.now() + S.every * 60000;
+  S.scored = scored;
+}
+
+async function showReport() {
+  let rep;
+  try { rep = await S.api.load_report(); } catch (e) { rep = { ok: false, error: String(e) }; }
+  if (!rep || !rep.ok) { log("FAIL", `bot report: ${esc((rep && rep.error) || "unavailable")}`); return; }
+  S.report = rep;
+  log("REPORT", `connected to bot · latest brief <b>${esc(rep.file)}</b> · ${rep.items.length} AI-analysed stories`);
+  const box = $("reportBox");
+  box.style.display = "block";
+  box.innerHTML = `<div class="fa"><b>📡 آخرین گزارش ربات</b> · ${esc(rep.edition_fa || "")}</div>
+    <div class="row"><span>${esc(rep.file)}</span><span>${rep.items.length} stories · ${rep.ideas} ideas</span></div>`;
+  $("reportTag").innerHTML = `BOT LINK <b>● CONNECTED</b><br>${esc(rep.model || "")}`;
+  for (const item of rep.items.slice(0, 6)) {
+    await think(item.title_fa || item.title);
+    log("BRAIN", `Gemini brief: ${bdi(esc((item.title_fa || item.title).slice(0, 70)))} · ${item.ideas || 0} content ideas`);
+    brain.absorb(COLORS.green);
+    addCard({ ...item, ai: true }, { done: `💡 ${faDigits(item.ideas || 0)} ایدهٔ محتوا · آماده در تلگرام` });
+    await sleep(900);
+  }
+}
+
+/* idle animation between sweeps: the core keeps "re-reading" what it found */
+async function idleLoop() {
+  while (true) {
+    await sleep(rand(2600, 4200));
+    if (S.busy || !S.scored.length) continue;
+    const item = pick(S.scored.slice(0, 25));
+    brain.burst(12, item.hot ? COLORS.pink : COLORS.violet);
+    think(`${pick(["Re-evaluating", "Cross-checking", "Watching momentum on", "Tracking"])}: ${item.title}`);
+    if (Math.random() < 0.35) log("BRAIN", `momentum check · ${bdi(esc(item.title.slice(0, 70)))} · viral ${item.viral}/10`);
+  }
+}
+
+/* ───────────────────────── clocks & countdowns ───────────────────────── */
+function melParts(d) {
+  const f = new Intl.DateTimeFormat("en-GB", { timeZone: "Australia/Melbourne", hour: "2-digit", minute: "2-digit", second: "2-digit", hour12: false });
+  return f.format(d);
+}
+function nextDigest(now) {
+  // digests run at 20:17, 02:17, 09:17 UTC
+  const slots = [[2, 17], [9, 17], [20, 17]];
+  for (let add = 0; add < 2; add++) for (const [h, m] of slots) {
+    const d = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() + add, h, m));
+    if (d > now) return d;
+  }
+}
+function fmtLeft(ms) {
+  const s = Math.max(0, Math.floor(ms / 1000));
+  const h = Math.floor(s / 3600), m = Math.floor((s % 3600) / 60), ss = s % 60;
+  return h ? `${h}:${pad(m)}:${pad(ss)}` : `${pad(m)}:${pad(ss)}`;
+}
+function tickClocks() {
+  const now = new Date();
+  $("clkMel").textContent = melParts(now);
+  $("clkLoc").textContent = `${pad(now.getHours())}:${pad(now.getMinutes())}:${pad(now.getSeconds())}`;
+  $("nextDigest").textContent = fmtLeft(nextDigest(now) - now);
+  $("nextSweep").textContent = S.busy ? "LIVE" : fmtLeft(S.nextSweepAt - now);
+  const up = Math.floor((now - S.started) / 1000);
+  $("stUptime").textContent = `${pad(Math.floor(up / 3600))}:${pad(Math.floor((up % 3600) / 60))}:${pad(up % 60)}`;
+  if (!S.busy && S.nextSweepAt && now >= S.nextSweepAt) runCycle();
+}
+
+/* ───────────────────────── render loop ───────────────────────── */
+function resize() {
+  for (const c of [bg, fx]) { c.width = innerWidth * devicePixelRatio; c.height = innerHeight * devicePixelRatio; }
+  brain.resize();
+}
+function frame(t) { drawBg(t); brain.draw(t); drawFx(performance.now()); requestAnimationFrame(frame); }
+
+/* ───────────────────────── settings ───────────────────────── */
+async function openSettings() {
+  const s = await S.api.get_settings();
+  $("inToken").value = s.token || ""; $("inRepo").value = s.repo || ""; $("inEvery").value = s.every || 10;
+  $("modal").classList.add("open");
+}
+async function saveSettings() {
+  const res = await S.api.save_settings($("inToken").value.trim(), $("inRepo").value.trim(), Number($("inEvery").value) || 10);
+  S.meta.has_token = res.has_token; S.every = res.every;
+  $("modal").classList.remove("open");
+  log("SYS", `settings saved · bot link ${res.has_token ? "enabled" : "off"} · sweep every ${res.every} min`);
+  $("modeTxt").textContent = res.has_token ? "LIVE + BOT" : "LIVE";
+}
+
+/* ───────────────────────── boot ───────────────────────── */
+async function getApi() {
+  const demo = location.search.includes("demo");
+  if (window.pywebview && window.pywebview.api && window.pywebview.api.get_meta) return window.pywebview.api;
+  return await new Promise((resolve) => {
+    window.addEventListener("pywebviewready", () => resolve(window.pywebview.api));
+    if (demo) setTimeout(() => resolve(window.MockApi), 400);
+  });
+}
+async function boot() {
+  resize(); addEventListener("resize", resize); requestAnimationFrame(frame);
+  const lines = ["AI NEWS RADAR · neural core v1.0", "", "> loading source registry ........ ok",
+    "> warming up neural lattice ...... ok", "> linking telemetry ............. ok", "> calibrating virality model ..... ok", "", "SYSTEM ONLINE"];
+  const bt = $("bootTxt");
+  for (const l of lines) { bt.textContent += l + "\n"; await sleep(l ? 170 : 60); }
+  S.api = await getApi();
+  S.meta = await S.api.get_meta();
+  S.every = S.meta.every || 10;
+  $("modeTxt").textContent = S.meta.has_token ? "LIVE + BOT" : "LIVE";
+  buildSources();
+  await sleep(300); $("boot").classList.add("gone");
+  log("SYS", `neural core online · ${S.meta.sources.length} sources registered · v${esc(S.meta.version)}`);
+  log("SYS", `scoring: ${S.meta.has_token ? "Gemini (bot link) + local model" : "local model · connect the bot in ⚙ for Gemini briefs"}`);
+  setInterval(tickClocks, 500); tickClocks();
+  $("btnRun").onclick = () => runCycle();
+  $("btnSet").onclick = openSettings;
+  $("btnCancel").onclick = () => $("modal").classList.remove("open");
+  $("btnSave").onclick = saveSettings;
+  $("btnFull").onclick = () => S.api.toggle_fullscreen();
+  addEventListener("keydown", (e) => { if (e.key === "F11") { e.preventDefault(); S.api.toggle_fullscreen(); } if (e.key === "F5") { e.preventDefault(); runCycle(); } });
+  idleLoop();
+  if (S.api.ui_ready) S.api.ui_ready();
+  runCycle();
+}
+
+/* ───────────────────────── demo data (browser preview only: index.html?demo) ───────────────────────── */
+window.MockApi = (() => {
+  const sources = [
+    ["OpenAI", "RSS", "openai.com"], ["Google DeepMind", "RSS", "deepmind.google"], ["Anthropic", "PAGE", "anthropic.com"],
+    ["Hugging Face Blog", "RSS", "huggingface.co"], ["TechCrunch", "RSS", "techcrunch.com"], ["MIT Tech Review", "RSS", "technologyreview.com"],
+    ["Hacker News", "HN", "hn.algolia.com"], ["HF Papers", "HF", "huggingface.co/papers"], ["HF new models", "HF", "huggingface.co/api"],
+    ["Mistral AI", "PAGE", "mistral.ai"], ["Meta AI", "PAGE", "ai.meta.com"], ["NVIDIA Blog", "RSS", "blogs.nvidia.com"], ["Engadget", "RSS", "engadget.com"],
+  ].map(([name, kind, host]) => ({ name, kind, host }));
+  const titles = ["Introducing GPT-6.2 Astra and Sol", "Google expands access to Gemini Tasks", "DeepSeek releases V5 open weights",
+    "Nvidia promises that revenue will keep soaring", "Anthropic launches roadshow for IPO", "Waymo pauses freeway rides in California",
+    "Qwen5-72B lands on Hugging Face", "Meta unveils Llama 5 vision model", "Apple's new on-device model beats GPT-5 mini",
+    "EU AI Act enforcement begins for frontier models", "Show HN: I built a tiny agent runtime", "Microsoft unveils MAI Code 2"];
+  const cats = ["مدل جدید", "محصول جدید", "کسب‌وکار و سرمایه", "متن‌باز", "قانون‌گذاری", "ابزار کاربردی"];
+  return {
+    get_meta: async () => ({ version: "1.0.0-demo", sources, has_token: true, every: 10 }),
+    fetch_source: async (i) => { await sleep(rand(300, 1700)); if (Math.random() < 0.06) return { ok: false, error: "timeout" };
+      return { ok: true, ms: Math.round(rand(120, 900)), items: Array.from({ length: Math.ceil(rand(2, 14)) }, () => ({ title: pick(titles), source: sources[i].name })) }; },
+    dedupe: async (items) => { const seen = new Set(); return items.filter((x) => !seen.has(x.title) && seen.add(x.title)); },
+    score: async (items) => items.map((x) => { const imp = Math.round(rand(4, 10)), vir = Math.round(rand(3, 10));
+      return { ...x, importance: imp, viral: vir, worthiness: Math.round((imp + vir) / 2), hot: vir >= 8 || imp >= 9, category_fa: pick(cats),
+        tags: ["#هوش_مصنوعی", pick(["#OpenAI", "#Google", "#Nvidia", "#متن_باز", "#مدل_جدید"]), pick(["#LLM", "#AI", "#تکنولوژی"])], signal: `HN ${Math.round(rand(80, 900))} pts` }; }),
+    load_report: async () => ({ ok: true, file: "2026-11-18-1317.json", edition_fa: "نسخهٔ ظهر", model: "gemini-3.8-flash", ideas: 10,
+      items: [{ title_fa: "اوپن‌ای‌آی از GPT-6.2 آسترا و سول رونمایی کرد", title: "Introducing GPT-6.2", source: "OpenAI", importance: 10, worthiness: 10, viral: 9, hot: true, category_fa: "مدل جدید", tags: ["#OpenAI", "#مدل_جدید"], ideas: 2 },
+        { title_fa: "گوگل ساخت آواتار ویدیویی را رایگان کرد", title: "Google Vids avatars", source: "Google Blog", importance: 7, worthiness: 9, viral: 8, hot: true, category_fa: "ابزار کاربردی", tags: ["#Google", "#ابزار"], ideas: 2 }] }),
+    get_settings: async () => ({ token: "", repo: "erfantech200/ai-news-radar", every: 10 }),
+    save_settings: async (t, r, e) => ({ has_token: !!t, every: e }),
+    toggle_fullscreen: async () => document.documentElement.requestFullscreen?.(),
+  };
+})();
+
+boot();
+</script>
+</body>
+</html>

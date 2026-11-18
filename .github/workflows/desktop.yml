@@ -1,0 +1,57 @@
+name: Build Windows app
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write           # to publish the .exe as a release
+
+jobs:
+  build:
+    runs-on: windows-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install
+        run: pip install -r requirements.txt -r desktop/requirements.txt
+
+      - name: Self-test (no window)
+        run: python desktop/app.py --selftest
+
+      - name: Build exe
+        shell: bash
+        run: |
+          pyinstaller --noconfirm --clean --onefile --windowed \
+            --name "AI-News-Radar" --icon desktop/icon.ico --paths . \
+            --add-data "desktop/ui;desktop/ui" --add-data "config.yaml;." \
+            --collect-submodules radar --hidden-import desktop.scoring \
+            --collect-all webview \
+            desktop/app.py
+          ls -la dist
+
+      - name: Smoke test (open the window, wait for the UI to boot)
+        id: smoke
+        continue-on-error: true
+        shell: pwsh
+        run: |
+          $p = Start-Process -FilePath "dist\AI-News-Radar.exe" -ArgumentList "--smoke" -PassThru
+          if (-not $p.WaitForExit(150000)) { $p.Kill(); Write-Output "timed out"; exit 1 }
+          Get-Content "$env:APPDATA\AINewsRadar\smoke.txt" -ErrorAction SilentlyContinue
+          Get-Content "$env:APPDATA\AINewsRadar\app.log" -Tail 30 -ErrorAction SilentlyContinue
+          exit $p.ExitCode
+
+      - name: Publish release
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SMOKE: ${{ steps.smoke.outcome }}
+        run: |
+          tag="desktop-${{ github.run_number }}"
+          printf 'AI News Radar for Windows.\n\nDownload AI-News-Radar.exe and run it. Windows may show "Windows protected your PC" because the app is not code-signed: click More info → Run anyway.\n\nSmoke test: %s\n' "$SMOKE" > notes.txt
+          gh release create "$tag" "dist/AI-News-Radar.exe" --title "AI News Radar · Windows #${{ github.run_number }}" --notes-file notes.txt --latest
