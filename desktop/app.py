@@ -218,7 +218,7 @@ def selftest() -> int:
                "source": "TechCrunch"}]
     scored = api.score(api.dedupe(sample))
     assert len(scored) == 1 and scored[0]["hot"], scored
-    print(f"selftest ok · {len(meta['sources'])} sources · {scored[0]['tags']}")
+    print(f"selftest ok - {len(meta['sources'])} sources - {len(scored[0]['tags'])} tags")
     return 0
 
 

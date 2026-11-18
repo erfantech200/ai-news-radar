@@ -6,6 +6,9 @@ on:
 permissions:
   contents: write           # to publish the .exe as a release
 
+env:
+  PYTHONUTF8: "1"           # Persian text in logs on the Windows console
+
 jobs:
   build:
     runs-on: windows-latest
