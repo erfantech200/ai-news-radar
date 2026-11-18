@@ -55,3 +55,52 @@ class State:
         if self.telegram_chat_id:
             data["telegram_chat_id"] = self.telegram_chat_id
         self.path.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
+
+
+class AlertState:
+    """State of the breaking-news watcher. Kept in the Actions cache (not committed), because
+    the watcher runs dozens of times a day."""
+    SEEN_DAYS = 21
+    ALERTED_DAYS = 3
+
+    def __init__(self, path: Path):
+        self.path = Path(path)
+        data = {}
+        if self.path.exists():
+            try:
+                data = json.loads(self.path.read_text(encoding="utf-8"))
+            except json.JSONDecodeError:
+                data = {}
+        self.seen: dict[str, str] = data.get("seen", {})
+        self.alerted: list[dict] = data.get("alerted", [])
+        self.bootstrapped: set[str] = set(data.get("bootstrapped", []))
+        self.telegram_chat_id: str = str(data.get("telegram_chat_id") or "")
+
+    def is_seen(self, key: str) -> bool:
+        return key in self.seen
+
+    def mark_seen(self, keys, today: date) -> None:
+        for k in keys:
+            self.seen.setdefault(k, today.isoformat())
+
+    def add_alerted(self, items, when: str) -> None:
+        for item in items:
+            self.alerted.append({"time": when, "title": item.title,
+                                 "title_fa": item.alert.get("title_fa", ""), "url": item.canonical})
+
+    def recent_titles(self) -> list[str]:
+        return [f"{a['title']} / {a.get('title_fa', '')}".rstrip(" /") for a in self.alerted[-40:]]
+
+    def prune(self, today: date) -> None:
+        cut = (today - timedelta(days=self.SEEN_DAYS)).isoformat()
+        self.seen = {k: v for k, v in self.seen.items() if v >= cut}
+        acut = (today - timedelta(days=self.ALERTED_DAYS)).isoformat()
+        self.alerted = [a for a in self.alerted if a.get("time", "")[:10] >= acut]
+
+    def save(self) -> None:
+        self.path.parent.mkdir(parents=True, exist_ok=True)
+        data = {"seen": self.seen, "alerted": self.alerted,
+                "bootstrapped": sorted(self.bootstrapped)}
+        if self.telegram_chat_id:
+            data["telegram_chat_id"] = self.telegram_chat_id
+        self.path.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")

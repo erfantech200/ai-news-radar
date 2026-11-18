@@ -59,6 +59,7 @@ class NewsItem:
     url: str
     source: str
     published: datetime | None = None
+    origin: str = ""                # name of the config source that produced it
     summary: str = ""
     lang: str = ""
     signal: str = ""               # e.g. "HN 340 points", "HF 85 upvotes"
@@ -75,11 +76,21 @@ class NewsItem:
     story_key: str = ""
     topic_key: str = ""
     already_reported: bool = False
+    viral: int = 0                  # 1-10: how likely to blow up / be widely talked about
     title_fa: str = ""
     one_liner_fa: str = ""
 
     # Filled by the deep-dive agent
     deep: dict = field(default_factory=dict)
+
+    # Breaking-news alerts
+    alert: dict = field(default_factory=dict)   # alert agent's verdict for this item
+    alerted: bool = False                       # an instant alert already went out for it
+
+    @property
+    def hot(self) -> bool:
+        """Big or viral enough to be highlighted."""
+        return self.viral >= 8 or self.importance >= 9
 
     @property
     def canonical(self) -> str:

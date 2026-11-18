@@ -1,0 +1,53 @@
+name: Breaking news alerts
+
+on:
+  schedule:
+    # GitHub cron is UTC. Melbourne times are summer (AEDT).
+    - cron: "7,27,47 14-23 * * *"   # every 20 min, 01:00–11:00 Melbourne = US working day
+    - cron: "37 0-13 * * *"         # hourly the rest of the day (Europe / Asia)
+  workflow_dispatch: {}
+
+permissions:
+  contents: read            # alerts never commit; their state lives in the Actions cache
+
+concurrency:
+  group: alerts             # separate from the digest, so neither cancels the other
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -q -r requirements.txt
+
+      - name: Restore watcher memory
+        uses: actions/cache/restore@v5
+        with:
+          path: state/alerts.json
+          key: alerts-${{ github.run_id }}
+          restore-keys: alerts-
+
+      - name: Check for breaking news
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          FALLBACK_LLM_BASE_URL: ${{ vars.FALLBACK_LLM_BASE_URL }}
+          FALLBACK_LLM_MODEL: ${{ vars.FALLBACK_LLM_MODEL }}
+          FALLBACK_LLM_API_KEY: ${{ secrets.FALLBACK_LLM_API_KEY }}
+        run: python main.py --alerts
+
+      - name: Save watcher memory
+        if: always()
+        uses: actions/cache/save@v5
+        with:
+          path: state/alerts.json
+          key: alerts-${{ github.run_id }}-${{ github.run_attempt }}

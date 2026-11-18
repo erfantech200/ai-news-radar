@@ -9,6 +9,15 @@ triage agent (1 Gemini call per 150 items: importance, worthiness, story_key, Pe
 (one item per story_key, official sources preferred) → enrich finalists (article text + media,
 respects robots.txt) → deep agent (1 call: Persian summary, key points, content ideas) → Telegram.
 
+Breaking alerts (`radar/alerts.py`, `.github/workflows/alerts.yml`, `python main.py --alerts`):
+every 20 min 14-24 UTC, hourly otherwise. Sources in `config.yaml > alerts` (official RSS/pages,
+HN viral/rising, new Hugging Face repos of big labs). A new source is learned silently on first
+read. No LLM call without fresh candidates; one batched Flash-Lite call when there are; fallback
+to keyword heuristics if the LLM is down. State is `state/alerts.json` in the Actions cache (never
+committed); the digest restores it read-only to mark already-alerted stories. Triage also scores
+`viral`; `item.hot` (viral >= 8 or importance >= 9) drives the 🔥 highlights.
+Actions budget (private repo, 2000 min/month): ~44 alert runs/day must stay under 1 minute each.
+
 Rules:
 - Keep Gemini usage to ~2 requests per run, ~6/day (free tier quota is small). Batch, never per-item calls.
 - Every source and article fetch must fail soft; one bad site never stops the run.

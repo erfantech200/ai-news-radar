@@ -13,11 +13,11 @@ import yaml
 
 from . import article, prompts, render
 from .collectors import collect_all
-from .dedup import dedupe
+from .dedup import dedupe, similar
 from .llm import LLM, LLMError
 from .models import NewsItem
 from .persian import edition_name
-from .state import State
+from .state import AlertState, State
 from .telegram import Telegram, TelegramError
 
 log = logging.getLogger(__name__)
@@ -60,6 +60,7 @@ def triage(llm: LLM, profile: dict, items: list[NewsItem], previous: list[str],
             try:
                 item.importance = int(row.get("importance") or 0)
                 item.worthiness = int(row.get("worthiness") or 0)
+                item.viral = int(row.get("viral") or 0)
             except (TypeError, ValueError):
                 continue
             item.category = str(row.get("category") or "")
@@ -88,6 +89,7 @@ def pick(items: list[NewsItem], settings: dict, official: set[str]):
         lead = group[0]
         lead.importance = max(i.importance for i in group)
         lead.worthiness = max(i.worthiness for i in group)
+        lead.viral = max(i.viral for i in group)
         for other in group[1:]:
             if other.source != lead.source and other.source not in lead.also_covered_by:
                 lead.also_covered_by.append(other.source)
@@ -102,7 +104,8 @@ def pick(items: list[NewsItem], settings: dict, official: set[str]):
     min_worth = int(settings.get("min_worthiness", 6))
     min_imp = int(settings.get("min_importance_other", 6))
 
-    ranked = sorted(leaders, key=lambda i: (0.6 * i.worthiness + 0.4 * i.importance,
+    ranked = sorted(leaders, key=lambda i: (0.45 * i.worthiness + 0.3 * i.importance
+                                            + 0.25 * (i.viral or i.worthiness),
                                             i.signal_value), reverse=True)
     # Keep the content picks diverse: at most `max_per_topic` stories from one saga,
     # the rest of that saga drops to the "other important news" list.
@@ -117,9 +120,22 @@ def pick(items: list[NewsItem], settings: dict, official: set[str]):
         per_topic[key] = per_topic.get(key, 0) + 1
         content.append(item)
     chosen = {id(i) for i in content}
-    others = sorted((i for i in leaders if id(i) not in chosen and i.importance >= min_imp),
-                    key=lambda i: (i.importance, i.signal_value), reverse=True)[:n_other]
+    others = sorted((i for i in leaders if id(i) not in chosen
+                     and (i.importance >= min_imp or i.viral >= 8)),
+                    key=lambda i: (i.hot, i.importance, i.signal_value), reverse=True)[:n_other]
     return content, others
+
+
+def mark_alerted(items: list[NewsItem], alert_state_path: Path) -> None:
+    """Flag stories that already went out as an instant alert (state restored from cache)."""
+    if not alert_state_path.exists():
+        return
+    alerts = AlertState(alert_state_path).alerted
+    urls = {a.get("url") for a in alerts}
+    titles = [a.get("title", "") for a in alerts]
+    for item in items:
+        if item.canonical in urls or any(similar(item.title, t, 0.75) for t in titles):
+            item.alerted = True
 
 
 def _deep_payload(item: NewsItem) -> dict:
@@ -216,6 +232,7 @@ def run(config_path: Path, dry_run: bool = False, llm: LLM | None = None,
         except LLMError as exc:
             log.error("deep dive failed: %s", exc)
             result.degraded = "ترجمه و ایده‌پردازی امروز انجام نشد (سهمیهٔ مدل). امتیازها و تیترها آماده‌ست."
+    mark_alerted(content + others, out_dir / "state" / "alerts.json")
     result.content_items, result.other_items = content, others
     result.models = llm.used_models
 
@@ -254,14 +271,15 @@ def run(config_path: Path, dry_run: bool = False, llm: LLM | None = None,
     return result
 
 
-def prepare_telegram(state: State) -> Telegram | None:
+def prepare_telegram(state, fallback_chat: str = "") -> Telegram | None:
     """Chat ID comes from the TELEGRAM_CHAT_ID secret, else from state (remembered after the
     first successful discovery), else from the bot's recent messages."""
     token = os.getenv("TELEGRAM_BOT_TOKEN", "").strip()
     if not token:
         log.warning("TELEGRAM_BOT_TOKEN not set; Telegram delivery is off")
         return None
-    tg = Telegram(token, os.getenv("TELEGRAM_CHAT_ID", "").strip() or state.telegram_chat_id)
+    tg = Telegram(token, os.getenv("TELEGRAM_CHAT_ID", "").strip() or state.telegram_chat_id
+                  or fallback_chat)
     if not tg.chat_id:
         tg.chat_id = tg.discover_chat_id()
         state.telegram_chat_id = tg.chat_id

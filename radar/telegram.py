@@ -23,9 +23,12 @@ class Telegram:
         self.token = token
         self.chat_id = chat_id
         self.pause = pause
+        self.silent = False      # quiet hours: messages arrive without a notification sound
         self.sent = 0
 
     def call(self, method: str, payload: dict) -> dict:
+        if method.startswith("send") and self.silent:
+            payload = {**payload, "disable_notification": True}
         for _ in range(4):
             resp = requests.post(API.format(token=self.token, method=method), json=payload,
                                  timeout=60)
@@ -71,10 +74,11 @@ class Telegram:
                 self.call("sendMessage", {"chat_id": self.chat_id, "text": plain,
                                           "link_preview_options": {"is_disabled": True}})
 
-    def item_media(self, item: NewsItem, n: int, max_images: int = 6, max_videos: int = 2) -> None:
+    def item_media(self, item: NewsItem, n: int, max_images: int = 6, max_videos: int = 2,
+                   caption: str | None = None) -> None:
         """Send the story's pictures (as an album) and direct video files. Never raises."""
         images, videos, _ = media_groups(item)
-        caption = tg_caption(item, n)
+        caption = caption if caption is not None else tg_caption(item, n)
         images = images[:max_images]
         sent_photo = False
         for _ in range(3):  # Telegram names the picture it couldn't fetch; drop it and retry

@@ -44,6 +44,9 @@ worthiness (1-10): how good this is as the basis for a piece of content for THIS
   involves big names, sparks debate, or affects ordinary users' lives and jobs, and can be
   explained clearly in under 60 seconds. Low for dry corporate or very technical items
   with no hook.
+viral (1-10): how likely this is to blow up and be talked about everywhere in the next day
+  (big names, surprising, emotional, controversial, demo-able; strong engagement signals such as
+  many Hacker News points or many outlets covering it push this up).
 category: one of {json.dumps(CATEGORIES)}
 story_key: a short English kebab-case slug for the underlying event. Items about the same
   event MUST share the same story_key.
@@ -60,7 +63,7 @@ Only return entries for items with importance >= 4. For items with importance >=
 title_fa (a punchy Persian headline) and one_liner_fa (one Persian sentence summarising the news).
 
 Schema:
-{{"items": [{{"id": "...", "importance": 0, "worthiness": 0, "category": "...",
+{{"items": [{{"id": "...", "importance": 0, "worthiness": 0, "viral": 0, "category": "...",
   "story_key": "...", "topic_key": "...", "already_reported": false, "title_fa": "...", "one_liner_fa": "..."}}]}}
 
 Items:
@@ -97,4 +100,38 @@ Schema:
   "hashtags": ["..."], "caution_fa": ""}}]}}
 
 Stories:
+{chr(10).join(json.dumps(i, ensure_ascii=False) for i in items)}"""
+
+
+def alert_prompt(items: list[dict], previous: list[str]) -> str:
+    previous_text = "\n".join(f"- {t}" for t in previous) or "- (none)"
+    return f"""You watch AI and tech news in real time for a Persian creator who wants to be the
+FIRST to cover big news. Decide for each candidate below whether it deserves an instant alert NOW.
+
+alert_score (1-10):
+  9-10: a new frontier model or major model version from a top lab (OpenAI, Google/DeepMind,
+        Anthropic, Meta, xAI, DeepSeek, Alibaba/Qwen, Mistral, Moonshot ...), a launch millions of
+        people will use, a historic industry event (mega acquisition, CEO change at a top AI
+        company, landmark ruling or ban), or a story that is clearly going viral.
+  7-8: important and timely, but not "drop everything".
+  1-6: routine news, minor updates, opinion pieces, small funding rounds.
+For Hugging Face uploads only a genuinely new model family or major version scores high;
+fine-tunes, quantised copies and small updates score low.
+already_covered: true if the same story is already in the list below with no major new development.
+
+Already alerted or reported:
+{previous_text}
+
+For items with alert_score >= 7 also give:
+  title_fa (punchy Persian headline), summary_fa (2-3 Persian sentences, only facts from the
+  candidate), why_fa (1 Persian sentence: why it is big), is_model_release (true/false),
+  quick_idea: {{"format": one of the page's formats, "hook_fa": the first line of a fast video,
+  "angle_fa": the take in one sentence}}.
+
+Schema:
+{{"items": [{{"id": "...", "alert_score": 0, "already_covered": false, "is_model_release": false,
+  "title_fa": "...", "summary_fa": "...", "why_fa": "...",
+  "quick_idea": {{"format": "...", "hook_fa": "...", "angle_fa": "..."}}}}]}}
+
+Candidates:
 {chr(10).join(json.dumps(i, ensure_ascii=False) for i in items)}"""

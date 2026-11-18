@@ -46,3 +46,41 @@ sources:
 
   # ── Sources in other languages: add any RSS feed, the agents translate to Persian.
   # - {name: "My Chinese source", type: rss, url: "https://example.com/feed", lang: zh}
+
+# ─────────────────────────────────────────────────────────────
+#  Breaking-news alerts (workflow: .github/workflows/alerts.yml)
+#  Every 20 min during the US working day, hourly otherwise. Only very big news
+#  (new models from top labs, huge launches, viral stories) triggers an instant message.
+# ─────────────────────────────────────────────────────────────
+alerts:
+  enabled: true
+  min_score: 8              # 1-10: only "drop everything" news
+  max_per_run: 3
+  window_hours: 3           # RSS posts older than this are not "breaking"
+  quiet_hours: [0, 7]       # local time: alerts still arrive, but without sound
+  models: ["gemini-3.5-flash-lite", "gemini-3.1-flash-lite", "gemini-3.8-flash"]
+  sources:
+    # Official labs (every new post is checked)
+    - {name: OpenAI, type: rss, url: "https://openai.com/news/rss.xml", official: true}
+    - {name: Google DeepMind, type: rss, url: "https://deepmind.google/blog/rss.xml", official: true}
+    - {name: Hugging Face Blog, type: rss, url: "https://huggingface.co/blog/feed.xml", official: true}
+    - {name: Anthropic, type: page, url: "https://www.anthropic.com/news", official: true,
+       link_pattern: "^https://www\\.anthropic\\.com/(news/|claude-)[a-z0-9-]+$"}
+    - {name: Mistral AI, type: page, url: "https://mistral.ai/news", official: true,
+       link_pattern: "^https://mistral\\.ai/news/[a-z0-9-]+/?$"}
+    - {name: Meta AI, type: page, url: "https://ai.meta.com/blog/", official: true,
+       link_pattern: "^https://ai\\.meta\\.com/blog/[a-z0-9-]+/?$"}
+    # Busy feeds: only headlines that look big are checked
+    - {name: Google Blog, type: rss, url: "https://blog.google/rss/", official: true, require_keywords: true}
+    - {name: TechCrunch, type: rss, url: "https://techcrunch.com/category/artificial-intelligence/feed/", require_keywords: true}
+    - {name: NVIDIA Blog, type: rss, url: "https://blogs.nvidia.com/feed/", official: true, require_keywords: true}
+    # What is blowing up right now
+    - {name: HN viral, type: hackernews, min_points: 300, window_hours: 12, max_items: 15}
+    - {name: HN rising, type: hackernews, min_points: 120, window_hours: 2, max_items: 10}
+    # New open models often land on Hugging Face before the announcement
+    - name: HF new models
+      type: hf_models
+      per_org: 8
+      orgs: [openai, google, deepseek-ai, Qwen, meta-llama, mistralai, microsoft, nvidia,
+             moonshotai, zai-org, MiniMaxAI, xai-org, black-forest-labs, stabilityai,
+             tencent, allenai, apple, ibm-granite]

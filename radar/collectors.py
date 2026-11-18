@@ -7,9 +7,10 @@ import re
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 from html import unescape
-from urllib.parse import urlsplit
+from urllib.parse import urljoin, urlsplit
 
 import feedparser
+from bs4 import BeautifulSoup
 
 from . import http
 from .media import media_from_feed_entry
@@ -118,10 +119,81 @@ def collect_hf_papers(src: dict, since: datetime) -> list[NewsItem]:
     return items[: src.get("max_items", 15)]
 
 
+def collect_page(src: dict, since: datetime) -> list[NewsItem]:
+    """News pages without RSS (e.g. Anthropic): every link matching `link_pattern` is a post.
+    Pages carry no dates, so freshness comes from 'not seen before' in the caller."""
+    html, final_url = http.get_text(src["url"], timeout=20)
+    pattern = re.compile(src["link_pattern"])
+    items, seen = [], set()
+    for a in BeautifulSoup(html, "lxml").find_all("a", href=True):
+        url = urljoin(final_url, a["href"]).split("#")[0].split("?")[0]
+        if url in seen or not pattern.search(url):
+            continue
+        seen.add(url)
+        title = " ".join(a.get_text(" ", strip=True).split())
+        heading = a.find(["h1", "h2", "h3", "h4"])
+        if heading:
+            title = " ".join(heading.get_text(" ", strip=True).split())
+        title = title or a.get("aria-label", "")
+        if len(title) < 6:
+            continue
+        items.append(NewsItem(title=title[:220], url=url, source=src["name"],
+                              lang=src.get("lang", "en")))
+        if len(items) >= src.get("max_items", 15):
+            break
+    return items
+
+
+def collect_hf_models(src: dict, since: datetime) -> list[NewsItem]:
+    """Newest public models of watched Hugging Face organisations. Labs often upload weights
+    shortly before (or instead of) a blog post, so this catches open releases early."""
+    per_org = int(src.get("per_org", 8))
+    max_age = datetime.now(timezone.utc) - timedelta(days=int(src.get("max_age_days", 7)))
+
+    def org_models(org: str) -> list[NewsItem]:
+        url = (f"https://huggingface.co/api/models?author={org}&sort=lastModified"
+               f"&direction=-1&limit={per_org}")
+        out = []
+        for m in http.get(url, timeout=15).json():
+            created = None
+            if m.get("createdAt"):
+                try:
+                    created = datetime.fromisoformat(m["createdAt"].replace("Z", "+00:00"))
+                except ValueError:
+                    created = None
+            if m.get("private") or (created and created < max_age):
+                continue
+            likes = int(m.get("likes") or 0)
+            out.append(NewsItem(
+                title=f"New Hugging Face model: {m['id']}",
+                url=f"https://huggingface.co/{m['id']}", source=f"Hugging Face · {org}",
+                published=created, lang="en", signal_value=likes,
+                signal=f"Hugging Face: {likes} لایک، {m.get('downloads') or 0} دانلود",
+                summary=(f"organisation: {org}; task: {m.get('pipeline_tag') or '?'}; "
+                         f"library: {m.get('library_name') or '?'}; created: {m.get('createdAt')}")))
+        return out
+
+    items: list[NewsItem] = []
+    with ThreadPoolExecutor(max_workers=6) as pool:
+        for got in pool.map(lambda o: _soft(org_models, o), src.get("orgs", [])):
+            items.extend(got)
+    return items
+
+
+def _soft(fn, arg):
+    try:
+        return fn(arg)
+    except Exception as exc:  # noqa: BLE001
+        log.info("%s(%s) failed: %s", fn.__name__, arg, exc)
+        return []
+
+
 COLLECTORS = {
     "rss": collect_rss,
     "hackernews": collect_hackernews,
     "hf_papers": collect_hf_papers,
+    "page": collect_page,
+    "hf_models": collect_hf_models,
 }
 
 
@@ -135,7 +207,13 @@ def collect_all(sources: list[dict], since: datetime, workers: int = 8):
         fn = COLLECTORS.get(src.get("type", "rss"))
         if fn is None:
             raise ValueError(f"unknown source type {src.get('type')}")
-        return fn(src, since)
+        src_since = since
+        if src.get("window_hours"):
+            src_since = datetime.now(timezone.utc) - timedelta(hours=float(src["window_hours"]))
+        got = fn(src, src_since)
+        for item in got:
+            item.origin = src["name"]
+        return got
 
     with ThreadPoolExecutor(max_workers=workers) as pool:
         futures = {pool.submit(run, s): s for s in enabled}

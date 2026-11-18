@@ -76,8 +76,12 @@ def tg_header(r: DayResult) -> str:
     lines.append(f"📊 {fa_digits(r.scanned)} خبر از {fa_digits(r.source_count)} منبع بررسی شد · "
                  f"{fa_digits(len(r.content_items))} سوژهٔ محتوا · "
                  f"{fa_digits(len(r.other_items))} خبر مهم دیگه")
+    hot = [i for i in r.content_items + r.other_items if i.hot]
+    if hot:
+        lines += ["", "🔥 <b>داغ‌ترین‌ها:</b>"]
+        lines += [f"• {h(i.deep.get('title_fa') or i.title_fa or i.title)}" for i in hot[:5]]
     if r.failed_sources:
-        lines.append(f"🔌 منابعی که امروز جواب ندادن: {h('، '.join(r.failed_sources))}")
+        lines += ["", f"🔌 منابعی که امروز جواب ندادن: {h('، '.join(r.failed_sources))}"]
     return "\n".join(lines)
 
 
@@ -89,12 +93,19 @@ def tg_caption(item: NewsItem, n: int) -> str:
 def tg_item(item: NewsItem, n: int) -> str:
     d = item.deep
     title = d.get("title_fa") or item.title_fa or item.title
-    out = [f"🔥 <b>{fa_digits(n)}. {h(title)}</b>"]
+    out = []
+    if item.hot:
+        out.append("🔥🔥 <b>داغ — احتمال وایرال شدن بالا</b>")
+    out.append(f"{'🚀' if item.hot else '🎯'} <b>{fa_digits(n)}. {h(title)}</b>")
+    if item.alerted:
+        out.append("🚨 هشدار فوری این خبر قبلاً برات اومده؛ این نسخهٔ کاملشه.")
     meta = []
     if item.importance:
         meta.append(f"⭐ اهمیت {fa_digits(item.importance)}/۱۰")
     if item.worthiness:
         meta.append(f"🎯 ارزش محتوا {fa_digits(item.worthiness)}/۱۰")
+    if item.viral:
+        meta.append(f"📈 وایرال {fa_digits(item.viral)}/۱۰")
     if item.category:
         meta.append(f"🏷 {h(category_name(item.category))}")
     if meta:
@@ -159,7 +170,8 @@ def tg_others(items: list[NewsItem]) -> str:
     lines = ["📌 <b>خبرهای مهم دیگه</b>"]
     for n, item in enumerate(items, 1):
         title = item.title_fa or item.title
-        lines += ["", f"<b>{fa_digits(n)}. {h(title)}</b>"]
+        mark = "🔥 " if item.hot else ""
+        lines += ["", f"<b>{mark}{fa_digits(n)}. {h(title)}</b>"]
         if item.one_liner_fa:
             lines.append(h(item.one_liner_fa))
         tail = f'🔗 <a href="{ha(clean_url(item.url))}">{h(item.source)}</a>'
@@ -215,11 +227,13 @@ def markdown(r: DayResult) -> str:
     md += ["## سوژه‌های محتوا", ""]
     for n, item in enumerate(r.content_items, 1):
         d = item.deep
-        md += [f"### {fa_digits(n)}. {d.get('title_fa') or item.title_fa or item.title}", "",
+        fire = "🔥 " if item.hot else ""
+        md += [f"### {fire}{fa_digits(n)}. {d.get('title_fa') or item.title_fa or item.title}", "",
                f"**عنوان اصلی:** {item.title}  ",
                f"**منبع:** [{item.source}]({clean_url(item.url)})"
                + (f" · {language_name(item.lang)}" if item.lang else "") + "  ",
                f"**اهمیت:** {item.importance}/10 · **ارزش محتوا:** {item.worthiness}/10 · "
+               f"**وایرال:** {item.viral}/10 · "
                f"**دسته:** {category_name(item.category)}", ""]
         if d.get("summary_fa"):
             md += [d["summary_fa"], ""]
@@ -258,7 +272,7 @@ def markdown(r: DayResult) -> str:
     if r.other_items:
         md += ["## خبرهای مهم دیگه", ""]
         for n, item in enumerate(r.other_items, 1):
-            md.append(f"{n}. **{item.title_fa or item.title}** — {item.one_liner_fa} "
+            md.append(f"{n}. {'🔥 ' if item.hot else ''}**{item.title_fa or item.title}** — {item.one_liner_fa} "
                       f"([{item.source}]({clean_url(item.url)}))")
         md.append("")
     if r.failed_sources:
@@ -266,3 +280,56 @@ def markdown(r: DayResult) -> str:
     if r.models:
         md += [f"_مدل: {', '.join(dict.fromkeys(r.models))}_", ""]
     return "\n".join(md)
+
+
+# ----------------------------------------------------------------------- Alerts
+def age_label(published, now) -> str:
+    if not published:
+        return ""
+    minutes = max(0, int((now - published).total_seconds() // 60))
+    if minutes < 60:
+        return f"{fa_digits(minutes)} دقیقه پیش"
+    return f"{fa_digits(minutes // 60)} ساعت پیش"
+
+
+def tg_alert(item: NewsItem, now) -> str:
+    a = item.alert or {}
+    head = "🚨 <b>خبر فوری</b>"
+    if a.get("alert_score"):
+        head += f" · ⭐ {fa_digits(a['alert_score'])}/۱۰"
+    if a.get("is_model_release"):
+        head += " · 🤖 مدل جدید"
+    out = [head, "", f"<b>{h(a.get('title_fa') or item.title)}</b>"]
+    if a.get("title_fa"):
+        out.append(f"<i>{h(item.title)}</i>")
+    if a.get("summary_fa"):
+        out += ["", h(a["summary_fa"])]
+    elif item.summary:
+        out += ["", h(item.summary[:350])]
+    if a.get("why_fa"):
+        out += ["", f"⚡ <b>چرا مهمه:</b> {h(a['why_fa'])}"]
+    idea = a.get("quick_idea") or {}
+    if idea.get("hook_fa") or idea.get("angle_fa"):
+        out += ["", f"🎬 <b>سریع بساز{(' [' + h(idea['format']) + ']') if idea.get('format') else ''}:</b> "
+                    f"{h(idea.get('angle_fa', ''))}"]
+        if idea.get("hook_fa"):
+            out.append(f"🪝 هوک: «{h(idea['hook_fa'])}»")
+    if not a:
+        out += ["", "⚠️ مدل هوش مصنوعی الان در دسترس نبود؛ خبر خام و فوری فرستاده شد."]
+
+    images, videos, embeds = media_groups(item)
+    links = [f'<a href="{ha(m.url)}">عکس {fa_digits(k)}</a>' for k, m in enumerate(images[:4], 1)]
+    links += [f'<a href="{ha(m.url)}">ویدیو {fa_digits(k)}</a>' for k, m in enumerate(videos[:2], 1)]
+    links += [f'<a href="{ha(m.url)}">{_embed_label(m.url)}</a>' for m in embeds[:2]]
+    if links:
+        out += ["", "📥 " + " · ".join(links)]
+    src = f'🔗 <a href="{ha(clean_url(item.url))}">{h(item.source)}</a>'
+    age = age_label(item.published, now)
+    if age:
+        src += f" · منتشر شده {age}"
+    out += ["", src]
+    if item.discussion_url:
+        out.append(f'💬 <a href="{ha(item.discussion_url)}">بحث و واکنش‌ها</a>')
+    if item.signal:
+        out.append(f"📊 {h(fa_digits(item.signal))}")
+    return "\n".join(out)
