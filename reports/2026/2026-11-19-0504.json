@@ -1,0 +1,1731 @@
+{
+ "content": [
+  {
+   "title": "GTA 6 launch day: Live updates on the biggest game of the year",
+   "url": "https://www.engadget.com/2320788/gta-vi-launch-day-live-blog/",
+   "source": "Engadget",
+   "published": "2026-11-18T18:00:00+00:00",
+   "origin": "Engadget",
+   "summary": "We're playing, you're playing, everyone's playing. Come join us as we share everything we find out about Rockstar's biggest game.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/gta-6-launch-day-live-updates-on-the-biggest-game-of-the-year/l-intro-1795024489.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/gta-6-launch-day-live-updates-on-the-biggest-game-of-the-year/intro-1795024489.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 8,
+   "category": "other_tech",
+   "story_key": "gta-6-official-launch-day",
+   "topic_key": "gta-6-launch",
+   "already_reported": false,
+   "viral": 9,
+   "title_fa": "لانچ رسمی GTA 6؛ پرحاشیه‌ترین بازی دهه با حجم ۲۱۲ گیگابایت منتشر شد",
+   "one_liner_fa": "راک‌استار بالاخره بازی مورد انتظار GTA 6 را روانه بازار کرد تا توجه تمام دنیای گیمینگ و رسانه‌های فناوری را به خود جلب کند.",
+   "deep": {
+    "id": "8169e0bc0c",
+    "title_fa": "لانچ رسمی GTA 6؛ پرحاشیه‌ترین بازی دهه با حجم ۲۱۲ گیگابایت منتشر شد",
+    "summary_fa": "بازی موردانتظار جی‌تی‌ای ۶ (Grand Theft Auto 6) سرانجام برای کنسول‌های پلی‌استیشن ۵ (PlayStation 5) و ایکس‌باکس سری ایکس و اس (Xbox Series X/S) منتشر شد و نقد‌های اولیه آن در دسترس قرار گرفت. کاربران برای تجربه بازی به دانلود سنگین ۲۱۲ گیگابایتی و آپدیت فریم‌ور کنسول نیاز دارند. بازی روی کنسول‌ها به نرخ ۳۰ فریم بر ثانیه محدود است، هرچند دارندگان PS5 Pro به فناوری رهگیری پرتو (Ray-tracing) دسترسی دارند. همچنین تأیید شد که پی‌سی پلیرها (PC) باید تا سال ۲۰۲۷ برای انتشار بازی روی ویندوز منتظر بمانند.",
+    "key_points_fa": [
+     "پلتفرم‌های فعلی: انحصاری کنسول‌های نسل نهم پلی‌استیشن ۵ و ایکس‌باکس سری ایکس/اس.",
+     "حجم فایل نصب: ۲۱۲ گیگابایت به همراه نیاز به آپدیت فرم‌ور در PS5.",
+     "نرخ فریم: محدود به ۳۰ فریم بر ثانیه (30 fps) روی کنسول‌ها؛ پشتیبانی از ری‌تریسینگ در PS5 Pro.",
+     "تاریخ انتشار نسخه پی‌سی (PC): موکول شده به سال ۲۰۲۷.",
+     "گیم‌پلی و داستان: بازگشت به وایس سیتی (Vice City)، امکان سوییچ بین دو کاراکتر اصلی و بهره‌گیری از مکانیک‌های پیشرفته مجرمانه مشابه Red Dead Redemption 2."
+    ],
+    "why_it_matters_fa": "عرضه نسخه جدید GTA رویدادی است که هر دهه یک بار رخ می‌دهد و استاندارد گرافیک، فیزیک و پردازش بازی‌های ویدیویی را در صنعت گیم جابه‌جا می‌کند.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "حجم وحشتناک و فریم‌ریت شوکه‌کننده GTA 6!",
+      "hook_fa": "۲۱۲ گیگابایت دانلود کنی، ولی با ۳۰ فریم بازی کنی؟! بالاخره GTA 6 اومد!",
+      "angle_fa": "بررسی مشخصات فنی بازی در روز عرضه و حسرت پی‌سی پلیرها تا سال ۲۰۲۷.",
+      "outline_fa": [
+       "نمایش گرافیک بازی و خبر رسمی لانچ روی کنسول‌ها",
+       "اشاره به حجم دانلود دیوانه‌کننده ۲۱۲ گیگابایتی و ۳۰ فریم بودن بازی",
+       "بررسی قابلیت ری‌تریسینگ در کنسول PS5 Pro",
+       "کنایه به کاربران پی‌سی و انتظار اجباری‌شان تا سال ۲۰۲۷"
+      ],
+      "visual_tip_fa": "کات‌های سریع از شهر وایس‌سیتی، اسکرین‌شات حجم دانلود بازی و تصویر میم‌های پی‌سی‌پلیرهای منتظر."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "راهنمای روز اول GTA 6؛ قبل از دانلود این ۵ نکته را بدانید",
+      "hook_fa": "قبل از اینکه ۲۱۲ گیگ دانلود کنی، این پست رو ورق بزن!",
+      "angle_fa": "ارائه نکات حیاتی برای آماده‌سازی کنسول و تنظیمات گرافیکی به همراه ویژگی‌های گیم‌پلی جدید.",
+      "outline_fa": [
+       "اسلاید ۱: اعلام انتشار رسمی و پلتفرم‌های مقصد",
+       "اسلاید ۲: حجم فایل و ضرورت آپدیت سیستم‌عامل کنسول",
+       "اسلاید ۳: وضعیت نرخ فریم و مزیت کنسول PS5 Pro",
+       "اسلاید ۴: تغییرات جدید گیم‌پلی، دو پروتاگونیست و سیستم جرایم",
+       "اسلاید ۵: وضعیت پی‌سی‌پلیرها و تاریخ انتشار ۲۰۲۷"
+      ],
+      "visual_tip_fa": "ترکیب والپیپرهای باکیفیت و رسمی دو شخصیت اصلی با تایپوگرافی نئونی به سبک Vice City."
+     }
+    ],
+    "hashtags": [
+     "#GTA6",
+     "#جی_تی_ای_۶",
+     "#راک_استار",
+     "#گیمینگ",
+     "#پلی_استیشن",
+     "#PS5",
+     "#GamingNews"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "8169e0bc0c"
+  },
+  {
+   "title": "NVIDIA RTX Spark Compact Desktops Out Now",
+   "url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/",
+   "source": "NVIDIA Blog",
+   "published": "2026-11-18T14:00:31+00:00",
+   "origin": "NVIDIA Blog",
+   "summary": "New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are available today, bringing local AI agents, image and video generation, and model fine-tuning to a dedicated Windows PC. With up to 128GB of unified memory and NVIDIA’s AI software stack, these systems provide room for larger local models alongside RTX-accelerated creative and development […]",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/nv-blog-1280x680-2-1.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "embed",
+     "url": "https://www.youtube.com/watch?v=nypDHkAyJ5E",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/11-18-Local-AI-Blog-copy-1.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/MSI-EdgeMesa-N-AI-Series.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/5507100-gtc26-berlin-digital-bestofgtc-corp-blog-1920x1080-1-960x540.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://img.youtube.com/vi/nypDHkAyJ5E/maxresdefault.jpg",
+     "origin": "youtube"
+    },
+    {
+     "kind": "image",
+     "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/nv-blog-1280x680-2-1-842x450.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 8,
+   "category": "hardware_chips",
+   "story_key": "nvidia-rtx-spark-desktops-launch",
+   "topic_key": "nvidia-hardware",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "انویدیا از مینی‌دسکتاپ‌های RTX Spark برای اجرای محلی هوش مصنوعی رونمایی کرد",
+   "one_liner_fa": "انویدیا با همکاری ایسوس، دل و ام‌اس‌آی رایانه‌های جمع‌وجور RTX Spark را با حافظه یکپارچه تا ۱۲۸ گیگابایت برای اجرای محلی هوش مصنوعی عرضه کرد.",
+   "deep": {
+    "id": "1c3eaf246b",
+    "title_fa": "انویدیا از مینی‌دسکتاپ‌های RTX Spark برای اجرای محلی هوش مصنوعی رونمایی کرد",
+    "summary_fa": "انویدیا (NVIDIA) با همکاری شرکت‌های ایسوس (ASUS)، دل (Dell) و ام‌اس‌آی (MSI) دسکتاپ‌های جمع‌وجور RTX Spark را روانه بازار کرد که به‌طور ویژه برای اجرای محلی مدل‌ها و ایجنت‌های هوش مصنوعی طراحی شده‌اند. این سیستم‌ها از پردازنده ۲۰ هسته‌ای Grace، پردازنده گرافیکی معماری بلک‌ول (Blackwell RTX) با ۶,۱۴۴ هسته کودا (CUDA) و تا ۱۲۸ گیگابایت حافظه یکپارچه بهره می‌برند که توان پردازشی معادل ۱ پتافلاپ ارائه می‌دهد. این غول‌های کوچک قادرند مدل‌های عظیم زبانی با ۱۲۰ میلیارد پارامتر را بدون نیاز به اینترنت و پرداخت هزینه API به صورت محلی پردازش کنند.",
+    "key_points_fa": [
+     "سخت‌افزار اختصاصی: پردازنده ۲۰ هسته‌ای NVIDIA Grace، گرافیک بلک‌ول با ۶۱۴۴ هسته کودا و توان پردازشی ۱ پتافلاپ.",
+     "حافظه یکپارچه: مجهز به حداکثر ۱۲۸ گیگابایت رم یکپارچه برای پردازش مدل‌های زبان بزرگ (LLM) تا ۱۲۰ میلیارد پارامتر (120B).",
+     "سازندگان: هم‌اکنون از برندهای ایسوس، دل و ام‌اس‌آی عرضه شده و نسخه‌های ایسر، گیگابایت، اچ‌پی و سرفیس در راه هستند.",
+     "اتصال پرسرعت: مجهز به پورت شبکه ۱۰ گیگابیتی (10GbE) برای انتقال سریع دیتاست‌های حجیم.",
+     "هماهنگی نرم‌افزاری: پشتیبانی نیتیو ویندوز آرم از برنامه‌های ادوبی (Premiere, Photoshop, Illustrator, Painter)، بلندر ۵.۳ و کامفی‌یو‌آی (ComfyUI)."
+    ],
+    "why_it_matters_fa": "این دسکتاپ‌ها مرز بین سیستم‌های ابری گران‌قیمت و کارهای شخصی را از بین می‌برند و به توسعه‌دهندگان اجازه می‌دهند مدل‌های سنگین ۱۲۰ میلیاردی را کاملاً امن و محلی اجرا کنند.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "کیس کامپکت انویدیا؛ هیولای اجرای هوش مصنوعی آفلاین!",
+      "hook_fa": "دیگه نیازی به پرداخت دلاری برای API اوپن‌ای‌آی نداری؛ انویدیا این غول فسقلی رو معرفی کرد!",
+      "angle_fa": "معرفی مینی‌کامپیوترهای RTX Spark به عنوان ابزار انقلابی برای اجرای محلی مدل‌ها و ابزارهای خلاقانه بدون وابستگی به اینترنت.",
+      "outline_fa": [
+       "نمایش طراحی مینی‌کیس و ابعاد کامپکت آن",
+       "بیان مشخصات شگفت‌انگیز: ۱۲۸ گیگابایت حافظه یکپارچه و پردازنده بلک‌ول",
+       "توضیح قابلیت اجرای مدل ۱۲۰ میلیارد پارامتری به صورت محلی",
+       "دموی ترکیب ابزارهایی مثل فتوشاپ و ComfyUI با ایجنت‌های هوشمند"
+      ],
+      "visual_tip_fa": "استفاده از ویدیوی یوتیوب رسمی انویدیا و نمایش ادغام فتوشاپ با هوش مصنوعی در محیط کاربری ویندوز آرم."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "پایان هزینه‌های اشتراک AI؟ بررسی کامپیوترهای RTX Spark انویدیا",
+      "hook_fa": "یک پتافلاپ قدرت پردازش هوش مصنوعی روی میز کار شما!",
+      "angle_fa": "بررسی عمیق‌تر پتانسیل سخت‌افزار برای طراحان 3D، ادیتورهای ویدیو و دولوپرها.",
+      "outline_fa": [
+       "اسلاید ۱: معرفی سری RTX Spark با برندهای ایسوس و دل",
+       "اسلاید ۲: مقایسه اجرای مدل‌ها در کلود در مقابل پردازش محلی با ۱۲۸ گیگابایت رم",
+       "اسلاید ۳: سازگاری با ابزارهای ادوبی و رندرهای ۹۰ گیگابایتی در لحظه",
+       "اسلاید ۴: سیستم سوییچ‌بورد (Switchyard) و جابه‌جایی هوشمند بین پردازش محلی و ابری",
+       "اسلاید ۵: جمع‌بندی؛ این دستگاه برای چه کسانی ارزش خرید دارد؟"
+      ],
+      "visual_tip_fa": "استفاده از رندرهای سخت‌افزاری باکیفیت و نمودارهای مقایسه بازدهی برنامه‌ها بر بستر معماری Arm."
+     }
+    ],
+    "hashtags": [
+     "#انویدیا",
+     "#NVIDIA",
+     "#هوش_مصنوعی",
+     "#RTXSpark",
+     "#سخت_افزار",
+     "#طراحی_گرافیک",
+     "#هوش_مصنوعی_محلی"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "1c3eaf246b"
+  },
+  {
+   "title": "AI found a hole in Java, and it starts with 'AAAAAAAA...'",
+   "url": "https://www.engadget.com/2320797/ai-found-a-hole-in-java-and-it-starts-with-aaaaaaaa/",
+   "source": "Engadget",
+   "published": "2026-11-18T17:59:47+00:00",
+   "origin": "Engadget",
+   "summary": "The bug could let hackers take over systems at banks, hospitals and most Fortune 500 companies.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/ai-found-a-hole-in-java-and-it-starts-with-aaaaaaaa/l-intro-1795024736.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/ai-found-a-hole-in-java-and-it-starts-with-aaaaaaaa/intro-1795024736.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 8,
+   "category": "safety_ethics",
+   "story_key": "ai-discovers-critical-java-vulnerability",
+   "topic_key": "ai-cybersecurity",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "کشف آسیب‌پذیری مرگبار جاوا توسط هوش مصنوعی با ۶۴ بار تکرار حرف A!",
+   "one_liner_fa": "یک سیستم هوش مصنوعی موفق به کشف آسیب‌پذیری بسیار خطرناکی در زبان جاوا (Java) شد که می‌توانست به هکرها اجازه نفوذ به سرورهای بانکی و بیمارستانی را بدهد.",
+   "deep": {
+    "id": "b1b58dd398",
+    "title_fa": "کشف آسیب‌پذیری مرگبار جاوا توسط هوش مصنوعی با ۶۴ بار تکرار حرف A!",
+    "summary_fa": "محققان استارتاپ امنیت سایبری کالیف (Calif) به کمک مدل منتشرنشده GPT-6 Cyber از شرکت اوپن‌ای‌آی (OpenAI)، رخنه امنیتی بزرگی را در زبان برنامه‌نویسی جاوا (Java) کشف کردند. این آسیب‌پذیری با ارسال رشته‌ای شامل ۶۴ کاراکتر «A» متوالی و یک علامت مساوی به دیکودر Base64 جاوا فعال شده و منجر به سرریز حافظه و دسترسی غیرمجاز کامل به سیستم می‌شود. این باگ زیرساخت‌هایی همچون سامانه ورود Keycloak که در ناسا (NASA) و سرن (CERN) استفاده می‌شود و نزدیک به ۹۰ درصد شرکت‌های فهرست فورچون ۵۰۰ را در معرض خطر قرار داده است.",
+    "key_points_fa": [
+     "ابزار کشف نقص: مدل معرفی‌نشده و فوق‌تخصصی GPT-6 Cyber توسعه‌یافته توسط OpenAI.",
+     "مکانیسم نفوذ: تزریق رشته‌ای با ۶۴ کاراکتر 'A' به همراه علامت مساوی (=) به دیکودر Base64 جاوا.",
+     "نتیجه نفوذ: بروز خطای حافظه و فراهم شدن امکان دسترسی کامل سیستمی برای هکرها.",
+     "سیستم‌های آسیب‌پذیر: سامانه مدیریت هویت Keycloak و حدود ۹۰ درصد شرکت‌های لیست Fortune 500.",
+     "وضعیت پچ: اوراکل (Oracle) پچ امنیتی فوری منتشر کرده، اما تخمین زده می‌شود ایمن‌سازی کامل ۵ تا ۱۰ سال طول بکشد."
+    ],
+    "why_it_matters_fa": "این رویداد نشان می‌دهد هوش مصنوعی وارد عرصه حیاتی کشف باگ‌های زیرساختی شده و نبردی تمام‌عیار در حوزه امنیت سایبری میان مهاجمان و مدافعان آغاز شده است.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "چطور هوش مصنوعی با تایپ 'AAAAAAAA' دنیا رو هک کرد؟!",
+      "hook_fa": "باور می‌کنی با تایپ کردن ۶۴ تا حرف A میشه سیستم‌های ناسا رو هک کرد؟! اونم با GPT-6!",
+      "angle_fa": "داستان شگفت‌انگیز قدرت هوش مصنوعی در کشف آسیب‌پذیری‌های تاریخی و پشت‌پرده یک باگ احمقانه ولی مرگبار.",
+      "outline_fa": [
+       "نمایش رشته عجیب AAAAAAAA... و طرح سوال قلاب",
+       "توضیح نقش مدل محرمانه GPT-6 Cyber اوپن‌ای‌آی در کشف باگ",
+       "تشریح خطری که بانک‌ها، بیمارستان‌ها و ۹۰ درصد غول‌های اقتصادی رو تهدید می‌کنه",
+       "هشدار به برنامه‌نویس‌ها و مدیران شبکه برای آپدیت فوری پچ اوراکل"
+      ],
+      "visual_tip_fa": "تایپ زنده حروف A روی صفحه شبیه به محیط ترمینال لینوکس و لوگوهای هک‌شده شرکت‌های بزرگ با رنگ قرمز نئونی."
+     },
+     {
+      "format": "پست",
+      "title_fa": "زنگ خطر برای جاوا: وقتی GPT-6 حفره‌های امنیتی را پیدا می‌کند",
+      "hook_fa": "خطرناک‌ترین رشته کدهای سال ۲۰۲۶ لو رفت؛ این بار کار هوش مصنوعی بود!",
+      "angle_fa": "بررسی فنی باگ Base64 جاوا و زنگ خطری که مدل‌های آینده برای زیرساخت‌های قدیمی دارند.",
+      "outline_fa": [
+       "توضیح تکنیکال خطای دیکودر Base64 در جاوا",
+       "چرا پچ شدن این باگ در کل دنیا تا ۱۰ سال طول می‌کشد؟",
+       "معرفی قابلیت‌های مدل کشف‌کننده (GPT-6 Cyber)",
+       "توصیه امنیتی سازمان CISA برای پچ فوری سیستم‌ها"
+      ],
+      "visual_tip_fa": "طراحی اسلایدی با نمودار نحوه سرریز شدن حافظه بر اثر باگ و کدهای آسیب‌پذیر."
+     }
+    ],
+    "hashtags": [
+     "#امنیت_سایبری",
+     "#جاوا",
+     "#اوپن_ای_ای",
+     "#هوش_مصنوعی",
+     "#OpenAI",
+     "#GPT6",
+     "#CyberSecurity",
+     "#هک"
+    ],
+    "caution_fa": "مدل GPT-6 Cyber هنوز به صورت عمومی توسط OpenAI منتشر نشده و یک ابزار تحقیقاتی در دست متخصصان امنیت است؛ حتماً در محتوا به عمومی نبودن آن اشاره شود."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "b1b58dd398"
+  },
+  {
+   "title": "More banks say customers using AI agents are on their own — even if they get hacked",
+   "url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/",
+   "source": "TechCrunch",
+   "published": "2026-11-18T17:32:10+00:00",
+   "origin": "TechCrunch",
+   "summary": "Citi is the latest major financial institution to put the breaks on personal finance AI agents.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-1497343848.jpeg?resize=1200,800",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2026/02/TIm.jpg?w=150",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 8,
+   "category": "safety_ethics",
+   "story_key": "banks-warn-ai-agents-liability",
+   "topic_key": "ai-agents-finance",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "سلب مسئولیت بانک‌ها: اگر پولتان با ایجنت‌های هوش مصنوعی برود، مقصر خودتانید!",
+   "one_liner_fa": "بانک‌های بزرگی مثل سیتی‌بانک اعلام کردند مسئولیت کامل هرگونه خطای مالی یا هک شدن دستیاران و ایجنت‌های هوش مصنوعی بر عهده خود کاربر خواهد بود.",
+   "deep": {
+    "id": "6ae82bdc38",
+    "title_fa": "سلب مسئولیت بانک‌ها: اگر پولتان با ایجنت‌های هوش مصنوعی برود، مقصر خودتانید!",
+    "summary_fa": "سیتی‌بانک (Citibank) به همراه جی‌پی مورگان (JPMorgan) و بنک آو آمریکا (Bank of America) بندهای توافق‌نامه کاربری خود را به‌روزرسانی کردند و به مشتریان هشدار دادند در صورت استفاده از ابزارهای هوش مصنوعی شخص ثالث برای امور مالی، مسئولیت هرگونه خطا یا هک بر عهده کاربر است. طبق شرایط جدید، حتی اگر ایجنت هوش مصنوعی هک شود یا اطلاعات هویتی مشتری را لو بدهد، بانک هیچ تراکنشی را لغو نکرده و پولی را برنمی‌گرداند. این واکنش تند بانک‌ها در حالی رخ می‌دهد که شرکت‌هایی نظیر آنتروپیک (Anthropic) ابزارهای مالی خود را محتاطانه و به صورت «فقط‌خواندنی» عرضه کرده‌اند.",
+    "key_points_fa": [
+     "بانک‌های اعلام‌کننده: سیتی‌بانک، جی‌پی مورگان، بنک آو آمریکا، پی‌ان‌سی (PNC) و سیتیزنز (Citizens).",
+     "تغییر قانون: سلب هرگونه مسئولیت بازگرداندن پول در اثر اشتباه یا هک شدن ابزارها و ایجنت‌های مالی شخص ثالث.",
+     "مسئولیت درز اطلاعات: حتی اگر دستیار هوش مصنوعی مورد حمله قرار گیرد و رمزها لو برود، کاربر شخصاً پاسخگوست.",
+     "رویکرد محتاطانه رقبا: آنتروپیک (Anthropic) دستیار مالی‌اش را به‌صورت «Read-only» طراحی کرده که قابلیت جابه‌جایی و سرمایه‌گذاری پول را ندارد.",
+     "ایجنت‌های اختصاصی: بانک‌ها اعلام کرده‌اند تنها استفاده از ایجنت‌های ساخت خود بانک تحت پوشش گارانتی و مسئولیت مالی خواهد بود."
+    ],
+    "why_it_matters_fa": "این تصمیم چالش بزرگ ورود ایجنت‌های خودمختار به زندگی واقعی را آشکار می‌کند؛ هشداری صریح به کاربران که در سپردن دسترسی‌های حساس مالی به هوش مصنوعی تجدیدنظر کنند.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "هشدار فوری: دسترسی کارت بانکی‌ات رو به هوش مصنوعی نده!",
+      "hook_fa": "بانک‌ها قانون جدید گذاشتن: اگه هوش مصنوعی حسابت رو خالی کنه، یه قرون هم بهت پس نمیدن!",
+      "angle_fa": "هشدار جدی در مورد خطرات قانونی و امنیتی اتصال ایجنت‌های مالی هوش مصنوعی به حساب‌های بانکی.",
+      "outline_fa": [
+       "طرح هشدار و تصمیم جدید سیتی‌بانک و سایر غول‌های مالی",
+       "شرح ماجرا: سلب مسئولیت کامل حتی در صورت هک شدن بات هوش مصنوعی",
+       "مقایسه با رویکرد هوشمندانه آنتروپیک (فقط خواندنی بودن ابزارها)",
+       "توصیه عملی: هرگز دسترسی مستقیم تراکنش مالی به ایجنت‌های متفرقه ندهید"
+      ],
+      "visual_tip_fa": "تصویر هشدارهای قرمز، نمایش صفحه قوانین بانک‌ها و اینفوگرافیک انتقال اشتباه پول از حساب به دست یک ربات."
+     },
+     {
+      "format": "استوری",
+      "title_fa": "آیا حاضرید مدیریت پولتان را به هوش مصنوعی بسپارید؟",
+      "hook_fa": "فرض کنید یه ربات AI بدون اجازه شما پولتون رو منتقل کنه... کی مقصره؟",
+      "angle_fa": "برگزاری نظرسنجی و تعامل با مخاطب پیرامون حد و مرز اعتماد به هوش مصنوعی در امور حساس.",
+      "outline_fa": [
+       "استیکر نظرسنجی: حاضری رمز حسابت رو به ایجنت هوش مصنوعی بدی؟",
+       "اشتراک خبر تغییر قوانین بانک‌های آمریکا",
+       "توضیح اینکه چرا بانک‌ها در برابر هوش مصنوعی جبهه گرفته‌اند",
+       "جمع‌بندی و ارائه راهکارهای ایمن مثل ابزارهای Read-only"
+      ],
+      "visual_tip_fa": "اسکرین‌شات از بیانیه سیتی‌بانک با استفاده از باکس نظرسنجی اینستاگرام."
+     }
+    ],
+    "hashtags": [
+     "#هوش_مصنوعی",
+     "#فینتک",
+     "#امنیت_اطلاعات",
+     "#حساب_بانکی",
+     "#تکنولوژی",
+     "#AI_Agent",
+     "#اخبار_فناوری"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "6ae82bdc38"
+  },
+  {
+   "title": "Microsoft AI: Seven new world-class models at scalable price-performance",
+   "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
+   "source": "microsoft.ai",
+   "published": "2026-11-18T16:08:24+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 157 امتیاز، 100 کامنت",
+   "signal_value": 157,
+   "discussion_url": "https://news.ycombinator.com/item?id=50548021",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://microsoft.ai/wp-content/uploads/2026/11/All-Up-Blog.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://microsoft.ai/wp-content/uploads/2026/11/Custom-Models-no-text.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 7,
+   "category": "model_release",
+   "story_key": "microsoft-ai-seven-new-models-launch",
+   "topic_key": "microsoft-ai-frontier-models",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "رونمایی مایکروسافت از ۷ مدل هوش مصنوعی تحت عنوان MAI",
+   "one_liner_fa": "بخش مایکروسافت AI از ۷ مدل هوش مصنوعی در کلاس جهانی پرده برداشت که تعادل بی‌نظیری میان هزینه پایین و کارایی محاسباتی ارائه می‌دهند.",
+   "deep": {
+    "id": "5dbbce4400",
+    "title_fa": "رونمایی مایکروسافت از ۷ مدل هوش مصنوعی تحت عنوان MAI",
+    "summary_fa": "مایکروسافت در رویداد اخیر ایگنایت (Ignite) از عرضه هفت مدل جدید هوش مصنوعی در کلاس جهانی خبر داد که با تمرکز بر مقیاس‌پذیری و تناسب قیمت به عملکرد طراحی شده‌اند. این غول فناوری با ارائه مدلی تحت عنوان «وزن‌های دارای لایسنس» (Licensed Weights)، کنترل مستقیم مدل‌ها را در اختیار سازمان‌ها قرار می‌دهد تا پرفورمنس مدل‌های فرانتیر را در بستر اختصاصی خود پیاده‌سازی کنند.",
+    "key_points_fa": [
+     "معرفی ۷ مدل هوش مصنوعی کاملاً جدید توسط واحد Microsoft AI.",
+     "ارائه در قالب Licensed Weights با هدف کنترل مستقیم وزن‌های مدل توسط سازمان‌ها.",
+     "تمرکز محوری بر دستیابی به مقیاس‌پذیری بالا در نسبت قیمت به کارایی (Price-Performance).",
+     "عرضه رسمی در جریان کنفرانس مایکروسافت ایگنایت (Ignite)."
+    ],
+    "why_it_matters_fa": "این حرکت مایکروسافت نشان‌دهنده تغییر استراتژی برای رقابت با اکوسیستم مدل‌های متن‌باز است و به شرکت‌ها اجازه می‌دهد بدون وابستگی مطلق ابری، مدل‌های پیشرفته را مدیریت کنند.",
+    "content_ideas": [
+     {
+      "format": "استوری",
+      "title_fa": "مایکروسافت ۷ مدل جدید هوش مصنوعی رو کرد!",
+      "hook_fa": "مایکروسافت هم وارد بازی مدل‌های قابل لایسنس شد!",
+      "angle_fa": "پوشش خبری کوتاه و سریع کنفرانس مایکروسافت ایگنایت برای دنبال‌کنندگان اخبار زنده.",
+      "outline_fa": [
+       "تیتر خبر معرفی ۷ مدل هوش مصنوعی در ایگنایت",
+       "توضیح قابلیت لایسنس وزن‌ها و در اختیار گرفتن کنترل مدل",
+       "لینک تعاملی برای دریافت اخبار تکمیلی رویداد"
+      ],
+      "visual_tip_fa": "تصویر بنر رویداد مایکروسافت ایگنایت با تم گرافیکی هوش مصنوعی مایکروسافت."
+     },
+     {
+      "format": "پست",
+      "title_fa": "استراتژی جدید مایکروسافت؛ چرا کنترل وزن مدل‌های هوش مصنوعی مهم است؟",
+      "hook_fa": "مایکروسافت مدل‌های جدیدش را به شما تحویل می‌دهد، نه فقط یک API ساده!",
+      "angle_fa": "تحلیل مفهوم Licensed Weights و چرایی اهمیت حفظ کنترل مدل‌ها توسط شرکت‌ها.",
+      "outline_fa": [
+       "معرفی مدل‌های سری MAI از رویداد مایکروسافت",
+       "بررسی مفهوم لایسنس وزن‌های مدل (Licensed Weights)",
+       "تاثیر ارائه مدل‌های مقیاس‌پذیر در کاهش هزینه‌های زیرساختی",
+       "چشم‌انداز رقابت مایکروسافت با سایر ارائه‌دهندگان هوش مصنوعی"
+      ],
+      "visual_tip_fa": "طراحی گرافیکی اینفوگرافیک با برندینگ مایکروسافت و دیاگرام مالکیت وزن مدل."
+     }
+    ],
+    "hashtags": [
+     "#مایکروسافت",
+     "#Microsoft",
+     "#هوش_مصنوعی",
+     "#مایکروسافت_ایگنایت",
+     "#Ignite",
+     "#تکنولوژی",
+     "#AI"
+    ],
+    "caution_fa": "اطلاعات ارائه‌شده در منبع اولیه بسیار کوتاه بوده و جزئیات دقیق بنچمارک‌ها و نام تک‌تک مدل‌ها ذکر نشده است؛ از افزودن مشخصات تخمینی خودداری شود."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "5dbbce4400"
+  }
+ ],
+ "others": [
+  {
+   "title": "Pre-auth RCE in Nginx HTTP/2 handling",
+   "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+   "source": "wiz.io",
+   "published": "2026-11-18T15:19:55+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 392 امتیاز، 129 کامنت",
+   "signal_value": 392,
+   "discussion_url": "https://news.ycombinator.com/item?id=50547374",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 6,
+   "category": "safety_ethics",
+   "story_key": "nginx-http2-pre-auth-rce-vulnerability",
+   "topic_key": "cybersecurity-vulnerabilities",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "خطر نفوذ مستقیم به سرورها؛ کشف آسیب‌پذیری بحرانی اجرای کد (RCE) در Nginx",
+   "one_liner_fa": "متخصصان امنیت یک رخنه بسیار جدی پیش از احراز هویت را در نحوه پردازش پروتکل HTTP/2 در وب‌سرور محبوب Nginx پیدا کردند که امنیت زیرساخت وب را تهدید می‌کند.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "16043a46c1"
+  },
+  {
+   "title": "Advancing chip design with OpenAI models",
+   "url": "https://openai.com/index/advancing-chip-design-with-our-models",
+   "source": "OpenAI",
+   "published": "2026-11-18T00:00:00+00:00",
+   "origin": "OpenAI",
+   "summary": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 7,
+   "category": "research",
+   "story_key": "openai-chip-design-astra",
+   "topic_key": "ai-chip-design",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "ورود اوپن‌ای‌آی به دنیای سخت‌افزار؛ بهینه‌سازی و طراحی تراشه‌ها با هوش مصنوعی آسترا!",
+   "one_liner_fa": "اوپن‌ای‌آی (OpenAI) اعلام کرد مدل‌های استدلالی جدیدش از جمله GPT-6.2 آسترا توانسته‌اند مدارهای سیلیکونی پیشرفته و هسته‌های پردازشی RISC-V را بهینه کنند.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "c7d3ecb006"
+  },
+  {
+   "title": "Energy-Based Reasoners: 385x more efficient inference",
+   "url": "https://energy-based-reasoners.github.io/",
+   "source": "energy-based-reasoners.github.io",
+   "published": "2026-11-18T09:29:32+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 254 امتیاز، 39 کامنت",
+   "signal_value": 254,
+   "discussion_url": "https://news.ycombinator.com/item?id=50543989",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 6,
+   "category": "research",
+   "story_key": "energy-based-reasoners-efficient-inference",
+   "topic_key": "efficient-llm-reasoning",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "تحول در معماری هوش مصنوعی؛ مدل‌های استدلالی جدید ۳۸۵ برابر بهینه‌تر عمل می‌کنند!",
+   "one_liner_fa": "پژوهشگران با بهره‌گیری از مدل‌های مبتنی بر انرژی روشی ابداع کردند که استنتاج مدل‌های استدلالی هوش مصنوعی را ۳۸۵ برابر کم‌هزینه‌تر و سریع‌تر می‌کند.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "23a6e8d38f"
+  },
+  {
+   "title": "The Gemini app is now available on lower-memory Android devices.",
+   "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+   "source": "Google Blog",
+   "published": "2026-11-18T17:00:00+00:00",
+   "origin": "Google Blog",
+   "summary": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_app_Android_social_share.max-600x600.format-webp.webp",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "product_launch",
+   "story_key": "gemini-app-low-memory-android",
+   "topic_key": "gemini-ecosystem",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "جمینای برای همه؛ اجرای هوش مصنوعی گوگل روی گوشی‌های اقتصادی و ضعیف‌تر اندروید",
+   "one_liner_fa": "گوگل پشتیبانی از اپلیکیشن جمینای (Gemini) و قابلیت Gemini Live را به گوشی‌های اندرویدی ارزان‌قیمت‌تر با حافظه رم پایین گسترش داد.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "8e6075d168"
+  },
+  {
+   "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
+   "url": "https://huggingface.co/blog/moe-expert-streaming",
+   "source": "Hugging Face Blog",
+   "published": "2026-11-18T00:00:00+00:00",
+   "origin": "Hugging Face Blog",
+   "summary": "",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "open_source",
+   "story_key": "huggingface-180b-moe-32gb-ram",
+   "topic_key": "local-llm-inference",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "شاهکار هاگینگ فیس در اجرای مدل‌های غول‌پیکر؛ اجرای مدل ۱۸۰ میلیاردی روی فقط ۳۲ گیگابایت رم!",
+   "one_liner_fa": "تیم هاگینگ فیس (Hugging Face) روشی نوآورانه برای اجرای مدل‌های ترکیبی غول‌پیکر (MoE) با ۱۸۰ میلیارد پارامتر روی سیستم‌های معمولی با ۳۲ گیگابایت حافظه ارائه داد.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "af1852b4c4"
+  },
+  {
+   "title": "Google’s AI feature in Search gets its own incognito mode",
+   "url": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode/",
+   "source": "TechCrunch",
+   "published": "2026-11-18T18:04:05+00:00",
+   "origin": "TechCrunch",
+   "summary": "Google's new temporary threads let users have conversations in AI Mode without adding them to their search history or influencing future recommendations.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "product_launch",
+   "story_key": "google-search-ai-incognito-mode",
+   "topic_key": "google-ai-search",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "حالت مخفی به هوش مصنوعی گوگل آمد؛ مکالمه در جستجو بدون ثبت در تاریخچه!",
+   "one_liner_fa": "گوگل قابلیت چت‌های موقت را به بخش هوش مصنوعی جستجو اضافه کرد تا کاربران بتوانند بدون ثبت تاریخچه یا تغییر نتایج آینده، با هوش مصنوعی گفتگو کنند.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "61a25aea71"
+  },
+  {
+   "title": "Sam Altman warns against a future where AI, not humans, calls the shots",
+   "url": "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/",
+   "source": "TechCrunch",
+   "published": "2026-11-18T16:59:00+00:00",
+   "origin": "TechCrunch",
+   "summary": "Sam Altman and Greg Brockman pushed back against Silicon Valley's growing debate over an AI takeover, while acknowledging the challenges of keeping advanced models under human control.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 6,
+   "category": "safety_ethics",
+   "story_key": "sam-altman-ai-takeover-warning",
+   "topic_key": "ai-safety-governance",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "هشدار تازه سام آلتمن درباره آینده‌ای که تصمیم‌گیرنده نهایی هوش مصنوعی باشد، نه انسان",
+   "one_liner_fa": "سام آلتمن (Sam Altman) مدیرعامل اوپن‌ای‌آی ضمن بررسی چالش‌های کنترل مدل‌های پیشرفته، تأکید کرد که تصمیم‌گیری‌های حیاتی نباید هرگز به هوش مصنوعی واگذار شود.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "2d5a3de817"
+  },
+  {
+   "title": "OpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’",
+   "url": "https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen/",
+   "source": "TechCrunch",
+   "published": "2026-11-18T16:14:09+00:00",
+   "origin": "TechCrunch",
+   "summary": "Nvidia founder and former CEO Jensen Huang stepped down last week amid several scandals, including an affair with an alleged Chinese spy.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 6,
+   "category": "big_tech",
+   "story_key": "sam-altman-reacts-jensen-huang-exit",
+   "topic_key": "nvidia-leadership-crisis",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "واکنش سام آلتمن به کناره‌گیری جن‌سن هوانگ: تصور صنعت هوش مصنوعی بدون او بسیار سخت است",
+   "one_liner_fa": "سام آلتمن در واکنش به استعفای خبرساز جن‌سن هوانگ از مدیریت انویدیا گفت تصور پیشرفت و آینده اکوسیستم هوش مصنوعی بدون رهبری هوانگ دشوار است.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "319e08473b"
+  }
+ ],
+ "scored": [
+  {
+   "title": "Advancing chip design with OpenAI models",
+   "url": "https://openai.com/index/advancing-chip-design-with-our-models",
+   "source": "OpenAI",
+   "published": "2026-11-18T00:00:00+00:00",
+   "origin": "OpenAI",
+   "summary": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 7,
+   "category": "research",
+   "story_key": "openai-chip-design-astra",
+   "topic_key": "ai-chip-design",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "ورود اوپن‌ای‌آی به دنیای سخت‌افزار؛ بهینه‌سازی و طراحی تراشه‌ها با هوش مصنوعی آسترا!",
+   "one_liner_fa": "اوپن‌ای‌آی (OpenAI) اعلام کرد مدل‌های استدلالی جدیدش از جمله GPT-6.2 آسترا توانسته‌اند مدارهای سیلیکونی پیشرفته و هسته‌های پردازشی RISC-V را بهینه کنند.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "c7d3ecb006"
+  },
+  {
+   "title": "The Gemini app is now available on lower-memory Android devices.",
+   "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+   "source": "Google Blog",
+   "published": "2026-11-18T17:00:00+00:00",
+   "origin": "Google Blog",
+   "summary": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_app_Android_social_share.max-600x600.format-webp.webp",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "product_launch",
+   "story_key": "gemini-app-low-memory-android",
+   "topic_key": "gemini-ecosystem",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "جمینای برای همه؛ اجرای هوش مصنوعی گوگل روی گوشی‌های اقتصادی و ضعیف‌تر اندروید",
+   "one_liner_fa": "گوگل پشتیبانی از اپلیکیشن جمینای (Gemini) و قابلیت Gemini Live را به گوشی‌های اندرویدی ارزان‌قیمت‌تر با حافظه رم پایین گسترش داد.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "8e6075d168"
+  },
+  {
+   "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
+   "url": "https://huggingface.co/blog/moe-expert-streaming",
+   "source": "Hugging Face Blog",
+   "published": "2026-11-18T00:00:00+00:00",
+   "origin": "Hugging Face Blog",
+   "summary": "",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "open_source",
+   "story_key": "huggingface-180b-moe-32gb-ram",
+   "topic_key": "local-llm-inference",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "شاهکار هاگینگ فیس در اجرای مدل‌های غول‌پیکر؛ اجرای مدل ۱۸۰ میلیاردی روی فقط ۳۲ گیگابایت رم!",
+   "one_liner_fa": "تیم هاگینگ فیس (Hugging Face) روشی نوآورانه برای اجرای مدل‌های ترکیبی غول‌پیکر (MoE) با ۱۸۰ میلیارد پارامتر روی سیستم‌های معمولی با ۳۲ گیگابایت حافظه ارائه داد.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "af1852b4c4"
+  },
+  {
+   "title": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
+   "url": "https://huggingface.co/blog/rumble-2-flash",
+   "source": "Hugging Face Blog",
+   "published": "2026-11-18T00:00:00+00:00",
+   "origin": "Hugging Face Blog",
+   "summary": "",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 5,
+   "category": "open_source",
+   "story_key": "rumble-2-flash-speech-model",
+   "topic_key": "open-source-audio-models",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "679cee5ea1"
+  },
+  {
+   "title": "NVIDIA RTX Spark Compact Desktops Out Now",
+   "url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/",
+   "source": "NVIDIA Blog",
+   "published": "2026-11-18T14:00:31+00:00",
+   "origin": "NVIDIA Blog",
+   "summary": "New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are available today, bringing local AI agents, image and video generation, and model fine-tuning to a dedicated Windows PC. With up to 128GB of unified memory and NVIDIA’s AI software stack, these systems provide room for larger local models alongside RTX-accelerated creative and development […]",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/nv-blog-1280x680-2-1.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "embed",
+     "url": "https://www.youtube.com/watch?v=nypDHkAyJ5E",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/11-18-Local-AI-Blog-copy-1.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/MSI-EdgeMesa-N-AI-Series.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/5507100-gtc26-berlin-digital-bestofgtc-corp-blog-1920x1080-1-960x540.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://img.youtube.com/vi/nypDHkAyJ5E/maxresdefault.jpg",
+     "origin": "youtube"
+    },
+    {
+     "kind": "image",
+     "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/nv-blog-1280x680-2-1-842x450.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 8,
+   "category": "hardware_chips",
+   "story_key": "nvidia-rtx-spark-desktops-launch",
+   "topic_key": "nvidia-hardware",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "انویدیا از مینی‌دسکتاپ‌های RTX Spark برای اجرای محلی هوش مصنوعی رونمایی کرد",
+   "one_liner_fa": "انویدیا با همکاری ایسوس، دل و ام‌اس‌آی رایانه‌های جمع‌وجور RTX Spark را با حافظه یکپارچه تا ۱۲۸ گیگابایت برای اجرای محلی هوش مصنوعی عرضه کرد.",
+   "deep": {
+    "id": "1c3eaf246b",
+    "title_fa": "انویدیا از مینی‌دسکتاپ‌های RTX Spark برای اجرای محلی هوش مصنوعی رونمایی کرد",
+    "summary_fa": "انویدیا (NVIDIA) با همکاری شرکت‌های ایسوس (ASUS)، دل (Dell) و ام‌اس‌آی (MSI) دسکتاپ‌های جمع‌وجور RTX Spark را روانه بازار کرد که به‌طور ویژه برای اجرای محلی مدل‌ها و ایجنت‌های هوش مصنوعی طراحی شده‌اند. این سیستم‌ها از پردازنده ۲۰ هسته‌ای Grace، پردازنده گرافیکی معماری بلک‌ول (Blackwell RTX) با ۶,۱۴۴ هسته کودا (CUDA) و تا ۱۲۸ گیگابایت حافظه یکپارچه بهره می‌برند که توان پردازشی معادل ۱ پتافلاپ ارائه می‌دهد. این غول‌های کوچک قادرند مدل‌های عظیم زبانی با ۱۲۰ میلیارد پارامتر را بدون نیاز به اینترنت و پرداخت هزینه API به صورت محلی پردازش کنند.",
+    "key_points_fa": [
+     "سخت‌افزار اختصاصی: پردازنده ۲۰ هسته‌ای NVIDIA Grace، گرافیک بلک‌ول با ۶۱۴۴ هسته کودا و توان پردازشی ۱ پتافلاپ.",
+     "حافظه یکپارچه: مجهز به حداکثر ۱۲۸ گیگابایت رم یکپارچه برای پردازش مدل‌های زبان بزرگ (LLM) تا ۱۲۰ میلیارد پارامتر (120B).",
+     "سازندگان: هم‌اکنون از برندهای ایسوس، دل و ام‌اس‌آی عرضه شده و نسخه‌های ایسر، گیگابایت، اچ‌پی و سرفیس در راه هستند.",
+     "اتصال پرسرعت: مجهز به پورت شبکه ۱۰ گیگابیتی (10GbE) برای انتقال سریع دیتاست‌های حجیم.",
+     "هماهنگی نرم‌افزاری: پشتیبانی نیتیو ویندوز آرم از برنامه‌های ادوبی (Premiere, Photoshop, Illustrator, Painter)، بلندر ۵.۳ و کامفی‌یو‌آی (ComfyUI)."
+    ],
+    "why_it_matters_fa": "این دسکتاپ‌ها مرز بین سیستم‌های ابری گران‌قیمت و کارهای شخصی را از بین می‌برند و به توسعه‌دهندگان اجازه می‌دهند مدل‌های سنگین ۱۲۰ میلیاردی را کاملاً امن و محلی اجرا کنند.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "کیس کامپکت انویدیا؛ هیولای اجرای هوش مصنوعی آفلاین!",
+      "hook_fa": "دیگه نیازی به پرداخت دلاری برای API اوپن‌ای‌آی نداری؛ انویدیا این غول فسقلی رو معرفی کرد!",
+      "angle_fa": "معرفی مینی‌کامپیوترهای RTX Spark به عنوان ابزار انقلابی برای اجرای محلی مدل‌ها و ابزارهای خلاقانه بدون وابستگی به اینترنت.",
+      "outline_fa": [
+       "نمایش طراحی مینی‌کیس و ابعاد کامپکت آن",
+       "بیان مشخصات شگفت‌انگیز: ۱۲۸ گیگابایت حافظه یکپارچه و پردازنده بلک‌ول",
+       "توضیح قابلیت اجرای مدل ۱۲۰ میلیارد پارامتری به صورت محلی",
+       "دموی ترکیب ابزارهایی مثل فتوشاپ و ComfyUI با ایجنت‌های هوشمند"
+      ],
+      "visual_tip_fa": "استفاده از ویدیوی یوتیوب رسمی انویدیا و نمایش ادغام فتوشاپ با هوش مصنوعی در محیط کاربری ویندوز آرم."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "پایان هزینه‌های اشتراک AI؟ بررسی کامپیوترهای RTX Spark انویدیا",
+      "hook_fa": "یک پتافلاپ قدرت پردازش هوش مصنوعی روی میز کار شما!",
+      "angle_fa": "بررسی عمیق‌تر پتانسیل سخت‌افزار برای طراحان 3D، ادیتورهای ویدیو و دولوپرها.",
+      "outline_fa": [
+       "اسلاید ۱: معرفی سری RTX Spark با برندهای ایسوس و دل",
+       "اسلاید ۲: مقایسه اجرای مدل‌ها در کلود در مقابل پردازش محلی با ۱۲۸ گیگابایت رم",
+       "اسلاید ۳: سازگاری با ابزارهای ادوبی و رندرهای ۹۰ گیگابایتی در لحظه",
+       "اسلاید ۴: سیستم سوییچ‌بورد (Switchyard) و جابه‌جایی هوشمند بین پردازش محلی و ابری",
+       "اسلاید ۵: جمع‌بندی؛ این دستگاه برای چه کسانی ارزش خرید دارد؟"
+      ],
+      "visual_tip_fa": "استفاده از رندرهای سخت‌افزاری باکیفیت و نمودارهای مقایسه بازدهی برنامه‌ها بر بستر معماری Arm."
+     }
+    ],
+    "hashtags": [
+     "#انویدیا",
+     "#NVIDIA",
+     "#هوش_مصنوعی",
+     "#RTXSpark",
+     "#سخت_افزار",
+     "#طراحی_گرافیک",
+     "#هوش_مصنوعی_محلی"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "1c3eaf246b"
+  },
+  {
+   "title": "Google’s AI feature in Search gets its own incognito mode",
+   "url": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode/",
+   "source": "TechCrunch",
+   "published": "2026-11-18T18:04:05+00:00",
+   "origin": "TechCrunch",
+   "summary": "Google's new temporary threads let users have conversations in AI Mode without adding them to their search history or influencing future recommendations.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "product_launch",
+   "story_key": "google-search-ai-incognito-mode",
+   "topic_key": "google-ai-search",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "حالت مخفی به هوش مصنوعی گوگل آمد؛ مکالمه در جستجو بدون ثبت در تاریخچه!",
+   "one_liner_fa": "گوگل قابلیت چت‌های موقت را به بخش هوش مصنوعی جستجو اضافه کرد تا کاربران بتوانند بدون ثبت تاریخچه یا تغییر نتایج آینده، با هوش مصنوعی گفتگو کنند.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "61a25aea71"
+  },
+  {
+   "title": "More banks say customers using AI agents are on their own — even if they get hacked",
+   "url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/",
+   "source": "TechCrunch",
+   "published": "2026-11-18T17:32:10+00:00",
+   "origin": "TechCrunch",
+   "summary": "Citi is the latest major financial institution to put the breaks on personal finance AI agents.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-1497343848.jpeg?resize=1200,800",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2026/02/TIm.jpg?w=150",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 8,
+   "category": "safety_ethics",
+   "story_key": "banks-warn-ai-agents-liability",
+   "topic_key": "ai-agents-finance",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "سلب مسئولیت بانک‌ها: اگر پولتان با ایجنت‌های هوش مصنوعی برود، مقصر خودتانید!",
+   "one_liner_fa": "بانک‌های بزرگی مثل سیتی‌بانک اعلام کردند مسئولیت کامل هرگونه خطای مالی یا هک شدن دستیاران و ایجنت‌های هوش مصنوعی بر عهده خود کاربر خواهد بود.",
+   "deep": {
+    "id": "6ae82bdc38",
+    "title_fa": "سلب مسئولیت بانک‌ها: اگر پولتان با ایجنت‌های هوش مصنوعی برود، مقصر خودتانید!",
+    "summary_fa": "سیتی‌بانک (Citibank) به همراه جی‌پی مورگان (JPMorgan) و بنک آو آمریکا (Bank of America) بندهای توافق‌نامه کاربری خود را به‌روزرسانی کردند و به مشتریان هشدار دادند در صورت استفاده از ابزارهای هوش مصنوعی شخص ثالث برای امور مالی، مسئولیت هرگونه خطا یا هک بر عهده کاربر است. طبق شرایط جدید، حتی اگر ایجنت هوش مصنوعی هک شود یا اطلاعات هویتی مشتری را لو بدهد، بانک هیچ تراکنشی را لغو نکرده و پولی را برنمی‌گرداند. این واکنش تند بانک‌ها در حالی رخ می‌دهد که شرکت‌هایی نظیر آنتروپیک (Anthropic) ابزارهای مالی خود را محتاطانه و به صورت «فقط‌خواندنی» عرضه کرده‌اند.",
+    "key_points_fa": [
+     "بانک‌های اعلام‌کننده: سیتی‌بانک، جی‌پی مورگان، بنک آو آمریکا، پی‌ان‌سی (PNC) و سیتیزنز (Citizens).",
+     "تغییر قانون: سلب هرگونه مسئولیت بازگرداندن پول در اثر اشتباه یا هک شدن ابزارها و ایجنت‌های مالی شخص ثالث.",
+     "مسئولیت درز اطلاعات: حتی اگر دستیار هوش مصنوعی مورد حمله قرار گیرد و رمزها لو برود، کاربر شخصاً پاسخگوست.",
+     "رویکرد محتاطانه رقبا: آنتروپیک (Anthropic) دستیار مالی‌اش را به‌صورت «Read-only» طراحی کرده که قابلیت جابه‌جایی و سرمایه‌گذاری پول را ندارد.",
+     "ایجنت‌های اختصاصی: بانک‌ها اعلام کرده‌اند تنها استفاده از ایجنت‌های ساخت خود بانک تحت پوشش گارانتی و مسئولیت مالی خواهد بود."
+    ],
+    "why_it_matters_fa": "این تصمیم چالش بزرگ ورود ایجنت‌های خودمختار به زندگی واقعی را آشکار می‌کند؛ هشداری صریح به کاربران که در سپردن دسترسی‌های حساس مالی به هوش مصنوعی تجدیدنظر کنند.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "هشدار فوری: دسترسی کارت بانکی‌ات رو به هوش مصنوعی نده!",
+      "hook_fa": "بانک‌ها قانون جدید گذاشتن: اگه هوش مصنوعی حسابت رو خالی کنه، یه قرون هم بهت پس نمیدن!",
+      "angle_fa": "هشدار جدی در مورد خطرات قانونی و امنیتی اتصال ایجنت‌های مالی هوش مصنوعی به حساب‌های بانکی.",
+      "outline_fa": [
+       "طرح هشدار و تصمیم جدید سیتی‌بانک و سایر غول‌های مالی",
+       "شرح ماجرا: سلب مسئولیت کامل حتی در صورت هک شدن بات هوش مصنوعی",
+       "مقایسه با رویکرد هوشمندانه آنتروپیک (فقط خواندنی بودن ابزارها)",
+       "توصیه عملی: هرگز دسترسی مستقیم تراکنش مالی به ایجنت‌های متفرقه ندهید"
+      ],
+      "visual_tip_fa": "تصویر هشدارهای قرمز، نمایش صفحه قوانین بانک‌ها و اینفوگرافیک انتقال اشتباه پول از حساب به دست یک ربات."
+     },
+     {
+      "format": "استوری",
+      "title_fa": "آیا حاضرید مدیریت پولتان را به هوش مصنوعی بسپارید؟",
+      "hook_fa": "فرض کنید یه ربات AI بدون اجازه شما پولتون رو منتقل کنه... کی مقصره؟",
+      "angle_fa": "برگزاری نظرسنجی و تعامل با مخاطب پیرامون حد و مرز اعتماد به هوش مصنوعی در امور حساس.",
+      "outline_fa": [
+       "استیکر نظرسنجی: حاضری رمز حسابت رو به ایجنت هوش مصنوعی بدی؟",
+       "اشتراک خبر تغییر قوانین بانک‌های آمریکا",
+       "توضیح اینکه چرا بانک‌ها در برابر هوش مصنوعی جبهه گرفته‌اند",
+       "جمع‌بندی و ارائه راهکارهای ایمن مثل ابزارهای Read-only"
+      ],
+      "visual_tip_fa": "اسکرین‌شات از بیانیه سیتی‌بانک با استفاده از باکس نظرسنجی اینستاگرام."
+     }
+    ],
+    "hashtags": [
+     "#هوش_مصنوعی",
+     "#فینتک",
+     "#امنیت_اطلاعات",
+     "#حساب_بانکی",
+     "#تکنولوژی",
+     "#AI_Agent",
+     "#اخبار_فناوری"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "6ae82bdc38"
+  },
+  {
+   "title": "Sam Altman warns against a future where AI, not humans, calls the shots",
+   "url": "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/",
+   "source": "TechCrunch",
+   "published": "2026-11-18T16:59:00+00:00",
+   "origin": "TechCrunch",
+   "summary": "Sam Altman and Greg Brockman pushed back against Silicon Valley's growing debate over an AI takeover, while acknowledging the challenges of keeping advanced models under human control.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 6,
+   "category": "safety_ethics",
+   "story_key": "sam-altman-ai-takeover-warning",
+   "topic_key": "ai-safety-governance",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "هشدار تازه سام آلتمن درباره آینده‌ای که تصمیم‌گیرنده نهایی هوش مصنوعی باشد، نه انسان",
+   "one_liner_fa": "سام آلتمن (Sam Altman) مدیرعامل اوپن‌ای‌آی ضمن بررسی چالش‌های کنترل مدل‌های پیشرفته، تأکید کرد که تصمیم‌گیری‌های حیاتی نباید هرگز به هوش مصنوعی واگذار شود.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "2d5a3de817"
+  },
+  {
+   "title": "OpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’",
+   "url": "https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen/",
+   "source": "TechCrunch",
+   "published": "2026-11-18T16:14:09+00:00",
+   "origin": "TechCrunch",
+   "summary": "Nvidia founder and former CEO Jensen Huang stepped down last week amid several scandals, including an affair with an alleged Chinese spy.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 6,
+   "category": "big_tech",
+   "story_key": "sam-altman-reacts-jensen-huang-exit",
+   "topic_key": "nvidia-leadership-crisis",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "واکنش سام آلتمن به کناره‌گیری جن‌سن هوانگ: تصور صنعت هوش مصنوعی بدون او بسیار سخت است",
+   "one_liner_fa": "سام آلتمن در واکنش به استعفای خبرساز جن‌سن هوانگ از مدیریت انویدیا گفت تصور پیشرفت و آینده اکوسیستم هوش مصنوعی بدون رهبری هوانگ دشوار است.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "319e08473b"
+  },
+  {
+   "title": "Nvidia clarifies when it will — and won’t — keep financing neoclouds",
+   "url": "https://techcrunch.com/2026/11/18/nvidia-clarifies-when-it-will-and-wont-keep-financing-neoclouds/",
+   "source": "TechCrunch",
+   "published": "2026-11-18T13:00:00+00:00",
+   "origin": "TechCrunch",
+   "summary": "If Nvidia is backstopping a data center loan, it won't be on the hook unless the neocould has independent financing and gets the facility built, with Nvidia gear installed, interim CEO Colette Kress explained.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 4,
+   "category": "business_funding",
+   "story_key": "nvidia-clarifies-neocloud-financing",
+   "topic_key": "nvidia-leadership-crisis",
+   "already_reported": false,
+   "viral": 3,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "5e888bac8f"
+  },
+  {
+   "title": "India’s Humyn Labs raises $47M to feed US robotics companies the data they need",
+   "url": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
+   "source": "TechCrunch",
+   "published": "2026-11-18T11:30:00+00:00",
+   "origin": "TechCrunch",
+   "summary": "Founded in February, Humyn Labs competes with startups such as Mecka AI and XDOF, with about 90% of its revenue coming from the U.S.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 4,
+   "category": "business_funding",
+   "story_key": "humyn-labs-raises-47m-robotics-data",
+   "topic_key": "robotics-data-startups",
+   "already_reported": false,
+   "viral": 3,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "55dde3921b"
+  },
+  {
+   "title": "This smell startup says its AI nose is as good as a human’s",
+   "url": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
+   "source": "MIT Technology Review",
+   "published": "2026-11-18T10:20:30+00:00",
+   "origin": "MIT Technology Review",
+   "summary": "In a lab near Newark Airport in New Jersey, a team of around 30 experienced human sniffers are slowly working their way through every odor on Earth. Their careful notes—“nutty,” “peachy,” “marine”—are cross-referenced with a chemical analysis to create a rich set of training data for what AI startup Osmo calls the world’s first foundation…",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 6,
+   "category": "research",
+   "story_key": "ai-digital-nose-startup",
+   "topic_key": "sensory-ai",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "03692ec60c"
+  },
+  {
+   "title": "GTA 6 launch day: Live updates on the biggest game of the year",
+   "url": "https://www.engadget.com/2320788/gta-vi-launch-day-live-blog/",
+   "source": "Engadget",
+   "published": "2026-11-18T18:00:00+00:00",
+   "origin": "Engadget",
+   "summary": "We're playing, you're playing, everyone's playing. Come join us as we share everything we find out about Rockstar's biggest game.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/gta-6-launch-day-live-updates-on-the-biggest-game-of-the-year/l-intro-1795024489.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/gta-6-launch-day-live-updates-on-the-biggest-game-of-the-year/intro-1795024489.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 8,
+   "category": "other_tech",
+   "story_key": "gta-6-official-launch-day",
+   "topic_key": "gta-6-launch",
+   "already_reported": false,
+   "viral": 9,
+   "title_fa": "لانچ رسمی GTA 6؛ پرحاشیه‌ترین بازی دهه با حجم ۲۱۲ گیگابایت منتشر شد",
+   "one_liner_fa": "راک‌استار بالاخره بازی مورد انتظار GTA 6 را روانه بازار کرد تا توجه تمام دنیای گیمینگ و رسانه‌های فناوری را به خود جلب کند.",
+   "deep": {
+    "id": "8169e0bc0c",
+    "title_fa": "لانچ رسمی GTA 6؛ پرحاشیه‌ترین بازی دهه با حجم ۲۱۲ گیگابایت منتشر شد",
+    "summary_fa": "بازی موردانتظار جی‌تی‌ای ۶ (Grand Theft Auto 6) سرانجام برای کنسول‌های پلی‌استیشن ۵ (PlayStation 5) و ایکس‌باکس سری ایکس و اس (Xbox Series X/S) منتشر شد و نقد‌های اولیه آن در دسترس قرار گرفت. کاربران برای تجربه بازی به دانلود سنگین ۲۱۲ گیگابایتی و آپدیت فریم‌ور کنسول نیاز دارند. بازی روی کنسول‌ها به نرخ ۳۰ فریم بر ثانیه محدود است، هرچند دارندگان PS5 Pro به فناوری رهگیری پرتو (Ray-tracing) دسترسی دارند. همچنین تأیید شد که پی‌سی پلیرها (PC) باید تا سال ۲۰۲۷ برای انتشار بازی روی ویندوز منتظر بمانند.",
+    "key_points_fa": [
+     "پلتفرم‌های فعلی: انحصاری کنسول‌های نسل نهم پلی‌استیشن ۵ و ایکس‌باکس سری ایکس/اس.",
+     "حجم فایل نصب: ۲۱۲ گیگابایت به همراه نیاز به آپدیت فرم‌ور در PS5.",
+     "نرخ فریم: محدود به ۳۰ فریم بر ثانیه (30 fps) روی کنسول‌ها؛ پشتیبانی از ری‌تریسینگ در PS5 Pro.",
+     "تاریخ انتشار نسخه پی‌سی (PC): موکول شده به سال ۲۰۲۷.",
+     "گیم‌پلی و داستان: بازگشت به وایس سیتی (Vice City)، امکان سوییچ بین دو کاراکتر اصلی و بهره‌گیری از مکانیک‌های پیشرفته مجرمانه مشابه Red Dead Redemption 2."
+    ],
+    "why_it_matters_fa": "عرضه نسخه جدید GTA رویدادی است که هر دهه یک بار رخ می‌دهد و استاندارد گرافیک، فیزیک و پردازش بازی‌های ویدیویی را در صنعت گیم جابه‌جا می‌کند.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "حجم وحشتناک و فریم‌ریت شوکه‌کننده GTA 6!",
+      "hook_fa": "۲۱۲ گیگابایت دانلود کنی، ولی با ۳۰ فریم بازی کنی؟! بالاخره GTA 6 اومد!",
+      "angle_fa": "بررسی مشخصات فنی بازی در روز عرضه و حسرت پی‌سی پلیرها تا سال ۲۰۲۷.",
+      "outline_fa": [
+       "نمایش گرافیک بازی و خبر رسمی لانچ روی کنسول‌ها",
+       "اشاره به حجم دانلود دیوانه‌کننده ۲۱۲ گیگابایتی و ۳۰ فریم بودن بازی",
+       "بررسی قابلیت ری‌تریسینگ در کنسول PS5 Pro",
+       "کنایه به کاربران پی‌سی و انتظار اجباری‌شان تا سال ۲۰۲۷"
+      ],
+      "visual_tip_fa": "کات‌های سریع از شهر وایس‌سیتی، اسکرین‌شات حجم دانلود بازی و تصویر میم‌های پی‌سی‌پلیرهای منتظر."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "راهنمای روز اول GTA 6؛ قبل از دانلود این ۵ نکته را بدانید",
+      "hook_fa": "قبل از اینکه ۲۱۲ گیگ دانلود کنی، این پست رو ورق بزن!",
+      "angle_fa": "ارائه نکات حیاتی برای آماده‌سازی کنسول و تنظیمات گرافیکی به همراه ویژگی‌های گیم‌پلی جدید.",
+      "outline_fa": [
+       "اسلاید ۱: اعلام انتشار رسمی و پلتفرم‌های مقصد",
+       "اسلاید ۲: حجم فایل و ضرورت آپدیت سیستم‌عامل کنسول",
+       "اسلاید ۳: وضعیت نرخ فریم و مزیت کنسول PS5 Pro",
+       "اسلاید ۴: تغییرات جدید گیم‌پلی، دو پروتاگونیست و سیستم جرایم",
+       "اسلاید ۵: وضعیت پی‌سی‌پلیرها و تاریخ انتشار ۲۰۲۷"
+      ],
+      "visual_tip_fa": "ترکیب والپیپرهای باکیفیت و رسمی دو شخصیت اصلی با تایپوگرافی نئونی به سبک Vice City."
+     }
+    ],
+    "hashtags": [
+     "#GTA6",
+     "#جی_تی_ای_۶",
+     "#راک_استار",
+     "#گیمینگ",
+     "#پلی_استیشن",
+     "#PS5",
+     "#GamingNews"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "8169e0bc0c"
+  },
+  {
+   "title": "AI found a hole in Java, and it starts with 'AAAAAAAA...'",
+   "url": "https://www.engadget.com/2320797/ai-found-a-hole-in-java-and-it-starts-with-aaaaaaaa/",
+   "source": "Engadget",
+   "published": "2026-11-18T17:59:47+00:00",
+   "origin": "Engadget",
+   "summary": "The bug could let hackers take over systems at banks, hospitals and most Fortune 500 companies.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/ai-found-a-hole-in-java-and-it-starts-with-aaaaaaaa/l-intro-1795024736.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/ai-found-a-hole-in-java-and-it-starts-with-aaaaaaaa/intro-1795024736.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 8,
+   "category": "safety_ethics",
+   "story_key": "ai-discovers-critical-java-vulnerability",
+   "topic_key": "ai-cybersecurity",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "کشف آسیب‌پذیری مرگبار جاوا توسط هوش مصنوعی با ۶۴ بار تکرار حرف A!",
+   "one_liner_fa": "یک سیستم هوش مصنوعی موفق به کشف آسیب‌پذیری بسیار خطرناکی در زبان جاوا (Java) شد که می‌توانست به هکرها اجازه نفوذ به سرورهای بانکی و بیمارستانی را بدهد.",
+   "deep": {
+    "id": "b1b58dd398",
+    "title_fa": "کشف آسیب‌پذیری مرگبار جاوا توسط هوش مصنوعی با ۶۴ بار تکرار حرف A!",
+    "summary_fa": "محققان استارتاپ امنیت سایبری کالیف (Calif) به کمک مدل منتشرنشده GPT-6 Cyber از شرکت اوپن‌ای‌آی (OpenAI)، رخنه امنیتی بزرگی را در زبان برنامه‌نویسی جاوا (Java) کشف کردند. این آسیب‌پذیری با ارسال رشته‌ای شامل ۶۴ کاراکتر «A» متوالی و یک علامت مساوی به دیکودر Base64 جاوا فعال شده و منجر به سرریز حافظه و دسترسی غیرمجاز کامل به سیستم می‌شود. این باگ زیرساخت‌هایی همچون سامانه ورود Keycloak که در ناسا (NASA) و سرن (CERN) استفاده می‌شود و نزدیک به ۹۰ درصد شرکت‌های فهرست فورچون ۵۰۰ را در معرض خطر قرار داده است.",
+    "key_points_fa": [
+     "ابزار کشف نقص: مدل معرفی‌نشده و فوق‌تخصصی GPT-6 Cyber توسعه‌یافته توسط OpenAI.",
+     "مکانیسم نفوذ: تزریق رشته‌ای با ۶۴ کاراکتر 'A' به همراه علامت مساوی (=) به دیکودر Base64 جاوا.",
+     "نتیجه نفوذ: بروز خطای حافظه و فراهم شدن امکان دسترسی کامل سیستمی برای هکرها.",
+     "سیستم‌های آسیب‌پذیر: سامانه مدیریت هویت Keycloak و حدود ۹۰ درصد شرکت‌های لیست Fortune 500.",
+     "وضعیت پچ: اوراکل (Oracle) پچ امنیتی فوری منتشر کرده، اما تخمین زده می‌شود ایمن‌سازی کامل ۵ تا ۱۰ سال طول بکشد."
+    ],
+    "why_it_matters_fa": "این رویداد نشان می‌دهد هوش مصنوعی وارد عرصه حیاتی کشف باگ‌های زیرساختی شده و نبردی تمام‌عیار در حوزه امنیت سایبری میان مهاجمان و مدافعان آغاز شده است.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "چطور هوش مصنوعی با تایپ 'AAAAAAAA' دنیا رو هک کرد؟!",
+      "hook_fa": "باور می‌کنی با تایپ کردن ۶۴ تا حرف A میشه سیستم‌های ناسا رو هک کرد؟! اونم با GPT-6!",
+      "angle_fa": "داستان شگفت‌انگیز قدرت هوش مصنوعی در کشف آسیب‌پذیری‌های تاریخی و پشت‌پرده یک باگ احمقانه ولی مرگبار.",
+      "outline_fa": [
+       "نمایش رشته عجیب AAAAAAAA... و طرح سوال قلاب",
+       "توضیح نقش مدل محرمانه GPT-6 Cyber اوپن‌ای‌آی در کشف باگ",
+       "تشریح خطری که بانک‌ها، بیمارستان‌ها و ۹۰ درصد غول‌های اقتصادی رو تهدید می‌کنه",
+       "هشدار به برنامه‌نویس‌ها و مدیران شبکه برای آپدیت فوری پچ اوراکل"
+      ],
+      "visual_tip_fa": "تایپ زنده حروف A روی صفحه شبیه به محیط ترمینال لینوکس و لوگوهای هک‌شده شرکت‌های بزرگ با رنگ قرمز نئونی."
+     },
+     {
+      "format": "پست",
+      "title_fa": "زنگ خطر برای جاوا: وقتی GPT-6 حفره‌های امنیتی را پیدا می‌کند",
+      "hook_fa": "خطرناک‌ترین رشته کدهای سال ۲۰۲۶ لو رفت؛ این بار کار هوش مصنوعی بود!",
+      "angle_fa": "بررسی فنی باگ Base64 جاوا و زنگ خطری که مدل‌های آینده برای زیرساخت‌های قدیمی دارند.",
+      "outline_fa": [
+       "توضیح تکنیکال خطای دیکودر Base64 در جاوا",
+       "چرا پچ شدن این باگ در کل دنیا تا ۱۰ سال طول می‌کشد؟",
+       "معرفی قابلیت‌های مدل کشف‌کننده (GPT-6 Cyber)",
+       "توصیه امنیتی سازمان CISA برای پچ فوری سیستم‌ها"
+      ],
+      "visual_tip_fa": "طراحی اسلایدی با نمودار نحوه سرریز شدن حافظه بر اثر باگ و کدهای آسیب‌پذیر."
+     }
+    ],
+    "hashtags": [
+     "#امنیت_سایبری",
+     "#جاوا",
+     "#اوپن_ای_ای",
+     "#هوش_مصنوعی",
+     "#OpenAI",
+     "#GPT6",
+     "#CyberSecurity",
+     "#هک"
+    ],
+    "caution_fa": "مدل GPT-6 Cyber هنوز به صورت عمومی توسط OpenAI منتشر نشده و یک ابزار تحقیقاتی در دست متخصصان امنیت است؛ حتماً در محتوا به عمومی نبودن آن اشاره شود."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "b1b58dd398"
+  },
+  {
+   "title": "Why GTA 6 doesn't have a 60 fps performance mode",
+   "url": "https://www.engadget.com/2320281/why-gta-6-no-60-fps-performance-mode/",
+   "source": "Engadget",
+   "published": "2026-11-18T17:15:15+00:00",
+   "origin": "Engadget",
+   "summary": "Rockstar has a history of releasing its games at lower framerates than rival titles. That's still the case with GTA 6.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/why-gta-6-doesnt-have-a-60-fps-performance-mode/l-intro-1794997359.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 6,
+   "category": "other_tech",
+   "story_key": "gta-6-fps-limitation-consoles",
+   "topic_key": "gta-6-launch",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "bce7e2cf38"
+  },
+  {
+   "title": "NASA's Voyager 1 space probe is now one light-day away from Earth",
+   "url": "https://www.engadget.com/2320267/nasa-voyager-1-space-probe-one-light-day-away-from-earth/",
+   "source": "Engadget",
+   "published": "2026-11-18T11:49:59+00:00",
+   "origin": "Engadget",
+   "summary": "It now takes 24 hours to send a message to Voyager 1, as it reaches a distance that's one light-day away from our planet.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/nasas-voyager-1-space-probe-is-now-one-light-day-away-from-earth/l-intro-1795002413.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 6,
+   "category": "other_tech",
+   "story_key": "voyager-1-one-light-day-away",
+   "topic_key": "space-exploration",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "ثبت رکوردی تاریخی در اعماق فضا؛ کاوشگر وویجر ۱ به فاصله «یک روز نوری» از زمین رسید!",
+   "one_liner_fa": "فضاپیمای وویجر ۱ (Voyager 1) ناسا به فاصله‌ای معادل یک روز نوری از زمین رسید؛ مسافتی باورنکردنی که ارسال پیام به آن ۲۴ ساعت طول می‌کشد.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "706a5c7a80"
+  },
+  {
+   "title": "Quoting Daniel Stenberg",
+   "url": "https://simonwillison.net/2026/Nov/18/daniel-stenberg/",
+   "source": "Simon Willison",
+   "published": "2026-11-18T15:58:27+00:00",
+   "origin": "Simon Willison",
+   "summary": "During the time these agents converted 185,000 lines of C code into 340,000 lines of Rust code (I counted), we merged over 300 commits in the actual curl project. We actually improved curl during these a little more than three weeks. A little over 200 bugfixes actually. 200 bugfixes that none of those rust rewrites have. We also fixed a few vulnerabilities. In another month we have done another 200 and maybe fixed a few more vulnerabilities. Will these clones keep up? — Daniel Stenberg , Actual curl rewrites in Rust Tags: daniel-stenberg , curl , rust , security , coding-agents , c , ai , llms",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 5,
+   "category": "research",
+   "story_key": "daniel-stenberg-curl-c-rust-ai-agents",
+   "topic_key": "ai-coding-reality-check",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "569017a70f"
+  },
+  {
+   "title": "Pre-auth RCE in Nginx HTTP/2 handling",
+   "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+   "source": "wiz.io",
+   "published": "2026-11-18T15:19:55+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 392 امتیاز، 129 کامنت",
+   "signal_value": 392,
+   "discussion_url": "https://news.ycombinator.com/item?id=50547374",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 6,
+   "category": "safety_ethics",
+   "story_key": "nginx-http2-pre-auth-rce-vulnerability",
+   "topic_key": "cybersecurity-vulnerabilities",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "خطر نفوذ مستقیم به سرورها؛ کشف آسیب‌پذیری بحرانی اجرای کد (RCE) در Nginx",
+   "one_liner_fa": "متخصصان امنیت یک رخنه بسیار جدی پیش از احراز هویت را در نحوه پردازش پروتکل HTTP/2 در وب‌سرور محبوب Nginx پیدا کردند که امنیت زیرساخت وب را تهدید می‌کند.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "16043a46c1"
+  },
+  {
+   "title": "Quad9 Is Leaving France: Why DNS Resolvers Are the Wrong Place to Fight Piracy",
+   "url": "https://techstackups.com/articles/quad9-leaves-france-dns-blocking/",
+   "source": "techstackups.com",
+   "published": "2026-11-18T13:18:02+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 361 امتیاز، 108 کامنت",
+   "signal_value": 361,
+   "discussion_url": "https://news.ycombinator.com/item?id=50545958",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 4,
+   "category": "policy_regulation",
+   "story_key": "quad9-leaves-france-piracy-ruling",
+   "topic_key": "internet-governance",
+   "already_reported": false,
+   "viral": 3,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "04ea7dca74"
+  },
+  {
+   "title": "Codeberg.org Not Reachable",
+   "url": "https://social.anoxinon.de/@codebergstatus/117636437840688845",
+   "source": "social.anoxinon.de",
+   "published": "2026-11-18T10:02:17+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 288 امتیاز، 291 کامنت",
+   "signal_value": 288,
+   "discussion_url": "https://news.ycombinator.com/item?id=50544261",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 3,
+   "category": "other_tech",
+   "story_key": "codeberg-outage",
+   "topic_key": "open-source-infrastructure",
+   "already_reported": false,
+   "viral": 3,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "814baa6f47"
+  },
+  {
+   "title": "Energy-Based Reasoners: 385x more efficient inference",
+   "url": "https://energy-based-reasoners.github.io/",
+   "source": "energy-based-reasoners.github.io",
+   "published": "2026-11-18T09:29:32+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 254 امتیاز، 39 کامنت",
+   "signal_value": 254,
+   "discussion_url": "https://news.ycombinator.com/item?id=50543989",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 6,
+   "category": "research",
+   "story_key": "energy-based-reasoners-efficient-inference",
+   "topic_key": "efficient-llm-reasoning",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "تحول در معماری هوش مصنوعی؛ مدل‌های استدلالی جدید ۳۸۵ برابر بهینه‌تر عمل می‌کنند!",
+   "one_liner_fa": "پژوهشگران با بهره‌گیری از مدل‌های مبتنی بر انرژی روشی ابداع کردند که استنتاج مدل‌های استدلالی هوش مصنوعی را ۳۸۵ برابر کم‌هزینه‌تر و سریع‌تر می‌کند.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "23a6e8d38f"
+  },
+  {
+   "title": "Why is Gemini 4 Carbon taking so long?",
+   "url": "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/",
+   "source": "kernel.dev",
+   "published": "2026-11-18T04:14:04+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 247 امتیاز، 129 کامنت",
+   "signal_value": 247,
+   "discussion_url": "https://news.ycombinator.com/item?id=50541790",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 4,
+   "category": "big_tech",
+   "story_key": "gemini-4-carbon-delay-speculation",
+   "topic_key": "gemini-ecosystem",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "3ede266c56"
+  },
+  {
+   "title": "Microsoft AI: Seven new world-class models at scalable price-performance",
+   "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
+   "source": "microsoft.ai",
+   "published": "2026-11-18T16:08:24+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 157 امتیاز، 100 کامنت",
+   "signal_value": 157,
+   "discussion_url": "https://news.ycombinator.com/item?id=50548021",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://microsoft.ai/wp-content/uploads/2026/11/All-Up-Blog.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://microsoft.ai/wp-content/uploads/2026/11/Custom-Models-no-text.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 7,
+   "category": "model_release",
+   "story_key": "microsoft-ai-seven-new-models-launch",
+   "topic_key": "microsoft-ai-frontier-models",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "رونمایی مایکروسافت از ۷ مدل هوش مصنوعی تحت عنوان MAI",
+   "one_liner_fa": "بخش مایکروسافت AI از ۷ مدل هوش مصنوعی در کلاس جهانی پرده برداشت که تعادل بی‌نظیری میان هزینه پایین و کارایی محاسباتی ارائه می‌دهند.",
+   "deep": {
+    "id": "5dbbce4400",
+    "title_fa": "رونمایی مایکروسافت از ۷ مدل هوش مصنوعی تحت عنوان MAI",
+    "summary_fa": "مایکروسافت در رویداد اخیر ایگنایت (Ignite) از عرضه هفت مدل جدید هوش مصنوعی در کلاس جهانی خبر داد که با تمرکز بر مقیاس‌پذیری و تناسب قیمت به عملکرد طراحی شده‌اند. این غول فناوری با ارائه مدلی تحت عنوان «وزن‌های دارای لایسنس» (Licensed Weights)، کنترل مستقیم مدل‌ها را در اختیار سازمان‌ها قرار می‌دهد تا پرفورمنس مدل‌های فرانتیر را در بستر اختصاصی خود پیاده‌سازی کنند.",
+    "key_points_fa": [
+     "معرفی ۷ مدل هوش مصنوعی کاملاً جدید توسط واحد Microsoft AI.",
+     "ارائه در قالب Licensed Weights با هدف کنترل مستقیم وزن‌های مدل توسط سازمان‌ها.",
+     "تمرکز محوری بر دستیابی به مقیاس‌پذیری بالا در نسبت قیمت به کارایی (Price-Performance).",
+     "عرضه رسمی در جریان کنفرانس مایکروسافت ایگنایت (Ignite)."
+    ],
+    "why_it_matters_fa": "این حرکت مایکروسافت نشان‌دهنده تغییر استراتژی برای رقابت با اکوسیستم مدل‌های متن‌باز است و به شرکت‌ها اجازه می‌دهد بدون وابستگی مطلق ابری، مدل‌های پیشرفته را مدیریت کنند.",
+    "content_ideas": [
+     {
+      "format": "استوری",
+      "title_fa": "مایکروسافت ۷ مدل جدید هوش مصنوعی رو کرد!",
+      "hook_fa": "مایکروسافت هم وارد بازی مدل‌های قابل لایسنس شد!",
+      "angle_fa": "پوشش خبری کوتاه و سریع کنفرانس مایکروسافت ایگنایت برای دنبال‌کنندگان اخبار زنده.",
+      "outline_fa": [
+       "تیتر خبر معرفی ۷ مدل هوش مصنوعی در ایگنایت",
+       "توضیح قابلیت لایسنس وزن‌ها و در اختیار گرفتن کنترل مدل",
+       "لینک تعاملی برای دریافت اخبار تکمیلی رویداد"
+      ],
+      "visual_tip_fa": "تصویر بنر رویداد مایکروسافت ایگنایت با تم گرافیکی هوش مصنوعی مایکروسافت."
+     },
+     {
+      "format": "پست",
+      "title_fa": "استراتژی جدید مایکروسافت؛ چرا کنترل وزن مدل‌های هوش مصنوعی مهم است؟",
+      "hook_fa": "مایکروسافت مدل‌های جدیدش را به شما تحویل می‌دهد، نه فقط یک API ساده!",
+      "angle_fa": "تحلیل مفهوم Licensed Weights و چرایی اهمیت حفظ کنترل مدل‌ها توسط شرکت‌ها.",
+      "outline_fa": [
+       "معرفی مدل‌های سری MAI از رویداد مایکروسافت",
+       "بررسی مفهوم لایسنس وزن‌های مدل (Licensed Weights)",
+       "تاثیر ارائه مدل‌های مقیاس‌پذیر در کاهش هزینه‌های زیرساختی",
+       "چشم‌انداز رقابت مایکروسافت با سایر ارائه‌دهندگان هوش مصنوعی"
+      ],
+      "visual_tip_fa": "طراحی گرافیکی اینفوگرافیک با برندینگ مایکروسافت و دیاگرام مالکیت وزن مدل."
+     }
+    ],
+    "hashtags": [
+     "#مایکروسافت",
+     "#Microsoft",
+     "#هوش_مصنوعی",
+     "#مایکروسافت_ایگنایت",
+     "#Ignite",
+     "#تکنولوژی",
+     "#AI"
+    ],
+    "caution_fa": "اطلاعات ارائه‌شده در منبع اولیه بسیار کوتاه بوده و جزئیات دقیق بنچمارک‌ها و نام تک‌تک مدل‌ها ذکر نشده است؛ از افزودن مشخصات تخمینی خودداری شود."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "5dbbce4400"
+  },
+  {
+   "title": "Tencent Hy4 Flash",
+   "url": "https://hy.tencent.ai/research/hy4-flash",
+   "source": "hy.tencent.ai",
+   "published": "2026-11-17T21:06:08+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 156 امتیاز، 24 کامنت",
+   "signal_value": 156,
+   "discussion_url": "https://news.ycombinator.com/item?id=50538184",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 4,
+   "category": "model_release",
+   "story_key": "tencent-hy4-flash-release",
+   "topic_key": "chinese-frontier-models",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "43861bf73c"
+  },
+  {
+   "title": "Heave-Ho: Decentralized Long-Horizon Multi-Humanoid Collaboration",
+   "url": "https://huggingface.co/papers/2611.22275",
+   "source": "Hugging Face Papers",
+   "published": "2026-11-16T19:00:00+00:00",
+   "origin": "Hugging Face Papers",
+   "summary": "Collaboration promises to extend humanoid capabilities beyond what individual robots can achieve. However, realizing this potential requires coordinated whole-body interactions, coherent long-horizon planning, and precise synchronization across robots. We introduce Heave-Ho, a decentralized framework for long-horizon collaborative multi-humanoid loco-manipulation. At the low level, we develop a multi-agent post-training framework that adapts a humanoid foundation tracking model to physically coupled interactions between humanoids, enabling coordinated decentralized control from local observations alone. At the high level, we train a vision-language planner and design a speech-based leader-follower coordination mechanism to synchronize decentralized execution without network communication. Trained with two identical humanoids, our system scales to teams of up to ten robots and generalizes",
+   "lang": "en",
+   "signal": "Hugging Face: 21 رأی",
+   "signal_value": 21,
+   "discussion_url": "https://github.com/heaveho-humanoid/Heave-Ho",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.22275.png",
+     "origin": "hf"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 5,
+   "category": "research",
+   "story_key": "heave-ho-multi-humanoid-collaboration",
+   "topic_key": "humanoid-robotics",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "b71151d25d"
+  }
+ ],
+ "failed_sources": [],
+ "models": [
+  "gemini-3.8-flash",
+  "gemini-3.8-flash"
+ ]
+}

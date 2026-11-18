@@ -112,7 +112,47 @@
   "https://huggingface.co/papers/2611.21099": "2026-11-18",
   "https://huggingface.co/papers/2611.23143": "2026-11-18",
   "https://huggingface.co/papers/2611.21479": "2026-11-18",
-  "https://huggingface.co/papers/2611.23226": "2026-11-18"
+  "https://huggingface.co/papers/2611.23226": "2026-11-18",
+  "https://openai.com/index/advancing-chip-design-with-our-models": "2026-11-19",
+  "https://blog.google/company-news/inside-google/around-the-globe/google-latin-america/google-for-mexico-2026-november": "2026-11-19",
+  "https://blog.google/products-and-platforms/platforms/google-play/auction-google-play-las-vegas": "2026-11-19",
+  "https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-loop": "2026-11-19",
+  "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices": "2026-11-19",
+  "https://blog.google/products/ads-commerce/demand-gen-drop-november-2026": "2026-11-19",
+  "https://blog.google/innovation-and-ai/technology/safety-security/cybersecurity-tips": "2026-11-19",
+  "https://blog.google/products/marketingplatform/360/google-marketing-platform-drop-november": "2026-11-19",
+  "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse": "2026-11-19",
+  "https://huggingface.co/blog/moe-expert-streaming": "2026-11-19",
+  "https://huggingface.co/blog/rumble-2-flash": "2026-11-19",
+  "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now": "2026-11-19",
+  "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode": "2026-11-19",
+  "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked": "2026-11-19",
+  "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots": "2026-11-19",
+  "https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen": "2026-11-19",
+  "https://techcrunch.com/2026/11/18/nvidia-clarifies-when-it-will-and-wont-keep-financing-neoclouds": "2026-11-19",
+  "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents": "2026-11-19",
+  "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers": "2026-11-19",
+  "https://technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere": "2026-11-19",
+  "https://technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans": "2026-11-19",
+  "https://engadget.com/2320788/gta-vi-launch-day-live-blog": "2026-11-19",
+  "https://engadget.com/2320797/ai-found-a-hole-in-java-and-it-starts-with-aaaaaaaa": "2026-11-19",
+  "https://engadget.com/2320281/why-gta-6-no-60-fps-performance-mode": "2026-11-19",
+  "https://engadget.com/2320646/siriusxm-and-pandora-will-provide-podcast-transcripts-for-the-deaf-and-hard-of-hearing-community": "2026-11-19",
+  "https://engadget.com/2320303/youll-need-the-latest-ps5-firmware-update-to-play-gta-vi": "2026-11-19",
+  "https://engadget.com/2320267/nasa-voyager-1-space-probe-one-light-day-away-from-earth": "2026-11-19",
+  "https://simonwillison.net/2026/Nov/18/daniel-stenberg": "2026-11-19",
+  "https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser": "2026-11-19",
+  "https://wiz.io/blog/nginx-http2-rce-vulnerabilities": "2026-11-19",
+  "https://techstackups.com/articles/quad9-leaves-france-dns-blocking": "2026-11-19",
+  "https://social.anoxinon.de/@codebergstatus/117636437840688845": "2026-11-19",
+  "https://inside-db.com/": "2026-11-19",
+  "https://energy-based-reasoners.github.io/": "2026-11-19",
+  "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long": "2026-11-19",
+  "https://yahoo.com/news/world/articles/russia-reportedly-planned-mass-casualty-090500574.html": "2026-11-19",
+  "https://sciencedaily.com/releases/2026/11/261110042543.htm": "2026-11-19",
+  "https://microsoft.ai/news/microsoft-ignite-2026": "2026-11-19",
+  "https://hy.tencent.ai/research/hy4-flash": "2026-11-19",
+  "https://huggingface.co/papers/2611.22275": "2026-11-19"
  },
  "reported": [
   {
@@ -252,6 +292,84 @@
    "title": "FAA suspends installation of router that led to a ground stop of flights across the US",
    "title_fa": "روتر معیوبی که تمام پروازهای آمریکا را زمین‌گیر کرد؛ دستور فوری سازمان هوانوردی برای توقف نصب",
    "url": "https://engadget.com/2320202/faa-suspends-installation-router-ground-stop-flights-across-us"
+  },
+  {
+   "date": "2026-11-19",
+   "title": "GTA 6 launch day: Live updates on the biggest game of the year",
+   "title_fa": "لانچ رسمی GTA 6؛ پرحاشیه‌ترین بازی دهه با حجم ۲۱۲ گیگابایت منتشر شد",
+   "url": "https://engadget.com/2320788/gta-vi-launch-day-live-blog"
+  },
+  {
+   "date": "2026-11-19",
+   "title": "NVIDIA RTX Spark Compact Desktops Out Now",
+   "title_fa": "انویدیا از مینی‌دسکتاپ‌های RTX Spark برای اجرای محلی هوش مصنوعی رونمایی کرد",
+   "url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now"
+  },
+  {
+   "date": "2026-11-19",
+   "title": "AI found a hole in Java, and it starts with 'AAAAAAAA...'",
+   "title_fa": "کشف آسیب‌پذیری مرگبار جاوا توسط هوش مصنوعی با ۶۴ بار تکرار حرف A!",
+   "url": "https://engadget.com/2320797/ai-found-a-hole-in-java-and-it-starts-with-aaaaaaaa"
+  },
+  {
+   "date": "2026-11-19",
+   "title": "More banks say customers using AI agents are on their own — even if they get hacked",
+   "title_fa": "سلب مسئولیت بانک‌ها: اگر پولتان با ایجنت‌های هوش مصنوعی برود، مقصر خودتانید!",
+   "url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked"
+  },
+  {
+   "date": "2026-11-19",
+   "title": "Microsoft AI: Seven new world-class models at scalable price-performance",
+   "title_fa": "رونمایی مایکروسافت از ۷ مدل هوش مصنوعی تحت عنوان MAI",
+   "url": "https://microsoft.ai/news/microsoft-ignite-2026"
+  },
+  {
+   "date": "2026-11-19",
+   "title": "Pre-auth RCE in Nginx HTTP/2 handling",
+   "title_fa": "خطر نفوذ مستقیم به سرورها؛ کشف آسیب‌پذیری بحرانی اجرای کد (RCE) در Nginx",
+   "url": "https://wiz.io/blog/nginx-http2-rce-vulnerabilities"
+  },
+  {
+   "date": "2026-11-19",
+   "title": "Advancing chip design with OpenAI models",
+   "title_fa": "ورود اوپن‌ای‌آی به دنیای سخت‌افزار؛ بهینه‌سازی و طراحی تراشه‌ها با هوش مصنوعی آسترا!",
+   "url": "https://openai.com/index/advancing-chip-design-with-our-models"
+  },
+  {
+   "date": "2026-11-19",
+   "title": "Energy-Based Reasoners: 385x more efficient inference",
+   "title_fa": "تحول در معماری هوش مصنوعی؛ مدل‌های استدلالی جدید ۳۸۵ برابر بهینه‌تر عمل می‌کنند!",
+   "url": "https://energy-based-reasoners.github.io/"
+  },
+  {
+   "date": "2026-11-19",
+   "title": "The Gemini app is now available on lower-memory Android devices.",
+   "title_fa": "جمینای برای همه؛ اجرای هوش مصنوعی گوگل روی گوشی‌های اقتصادی و ضعیف‌تر اندروید",
+   "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices"
+  },
+  {
+   "date": "2026-11-19",
+   "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
+   "title_fa": "شاهکار هاگینگ فیس در اجرای مدل‌های غول‌پیکر؛ اجرای مدل ۱۸۰ میلیاردی روی فقط ۳۲ گیگابایت رم!",
+   "url": "https://huggingface.co/blog/moe-expert-streaming"
+  },
+  {
+   "date": "2026-11-19",
+   "title": "Google’s AI feature in Search gets its own incognito mode",
+   "title_fa": "حالت مخفی به هوش مصنوعی گوگل آمد؛ مکالمه در جستجو بدون ثبت در تاریخچه!",
+   "url": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode"
+  },
+  {
+   "date": "2026-11-19",
+   "title": "Sam Altman warns against a future where AI, not humans, calls the shots",
+   "title_fa": "هشدار تازه سام آلتمن درباره آینده‌ای که تصمیم‌گیرنده نهایی هوش مصنوعی باشد، نه انسان",
+   "url": "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots"
+  },
+  {
+   "date": "2026-11-19",
+   "title": "OpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’",
+   "title_fa": "واکنش سام آلتمن به کناره‌گیری جن‌سن هوانگ: تصور صنعت هوش مصنوعی بدون او بسیار سخت است",
+   "url": "https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen"
   }
  ],
  "telegram_chat_id": "925911315"
