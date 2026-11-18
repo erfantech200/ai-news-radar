@@ -1,0 +1,47 @@
+# ─────────────────────────────────────────────────────────────
+#  AI News Radar — settings
+#  Edit this file to change sources, the page profile, or how many stories you get.
+# ─────────────────────────────────────────────────────────────
+
+profile:
+  channel: "پیج اینستاگرام فارسی درباره هوش مصنوعی و تکنولوژی"
+  audience: "فارسی‌زبان‌هایی که به هوش مصنوعی، ابزارهای جدید و آینده تکنولوژی علاقه دارن؛ از کاربر عادی تا آدم‌های فنی"
+  formats: ["ریلز", "کاروسل", "استوری", "پست"]
+  notes: "لحن صمیمی و پرانرژی، ولی دقیق. ابزارهایی که مخاطب خودش بتونه امتحان کنه خیلی ارزشمندن."
+
+settings:
+  timezone: "Australia/Melbourne"
+  lookback_hours: 26          # how far back to read each run (a little over a day)
+  content_items: 6            # stories that get a full Persian brief + content ideas
+  other_items: 10             # extra important headlines (Persian title + one line)
+  ideas_per_item: 2           # content ideas per story
+  min_worthiness: 6           # 1-10: below this a story never becomes a content pick
+  min_importance_other: 6     # 1-10: threshold for the "other important news" list
+  max_triage_items: 300
+  triage_batch_size: 150      # items per scoring request (fewer requests = less quota)
+  article_chars: 6000         # how much of each article the deep agent reads
+
+# type: rss | hackernews | hf_papers
+# official: true  → preferred as the main source when several outlets cover one story
+# lang: language of the source (any language works; output is always Persian)
+# enabled: false  → temporarily switch a source off
+sources:
+  # ── Official AI labs & companies
+  - {name: OpenAI, type: rss, url: "https://openai.com/news/rss.xml", official: true, lang: en}
+  - {name: Google DeepMind, type: rss, url: "https://deepmind.google/blog/rss.xml", official: true, lang: en}
+  - {name: Google Blog, type: rss, url: "https://blog.google/rss/", official: true, lang: en}
+  - {name: Hugging Face Blog, type: rss, url: "https://huggingface.co/blog/feed.xml", official: true, lang: en}
+  - {name: NVIDIA Blog, type: rss, url: "https://blogs.nvidia.com/feed/", official: true, lang: en}
+
+  # ── Tech & AI news outlets
+  - {name: TechCrunch, type: rss, url: "https://techcrunch.com/category/artificial-intelligence/feed/", lang: en}
+  - {name: MIT Technology Review, type: rss, url: "https://www.technologyreview.com/topic/artificial-intelligence/feed", lang: en}
+  - {name: Engadget, type: rss, url: "https://www.engadget.com/rss.xml", lang: en, max_items: 25}
+  - {name: Simon Willison, type: rss, url: "https://simonwillison.net/atom/everything/", lang: en}
+
+  # ── Community signals (what people are actually talking about)
+  - {name: Hacker News, type: hackernews, min_points: 150, max_items: 40}
+  - {name: Hugging Face Papers, type: hf_papers, min_upvotes: 20, max_items: 12}
+
+  # ── Sources in other languages: add any RSS feed, the agents translate to Persian.
+  # - {name: "My Chinese source", type: rss, url: "https://example.com/feed", lang: zh}

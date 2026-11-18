@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+<channel>
+  <title>Example AI News</title>
+  <link>https://news.example.com</link>
+  <description>AI news</description>
+  <item>
+    <title>Acme releases Nova-2, an open model that beats GPT on coding</title>
+    <link>https://news.example.com/2026/11/acme-nova-2?utm_source=rss&amp;utm_medium=feed</link>
+    <pubDate>{RECENT}</pubDate>
+    <description><![CDATA[<p>Acme today released <b>Nova-2</b>, a 70B open-weights model.</p>]]></description>
+    <media:content url="https://cdn.example.com/nova2-hero.jpg" medium="image" />
+  </item>
+  <item>
+    <title>Startup raises $40M for AI note-taking glasses</title>
+    <link>https://news.example.com/2026/11/glasses</link>
+    <pubDate>{RECENT}</pubDate>
+    <description>Smart glasses that transcribe meetings.</description>
+    <enclosure url="https://cdn.example.com/glasses.png" type="image/png" length="0" />
+  </item>
+  <item>
+    <title>Old story from last week</title>
+    <link>https://news.example.com/2026/11/old</link>
+    <pubDate>Mon, 02 Nov 2026 10:00:00 +0000</pubDate>
+    <description>Should be filtered by date.</description>
+  </item>
+</channel>
+</rss>
