@@ -186,7 +186,24 @@
   "https://cve.org/CVERecord?id=CVE-2026-99312": "2026-11-19",
   "https://exitpath-ruddy.vercel.app/": "2026-11-19",
   "https://xinmingtu.cn/blog/2026/claude-opus-5-5-protein-sequences": "2026-11-19",
-  "https://rshekhar.com/voyager": "2026-11-19"
+  "https://rshekhar.com/voyager": "2026-11-19",
+  "https://blog.google/company-news/outreach-and-initiatives/sustainability/new-water-stewardship-commitments": "2026-11-19",
+  "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon": "2026-11-19",
+  "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie": "2026-11-19",
+  "https://engadget.com/2321464/elon-musk-accuses-ukraine-of-being-untruthful-about-starshield-disruptions": "2026-11-19",
+  "https://simonwillison.net/2026/Nov/18/llm-gemini": "2026-11-19",
+  "https://simonwillison.net/2026/Nov/18/datasette-arrows": "2026-11-19",
+  "https://ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string": "2026-11-19",
+  "https://anthropic.com/news/anthropic-prices-initial-public-offering": "2026-11-19",
+  "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model": "2026-11-19",
+  "https://radixark.com/blog/daisyrose-27b": "2026-11-19",
+  "https://slowchronicle.com/posts/llm-assisted-reverse-engineering": "2026-11-19",
+  "https://sam.gov/workspace/contract/opp/8948e8601e964c6aba9c801eee16b1be/view": "2026-11-19",
+  "https://pikuma.com/blog/history-of-x86-4004-to-486": "2026-11-19",
+  "https://ut2004.dev/": "2026-11-19",
+  "https://lateblt.livejournal.com/526188.html": "2026-11-19",
+  "https://huggingface.co/papers/2611.24738": "2026-11-19",
+  "https://huggingface.co/papers/2611.24154": "2026-11-19"
  },
  "reported": [
   {
@@ -482,6 +499,12 @@
    "title": "Palmer Luckey warns AI-powered cyberattacks are outpacing defenses: ‘It’s time to start running’",
    "title_fa": "هشدار بنیان‌گذار پالمر لاکی: حملات سایبری هوش مصنوعی از دفاع سبقت گرفتند، فقط باید فرار کنید!",
    "url": "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running"
+  },
+  {
+   "date": "2026-11-19",
+   "title": "Unreal Tournament 2004 in the Browser",
+   "title_fa": "اجرای کامل بازی خاطره‌انگیز آنریل تورنومنت ۲۰۰۴ مستقیماً داخل مرورگر وب!",
+   "url": "https://ut2004.dev/"
   }
  ],
  "telegram_chat_id": "925911315"
