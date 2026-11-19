@@ -1,0 +1,1385 @@
+{
+ "content": [
+  {
+   "title": "We’re partnering with Blue Origin on our first heavy-lift Project Suncatcher launch.",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/blue-origin-project-suncatcher-partnership/",
+   "source": "Google Blog",
+   "published": "2026-11-19T13:00:00+00:00",
+   "origin": "Google Blog",
+   "summary": "We’re partnering with Blue Origin on the first heavy-lift launch for Project Suncatcher, our long-term moonshot to scale AI infrastructure in space by tapping into the a…",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://blog.google/static/blogv2/images/google-1440x754.jpg?version=pr20261117-1738",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/google-signs-deal-with-blue-origin-to-send-satellite-data-centers-into-orbit/l-intro-1795109453.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [
+    "Engadget"
+   ],
+   "importance": 8,
+   "worthiness": 8,
+   "category": "big_tech",
+   "story_key": "google-blue-origin-project-suncatcher",
+   "topic_key": "ai-infrastructure-in-space",
+   "already_reported": false,
+   "viral": 8,
+   "title_fa": "همکاری گوگل و بلو اوریجین: دیتاسنترهای هوش مصنوعی به فضا می‌روند!",
+   "one_liner_fa": "گوگل در قالب پروژه سان‌کچر (Project Suncatcher) با شرکت بلو اوریجین جف بزوس همکاری می‌کند تا زیرساخت‌های پردازشی هوش مصنوعی را به مدار زمین بفرستد.",
+   "deep": {
+    "id": "b4c1c8bf45",
+    "title_fa": "همکاری گوگل و بلو اوریجین: دیتاسنترهای هوش مصنوعی به فضا می‌روند!",
+    "summary_fa": "گوگل رسماً از همکاری خود با شرکت فضایی بلو اوریجین (Blue Origin) برای پرتاب اولین فاز پروژه «سان‌کچر» (Project Suncatcher) خبر داد. این پروژه با هدف انتقال زیرساخت‌های پردازشی هوش مصنوعی به فضا و استفاده مستقیم از انرژی خورشیدی مدار زمین طراحی شده است. قرار است در سه‌ماهه اول سال ۲۰۲۹، موشک سنگین نیو گلن (New Glenn) ماهواره‌های حاوی سخت‌افزارهای پردازشی را در مدار خورشیدآهنگ مستقر کند. هر یک از این ماهواره‌ها ظرفیتی تقریباً معادل یک رک کامل سرور در دیتاسنترهای زمینی خواهند داشت.",
+    "key_points_fa": [
+     "همکاری رسمی گوگل با شرکت فضایی بلو اوریجین (Blue Origin).",
+     "اجرای فاز پرتاب سنگین در قالب پروژه سان‌کچر (Project Suncatcher).",
+     "زمان‌بندی هدف: سه‌ماهه اول سال ۲۰۲۹ (Q1 2029).",
+     "استفاده از راکت سنگین نیو گلن (New Glenn) برای انتقال تجهیزات به مدار خورشیدآهنگ (Sun-synchronous orbit).",
+     "ظرفیت پردازشی هر ماهواره تقریباً معادل یک رک دیتاسنتر (Data center rack) زمینی است.",
+     "هدف اصلی پروژه: مهار انرژی بی‌پایان خورشیدی در مدار زمین برای غلبه بر محدودیت‌های برق هوش مصنوعی."
+    ],
+    "why_it_matters_fa": "با افزایش وحشتناک مصرف برق مدل‌های پیشرفته، دسترسی به انرژی نامحدود خورشیدی در فضا می‌تواند آینده زیرساخت‌های محاسباتی هوش مصنوعی را کاملاً دگرگون کند.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "دیتاسنترهای هوش مصنوعی دارن میرن فضا!",
+      "hook_fa": "دیگه برق زمین جوابگوی هوش مصنوعی نیست؛ گوگل رسماً اعلام کرد سرورهاشو می‌فرسته مدار زمین!",
+      "angle_fa": "روایت بحران انرژی مدل‌های بزرگ و چگونگی فرار هوش مصنوعی به مدار زمین با راکت‌های فضایی.",
+      "outline_fa": [
+       "طرح بحران وحشتناک مصرف برق دیتاسنترها روی زمین.",
+       "معرفی پروژه بلندپروازانه سان‌کچر گوگل و همکاری با بلو اوریجین.",
+       "توضیح پرتاب راکت نیو گلن در ۲۰۲۹ و ماهواره‌هایی با ظرفیت یک رک سرور.",
+       "نتیجه‌گیری درباره رقابت آینده زیرساخت هوش مصنوعی در فضا."
+      ],
+      "visual_tip_fa": "نمایش تصاویر گرافیکی مدار زمین و ماهواره‌های دیتاسنتر از وبلاگ گوگل همراه با فوتیج پرتاب راکت نیو گلن بلو اوریجین."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "چرا غول‌های هوش مصنوعی می‌خواهند از زمین فرار کنند؟",
+      "hook_fa": "پروژه سان‌کچر: سرورهای هوش مصنوعی در مدار زمین چه کار می‌کنند؟",
+      "angle_fa": "کالبدشکافی فنی پروژه، چالش‌های برق در زمین و نحوه انتقال سرورها به مدار خورشیدآهنگ.",
+      "outline_fa": [
+       "اسلاید ۱: معرفی شوکه‌کننده پروژه Suncatcher گوگل.",
+       "اسلاید ۲: بحران مصرف انرژی دیتاسنترها و چرایی نیاز به انرژی خورشیدی مدار زمین.",
+       "اسلاید ۳: جزئیات موشک نیو گلن و استقرار در سه‌ماهه اول ۲۰۲۹.",
+       "اسلاید ۴: قدرت پردازشی؛ هر ماهواره برابر یک رک کامل سرور.",
+       "اسلاید ۵: سوال تعاملی از مخاطب درباره آینده انرژی و فناوری."
+      ],
+      "visual_tip_fa": "اسلایدهای تیره و فضایی همراه با اینفوگرافیک مقایسه ابعاد سرور در زمین و ماهواره‌های معلق در فضا."
+     }
+    ],
+    "hashtags": [
+     "#هوش_مصنوعی",
+     "#گوگل",
+     "#بلواوریجین",
+     "#فناوری",
+     "#فضا",
+     "#Google",
+     "#BlueOrigin",
+     "#AI"
+    ],
+    "caution_fa": "پرتاب برای سال ۲۰۲۹ برنامه‌ریزی شده و در حال حاضر یک چشم‌انداز تحقیقاتی و توسعه‌ای بلندمدت است."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "b4c1c8bf45"
+  },
+  {
+   "title": "Let Gemini tackle repetitive chores on your Mac",
+   "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/",
+   "source": "Google Blog",
+   "published": "2026-11-19T17:00:00+00:00",
+   "origin": "Google Blog",
+   "summary": "Prompting Gemini to take a kid's butterfly sketch, model it, and rig it in Blender",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/hero_header_CU_copy.width-1300.png",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/hero_header_CU_copy.width-2200.format-webp.webp",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/hero_header_CU_copy.max-600x600.format-webp.webp",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [
+    "TechCrunch"
+   ],
+   "importance": 7,
+   "worthiness": 8,
+   "category": "product_launch",
+   "story_key": "google-gemini-mac-agent",
+   "topic_key": "gemini-agentic-desktop",
+   "already_reported": false,
+   "viral": 8,
+   "title_fa": "قابلیت کنترل کامپیوتر جمینای گوگل برای مک منتشر شد",
+   "one_liner_fa": "گوگل جمینای را به یک ایجنت هوشمند روی کامپیوترهای مک تبدیل کرد که می‌تواند کارهای چندمرحله‌ای مثل سه‌بعدی‌سازی طرح‌های دستی را خودکار انجام دهد.",
+   "deep": {
+    "id": "a1c40c62a7",
+    "title_fa": "قابلیت کنترل کامپیوتر جمینای گوگل برای مک منتشر شد",
+    "summary_fa": "گوگل قابلیت کنترل مستقیم سیستم (Computer Use) را به اپلیکیشن جمینای (Gemini) در سیستم‌عامل مک اضافه کرد. این ویژگی هوش مصنوعی را قادر می‌سازد در پس‌زمینه کارهای چندمرحله‌ای مثل کلیک کردن، جابجایی بین برنامه‌ها، خواندن فایل‌ها و پر کردن فرم‌ها را انجام دهد. عملکرد آن در یک پنجره مستقل اجرا می‌شود و ماوس یا نمایشگر شما را درگیر نمی‌کند. در حال حاضر این قابلیت به زبان انگلیسی و در آمریکا برای نسخه مک فعال شده است.",
+    "key_points_fa": [
+     "عرضه رسمی قابلیت Computer Use در اپلیکیشن جمینای روی مک (macOS).",
+     "انجام خودکار کارهای تکراری شامل تایپ، ناوبری در منوها، کلیک کردن و پر کردن فرم‌ها.",
+     "اجرا در پنجره ایزوله پس‌زمینه با پیش‌نمایش زنده در صفحه چت بدون قفل کردن ماوس و نمایشگر اصلی.",
+     "کنترل و امنیت کامل توسط کاربر: تعیین دسترسی برنامه‌ها، امکان توقف و تایید قبل از انجام عملیات حساس.",
+     "کاربردهای عملی: تصحیح رنگ دسته‌ای تصاویر، استخراج اطلاعات از فایل‌های PDF محلی، ساخت اسلاید از داشبوردهای زنده.",
+     "نحوه دسترسی: فعلاً به زبان انگلیسی در آمریکا و از طریق آدرس gemini.google/mac."
+    ],
+    "why_it_matters_fa": "هوش مصنوعی از یک چت‌بات متنی به یک دستیار اجرایی روی سیستم‌عامل ارتقا پیدا کرده که می‌تواند کارهای خسته‌کننده اداری و دفتری را به‌طور مستقل انجام دهد.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "جمینای کنترل مک‌بوک رو دستش گرفت!",
+      "hook_fa": "دیگه روی مک‌بوک دست به موس نزن؛ هوش مصنوعی جمینای خودش پشت‌صحنه کارهات رو انجام میده!",
+      "angle_fa": "نمایش عملی مفهوم Agentic AI و نحوه خودکارسازی فرم‌ها و مدیریت فایل‌ها توسط جمینای.",
+      "outline_fa": [
+       "نشان دادن دستور صوتی یا متنی به جمینای برای پر کردن اطلاعات یک فایل PDF.",
+       "نمایش پنجره مستقل جمینای در مک که به تنهایی کلیک و تایپ می‌کند بدون اینکه کار شما مختل شود.",
+       "برشمردن کارهای قابل اجرا: اصلاح رنگ تصاویر، ساخت اسلاید و ثبت آگهی فروش.",
+       "توضیح شرایط تست ابزار و لینک دانلود آن."
+      ],
+      "visual_tip_fa": "استفاده از اسکرین‌ریکورد محیط اپلیکیشن جمینای در مک و نشان دادن تصویر در تصویر پنجره ایزوله آن."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "راهنمای کار با دستیار خودکار جمینای روی مک",
+      "hook_fa": "۵ کاری که با آپدیت جدید جمینای روی مک دیگه نباید دستی انجام بدی!",
+      "angle_fa": "آموزش کاربردی برای فریلنسرها و کاربران مک جهت افزایش بهره‌وری روزمره.",
+      "outline_fa": [
+       "اسلاید ۱: معرفی قابلیت جدید Computer use در مک.",
+       "اسلاید ۲: سناریوی ۱: خواندن اطلاعات PDF و وارد کردن به وب‌سایت‌ها.",
+       "اسلاید ۳: سناریوی ۲: تصحیح رنگ دسته‌ای و ادیت تصاویر در برنامه‌های طراحی.",
+       "اسلاید ۴: حفظ حریم خصوصی؛ ماوس شما آزاد است و تایید مرحله‌به‌مرحله دارید.",
+       "اسلاید ۵: نحوه دانلود و فعال‌سازی از سایت رسمی."
+      ],
+      "visual_tip_fa": "اسکرین‌شات‌های تمیز از منوهای دسترسی جمینای روی macOS و نمونه‌های ارائه شده توسط گوگل."
+     }
+    ],
+    "hashtags": [
+     "#جمینای",
+     "#گوگل",
+     "#مک_بوک",
+     "#ترفند_مک",
+     "#هوش_مصنوعی",
+     "#Gemini",
+     "#GoogleGemini",
+     "#MacOS"
+    ],
+    "caution_fa": "در حال حاضر این ویژگی به زبان انگلیسی و در آمریکا فعال شده و کاربران خارج از آمریکا برای تست نیازمند ابزارهای تغییر آی‌پی هستند."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "a1c40c62a7"
+  },
+  {
+   "title": "Meta’s AI agent Muse is mixing up conversations and exposing private data, report says",
+   "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+   "source": "TechCrunch",
+   "published": "2026-11-19T17:38:40+00:00",
+   "origin": "TechCrunch",
+   "summary": "In some of these instances, employees said Muse surfaced messages about childcare requests they never made, career advice they never asked for, product orders they never placed, and bank account balances that didn't belong to them.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2026/09/muse-ai-meta.jpg?w=1200",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2026/09/muse-ai-meta.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2305298275.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2026/11/Static_Go-Proactive.jpeg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2024/06/snapchat-getty.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2026/11/Everful-founders.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2026/11/anthropic-opening-Getty.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 8,
+   "category": "safety_ethics",
+   "story_key": "meta-muse-ai-data-leak",
+   "topic_key": "meta-ai-scandal",
+   "already_reported": false,
+   "viral": 8,
+   "title_fa": "رسوایی امنیتی متا: هوش مصنوعی میوز چت‌ها و موجودی بانک افراد را فاش کرد!",
+   "one_liner_fa": "گزارش‌ها حاکی از آن است که ایجنت هوش مصنوعی میوز (Muse) متا به اشتباه اطلاعات شخصی حساس مثل حساب‌های بانکی و پیام‌های خصوصی دیگران را به نمایش گذاشته است.",
+   "deep": {
+    "id": "d9d2fba47f",
+    "title_fa": "رسوایی امنیتی متا: هوش مصنوعی میوز چت‌ها و موجودی بانک افراد را فاش کرد!",
+    "summary_fa": "بر اساس گزارش جدید رویترز، کارمندان شرکت متا (Meta) متوجه نقض وحشتناک حریم خصوصی در دستیار هوش مصنوعی میوز (Muse) شده‌اند. این دستیار مکالمات کاربران مختلف را با هم ادغام کرده و داده‌های محرمانه را به افراد غریبه نشان داده است. در میان اطلاعات لو رفته مواردی چون موجودی دقیق حساب‌های بانکی، سفارش‌های ثبت‌نشده و پیام‌های شخصی دیده می‌شود. حتی به یک کارمند پیامی درباره اپلیکیشن رمزنگاری‌شده سیگنال (Signal) نمایش داده شده در حالی که هیچ دسترسی به آن صادر نشده بود.",
+    "key_points_fa": [
+     "افشای باگ امنیتی در دستیار هوش مصنوعی میوز (Muse) متعلق به متا طبق اسناد داخلی رویترز (Reuters).",
+     "تداخل مکالمات کاربران و افشای داده‌های کاملاً خصوصی میان حساب‌های مختلف.",
+     "لو رفتن موجودی حساب بانکی دیگران؛ مانند نمایش دقیق ارقام موجودی در بانک‌های Capital One و Charles Schwab.",
+     "نقض دسترسی: نمایش نوتیفیکیشن پاسخ به پیام در سیگنال (Signal) بدون اجازه دسترسی کاربر.",
+     "اپلیکیشن میوز در ماه سپتامبر عرضه شده و بیش از ۱۰ میلیون بار دانلود داشته است.",
+     "متا هنوز پاسخی به این گزارش و ادعاها نداده است."
+    ],
+    "why_it_matters_fa": "این اتفاق هشداری جدی برای تمام کاربرانی است که اطلاعات حساس و شخصی خود را به دستیارهای هوش مصنوعی شرکت‌های بزرگ می‌سپارند.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "موجودی حسابت ممکنه دست یه غریبه بیفته!",
+      "hook_fa": "اگه از دستیار جدید هوش مصنوعی متا استفاده می‌کنی، سریع دسترسی‌هاش رو چک کن؛ یه فاجعه رخ داده!",
+      "angle_fa": "افشاگری نقض حریم خصوصی و چرایی خطرناک بودن تداخل داده‌ها در مدل‌های هوش مصنوعی چندکاربره.",
+      "outline_fa": [
+       "توضیح گزارش رویترز درباره قاطی شدن پیام‌های کاربران در دستیار Muse.",
+       "مثال شوکه‌کننده نمایش موجودی حساب بانکی چند هزار دلاری دیگران در چت آب‌وهوا.",
+       "ماجرای دسترسی خودسرانه به اپلیکیشن سیگنال بدون اجازه کاربر.",
+       "توصیه امنیتی به مخاطبان درباره وارد نکردن اطلاعات هویتی و مالی در هوش مصنوعی."
+      ],
+      "visual_tip_fa": "استفاده از آیکون‌های هشدار قرمز، لوگوی متا، و تصویرسازی تار شده از اطلاعات بانکی و پیام‌رسان سیگنال."
+     },
+     {
+      "format": "استوری",
+      "title_fa": "فاجعه حریم خصوصی در هوش مصنوعی متا",
+      "hook_fa": "هوش مصنوعی جدید متا داره پیام‌های شخصی و حساب بانکی مردم رو به غریبه‌ها نشون میده!",
+      "angle_fa": "پوشش فوری خبر، ارائه فکت‌ها و گرفتن نظرسنجی از مخاطبان در مورد اعتماد به دستیارهای AI.",
+      "outline_fa": [
+       "اسلاید ۱: اعلام فوری خبر باگ بزرگ اپلیکیشن Muse با ۱۰ میلیون کاربر.",
+       "اسلاید ۲: شرح ماجرای لو رفتن حساب بانکی و مداخله در چت سیگنال.",
+       "اسلاید ۳: نظرسنجی (Poll): هنوز به هوش مصنوعی اطلاعات خصوصی می‌دی یا نه؟"
+      ],
+      "visual_tip_fa": "شات تیتر گزارش رویترز و تکست‌باکس‌های خوانا با پس‌زمینه اخطار."
+     }
+    ],
+    "hashtags": [
+     "#متا",
+     "#امنیت_سایبری",
+     "#حریم_خصوصی",
+     "#هوش_مصنوعی",
+     "#Meta",
+     "#MuseAI",
+     "#Privacy"
+    ],
+    "caution_fa": "این گزارش بر اساس پست‌های داخلی فاش‌شده کارمندان در رویترز منتشر شده و متا هنوز بیانیه رسمی برای تایید یا رد فنی این خطا نداده است."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "d9d2fba47f"
+  },
+  {
+   "title": "Anthropic’s IPO puts AI’s circular financing boom to the test",
+   "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
+   "source": "TechCrunch",
+   "published": "2026-11-19T14:54:39+00:00",
+   "origin": "TechCrunch",
+   "summary": "Anthropic faces enormous compute commitments as it goes public, but its biggest infrastructure partners, including Amazon and Google, could continue profiting from AI even if Anthropic loses its lead.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2304538389.jpg?w=1024",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2025/04/RebeccaBellan_default-large-1-e1787760589727.jpg?w=150",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 8,
+   "worthiness": 7,
+   "category": "business_funding",
+   "story_key": "anthropic-nasdaq-debut-surge",
+   "topic_key": "anthropic-ipo",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "ورود تاریخی آنتروپیک به بورس: ثروتمندترین استارتاپ هوش مصنوعی جهان",
+   "one_liner_fa": "مدیرعامل آنتروپیک در مراسم آغاز معاملات بورس اعلام کرد که سرعت توسعه هوش مصنوعی را فدای فشارهای مالی یا سیاسی سرمایه‌گذاران نخواهد کرد.",
+   "deep": {
+    "id": "824e87dcfa",
+    "title_fa": "ورود تاریخی آنتروپیک به بورس: ثروتمندترین استارتاپ هوش مصنوعی جهان",
+    "summary_fa": "آنتروپیک (Anthropic)، توسعه‌دهنده چت‌بات کلود (Claude)، رسماً وارد بازار بورس شد تا سرمایه‌گذاران اولیه آن به سودهای هنگفتی برسند. با احتساب قیمت پایه ۸۳ دلاری هر سهم، ارزش مجموع سهام آمازون (Amazon) و گوگل (Google) در این شرکت به بیش از ۳۰۷ میلیارد دلار رسیده است. درآمد سه‌ماهه سوم این شرکت به ۱۷ میلیارد دلار رسید که نشان‌دهنده نرخ درآمد سالانه ۶۸ میلیارد دلاری است، با این حال آنتروپیک تعهد داده نزدیک به ۹۰۰ میلیارد دلار بابت زیرساخت‌های پردازشی پرداخت کند.",
+    "key_points_fa": [
+     "عرضه عمومی سهام (IPO) آنتروپیک با قیمت پایه ۸۳ دلار به ازای هر سهم.",
+     "ارزش سهام ۱۴.۷ درصدی آمازون به حدود ۱۵۹ میلیارد دلار و سهام ۱۳.۷ درصدی گوگل به ۱۴۹ میلیارد دلار رسید.",
+     "تامین مالی خصوصی ۲۶ میلیارد دلاری توسط غول‌هایی مثل انویدیا، AMD، مایکروسافت، برودکام، میکرون و گوگل همزمان با IPO.",
+     "درآمد ۱۷ میلیارد دلاری آنتروپیک در سه‌ماهه سوم ۲۰۲۶ (برآورد درآمد سالانه ۶۸ میلیارد دلار).",
+     "تعهد پرداختی ۹۰۰ میلیارد دلاری شرکت عمدتاً برای خرید سرور و زیرساخت‌های محاسباتی.",
+     "رسیدن حجم نقدینگی و دارایی‌های نقد آنتروپیک به رقم شگفت‌انگیز ۲۲۰ میلیارد دلار."
+    ],
+    "why_it_matters_fa": "این IPO نشان می‌دهد حباب هوش مصنوعی وارد فاز اقتصاد واقعی شده و آزمونی بزرگ برای اثبات توانایی سودآوری غول‌های هوش مصنوعی فراتر از کمک‌های مالی شرکا است.",
+    "content_ideas": [
+     {
+      "format": "کاروسل",
+      "title_fa": "بازی کثیف پول در هوش مصنوعی: چرخه مالی چطور کار می‌کنه؟",
+      "hook_fa": "چرا آمازون و گوگل میلیاردها دلار به آنتروپیک دادن تا دوباره پول خودشون رو پس بگیرن؟",
+      "angle_fa": "رمزگشایی از مفهوم تامین مالی چرخه‌ای (Circular Financing) و برنده نهایی مسابقه هوش مصنوعی.",
+      "outline_fa": [
+       "اسلاید ۱: معرفی ورود تاریخی سازنده کلود به بورس با صدها میلیارد دلار ارزش.",
+       "اسلاید ۲: بازی چرخه‌ای: آمازون سرمایه می‌دهد و آنتروپیک با همان پول سرورهای AWS را اجاره می‌کند.",
+       "اسلاید ۳: اعداد خیره‌کننده: سود ۳۰۷ میلیارد دلاری گوگل و آمازون و دارایی نقد ۲۲۰ میلیارد دلاری.",
+       "اسلاید ۴: چالش بزرگ: ۹۰۰ میلیارد دلار بدهی پردازش ابری در برابر درآمد ۶۸ میلیاردی.",
+       "اسلاید ۵: تحلیل اینکه برنده نهایی در هر صورت شرکت‌های ارائه‌دهنده چیپ و سرور هستند."
+      ],
+      "visual_tip_fa": "طراحی نمودار چرخه‌ای از گردش پول بین انویدیا، آمازون، گوگل و آنتروپیک به همراه ارقام درشت مالی."
+     },
+     {
+      "format": "ریلز",
+      "title_fa": "کلود وارد بورس شد؛ بمب مالی هوش مصنوعی ترکید!",
+      "hook_fa": "باورتون میشه درآمد سازنده کلود سالانه به ۶۸ میلیارد دلار رسیده؟",
+      "angle_fa": "روایت هیجان‌انگیز از ثروت افسانه‌ای استارتاپ آنتروپیک و سود نجومی غول‌های تکنولوژی.",
+      "outline_fa": [
+       "شروع با خبر ورود آنتروپیک به بورس و قیمت اولیه هر سهم.",
+       "ارزش دیوانه‌کننده سهم آمازون و گوگل در این شرکت (بیش از ۳۰۰ میلیارد دلار).",
+       "نمایش عدد بدهی پردازشی ۹۰۰ میلیارد دلاری و چرایی نیاز به این سرمایه‌گذاری.",
+       "نتیجه‌گیری درباره اینکه آیا رقابت غول‌ها به نفع کاربر نهایی خواهد بود یا نه."
+      ],
+      "visual_tip_fa": "نمودارهای رشد ارزش سهام، لوگوی آنتروپیک و تصویر لحظه به صدا درآمدن زنگ بورس توسط مدیران."
+     }
+    ],
+    "hashtags": [
+     "#آنتروپیک",
+     "#کلود",
+     "#بورس",
+     "#اقتصاد_دیجیتال",
+     "#سرمایه_گذاری",
+     "#Anthropic",
+     "#ClaudeAI",
+     "#IPO"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "824e87dcfa"
+  },
+  {
+   "title": "Canva will let users switch off most generative AI",
+   "url": "https://www.engadget.com/2321318/canva-will-let-users-switch-off-most-generative-ai/",
+   "source": "Engadget",
+   "published": "2026-11-19T12:30:00+00:00",
+   "origin": "Engadget",
+   "summary": "Canva is rolling out new settings to purge most generative AI from its app.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/canva-will-let-users-switch-off-most-generative-ai/l-intro-1795044723.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/canva-will-let-users-switch-off-most-generative-ai/intro-1795044723.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "tools_for_creators",
+   "story_key": "canva-disable-generative-ai",
+   "topic_key": "ai-backlash-design",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "قابلیت جدید کانوا: هوش مصنوعی را با یک کلیک خاموش کنید!",
+   "one_liner_fa": "پلتفرم طراحی محبوب کانوا گزینه‌های جدیدی ارائه کرده که به کاربران امکان می‌دهد بیشتر ابزارهای هوش مصنوعی مولد را در حساب کاربری خود غیرفعال کنند.",
+   "deep": {
+    "id": "61a4981486",
+    "title_fa": "قابلیت جدید کانوا: هوش مصنوعی را با یک کلیک خاموش کنید!",
+    "summary_fa": "پلتفرم پرطرفدار کانوا (Canva) امکانی فراهم کرده تا کاربران در صورت تمایل بتوانند تمام قابلیت‌های هوش مصنوعی مولد را در محیط برنامه خاموش کنند. دو تنظیم جدید در حساب کاربری افزوده شده که یکی تولیدات هوش مصنوعی را غیرفعال کرده و دیگری نتایج جستجوی تصاویر تولیدشده با AI را کاهش می‌دهد. این تغییر برای تمامی کاربران رایگان و پرو اعمال می‌شود. البته ابزارهای ویرایش مبتنی بر هوش غیرمولد مانند حذف پس‌زمینه کماکان در دسترس خواهند بود.",
+    "key_points_fa": [
+     "اضافه شدن گزینه خاموش کردن هوش مصنوعی مولد برای تمام کاربران رایگان و پرو در کانوا (Canva).",
+     "امکان کاهش نمایش تصاویر ساخته شده با AI در بخش سرچ کتابخانه تصاویر.",
+     "ابزارهای ویرایشی قدیمی مانند Background Remover و Magic Grab همچنان فعال می‌مانند زیرا مولد نیستند.",
+     "استفاده از ابزارهای غیرمولد برچسب متادیتای هوش مصنوعی را به طرح نهایی اضافه نمی‌کند.",
+     "مسیر دسترسی به تنظیمات: تب پروفایل، بخش Permissions و گزینه Enable generative AI features.",
+     "مسیر کاهش نتایج AI در آرشیو: رفتن به Your Account و بخش AI personalization."
+    ],
+    "why_it_matters_fa": "بسیاری از طراحان نگران نقض کپی‌رایت یا افت کیفیت کارهایشان به دلیل اشباع ابزارها با هوش مصنوعی بودند و حالا کنترل کاملی روی جریان کار خود پیدا می‌کنند.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "آموزش خاموش کردن هوش مصنوعی در کانوا",
+      "hook_fa": "از المان‌های فیک هوش مصنوعی توی کانوا خسته شدی؟ با این ترفند ساده همه‌شون رو خاموش کن!",
+      "angle_fa": "پاسخ به یک نیاز واقعی مخاطبان گرافیک که از هجوم طرح‌های بی‌کیفیت و غیرواقعی هوش مصنوعی کلافه‌اند.",
+      "outline_fa": [
+       "نمایش مشکل: وقتی دنبال یه طرح واقعی می‌گردی ولی پر از خروجی‌های مصنوعی AI میشه.",
+       "مراحل گام‌به‌گام در تنظیمات: رفتن به Profile، بخش Permissions و غیرفعال کردن چک‌باکس.",
+       "توضیح تفاوت ابزارهای غیرمولد مثل حذف بک‌گراند که خوشبختانه فعال می‌مانند.",
+       "دعوت به سیو کردن ویدیو برای انجام دادن در اکانت کانوا."
+      ],
+      "visual_tip_fa": "اسکرین‌ریکورد باکیفیت از کلیک روی بخش تنظیمات پروفایل کانوا و نشان دادن فعال/غیرفعال شدن سوییچ‌ها."
+     },
+     {
+      "format": "پست",
+      "title_fa": "چگونه کانوا را از هوش مصنوعی پاکسازی کنیم؟",
+      "hook_fa": "کانوا بالاخره به حرف کاربران گوش داد: امکان حذف هوش مصنوعی اضافه شد!",
+      "angle_fa": "بررسی رویکرد جدید پلتفرم‌ها در احترام به حق انتخاب کاربر برای عدم استفاده از هوش مصنوعی.",
+      "outline_fa": [
+       "اسلاید ۱: معرفی دو گزینه جدید تنظیمات در کانوا.",
+       "اسلاید ۲: راهنمای متنی و تصویری نحوه خاموش‌سازی ابزارهای مولد.",
+       "اسلاید ۳: راهنمای فیلتر کردن تصاویر AI از بخش سرچ استوک‌ها.",
+       "اسلاید ۴: پاسخ به ابهام: چه ابزارهایی حذف نمی‌شوند؟ (مثل Background Remover)."
+      ],
+      "visual_tip_fa": "طراحی اسلایدهای شیک با استایل رابط کاربری کانوا و برجسته کردن فلش‌ها و دکمه‌های مربوطه."
+     }
+    ],
+    "hashtags": [
+     "#کانوا",
+     "#طراحی_گرافیک",
+     "#هوش_مصنوعی",
+     "#ترفند_کانوا",
+     "#گرافیک",
+     "#Canva",
+     "#GraphicDesign",
+     "#AI"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "61a4981486"
+  }
+ ],
+ "others": [
+  {
+   "title": "Ruby2ßhell: Pre-authentication RCE on stock Rails",
+   "url": "https://verialabs.com/ruby2shell/",
+   "source": "verialabs.com",
+   "published": "2026-11-19T05:09:11+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 316 امتیاز، 129 کامنت",
+   "signal_value": 316,
+   "discussion_url": "https://news.ycombinator.com/item?id=50556287",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 5,
+   "category": "other_tech",
+   "story_key": "ruby2shell-rails-rce-vulnerability",
+   "topic_key": "critical-vulnerabilities",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "خطر حمله به میلیون‌ها سرور؛ کشف باگ بحرانی نفوذ بدون احراز هویت در روبی آن ریلز!",
+   "one_liner_fa": "محققان امنیتی آسیب‌پذیری بحرانی جدیدی با نام Ruby2ßhell در فریم‌ورک معروف Ruby on Rails کشف کردند که امکان اجرای کدهای مخرب را به هکرها می‌دهد.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "f82d195d3e"
+  }
+ ],
+ "scored": [
+  {
+   "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+   "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+   "source": "OpenAI",
+   "published": "2026-11-19T08:00:00+00:00",
+   "origin": "OpenAI",
+   "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 5,
+   "category": "big_tech",
+   "story_key": "openai-performance-factory",
+   "topic_key": "chatgpt-infrastructure",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "6687f7be62"
+  },
+  {
+   "title": "Genie 4 is now available on the Gemini API.",
+   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/",
+   "source": "Google Blog",
+   "published": "2026-11-19T17:00:00+00:00",
+   "origin": "Google Blog",
+   "summary": "Build interactive 720p worlds with Genie 4 on the Google Gemini API. Generate coherent environments with native audio and real-time controls. Get started.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Genie_4_Social_Share.max-600x600.format-webp.webp",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 6,
+   "category": "model_release",
+   "story_key": "genie-4-launch",
+   "topic_key": "google-genie",
+   "already_reported": true,
+   "viral": 5,
+   "title_fa": "دسترسی توسعه‌دهندگان به مدل جینی ۴ در گوگل جمینای ای‌پی‌آی",
+   "one_liner_fa": "گوگل مدل تولید جهان‌های تعاملی Genie 4 را از طریق Gemini API با امکان کنترل آنی و ویدیوی 720p در دسترس برنامه‌نویسان قرار داد.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "2f744659d9"
+  },
+  {
+   "title": "Let Gemini tackle repetitive chores on your Mac",
+   "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/",
+   "source": "Google Blog",
+   "published": "2026-11-19T17:00:00+00:00",
+   "origin": "Google Blog",
+   "summary": "Prompting Gemini to take a kid's butterfly sketch, model it, and rig it in Blender",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/hero_header_CU_copy.width-1300.png",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/hero_header_CU_copy.width-2200.format-webp.webp",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/hero_header_CU_copy.max-600x600.format-webp.webp",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [
+    "TechCrunch"
+   ],
+   "importance": 7,
+   "worthiness": 8,
+   "category": "product_launch",
+   "story_key": "google-gemini-mac-agent",
+   "topic_key": "gemini-agentic-desktop",
+   "already_reported": false,
+   "viral": 8,
+   "title_fa": "قابلیت کنترل کامپیوتر جمینای گوگل برای مک منتشر شد",
+   "one_liner_fa": "گوگل جمینای را به یک ایجنت هوشمند روی کامپیوترهای مک تبدیل کرد که می‌تواند کارهای چندمرحله‌ای مثل سه‌بعدی‌سازی طرح‌های دستی را خودکار انجام دهد.",
+   "deep": {
+    "id": "a1c40c62a7",
+    "title_fa": "قابلیت کنترل کامپیوتر جمینای گوگل برای مک منتشر شد",
+    "summary_fa": "گوگل قابلیت کنترل مستقیم سیستم (Computer Use) را به اپلیکیشن جمینای (Gemini) در سیستم‌عامل مک اضافه کرد. این ویژگی هوش مصنوعی را قادر می‌سازد در پس‌زمینه کارهای چندمرحله‌ای مثل کلیک کردن، جابجایی بین برنامه‌ها، خواندن فایل‌ها و پر کردن فرم‌ها را انجام دهد. عملکرد آن در یک پنجره مستقل اجرا می‌شود و ماوس یا نمایشگر شما را درگیر نمی‌کند. در حال حاضر این قابلیت به زبان انگلیسی و در آمریکا برای نسخه مک فعال شده است.",
+    "key_points_fa": [
+     "عرضه رسمی قابلیت Computer Use در اپلیکیشن جمینای روی مک (macOS).",
+     "انجام خودکار کارهای تکراری شامل تایپ، ناوبری در منوها، کلیک کردن و پر کردن فرم‌ها.",
+     "اجرا در پنجره ایزوله پس‌زمینه با پیش‌نمایش زنده در صفحه چت بدون قفل کردن ماوس و نمایشگر اصلی.",
+     "کنترل و امنیت کامل توسط کاربر: تعیین دسترسی برنامه‌ها، امکان توقف و تایید قبل از انجام عملیات حساس.",
+     "کاربردهای عملی: تصحیح رنگ دسته‌ای تصاویر، استخراج اطلاعات از فایل‌های PDF محلی، ساخت اسلاید از داشبوردهای زنده.",
+     "نحوه دسترسی: فعلاً به زبان انگلیسی در آمریکا و از طریق آدرس gemini.google/mac."
+    ],
+    "why_it_matters_fa": "هوش مصنوعی از یک چت‌بات متنی به یک دستیار اجرایی روی سیستم‌عامل ارتقا پیدا کرده که می‌تواند کارهای خسته‌کننده اداری و دفتری را به‌طور مستقل انجام دهد.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "جمینای کنترل مک‌بوک رو دستش گرفت!",
+      "hook_fa": "دیگه روی مک‌بوک دست به موس نزن؛ هوش مصنوعی جمینای خودش پشت‌صحنه کارهات رو انجام میده!",
+      "angle_fa": "نمایش عملی مفهوم Agentic AI و نحوه خودکارسازی فرم‌ها و مدیریت فایل‌ها توسط جمینای.",
+      "outline_fa": [
+       "نشان دادن دستور صوتی یا متنی به جمینای برای پر کردن اطلاعات یک فایل PDF.",
+       "نمایش پنجره مستقل جمینای در مک که به تنهایی کلیک و تایپ می‌کند بدون اینکه کار شما مختل شود.",
+       "برشمردن کارهای قابل اجرا: اصلاح رنگ تصاویر، ساخت اسلاید و ثبت آگهی فروش.",
+       "توضیح شرایط تست ابزار و لینک دانلود آن."
+      ],
+      "visual_tip_fa": "استفاده از اسکرین‌ریکورد محیط اپلیکیشن جمینای در مک و نشان دادن تصویر در تصویر پنجره ایزوله آن."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "راهنمای کار با دستیار خودکار جمینای روی مک",
+      "hook_fa": "۵ کاری که با آپدیت جدید جمینای روی مک دیگه نباید دستی انجام بدی!",
+      "angle_fa": "آموزش کاربردی برای فریلنسرها و کاربران مک جهت افزایش بهره‌وری روزمره.",
+      "outline_fa": [
+       "اسلاید ۱: معرفی قابلیت جدید Computer use در مک.",
+       "اسلاید ۲: سناریوی ۱: خواندن اطلاعات PDF و وارد کردن به وب‌سایت‌ها.",
+       "اسلاید ۳: سناریوی ۲: تصحیح رنگ دسته‌ای و ادیت تصاویر در برنامه‌های طراحی.",
+       "اسلاید ۴: حفظ حریم خصوصی؛ ماوس شما آزاد است و تایید مرحله‌به‌مرحله دارید.",
+       "اسلاید ۵: نحوه دانلود و فعال‌سازی از سایت رسمی."
+      ],
+      "visual_tip_fa": "اسکرین‌شات‌های تمیز از منوهای دسترسی جمینای روی macOS و نمونه‌های ارائه شده توسط گوگل."
+     }
+    ],
+    "hashtags": [
+     "#جمینای",
+     "#گوگل",
+     "#مک_بوک",
+     "#ترفند_مک",
+     "#هوش_مصنوعی",
+     "#Gemini",
+     "#GoogleGemini",
+     "#MacOS"
+    ],
+    "caution_fa": "در حال حاضر این ویژگی به زبان انگلیسی و در آمریکا فعال شده و کاربران خارج از آمریکا برای تست نیازمند ابزارهای تغییر آی‌پی هستند."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "a1c40c62a7"
+  },
+  {
+   "title": "We’re partnering with Blue Origin on our first heavy-lift Project Suncatcher launch.",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/blue-origin-project-suncatcher-partnership/",
+   "source": "Google Blog",
+   "published": "2026-11-19T13:00:00+00:00",
+   "origin": "Google Blog",
+   "summary": "We’re partnering with Blue Origin on the first heavy-lift launch for Project Suncatcher, our long-term moonshot to scale AI infrastructure in space by tapping into the a…",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://blog.google/static/blogv2/images/google-1440x754.jpg?version=pr20261117-1738",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/google-signs-deal-with-blue-origin-to-send-satellite-data-centers-into-orbit/l-intro-1795109453.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [
+    "Engadget"
+   ],
+   "importance": 8,
+   "worthiness": 8,
+   "category": "big_tech",
+   "story_key": "google-blue-origin-project-suncatcher",
+   "topic_key": "ai-infrastructure-in-space",
+   "already_reported": false,
+   "viral": 8,
+   "title_fa": "همکاری گوگل و بلو اوریجین: دیتاسنترهای هوش مصنوعی به فضا می‌روند!",
+   "one_liner_fa": "گوگل در قالب پروژه سان‌کچر (Project Suncatcher) با شرکت بلو اوریجین جف بزوس همکاری می‌کند تا زیرساخت‌های پردازشی هوش مصنوعی را به مدار زمین بفرستد.",
+   "deep": {
+    "id": "b4c1c8bf45",
+    "title_fa": "همکاری گوگل و بلو اوریجین: دیتاسنترهای هوش مصنوعی به فضا می‌روند!",
+    "summary_fa": "گوگل رسماً از همکاری خود با شرکت فضایی بلو اوریجین (Blue Origin) برای پرتاب اولین فاز پروژه «سان‌کچر» (Project Suncatcher) خبر داد. این پروژه با هدف انتقال زیرساخت‌های پردازشی هوش مصنوعی به فضا و استفاده مستقیم از انرژی خورشیدی مدار زمین طراحی شده است. قرار است در سه‌ماهه اول سال ۲۰۲۹، موشک سنگین نیو گلن (New Glenn) ماهواره‌های حاوی سخت‌افزارهای پردازشی را در مدار خورشیدآهنگ مستقر کند. هر یک از این ماهواره‌ها ظرفیتی تقریباً معادل یک رک کامل سرور در دیتاسنترهای زمینی خواهند داشت.",
+    "key_points_fa": [
+     "همکاری رسمی گوگل با شرکت فضایی بلو اوریجین (Blue Origin).",
+     "اجرای فاز پرتاب سنگین در قالب پروژه سان‌کچر (Project Suncatcher).",
+     "زمان‌بندی هدف: سه‌ماهه اول سال ۲۰۲۹ (Q1 2029).",
+     "استفاده از راکت سنگین نیو گلن (New Glenn) برای انتقال تجهیزات به مدار خورشیدآهنگ (Sun-synchronous orbit).",
+     "ظرفیت پردازشی هر ماهواره تقریباً معادل یک رک دیتاسنتر (Data center rack) زمینی است.",
+     "هدف اصلی پروژه: مهار انرژی بی‌پایان خورشیدی در مدار زمین برای غلبه بر محدودیت‌های برق هوش مصنوعی."
+    ],
+    "why_it_matters_fa": "با افزایش وحشتناک مصرف برق مدل‌های پیشرفته، دسترسی به انرژی نامحدود خورشیدی در فضا می‌تواند آینده زیرساخت‌های محاسباتی هوش مصنوعی را کاملاً دگرگون کند.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "دیتاسنترهای هوش مصنوعی دارن میرن فضا!",
+      "hook_fa": "دیگه برق زمین جوابگوی هوش مصنوعی نیست؛ گوگل رسماً اعلام کرد سرورهاشو می‌فرسته مدار زمین!",
+      "angle_fa": "روایت بحران انرژی مدل‌های بزرگ و چگونگی فرار هوش مصنوعی به مدار زمین با راکت‌های فضایی.",
+      "outline_fa": [
+       "طرح بحران وحشتناک مصرف برق دیتاسنترها روی زمین.",
+       "معرفی پروژه بلندپروازانه سان‌کچر گوگل و همکاری با بلو اوریجین.",
+       "توضیح پرتاب راکت نیو گلن در ۲۰۲۹ و ماهواره‌هایی با ظرفیت یک رک سرور.",
+       "نتیجه‌گیری درباره رقابت آینده زیرساخت هوش مصنوعی در فضا."
+      ],
+      "visual_tip_fa": "نمایش تصاویر گرافیکی مدار زمین و ماهواره‌های دیتاسنتر از وبلاگ گوگل همراه با فوتیج پرتاب راکت نیو گلن بلو اوریجین."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "چرا غول‌های هوش مصنوعی می‌خواهند از زمین فرار کنند؟",
+      "hook_fa": "پروژه سان‌کچر: سرورهای هوش مصنوعی در مدار زمین چه کار می‌کنند؟",
+      "angle_fa": "کالبدشکافی فنی پروژه، چالش‌های برق در زمین و نحوه انتقال سرورها به مدار خورشیدآهنگ.",
+      "outline_fa": [
+       "اسلاید ۱: معرفی شوکه‌کننده پروژه Suncatcher گوگل.",
+       "اسلاید ۲: بحران مصرف انرژی دیتاسنترها و چرایی نیاز به انرژی خورشیدی مدار زمین.",
+       "اسلاید ۳: جزئیات موشک نیو گلن و استقرار در سه‌ماهه اول ۲۰۲۹.",
+       "اسلاید ۴: قدرت پردازشی؛ هر ماهواره برابر یک رک کامل سرور.",
+       "اسلاید ۵: سوال تعاملی از مخاطب درباره آینده انرژی و فناوری."
+      ],
+      "visual_tip_fa": "اسلایدهای تیره و فضایی همراه با اینفوگرافیک مقایسه ابعاد سرور در زمین و ماهواره‌های معلق در فضا."
+     }
+    ],
+    "hashtags": [
+     "#هوش_مصنوعی",
+     "#گوگل",
+     "#بلواوریجین",
+     "#فناوری",
+     "#فضا",
+     "#Google",
+     "#BlueOrigin",
+     "#AI"
+    ],
+    "caution_fa": "پرتاب برای سال ۲۰۲۹ برنامه‌ریزی شده و در حال حاضر یک چشم‌انداز تحقیقاتی و توسعه‌ای بلندمدت است."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "b4c1c8bf45"
+  },
+  {
+   "title": "Google gives Gemini the ability to use your Mac for you",
+   "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+   "source": "TechCrunch",
+   "published": "2026-11-19T18:09:11+00:00",
+   "origin": "TechCrunch",
+   "summary": "Google's latest update to Gemini brings an AI agent to the Mac that can organize files, fill out forms, and tackle multistep workflows.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 8,
+   "category": "product_launch",
+   "story_key": "google-gemini-mac-agent",
+   "topic_key": "gemini-agentic-desktop",
+   "already_reported": false,
+   "viral": 8,
+   "title_fa": "ورود ایجنت جمینای به کامپیوترهای مک؛ مرتب‌سازی فایل‌ها و پر کردن فرم‌ها توسط هوش مصنوعی",
+   "one_liner_fa": "آپدیت جدید گوگل به جمینای اجازه می‌دهد به عنوان دستیار مستقل روی سیستم‌عامل مک کارهای روزمره کاربران از مرتب‌سازی اسناد تا فرآیندهای پیچیده را انجام دهد.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "6d6821f501"
+  },
+  {
+   "title": "Meta’s AI agent Muse is mixing up conversations and exposing private data, report says",
+   "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+   "source": "TechCrunch",
+   "published": "2026-11-19T17:38:40+00:00",
+   "origin": "TechCrunch",
+   "summary": "In some of these instances, employees said Muse surfaced messages about childcare requests they never made, career advice they never asked for, product orders they never placed, and bank account balances that didn't belong to them.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2026/09/muse-ai-meta.jpg?w=1200",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2026/09/muse-ai-meta.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2305298275.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2026/11/Static_Go-Proactive.jpeg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2024/06/snapchat-getty.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2026/11/Everful-founders.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2026/11/anthropic-opening-Getty.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 8,
+   "category": "safety_ethics",
+   "story_key": "meta-muse-ai-data-leak",
+   "topic_key": "meta-ai-scandal",
+   "already_reported": false,
+   "viral": 8,
+   "title_fa": "رسوایی امنیتی متا: هوش مصنوعی میوز چت‌ها و موجودی بانک افراد را فاش کرد!",
+   "one_liner_fa": "گزارش‌ها حاکی از آن است که ایجنت هوش مصنوعی میوز (Muse) متا به اشتباه اطلاعات شخصی حساس مثل حساب‌های بانکی و پیام‌های خصوصی دیگران را به نمایش گذاشته است.",
+   "deep": {
+    "id": "d9d2fba47f",
+    "title_fa": "رسوایی امنیتی متا: هوش مصنوعی میوز چت‌ها و موجودی بانک افراد را فاش کرد!",
+    "summary_fa": "بر اساس گزارش جدید رویترز، کارمندان شرکت متا (Meta) متوجه نقض وحشتناک حریم خصوصی در دستیار هوش مصنوعی میوز (Muse) شده‌اند. این دستیار مکالمات کاربران مختلف را با هم ادغام کرده و داده‌های محرمانه را به افراد غریبه نشان داده است. در میان اطلاعات لو رفته مواردی چون موجودی دقیق حساب‌های بانکی، سفارش‌های ثبت‌نشده و پیام‌های شخصی دیده می‌شود. حتی به یک کارمند پیامی درباره اپلیکیشن رمزنگاری‌شده سیگنال (Signal) نمایش داده شده در حالی که هیچ دسترسی به آن صادر نشده بود.",
+    "key_points_fa": [
+     "افشای باگ امنیتی در دستیار هوش مصنوعی میوز (Muse) متعلق به متا طبق اسناد داخلی رویترز (Reuters).",
+     "تداخل مکالمات کاربران و افشای داده‌های کاملاً خصوصی میان حساب‌های مختلف.",
+     "لو رفتن موجودی حساب بانکی دیگران؛ مانند نمایش دقیق ارقام موجودی در بانک‌های Capital One و Charles Schwab.",
+     "نقض دسترسی: نمایش نوتیفیکیشن پاسخ به پیام در سیگنال (Signal) بدون اجازه دسترسی کاربر.",
+     "اپلیکیشن میوز در ماه سپتامبر عرضه شده و بیش از ۱۰ میلیون بار دانلود داشته است.",
+     "متا هنوز پاسخی به این گزارش و ادعاها نداده است."
+    ],
+    "why_it_matters_fa": "این اتفاق هشداری جدی برای تمام کاربرانی است که اطلاعات حساس و شخصی خود را به دستیارهای هوش مصنوعی شرکت‌های بزرگ می‌سپارند.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "موجودی حسابت ممکنه دست یه غریبه بیفته!",
+      "hook_fa": "اگه از دستیار جدید هوش مصنوعی متا استفاده می‌کنی، سریع دسترسی‌هاش رو چک کن؛ یه فاجعه رخ داده!",
+      "angle_fa": "افشاگری نقض حریم خصوصی و چرایی خطرناک بودن تداخل داده‌ها در مدل‌های هوش مصنوعی چندکاربره.",
+      "outline_fa": [
+       "توضیح گزارش رویترز درباره قاطی شدن پیام‌های کاربران در دستیار Muse.",
+       "مثال شوکه‌کننده نمایش موجودی حساب بانکی چند هزار دلاری دیگران در چت آب‌وهوا.",
+       "ماجرای دسترسی خودسرانه به اپلیکیشن سیگنال بدون اجازه کاربر.",
+       "توصیه امنیتی به مخاطبان درباره وارد نکردن اطلاعات هویتی و مالی در هوش مصنوعی."
+      ],
+      "visual_tip_fa": "استفاده از آیکون‌های هشدار قرمز، لوگوی متا، و تصویرسازی تار شده از اطلاعات بانکی و پیام‌رسان سیگنال."
+     },
+     {
+      "format": "استوری",
+      "title_fa": "فاجعه حریم خصوصی در هوش مصنوعی متا",
+      "hook_fa": "هوش مصنوعی جدید متا داره پیام‌های شخصی و حساب بانکی مردم رو به غریبه‌ها نشون میده!",
+      "angle_fa": "پوشش فوری خبر، ارائه فکت‌ها و گرفتن نظرسنجی از مخاطبان در مورد اعتماد به دستیارهای AI.",
+      "outline_fa": [
+       "اسلاید ۱: اعلام فوری خبر باگ بزرگ اپلیکیشن Muse با ۱۰ میلیون کاربر.",
+       "اسلاید ۲: شرح ماجرای لو رفتن حساب بانکی و مداخله در چت سیگنال.",
+       "اسلاید ۳: نظرسنجی (Poll): هنوز به هوش مصنوعی اطلاعات خصوصی می‌دی یا نه؟"
+      ],
+      "visual_tip_fa": "شات تیتر گزارش رویترز و تکست‌باکس‌های خوانا با پس‌زمینه اخطار."
+     }
+    ],
+    "hashtags": [
+     "#متا",
+     "#امنیت_سایبری",
+     "#حریم_خصوصی",
+     "#هوش_مصنوعی",
+     "#Meta",
+     "#MuseAI",
+     "#Privacy"
+    ],
+    "caution_fa": "این گزارش بر اساس پست‌های داخلی فاش‌شده کارمندان در رویترز منتشر شده و متا هنوز بیانیه رسمی برای تایید یا رد فنی این خطا نداده است."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "d9d2fba47f"
+  },
+  {
+   "title": "Anthropic hits Nasdaq exchanges at $111, 33% above IPO price",
+   "url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
+   "source": "TechCrunch",
+   "published": "2026-11-19T16:59:23+00:00",
+   "origin": "TechCrunch",
+   "summary": "Anthropic's IPO price was set at $83, representing more than $80 billion in new capital raised.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 8,
+   "worthiness": 7,
+   "category": "business_funding",
+   "story_key": "anthropic-nasdaq-debut-surge",
+   "topic_key": "anthropic-ipo",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "انفجار ارزش آنتروپیک در وال‌استریت؛ صعود ۳۳ درصدی سهام کلاود در اولین روز معامله",
+   "one_liner_fa": "سهام آنتروپیک پس از نرخ‌گذاری اولیه ۸۳ دلاری، در اولین روز عرضه عمومی در نزدک با قیمت ۱۱۱ دلار بازگشایی شد و بیش از ۸۰ میلیارد دلار سرمایه جذب کرد.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "e71232150b"
+  },
+  {
+   "title": "At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development",
+   "url": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
+   "source": "TechCrunch",
+   "published": "2026-11-19T16:19:41+00:00",
+   "origin": "TechCrunch",
+   "summary": "In his Nasdaq opening bell speech, Dario Amodei reiterated Anthropic's commitment to pacing AI development, regardless of business or political pressure.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 6,
+   "category": "business_funding",
+   "story_key": "anthropic-nasdaq-debut-surge",
+   "topic_key": "anthropic-ipo",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "زنگ افتتاحیه نزدک با داریو آمودی؛ تاکید آنتروپیک بر اولویت ایمنی علی‌رغم فشارهای وال‌استریت",
+   "one_liner_fa": "مدیرعامل آنتروپیک در مراسم آغاز معاملات بورس اعلام کرد که سرعت توسعه هوش مصنوعی را فدای فشارهای مالی یا سیاسی سرمایه‌گذاران نخواهد کرد.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "3e5d1a7c85"
+  },
+  {
+   "title": "Anthropic’s IPO puts AI’s circular financing boom to the test",
+   "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
+   "source": "TechCrunch",
+   "published": "2026-11-19T14:54:39+00:00",
+   "origin": "TechCrunch",
+   "summary": "Anthropic faces enormous compute commitments as it goes public, but its biggest infrastructure partners, including Amazon and Google, could continue profiting from AI even if Anthropic loses its lead.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2304538389.jpg?w=1024",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2025/04/RebeccaBellan_default-large-1-e1787760589727.jpg?w=150",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 8,
+   "worthiness": 7,
+   "category": "business_funding",
+   "story_key": "anthropic-nasdaq-debut-surge",
+   "topic_key": "anthropic-ipo",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "ورود تاریخی آنتروپیک به بورس: ثروتمندترین استارتاپ هوش مصنوعی جهان",
+   "one_liner_fa": "مدیرعامل آنتروپیک در مراسم آغاز معاملات بورس اعلام کرد که سرعت توسعه هوش مصنوعی را فدای فشارهای مالی یا سیاسی سرمایه‌گذاران نخواهد کرد.",
+   "deep": {
+    "id": "824e87dcfa",
+    "title_fa": "ورود تاریخی آنتروپیک به بورس: ثروتمندترین استارتاپ هوش مصنوعی جهان",
+    "summary_fa": "آنتروپیک (Anthropic)، توسعه‌دهنده چت‌بات کلود (Claude)، رسماً وارد بازار بورس شد تا سرمایه‌گذاران اولیه آن به سودهای هنگفتی برسند. با احتساب قیمت پایه ۸۳ دلاری هر سهم، ارزش مجموع سهام آمازون (Amazon) و گوگل (Google) در این شرکت به بیش از ۳۰۷ میلیارد دلار رسیده است. درآمد سه‌ماهه سوم این شرکت به ۱۷ میلیارد دلار رسید که نشان‌دهنده نرخ درآمد سالانه ۶۸ میلیارد دلاری است، با این حال آنتروپیک تعهد داده نزدیک به ۹۰۰ میلیارد دلار بابت زیرساخت‌های پردازشی پرداخت کند.",
+    "key_points_fa": [
+     "عرضه عمومی سهام (IPO) آنتروپیک با قیمت پایه ۸۳ دلار به ازای هر سهم.",
+     "ارزش سهام ۱۴.۷ درصدی آمازون به حدود ۱۵۹ میلیارد دلار و سهام ۱۳.۷ درصدی گوگل به ۱۴۹ میلیارد دلار رسید.",
+     "تامین مالی خصوصی ۲۶ میلیارد دلاری توسط غول‌هایی مثل انویدیا، AMD، مایکروسافت، برودکام، میکرون و گوگل همزمان با IPO.",
+     "درآمد ۱۷ میلیارد دلاری آنتروپیک در سه‌ماهه سوم ۲۰۲۶ (برآورد درآمد سالانه ۶۸ میلیارد دلار).",
+     "تعهد پرداختی ۹۰۰ میلیارد دلاری شرکت عمدتاً برای خرید سرور و زیرساخت‌های محاسباتی.",
+     "رسیدن حجم نقدینگی و دارایی‌های نقد آنتروپیک به رقم شگفت‌انگیز ۲۲۰ میلیارد دلار."
+    ],
+    "why_it_matters_fa": "این IPO نشان می‌دهد حباب هوش مصنوعی وارد فاز اقتصاد واقعی شده و آزمونی بزرگ برای اثبات توانایی سودآوری غول‌های هوش مصنوعی فراتر از کمک‌های مالی شرکا است.",
+    "content_ideas": [
+     {
+      "format": "کاروسل",
+      "title_fa": "بازی کثیف پول در هوش مصنوعی: چرخه مالی چطور کار می‌کنه؟",
+      "hook_fa": "چرا آمازون و گوگل میلیاردها دلار به آنتروپیک دادن تا دوباره پول خودشون رو پس بگیرن؟",
+      "angle_fa": "رمزگشایی از مفهوم تامین مالی چرخه‌ای (Circular Financing) و برنده نهایی مسابقه هوش مصنوعی.",
+      "outline_fa": [
+       "اسلاید ۱: معرفی ورود تاریخی سازنده کلود به بورس با صدها میلیارد دلار ارزش.",
+       "اسلاید ۲: بازی چرخه‌ای: آمازون سرمایه می‌دهد و آنتروپیک با همان پول سرورهای AWS را اجاره می‌کند.",
+       "اسلاید ۳: اعداد خیره‌کننده: سود ۳۰۷ میلیارد دلاری گوگل و آمازون و دارایی نقد ۲۲۰ میلیارد دلاری.",
+       "اسلاید ۴: چالش بزرگ: ۹۰۰ میلیارد دلار بدهی پردازش ابری در برابر درآمد ۶۸ میلیاردی.",
+       "اسلاید ۵: تحلیل اینکه برنده نهایی در هر صورت شرکت‌های ارائه‌دهنده چیپ و سرور هستند."
+      ],
+      "visual_tip_fa": "طراحی نمودار چرخه‌ای از گردش پول بین انویدیا، آمازون، گوگل و آنتروپیک به همراه ارقام درشت مالی."
+     },
+     {
+      "format": "ریلز",
+      "title_fa": "کلود وارد بورس شد؛ بمب مالی هوش مصنوعی ترکید!",
+      "hook_fa": "باورتون میشه درآمد سازنده کلود سالانه به ۶۸ میلیارد دلار رسیده؟",
+      "angle_fa": "روایت هیجان‌انگیز از ثروت افسانه‌ای استارتاپ آنتروپیک و سود نجومی غول‌های تکنولوژی.",
+      "outline_fa": [
+       "شروع با خبر ورود آنتروپیک به بورس و قیمت اولیه هر سهم.",
+       "ارزش دیوانه‌کننده سهم آمازون و گوگل در این شرکت (بیش از ۳۰۰ میلیارد دلار).",
+       "نمایش عدد بدهی پردازشی ۹۰۰ میلیارد دلاری و چرایی نیاز به این سرمایه‌گذاری.",
+       "نتیجه‌گیری درباره اینکه آیا رقابت غول‌ها به نفع کاربر نهایی خواهد بود یا نه."
+      ],
+      "visual_tip_fa": "نمودارهای رشد ارزش سهام، لوگوی آنتروپیک و تصویر لحظه به صدا درآمدن زنگ بورس توسط مدیران."
+     }
+    ],
+    "hashtags": [
+     "#آنتروپیک",
+     "#کلود",
+     "#بورس",
+     "#اقتصاد_دیجیتال",
+     "#سرمایه_گذاری",
+     "#Anthropic",
+     "#ClaudeAI",
+     "#IPO"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "824e87dcfa"
+  },
+  {
+   "title": "Superhuman pushes its Go assistant everywhere",
+   "url": "https://techcrunch.com/2026/11/19/superhuman-pushes-its-go-assistant-everywhere/",
+   "source": "TechCrunch",
+   "published": "2026-11-19T14:00:00+00:00",
+   "origin": "TechCrunch",
+   "summary": "Superhuman is making Go its central agent and making it available in Docs and Mail.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 5,
+   "category": "product_launch",
+   "story_key": "superhuman-go-assistant-expansion",
+   "topic_key": "ai-productivity-tools",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "97ccf1ecd5"
+  },
+  {
+   "title": "Google signs deal with Blue Origin to send satellite data centers into orbit",
+   "url": "https://www.engadget.com/2321988/google-signs-deal-with-blue-origin-to-send-satellite-data-centers-into-orbit/",
+   "source": "Engadget",
+   "published": "2026-11-19T17:38:44+00:00",
+   "origin": "Engadget",
+   "summary": "This is part of Project Suncatcher, an experiment aimed at running AI systems in space.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/google-signs-deal-with-blue-origin-to-send-satellite-data-centers-into-orbit/l-intro-1795109453.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 8,
+   "worthiness": 8,
+   "category": "big_tech",
+   "story_key": "google-blue-origin-project-suncatcher",
+   "topic_key": "ai-infrastructure-in-space",
+   "already_reported": false,
+   "viral": 8,
+   "title_fa": "دیتاسنتر در مدار زمین؛ توافق گوگل با بلو اوریجین برای اجرای هوش مصنوعی در فضا",
+   "one_liner_fa": "گوگل با امضای قراردادی با بلو اوریجین قصد دارد سرورهای هوش مصنوعی ماهواره‌ای را به فضا ارسال کند تا از انرژی نامحدود خورشیدی بهره ببرد.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "fb82fd8aac"
+  },
+  {
+   "title": "Pebble Index 01 AI ring review: When a single feature becomes the product",
+   "url": "https://www.engadget.com/2321607/pebble-index-01-ai-ring-review/",
+   "source": "Engadget",
+   "published": "2026-11-19T14:30:00+00:00",
+   "origin": "Engadget",
+   "summary": "Pebble's AI ring has a single purpose, is cheap and low-tech - but it's very useful.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/pebble-index-01-ai-ring-review-when-a-single-feature-becomes-the-product/l-intro-1795097160.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 5,
+   "category": "hardware_chips",
+   "story_key": "pebble-index-01-ai-ring-review",
+   "topic_key": "ai-wearables",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "e2019583b7"
+  },
+  {
+   "title": "Canva will let users switch off most generative AI",
+   "url": "https://www.engadget.com/2321318/canva-will-let-users-switch-off-most-generative-ai/",
+   "source": "Engadget",
+   "published": "2026-11-19T12:30:00+00:00",
+   "origin": "Engadget",
+   "summary": "Canva is rolling out new settings to purge most generative AI from its app.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/canva-will-let-users-switch-off-most-generative-ai/l-intro-1795044723.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/canva-will-let-users-switch-off-most-generative-ai/intro-1795044723.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "tools_for_creators",
+   "story_key": "canva-disable-generative-ai",
+   "topic_key": "ai-backlash-design",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "قابلیت جدید کانوا: هوش مصنوعی را با یک کلیک خاموش کنید!",
+   "one_liner_fa": "پلتفرم طراحی محبوب کانوا گزینه‌های جدیدی ارائه کرده که به کاربران امکان می‌دهد بیشتر ابزارهای هوش مصنوعی مولد را در حساب کاربری خود غیرفعال کنند.",
+   "deep": {
+    "id": "61a4981486",
+    "title_fa": "قابلیت جدید کانوا: هوش مصنوعی را با یک کلیک خاموش کنید!",
+    "summary_fa": "پلتفرم پرطرفدار کانوا (Canva) امکانی فراهم کرده تا کاربران در صورت تمایل بتوانند تمام قابلیت‌های هوش مصنوعی مولد را در محیط برنامه خاموش کنند. دو تنظیم جدید در حساب کاربری افزوده شده که یکی تولیدات هوش مصنوعی را غیرفعال کرده و دیگری نتایج جستجوی تصاویر تولیدشده با AI را کاهش می‌دهد. این تغییر برای تمامی کاربران رایگان و پرو اعمال می‌شود. البته ابزارهای ویرایش مبتنی بر هوش غیرمولد مانند حذف پس‌زمینه کماکان در دسترس خواهند بود.",
+    "key_points_fa": [
+     "اضافه شدن گزینه خاموش کردن هوش مصنوعی مولد برای تمام کاربران رایگان و پرو در کانوا (Canva).",
+     "امکان کاهش نمایش تصاویر ساخته شده با AI در بخش سرچ کتابخانه تصاویر.",
+     "ابزارهای ویرایشی قدیمی مانند Background Remover و Magic Grab همچنان فعال می‌مانند زیرا مولد نیستند.",
+     "استفاده از ابزارهای غیرمولد برچسب متادیتای هوش مصنوعی را به طرح نهایی اضافه نمی‌کند.",
+     "مسیر دسترسی به تنظیمات: تب پروفایل، بخش Permissions و گزینه Enable generative AI features.",
+     "مسیر کاهش نتایج AI در آرشیو: رفتن به Your Account و بخش AI personalization."
+    ],
+    "why_it_matters_fa": "بسیاری از طراحان نگران نقض کپی‌رایت یا افت کیفیت کارهایشان به دلیل اشباع ابزارها با هوش مصنوعی بودند و حالا کنترل کاملی روی جریان کار خود پیدا می‌کنند.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "آموزش خاموش کردن هوش مصنوعی در کانوا",
+      "hook_fa": "از المان‌های فیک هوش مصنوعی توی کانوا خسته شدی؟ با این ترفند ساده همه‌شون رو خاموش کن!",
+      "angle_fa": "پاسخ به یک نیاز واقعی مخاطبان گرافیک که از هجوم طرح‌های بی‌کیفیت و غیرواقعی هوش مصنوعی کلافه‌اند.",
+      "outline_fa": [
+       "نمایش مشکل: وقتی دنبال یه طرح واقعی می‌گردی ولی پر از خروجی‌های مصنوعی AI میشه.",
+       "مراحل گام‌به‌گام در تنظیمات: رفتن به Profile، بخش Permissions و غیرفعال کردن چک‌باکس.",
+       "توضیح تفاوت ابزارهای غیرمولد مثل حذف بک‌گراند که خوشبختانه فعال می‌مانند.",
+       "دعوت به سیو کردن ویدیو برای انجام دادن در اکانت کانوا."
+      ],
+      "visual_tip_fa": "اسکرین‌ریکورد باکیفیت از کلیک روی بخش تنظیمات پروفایل کانوا و نشان دادن فعال/غیرفعال شدن سوییچ‌ها."
+     },
+     {
+      "format": "پست",
+      "title_fa": "چگونه کانوا را از هوش مصنوعی پاکسازی کنیم؟",
+      "hook_fa": "کانوا بالاخره به حرف کاربران گوش داد: امکان حذف هوش مصنوعی اضافه شد!",
+      "angle_fa": "بررسی رویکرد جدید پلتفرم‌ها در احترام به حق انتخاب کاربر برای عدم استفاده از هوش مصنوعی.",
+      "outline_fa": [
+       "اسلاید ۱: معرفی دو گزینه جدید تنظیمات در کانوا.",
+       "اسلاید ۲: راهنمای متنی و تصویری نحوه خاموش‌سازی ابزارهای مولد.",
+       "اسلاید ۳: راهنمای فیلتر کردن تصاویر AI از بخش سرچ استوک‌ها.",
+       "اسلاید ۴: پاسخ به ابهام: چه ابزارهایی حذف نمی‌شوند؟ (مثل Background Remover)."
+      ],
+      "visual_tip_fa": "طراحی اسلایدهای شیک با استایل رابط کاربری کانوا و برجسته کردن فلش‌ها و دکمه‌های مربوطه."
+     }
+    ],
+    "hashtags": [
+     "#کانوا",
+     "#طراحی_گرافیک",
+     "#هوش_مصنوعی",
+     "#ترفند_کانوا",
+     "#گرافیک",
+     "#Canva",
+     "#GraphicDesign",
+     "#AI"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "61a4981486"
+  },
+  {
+   "title": "DOJ accuses Russian national of spying on and harassing Palantir employees",
+   "url": "https://www.engadget.com/2321489/doj-accuses-russian-national-of-spying-on-and-harassing-palantir-employees/",
+   "source": "Engadget",
+   "published": "2026-11-19T10:33:59+00:00",
+   "origin": "Engadget",
+   "summary": "The DOJ says the Russian national was ordered to spy on Palantir over Ukraine's use of its software for wartime purposes.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/doj-accuses-russian-national-of-spying-on-and-harassing-palantir-employees/l-intro-1795084346.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 5,
+   "category": "policy_regulation",
+   "story_key": "doj-russian-spy-palantir",
+   "topic_key": "cyber-espionage-defense-tech",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "8d14b86ad3"
+  },
+  {
+   "title": "How the European Commission rolled out Matrix to more than 40k staff",
+   "url": "https://element.io/blog/how-the-european-commission-rolled-out-matrix-to-more-than-40-000-staff/",
+   "source": "element.io",
+   "published": "2026-11-19T10:58:29+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 560 امتیاز، 273 کامنت",
+   "signal_value": 560,
+   "discussion_url": "https://news.ycombinator.com/item?id=50558533",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 4,
+   "category": "open_source",
+   "story_key": "european-commission-matrix-rollout",
+   "topic_key": "open-source-enterprise",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "db0a328fdd"
+  },
+  {
+   "title": "Ruby2ßhell: Pre-authentication RCE on stock Rails",
+   "url": "https://verialabs.com/ruby2shell/",
+   "source": "verialabs.com",
+   "published": "2026-11-19T05:09:11+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 316 امتیاز، 129 کامنت",
+   "signal_value": 316,
+   "discussion_url": "https://news.ycombinator.com/item?id=50556287",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 5,
+   "category": "other_tech",
+   "story_key": "ruby2shell-rails-rce-vulnerability",
+   "topic_key": "critical-vulnerabilities",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "خطر حمله به میلیون‌ها سرور؛ کشف باگ بحرانی نفوذ بدون احراز هویت در روبی آن ریلز!",
+   "one_liner_fa": "محققان امنیتی آسیب‌پذیری بحرانی جدیدی با نام Ruby2ßhell در فریم‌ورک معروف Ruby on Rails کشف کردند که امکان اجرای کدهای مخرب را به هکرها می‌دهد.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "f82d195d3e"
+  },
+  {
+   "title": "15M web servers on one VM – smoltcp, DPDK, AF_XDP",
+   "url": "https://kapteko.com/15-million-webservers/",
+   "source": "kapteko.com",
+   "published": "2026-11-19T05:56:36+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 313 امتیاز، 37 کامنت",
+   "signal_value": 313,
+   "discussion_url": "https://news.ycombinator.com/item?id=50556533",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 4,
+   "category": "other_tech",
+   "story_key": "15m-web-servers-single-vm",
+   "topic_key": "systems-performance",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "cd785972e8"
+  },
+  {
+   "title": "Someone reported java4shell bug in September 2026",
+   "url": "https://github.com/openjdk/jdk/pull/32781",
+   "source": "github.com",
+   "published": "2026-11-19T11:47:03+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 195 امتیاز، 47 کامنت",
+   "signal_value": 195,
+   "discussion_url": "https://news.ycombinator.com/item?id=50558906",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 4,
+   "category": "other_tech",
+   "story_key": "java4shell-vulnerability-history",
+   "topic_key": "java-vulnerability",
+   "already_reported": true,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "21575d4806"
+  }
+ ],
+ "failed_sources": [],
+ "models": [
+  "gemini-3.8-flash",
+  "gemini-3.8-flash"
+ ]
+}

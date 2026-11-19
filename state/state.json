@@ -203,7 +203,48 @@
   "https://ut2004.dev/": "2026-11-19",
   "https://lateblt.livejournal.com/526188.html": "2026-11-19",
   "https://huggingface.co/papers/2611.24738": "2026-11-19",
-  "https://huggingface.co/papers/2611.24154": "2026-11-19"
+  "https://huggingface.co/papers/2611.24154": "2026-11-19",
+  "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast": "2026-11-20",
+  "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson": "2026-11-20",
+  "https://blog.google/company-news/outreach-and-initiatives/sustainability/granular-certificates-clean-energy-2026": "2026-11-20",
+  "https://blog.google/products-and-platforms/products/workspace/google-workspace-gemini-small-business-stories": "2026-11-20",
+  "https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api": "2026-11-20",
+  "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac": "2026-11-20",
+  "https://blog.google/products/ads-commerce/ads-decoded-ab-testing": "2026-11-20",
+  "https://blog.google/innovation-and-ai/models-and-research/google-labs/flow-and-flow-music-session-artists": "2026-11-20",
+  "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/the-dalles-data-center-20-years": "2026-11-20",
+  "https://blog.google/innovation-and-ai/models-and-research/google-research/blue-origin-project-suncatcher-partnership": "2026-11-20",
+  "https://blogs.nvidia.com/blog/geforce-now-thursday-black-friday-2026": "2026-11-20",
+  "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you": "2026-11-20",
+  "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says": "2026-11-20",
+  "https://techcrunch.com/2026/11/19/former-alibaba-execs-everful-raises-48-5m-to-connect-retailers-with-chinese-factories": "2026-11-20",
+  "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price": "2026-11-20",
+  "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development": "2026-11-20",
+  "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test": "2026-11-20",
+  "https://techcrunch.com/2026/11/19/superhuman-pushes-its-go-assistant-everywhere": "2026-11-20",
+  "https://engadget.com/2322043/how-to-game-share-gta-6-split-cost": "2026-11-20",
+  "https://engadget.com/2321988/google-signs-deal-with-blue-origin-to-send-satellite-data-centers-into-orbit": "2026-11-20",
+  "https://engadget.com/2321939/apple-homepod-mini-2-review": "2026-11-20",
+  "https://engadget.com/2321965/you-wont-find-this-fan-favorite-feature-in-gta-6": "2026-11-20",
+  "https://engadget.com/2321960/gta-6-how-to-switch-camera-views": "2026-11-20",
+  "https://engadget.com/2321944/gta-6-how-to-adjust-turn-off-blur-motion": "2026-11-20",
+  "https://engadget.com/2321922/here-are-some-photos-of-elon-musk-who-is-not-maga": "2026-11-20",
+  "https://engadget.com/2320713/xbox-series-x-s-settings-change-before-playing-gta-6": "2026-11-20",
+  "https://engadget.com/2321607/pebble-index-01-ai-ring-review": "2026-11-20",
+  "https://engadget.com/2321545/rockstar-says-that-gta-6s-map-has-room-to-expand-for-future-storylines": "2026-11-20",
+  "https://engadget.com/2321318/canva-will-let-users-switch-off-most-generative-ai": "2026-11-20",
+  "https://engadget.com/2321489/doj-accuses-russian-national-of-spying-on-and-harassing-palantir-employees": "2026-11-20",
+  "https://element.io/blog/how-the-european-commission-rolled-out-matrix-to-more-than-40-000-staff": "2026-11-20",
+  "https://verialabs.com/ruby2shell": "2026-11-20",
+  "https://kapteko.com/15-million-webservers": "2026-11-20",
+  "https://drivevault.io/blog/when-will-hard-drive-prices-come-down.html": "2026-11-20",
+  "https://php.net/releases/8.6/en.php": "2026-11-20",
+  "https://lastbook.org/": "2026-11-20",
+  "https://zerodha.tech/blog/high-performance-distributed-blob-storage": "2026-11-20",
+  "https://github.com/openjdk/jdk/pull/32781": "2026-11-20",
+  "https://huggingface.co/papers/2611.23068": "2026-11-20",
+  "https://huggingface.co/papers/2611.24654": "2026-11-20",
+  "https://huggingface.co/papers/2611.24789": "2026-11-20"
  },
  "reported": [
   {
@@ -505,6 +546,42 @@
    "title": "Unreal Tournament 2004 in the Browser",
    "title_fa": "اجرای کامل بازی خاطره‌انگیز آنریل تورنومنت ۲۰۰۴ مستقیماً داخل مرورگر وب!",
    "url": "https://ut2004.dev/"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "We’re partnering with Blue Origin on our first heavy-lift Project Suncatcher launch.",
+   "title_fa": "همکاری گوگل و بلو اوریجین: دیتاسنترهای هوش مصنوعی به فضا می‌روند!",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/blue-origin-project-suncatcher-partnership"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "Let Gemini tackle repetitive chores on your Mac",
+   "title_fa": "قابلیت کنترل کامپیوتر جمینای گوگل برای مک منتشر شد",
+   "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "Meta’s AI agent Muse is mixing up conversations and exposing private data, report says",
+   "title_fa": "رسوایی امنیتی متا: هوش مصنوعی میوز چت‌ها و موجودی بانک افراد را فاش کرد!",
+   "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "Anthropic’s IPO puts AI’s circular financing boom to the test",
+   "title_fa": "ورود تاریخی آنتروپیک به بورس: ثروتمندترین استارتاپ هوش مصنوعی جهان",
+   "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "Canva will let users switch off most generative AI",
+   "title_fa": "قابلیت جدید کانوا: هوش مصنوعی را با یک کلیک خاموش کنید!",
+   "url": "https://engadget.com/2321318/canva-will-let-users-switch-off-most-generative-ai"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "Ruby2ßhell: Pre-authentication RCE on stock Rails",
+   "title_fa": "خطر حمله به میلیون‌ها سرور؛ کشف باگ بحرانی نفوذ بدون احراز هویت در روبی آن ریلز!",
+   "url": "https://verialabs.com/ruby2shell"
   }
  ],
  "telegram_chat_id": "925911315"
