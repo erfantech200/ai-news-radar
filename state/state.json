@@ -244,7 +244,44 @@
   "https://github.com/openjdk/jdk/pull/32781": "2026-11-20",
   "https://huggingface.co/papers/2611.23068": "2026-11-20",
   "https://huggingface.co/papers/2611.24654": "2026-11-20",
-  "https://huggingface.co/papers/2611.24789": "2026-11-20"
+  "https://huggingface.co/papers/2611.24789": "2026-11-20",
+  "https://openai.com/business/learn/deploying-daybreak-red": "2026-11-20",
+  "https://openai.com/business/learn/pr-scans-demo": "2026-11-20",
+  "https://openai.com/business/learn/codex-security-plugin-demo": "2026-11-20",
+  "https://openai.com/business/learn/daybreak-blue-onboarding-demo": "2026-11-20",
+  "https://blog.google/innovation-and-ai/products/gemini-app/switch-ai-assistants-transfer-history": "2026-11-20",
+  "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/putting-one-of-quantum-mechanics-deepest-features-to-test-at-scale": "2026-11-20",
+  "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval": "2026-11-20",
+  "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs": "2026-11-20",
+  "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents": "2026-11-20",
+  "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac": "2026-11-20",
+  "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo": "2026-11-20",
+  "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300": "2026-11-20",
+  "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style": "2026-11-20",
+  "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline": "2026-11-20",
+  "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity": "2026-11-20",
+  "https://engadget.com/2322586/job-posting-seemingly-confirms-apple-is-working-on-its-own-ai-agent-for-coding-and-other-tasks": "2026-11-20",
+  "https://engadget.com/2322564/gta-6-wanted-level-star-system-details": "2026-11-20",
+  "https://engadget.com/2322557/leaked-images-may-show-motorolas-answer-to-the-iphone-duo": "2026-11-20",
+  "https://engadget.com/2322541/metas-muse-charm-will-reportedly-cost-300-and-come-with-free-verizon-5g": "2026-11-20",
+  "https://engadget.com/2322428/meta-quest-adds-3d-movie-purchases-and-rentals-to-its-tv-app": "2026-11-20",
+  "https://engadget.com/2322377/you-can-now-purchase-the-512gb-steam-machine-like-a-normal-console": "2026-11-20",
+  "https://engadget.com/2322304/employees-call-out-google-over-ai-search-in-schools": "2026-11-20",
+  "https://engadget.com/2322221/apple-tv-expands-its-racing-coverage-with-the-all-female-f1-academy": "2026-11-20",
+  "https://engadget.com/2322205/ubisoft-lays-off-166-more-workers-opens-a-generative-ai-studio": "2026-11-20",
+  "https://engadget.com/2322144/anthropic-is-now-a-public-company-worth-more-than-1-trillion": "2026-11-20",
+  "https://simonwillison.net/2026/Nov/19/postgresql-19": "2026-11-20",
+  "https://reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19": "2026-11-20",
+  "https://newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients": "2026-11-20",
+  "https://macanorak.com/uk-government-forced-to-admit-it-issued-apple-a-secret-encryption-order": "2026-11-20",
+  "https://ounapuu.ee/posts/2026/11/19/unsafeguards": "2026-11-20",
+  "https://anthropic.com/research/claude-black-hole-physics": "2026-11-20",
+  "https://curiousbits.nl/blog/do-not-buy-ram-compress": "2026-11-20",
+  "https://krthr.co/paper-folds-and-whats-new-in-fanzines-app": "2026-11-20",
+  "https://thedataexchange.media/pete-warden-moonshine": "2026-11-20",
+  "https://globalcommercegraph.com/writing/the-ninety-eight-percent-slot-machine": "2026-11-20",
+  "https://cornholenews.news/": "2026-11-20",
+  "https://maccus.fr/en/cooling-overtaking-heating": "2026-11-20"
  },
  "reported": [
   {
@@ -582,6 +619,84 @@
    "title": "Ruby2ßhell: Pre-authentication RCE on stock Rails",
    "title_fa": "خطر حمله به میلیون‌ها سرور؛ کشف باگ بحرانی نفوذ بدون احراز هویت در روبی آن ریلز!",
    "url": "https://verialabs.com/ruby2shell"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "Claude solves two open problems in the physics of black holes",
+   "title_fa": "دستاورد بزرگ انتروپیک: هوش مصنوعی کلود دو معمای حل‌نشده فیزیک سیاه‌چاله‌ها را حل کرد",
+   "url": "https://anthropic.com/research/claude-black-hole-physics"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "Pancreatic cancer halted by virus injection in three patients",
+   "title_fa": "توقف کشنده‌ترین سرطان در ۳ بیمار با تزریق ویروس مهندسی‌شده",
+   "url": "https://newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "Apple may be developing its own AI agent that runs your Mac",
+   "title_fa": "اپل ایجنت هوش مصنوعی اختصاصی می‌سازد؛ کنترل کامل مک به دست هوش مصنوعی",
+   "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "Anthropic’s Nasdaq debut",
+   "title_fa": "شروع تاریخی آنتروپیک در نزدک؛ استقبال طوفانی سرمایه‌گذاران از سازنده Claude",
+   "url": "https://reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "Ubisoft lays off 166 more workers, opens a generative AI studio",
+   "title_fa": "تناقض در صنعت گیم: یوبیسافت ۱۶۶ کارمند دیگر را اخراج و استودیوی هوش مصنوعی مولد تاسیس کرد",
+   "url": "https://engadget.com/2322205/ubisoft-lays-off-166-more-workers-opens-a-generative-ai-studio"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "UK government forced to admit it issued Apple a secret encryption order",
+   "title_fa": "رسوایی امنیتی در بریتانیا: دستور محرمانه دولت به اپل برای شکستن رمزنگاری پیام‌ها لو رفت!",
+   "url": "https://macanorak.com/uk-government-forced-to-admit-it-issued-apple-a-secret-encryption-order"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "How we’re putting one of quantum mechanics’ deepest features to the test at scale.",
+   "title_fa": "دستاورد جدید کوانتوم گوگل: شکستن مرزهای پردازش کلاسیک با قوانین بنیادی کوانتومی",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/putting-one-of-quantum-mechanics-deepest-features-to-test-at-scale"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+   "title_fa": "پاداش هنگفت بنیان‌گذاران آنتروپیک: خروج نزدیک به ۲ میلیارد دلار نقد در عرضه اولیه رکوردشکن!",
+   "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "ICYMI: Transfer your history from other AI apps into Gemini.",
+   "title_fa": "مهاجرت آسان به جمینای: تاریخچه چت‌های چت‌جی‌پی‌تی را به هوش مصنوعی گوگل بیاورید!",
+   "url": "https://blog.google/innovation-and-ai/products/gemini-app/switch-ai-assistants-transfer-history"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs",
+   "title_fa": "همکاری گسترده انویدیا و مایکروسافت: هوش مصنوعی شتاب‌یافته از آزور به کامپیوترهای ویندوزی می‌آید",
+   "url": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "Meta’s new Muse Charm device may cost $300",
+   "title_fa": "گجت پوشیدنی هوش مصنوعی متا لو رفت: «میوز چارم» با قیمت ۳۰۰ دلار در راه است",
+   "url": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "These tech outages are giving Y2K, AI agent style",
+   "title_fa": "کابوس ایجنت‌های خودمختار؛ آیا قطعی‌های اخیر بانک‌ها و پروازها تقصیر هوش مصنوعی است؟",
+   "url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "Anthropic’s IPO could deliver $156B to charity",
+   "title_fa": "خیریه ۱۵۶ میلیارد دلاری! رکورد تاریخی بنیاد عام‌المنفعه آنتروپیک پس از ورود به بورس",
+   "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity"
   }
  ],
  "telegram_chat_id": "925911315"

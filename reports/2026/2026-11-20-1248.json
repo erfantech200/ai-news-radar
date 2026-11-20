@@ -1,0 +1,1637 @@
+{
+ "content": [
+  {
+   "title": "Claude solves two open problems in the physics of black holes",
+   "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+   "source": "anthropic.com",
+   "published": "2026-11-19T17:30:44+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 379 امتیاز، 179 کامنت",
+   "signal_value": 379,
+   "discussion_url": "https://news.ycombinator.com/item?id=50563148",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://assets.claude.com/57a443b51d13727573b7c1290130d09c5f434b2c.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://assets.claude.com/6d8063c48d1b3397632daa51c8240476aad8cba3.jpg?w=1920&q=75&fm=webp&fit=max",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://assets.claude.com/2119f27c7247c0d4f5a23749c13014bff2a6ceae.png?w=3840&q=75&fm=webp&fit=max",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://assets.claude.com/1993547fd83090335eb0e476fdf049fb340a9422.png?w=3840&q=75&fm=webp&fit=max",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://assets.claude.com/d913081b89811f38ba99ed3b443810f802c4895c.png?w=3840&q=75&fm=webp&fit=max",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://assets.claude.com/0aaa39ce8e656316eb9cc8febaedbbe561a83e4f.png?w=3840&q=75&fm=webp&fit=max",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://assets.claude.com/9af4b5104bd6e996b926897d822e83232e5644ff.png?w=3840&q=75&fm=webp&fit=max",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 8,
+   "worthiness": 8,
+   "category": "research",
+   "story_key": "claude-solves-black-hole-physics-problems",
+   "topic_key": "ai-scientific-discovery",
+   "already_reported": false,
+   "viral": 8,
+   "title_fa": "دستاورد بزرگ انتروپیک: هوش مصنوعی کلود دو معمای حل‌نشده فیزیک سیاه‌چاله‌ها را حل کرد",
+   "one_liner_fa": "آنتروپیک اعلام کرد مدل هوش مصنوعی کلاود موفق شده دو مسئله باز و پیچیده ریاضی در حوزه فیزیک سیاه‌چاله‌ها را با موفقیت حل کند.",
+   "deep": {
+    "id": "be373132dc",
+    "title_fa": "دستاورد بزرگ انتروپیک: هوش مصنوعی کلود دو معمای حل‌نشده فیزیک سیاه‌چاله‌ها را حل کرد",
+    "summary_fa": "شرکت انتروپیک (Anthropic) اعلام کرد که مدل هوش مصنوعی کلود توانسته دو مسئله باز و حل‌نشده در فیزیک نظری و سیاه‌چاله‌ها را که به نظریه گرانش کوانتومی مربوط می‌شوند حل کند. در مسئله اول، کلود محاسباتی را کامل کرد که فیزیکدانان بیش از ۲۰ سال پیش آغاز کرده بودند و اثبات کرد تغییر فاز در تشکیل سیاه‌چاله ناگهانی است، حتی در جایی که فضا-زمان شکل معینی ندارد. در مسئله دوم نیز کلود با کشف الگویی پنهان، سقف دقیق برای سبک‌ترین سیاه‌چاله ممکن را به روش بوت‌استرپ اثبات کرد.",
+    "key_points_fa": [
+     "پژوهش توسط هونگ‌بین چن (Hongbin Chen) از محققان انتروپیک از طریق راه‌اندازی شبکه‌ای از ایجنت‌های کلود آغاز شد.",
+     "حل محاسبات ۲۰ ساله (مطرح‌شده در سال ۲۰۰۳) درباره تغییر فاز ناگهانی سیاه‌چاله‌ها مشابه کشف هاوکینگ و پیج در ۱۹۸۳.",
+     "اثبات مرز دقیق برای سبک‌ترین سیاه‌چاله در جهان نظری دو‌بعدی با استفاده از نسخه Claude Fable 5.2.",
+     "سیستم با اجرای نسخه‌های موازی از خودش نقش یک تیم تحقیقاتی مستقل را بازی کرده است.",
+     "این نتایج در قالب مقالات پیش‌نویس (Preprints) منتشر شده و به تلاش برای اتصال نسبیت عام و مکانیک کوانتومی کمک می‌کند."
+    ],
+    "why_it_matters_fa": "این اتفاق جهشی تاریخی است؛ هوش مصنوعی دیگر فقط یک دستیار برای کدنویسی نیست، بلکه رسماً در حال پیشبرد مرزهای علم فیزیک بنیادی و حل معماهایی است که دو دهه فیزیکدانان را متوقف کرده بودند.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "وقتی هوش مصنوعی فیزیکدان‌ها را شوکه می‌کند!",
+      "hook_fa": "این شوخی نیست؛ کلود بالاخره معمای ۲۰ ساله سیاه‌چاله‌ها رو حل کرد!",
+      "angle_fa": "توضیح ساده و شگفت‌انگیز اینکه چطور چند ایجنت کلود با همکاری هم مرزهای علم گرانش کوانتومی رو جابه‌جا کردند.",
+      "outline_fa": [
+       "طرح سوال: اتصال فیزیک کوانتوم و نسبیت عام و بن‌بست ۲۰ ساله فیزیکدان‌ها",
+       "روش کار: انتروپیک چطور با چند ایجنت هوش مصنوعی تیم تحقیقاتی ساخت",
+       "نتیجه کشف: تایید فیزیک سیاه‌چاله و پیدا کردن مرز جدید ریاضی",
+       "نتیجه‌گیری: هوش مصنوعی از کارهای روزمره وارد اکتشافات بنیادین جهان شده"
+      ],
+      "visual_tip_fa": "استفاده از شبیه‌سازی سیاه‌چاله، لوگوی انتروپیک و اسکرین‌شات نمودارها و فرمول‌های منتشرشده در مقاله رسمی Anthropic."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "کلود چطور دو معمای حل‌نشده فیزیک را حل کرد؟ به زبان ساده",
+      "hook_fa": "فیزیکدانان ۲۰ سال نتوانستند این محاسبه را تمام کنند، کلود با ایجنت‌هایش حلش کرد!",
+      "angle_fa": "شکستن مفاهیم پیچیده مثل گرانش کوانتومی و دوگانگی هولوگرافیک به زبان فوق‌العاده ساده برای مخاطب عام.",
+      "outline_fa": [
+       "اسلاید ۱: معرفی دستاورد تاریخی انتروپیک و مدل کلود",
+       "اسلاید ۲: مسئله اول؛ پدیده جوشیدن فضا و تغییر فاز سیاه‌چاله",
+       "اسلاید ۳: مسئله دوم؛ متد بوت‌استرپ و سقف سبک‌ترین سیاه‌چاله",
+       "اسلاید ۴: متدولوژی جذاب انتروپیک؛ تیم هوش مصنوعی چندنفره",
+       "اسلاید ۵: جمع‌بندی؛ آیا به زودی نظریه همه‌چیز توسط AI کشف می‌شود؟"
+      ],
+      "visual_tip_fa": "گرافیک‌های مینیمال تیره (فضایی) با استفاده از تصاویر مفهومی مقاله انتروپیک از فضا-زمان و مدل‌های کوانتومی."
+     }
+    ],
+    "hashtags": [
+     "#هوش_مصنوعی",
+     "#کلود",
+     "#انتروپیک",
+     "#فیزیک_کوانتوم",
+     "#سیاهچاله",
+     "#Anthropic",
+     "#ClaudeAI",
+     "#Physics"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "be373132dc"
+  },
+  {
+   "title": "Pancreatic cancer halted by virus injection in three patients",
+   "url": "https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/",
+   "source": "newscientist.com",
+   "published": "2026-11-19T17:25:33+00:00",
+   "origin": "Hacker News",
+   "summary": "https://archive.ph/2Et0x",
+   "lang": "en",
+   "signal": "Hacker News: 587 امتیاز، 88 کامنت",
+   "signal_value": 587,
+   "discussion_url": "https://news.ycombinator.com/item?id=50563066",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.newscientist.com/wp-content/uploads/2026/05/28111438/SEI_299218241.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.newscientist.com/wp-content/uploads/2026/05/28111438/SEI_299218241.jpg?w=840",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/1440",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.newscientist.com/wp-content/uploads/2025/10/17174633/SEI_270615868.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 8,
+   "worthiness": 8,
+   "category": "research",
+   "story_key": "pancreatic-cancer-halted-virus-injection",
+   "topic_key": "medical-biotech-breakthroughs",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "توقف کشنده‌ترین سرطان در ۳ بیمار با تزریق ویروس مهندسی‌شده",
+   "one_liner_fa": "پزشکان در درمانی انقلابی موفق شدند پیشرفت سرطان کشنده پانکراس را در سه بیمار با تزریق یک ویروس مهندسی‌شده به‌طور کامل متوقف کنند.",
+   "deep": {
+    "id": "c48c7c4225",
+    "title_fa": "توقف کشنده‌ترین سرطان در ۳ بیمار با تزریق ویروس مهندسی‌شده",
+    "summary_fa": "در یک کارآزمایی بالینی در دانشگاه مینه‌سوتا (University of Minnesota)، تزریق ویروس اصلاح‌شده ژنتیکی رشد سرطان پانکراس (لوزالمعده) را در سه بیمار متوقف کرد. این بیماری که به سختی تومورها و مقاومت در برابر شیمی‌درمانی معروف است، با دوز پایینی از آدنوویروس مهندسی‌شده تحت کنترل درآمد و تومورهای بیماران برای یک سال بدون رشد مانده است. پزشکان امیدوارند با افزایش دوز و ترکیب با ایمونوتراپی، تومورها شروع به کوچک شدن کنند.",
+    "key_points_fa": [
+     "سرطان لوزالمعده معمولاً باعث مرگ بیماران در مدت ۳ تا ۶ ماه پس از تشخیص می‌شود.",
+     "درمان توسط ماساتو یاماموتو (Masato Yamamoto) در دانشگاه مینه‌سوتا توسعه یافته است.",
+     "دوز مصرفی تنها یک‌دهم دوز نهایی مورد نظر بوده و فقط برای بررسی ایمنی تزریق شده بود.",
+     "ویروس مورد استفاده، یک آدنوویروس اصلاح‌شده ژنتیکی است که فقط داخل سلول‌های سرطانی با آنزیم COX-2 تکثیر می‌شود و آن‌ها را منفجر می‌کند.",
+     "آزمایش در فاز اولیه روی ۳ بیمار انجام شده و قرار است روی ۱۵ بیمار دیگر با دوز بالاتر آزمایش شود."
+    ],
+    "why_it_matters_fa": "سرطان پانکراس یکی از مرگبارترین و غیرقابل‌درمان‌ترین تومورها است؛ هر روزنه امیدی برای متوقف کردن رشد آن نشانه‌ای از تحول جدی در درمان‌های بیوتکنولوژی و ویروس‌درمانی هدفمند به حساب می‌آید.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "مهار کشنده‌ترین سرطان با یک ویروس دستکاری‌شده!",
+      "hook_fa": "باورنکردنیه؛ دانشمندان برای کشتن سرطان پانکراس، ویروس رو مهندسی ژنتیک کردن!",
+      "angle_fa": "توضیح تکنولوژی پشت این درمان: ویروسی که مثل بمب ساعتی فقط وارد سلول سرطانی میشه و می‌ترکوندش.",
+      "outline_fa": [
+       "معرفی سرطان پانکراس و این‌که چرا مثل سنگ سفته و دارو داخلش نمیره",
+       "ایده جذاب محققان: استفاده از ویروس سرماخوردگیِ دستکاری‌شده",
+       "نتایج آزمایش: ۳ بیمار که با یک‌دهم دوز رشد سرطانشون متوقف شد",
+       "قدم بعدی دانشمندان برای دوزهای بالاتر و کوچک کردن تومور"
+      ],
+      "visual_tip_fa": "انیمیشن‌های علمی از حمله ویروس به سلول سرطانی و متلاشی شدنش همراه با ویدیوی صحبت‌های محققان در کنفرانس."
+     },
+     {
+      "format": "پست",
+      "title_fa": "امید تازه در درمان سرطان: ویروس‌درمانی چطور کار می‌کند؟",
+      "hook_fa": "وقتی ویروس‌ها به جای بیماری، جان بیماران سرطانی را نجات می‌دهند.",
+      "angle_fa": "بررسی روش‌شناسی دقیق علمی و رعایت مرز احتیاط (فازهای آزمایشی) برای آگاهی‌بخشی بدون دادن امید کاذب.",
+      "outline_fa": [
+       "توضیح مکانیزم فعال‌سازی ویروس توسط آنزیم COX-2 فقط درون سلول سرطانی",
+       "نحوه رساندن ویروس به تومور با لوله نازک مجهز به سونوگرافی از راه گلو",
+       "اظهار نظر محتاطانه پزشکان درباره لزوم فاز ۳ بالینی",
+       "ترکیب آینده این روش با ایمونوتراپی برای نتایج بهتر"
+      ],
+      "visual_tip_fa": "تصویر میکروسکوپی آدنوویروس و اینفوگرافیک ساده از نحوه عملکرد هدفمند در لوزالمعده."
+     }
+    ],
+    "hashtags": [
+     "#پزشکی",
+     "#بیوتکنولوژی",
+     "#درمان_سرطان",
+     "#تکنولوژی_پزشکی",
+     "#سرطان_پانکراس",
+     "#CancerResearch",
+     "#Biotech"
+    ],
+    "caution_fa": "نتایج بسیار زودهنگام و روی تنها ۳ بیمار در فاز تست ایمنی انجام شده و هنوز گروه کنترل (Control group) نداشته است. نباید به عنوان درمان قطعی یا نهایی معرفی شود."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "c48c7c4225"
+  },
+  {
+   "title": "Apple may be developing its own AI agent that runs your Mac",
+   "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+   "source": "TechCrunch",
+   "published": "2026-11-20T00:56:01+00:00",
+   "origin": "TechCrunch",
+   "summary": "The iPhone maker appears to be building agents that can compete with the likes of Meta Muse, Instinct, Claude, and OpenAI Dots.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2026/06/iphone-usb-cable.jpg?resize=1200,800",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2025/12/495cdfd5deaad915a1ad58ab35edcbaa84b90c4ce9b7ded356c5ad1b61884800.png?w=150",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/job-posting-seemingly-confirms-apple-is-working-on-its-own-ai-agent-for-coding-and-other-tasks/l-intro-1795132872.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [
+    "Engadget"
+   ],
+   "importance": 7,
+   "worthiness": 8,
+   "category": "product_launch",
+   "story_key": "apple-mac-ai-agent",
+   "topic_key": "apple-ai-agents",
+   "already_reported": false,
+   "viral": 8,
+   "title_fa": "اپل ایجنت هوش مصنوعی اختصاصی می‌سازد؛ کنترل کامل مک به دست هوش مصنوعی",
+   "one_liner_fa": "گزارش‌ها حاکی از آن است که اپل در حال توسعه ایجنت هوش مصنوعی اختصاصی خود برای کنترل و مدیریت سیستم‌عامل مک و رقابت با کلاود و اوپن‌ای‌آی است.",
+   "deep": {
+    "id": "2ed09bbf2a",
+    "title_fa": "اپل ایجنت هوش مصنوعی اختصاصی می‌سازد؛ کنترل کامل مک به دست هوش مصنوعی",
+    "summary_fa": "طبق گزارش بلومبرگ و آگهی شغلی جدید اپل، این غول فناوری در حال توسعه ایجنت هوش مصنوعی اختصاصی خود برای کنترل رایانه‌های مک است. این سیستم قرار است مانند یک کاربر واقعی در برنامه‌ها بچرخد، وب‌گردی کند، کدنویسی کرده و تسک‌های چندمرحله‌ای را اجرا کند. جالب اینجاست که هم‌زمان، اپل در حال سخت‌تر کردن دسترسی ایجنت‌های هوش مصنوعی متفرقه (Third-party) به کنترل مک‌او‌اس (macOS) است.",
+    "key_points_fa": [
+     "منبع خبر بلومبرگ بر اساس آگهی شغلی پست سرپرست ارشد مهندسی با عنوان «AI agent that can use a computer» است.",
+     "قابلیت‌ها شامل وب‌گردی، استفاده از اپلیکیشن‌ها، اجرای خط فرمان (Terminal)، نوشتن و دیباگ کد و کار با APIها می‌شود.",
+     "پروژه در مراحل اولیه است اما اپل انتشار آن را برای اواخر سال آینده هدف‌گذاری کرده است.",
+     "در نسخه macOS 27.3 هشدارهای امنیتی جدی علیه ایجنت‌های متفرقه افزوده می‌شود تا کنترل سیستم فقط با تایید مستقیم کاربر ممکن باشد.",
+     "این اقدام پاسخی به پیشرفت‌های ایجنت‌های کلود در انتروپیک و مدل‌های اوپن‌ای‌آی (OpenAI) است."
+    ],
+    "why_it_matters_fa": "کنترل کامپیوتر توسط ایجنت‌ها آینده تعامل انسان و کامپیوتر است؛ با ورود اپل، این قابلیت با امنیت بالا و یکپارچگی سیستمی در اختیار میلیون‌ها کاربر مک قرار خواهد گرفت.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "مک‌بوک‌ها قراره خودشون کار کنند!",
+      "hook_fa": "اپل داره روی چیزی کار می‌کنه که شاید دیگه نیازی نباشه به موس و کیبورد دست بزنی!",
+      "angle_fa": "معرفی رقابت سنگین ایجنت‌های کنترل کامپیوتر و استراتژی انحصاری اپل.",
+      "outline_fa": [
+       "افشای آگهی استخدام جدید اپل برای کنترل خودکار کامپیوتر",
+       "کارهایی که ایجنت اپل انجام میده: کد زدن، چرخیدن بین اپ‌ها و سفارش دادن",
+       "سیاست جالب اپل: بستن راه بقیه ایجنت‌ها مثل کلود به بهانه امنیت",
+       "زمان احتمالی عرضه در مک‌او‌اس"
+      ],
+      "visual_tip_fa": "نمایش اسکرین‌شات آگهی شغلی اپل، ویدیوی کانسپت از جابه‌جا شدن خودکار پنجره‌ها در مک و لوگوی macOS."
+     },
+     {
+      "format": "استوری",
+      "title_fa": "ایجنت هوش مصنوعی اپل در راه است",
+      "hook_fa": "اپل نمی‌خواد جا بمونه؛ ایجنت رسمی مک لو رفت!",
+      "angle_fa": "پوشش سریع و تعاملی خبر همراه با نظرسنجی از فالوورها.",
+      "outline_fa": [
+       "استوری ۱: تصویر متن آگهی استخدام اپل درباره کنترل کامپیوتر مثل یک انسان",
+       "استوری ۲: توضیح محدود کردن ایجنت‌های دیگر در نسخه جدید مک‌او‌اس",
+       "استوری ۳: نظرسنجی؛ ترجیح میدی به ایجنت اپل اعتماد کنی یا کلود و اوپن‌ای‌آی؟"
+      ],
+      "visual_tip_fa": "عکس لپ‌تاپ‌های مک‌بوک همراه با اینفوگرافیک کوتاه از وظایف هوش مصنوعی روی سیستم‌عامل."
+     }
+    ],
+    "hashtags": [
+     "#اپل",
+     "#هوش_مصنوعی",
+     "#مک_بوک",
+     "#ایجنت_هوش_مصنوعی",
+     "#Apple",
+     "#AIAgent",
+     "#macOS",
+     "#تکنولوژی"
+    ],
+    "caution_fa": "پروژه در مراحل ابتدایی توسعه است و اطلاعات بر پایه آگهی شغلی و گزارش‌های تحلیلی بلومبرگ بوده و هنوز به شکل رسمی معرفی نشده است."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "2ed09bbf2a"
+  },
+  {
+   "title": "Anthropic’s Nasdaq debut",
+   "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+   "source": "reuters.com",
+   "published": "2026-11-19T17:02:40+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 908 امتیاز، 1792 کامنت",
+   "signal_value": 908,
+   "discussion_url": "https://news.ycombinator.com/item?id=50562754",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/anthropic-is-now-a-public-company-worth-more-than-1-trillion/l-intro-1795113508.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [
+    "Engadget"
+   ],
+   "importance": 8,
+   "worthiness": 7,
+   "category": "business_funding",
+   "story_key": "anthropic-nasdaq-debut-valuation",
+   "topic_key": "anthropic-ipo",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "شروع تاریخی آنتروپیک در نزدک؛ استقبال طوفانی سرمایه‌گذاران از سازنده Claude",
+   "one_liner_fa": "سهام آنتروپیک برای اولین بار در بورس نزدک معامله شد و رکورد شگفت‌انگیزی را در میان استارتاپ‌های دنیای هوش مصنوعی ثبت کرد.",
+   "deep": {},
+   "alert": {},
+   "alerted": true,
+   "id": "bab1a902fa"
+  },
+  {
+   "title": "Ubisoft lays off 166 more workers, opens a generative AI studio",
+   "url": "https://www.engadget.com/2322205/ubisoft-lays-off-166-more-workers-opens-a-generative-ai-studio/",
+   "source": "Engadget",
+   "published": "2026-11-19T19:06:04+00:00",
+   "origin": "Engadget",
+   "summary": "Even Rockstar developers fear layoffs, as GTA 6 rakes in billions of dollars.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/ubisoft-lays-off-166-more-workers-opens-a-generative-ai-studio/l-intro-1795114771.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/ubisoft-lays-off-166-more-workers-opens-a-generative-ai-studio/intro-1795114771.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/ubisoft-lays-off-166-more-workers-opens-a-generative-ai-studio/ubisofts-cuts-continue-1795114772.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/ubisoft-lays-off-166-more-workers-opens-a-generative-ai-studio/even-rockstar-devs-are-worried-1795114774.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 8,
+   "category": "business_funding",
+   "story_key": "ubisoft-layoffs-generative-ai-studio",
+   "topic_key": "ai-gaming-impact",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "تناقض در صنعت گیم: یوبیسافت ۱۶۶ کارمند دیگر را اخراج و استودیوی هوش مصنوعی مولد تاسیس کرد",
+   "one_liner_fa": "یوبی‌سافت موج جدیدی از تعدیل نیرو را کلید زد و هم‌زمان استودیوی جدیدی با محوریت کامل هوش مصنوعی مولد برای بازی‌سازی افتتاح کرد.",
+   "deep": {
+    "id": "be60bc7553",
+    "title_fa": "تناقض در صنعت گیم: یوبیسافت ۱۶۶ کارمند دیگر را اخراج و استودیوی هوش مصنوعی مولد تاسیس کرد",
+    "summary_fa": "شرکت بازی‌سازی یوبیسافت (Ubisoft) موج جدیدی از تعدیل نیرو را آغاز کرده و ۱۶۶ کارمند خود در استودیوهای مونترال و کبک را اخراج کرد. هم‌زمان با این اخراج‌ها، یوبیسافت یک استودیوی فرعی جدید به نام مادربِرین (Motherbrain) با تمرکز کامل روی ساخت نوآوری‌های گیم‌پلی بر پایه هوش مصنوعی مولد تأسیس کرده است. این روند نگران‌کننده به یوبیسافت محدود نیست و حتی سازندگان بازی بزرگ GTA 6 در راکستار نیز نگران امنیت شغلی خود هستند.",
+    "key_points_fa": [
+     "اخراج ۱۶۶ کارمند از بخش‌های تولید و پشتیبانی یوبیسافت پس از کاهش ۱۱۰۰ نیرویی در ماه‌های قبل.",
+     "افتتاح استودیوی جدید «Motherbrain» که روی هوش مصنوعی مولد برای بازی‌ها کار می‌کند.",
+     "استودیوی مادربِرین پیش از این تجربه Teammates را به عنوان اولین تجربه تعاملی بازی مبتنی بر AI یوبیسافت ساخته بود.",
+     "اخراج حدود یک‌سوم پرسنل در استودیوی فیراکسیس (Firaxis) سازنده Civilization.",
+     "طبق نظرسنجی کنفرانس بازی‌سازان (GDC)، از هر ۳ کارمند صنعت بازی ۱ نفر در دو سال اخیر اخراج شده و ۵۵ درصد معتقدند هوش مصنوعی اثر منفی روی صنعت دارد."
+    ],
+    "why_it_matters_fa": "صنعت بازی‌سازی نقطه تلاقی بارز بحران جایگزینی هوش مصنوعی است؛ شرکت‌ها با اخراج پرسنل انسانی، بودجه‌ها را به ساخت استودیوهای هوش مصنوعی اختصاص می‌دهند که هشداری جدی برای بازار کار متخصصان خلاق است.",
+    "content_ideas": [
+     {
+      "format": "پست",
+      "title_fa": "اخراج توسعه‌دهنده‌ها به نام هوش مصنوعی مولد!",
+      "hook_fa": "اخراج انسان‌ها و استخدام هوش مصنوعی رسماً در صنعت بازی شروع شد!",
+      "angle_fa": "بررسی دوگانگی تلخ استودیوهای بازی‌سازی؛ سودهای میلیاردی و اخراج بی‌رحمانه نیروها به نفع استودیوهای AI.",
+      "outline_fa": [
+       "خبر اخراج ۱۶۶ کارمند یوبیسافت درست پس از موفقیت‌های اخیر",
+       "معرفی استودیوی اختصاصی هوش مصنوعی Motherbrain توسط یوبیسافت",
+       "ترس حتی در بین سازندگان GTA 6 و رای‌گیری تاریخی اتحادیه کارگری",
+       "آمار تکان‌دهنده GDC: اخراج یک‌سوم نیروهای صنعت گیم طی ۲ سال"
+      ],
+      "visual_tip_fa": "ترکیب لوگوی یوبیسافت با گرافیک مغز مصنوعی/کد، و استفاده از تصویر شات‌های اعتراضی یا اسکرین‌شات خبر اخراج‌ها."
+     },
+     {
+      "format": "ریلز",
+      "title_fa": "چرا سازندگان بازی‌های موردعلاقه‌مون دارن اخراج میشن؟",
+      "hook_fa": "حتی سازنده‌های GTA 6 هم از هوش مصنوعی و اخراج شدن وحشت دارن!",
+      "angle_fa": "روایت دراماتیک از اینکه چطور رویای کار در صنعت گیم در حال برخورد با دیوار سخت هوش مصنوعی مولد است.",
+      "outline_fa": [
+       "فروش ۲ میلیارد دلاری بازی‌ها در برابر ناامنی شغلی توسعه‌دهندگان",
+       "اقدام یوبیسافت: بستن استودیوهای انسانی و تأسیس استودیو AI",
+       "نظر بازیسازان: ۵۵٪ توسعه‌دهندگان هوش مصنوعی را تهدید می‌دانند",
+       "آینده بازی‌ها: آیا بازی‌های آینده را کدهای خودکار می‌سازند؟"
+      ],
+      "visual_tip_fa": "تصاویر تریلر GTA 6 و بازی‌های یوبیسافت کات خورده به نمودارهای اخراج و معرفی ابزار Teammates."
+     }
+    ],
+    "hashtags": [
+     "#بازی",
+     "#گیمینگ",
+     "#یوبیسافت",
+     "#اخراج",
+     "#هوش_مصنوعی_مولد",
+     "#Ubisoft",
+     "#Gaming",
+     "#GenerativeAI"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "be60bc7553"
+  }
+ ],
+ "others": [
+  {
+   "title": "UK government forced to admit it issued Apple a secret encryption order",
+   "url": "https://macanorak.com/uk-government-forced-to-admit-it-issued-apple-a-secret-encryption-order/",
+   "source": "macanorak.com",
+   "published": "2026-11-19T16:21:03+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 504 امتیاز، 210 کامنت",
+   "signal_value": 504,
+   "discussion_url": "https://news.ycombinator.com/item?id=50562113",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 7,
+   "category": "policy_regulation",
+   "story_key": "uk-secret-encryption-order-apple",
+   "topic_key": "tech-encryption-battles",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "رسوایی امنیتی در بریتانیا: دستور محرمانه دولت به اپل برای شکستن رمزنگاری پیام‌ها لو رفت!",
+   "one_liner_fa": "دولت بریتانیا مجبور به اعتراف شد که دستوری مخفیانه برای دسترسی به پیام‌های رمزگذاری‌شده کاربران به اپل صادر کرده است.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "3580245413"
+  },
+  {
+   "title": "How we’re putting one of quantum mechanics’ deepest features to the test at scale.",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/putting-one-of-quantum-mechanics-deepest-features-to-test-at-scale/",
+   "source": "Google Blog",
+   "published": "2026-11-19T19:00:00+00:00",
+   "origin": "Google Blog",
+   "summary": "Google Quantum AI research proves contextuality powers quantum algorithms at scale. See how our processor beat classical limits. Get the details.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Quantum_Contextuality_Social_Sh.max-600x600.format-webp.webp",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 6,
+   "category": "research",
+   "story_key": "google-quantum-contextuality",
+   "topic_key": "quantum-computing",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "دستاورد جدید کوانتوم گوگل: شکستن مرزهای پردازش کلاسیک با قوانین بنیادی کوانتومی",
+   "one_liner_fa": "تیم کوانتوم گوگل نشان داد که ویژگی‌های بنیادی فیزیک کوانتومی امکان اجرای الگوریتم‌های کوانتومی در مقیاس وسیع را با برتری کامل بر کامپیوترهای سنتی فراهم کرده است.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "fddf8d5b0f"
+  },
+  {
+   "title": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+   "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
+   "source": "TechCrunch",
+   "published": "2026-11-20T00:43:50+00:00",
+   "origin": "TechCrunch",
+   "summary": "At the upgraded $83/share IPO price, Anthropic's seven founders each pocketed $280 million, while the company nabbed nearly $105 billion.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 7,
+   "category": "business_funding",
+   "story_key": "anthropic-ipo-founders-cash-out",
+   "topic_key": "anthropic-ipo",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "پاداش هنگفت بنیان‌گذاران آنتروپیک: خروج نزدیک به ۲ میلیارد دلار نقد در عرضه اولیه رکوردشکن!",
+   "one_liner_fa": "با ارزش‌گذاری نجومی سهام آنتروپیک در نزدک، هر یک از ۷ بنیان‌گذار اصلی این شرکت حدود ۲۸۰ میلیون دلار پول نقد دریافت کردند.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "4aacf31011"
+  },
+  {
+   "title": "ICYMI: Transfer your history from other AI apps into Gemini.",
+   "url": "https://blog.google/innovation-and-ai/products/gemini-app/switch-ai-assistants-transfer-history/",
+   "source": "Google Blog",
+   "published": "2026-11-19T20:30:00+00:00",
+   "origin": "Google Blog",
+   "summary": "Transfer your chat history into Gemini. Import your ZIP files and AI summaries to continue conversations seamlessly. Get the details.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Transfer_socialshare.max-600x600.format-webp.webp",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 8,
+   "category": "product_launch",
+   "story_key": "gemini-chat-history-import",
+   "topic_key": "google-gemini",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "مهاجرت آسان به جمینای: تاریخچه چت‌های چت‌جی‌پی‌تی را به هوش مصنوعی گوگل بیاورید!",
+   "one_liner_fa": "گوگل امکان انتقال مستقیم فایل‌های تاریخچه و خلاصه چت‌ها از سایر سرویس‌های هوش مصنوعی به جمینای را فراهم کرد تا مکالمات قبلی‌تان را بدون قطعی ادامه دهید.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "9d6db537dc"
+  },
+  {
+   "title": "NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs",
+   "url": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/",
+   "source": "NVIDIA Blog",
+   "published": "2026-11-19T20:00:15+00:00",
+   "origin": "NVIDIA Blog",
+   "summary": "NVIDIA and Microsoft are extending their full-stack collaboration to help organizations build, customize and deploy intelligent applications — from next-generation infrastructure on Azure to industrial systems and Windows PCs. At Microsoft Ignite, the companies are expanding access to Azure virtual machines powered by NVIDIA Vera Rubin NVL72 systems, as well as adding customer availability to […]",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/nvidia-microsoft.png",
+     "origin": "rss"
+    },
+    {
+     "kind": "image",
+     "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/nvidia-microsoft-842x450.png",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 6,
+   "category": "big_tech",
+   "story_key": "nvidia-microsoft-accelerated-computing",
+   "topic_key": "nvidia-microsoft-partnership",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "همکاری گسترده انویدیا و مایکروسافت: هوش مصنوعی شتاب‌یافته از آزور به کامپیوترهای ویندوزی می‌آید",
+   "one_liner_fa": "انویدیا و مایکروسافت همکاری خود را برای اجرای برنامه‌های هوشمند از دیتاسنترهای ابری آزور تا پی‌سی‌های شخصی ویندوز گسترش دادند.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "1a7867b3a7"
+  },
+  {
+   "title": "Meta’s new Muse Charm device may cost $300",
+   "url": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
+   "source": "TechCrunch",
+   "published": "2026-11-19T21:58:06+00:00",
+   "origin": "TechCrunch",
+   "summary": "Meta hasn't denied the reporting from The Information, saying only that it will \"have more to share soon\" about its upcoming AI wearable.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/metas-muse-charm-will-reportedly-cost-300-and-come-with-free-verizon-5g/l-intro-1795128747.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [
+    "Engadget"
+   ],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "hardware_chips",
+   "story_key": "meta-muse-charm-wearable",
+   "topic_key": "meta-hardware",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "گجت پوشیدنی هوش مصنوعی متا لو رفت: «میوز چارم» با قیمت ۳۰۰ دلار در راه است",
+   "one_liner_fa": "متا در تدارک عرضه گجت پوشیدنی اختصاصی هوش مصنوعی ۳۰۰ دلاری به نام میوز چارم است که احتمالاً همراه با اینترنت سیم‌کارت رایگان عرضه خواهد شد.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "e60f4e5e7c"
+  },
+  {
+   "title": "These tech outages are giving Y2K, AI agent style",
+   "url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/",
+   "source": "TechCrunch",
+   "published": "2026-11-19T21:42:31+00:00",
+   "origin": "TechCrunch",
+   "summary": "Are the recent outages in the airline booking systems, banking platforms, and productivity platforms really a coincidence? There's actually likely something deeper going on, cybersecurity experts say.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 6,
+   "category": "safety_ethics",
+   "story_key": "ai-agent-tech-outages-investigation",
+   "topic_key": "ai-infrastructure-risks",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "کابوس ایجنت‌های خودمختار؛ آیا قطعی‌های اخیر بانک‌ها و پروازها تقصیر هوش مصنوعی است؟",
+   "one_liner_fa": "کارشناسان امنیت سایبری هشدار می‌دهند قطعی‌های زنجیره‌ای سامانه‌های بانکی و مسافرتی ناشی از رفتارهای پیش‌بینی‌نشده ایجنت‌های خودکار هوش مصنوعی است.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "52653ae3ad"
+  },
+  {
+   "title": "Anthropic’s IPO could deliver $156B to charity",
+   "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/",
+   "source": "TechCrunch",
+   "published": "2026-11-19T19:10:45+00:00",
+   "origin": "TechCrunch",
+   "summary": "At a stock price of $95, the frontier lab's Public Benefit Foundation, its employee donations, and the company's match tot up to $156 billion.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 6,
+   "category": "business_funding",
+   "story_key": "anthropic-ipo-charity-fund",
+   "topic_key": "anthropic-ipo",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "خیریه ۱۵۶ میلیارد دلاری! رکورد تاریخی بنیاد عام‌المنفعه آنتروپیک پس از ورود به بورس",
+   "one_liner_fa": "جهش ارزش سهام آنتروپیک در وال‌استریت باعث شد ارزش صندوق خیریه و عام‌المنفعه این شرکت به رقم باورنکردنی ۱۵۶ میلیارد دلار برسد.",
+   "deep": {},
+   "alert": {},
+   "alerted": true,
+   "id": "e22812a5cc"
+  }
+ ],
+ "scored": [
+  {
+   "title": "ICYMI: Transfer your history from other AI apps into Gemini.",
+   "url": "https://blog.google/innovation-and-ai/products/gemini-app/switch-ai-assistants-transfer-history/",
+   "source": "Google Blog",
+   "published": "2026-11-19T20:30:00+00:00",
+   "origin": "Google Blog",
+   "summary": "Transfer your chat history into Gemini. Import your ZIP files and AI summaries to continue conversations seamlessly. Get the details.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Transfer_socialshare.max-600x600.format-webp.webp",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 8,
+   "category": "product_launch",
+   "story_key": "gemini-chat-history-import",
+   "topic_key": "google-gemini",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "مهاجرت آسان به جمینای: تاریخچه چت‌های چت‌جی‌پی‌تی را به هوش مصنوعی گوگل بیاورید!",
+   "one_liner_fa": "گوگل امکان انتقال مستقیم فایل‌های تاریخچه و خلاصه چت‌ها از سایر سرویس‌های هوش مصنوعی به جمینای را فراهم کرد تا مکالمات قبلی‌تان را بدون قطعی ادامه دهید.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "9d6db537dc"
+  },
+  {
+   "title": "How we’re putting one of quantum mechanics’ deepest features to the test at scale.",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/putting-one-of-quantum-mechanics-deepest-features-to-test-at-scale/",
+   "source": "Google Blog",
+   "published": "2026-11-19T19:00:00+00:00",
+   "origin": "Google Blog",
+   "summary": "Google Quantum AI research proves contextuality powers quantum algorithms at scale. See how our processor beat classical limits. Get the details.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Quantum_Contextuality_Social_Sh.max-600x600.format-webp.webp",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 6,
+   "category": "research",
+   "story_key": "google-quantum-contextuality",
+   "topic_key": "quantum-computing",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "دستاورد جدید کوانتوم گوگل: شکستن مرزهای پردازش کلاسیک با قوانین بنیادی کوانتومی",
+   "one_liner_fa": "تیم کوانتوم گوگل نشان داد که ویژگی‌های بنیادی فیزیک کوانتومی امکان اجرای الگوریتم‌های کوانتومی در مقیاس وسیع را با برتری کامل بر کامپیوترهای سنتی فراهم کرده است.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "fddf8d5b0f"
+  },
+  {
+   "title": "Introducing Tool Retrieval in the Gemini API",
+   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+   "source": "Google Blog",
+   "published": "2026-11-19T18:00:00+00:00",
+   "origin": "Google Blog",
+   "summary": "Gemini spark on a space background",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Tool_retrieval_hero.max-600x600.format-webp.webp",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 5,
+   "category": "product_launch",
+   "story_key": "gemini-api-tool-retrieval",
+   "topic_key": "google-gemini",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "b00f82b6db"
+  },
+  {
+   "title": "NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs",
+   "url": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/",
+   "source": "NVIDIA Blog",
+   "published": "2026-11-19T20:00:15+00:00",
+   "origin": "NVIDIA Blog",
+   "summary": "NVIDIA and Microsoft are extending their full-stack collaboration to help organizations build, customize and deploy intelligent applications — from next-generation infrastructure on Azure to industrial systems and Windows PCs. At Microsoft Ignite, the companies are expanding access to Azure virtual machines powered by NVIDIA Vera Rubin NVL72 systems, as well as adding customer availability to […]",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/nvidia-microsoft.png",
+     "origin": "rss"
+    },
+    {
+     "kind": "image",
+     "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/nvidia-microsoft-842x450.png",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 6,
+   "category": "big_tech",
+   "story_key": "nvidia-microsoft-accelerated-computing",
+   "topic_key": "nvidia-microsoft-partnership",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "همکاری گسترده انویدیا و مایکروسافت: هوش مصنوعی شتاب‌یافته از آزور به کامپیوترهای ویندوزی می‌آید",
+   "one_liner_fa": "انویدیا و مایکروسافت همکاری خود را برای اجرای برنامه‌های هوشمند از دیتاسنترهای ابری آزور تا پی‌سی‌های شخصی ویندوز گسترش دادند.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "1a7867b3a7"
+  },
+  {
+   "title": "Apple may be developing its own AI agent that runs your Mac",
+   "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+   "source": "TechCrunch",
+   "published": "2026-11-20T00:56:01+00:00",
+   "origin": "TechCrunch",
+   "summary": "The iPhone maker appears to be building agents that can compete with the likes of Meta Muse, Instinct, Claude, and OpenAI Dots.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2026/06/iphone-usb-cable.jpg?resize=1200,800",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2025/12/495cdfd5deaad915a1ad58ab35edcbaa84b90c4ce9b7ded356c5ad1b61884800.png?w=150",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/job-posting-seemingly-confirms-apple-is-working-on-its-own-ai-agent-for-coding-and-other-tasks/l-intro-1795132872.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [
+    "Engadget"
+   ],
+   "importance": 7,
+   "worthiness": 8,
+   "category": "product_launch",
+   "story_key": "apple-mac-ai-agent",
+   "topic_key": "apple-ai-agents",
+   "already_reported": false,
+   "viral": 8,
+   "title_fa": "اپل ایجنت هوش مصنوعی اختصاصی می‌سازد؛ کنترل کامل مک به دست هوش مصنوعی",
+   "one_liner_fa": "گزارش‌ها حاکی از آن است که اپل در حال توسعه ایجنت هوش مصنوعی اختصاصی خود برای کنترل و مدیریت سیستم‌عامل مک و رقابت با کلاود و اوپن‌ای‌آی است.",
+   "deep": {
+    "id": "2ed09bbf2a",
+    "title_fa": "اپل ایجنت هوش مصنوعی اختصاصی می‌سازد؛ کنترل کامل مک به دست هوش مصنوعی",
+    "summary_fa": "طبق گزارش بلومبرگ و آگهی شغلی جدید اپل، این غول فناوری در حال توسعه ایجنت هوش مصنوعی اختصاصی خود برای کنترل رایانه‌های مک است. این سیستم قرار است مانند یک کاربر واقعی در برنامه‌ها بچرخد، وب‌گردی کند، کدنویسی کرده و تسک‌های چندمرحله‌ای را اجرا کند. جالب اینجاست که هم‌زمان، اپل در حال سخت‌تر کردن دسترسی ایجنت‌های هوش مصنوعی متفرقه (Third-party) به کنترل مک‌او‌اس (macOS) است.",
+    "key_points_fa": [
+     "منبع خبر بلومبرگ بر اساس آگهی شغلی پست سرپرست ارشد مهندسی با عنوان «AI agent that can use a computer» است.",
+     "قابلیت‌ها شامل وب‌گردی، استفاده از اپلیکیشن‌ها، اجرای خط فرمان (Terminal)، نوشتن و دیباگ کد و کار با APIها می‌شود.",
+     "پروژه در مراحل اولیه است اما اپل انتشار آن را برای اواخر سال آینده هدف‌گذاری کرده است.",
+     "در نسخه macOS 27.3 هشدارهای امنیتی جدی علیه ایجنت‌های متفرقه افزوده می‌شود تا کنترل سیستم فقط با تایید مستقیم کاربر ممکن باشد.",
+     "این اقدام پاسخی به پیشرفت‌های ایجنت‌های کلود در انتروپیک و مدل‌های اوپن‌ای‌آی (OpenAI) است."
+    ],
+    "why_it_matters_fa": "کنترل کامپیوتر توسط ایجنت‌ها آینده تعامل انسان و کامپیوتر است؛ با ورود اپل، این قابلیت با امنیت بالا و یکپارچگی سیستمی در اختیار میلیون‌ها کاربر مک قرار خواهد گرفت.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "مک‌بوک‌ها قراره خودشون کار کنند!",
+      "hook_fa": "اپل داره روی چیزی کار می‌کنه که شاید دیگه نیازی نباشه به موس و کیبورد دست بزنی!",
+      "angle_fa": "معرفی رقابت سنگین ایجنت‌های کنترل کامپیوتر و استراتژی انحصاری اپل.",
+      "outline_fa": [
+       "افشای آگهی استخدام جدید اپل برای کنترل خودکار کامپیوتر",
+       "کارهایی که ایجنت اپل انجام میده: کد زدن، چرخیدن بین اپ‌ها و سفارش دادن",
+       "سیاست جالب اپل: بستن راه بقیه ایجنت‌ها مثل کلود به بهانه امنیت",
+       "زمان احتمالی عرضه در مک‌او‌اس"
+      ],
+      "visual_tip_fa": "نمایش اسکرین‌شات آگهی شغلی اپل، ویدیوی کانسپت از جابه‌جا شدن خودکار پنجره‌ها در مک و لوگوی macOS."
+     },
+     {
+      "format": "استوری",
+      "title_fa": "ایجنت هوش مصنوعی اپل در راه است",
+      "hook_fa": "اپل نمی‌خواد جا بمونه؛ ایجنت رسمی مک لو رفت!",
+      "angle_fa": "پوشش سریع و تعاملی خبر همراه با نظرسنجی از فالوورها.",
+      "outline_fa": [
+       "استوری ۱: تصویر متن آگهی استخدام اپل درباره کنترل کامپیوتر مثل یک انسان",
+       "استوری ۲: توضیح محدود کردن ایجنت‌های دیگر در نسخه جدید مک‌او‌اس",
+       "استوری ۳: نظرسنجی؛ ترجیح میدی به ایجنت اپل اعتماد کنی یا کلود و اوپن‌ای‌آی؟"
+      ],
+      "visual_tip_fa": "عکس لپ‌تاپ‌های مک‌بوک همراه با اینفوگرافیک کوتاه از وظایف هوش مصنوعی روی سیستم‌عامل."
+     }
+    ],
+    "hashtags": [
+     "#اپل",
+     "#هوش_مصنوعی",
+     "#مک_بوک",
+     "#ایجنت_هوش_مصنوعی",
+     "#Apple",
+     "#AIAgent",
+     "#macOS",
+     "#تکنولوژی"
+    ],
+    "caution_fa": "پروژه در مراحل ابتدایی توسعه است و اطلاعات بر پایه آگهی شغلی و گزارش‌های تحلیلی بلومبرگ بوده و هنوز به شکل رسمی معرفی نشده است."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "2ed09bbf2a"
+  },
+  {
+   "title": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+   "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
+   "source": "TechCrunch",
+   "published": "2026-11-20T00:43:50+00:00",
+   "origin": "TechCrunch",
+   "summary": "At the upgraded $83/share IPO price, Anthropic's seven founders each pocketed $280 million, while the company nabbed nearly $105 billion.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 7,
+   "category": "business_funding",
+   "story_key": "anthropic-ipo-founders-cash-out",
+   "topic_key": "anthropic-ipo",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "پاداش هنگفت بنیان‌گذاران آنتروپیک: خروج نزدیک به ۲ میلیارد دلار نقد در عرضه اولیه رکوردشکن!",
+   "one_liner_fa": "با ارزش‌گذاری نجومی سهام آنتروپیک در نزدک، هر یک از ۷ بنیان‌گذار اصلی این شرکت حدود ۲۸۰ میلیون دلار پول نقد دریافت کردند.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "4aacf31011"
+  },
+  {
+   "title": "Meta’s new Muse Charm device may cost $300",
+   "url": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
+   "source": "TechCrunch",
+   "published": "2026-11-19T21:58:06+00:00",
+   "origin": "TechCrunch",
+   "summary": "Meta hasn't denied the reporting from The Information, saying only that it will \"have more to share soon\" about its upcoming AI wearable.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/metas-muse-charm-will-reportedly-cost-300-and-come-with-free-verizon-5g/l-intro-1795128747.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [
+    "Engadget"
+   ],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "hardware_chips",
+   "story_key": "meta-muse-charm-wearable",
+   "topic_key": "meta-hardware",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "گجت پوشیدنی هوش مصنوعی متا لو رفت: «میوز چارم» با قیمت ۳۰۰ دلار در راه است",
+   "one_liner_fa": "متا در تدارک عرضه گجت پوشیدنی اختصاصی هوش مصنوعی ۳۰۰ دلاری به نام میوز چارم است که احتمالاً همراه با اینترنت سیم‌کارت رایگان عرضه خواهد شد.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "e60f4e5e7c"
+  },
+  {
+   "title": "These tech outages are giving Y2K, AI agent style",
+   "url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/",
+   "source": "TechCrunch",
+   "published": "2026-11-19T21:42:31+00:00",
+   "origin": "TechCrunch",
+   "summary": "Are the recent outages in the airline booking systems, banking platforms, and productivity platforms really a coincidence? There's actually likely something deeper going on, cybersecurity experts say.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 6,
+   "category": "safety_ethics",
+   "story_key": "ai-agent-tech-outages-investigation",
+   "topic_key": "ai-infrastructure-risks",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "کابوس ایجنت‌های خودمختار؛ آیا قطعی‌های اخیر بانک‌ها و پروازها تقصیر هوش مصنوعی است؟",
+   "one_liner_fa": "کارشناسان امنیت سایبری هشدار می‌دهند قطعی‌های زنجیره‌ای سامانه‌های بانکی و مسافرتی ناشی از رفتارهای پیش‌بینی‌نشده ایجنت‌های خودکار هوش مصنوعی است.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "52653ae3ad"
+  },
+  {
+   "title": "The unfolding Jensen Huang scandal: a timeline",
+   "url": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+   "source": "TechCrunch",
+   "published": "2026-11-19T20:18:49+00:00",
+   "origin": "TechCrunch",
+   "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 5,
+   "category": "big_tech",
+   "story_key": "jensen-huang-scandal-timeline",
+   "topic_key": "nvidia-leadership-crisis",
+   "already_reported": true,
+   "viral": 6,
+   "title_fa": "روایت کامل بحران انویدیا؛ پشت‌پرده رسوایی و استعفای شوکه‌کننده جن‌سن هوانگ",
+   "one_liner_fa": "گاه‌شمار کامل رسوایی و کناره‌گیری جن‌سن هوانگ از مدیریت انویدیا و تأثیر آن بر رقابت حساس زیرساخت‌های هوش مصنوعی میان آمریکا و چین منتشر شد.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "2fc737ddb9"
+  },
+  {
+   "title": "Anthropic’s IPO could deliver $156B to charity",
+   "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/",
+   "source": "TechCrunch",
+   "published": "2026-11-19T19:10:45+00:00",
+   "origin": "TechCrunch",
+   "summary": "At a stock price of $95, the frontier lab's Public Benefit Foundation, its employee donations, and the company's match tot up to $156 billion.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 6,
+   "category": "business_funding",
+   "story_key": "anthropic-ipo-charity-fund",
+   "topic_key": "anthropic-ipo",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "خیریه ۱۵۶ میلیارد دلاری! رکورد تاریخی بنیاد عام‌المنفعه آنتروپیک پس از ورود به بورس",
+   "one_liner_fa": "جهش ارزش سهام آنتروپیک در وال‌استریت باعث شد ارزش صندوق خیریه و عام‌المنفعه این شرکت به رقم باورنکردنی ۱۵۶ میلیارد دلار برسد.",
+   "deep": {},
+   "alert": {},
+   "alerted": true,
+   "id": "e22812a5cc"
+  },
+  {
+   "title": "Job posting seemingly confirms Apple is working on its own AI agent for coding and other tasks",
+   "url": "https://www.engadget.com/2322586/job-posting-seemingly-confirms-apple-is-working-on-its-own-ai-agent-for-coding-and-other-tasks/",
+   "source": "Engadget",
+   "published": "2026-11-20T00:03:22+00:00",
+   "origin": "Engadget",
+   "summary": "Apple is is hiring a senior engineering manager to build \"capable, reliable and safe\" agentic tools.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/job-posting-seemingly-confirms-apple-is-working-on-its-own-ai-agent-for-coding-and-other-tasks/l-intro-1795132872.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 8,
+   "category": "product_launch",
+   "story_key": "apple-mac-ai-agent",
+   "topic_key": "apple-ai-agents",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "آگهی استخدامی که دست اپل را رو کرد: ساخت ایجنت‌های هوش مصنوعی برای کدنویسی و انجام خودکار کارها!",
+   "one_liner_fa": "انتشار یک آگهی استخدام مدیر مهندسی در اپل رسماً تأیید کرد که این غول فناوری روی ساخت ابزارهای ایجنتی هوش مصنوعی ایمن و قدرتمند کار می‌کند.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "ec53639aac"
+  },
+  {
+   "title": "Meta's Muse Charm will reportedly cost $300 and come with free Verizon 5G",
+   "url": "https://www.engadget.com/2322541/metas-muse-charm-will-reportedly-cost-300-and-come-with-free-verizon-5g/",
+   "source": "Engadget",
+   "published": "2026-11-19T22:56:42+00:00",
+   "origin": "Engadget",
+   "summary": "Meta's standalone AI gadget won't be cheap, but it might come with a free data plan.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/metas-muse-charm-will-reportedly-cost-300-and-come-with-free-verizon-5g/l-intro-1795128747.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "hardware_chips",
+   "story_key": "meta-muse-charm-wearable",
+   "topic_key": "meta-hardware",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "گجت هوش مصنوعی ۳۰۰ دلاری متا با اینترنت رایگان 5G در راه است!",
+   "one_liner_fa": "دستگاه هوش مصنوعی پوشیدنی Muse Charm متا با قیمت ۳۰۰ دلار و اشتراک اینترنت پرسرعت 5G بدون هزینه اضافی به بازار می‌آید.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "fbfbc65027"
+  },
+  {
+   "title": "Employees call out Google over AI Search in schools",
+   "url": "https://www.engadget.com/2322304/employees-call-out-google-over-ai-search-in-schools/",
+   "source": "Engadget",
+   "published": "2026-11-19T20:00:12+00:00",
+   "origin": "Engadget",
+   "summary": "The Alphabet Workers Union voiced concern over Google requiring its AI tools be bundled with Search.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/employees-call-out-google-over-ai-search-in-schools/l-intro-1795118178.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 6,
+   "category": "safety_ethics",
+   "story_key": "google-ai-search-schools-pushback",
+   "topic_key": "google-search-ai",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "d16980a105"
+  },
+  {
+   "title": "Ubisoft lays off 166 more workers, opens a generative AI studio",
+   "url": "https://www.engadget.com/2322205/ubisoft-lays-off-166-more-workers-opens-a-generative-ai-studio/",
+   "source": "Engadget",
+   "published": "2026-11-19T19:06:04+00:00",
+   "origin": "Engadget",
+   "summary": "Even Rockstar developers fear layoffs, as GTA 6 rakes in billions of dollars.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/ubisoft-lays-off-166-more-workers-opens-a-generative-ai-studio/l-intro-1795114771.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/ubisoft-lays-off-166-more-workers-opens-a-generative-ai-studio/intro-1795114771.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/ubisoft-lays-off-166-more-workers-opens-a-generative-ai-studio/ubisofts-cuts-continue-1795114772.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/ubisoft-lays-off-166-more-workers-opens-a-generative-ai-studio/even-rockstar-devs-are-worried-1795114774.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 8,
+   "category": "business_funding",
+   "story_key": "ubisoft-layoffs-generative-ai-studio",
+   "topic_key": "ai-gaming-impact",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "تناقض در صنعت گیم: یوبیسافت ۱۶۶ کارمند دیگر را اخراج و استودیوی هوش مصنوعی مولد تاسیس کرد",
+   "one_liner_fa": "یوبی‌سافت موج جدیدی از تعدیل نیرو را کلید زد و هم‌زمان استودیوی جدیدی با محوریت کامل هوش مصنوعی مولد برای بازی‌سازی افتتاح کرد.",
+   "deep": {
+    "id": "be60bc7553",
+    "title_fa": "تناقض در صنعت گیم: یوبیسافت ۱۶۶ کارمند دیگر را اخراج و استودیوی هوش مصنوعی مولد تاسیس کرد",
+    "summary_fa": "شرکت بازی‌سازی یوبیسافت (Ubisoft) موج جدیدی از تعدیل نیرو را آغاز کرده و ۱۶۶ کارمند خود در استودیوهای مونترال و کبک را اخراج کرد. هم‌زمان با این اخراج‌ها، یوبیسافت یک استودیوی فرعی جدید به نام مادربِرین (Motherbrain) با تمرکز کامل روی ساخت نوآوری‌های گیم‌پلی بر پایه هوش مصنوعی مولد تأسیس کرده است. این روند نگران‌کننده به یوبیسافت محدود نیست و حتی سازندگان بازی بزرگ GTA 6 در راکستار نیز نگران امنیت شغلی خود هستند.",
+    "key_points_fa": [
+     "اخراج ۱۶۶ کارمند از بخش‌های تولید و پشتیبانی یوبیسافت پس از کاهش ۱۱۰۰ نیرویی در ماه‌های قبل.",
+     "افتتاح استودیوی جدید «Motherbrain» که روی هوش مصنوعی مولد برای بازی‌ها کار می‌کند.",
+     "استودیوی مادربِرین پیش از این تجربه Teammates را به عنوان اولین تجربه تعاملی بازی مبتنی بر AI یوبیسافت ساخته بود.",
+     "اخراج حدود یک‌سوم پرسنل در استودیوی فیراکسیس (Firaxis) سازنده Civilization.",
+     "طبق نظرسنجی کنفرانس بازی‌سازان (GDC)، از هر ۳ کارمند صنعت بازی ۱ نفر در دو سال اخیر اخراج شده و ۵۵ درصد معتقدند هوش مصنوعی اثر منفی روی صنعت دارد."
+    ],
+    "why_it_matters_fa": "صنعت بازی‌سازی نقطه تلاقی بارز بحران جایگزینی هوش مصنوعی است؛ شرکت‌ها با اخراج پرسنل انسانی، بودجه‌ها را به ساخت استودیوهای هوش مصنوعی اختصاص می‌دهند که هشداری جدی برای بازار کار متخصصان خلاق است.",
+    "content_ideas": [
+     {
+      "format": "پست",
+      "title_fa": "اخراج توسعه‌دهنده‌ها به نام هوش مصنوعی مولد!",
+      "hook_fa": "اخراج انسان‌ها و استخدام هوش مصنوعی رسماً در صنعت بازی شروع شد!",
+      "angle_fa": "بررسی دوگانگی تلخ استودیوهای بازی‌سازی؛ سودهای میلیاردی و اخراج بی‌رحمانه نیروها به نفع استودیوهای AI.",
+      "outline_fa": [
+       "خبر اخراج ۱۶۶ کارمند یوبیسافت درست پس از موفقیت‌های اخیر",
+       "معرفی استودیوی اختصاصی هوش مصنوعی Motherbrain توسط یوبیسافت",
+       "ترس حتی در بین سازندگان GTA 6 و رای‌گیری تاریخی اتحادیه کارگری",
+       "آمار تکان‌دهنده GDC: اخراج یک‌سوم نیروهای صنعت گیم طی ۲ سال"
+      ],
+      "visual_tip_fa": "ترکیب لوگوی یوبیسافت با گرافیک مغز مصنوعی/کد، و استفاده از تصویر شات‌های اعتراضی یا اسکرین‌شات خبر اخراج‌ها."
+     },
+     {
+      "format": "ریلز",
+      "title_fa": "چرا سازندگان بازی‌های موردعلاقه‌مون دارن اخراج میشن؟",
+      "hook_fa": "حتی سازنده‌های GTA 6 هم از هوش مصنوعی و اخراج شدن وحشت دارن!",
+      "angle_fa": "روایت دراماتیک از اینکه چطور رویای کار در صنعت گیم در حال برخورد با دیوار سخت هوش مصنوعی مولد است.",
+      "outline_fa": [
+       "فروش ۲ میلیارد دلاری بازی‌ها در برابر ناامنی شغلی توسعه‌دهندگان",
+       "اقدام یوبیسافت: بستن استودیوهای انسانی و تأسیس استودیو AI",
+       "نظر بازیسازان: ۵۵٪ توسعه‌دهندگان هوش مصنوعی را تهدید می‌دانند",
+       "آینده بازی‌ها: آیا بازی‌های آینده را کدهای خودکار می‌سازند؟"
+      ],
+      "visual_tip_fa": "تصاویر تریلر GTA 6 و بازی‌های یوبیسافت کات خورده به نمودارهای اخراج و معرفی ابزار Teammates."
+     }
+    ],
+    "hashtags": [
+     "#بازی",
+     "#گیمینگ",
+     "#یوبیسافت",
+     "#اخراج",
+     "#هوش_مصنوعی_مولد",
+     "#Ubisoft",
+     "#Gaming",
+     "#GenerativeAI"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "be60bc7553"
+  },
+  {
+   "title": "Anthropic is now a public company worth more than $1 trillion",
+   "url": "https://www.engadget.com/2322144/anthropic-is-now-a-public-company-worth-more-than-1-trillion/",
+   "source": "Engadget",
+   "published": "2026-11-19T18:41:26+00:00",
+   "origin": "Engadget",
+   "summary": "The company was briefly valued at more than $2 trillion.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/anthropic-is-now-a-public-company-worth-more-than-1-trillion/l-intro-1795113508.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 8,
+   "worthiness": 7,
+   "category": "business_funding",
+   "story_key": "anthropic-nasdaq-debut-valuation",
+   "topic_key": "anthropic-ipo",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "آنتروپیک رسماً تریلیون دلاری شد؛ استقبال انفجاری وال‌استریت از غول هوش مصنوعی کلاود",
+   "one_liner_fa": "با آغاز معاملات عمومی در بورس نزدک، ارزش آنتروپیک از مرز یک تریلیون دلار عبور کرد و حتی برای لحظاتی سقف ۲ تریلیون دلار را لمس کرد.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "95a10ad929"
+  },
+  {
+   "title": "PostgreSQL 19 Released",
+   "url": "https://simonwillison.net/2026/Nov/19/postgresql-19/",
+   "source": "Simon Willison",
+   "published": "2026-11-19T20:43:57+00:00",
+   "origin": "Simon Willison",
+   "summary": "PostgreSQL 19 Released Most years PostgreSQL ships a new release in September, but this year's release came two months later thanks mainly to the flurry of issues that the PostgreSQL team needed to address as part of the ongoing AI-reported vulnerability apocalypse. This release was definitely worth the wait. My favorite new feature is this one: For applications that send reads to standbys, PostgreSQL 19 adds \"read-your-writes\" consistency with the new WAIT FOR LSN command. A session on a standby can use WAIT FOR LSN to wait until the standby has replayed the write-ahead log (WAL) up to a spec",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 4,
+   "category": "open_source",
+   "story_key": "postgresql-19-released",
+   "topic_key": "database-software",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "4ba1303d2e"
+  },
+  {
+   "title": "Anthropic’s Nasdaq debut",
+   "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+   "source": "reuters.com",
+   "published": "2026-11-19T17:02:40+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 908 امتیاز، 1792 کامنت",
+   "signal_value": 908,
+   "discussion_url": "https://news.ycombinator.com/item?id=50562754",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/anthropic-is-now-a-public-company-worth-more-than-1-trillion/l-intro-1795113508.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [
+    "Engadget"
+   ],
+   "importance": 8,
+   "worthiness": 7,
+   "category": "business_funding",
+   "story_key": "anthropic-nasdaq-debut-valuation",
+   "topic_key": "anthropic-ipo",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "شروع تاریخی آنتروپیک در نزدک؛ استقبال طوفانی سرمایه‌گذاران از سازنده Claude",
+   "one_liner_fa": "سهام آنتروپیک برای اولین بار در بورس نزدک معامله شد و رکورد شگفت‌انگیزی را در میان استارتاپ‌های دنیای هوش مصنوعی ثبت کرد.",
+   "deep": {},
+   "alert": {},
+   "alerted": true,
+   "id": "bab1a902fa"
+  },
+  {
+   "title": "Pancreatic cancer halted by virus injection in three patients",
+   "url": "https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/",
+   "source": "newscientist.com",
+   "published": "2026-11-19T17:25:33+00:00",
+   "origin": "Hacker News",
+   "summary": "https://archive.ph/2Et0x",
+   "lang": "en",
+   "signal": "Hacker News: 587 امتیاز، 88 کامنت",
+   "signal_value": 587,
+   "discussion_url": "https://news.ycombinator.com/item?id=50563066",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.newscientist.com/wp-content/uploads/2026/05/28111438/SEI_299218241.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.newscientist.com/wp-content/uploads/2026/05/28111438/SEI_299218241.jpg?w=840",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/1440",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.newscientist.com/wp-content/uploads/2025/10/17174633/SEI_270615868.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 8,
+   "worthiness": 8,
+   "category": "research",
+   "story_key": "pancreatic-cancer-halted-virus-injection",
+   "topic_key": "medical-biotech-breakthroughs",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "توقف کشنده‌ترین سرطان در ۳ بیمار با تزریق ویروس مهندسی‌شده",
+   "one_liner_fa": "پزشکان در درمانی انقلابی موفق شدند پیشرفت سرطان کشنده پانکراس را در سه بیمار با تزریق یک ویروس مهندسی‌شده به‌طور کامل متوقف کنند.",
+   "deep": {
+    "id": "c48c7c4225",
+    "title_fa": "توقف کشنده‌ترین سرطان در ۳ بیمار با تزریق ویروس مهندسی‌شده",
+    "summary_fa": "در یک کارآزمایی بالینی در دانشگاه مینه‌سوتا (University of Minnesota)، تزریق ویروس اصلاح‌شده ژنتیکی رشد سرطان پانکراس (لوزالمعده) را در سه بیمار متوقف کرد. این بیماری که به سختی تومورها و مقاومت در برابر شیمی‌درمانی معروف است، با دوز پایینی از آدنوویروس مهندسی‌شده تحت کنترل درآمد و تومورهای بیماران برای یک سال بدون رشد مانده است. پزشکان امیدوارند با افزایش دوز و ترکیب با ایمونوتراپی، تومورها شروع به کوچک شدن کنند.",
+    "key_points_fa": [
+     "سرطان لوزالمعده معمولاً باعث مرگ بیماران در مدت ۳ تا ۶ ماه پس از تشخیص می‌شود.",
+     "درمان توسط ماساتو یاماموتو (Masato Yamamoto) در دانشگاه مینه‌سوتا توسعه یافته است.",
+     "دوز مصرفی تنها یک‌دهم دوز نهایی مورد نظر بوده و فقط برای بررسی ایمنی تزریق شده بود.",
+     "ویروس مورد استفاده، یک آدنوویروس اصلاح‌شده ژنتیکی است که فقط داخل سلول‌های سرطانی با آنزیم COX-2 تکثیر می‌شود و آن‌ها را منفجر می‌کند.",
+     "آزمایش در فاز اولیه روی ۳ بیمار انجام شده و قرار است روی ۱۵ بیمار دیگر با دوز بالاتر آزمایش شود."
+    ],
+    "why_it_matters_fa": "سرطان پانکراس یکی از مرگبارترین و غیرقابل‌درمان‌ترین تومورها است؛ هر روزنه امیدی برای متوقف کردن رشد آن نشانه‌ای از تحول جدی در درمان‌های بیوتکنولوژی و ویروس‌درمانی هدفمند به حساب می‌آید.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "مهار کشنده‌ترین سرطان با یک ویروس دستکاری‌شده!",
+      "hook_fa": "باورنکردنیه؛ دانشمندان برای کشتن سرطان پانکراس، ویروس رو مهندسی ژنتیک کردن!",
+      "angle_fa": "توضیح تکنولوژی پشت این درمان: ویروسی که مثل بمب ساعتی فقط وارد سلول سرطانی میشه و می‌ترکوندش.",
+      "outline_fa": [
+       "معرفی سرطان پانکراس و این‌که چرا مثل سنگ سفته و دارو داخلش نمیره",
+       "ایده جذاب محققان: استفاده از ویروس سرماخوردگیِ دستکاری‌شده",
+       "نتایج آزمایش: ۳ بیمار که با یک‌دهم دوز رشد سرطانشون متوقف شد",
+       "قدم بعدی دانشمندان برای دوزهای بالاتر و کوچک کردن تومور"
+      ],
+      "visual_tip_fa": "انیمیشن‌های علمی از حمله ویروس به سلول سرطانی و متلاشی شدنش همراه با ویدیوی صحبت‌های محققان در کنفرانس."
+     },
+     {
+      "format": "پست",
+      "title_fa": "امید تازه در درمان سرطان: ویروس‌درمانی چطور کار می‌کند؟",
+      "hook_fa": "وقتی ویروس‌ها به جای بیماری، جان بیماران سرطانی را نجات می‌دهند.",
+      "angle_fa": "بررسی روش‌شناسی دقیق علمی و رعایت مرز احتیاط (فازهای آزمایشی) برای آگاهی‌بخشی بدون دادن امید کاذب.",
+      "outline_fa": [
+       "توضیح مکانیزم فعال‌سازی ویروس توسط آنزیم COX-2 فقط درون سلول سرطانی",
+       "نحوه رساندن ویروس به تومور با لوله نازک مجهز به سونوگرافی از راه گلو",
+       "اظهار نظر محتاطانه پزشکان درباره لزوم فاز ۳ بالینی",
+       "ترکیب آینده این روش با ایمونوتراپی برای نتایج بهتر"
+      ],
+      "visual_tip_fa": "تصویر میکروسکوپی آدنوویروس و اینفوگرافیک ساده از نحوه عملکرد هدفمند در لوزالمعده."
+     }
+    ],
+    "hashtags": [
+     "#پزشکی",
+     "#بیوتکنولوژی",
+     "#درمان_سرطان",
+     "#تکنولوژی_پزشکی",
+     "#سرطان_پانکراس",
+     "#CancerResearch",
+     "#Biotech"
+    ],
+    "caution_fa": "نتایج بسیار زودهنگام و روی تنها ۳ بیمار در فاز تست ایمنی انجام شده و هنوز گروه کنترل (Control group) نداشته است. نباید به عنوان درمان قطعی یا نهایی معرفی شود."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "c48c7c4225"
+  },
+  {
+   "title": "UK government forced to admit it issued Apple a secret encryption order",
+   "url": "https://macanorak.com/uk-government-forced-to-admit-it-issued-apple-a-secret-encryption-order/",
+   "source": "macanorak.com",
+   "published": "2026-11-19T16:21:03+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 504 امتیاز، 210 کامنت",
+   "signal_value": 504,
+   "discussion_url": "https://news.ycombinator.com/item?id=50562113",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 7,
+   "category": "policy_regulation",
+   "story_key": "uk-secret-encryption-order-apple",
+   "topic_key": "tech-encryption-battles",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "رسوایی امنیتی در بریتانیا: دستور محرمانه دولت به اپل برای شکستن رمزنگاری پیام‌ها لو رفت!",
+   "one_liner_fa": "دولت بریتانیا مجبور به اعتراف شد که دستوری مخفیانه برای دسترسی به پیام‌های رمزگذاری‌شده کاربران به اپل صادر کرده است.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "3580245413"
+  },
+  {
+   "title": "Claude solves two open problems in the physics of black holes",
+   "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+   "source": "anthropic.com",
+   "published": "2026-11-19T17:30:44+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 379 امتیاز، 179 کامنت",
+   "signal_value": 379,
+   "discussion_url": "https://news.ycombinator.com/item?id=50563148",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://assets.claude.com/57a443b51d13727573b7c1290130d09c5f434b2c.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://assets.claude.com/6d8063c48d1b3397632daa51c8240476aad8cba3.jpg?w=1920&q=75&fm=webp&fit=max",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://assets.claude.com/2119f27c7247c0d4f5a23749c13014bff2a6ceae.png?w=3840&q=75&fm=webp&fit=max",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://assets.claude.com/1993547fd83090335eb0e476fdf049fb340a9422.png?w=3840&q=75&fm=webp&fit=max",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://assets.claude.com/d913081b89811f38ba99ed3b443810f802c4895c.png?w=3840&q=75&fm=webp&fit=max",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://assets.claude.com/0aaa39ce8e656316eb9cc8febaedbbe561a83e4f.png?w=3840&q=75&fm=webp&fit=max",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://assets.claude.com/9af4b5104bd6e996b926897d822e83232e5644ff.png?w=3840&q=75&fm=webp&fit=max",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 8,
+   "worthiness": 8,
+   "category": "research",
+   "story_key": "claude-solves-black-hole-physics-problems",
+   "topic_key": "ai-scientific-discovery",
+   "already_reported": false,
+   "viral": 8,
+   "title_fa": "دستاورد بزرگ انتروپیک: هوش مصنوعی کلود دو معمای حل‌نشده فیزیک سیاه‌چاله‌ها را حل کرد",
+   "one_liner_fa": "آنتروپیک اعلام کرد مدل هوش مصنوعی کلاود موفق شده دو مسئله باز و پیچیده ریاضی در حوزه فیزیک سیاه‌چاله‌ها را با موفقیت حل کند.",
+   "deep": {
+    "id": "be373132dc",
+    "title_fa": "دستاورد بزرگ انتروپیک: هوش مصنوعی کلود دو معمای حل‌نشده فیزیک سیاه‌چاله‌ها را حل کرد",
+    "summary_fa": "شرکت انتروپیک (Anthropic) اعلام کرد که مدل هوش مصنوعی کلود توانسته دو مسئله باز و حل‌نشده در فیزیک نظری و سیاه‌چاله‌ها را که به نظریه گرانش کوانتومی مربوط می‌شوند حل کند. در مسئله اول، کلود محاسباتی را کامل کرد که فیزیکدانان بیش از ۲۰ سال پیش آغاز کرده بودند و اثبات کرد تغییر فاز در تشکیل سیاه‌چاله ناگهانی است، حتی در جایی که فضا-زمان شکل معینی ندارد. در مسئله دوم نیز کلود با کشف الگویی پنهان، سقف دقیق برای سبک‌ترین سیاه‌چاله ممکن را به روش بوت‌استرپ اثبات کرد.",
+    "key_points_fa": [
+     "پژوهش توسط هونگ‌بین چن (Hongbin Chen) از محققان انتروپیک از طریق راه‌اندازی شبکه‌ای از ایجنت‌های کلود آغاز شد.",
+     "حل محاسبات ۲۰ ساله (مطرح‌شده در سال ۲۰۰۳) درباره تغییر فاز ناگهانی سیاه‌چاله‌ها مشابه کشف هاوکینگ و پیج در ۱۹۸۳.",
+     "اثبات مرز دقیق برای سبک‌ترین سیاه‌چاله در جهان نظری دو‌بعدی با استفاده از نسخه Claude Fable 5.2.",
+     "سیستم با اجرای نسخه‌های موازی از خودش نقش یک تیم تحقیقاتی مستقل را بازی کرده است.",
+     "این نتایج در قالب مقالات پیش‌نویس (Preprints) منتشر شده و به تلاش برای اتصال نسبیت عام و مکانیک کوانتومی کمک می‌کند."
+    ],
+    "why_it_matters_fa": "این اتفاق جهشی تاریخی است؛ هوش مصنوعی دیگر فقط یک دستیار برای کدنویسی نیست، بلکه رسماً در حال پیشبرد مرزهای علم فیزیک بنیادی و حل معماهایی است که دو دهه فیزیکدانان را متوقف کرده بودند.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "وقتی هوش مصنوعی فیزیکدان‌ها را شوکه می‌کند!",
+      "hook_fa": "این شوخی نیست؛ کلود بالاخره معمای ۲۰ ساله سیاه‌چاله‌ها رو حل کرد!",
+      "angle_fa": "توضیح ساده و شگفت‌انگیز اینکه چطور چند ایجنت کلود با همکاری هم مرزهای علم گرانش کوانتومی رو جابه‌جا کردند.",
+      "outline_fa": [
+       "طرح سوال: اتصال فیزیک کوانتوم و نسبیت عام و بن‌بست ۲۰ ساله فیزیکدان‌ها",
+       "روش کار: انتروپیک چطور با چند ایجنت هوش مصنوعی تیم تحقیقاتی ساخت",
+       "نتیجه کشف: تایید فیزیک سیاه‌چاله و پیدا کردن مرز جدید ریاضی",
+       "نتیجه‌گیری: هوش مصنوعی از کارهای روزمره وارد اکتشافات بنیادین جهان شده"
+      ],
+      "visual_tip_fa": "استفاده از شبیه‌سازی سیاه‌چاله، لوگوی انتروپیک و اسکرین‌شات نمودارها و فرمول‌های منتشرشده در مقاله رسمی Anthropic."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "کلود چطور دو معمای حل‌نشده فیزیک را حل کرد؟ به زبان ساده",
+      "hook_fa": "فیزیکدانان ۲۰ سال نتوانستند این محاسبه را تمام کنند، کلود با ایجنت‌هایش حلش کرد!",
+      "angle_fa": "شکستن مفاهیم پیچیده مثل گرانش کوانتومی و دوگانگی هولوگرافیک به زبان فوق‌العاده ساده برای مخاطب عام.",
+      "outline_fa": [
+       "اسلاید ۱: معرفی دستاورد تاریخی انتروپیک و مدل کلود",
+       "اسلاید ۲: مسئله اول؛ پدیده جوشیدن فضا و تغییر فاز سیاه‌چاله",
+       "اسلاید ۳: مسئله دوم؛ متد بوت‌استرپ و سقف سبک‌ترین سیاه‌چاله",
+       "اسلاید ۴: متدولوژی جذاب انتروپیک؛ تیم هوش مصنوعی چندنفره",
+       "اسلاید ۵: جمع‌بندی؛ آیا به زودی نظریه همه‌چیز توسط AI کشف می‌شود؟"
+      ],
+      "visual_tip_fa": "گرافیک‌های مینیمال تیره (فضایی) با استفاده از تصاویر مفهومی مقاله انتروپیک از فضا-زمان و مدل‌های کوانتومی."
+     }
+    ],
+    "hashtags": [
+     "#هوش_مصنوعی",
+     "#کلود",
+     "#انتروپیک",
+     "#فیزیک_کوانتوم",
+     "#سیاهچاله",
+     "#Anthropic",
+     "#ClaudeAI",
+     "#Physics"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "be373132dc"
+  },
+  {
+   "title": "Do not buy RAM, compress",
+   "url": "https://curiousbits.nl/blog/do-not-buy-ram-compress/",
+   "source": "curiousbits.nl",
+   "published": "2026-11-19T08:56:47+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 255 امتیاز، 209 کامنت",
+   "signal_value": 255,
+   "discussion_url": "https://news.ycombinator.com/item?id=50557661",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 6,
+   "category": "other_tech",
+   "story_key": "ram-compression-techniques",
+   "topic_key": "hardware-optimization",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "2649ff1839"
+  }
+ ],
+ "failed_sources": [],
+ "models": [
+  "gemini-3.8-flash",
+  "gemini-3.8-flash"
+ ]
+}
