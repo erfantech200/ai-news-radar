@@ -281,7 +281,24 @@
   "https://thedataexchange.media/pete-warden-moonshine": "2026-11-20",
   "https://globalcommercegraph.com/writing/the-ninety-eight-percent-slot-machine": "2026-11-20",
   "https://cornholenews.news/": "2026-11-20",
-  "https://maccus.fr/en/cooling-overtaking-heating": "2026-11-20"
+  "https://maccus.fr/en/cooling-overtaking-heating": "2026-11-20",
+  "https://engadget.com/2322656/openai-is-testing-dots-personal-agents-on-its-20-per-month-plus-tier": "2026-11-20",
+  "https://engadget.com/2322650/uber-kids-rides-children-aged-10-to-12-years-old": "2026-11-20",
+  "https://engadget.com/2322647/google-latest-home-page-redesign-makes-gemini-even-more-prominent": "2026-11-20",
+  "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad": "2026-11-20",
+  "https://grapheneos.social/@GrapheneOS/117645038299496084": "2026-11-20",
+  "https://git-aarvin.github.io/mei": "2026-11-20",
+  "https://github.com/openssl/openssl/pull/33652": "2026-11-20",
+  "https://postgresql.org/docs/release/19.0": "2026-11-20",
+  "https://wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87": "2026-11-20",
+  "https://science.org/doi/10.1126/sciadv.aee0802": "2026-11-20",
+  "https://huggingface.co/papers/2611.26444": "2026-11-20",
+  "https://huggingface.co/papers/2611.26409": "2026-11-20",
+  "https://huggingface.co/papers/2611.26595": "2026-11-20",
+  "https://huggingface.co/papers/2611.26107": "2026-11-20",
+  "https://huggingface.co/papers/2611.26380": "2026-11-20",
+  "https://huggingface.co/papers/2611.24869": "2026-11-20",
+  "https://huggingface.co/papers/2611.25387": "2026-11-20"
  },
  "reported": [
   {
@@ -697,6 +714,42 @@
    "title": "Anthropic’s IPO could deliver $156B to charity",
    "title_fa": "خیریه ۱۵۶ میلیارد دلاری! رکورد تاریخی بنیاد عام‌المنفعه آنتروپیک پس از ورود به بورس",
    "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "OpenAI is testing Dots personal agents on its $20 per month Plus tier",
+   "title_fa": "ایجنت‌های خودکار داتس اوپن‌ای‌آی به اشتراک ۲۰ دلاری ChatGPT Plus می‌آیند",
+   "url": "https://engadget.com/2322656/openai-is-testing-dots-personal-agents-on-its-20-per-month-plus-tier"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "Visa, Mastercard and JPMorgan Customer Data Leaked by Hackers",
+   "title_fa": "افشای اطلاعات مشتریان ویزا، مسترکارت و جی‌پی‌مورگان توسط هکرها",
+   "url": "https://wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)",
+   "title_fa": "کشف آسیب‌پذیری بحرانی در OpenSSL با امتیاز ۹.۸",
+   "url": "https://github.com/openssl/openssl/pull/33652"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "Google's latest home page redesign makes Gemini even more prominent",
+   "title_fa": "تغییر بزرگ در ظاهر دسکتاپ گوگل: جمینای پررنگ‌تر از همیشه",
+   "url": "https://engadget.com/2322647/google-latest-home-page-redesign-makes-gemini-even-more-prominent"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "Unblockable communication with gravity",
+   "title_fa": "ارتباطات غیرقابل مسدودسازی با استفاده از گرانش؛ دستاورد جدید دانشمندان",
+   "url": "https://science.org/doi/10.1126/sciadv.aee0802"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "Google is pushing OEMs against GrapheneOS and bootloader unlocking",
+   "title_fa": "فشار گوگل به سازندگان موبایل: قفل کردن بوت‌لودر و مبارزه با سیستم‌عامل‌های امنیتی!",
+   "url": "https://grapheneos.social/@GrapheneOS/117645038299496084"
   }
  ],
  "telegram_chat_id": "925911315"
