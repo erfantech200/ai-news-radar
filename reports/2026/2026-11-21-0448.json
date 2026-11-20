@@ -1,0 +1,1559 @@
+{
+ "content": [
+  {
+   "title": "Anthropic employee claims general proof of the Riemann Hypothesis [pdf]",
+   "url": "https://alpo.ge/remark.pdf",
+   "source": "alpo.ge",
+   "published": "2026-11-20T14:16:21+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 1450 امتیاز، 990 کامنت",
+   "signal_value": 1450,
+   "discussion_url": "https://news.ycombinator.com/item?id=50574968",
+   "media": [],
+   "also_covered_by": [
+    "Simon Willison"
+   ],
+   "importance": 8,
+   "worthiness": 9,
+   "category": "research",
+   "story_key": "claude-riemann-hypothesis-claim",
+   "topic_key": "anthropic-claude-frontier",
+   "already_reported": false,
+   "viral": 9,
+   "title_fa": "ادعای حل فرضیه ریمان توسط پژوهشگر شرکت انتروپیک",
+   "one_liner_fa": "پژوهشگر ارشد آنتروپیک پیش‌نویس اثبات یکی از بزرگ‌ترین مسائل حل‌نشده دنیای ریاضیات را با همکاری مستقیم مدل کلاود منتشر کرد.",
+   "deep": {
+    "id": "bbe099f294",
+    "title_fa": "ادعای حل فرضیه ریمان توسط پژوهشگر شرکت انتروپیک",
+    "summary_fa": "مقاله‌ای تحقیقاتی به صورت عمومی منتشر شده که در آن یکی از کارکنان شرکت انتروپیک (Anthropic)، خالق مدل کلود، ادعای اثبات کلی یکی از بزرگ‌ترین و مشهورترین مسائل حل‌نشده تاریخ ریاضیات یعنی «فرضیه ریمان» (Riemann Hypothesis) را مطرح کرده است. انتشار این فایل PDF بازتاب گسترده‌ای در پلتفرم‌های علمی و توسعه‌دهندگان از جمله هکر نیوز داشته و بحث‌های فراوانی را پیرامون صحت این اثبات پیچیده به راه انداخته است.",
+    "key_points_fa": [
+     "انتشار مقاله اثبات ادعایی توسط یکی از کارکنان کمپانی Anthropic در قالب PDF",
+     "تمرکز پژوهش بر ارائه اثبات جامع برای فرضیه ریمان (از مسائل هزاره در ریاضیات)",
+     "پوشش و توجه جدی چهره‌های مطرح دنیای فناوری نظیر سایمون ویلیسون (Simon Willison)",
+     "موج شدید توجهات در هکر نیوز با کسب بیش از ۱۴۵۰ امتیاز و نزدیک به ۱۰۰۰ کامنت"
+    ],
+    "why_it_matters_fa": "فرضیه ریمان یکی از مهم‌ترین معماهای ریاضیات و پایه‌گذار امنیت رمزنگاری مدرن است؛ اثبات واقعی آن دنیای کامپیوتر و امنیت سایبری را متحول می‌کند.",
+    "content_ideas": [
+     {
+      "format": "استوری",
+      "title_fa": "آیا بزرگ‌ترین معمای ریاضی حل شد؟",
+      "hook_fa": "یکی از محقق‌های انتروپیک ادعا کرده سخت‌ترین مسئله ریاضی جهان رو حل کرده!",
+      "angle_fa": "نگاهی ژورنالیستی و محتاطانه به ادعای حل فرضیه ریمان و بازتاب پر سر و صدای آن.",
+      "outline_fa": [
+       "استوری ۱: فرضیه ریمان چیست و جایزه یک میلیون دلاری آن",
+       "استوری ۲: ادعای اخیر کارمند انتروپیک و انفجار نظرات در Hacker News",
+       "استوری ۳: تاکید بر اینکه تا داوری دقیق علمی (Peer Review) نشه نمی‌تونیم مطمئن باشیم"
+      ],
+      "visual_tip_fa": "عکس صفحه اول مقاله PDF، تصویر معادله تابع زتای ریمان و لوگوی انتروپیک."
+     },
+     {
+      "format": "پست",
+      "title_fa": "زلزله علمی: ادعای اثبات فرضیه ریمان توسط متخصص AI",
+      "hook_fa": "فرضیه ریمان بعد از ۱۶۰ سال بالاخره حل شد؟ بیاید ادعای جنجالی محقق انتروپیک رو بررسی کنیم.",
+      "angle_fa": "ساده‌سازی اهمیت فرضیه ریمان در هوش مصنوعی و امنیت کامپیوترها.",
+      "outline_fa": [
+       "معرفی مسئله ریمان و اهمیت آن در درک اعداد اول و الگوریتم‌های رمزنگاری",
+       "ماجرای انتشار ادعای حل مسئله توسط محقق فعال در شرکت Anthropic",
+       "چرا کامیونیتی علمی هنوز محتاطه؟ (سابقه ادعاهای نادرست در تاریخ ریاضی)",
+       "ارتباط پیشرفت هوش مصنوعی با شتاب گرفتن حل مسائل ناممکن ریاضی"
+      ],
+      "visual_tip_fa": "گرافیک ریاضی سه‌بعدی از توابع زتا و تصویرسازی ذهنی با تایپوگرافی چشم‌گیر «حل معمای قرن؟»"
+     }
+    ],
+    "hashtags": [
+     "#ریاضیات",
+     "#فرضیه_ریمان",
+     "#انتروپیک",
+     "#تکنولوژی",
+     "#Anthropic",
+     "#RiemannHypothesis",
+     "#MathNews"
+    ],
+    "caution_fa": "این خبر فقط یک ادعای منتشرشده در یک فایل PDF است و هنوز توسط مجامع رسمی ریاضیات یا داوری همتا (Peer Review) تایید نشده است. پیش از این ادعاهای نادرست متعددی درباره حل فرضیه ریمان وجود داشته است."
+   },
+   "alert": {},
+   "alerted": true,
+   "id": "bbe099f294"
+  },
+  {
+   "title": "Nothing's AI device debuts December 8, and it looks like two vapes stuck together",
+   "url": "https://www.engadget.com/2323187/nothings-ai-device-debuts-december-8-and-it-looks-like-two-vapes-stuck-together/",
+   "source": "Engadget",
+   "published": "2026-11-20T17:32:02+00:00",
+   "origin": "Engadget",
+   "summary": "Thanks, Swedish House Mafia. I guess.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/nothings-ai-device-debuts-december-8-and-it-looks-like-two-vapes-stuck-together/l-intro-1795195811.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "embed",
+     "url": "https://x.com/Ingrosso/status/2123257000075362791?ref_src=twsrc%5Etfw",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/nothings-ai-device-debuts-december-8-and-it-looks-like-two-vapes-stuck-together/intro-1795195811.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 8,
+   "category": "product_launch",
+   "story_key": "nothing-ai-device-reveal",
+   "topic_key": "nothing-hardware",
+   "already_reported": false,
+   "viral": 8,
+   "title_fa": "افشای اولین گجت هوش مصنوعی ناتینگ؛ معرفی رسمی در ۱۷ آذر",
+   "one_liner_fa": "برند ناتینگ (Nothing) اولین گجت اختصاصی هوش مصنوعی خود را با طراحی نامتعارف و جنجالی به نمایش گذاشت که ۱۸ آذر رسماً عرضه می‌شود.",
+   "deep": {
+    "id": "a26d817d7b",
+    "title_fa": "افشای اولین گجت هوش مصنوعی ناتینگ؛ معرفی رسمی در ۱۷ آذر",
+    "summary_fa": "شرکت ناتینگ (Nothing) به رهبری کارل پی اعلام کرده است که اولین «دستگاه اختصاصی هوش مصنوعی» خود را در تاریخ ۸ دسامبر (۱۷ آذر) رسماً معرفی می‌کند. بر اساس ادعای شرکت، این دستگاه هیچ نمایشگری ندارد و تجربه‌ای ارائه می‌دهد که پیاده‌سازی آن در قالب یک اپلیکیشن امکان‌پذیر نبوده است. در این میان، سباستین اینگروسو، دی‌جی معروف، تصویری از این گجت را در کنار هدفون جدید ناتینگ لو داد؛ دستگاهی با ظاهری بسیار شبیه به دو ویپ متصل‌به‌هم که دست‌کم یک دوربین برای پردازش‌های بصری هوش مصنوعی روی آن به چشم می‌خورد.",
+    "key_points_fa": [
+     "تاریخ رونمایی رسمی دستگاه: ۸ دسامبر (۱۷ آذر)",
+     "طراحی کاملاً بدون نمایشگر (Screenless) با تمرکز کامل بر تعاملات هوش مصنوعی",
+     "لو رفتن زودهنگام تصویر دستگاه توسط سباستین اینگروسو (عضو گروه Swedish House Mafia) در شبکه اجتماعی X",
+     "شباهت ظاهری جنجالی دستگاه به دو ویپ به هم چسبیده",
+     "تعبیه حداقل یک سنسور دوربین روی بدنه جهت قابلیت‌های هوش مصنوعی بصری",
+     "ورود ناتینگ به بازاری که پیش از این شاهد شکست سنگین گجت Humane و عملکرد ضعیف Rabbit R1 بوده است"
+    ],
+    "why_it_matters_fa": "بعد از شکست سنگین گجت‌های پوشیدنی AI مثل Humane و Rabbit، همه منتظرند ببینند آیا ناتینگ با رویکرد طراحی و هایپ اختصاصی خودش می‌تواند سرنوشت متفاوتی برای سخت‌افزارهای هوش مصنوعی رقم بزند یا خیر.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "گجت عجیب ناتینگ؛ دو تا ویپ یا انقلاب هوش مصنوعی؟",
+      "hook_fa": "این ویپ نیست! این عجیب‌ترین گجت هوش مصنوعی سال ۲۰۲۶ هست که ناتینگ قراره بده بیرون!",
+      "angle_fa": "مقایسه طراحی نامتعارف دستگاه و بررسی اینکه آیا این محصول هم قراره مثل خرگوش نارنجی (Rabbit) شکست بخوره یا نه.",
+      "outline_fa": [
+       "نمایش تصویر لو رفته در توییتر و اشاره به شباهت خنده‌دارش به ویپ",
+       "توضیح هدف ناتینگ: دستگاه بدون نمایشگر مبتنی بر هوش مصنوعی",
+       "یادآوری پرونده ناموفق رقبایی مثل Humane و Rabbit",
+       "تاریخ رونمایی در ۱۷ آذر و سوال از مخاطب که آیا حاضر به خریدش هست یا نه"
+      ],
+      "visual_tip_fa": "تصویر توییت لو رفته از Sebastian Ingrosso کنار مک‌بوک و هدفون ناتینگ، کات سریع به تیزرهای مینیمال برند Nothing و عکس‌های Rabbit R1."
+     },
+     {
+      "format": "استوری",
+      "title_fa": "لو رفتن ناگهانی یا ترفند تبلیغاتی کارل پی؟",
+      "hook_fa": "کارل پی باز هم دست به شعبده‌بازی مارکتینگی زد!",
+      "angle_fa": "تحلیل کمپین مارکتینگ هوشمندانه با استفاده از افراد مشهور برای جلب توجه مخاطبان.",
+      "outline_fa": [
+       "استوری ۱: عکس لو رفته توسط دی‌جی سوئدی با استیکر شوک",
+       "استوری ۲: توضیح مشخصات کلیدی (بدون صفحه، دارای دوربین AI)",
+       "استوری ۳: نظرسنجی: به نظرتون مارکتینگ عمدی بود یا سوتی واقعی؟"
+      ],
+      "visual_tip_fa": "اسکرین‌شات توییت سباستین اینگروسو، زوم روی دستگاه و اضافه کردن گیف خنده و استیکر پول."
+     }
+    ],
+    "hashtags": [
+     "#هوش_مصنوعی",
+     "#ناتینگ",
+     "#تکنولوژی",
+     "#گجت_جدید",
+     "#NothingAI",
+     "#CarlPei",
+     "#AIHardware"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "a26d817d7b"
+  },
+  {
+   "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+   "url": "https://architectlabs.com/blog/frostbite",
+   "source": "architectlabs.com",
+   "published": "2026-11-20T10:01:41+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 479 امتیاز، 270 کامنت",
+   "signal_value": 479,
+   "discussion_url": "https://news.ycombinator.com/item?id=50572503",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://main--gleeful-begonia-6bb5f3.netlify.app/_next/static/media/frostbite-cover.3n9ytugnquhlr.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "video",
+     "url": "https://architectlabs.com/blog/frostbite/nqueens-inet-vs-program.mp4",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://architectlabs.com/blog/frostbite/nqueens-inet-vs-program-poster.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "video",
+     "url": "https://architectlabs.com/blog/frostbite/program-zoom.mp4",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://architectlabs.com/blog/frostbite/program-zoom-poster.png",
+     "origin": "article"
+    },
+    {
+     "kind": "video",
+     "url": "https://architectlabs.com/blog/frostbite/arch-source-to-chip-sq.mp4",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://architectlabs.com/blog/frostbite/arch-source-to-chip-sq-poster.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "video",
+     "url": "https://architectlabs.com/blog/frostbite/arch-steal-domains.mp4",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://architectlabs.com/blog/frostbite/arch-steal-domains-poster.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://architectlabs.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffrostbite-cover.3n9ytugnquhlr.jpg&w=3840&q=75",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://architectlabs.com/_next/static/media/process-timeline.35kiqsqt77ga9.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://architectlabs.com/_next/static/media/workload-suite.0d2l3bzeh4gp9.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://architectlabs.com/_next/static/media/lean-web.2cbgtumsblhy-.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://architectlabs.com/_next/static/media/model-alignment.1w2vgrexnx2a5.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://architectlabs.com/_next/static/media/tile-blocks-plain.1gnqiesx7j0kk.png",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 7,
+   "category": "hardware_chips",
+   "story_key": "frostbite-ai-designed-cpu",
+   "topic_key": "ai-chip-design",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "فراست‌بایت: پردازنده‌ای که هوش مصنوعی از صفر طراحی کرد!",
+   "one_liner_fa": "استارتاپ Architect Labs از معماری پردازنده جدیدی به نام Frostbite رونمایی کرد که تمام مراحل کشف، طراحی و راستی‌آزمایی آن توسط هوش مصنوعی انجام شده است.",
+   "deep": {
+    "id": "0000282282",
+    "title_fa": "فراست‌بایت: پردازنده‌ای که هوش مصنوعی از صفر طراحی کرد!",
+    "summary_fa": "استارتاپ Architect Labs از پردازنده جدیدی به نام «فراست‌بایت» (Frostbite) رونمایی کرد که تمام مراحل کشف معماری، طراحی و اعتبارسنجی آن سرتاسر توسط سیستم‌های هوش مصنوعی انجام شده است. این پردازنده عمومی بر پایه شبکه‌های برهم‌کنش (interaction nets) مهندسی شده است. بر اساس ادعای این شرکت، فراست‌بایت می‌تواند عملکرد به ازای هر وات را در مقایسه با هسته‌های مدرن رایج (superscalar dual-issue in-order) تا ۴.۵۹ برابر ارتقا دهد.",
+    "key_points_fa": [
+     "طراحی، کشف ساختار و وریفای کامل پردازنده به شکل End-to-End توسط سامانه‌های AI",
+     "نام معماری پردازنده: فراست‌بایت (Frostbite)",
+     "طراحی بر مبنای پارادایم محاسباتی interaction nets به عنوان CPU همه‌منظوره",
+     "دستیابی به ۴.۵۹ برابر راندمان مصرف انرژی و عملکرد به ازای وات نسبت به هسته‌های متعارف مشابه"
+    ],
+    "why_it_matters_fa": "این یک نقطه عطف تاریخی است: هوش مصنوعی دیگر فقط کدنویسی نمی‌کند، بلکه در حال طراحی مغز متفکر کامپیوترهای آینده با بهینه‌سازی غیرممکن برای انسان است.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "وقتی هوش مصنوعی پردازنده خودش رو می‌سازه!",
+      "hook_fa": "هوش مصنوعی بالاخره تونست اولین پردازنده واقعی خودش رو بسازه؛ با ۴.۵ برابر بازدهی بیشتر!",
+      "angle_fa": "روایت پدیده خودکارسازی سخت‌افزار توسط هوش مصنوعی و تغییر بنیادین معماری چیپ‌ها.",
+      "outline_fa": [
+       "طرح سوال: اگه AI خودش برای خودش CPU بسازه چی میشه؟",
+       "معرفی پروژه Frostbite از تیم Architect Labs",
+       "شرح برتری خیره‌کننده ۴.۵ برابری در مصرف انرژی به لطف هوش مصنوعی",
+       "تاثیر این کشف بر آینده دیتاسنترها و سرعت سوپرکامپیوترها"
+      ],
+      "visual_tip_fa": "نمایش انیمیشن‌ها و ویدیوهای شبیه‌سازی میکرومعماری پردازنده از سایت architectlabs.com و استفاده از نمودارهای بنچمارک مصرف انرژی."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "همه چیز درباره Frostbite؛ معماری خلق‌شده توسط هوش مصنوعی",
+      "hook_fa": "مهندسی پردازنده برای همیشه دگرگون شد؛ معرفی CPU تماماً طراحی‌شده توسط AI!",
+      "angle_fa": "بررسی فنی و ساده‌سازی مبحث معماری interaction nets برای علاقه‌مندان به سخت‌افزار.",
+      "outline_fa": [
+       "اسلاید ۱: معرفی نام محصول Frostbite و مشخصه ۴.۵۹ برابری راندمان",
+       "اسلاید ۲: مفهوم طراحی End-to-End توسط AI (از کانسپت تا وریفای)",
+       "اسلاید ۳: چرا معماری‌های سنتی دارن به بن‌بست می‌رسن؟",
+       "اسلاید ۴: آینده تراشه‌سازی و همکاری هوش مصنوعی با صنایع نیمه‌هادی"
+      ],
+      "visual_tip_fa": "تصاویر و دیاگرام‌های فنی ۱۱ گانه موجود در مقاله مبدا، نمایش بصری تفاوت Interaction Nets با معماری قدیمی."
+     }
+    ],
+    "hashtags": [
+     "#سخت_افزار",
+     "#هوش_مصنوعی",
+     "#فراست_بایت",
+     "#پردازنده",
+     "#FrostbiteCPU",
+     "#HardwareAI",
+     "#DeepTech"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": true,
+   "id": "0000282282"
+  },
+  {
+   "title": "The fallout from Nvidia’s Jensen Huang scandal continues",
+   "url": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/",
+   "source": "TechCrunch",
+   "published": "2026-11-20T14:55:44+00:00",
+   "origin": "TechCrunch",
+   "summary": "In the midst of dealing with the fallout from its ouster of CEO Jensen Huang, Nvidia delivered its latest earnings report this week, with healthy growth and promises that the good times will continue. At the same time, the chipmaker said it will stop selling its H200 chips in China, and it dismissed calls to […]",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang.jpg?w=1024",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2022/08/TheresaL-Profile-pic.jpg?w=150",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2021/01/vtobb68s1b8yujb2lsfk.jpg?w=150",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2021/08/Screen-Shot-2021-08-18-at-12.33.03-PM.png?w=150",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2025/01/ElevenLabs-co-founders.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2026/03/ASW-Chip_tour-servers.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 7,
+   "category": "big_tech",
+   "story_key": "nvidia-post-huang-fallout",
+   "topic_key": "nvidia-leadership-crisis",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "بحران در انویدیا؛ پیامدهای عزل جنسان هوانگ و توقف فروش تراشه به چین",
+   "one_liner_fa": "انویدیا در میان پس‌لرزه‌های برکناری جن‌سن هوانگ، از توقف فروش تراشه‌های هوش مصنوعی H200 به چین هم‌زمان با گزارش مالی جدید خود خبر داد.",
+   "deep": {
+    "id": "f0e77c900b",
+    "title_fa": "بحران در انویدیا؛ پیامدهای عزل جنسان هوانگ و توقف فروش تراشه به چین",
+    "summary_fa": "پس از تصمیم شوکه‌کننده هیئت‌مدیره انویدیا مبنی بر برکناری جنسان هوانگ، مدیرعامل سرشناس این شرکت، پیامدهای این بحران همچنان ادامه دارد. انویدیا در آخرین گزارش مالی خود ضمن اعلام رشد مطلوب، به طور قطعی بازگشت هوانگ به صندلی مدیریت را رد کرد. همزمان، این غول تراشه‌سازی اعلام کرد فروش تراشه‌های هوش مصنوعی H200 به چین را متوقف می‌کند؛ تصمیمی که در آستانه ورود انتروپیک (Anthropic) به بازار بورس، صنعت هوش مصنوعی را در هاله‌ای از ابهام برده است.",
+    "key_points_fa": [
+     "رد رسمی درخواست‌ها برای بازگشت جنسان هوانگ (Jensen Huang) به عنوان مدیرعامل انویدیا",
+     "گزارش مالی قدرتمند با رشد مناسب علیرغم تلاطم‌های مدیریتی شدید",
+     "تصمیم رسمی انویدیا برای توقف کامل فروش تراشه‌های قدرتمند H200 در بازار چین",
+     "تاثیر بحران‌های انویدیا بر مدل‌های مالی صنعت AI همزمان با عرضه عمومی اولیه (IPO) شرکت Anthropic"
+    ],
+    "why_it_matters_fa": "انویدیا ستون اصلی زیرساخت هوش مصنوعی در جهان است؛ هرگونه بی‌ثباتی در رهبری این شرکت یا محدودیت فروش تراشه‌ها به بازار چین، زنجیره تأمین کل غول‌های تکنولوژی را دگرگون می‌کند.",
+    "content_ideas": [
+     {
+      "format": "پست",
+      "title_fa": "پشت پرده برکناری خالق انویدیا؛ جنسان هوانگ کجاست؟",
+      "hook_fa": "پایان دوران سلطان تراشه‌ها! انویدیا رسماً اعلام کرد جنسان هوانگ برنمی‌گرده!",
+      "angle_fa": "بررسی تنش‌های درون انویدیا، سیاست‌های مربوط به چین و سرنوشت بازار هوش مصنوعی.",
+      "outline_fa": [
+       "توضیح کوتاه درباره تحولات ناگهانی در مدیریت انویدیا و رد بازگشت هوانگ",
+       "گزارش مالی جدید: ارقام خیره‌کننده اما پشت پرده پر از بحران",
+       "توقف صادرات H200 به چین و پیامدهای ژئوپلیتیکی آن",
+       "پیش‌بینی آینده با ورود رقبای جدی و شرکت‌هایی مثل Anthropic به بازار"
+      ],
+      "visual_tip_fa": "استفاده از پرتره جنسان هوانگ با کت چرمی مشهورش به همراه نمودارهای سهام و گرافیک گرافیکی قرمز رنگ هشدار روی نقشه چین."
+     },
+     {
+      "format": "استوری",
+      "title_fa": "بمب خبری در دنیای تراشه‌ها: انویدیا چین را تحریم کرد!",
+      "hook_fa": "اتفاقات عجیبی داخل انویدیا در حال رخدادنه؛ این غول سخت‌افزاری فروش H200 به چین رو بست!",
+      "angle_fa": "اطلاع‌رسانی سریع آخرین تحولات بازار سهام و وضعیت تأمین سیلیکون.",
+      "outline_fa": [
+       "استوری ۱: خبر رد بازگشت جنسان هوانگ به صندلی مدیریت",
+       "استوری ۲: تصمیم تحریمی سخت درباره تراشه‌های H200 در چین",
+       "استوری ۳: سوال تعاملی: به نظرتون انویدیا بدون هوانگ دوام میاره؟"
+      ],
+      "visual_tip_fa": "تصویر پادکست تک‌کرانچ، عکس هوانگ و اسکرین‌شات گرافیک چیپ H200."
+     }
+    ],
+    "hashtags": [
+     "#انویدیا",
+     "#هوش_مصنوعی",
+     "#جنسان_هوانگ",
+     "#سخت_افزار",
+     "#Nvidia",
+     "#JensenHuang",
+     "#TechNews"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": true,
+   "id": "f0e77c900b"
+  },
+  {
+   "title": "Ray-Ban Meta (Gen 3) review: Minor upgrades that cost too much",
+   "url": "https://www.engadget.com/2322827/ray-ban-meta-gen-3-review/",
+   "source": "Engadget",
+   "published": "2026-11-20T14:30:00+00:00",
+   "origin": "Engadget",
+   "summary": "Meta's very best AI glasses are only slightly better than other recent models.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/ray-ban-meta-gen-3-review-minor-upgrades-that-cost-too-much/l-intro-1795183661.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/ray-ban-meta-gen-3-review-minor-upgrades-that-cost-too-much/intro-1795183661.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/uploads/embed/it-ReBVOm-1795148397.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/uploads/embed/it-IhhHGj-1795148598.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/uploads/embed/it-ofac6r-1795148502.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "hardware_chips",
+   "story_key": "ray-ban-meta-gen-3-reviews",
+   "topic_key": "meta-smart-glasses",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "نقد عینک ری‌بن متا نسل ۳؛ تغییرات اندک با قیمت نجومی!",
+   "one_liner_fa": "بررسی‌های اولیه از عینک هوش مصنوعی جدید ری‌بن متا (Ray-Ban Meta Gen 3) نشان می‌دهد با وجود افزایش قیمت، پیشرفت چندانی نسبت به نسل قبل نداشته است.",
+   "deep": {
+    "id": "233ab31a7a",
+    "title_fa": "نقد عینک ری‌بن متا نسل ۳؛ تغییرات اندک با قیمت نجومی!",
+    "summary_fa": "بررسی نسخه جدید عینک هوشمند متا یعنی Ray-Ban Meta Gen 3 نشان می‌دهد که با وجود ارتقای اندک، قیمت آن جهش چشمگیری داشته است. این عینک اکنون با دو مدل فریم جدید به نام‌های Zena و Aviator و قیمت پایه نجومی ۵۲۹ دلار (مدل ویفرر با قیمت ۴۴۹ دلار) عرضه می‌شود. هرچند باتری دستگاه به ۹ ساعت استفاده مداوم و کیفیت مکالمات با میکروفون جدید بهبود یافته، اما وزن سنگین، لغزش روی صورت و تلاش متا برای پولی کردن برخی ویژگی‌ها در قالب اشتراک Meta One از نقاط ضعف اصلی آن به حساب می‌آیند.",
+    "key_points_fa": [
+     "قیمت پایه مدل ویفرر: ۴۴۹ دلار؛ مدل‌های جدید آویاتور و زنا با قیمت سنگین ۵۲۹ دلار",
+     "شارژدهی تا ۹ ساعت با یک بار شارژ (۱ ساعت بیشتر از نسل قبلی) و ۵۰ ساعت با کیس شارژ",
+     "اضافه شدن دکمه اکشن (Action Button) با قابلیت شخصی‌سازی دستورات",
+     "تعبیه یک میکروفون اضافی که کیفیت تماس‌ها را حتی بهتر از AirPods Pro 2 کرده است",
+     "تجهیز به دستیار هوشمند Muse Spark با مکالمات طبیعی‌تر بدون صدای سلبریتی‌ها",
+     "نگرانی از پولی شدن قابلیت‌های صوتی آینده زیر چتر اشتراک متا وان (Meta One)",
+     "امکان غیرفعال‌سازی استفاده از داده‌های تصویری کاربر برای آموزش هوش مصنوعی متا"
+    ],
+    "why_it_matters_fa": "عینک‌های هوشمند متا نزدیک‌ترین محصول واقعی به آینده گجت‌های هوش مصنوعی روزمره هستند، اما سیاست قیمت‌گذاری بالا و سیستم‌های اشتراکی می‌تواند مانع از محبوبیت عمومی آن‌ها شود.",
+    "content_ideas": [
+     {
+      "format": "کاروسل",
+      "title_fa": "آیا عینک ۵۲۹ دلاری متا ارزش خرید دارد؟",
+      "hook_fa": "نسل ۳ عینک هوشمند ری‌بن متا اومد؛ ولی واقعاً به این قیمت می‌ارزه؟! ورق بزنید تا ببینیم.",
+      "angle_fa": "راهنمای خریدار و مقایسه امکانات جدید در برابر افزایش سرسام‌آور قیمت.",
+      "outline_fa": [
+       "اسلاید ۱: کاور جذاب با تصویر مدل جدید Havana Aviator و تگ قیمت ۵۲۹ دلار",
+       "اسلاید ۲: تغییرات ظاهری؛ فریم‌های کَت‌آی و خلبانی با دکمه اختصاصی اکشن",
+       "اسلاید ۳: مشخصات فنی؛ ۹ ساعت باتری و میکروفون شگفت‌انگیز برای مکالمه",
+       "اسلاید ۴: دستیار هوش مصنوعی Muse Spark؛ نقاط قوت و احتمال اشتراکی شدن",
+       "اسلاید ۵: نتیجه‌گیری نهایی؛ گران‌تر شدن بدون تغییرات انقلابی!"
+      ],
+      "visual_tip_fa": "عکس‌های رسمی منتشر شده از فریم‌های Havana tortoiseshell و جزییات شفاف بدنه عینک، استفاده از اینفوگرافیک قیمت و باتری."
+     },
+     {
+      "format": "ریلز",
+      "title_fa": "قابلیت‌های نسل سوم عینک هوش مصنوعی متا",
+      "hook_fa": "متا همین الان نسل سوم عینک Ray-Ban خودش رو رو کرد، اما این بار قراره حسابی جیبتون خالی شه!",
+      "angle_fa": "بررسی نقادانه تغییرات نسل جدید و هشدارهای حریم خصوصی و مدل اشتراکی.",
+      "outline_fa": [
+       "نشان دادن عینک روی صورت و اشاره به دکمه فیزیکی جدید",
+       "توضیح دستیار صوتی جدید Muse که قراره محیط رو ببینه و نظر بده",
+       "افشای سیاست حق اشتراک Meta One برای برخی ویژگی‌ها",
+       "نتیجه‌گیری: با قیمت ۵۳۰ دلاری واقعاً نسل دومی‌ها نیازی به ارتقا ندارند"
+      ],
+      "visual_tip_fa": "ترکیب تصاویر نمای نزدیک عینک (به ویژه رنگ هوانا و جزئیات شیشه و دکمه جدید) به همراه اسکرین‌شات بنر تبلیغ اشتراک Meta One."
+     }
+    ],
+    "hashtags": [
+     "#عینک_هوشمند",
+     "#متا",
+     "#هوش_مصنوعی",
+     "#تکنولوژی",
+     "#RayBanMeta",
+     "#MetaAI",
+     "#SmartGlasses"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "233ab31a7a"
+  }
+ ],
+ "others": [
+  {
+   "title": "Global stock markets slump as Anthropic's record IPO fails to stem AI sell-off",
+   "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+   "source": "theguardian.com",
+   "published": "2026-11-20T13:29:59+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 154 امتیاز، 166 کامنت",
+   "signal_value": 154,
+   "discussion_url": "https://news.ycombinator.com/item?id=50574383",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 6,
+   "category": "business_funding",
+   "story_key": "anthropic-ipo-ai-stock-selloff",
+   "topic_key": "anthropic-ipo",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "ریزش بازارهای مالی جهان؛ ورود تاریخی آنتروپیک به بورس هم مانع سقوط سهام هوش مصنوعی نشد",
+   "one_liner_fa": "با وجود عرضه اولیه رکوردشکن آنتروپیک، بازارهای جهانی با موج سنگین فروش سهام شرکت‌های هوش مصنوعی و ترس از حباب اقتصادی مواجه شدند.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "fda5004e84"
+  }
+ ],
+ "scored": [
+  {
+   "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+   "url": "https://huggingface.co/blog/harness-adapters-at-scale",
+   "source": "Hugging Face Blog",
+   "published": "2026-11-20T00:00:00+00:00",
+   "origin": "Hugging Face Blog",
+   "summary": "",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 3,
+   "category": "open_source",
+   "story_key": "huggingface-harness-adapters",
+   "topic_key": "model-evaluation",
+   "already_reported": false,
+   "viral": 2,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "211fbe8009"
+  },
+  {
+   "title": "Chips can survive the space environment. Can their financing?",
+   "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
+   "source": "TechCrunch",
+   "published": "2026-11-20T17:40:01+00:00",
+   "origin": "TechCrunch",
+   "summary": "Lenders don't want SpaceX shooting their collateral into orbit. What does that mean for space data centers writ large?",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 4,
+   "category": "business_funding",
+   "story_key": "space-datacenter-financing",
+   "topic_key": "space-datacenters",
+   "already_reported": false,
+   "viral": 3,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "e43240c9ae"
+  },
+  {
+   "title": "The fallout from Nvidia’s Jensen Huang scandal continues",
+   "url": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/",
+   "source": "TechCrunch",
+   "published": "2026-11-20T14:55:44+00:00",
+   "origin": "TechCrunch",
+   "summary": "In the midst of dealing with the fallout from its ouster of CEO Jensen Huang, Nvidia delivered its latest earnings report this week, with healthy growth and promises that the good times will continue. At the same time, the chipmaker said it will stop selling its H200 chips in China, and it dismissed calls to […]",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang.jpg?w=1024",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2022/08/TheresaL-Profile-pic.jpg?w=150",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2021/01/vtobb68s1b8yujb2lsfk.jpg?w=150",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2021/08/Screen-Shot-2021-08-18-at-12.33.03-PM.png?w=150",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2025/01/ElevenLabs-co-founders.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2026/03/ASW-Chip_tour-servers.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 7,
+   "category": "big_tech",
+   "story_key": "nvidia-post-huang-fallout",
+   "topic_key": "nvidia-leadership-crisis",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "بحران در انویدیا؛ پیامدهای عزل جنسان هوانگ و توقف فروش تراشه به چین",
+   "one_liner_fa": "انویدیا در میان پس‌لرزه‌های برکناری جن‌سن هوانگ، از توقف فروش تراشه‌های هوش مصنوعی H200 به چین هم‌زمان با گزارش مالی جدید خود خبر داد.",
+   "deep": {
+    "id": "f0e77c900b",
+    "title_fa": "بحران در انویدیا؛ پیامدهای عزل جنسان هوانگ و توقف فروش تراشه به چین",
+    "summary_fa": "پس از تصمیم شوکه‌کننده هیئت‌مدیره انویدیا مبنی بر برکناری جنسان هوانگ، مدیرعامل سرشناس این شرکت، پیامدهای این بحران همچنان ادامه دارد. انویدیا در آخرین گزارش مالی خود ضمن اعلام رشد مطلوب، به طور قطعی بازگشت هوانگ به صندلی مدیریت را رد کرد. همزمان، این غول تراشه‌سازی اعلام کرد فروش تراشه‌های هوش مصنوعی H200 به چین را متوقف می‌کند؛ تصمیمی که در آستانه ورود انتروپیک (Anthropic) به بازار بورس، صنعت هوش مصنوعی را در هاله‌ای از ابهام برده است.",
+    "key_points_fa": [
+     "رد رسمی درخواست‌ها برای بازگشت جنسان هوانگ (Jensen Huang) به عنوان مدیرعامل انویدیا",
+     "گزارش مالی قدرتمند با رشد مناسب علیرغم تلاطم‌های مدیریتی شدید",
+     "تصمیم رسمی انویدیا برای توقف کامل فروش تراشه‌های قدرتمند H200 در بازار چین",
+     "تاثیر بحران‌های انویدیا بر مدل‌های مالی صنعت AI همزمان با عرضه عمومی اولیه (IPO) شرکت Anthropic"
+    ],
+    "why_it_matters_fa": "انویدیا ستون اصلی زیرساخت هوش مصنوعی در جهان است؛ هرگونه بی‌ثباتی در رهبری این شرکت یا محدودیت فروش تراشه‌ها به بازار چین، زنجیره تأمین کل غول‌های تکنولوژی را دگرگون می‌کند.",
+    "content_ideas": [
+     {
+      "format": "پست",
+      "title_fa": "پشت پرده برکناری خالق انویدیا؛ جنسان هوانگ کجاست؟",
+      "hook_fa": "پایان دوران سلطان تراشه‌ها! انویدیا رسماً اعلام کرد جنسان هوانگ برنمی‌گرده!",
+      "angle_fa": "بررسی تنش‌های درون انویدیا، سیاست‌های مربوط به چین و سرنوشت بازار هوش مصنوعی.",
+      "outline_fa": [
+       "توضیح کوتاه درباره تحولات ناگهانی در مدیریت انویدیا و رد بازگشت هوانگ",
+       "گزارش مالی جدید: ارقام خیره‌کننده اما پشت پرده پر از بحران",
+       "توقف صادرات H200 به چین و پیامدهای ژئوپلیتیکی آن",
+       "پیش‌بینی آینده با ورود رقبای جدی و شرکت‌هایی مثل Anthropic به بازار"
+      ],
+      "visual_tip_fa": "استفاده از پرتره جنسان هوانگ با کت چرمی مشهورش به همراه نمودارهای سهام و گرافیک گرافیکی قرمز رنگ هشدار روی نقشه چین."
+     },
+     {
+      "format": "استوری",
+      "title_fa": "بمب خبری در دنیای تراشه‌ها: انویدیا چین را تحریم کرد!",
+      "hook_fa": "اتفاقات عجیبی داخل انویدیا در حال رخدادنه؛ این غول سخت‌افزاری فروش H200 به چین رو بست!",
+      "angle_fa": "اطلاع‌رسانی سریع آخرین تحولات بازار سهام و وضعیت تأمین سیلیکون.",
+      "outline_fa": [
+       "استوری ۱: خبر رد بازگشت جنسان هوانگ به صندلی مدیریت",
+       "استوری ۲: تصمیم تحریمی سخت درباره تراشه‌های H200 در چین",
+       "استوری ۳: سوال تعاملی: به نظرتون انویدیا بدون هوانگ دوام میاره؟"
+      ],
+      "visual_tip_fa": "تصویر پادکست تک‌کرانچ، عکس هوانگ و اسکرین‌شات گرافیک چیپ H200."
+     }
+    ],
+    "hashtags": [
+     "#انویدیا",
+     "#هوش_مصنوعی",
+     "#جنسان_هوانگ",
+     "#سخت_افزار",
+     "#Nvidia",
+     "#JensenHuang",
+     "#TechNews"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": true,
+   "id": "f0e77c900b"
+  },
+  {
+   "title": "Nothing's AI device debuts December 8, and it looks like two vapes stuck together",
+   "url": "https://www.engadget.com/2323187/nothings-ai-device-debuts-december-8-and-it-looks-like-two-vapes-stuck-together/",
+   "source": "Engadget",
+   "published": "2026-11-20T17:32:02+00:00",
+   "origin": "Engadget",
+   "summary": "Thanks, Swedish House Mafia. I guess.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/nothings-ai-device-debuts-december-8-and-it-looks-like-two-vapes-stuck-together/l-intro-1795195811.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "embed",
+     "url": "https://x.com/Ingrosso/status/2123257000075362791?ref_src=twsrc%5Etfw",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/nothings-ai-device-debuts-december-8-and-it-looks-like-two-vapes-stuck-together/intro-1795195811.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 8,
+   "category": "product_launch",
+   "story_key": "nothing-ai-device-reveal",
+   "topic_key": "nothing-hardware",
+   "already_reported": false,
+   "viral": 8,
+   "title_fa": "افشای اولین گجت هوش مصنوعی ناتینگ؛ معرفی رسمی در ۱۷ آذر",
+   "one_liner_fa": "برند ناتینگ (Nothing) اولین گجت اختصاصی هوش مصنوعی خود را با طراحی نامتعارف و جنجالی به نمایش گذاشت که ۱۸ آذر رسماً عرضه می‌شود.",
+   "deep": {
+    "id": "a26d817d7b",
+    "title_fa": "افشای اولین گجت هوش مصنوعی ناتینگ؛ معرفی رسمی در ۱۷ آذر",
+    "summary_fa": "شرکت ناتینگ (Nothing) به رهبری کارل پی اعلام کرده است که اولین «دستگاه اختصاصی هوش مصنوعی» خود را در تاریخ ۸ دسامبر (۱۷ آذر) رسماً معرفی می‌کند. بر اساس ادعای شرکت، این دستگاه هیچ نمایشگری ندارد و تجربه‌ای ارائه می‌دهد که پیاده‌سازی آن در قالب یک اپلیکیشن امکان‌پذیر نبوده است. در این میان، سباستین اینگروسو، دی‌جی معروف، تصویری از این گجت را در کنار هدفون جدید ناتینگ لو داد؛ دستگاهی با ظاهری بسیار شبیه به دو ویپ متصل‌به‌هم که دست‌کم یک دوربین برای پردازش‌های بصری هوش مصنوعی روی آن به چشم می‌خورد.",
+    "key_points_fa": [
+     "تاریخ رونمایی رسمی دستگاه: ۸ دسامبر (۱۷ آذر)",
+     "طراحی کاملاً بدون نمایشگر (Screenless) با تمرکز کامل بر تعاملات هوش مصنوعی",
+     "لو رفتن زودهنگام تصویر دستگاه توسط سباستین اینگروسو (عضو گروه Swedish House Mafia) در شبکه اجتماعی X",
+     "شباهت ظاهری جنجالی دستگاه به دو ویپ به هم چسبیده",
+     "تعبیه حداقل یک سنسور دوربین روی بدنه جهت قابلیت‌های هوش مصنوعی بصری",
+     "ورود ناتینگ به بازاری که پیش از این شاهد شکست سنگین گجت Humane و عملکرد ضعیف Rabbit R1 بوده است"
+    ],
+    "why_it_matters_fa": "بعد از شکست سنگین گجت‌های پوشیدنی AI مثل Humane و Rabbit، همه منتظرند ببینند آیا ناتینگ با رویکرد طراحی و هایپ اختصاصی خودش می‌تواند سرنوشت متفاوتی برای سخت‌افزارهای هوش مصنوعی رقم بزند یا خیر.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "گجت عجیب ناتینگ؛ دو تا ویپ یا انقلاب هوش مصنوعی؟",
+      "hook_fa": "این ویپ نیست! این عجیب‌ترین گجت هوش مصنوعی سال ۲۰۲۶ هست که ناتینگ قراره بده بیرون!",
+      "angle_fa": "مقایسه طراحی نامتعارف دستگاه و بررسی اینکه آیا این محصول هم قراره مثل خرگوش نارنجی (Rabbit) شکست بخوره یا نه.",
+      "outline_fa": [
+       "نمایش تصویر لو رفته در توییتر و اشاره به شباهت خنده‌دارش به ویپ",
+       "توضیح هدف ناتینگ: دستگاه بدون نمایشگر مبتنی بر هوش مصنوعی",
+       "یادآوری پرونده ناموفق رقبایی مثل Humane و Rabbit",
+       "تاریخ رونمایی در ۱۷ آذر و سوال از مخاطب که آیا حاضر به خریدش هست یا نه"
+      ],
+      "visual_tip_fa": "تصویر توییت لو رفته از Sebastian Ingrosso کنار مک‌بوک و هدفون ناتینگ، کات سریع به تیزرهای مینیمال برند Nothing و عکس‌های Rabbit R1."
+     },
+     {
+      "format": "استوری",
+      "title_fa": "لو رفتن ناگهانی یا ترفند تبلیغاتی کارل پی؟",
+      "hook_fa": "کارل پی باز هم دست به شعبده‌بازی مارکتینگی زد!",
+      "angle_fa": "تحلیل کمپین مارکتینگ هوشمندانه با استفاده از افراد مشهور برای جلب توجه مخاطبان.",
+      "outline_fa": [
+       "استوری ۱: عکس لو رفته توسط دی‌جی سوئدی با استیکر شوک",
+       "استوری ۲: توضیح مشخصات کلیدی (بدون صفحه، دارای دوربین AI)",
+       "استوری ۳: نظرسنجی: به نظرتون مارکتینگ عمدی بود یا سوتی واقعی؟"
+      ],
+      "visual_tip_fa": "اسکرین‌شات توییت سباستین اینگروسو، زوم روی دستگاه و اضافه کردن گیف خنده و استیکر پول."
+     }
+    ],
+    "hashtags": [
+     "#هوش_مصنوعی",
+     "#ناتینگ",
+     "#تکنولوژی",
+     "#گجت_جدید",
+     "#NothingAI",
+     "#CarlPei",
+     "#AIHardware"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "a26d817d7b"
+  },
+  {
+   "title": "You can reveal the full GTA 6 map in minutes using this simple plane trick",
+   "url": "https://www.engadget.com/2323145/full-gta-6-map-reveal-plane-trick/",
+   "source": "Engadget",
+   "published": "2026-11-20T17:13:31+00:00",
+   "origin": "Engadget",
+   "summary": "Clear up that fog in no time at all, but be careful.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/you-can-reveal-the-full-gta-6-map-in-minutes-using-this-simple-plane-trick/l-intro-1795194209.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 5,
+   "category": "other_tech",
+   "story_key": "gta-6-map-trick",
+   "topic_key": "gta-6-release",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "67df8305b5"
+  },
+  {
+   "title": "Ray-Ban Meta (Gen 3) review: Minor upgrades that cost too much",
+   "url": "https://www.engadget.com/2322827/ray-ban-meta-gen-3-review/",
+   "source": "Engadget",
+   "published": "2026-11-20T14:30:00+00:00",
+   "origin": "Engadget",
+   "summary": "Meta's very best AI glasses are only slightly better than other recent models.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/ray-ban-meta-gen-3-review-minor-upgrades-that-cost-too-much/l-intro-1795183661.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/ray-ban-meta-gen-3-review-minor-upgrades-that-cost-too-much/intro-1795183661.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/uploads/embed/it-ReBVOm-1795148397.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/uploads/embed/it-IhhHGj-1795148598.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/uploads/embed/it-ofac6r-1795148502.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "hardware_chips",
+   "story_key": "ray-ban-meta-gen-3-reviews",
+   "topic_key": "meta-smart-glasses",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "نقد عینک ری‌بن متا نسل ۳؛ تغییرات اندک با قیمت نجومی!",
+   "one_liner_fa": "بررسی‌های اولیه از عینک هوش مصنوعی جدید ری‌بن متا (Ray-Ban Meta Gen 3) نشان می‌دهد با وجود افزایش قیمت، پیشرفت چندانی نسبت به نسل قبل نداشته است.",
+   "deep": {
+    "id": "233ab31a7a",
+    "title_fa": "نقد عینک ری‌بن متا نسل ۳؛ تغییرات اندک با قیمت نجومی!",
+    "summary_fa": "بررسی نسخه جدید عینک هوشمند متا یعنی Ray-Ban Meta Gen 3 نشان می‌دهد که با وجود ارتقای اندک، قیمت آن جهش چشمگیری داشته است. این عینک اکنون با دو مدل فریم جدید به نام‌های Zena و Aviator و قیمت پایه نجومی ۵۲۹ دلار (مدل ویفرر با قیمت ۴۴۹ دلار) عرضه می‌شود. هرچند باتری دستگاه به ۹ ساعت استفاده مداوم و کیفیت مکالمات با میکروفون جدید بهبود یافته، اما وزن سنگین، لغزش روی صورت و تلاش متا برای پولی کردن برخی ویژگی‌ها در قالب اشتراک Meta One از نقاط ضعف اصلی آن به حساب می‌آیند.",
+    "key_points_fa": [
+     "قیمت پایه مدل ویفرر: ۴۴۹ دلار؛ مدل‌های جدید آویاتور و زنا با قیمت سنگین ۵۲۹ دلار",
+     "شارژدهی تا ۹ ساعت با یک بار شارژ (۱ ساعت بیشتر از نسل قبلی) و ۵۰ ساعت با کیس شارژ",
+     "اضافه شدن دکمه اکشن (Action Button) با قابلیت شخصی‌سازی دستورات",
+     "تعبیه یک میکروفون اضافی که کیفیت تماس‌ها را حتی بهتر از AirPods Pro 2 کرده است",
+     "تجهیز به دستیار هوشمند Muse Spark با مکالمات طبیعی‌تر بدون صدای سلبریتی‌ها",
+     "نگرانی از پولی شدن قابلیت‌های صوتی آینده زیر چتر اشتراک متا وان (Meta One)",
+     "امکان غیرفعال‌سازی استفاده از داده‌های تصویری کاربر برای آموزش هوش مصنوعی متا"
+    ],
+    "why_it_matters_fa": "عینک‌های هوشمند متا نزدیک‌ترین محصول واقعی به آینده گجت‌های هوش مصنوعی روزمره هستند، اما سیاست قیمت‌گذاری بالا و سیستم‌های اشتراکی می‌تواند مانع از محبوبیت عمومی آن‌ها شود.",
+    "content_ideas": [
+     {
+      "format": "کاروسل",
+      "title_fa": "آیا عینک ۵۲۹ دلاری متا ارزش خرید دارد؟",
+      "hook_fa": "نسل ۳ عینک هوشمند ری‌بن متا اومد؛ ولی واقعاً به این قیمت می‌ارزه؟! ورق بزنید تا ببینیم.",
+      "angle_fa": "راهنمای خریدار و مقایسه امکانات جدید در برابر افزایش سرسام‌آور قیمت.",
+      "outline_fa": [
+       "اسلاید ۱: کاور جذاب با تصویر مدل جدید Havana Aviator و تگ قیمت ۵۲۹ دلار",
+       "اسلاید ۲: تغییرات ظاهری؛ فریم‌های کَت‌آی و خلبانی با دکمه اختصاصی اکشن",
+       "اسلاید ۳: مشخصات فنی؛ ۹ ساعت باتری و میکروفون شگفت‌انگیز برای مکالمه",
+       "اسلاید ۴: دستیار هوش مصنوعی Muse Spark؛ نقاط قوت و احتمال اشتراکی شدن",
+       "اسلاید ۵: نتیجه‌گیری نهایی؛ گران‌تر شدن بدون تغییرات انقلابی!"
+      ],
+      "visual_tip_fa": "عکس‌های رسمی منتشر شده از فریم‌های Havana tortoiseshell و جزییات شفاف بدنه عینک، استفاده از اینفوگرافیک قیمت و باتری."
+     },
+     {
+      "format": "ریلز",
+      "title_fa": "قابلیت‌های نسل سوم عینک هوش مصنوعی متا",
+      "hook_fa": "متا همین الان نسل سوم عینک Ray-Ban خودش رو رو کرد، اما این بار قراره حسابی جیبتون خالی شه!",
+      "angle_fa": "بررسی نقادانه تغییرات نسل جدید و هشدارهای حریم خصوصی و مدل اشتراکی.",
+      "outline_fa": [
+       "نشان دادن عینک روی صورت و اشاره به دکمه فیزیکی جدید",
+       "توضیح دستیار صوتی جدید Muse که قراره محیط رو ببینه و نظر بده",
+       "افشای سیاست حق اشتراک Meta One برای برخی ویژگی‌ها",
+       "نتیجه‌گیری: با قیمت ۵۳۰ دلاری واقعاً نسل دومی‌ها نیازی به ارتقا ندارند"
+      ],
+      "visual_tip_fa": "ترکیب تصاویر نمای نزدیک عینک (به ویژه رنگ هوانا و جزئیات شیشه و دکمه جدید) به همراه اسکرین‌شات بنر تبلیغ اشتراک Meta One."
+     }
+    ],
+    "hashtags": [
+     "#عینک_هوشمند",
+     "#متا",
+     "#هوش_مصنوعی",
+     "#تکنولوژی",
+     "#RayBanMeta",
+     "#MetaAI",
+     "#SmartGlasses"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "233ab31a7a"
+  },
+  {
+   "title": "Google boosts Gemini's ability to do 'repetitive tasks' on its Mac app",
+   "url": "https://www.engadget.com/2322728/google-boosts-geminis-ability-to-do-repetitive-tasks-on-its-mac-app/",
+   "source": "Engadget",
+   "published": "2026-11-20T12:36:11+00:00",
+   "origin": "Engadget",
+   "summary": "Google's Gemini app for Mac can now use your computer to list items on eBay, speed up creative tasks and fill out forms for you.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/google-boosts-geminis-ability-to-do-repetitive-tasks-on-its-mac-app/l-intro-1795178098.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 6,
+   "category": "product_launch",
+   "story_key": "gemini-mac-computer-use",
+   "topic_key": "gemini-desktop-features",
+   "already_reported": true,
+   "viral": 5,
+   "title_fa": "ارتقای قابلیت کنترل کامپیوتر جمینای در مک برای انجام خودکار کارهای تکراری",
+   "one_liner_fa": "گوگل قابلیت‌های اپلیکیشن جمینای (Gemini) در مک را ارتقا داد تا بتواند اموری مثل پر کردن فرم‌ها و ثبت محصولات را خودکار انجام دهد.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "51a4177a76"
+  },
+  {
+   "title": "WhatsApp's group chats can now have up to 1,500 members",
+   "url": "https://www.engadget.com/2322717/whatsapps-group-chats-can-now-have-up-to-1500-members/",
+   "source": "Engadget",
+   "published": "2026-11-20T11:48:37+00:00",
+   "origin": "Engadget",
+   "summary": "WhatsApp is giving users the ability to create even bigger group chats with up to 1,500 participants.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/whatsapps-group-chats-can-now-have-up-to-1500-members/l-intro-1795174992.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 5,
+   "category": "product_launch",
+   "story_key": "whatsapp-1500-group-size",
+   "topic_key": "whatsapp-updates",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "1510de57ae"
+  },
+  {
+   "title": "The Trump administration has replaced its cybersecurity chief",
+   "url": "https://www.engadget.com/2322705/the-trump-administration-has-replaced-its-cybersecurity-chief/",
+   "source": "Engadget",
+   "published": "2026-11-20T10:53:36+00:00",
+   "origin": "Engadget",
+   "summary": "The White House has replaced cybersecurity chief Sean Cairncross with the Pentagon's Kirsten Davies.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/the-trump-administration-has-replaced-its-cybersecurity-chief/l-intro-1795171923.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 3,
+   "category": "policy_regulation",
+   "story_key": "us-cybersecurity-chief-replaced",
+   "topic_key": "white-house-tech-policy",
+   "already_reported": false,
+   "viral": 3,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "f66bce0a6e"
+  },
+  {
+   "title": "Quoting Levent Alpöge",
+   "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
+   "source": "Simon Willison",
+   "published": "2026-11-20T16:30:48+00:00",
+   "origin": "Simon Willison",
+   "summary": "I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis. In fact, the method easily extends much further, resolving the so-called Generalized Riemann Hypothesis, and I expect, with more time, the Extended Riemann Hypothesis too. Claude and I have also formalized the arguments without assumptions. It is natural to feel that this is an end, in my case a loss of a principal guiding light, but what I saw during the course of progress so amazed me that I believe it is one dawn across science of something far greater. [...] Claude and I have had a great time together with",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 8,
+   "worthiness": 9,
+   "category": "research",
+   "story_key": "claude-riemann-hypothesis-claim",
+   "topic_key": "anthropic-claude-frontier",
+   "already_reported": false,
+   "viral": 9,
+   "title_fa": "ادعای جنجالی حل فرضیه ریمان توسط پژوهشگر آنتروپیک با همکاری کلود!",
+   "one_liner_fa": "یکی از محققان شرکت آنتروپیک (Anthropic) مدعی شد به کمک مدل کلاود (Claude) موفق به کشف اثبات ریاضی فرضیه تاریخی ریمان شده است.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "b8e1839046"
+  },
+  {
+   "title": "Anthropic employee claims general proof of the Riemann Hypothesis [pdf]",
+   "url": "https://alpo.ge/remark.pdf",
+   "source": "alpo.ge",
+   "published": "2026-11-20T14:16:21+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 1450 امتیاز، 990 کامنت",
+   "signal_value": 1450,
+   "discussion_url": "https://news.ycombinator.com/item?id=50574968",
+   "media": [],
+   "also_covered_by": [
+    "Simon Willison"
+   ],
+   "importance": 8,
+   "worthiness": 9,
+   "category": "research",
+   "story_key": "claude-riemann-hypothesis-claim",
+   "topic_key": "anthropic-claude-frontier",
+   "already_reported": false,
+   "viral": 9,
+   "title_fa": "ادعای حل فرضیه ریمان توسط پژوهشگر شرکت انتروپیک",
+   "one_liner_fa": "پژوهشگر ارشد آنتروپیک پیش‌نویس اثبات یکی از بزرگ‌ترین مسائل حل‌نشده دنیای ریاضیات را با همکاری مستقیم مدل کلاود منتشر کرد.",
+   "deep": {
+    "id": "bbe099f294",
+    "title_fa": "ادعای حل فرضیه ریمان توسط پژوهشگر شرکت انتروپیک",
+    "summary_fa": "مقاله‌ای تحقیقاتی به صورت عمومی منتشر شده که در آن یکی از کارکنان شرکت انتروپیک (Anthropic)، خالق مدل کلود، ادعای اثبات کلی یکی از بزرگ‌ترین و مشهورترین مسائل حل‌نشده تاریخ ریاضیات یعنی «فرضیه ریمان» (Riemann Hypothesis) را مطرح کرده است. انتشار این فایل PDF بازتاب گسترده‌ای در پلتفرم‌های علمی و توسعه‌دهندگان از جمله هکر نیوز داشته و بحث‌های فراوانی را پیرامون صحت این اثبات پیچیده به راه انداخته است.",
+    "key_points_fa": [
+     "انتشار مقاله اثبات ادعایی توسط یکی از کارکنان کمپانی Anthropic در قالب PDF",
+     "تمرکز پژوهش بر ارائه اثبات جامع برای فرضیه ریمان (از مسائل هزاره در ریاضیات)",
+     "پوشش و توجه جدی چهره‌های مطرح دنیای فناوری نظیر سایمون ویلیسون (Simon Willison)",
+     "موج شدید توجهات در هکر نیوز با کسب بیش از ۱۴۵۰ امتیاز و نزدیک به ۱۰۰۰ کامنت"
+    ],
+    "why_it_matters_fa": "فرضیه ریمان یکی از مهم‌ترین معماهای ریاضیات و پایه‌گذار امنیت رمزنگاری مدرن است؛ اثبات واقعی آن دنیای کامپیوتر و امنیت سایبری را متحول می‌کند.",
+    "content_ideas": [
+     {
+      "format": "استوری",
+      "title_fa": "آیا بزرگ‌ترین معمای ریاضی حل شد؟",
+      "hook_fa": "یکی از محقق‌های انتروپیک ادعا کرده سخت‌ترین مسئله ریاضی جهان رو حل کرده!",
+      "angle_fa": "نگاهی ژورنالیستی و محتاطانه به ادعای حل فرضیه ریمان و بازتاب پر سر و صدای آن.",
+      "outline_fa": [
+       "استوری ۱: فرضیه ریمان چیست و جایزه یک میلیون دلاری آن",
+       "استوری ۲: ادعای اخیر کارمند انتروپیک و انفجار نظرات در Hacker News",
+       "استوری ۳: تاکید بر اینکه تا داوری دقیق علمی (Peer Review) نشه نمی‌تونیم مطمئن باشیم"
+      ],
+      "visual_tip_fa": "عکس صفحه اول مقاله PDF، تصویر معادله تابع زتای ریمان و لوگوی انتروپیک."
+     },
+     {
+      "format": "پست",
+      "title_fa": "زلزله علمی: ادعای اثبات فرضیه ریمان توسط متخصص AI",
+      "hook_fa": "فرضیه ریمان بعد از ۱۶۰ سال بالاخره حل شد؟ بیاید ادعای جنجالی محقق انتروپیک رو بررسی کنیم.",
+      "angle_fa": "ساده‌سازی اهمیت فرضیه ریمان در هوش مصنوعی و امنیت کامپیوترها.",
+      "outline_fa": [
+       "معرفی مسئله ریمان و اهمیت آن در درک اعداد اول و الگوریتم‌های رمزنگاری",
+       "ماجرای انتشار ادعای حل مسئله توسط محقق فعال در شرکت Anthropic",
+       "چرا کامیونیتی علمی هنوز محتاطه؟ (سابقه ادعاهای نادرست در تاریخ ریاضی)",
+       "ارتباط پیشرفت هوش مصنوعی با شتاب گرفتن حل مسائل ناممکن ریاضی"
+      ],
+      "visual_tip_fa": "گرافیک ریاضی سه‌بعدی از توابع زتا و تصویرسازی ذهنی با تایپوگرافی چشم‌گیر «حل معمای قرن؟»"
+     }
+    ],
+    "hashtags": [
+     "#ریاضیات",
+     "#فرضیه_ریمان",
+     "#انتروپیک",
+     "#تکنولوژی",
+     "#Anthropic",
+     "#RiemannHypothesis",
+     "#MathNews"
+    ],
+    "caution_fa": "این خبر فقط یک ادعای منتشرشده در یک فایل PDF است و هنوز توسط مجامع رسمی ریاضیات یا داوری همتا (Peer Review) تایید نشده است. پیش از این ادعاهای نادرست متعددی درباره حل فرضیه ریمان وجود داشته است."
+   },
+   "alert": {},
+   "alerted": true,
+   "id": "bbe099f294"
+  },
+  {
+   "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+   "url": "https://architectlabs.com/blog/frostbite",
+   "source": "architectlabs.com",
+   "published": "2026-11-20T10:01:41+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 479 امتیاز، 270 کامنت",
+   "signal_value": 479,
+   "discussion_url": "https://news.ycombinator.com/item?id=50572503",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://main--gleeful-begonia-6bb5f3.netlify.app/_next/static/media/frostbite-cover.3n9ytugnquhlr.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "video",
+     "url": "https://architectlabs.com/blog/frostbite/nqueens-inet-vs-program.mp4",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://architectlabs.com/blog/frostbite/nqueens-inet-vs-program-poster.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "video",
+     "url": "https://architectlabs.com/blog/frostbite/program-zoom.mp4",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://architectlabs.com/blog/frostbite/program-zoom-poster.png",
+     "origin": "article"
+    },
+    {
+     "kind": "video",
+     "url": "https://architectlabs.com/blog/frostbite/arch-source-to-chip-sq.mp4",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://architectlabs.com/blog/frostbite/arch-source-to-chip-sq-poster.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "video",
+     "url": "https://architectlabs.com/blog/frostbite/arch-steal-domains.mp4",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://architectlabs.com/blog/frostbite/arch-steal-domains-poster.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://architectlabs.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffrostbite-cover.3n9ytugnquhlr.jpg&w=3840&q=75",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://architectlabs.com/_next/static/media/process-timeline.35kiqsqt77ga9.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://architectlabs.com/_next/static/media/workload-suite.0d2l3bzeh4gp9.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://architectlabs.com/_next/static/media/lean-web.2cbgtumsblhy-.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://architectlabs.com/_next/static/media/model-alignment.1w2vgrexnx2a5.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://architectlabs.com/_next/static/media/tile-blocks-plain.1gnqiesx7j0kk.png",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 7,
+   "category": "hardware_chips",
+   "story_key": "frostbite-ai-designed-cpu",
+   "topic_key": "ai-chip-design",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "فراست‌بایت: پردازنده‌ای که هوش مصنوعی از صفر طراحی کرد!",
+   "one_liner_fa": "استارتاپ Architect Labs از معماری پردازنده جدیدی به نام Frostbite رونمایی کرد که تمام مراحل کشف، طراحی و راستی‌آزمایی آن توسط هوش مصنوعی انجام شده است.",
+   "deep": {
+    "id": "0000282282",
+    "title_fa": "فراست‌بایت: پردازنده‌ای که هوش مصنوعی از صفر طراحی کرد!",
+    "summary_fa": "استارتاپ Architect Labs از پردازنده جدیدی به نام «فراست‌بایت» (Frostbite) رونمایی کرد که تمام مراحل کشف معماری، طراحی و اعتبارسنجی آن سرتاسر توسط سیستم‌های هوش مصنوعی انجام شده است. این پردازنده عمومی بر پایه شبکه‌های برهم‌کنش (interaction nets) مهندسی شده است. بر اساس ادعای این شرکت، فراست‌بایت می‌تواند عملکرد به ازای هر وات را در مقایسه با هسته‌های مدرن رایج (superscalar dual-issue in-order) تا ۴.۵۹ برابر ارتقا دهد.",
+    "key_points_fa": [
+     "طراحی، کشف ساختار و وریفای کامل پردازنده به شکل End-to-End توسط سامانه‌های AI",
+     "نام معماری پردازنده: فراست‌بایت (Frostbite)",
+     "طراحی بر مبنای پارادایم محاسباتی interaction nets به عنوان CPU همه‌منظوره",
+     "دستیابی به ۴.۵۹ برابر راندمان مصرف انرژی و عملکرد به ازای وات نسبت به هسته‌های متعارف مشابه"
+    ],
+    "why_it_matters_fa": "این یک نقطه عطف تاریخی است: هوش مصنوعی دیگر فقط کدنویسی نمی‌کند، بلکه در حال طراحی مغز متفکر کامپیوترهای آینده با بهینه‌سازی غیرممکن برای انسان است.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "وقتی هوش مصنوعی پردازنده خودش رو می‌سازه!",
+      "hook_fa": "هوش مصنوعی بالاخره تونست اولین پردازنده واقعی خودش رو بسازه؛ با ۴.۵ برابر بازدهی بیشتر!",
+      "angle_fa": "روایت پدیده خودکارسازی سخت‌افزار توسط هوش مصنوعی و تغییر بنیادین معماری چیپ‌ها.",
+      "outline_fa": [
+       "طرح سوال: اگه AI خودش برای خودش CPU بسازه چی میشه؟",
+       "معرفی پروژه Frostbite از تیم Architect Labs",
+       "شرح برتری خیره‌کننده ۴.۵ برابری در مصرف انرژی به لطف هوش مصنوعی",
+       "تاثیر این کشف بر آینده دیتاسنترها و سرعت سوپرکامپیوترها"
+      ],
+      "visual_tip_fa": "نمایش انیمیشن‌ها و ویدیوهای شبیه‌سازی میکرومعماری پردازنده از سایت architectlabs.com و استفاده از نمودارهای بنچمارک مصرف انرژی."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "همه چیز درباره Frostbite؛ معماری خلق‌شده توسط هوش مصنوعی",
+      "hook_fa": "مهندسی پردازنده برای همیشه دگرگون شد؛ معرفی CPU تماماً طراحی‌شده توسط AI!",
+      "angle_fa": "بررسی فنی و ساده‌سازی مبحث معماری interaction nets برای علاقه‌مندان به سخت‌افزار.",
+      "outline_fa": [
+       "اسلاید ۱: معرفی نام محصول Frostbite و مشخصه ۴.۵۹ برابری راندمان",
+       "اسلاید ۲: مفهوم طراحی End-to-End توسط AI (از کانسپت تا وریفای)",
+       "اسلاید ۳: چرا معماری‌های سنتی دارن به بن‌بست می‌رسن؟",
+       "اسلاید ۴: آینده تراشه‌سازی و همکاری هوش مصنوعی با صنایع نیمه‌هادی"
+      ],
+      "visual_tip_fa": "تصاویر و دیاگرام‌های فنی ۱۱ گانه موجود در مقاله مبدا، نمایش بصری تفاوت Interaction Nets با معماری قدیمی."
+     }
+    ],
+    "hashtags": [
+     "#سخت_افزار",
+     "#هوش_مصنوعی",
+     "#فراست_بایت",
+     "#پردازنده",
+     "#FrostbiteCPU",
+     "#HardwareAI",
+     "#DeepTech"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": true,
+   "id": "0000282282"
+  },
+  {
+   "title": "Signal Is Serious About Protecting Your Privacy",
+   "url": "https://signal.org/blog/protecting-your-privacy/",
+   "source": "signal.org",
+   "published": "2026-11-20T09:42:16+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 270 امتیاز، 151 کامنت",
+   "signal_value": 270,
+   "discussion_url": "https://news.ycombinator.com/item?id=50572348",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 3,
+   "category": "safety_ethics",
+   "story_key": "signal-privacy-defense",
+   "topic_key": "privacy-tech",
+   "already_reported": false,
+   "viral": 3,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "c4ca83ba57"
+  },
+  {
+   "title": "FFmpeg 9.1 'Gauss'",
+   "url": "https://ffmpeg.org/download.html#release_9.1",
+   "source": "ffmpeg.org",
+   "published": "2026-11-20T04:02:39+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 261 امتیاز، 35 کامنت",
+   "signal_value": 261,
+   "discussion_url": "https://news.ycombinator.com/item?id=50569998",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 3,
+   "category": "open_source",
+   "story_key": "ffmpeg-9-1-release",
+   "topic_key": "ffmpeg-releases",
+   "already_reported": false,
+   "viral": 2,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "a686a63e57"
+  },
+  {
+   "title": "Synology Security Advisory",
+   "url": "https://www.synology.com/en-uk/security/advisory/Synology_SA_26_21",
+   "source": "synology.com",
+   "published": "2026-11-19T22:13:40+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 174 امتیاز، 131 کامنت",
+   "signal_value": 174,
+   "discussion_url": "https://news.ycombinator.com/item?id=50567209",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 3,
+   "category": "safety_ethics",
+   "story_key": "synology-security-advisory",
+   "topic_key": "nas-security",
+   "already_reported": false,
+   "viral": 3,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "efccf5c6be"
+  },
+  {
+   "title": "Why there are still no non-WebKit browsers on iOS",
+   "url": "https://blog.mozilla.org/en/mozilla/internet-policy/apple-ios-browser-engine-rules/",
+   "source": "blog.mozilla.org",
+   "published": "2026-11-20T15:03:31+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 171 امتیاز، 83 کامنت",
+   "signal_value": 171,
+   "discussion_url": "https://news.ycombinator.com/item?id=50575644",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 5,
+   "category": "other_tech",
+   "story_key": "mozilla-non-webkit-ios",
+   "topic_key": "browser-monopoly",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "f4c47e25e9"
+  },
+  {
+   "title": "Postgres 19 Repack: Faster, Built-In Table Bloat Cleanup",
+   "url": "https://www.snowflake.com/en/blog/engineering/postgres-19-repack-table-bloat/",
+   "source": "snowflake.com",
+   "published": "2026-11-20T02:43:49+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 166 امتیاز، 27 کامنت",
+   "signal_value": 166,
+   "discussion_url": "https://news.ycombinator.com/item?id=50569516",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 3,
+   "category": "open_source",
+   "story_key": "postgres-19-repack",
+   "topic_key": "postgres-developments",
+   "already_reported": false,
+   "viral": 2,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "29fc9a19e6"
+  },
+  {
+   "title": "Global stock markets slump as Anthropic's record IPO fails to stem AI sell-off",
+   "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+   "source": "theguardian.com",
+   "published": "2026-11-20T13:29:59+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 154 امتیاز، 166 کامنت",
+   "signal_value": 154,
+   "discussion_url": "https://news.ycombinator.com/item?id=50574383",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 6,
+   "category": "business_funding",
+   "story_key": "anthropic-ipo-ai-stock-selloff",
+   "topic_key": "anthropic-ipo",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "ریزش بازارهای مالی جهان؛ ورود تاریخی آنتروپیک به بورس هم مانع سقوط سهام هوش مصنوعی نشد",
+   "one_liner_fa": "با وجود عرضه اولیه رکوردشکن آنتروپیک، بازارهای جهانی با موج سنگین فروش سهام شرکت‌های هوش مصنوعی و ترس از حباب اقتصادی مواجه شدند.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "fda5004e84"
+  },
+  {
+   "title": "Probing the \"Conscious\" Mind: Selective Access and Global Workspace in Vision-Language Models",
+   "url": "https://huggingface.co/papers/2611.26590",
+   "source": "Hugging Face Papers",
+   "published": "2026-11-18T19:00:00+00:00",
+   "origin": "Hugging Face Papers",
+   "summary": "Vision-language models (VLMs) integrate visual and textual information, but their outputs do not reveal internal concept representations. Global workspace theory (GWT) proposes that information is selected from parallel brain processes, integrated in a shared workspace, and made available to specialised processes. We introduce the Multimodal Concept Lens (MC-Lens), a multimodal Jacobian lens, to study these functions in VLM concept processing. Its vision encoder and language decoder lenses map intermediate states to a shared semantic space defined by the decoder's output vocabulary to compare concept accessibility across modalities. MC-Lens supports internal concept interventions to examine the role of accessed concepts in downstream computation. (i) Accessibility and selective access. Multimodal concept information is readable in intermediate states and selectively accessible as tasks r",
+   "lang": "en",
+   "signal": "Hugging Face: 33 رأی",
+   "signal_value": 33,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26590.png",
+     "origin": "hf"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 4,
+   "category": "research",
+   "story_key": "conscious-mind-vlms",
+   "topic_key": "vlm-interpretability",
+   "already_reported": false,
+   "viral": 3,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "eb4d2df7b7"
+  },
+  {
+   "title": "Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth",
+   "url": "https://huggingface.co/papers/2611.26603",
+   "source": "Hugging Face Papers",
+   "published": "2026-11-18T19:00:00+00:00",
+   "origin": "Hugging Face Papers",
+   "summary": "We present Depth Pro 2, an approach to estimating dense metric depth for images and video at full resolution. By analyzing prior methods for monocular depth estimation, we find that they commonly trade off temporal consistency and boundary sharpness: multi-frame methods favor consistency, single-frame methods favor sharpness. To overcome this trade-off, we train a single, scalable network that processes both images and video and predicts depth maps at native resolution. Depth Pro 2 produces depth maps that are metrically accurate, sharp, and temporally consistent all at once, outperforming prior work in all of these dimensions. We release a family of models that define a new Pareto frontier in terms of metric accuracy, sharpness, temporal consistency, and runtime. We release code and weights at https://apple-aiml-research.github.io/ml-depth-pro-2/",
+   "lang": "en",
+   "signal": "Hugging Face: 23 رأی",
+   "signal_value": 23,
+   "discussion_url": "https://github.com/apple-aiml-research/ml-depth-pro-2",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26603.png",
+     "origin": "hf"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 5,
+   "category": "research",
+   "story_key": "depth-pro-2-monocular-depth",
+   "topic_key": "computer-vision-depth",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "db4bd6cbca"
+  }
+ ],
+ "failed_sources": [],
+ "models": [
+  "gemini-3.8-flash",
+  "gemini-3.8-flash"
+ ]
+}

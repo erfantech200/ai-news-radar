@@ -298,7 +298,38 @@
   "https://huggingface.co/papers/2611.26107": "2026-11-20",
   "https://huggingface.co/papers/2611.26380": "2026-11-20",
   "https://huggingface.co/papers/2611.24869": "2026-11-20",
-  "https://huggingface.co/papers/2611.25387": "2026-11-20"
+  "https://huggingface.co/papers/2611.25387": "2026-11-20",
+  "https://blog.google/company-news/outreach-and-initiatives/google-org/watch-duty-gemini-tool": "2026-11-21",
+  "https://huggingface.co/blog/harness-adapters-at-scale": "2026-11-21",
+  "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing": "2026-11-21",
+  "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues": "2026-11-21",
+  "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter": "2026-11-21",
+  "https://engadget.com/2323187/nothings-ai-device-debuts-december-8-and-it-looks-like-two-vapes-stuck-together": "2026-11-21",
+  "https://engadget.com/2323145/full-gta-6-map-reveal-plane-trick": "2026-11-21",
+  "https://engadget.com/2322827/ray-ban-meta-gen-3-review": "2026-11-21",
+  "https://engadget.com/2322728/google-boosts-geminis-ability-to-do-repetitive-tasks-on-its-mac-app": "2026-11-21",
+  "https://engadget.com/2322717/whatsapps-group-chats-can-now-have-up-to-1500-members": "2026-11-21",
+  "https://engadget.com/2322705/the-trump-administration-has-replaced-its-cybersecurity-chief": "2026-11-21",
+  "https://simonwillison.net/2026/Nov/20/levent-alpoge": "2026-11-21",
+  "https://alpo.ge/remark.pdf": "2026-11-21",
+  "https://architectlabs.com/blog/frostbite": "2026-11-21",
+  "https://kottke.org/17/06/if-you-cant-explain-something-in-simple-terms-you-dont-understand-it": "2026-11-21",
+  "https://poolp.org/posts/2026-11-20/ill-never-buy-framework-hardware-again": "2026-11-21",
+  "https://ecohustler.com/article/one-corporation-to-pollute-them-all": "2026-11-21",
+  "https://em-online.bearblog.dev/i-can-tell-you-wrote-this-yourself": "2026-11-21",
+  "https://signal.org/blog/protecting-your-privacy": "2026-11-21",
+  "https://ffmpeg.org/download.html": "2026-11-21",
+  "https://cekrem.github.io/posts/if-you-stop-writing-code-you-also-get-worse-at-reviewing-it": "2026-11-21",
+  "https://ethanlowman.com/posts/jj-primer": "2026-11-21",
+  "https://synology.com/en-uk/security/advisory/Synology_SA_26_21": "2026-11-21",
+  "https://blog.mozilla.org/en/mozilla/internet-policy/apple-ios-browser-engine-rules": "2026-11-21",
+  "https://snowflake.com/en/blog/engineering/postgres-19-repack-table-bloat": "2026-11-21",
+  "https://theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off": "2026-11-21",
+  "https://seremot.com/p/vint-cerf-on-why-tcpip-was-never": "2026-11-21",
+  "https://huggingface.co/papers/2611.26590": "2026-11-21",
+  "https://huggingface.co/papers/2611.26629": "2026-11-21",
+  "https://huggingface.co/papers/2611.26603": "2026-11-21",
+  "https://huggingface.co/papers/2611.26414": "2026-11-21"
  },
  "reported": [
   {
@@ -750,6 +781,42 @@
    "title": "Google is pushing OEMs against GrapheneOS and bootloader unlocking",
    "title_fa": "فشار گوگل به سازندگان موبایل: قفل کردن بوت‌لودر و مبارزه با سیستم‌عامل‌های امنیتی!",
    "url": "https://grapheneos.social/@GrapheneOS/117645038299496084"
+  },
+  {
+   "date": "2026-11-21",
+   "title": "Anthropic employee claims general proof of the Riemann Hypothesis [pdf]",
+   "title_fa": "ادعای حل فرضیه ریمان توسط پژوهشگر شرکت انتروپیک",
+   "url": "https://alpo.ge/remark.pdf"
+  },
+  {
+   "date": "2026-11-21",
+   "title": "Nothing's AI device debuts December 8, and it looks like two vapes stuck together",
+   "title_fa": "افشای اولین گجت هوش مصنوعی ناتینگ؛ معرفی رسمی در ۱۷ آذر",
+   "url": "https://engadget.com/2323187/nothings-ai-device-debuts-december-8-and-it-looks-like-two-vapes-stuck-together"
+  },
+  {
+   "date": "2026-11-21",
+   "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+   "title_fa": "فراست‌بایت: پردازنده‌ای که هوش مصنوعی از صفر طراحی کرد!",
+   "url": "https://architectlabs.com/blog/frostbite"
+  },
+  {
+   "date": "2026-11-21",
+   "title": "The fallout from Nvidia’s Jensen Huang scandal continues",
+   "title_fa": "بحران در انویدیا؛ پیامدهای عزل جنسان هوانگ و توقف فروش تراشه به چین",
+   "url": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues"
+  },
+  {
+   "date": "2026-11-21",
+   "title": "Ray-Ban Meta (Gen 3) review: Minor upgrades that cost too much",
+   "title_fa": "نقد عینک ری‌بن متا نسل ۳؛ تغییرات اندک با قیمت نجومی!",
+   "url": "https://engadget.com/2322827/ray-ban-meta-gen-3-review"
+  },
+  {
+   "date": "2026-11-21",
+   "title": "Global stock markets slump as Anthropic's record IPO fails to stem AI sell-off",
+   "title_fa": "ریزش بازارهای مالی جهان؛ ورود تاریخی آنتروپیک به بورس هم مانع سقوط سهام هوش مصنوعی نشد",
+   "url": "https://theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off"
   }
  ],
  "telegram_chat_id": "925911315"
