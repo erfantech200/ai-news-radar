@@ -371,7 +371,33 @@
   "https://masteringemacs.org/article/announcing-dreamcoder": "2026-11-21",
   "https://borretti.me/article/re-riemann": "2026-11-21",
   "https://backblaze.com/company/policy/privacy": "2026-11-21",
-  "https://news.ycombinator.com/item?id=50583761": "2026-11-21"
+  "https://news.ycombinator.com/item?id=50583761": "2026-11-21",
+  "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood": "2026-11-22",
+  "https://engadget.com/2318288/why-36-percent-households-ditching-streaming-subscriptions": "2026-11-22",
+  "https://engadget.com/2318247/common-reasons-why-iphone-turning-off": "2026-11-22",
+  "https://engadget.com/2324099/waymo-recalls-robotaxis-after-they-drove-into-closed-freeway-lanes": "2026-11-22",
+  "https://engadget.com/2315158/where-find-which-graphics-card-gpu-in-windows-pc": "2026-11-22",
+  "https://engadget.com/2318393/help-your-fitbit-battery-last-longer": "2026-11-22",
+  "https://engadget.com/2317883/pros-cons-using-vpn-over-encrypted-dns": "2026-11-22",
+  "https://engadget.com/2318153/fast-internet-but-terrible-ping-why": "2026-11-22",
+  "https://engadget.com/2318137/how-phone-metal-detector-apps-work": "2026-11-22",
+  "https://engadget.com/2318096/gadgets-you-should-never-buy-used": "2026-11-22",
+  "https://engadget.com/2318044/desktop-pc-why-tempered-glass-walls-downsides": "2026-11-22",
+  "https://engadget.com/2324090/etsy-not-use-seller-content-train-ai": "2026-11-22",
+  "https://engadget.com/2318027/what-data-storage-looked-like-early-2000s-vs-today": "2026-11-22",
+  "https://engadget.com/2317961/used-apple-airpods-deep-discounts-not-worth-it": "2026-11-22",
+  "https://engadget.com/2317890/pros-cons-using-dumb-phone-over-smartphone-2026": "2026-11-22",
+  "https://engadget.com/2321236/how-to-use-gemini-notebook-to-turn-your-research-into-an-interactive-site": "2026-11-22",
+  "https://engadget.com/2322505/why-sony-digital-walkmans-cost-thousands": "2026-11-22",
+  "https://engadget.com/2317772/cheap-vs-expensive-sound-system-difference-explained": "2026-11-22",
+  "https://engadget.com/2323697/engadget-review-recap-apple-homeview-ray-ban-meta-gen-3-and-more": "2026-11-22",
+  "https://leanprover-community.github.io/blog/posts/riemann-hypothesis": "2026-11-22",
+  "https://science.org/content/blog-post/detonating-huge-pile-lead-azide-really": "2026-11-22",
+  "https://blog.tymscar.com/posts/studiodisplayethernet": "2026-11-22",
+  "https://winedroid.soham.sh/demo": "2026-11-22",
+  "https://ankitg.me/blog/vibecoding-inference-chip": "2026-11-22",
+  "https://signoregalilei.com/2026/11/20/and-yet-it-moves": "2026-11-22",
+  "https://eli.thegreenplace.net/2017/clojure-the-perfect-language-to-expand-your-brain": "2026-11-22"
  },
  "reported": [
   {
@@ -937,6 +963,36 @@
    "title": "OpenAI brings its collaborative Space hubs to Plus users",
    "title_fa": "قابلیت همکاری تیمی ChatGPT Space در دسترس کاربران نسخه پلاس قرار گرفت",
    "url": "https://engadget.com/2323016/openai-brings-its-collaborative-space-hubs-to-plus-users"
+  },
+  {
+   "date": "2026-11-22",
+   "title": "Lean Verification of the Riemann Hypothesis - Joint statement by...",
+   "title_fa": "یکی از بزرگ‌ترین معماهای ریاضی تاریخ حل شد؛ اثبات فرضیه ریمان با ۱۷ میلیون خط کد در Lean",
+   "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis"
+  },
+  {
+   "date": "2026-11-22",
+   "title": "Waymo recalls robotaxis after they drove into closed freeway lanes",
+   "title_fa": "بحران برای تاکسی‌های خودران گوگل؛ ویمو ناوگانش را به دلیل خطای اتوبانی فراخوان داد",
+   "url": "https://engadget.com/2324099/waymo-recalls-robotaxis-after-they-drove-into-closed-freeway-lanes"
+  },
+  {
+   "date": "2026-11-22",
+   "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+   "title_fa": "اجاره دادن چهره به هوش مصنوعی؛ آیا بازیگران هالیوود خانه‌نشین می‌شوند؟",
+   "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood"
+  },
+  {
+   "date": "2026-11-22",
+   "title": "How to use Gemini Notebook to turn your research into an interactive site",
+   "title_fa": "تبدیل فایل و جزوه به وب‌سایت تعاملی فقط با یک دستور در Gemini Notebook",
+   "url": "https://engadget.com/2321236/how-to-use-gemini-notebook-to-turn-your-research-into-an-interactive-site"
+  },
+  {
+   "date": "2026-11-22",
+   "title": "Etsy says it will not use sellers' content to train AI after they revolt over policy changes",
+   "title_fa": "شورش فروشندگان اتسی؛ شفاف‌سازی پلتفرم درباره عدم آموزش هوش مصنوعی روی آثار هنری",
+   "url": "https://engadget.com/2324090/etsy-not-use-seller-content-train-ai"
   }
  ],
  "telegram_chat_id": "925911315"

@@ -1,0 +1,991 @@
+{
+ "content": [
+  {
+   "title": "Lean Verification of the Riemann Hypothesis - Joint statement by...",
+   "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+   "source": "leanprover-community.github.io",
+   "published": "2026-11-21T14:36:45+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 257 امتیاز، 194 کامنت",
+   "signal_value": 257,
+   "discussion_url": "https://news.ycombinator.com/item?id=50589618",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://leanprover-community.github.io/blog/meta-twitter.png",
+     "origin": "og"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 6,
+   "category": "research",
+   "story_key": "riemann-hypothesis-lean-statement",
+   "topic_key": "riemann-hypothesis-claims",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "یکی از بزرگ‌ترین معماهای ریاضی تاریخ حل شد؛ اثبات فرضیه ریمان با ۱۷ میلیون خط کد در Lean",
+   "one_liner_fa": "تیم توسعه‌دهنده سیستم اثبات نرم‌افزاری لین (Lean) بیانیه‌ای رسمی برای اعتبارسنجی و بررسی کامپیوتری ادعاهای اخیر اثبات فرضیه ریمان منتشر کرد.",
+   "deep": {
+    "id": "18d9f9bc59",
+    "title_fa": "یکی از بزرگ‌ترین معماهای ریاضی تاریخ حل شد؛ اثبات فرضیه ریمان با ۱۷ میلیون خط کد در Lean",
+    "summary_fa": "لونت آلپوگه (Levent Alpöge) با انتشار یک کتابخانه ۱۷ میلیون خطی بر بستر نرم‌افزار اثبات قضیه لین (Lean)، فرضیه مشهور ریمان را به‌صورت رسمی اثبات کرد. سازمان Lean FRO و جامعه مَث‌لیب (Mathlib) در بیانیه‌ای مشترک تأیید کردند که این اثبات کامپایل شده و صددرصد معتبر و صحیح است. این کد با چندین ارزیاب مستقل (proof checker) بررسی شده و نشان می‌دهد سیستم‌های راستی‌آزمایی نرم‌افزاری می‌توانند پیچیده‌ترین مسائل علمی تاریخ را حل و ثبت کنند.",
+    "key_points_fa": [
+     "انتشار اثبات در تاریخ ۲۰ نوامبر ۲۰۲۶ توسط ریاضیدان لونت آلپوگه (Levent Alpöge)",
+     "اثبات شامل ۱۷ میلیون خط کد منبع بر بستر نرم‌افزار لین (Lean) و متکی به Mathlib",
+     "تأییدیه رسمی مشترک از سوی Lean FRO و ابتکار عمل Mathlib بر درستی اثبات",
+     "بررسی بدون خطا با چندین ارزیاب مستقل از جمله هسته رسمی لین، con-leche و con-ron",
+     "اثبات فرضیه ریمان به عنوان یکی از مسائل جایزه هزاره (Millennium Prize Problems)"
+    ],
+    "why_it_matters_fa": "فرضیه ریمان یکی از مهم‌ترین معماهای ریاضی تاریخ است و تایید آن با کدنویسی و راستی‌آزمایی خودکار، عصر کاملاً جدیدی را در حل مسائل بنیادی علم و علوم کامپیوتر آغاز می‌کند.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "بزرگ‌ترین معمای ریاضی بالاخره حل شد!",
+      "hook_fa": "باورنکردنیه ولی یکی از سخت‌ترین معماهای تاریخ ریاضی با ۱۷ میلیون خط کد حل شد!",
+      "angle_fa": "توضیح هیجان‌انگیز حل فرضیه ریمان توسط کامپیوتر و سیستم اثبات قضیه لین به زبان ساده برای مخاطب عام.",
+      "outline_fa": [
+       "معرفی مسئله ریمان و اینکه دهه‌ها کسی نتونسته بود اثباتش کنه",
+       "اتفاقی که دیشب افتاد: ۱۷ میلیون خط کد توسط دانشمندی به نام لونت آلپوگه",
+       "نقش نرم‌افزار اثبات‌گر Lean و تایید رسمی جامعه ریاضیات",
+       "نتیجه‌گیری: هوش مصنوعی و نرم‌افزارهای محاسباتی چطور مرزهای علم رو جابجا می‌کنن؟"
+      ],
+      "visual_tip_fa": "تصاویر گرافیکی از فرمول‌های تابع زتای ریمان، اسکرین‌شات از بیانیه رسمی گیت‌هاب Mathlib و کدهای زبان Lean روی پس‌زمینه دارک."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "چگونه Lean تاریخ ریاضیات را تغییر داد؟",
+      "hook_fa": "آیا ریاضیدان‌ها با نرم‌افزار Lean قراره بازنشسته بشن؟ ورق بزنید!",
+      "angle_fa": "بررسی فنی‌تر و دقیق‌تر برای علاقه‌مندان به برنامه‌نویسی و علوم کامپیوتر درباره دستیارهای اثبات قضیه.",
+      "outline_fa": [
+       "اسلاید ۱: خلاصه ماجرای اثبات فرضیه ریمان",
+       "اسلاید ۲: نرم‌افزار Lean چیه و چطور خط به خط منطق ریاضی رو تست می‌کنه؟",
+       "اسلاید ۳: چرا این ۱۷ میلیون خط کد بدون خطا کامپایل شد؟",
+       "اسلاید ۴: ابزارهای بررسی مثل con-leche چطور احتمال خطای سیستم رو صفر کردن؟",
+       "اسلاید ۵: آینده پژوهش علمی در کنار این مدل سیستم‌های نرم‌افزاری"
+      ],
+      "visual_tip_fa": "اینفوگرافیک معماری Lean، مقایسه اثبات روی کاغذ در برابر کد کامپیوتری و اسکرین‌شات گزارش MIT."
+     }
+    ],
+    "hashtags": [
+     "#ریاضیات",
+     "#هوش_مصنوعی",
+     "#تکنولوژی",
+     "#برنامه_نویسی",
+     "#LeanProver",
+     "#Mathlib",
+     "#RiemannHypothesis"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "18d9f9bc59"
+  },
+  {
+   "title": "Waymo recalls robotaxis after they drove into closed freeway lanes",
+   "url": "https://www.engadget.com/2324099/waymo-recalls-robotaxis-after-they-drove-into-closed-freeway-lanes/",
+   "source": "Engadget",
+   "published": "2026-11-21T16:01:32+00:00",
+   "origin": "Engadget",
+   "summary": "The recalls come after the California DMV banned Waymo from operating on its state freeways.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/waymo-recalls-robotaxis-after-they-drove-into-closed-freeway-lanes/l-intro-1795276679.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/waymo-recalls-robotaxis-after-they-drove-into-closed-freeway-lanes/intro-1795276679.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "safety_ethics",
+   "story_key": "waymo-freeway-recall",
+   "topic_key": "waymo-robotaxi",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "بحران برای تاکسی‌های خودران گوگل؛ ویمو ناوگانش را به دلیل خطای اتوبانی فراخوان داد",
+   "one_liner_fa": "شرکت ویمو در پی ورود خطرناک خودروهای خودرانش به خطوط مسدود بزرگراه و ممنوعیت تردد توسط مقامات کالیفرنیا، دست به فراخوان نرم‌افزاری تاکسی‌های خود زد.",
+   "deep": {
+    "id": "08b706923a",
+    "title_fa": "بحران برای تاکسی‌های خودران گوگل؛ ویمو ناوگانش را به دلیل خطای اتوبانی فراخوان داد",
+    "summary_fa": "شرکت ویمو (Waymo)، متعلق به آلفابت، به دنبال ورود خودروهای خودرانش به خطوط مسدود بزرگراه و نادیده گرفتن دستورات دستی پلیس، دو فراخوان رسمی ثبت کرد. این اقدام پس از آن صورت گرفت که اداره وسایل نقلیه کالیفرنیا (DMV) تردد خودروهای ویمو در آزادراه‌ها را به دلیل تهدید ایمنی عمومی ممنوع کرد. ویمو در حال حاضر تردد در اتوبان‌ها را متوقف کرده اما تاکسی‌های آن همچنان در خیابان‌های شهری به فعالیت ادامه می‌دهند.",
+    "key_points_fa": [
+     "ثبت دو فراخوان رسمی داوطلبانه نزد NHTSA برای ارتقای نرم‌افزار Waymo Driver",
+     "ممنوعیت تردد روبوتاکسی‌های ویمو در اتوبان‌های کالیفرنیا توسط اداره DMV",
+     "ورود خودروهای بدون راننده به کارگاه‌های ساختمانی بسته در شهر برلینگیم (Burlingame)",
+     "مشکل در درک هشدارهای دستی ماموران و دور زدن ماشین پلیس هنگام انسداد ترافیکی",
+     "توقف موقت سرویس‌دهی در آزادراه‌ها، هم‌زمان با ادامه فعالیت بدون تغییر در خیابان‌های شهری",
+     "عدم گزارش هرگونه تصادف یا جراحت در رابطه با نقص اخیر ورود به لاین‌های بسته"
+    ],
+    "why_it_matters_fa": "نشان‌دهنده این است که ماشین‌های خودران علیرغم پیشرفت خیره‌کننده، هنوز در درک علائم موقت کارگاهی و دستورات دستی پلیس با چالش‌های مرگبار روبرو هستند.",
+    "content_ideas": [
+     {
+      "format": "پست",
+      "title_fa": "چرا تاکسی‌های ویمو از اتوبان‌ها اخراج شدند؟",
+      "hook_fa": "پلیس کالیفرنیا جلوی خودروهای بدون راننده گوگل رو گرفت! ماجرا چیه؟",
+      "angle_fa": "تحلیل چالش ماشین‌های خودران در موقعیت‌های غیرقابل پیش‌بینی جاده‌ای و چرایی نقص آنها.",
+      "outline_fa": [
+       "تصمیم ناگهانی DMV کالیفرنیا و توقف سرویس ویمو در اتوبان‌ها",
+       "خطاهایی که خودروها انجام دادن: ورود به محدوده کارگری و نادیده گرفتن پلیس",
+       "پاسخ رسمی ویمو و فراخوان نرم‌افزاری NHTSA",
+       "چالش اصلی: آیا هوش مصنوعی بالاخره دست‌فرمان انسان رو کامل یاد می‌گیره؟"
+      ],
+      "visual_tip_fa": "عکس‌های ارائه‌شده از خودروی جگوار ویمو و تصویری با حس خطر یا آژیر پلیس روی کاور."
+     },
+     {
+      "format": "استوری",
+      "title_fa": "عقب‌نشینی موقت ویمو در بزرگراه‌ها",
+      "hook_fa": "ماشین‌های خودران گوگل دوباره سوتی دادن!",
+      "angle_fa": "پوشش سریع و تعاملی خبر با نظرسنجی از کاربران درباره اعتماد به تاکسی اینترنتی بدون راننده.",
+      "outline_fa": [
+       "استوری ۱: اعلام خبر تعلیق تردد اتوبانی ویمو با تصویر خودروها",
+       "استوری ۲: توضیح دلیل (ورود به کارگاه‌های جاده‌ای و متوجه نشدن سوت و فرمان دست پلیس)",
+       "استوری ۳: نظرسنجی: اگه الان تو خیابونای ایران بود سوارش می‌شدی؟ (بله / هرگز)"
+      ],
+      "visual_tip_fa": "اسکرین‌شات از تیتر خبر با هایلایت کردن کلمات کلیدی، همراه با استیکر پول (Poll)."
+     }
+    ],
+    "hashtags": [
+     "#ماشین_خودران",
+     "#ویمو",
+     "#گوگل",
+     "#تکنولوژی_جدید",
+     "#Waymo",
+     "#Robotaxi",
+     "#SelfDrivingCars"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "08b706923a"
+  },
+  {
+   "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+   "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+   "source": "TechCrunch",
+   "published": "2026-11-21T16:00:00+00:00",
+   "origin": "TechCrunch",
+   "summary": "An actor has licensed his face to a microdrama startup — in a trend that's already popular in China. Experts question the long-term consequences if this becomes a trend in Hollywood, too.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2026/11/Inevitable-Key-Art_3x4-full-size.jpg?resize=899,1200",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2025/12/495cdfd5deaad915a1ad58ab35edcbaa84b90c4ce9b7ded356c5ad1b61884800.png?w=150",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 7,
+   "category": "tools_for_creators",
+   "story_key": "actor-ai-face-licensing-microdrama",
+   "topic_key": "ai-hollywood-licensing",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "اجاره دادن چهره به هوش مصنوعی؛ آیا بازیگران هالیوود خانه‌نشین می‌شوند؟",
+   "one_liner_fa": "",
+   "deep": {
+    "id": "dffab27fe8",
+    "title_fa": "اجاره دادن چهره به هوش مصنوعی؛ آیا بازیگران هالیوود خانه‌نشین می‌شوند؟",
+    "summary_fa": "استارتاپ شورتیکال (Shortical) که در حوزه تولید سریال‌های کوتاه دوقیقه‌ای (Microdrama) فعالیت می‌کند، شروع به اجاره چهره افراد واقعی برای ساخت فیلم‌های تماماً مبتنی بر هوش مصنوعی کرده است. در نخستین پروژه، آکی آونی (Aki Avni)، بازیگر هالیوودی، تصویر و چهره خود را واگذار کرده تا یک آواتار دیجیتال از او نقش‌آفرینی کند. این روند که پیش از این در چین با دستمزدهای ۱۵ تا ۷۰۰ دلار رایج شده بود، اکنون با واکنش‌های منفی صنف بازیگران و نگرانی از نابودی فرصت‌های شغلی نوپا روبرو شده است.",
+    "key_points_fa": [
+     "پخش مینی‌سریال جدید این استارتاپ به نام Inevitable با چهره دیجیتالی آکی آونی (Aki Avni)",
+     "امکان ثبت‌نام عمومی در سایت Shortical برای واگذاری و اجاره چهره در ازای دریافت قرارداد مالی",
+     "کاهش شدید هزینه‌های تولید و امکان ساخت فضاهای فانتزی سنگین مثل اژدها و قلعه بدون فیلمبرداری",
+     "پرداخت مبالغ ناچیز بین ۱۵ تا ۷۰۰ دلار برای لایسنس چهره طبق گزارش Rest of World در چین",
+     "نگرانی شدید جامعه بازیگران تازه‌کار از نابودی ورود به صنعت فیلم و کاهش فرصت‌های کاری"
+    ],
+    "why_it_matters_fa": "این مدل تجاری نشان می‌دهد اتوماسیون فراتر از جلوه‌های ویژه رفته و در حال جایگزینی مستقیم هویت فیزیکی بازیگران با آواتارهای ارزان قیمت است.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "چهره‌ات رو بفروش، بدون بازی کردن پول بگیر!",
+      "hook_fa": "حاضری قیافه‌ت رو به یه شرکت فیلم‌سازی بفروشی تا با هوش مصنوعی ازت فیلم بسازن؟",
+      "angle_fa": "معرفی بیزنس مدل عجیب Shortical و پیامدهای اخلاقی و شغلی کپی شدن چهره انسان در هوش مصنوعی.",
+      "outline_fa": [
+       "ماجرای بازیگر هالیوودی که فقط چهرش رو فروخت و هوش مصنوعی جاش بازی کرد",
+       "استارتاپ شورتیکال چیه؟ تولید سریال‌های پرطرفدار ۲ دقیقه‌ای فقط با AI",
+       "هزینه‌هایی که پرداخت می‌شه (از ۱۵ دلار تا قراردادهای حرفه‌ای)",
+       "خطر بزرگ برای آینده هنر و بازیگرهای جوان"
+      ],
+      "visual_tip_fa": "ویدیو و تصاویر کات‌های سریع از مینی‌سریال‌های هوش مصنوعی، تضاد چهره واقعی بازیگر با نسخه کامپیوتری‌اش."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "آینده سینما یا پایان بازیگری؟ ماجرای لایسنس صورت",
+      "hook_fa": "شغل بازیگری در آستانه نابودی؛ کمپانی‌ها دیگر به انسان زنده نیاز ندارند!",
+      "angle_fa": "بررسی موج مینی‌دراماهای هوش مصنوعی، صرفه اقتصادی برای شرکت‌ها و سرنوشت هنرمندان.",
+      "outline_fa": [
+       "اسلاید ۱: پدیده جدید لایسنس چهره (Face Licensing) چیست؟",
+       "اسلاید ۲: چرا کمپانی‌ها مثل Shortical عاشق هوش مصنوعی شدن؟ (هزینه پایین، جلوه‌های ویژه نامحدود)",
+       "اسلاید ۳: واکنش هنرمندان و هالیوود؛ چرا همه شاکی هستند؟",
+       "اسلاید ۴: خطرات جعل و سوءاستفاده از هویت افراد",
+       "اسلاید ۵: سوال نهایی: آیا شما حاضر به فروش چهره خود هستید؟"
+      ],
+      "visual_tip_fa": "تصویر چهره اسکن‌شده به سبک سایبرپانک، نمونه سریال‌های عمودی موبایلی و آمار درآمدهای سازندگان."
+     }
+    ],
+    "hashtags": [
+     "#هوش_مصنوعی",
+     "#هالیوود",
+     "#تکنولوژی",
+     "#دیپ_فیک",
+     "#Shortical",
+     "#AIActors",
+     "#Deepfake"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "dffab27fe8"
+  },
+  {
+   "title": "How to use Gemini Notebook to turn your research into an interactive site",
+   "url": "https://www.engadget.com/2321236/how-to-use-gemini-notebook-to-turn-your-research-into-an-interactive-site/",
+   "source": "Engadget",
+   "published": "2026-11-21T13:30:00+00:00",
+   "origin": "Engadget",
+   "summary": "Gemini Notebook's newest feature can create a website with visual aids and interactive elements (just double-check its work).",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/how-to-use-gemini-notebook-to-turn-your-research-into-an-interactive-site/l-intro-1795027769.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/how-to-use-gemini-notebook-to-turn-your-research-into-an-interactive-site/intro-1795027769.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/how-to-use-gemini-notebook-to-turn-your-research-into-an-interactive-site/how-to-create-an-interactive-site-1795027771.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/uploads/embed/it-EcKD9X-1795021756.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 7,
+   "category": "tools_for_creators",
+   "story_key": "gemini-notebook-interactive-site-feature",
+   "topic_key": "google-gemini-features",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "تبدیل فایل و جزوه به وب‌سایت تعاملی فقط با یک دستور در Gemini Notebook",
+   "one_liner_fa": "",
+   "deep": {
+    "id": "9b236bdec4",
+    "title_fa": "تبدیل فایل و جزوه به وب‌سایت تعاملی فقط با یک دستور در Gemini Notebook",
+    "summary_fa": "گوگل قابلیت جذاب جدیدی را به ابزار جمینای نوتبوک (Gemini Notebook - همان NotebookLM سابق) اضافه کرد که می‌تواند بر اساس منابع آپلود شده شما، یک وب‌سایت کاملاً تعاملی بسازد. این ویژگی با دریافت فایل‌های پی‌دی‌اف، کتاب‌ها یا یادداشت‌های کاربر، سایتی با بخش‌های کلیک‌خور، فلش‌کارت آموزشی و آزمون‌های سنجش یادگیری طراحی می‌کند. این قابلیت در حال حاضر روی نسخه وب برای کاربران بالای ۱۸ سال فعال شده و به زودی به اپلیکیشن موبایل نیز می‌آید.",
+    "key_points_fa": [
+     "تغییر نام ابزار معروف NotebookLM گوگل به Gemini Notebook",
+     "امکان ساخت وب‌سایت اختصاصی فقط با نوشتن پرامپت «make me a site» در چت‌باکس",
+     "قابلیت تعاملی شامل فلش‌کارت‌ها، آزمون (Quiz) و منوهای کلیک‌خور با طراحی منحصربه‌فرد",
+     "پشتیبانی از انواع ورودی‌ها: PDF، تصاویر گوگل‌درایو، لینک وب‌سایت‌ها و متن‌های کپی‌شده",
+     "دسترسی فعلی از طریق نسخه دسکتاپ وب برای افراد ۱۸ سال به بالا (موبایل به زودی)",
+     "امکان استفاده برای ساخت داشبوردهای فروش یا سیستم‌های ردیابی پروژه کاری علاوه بر آموزش"
+    ],
+    "why_it_matters_fa": "این ویژگی تولید مینی‌سایت و ابزارهای یادگیری را از یک پروسه کدنویسی پیچیده، به یک دستور متنی ساده تبدیل می‌کند و برای دانشجوها و فریلنسرها بی‌نظیر است.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "با جزوه‌هات در ۳۰ ثانیه سایت بساز!",
+      "hook_fa": "دیگه برای درس خوندن جزوه نخون! گوگل برات از همون جزوه یه سایت تعاملی با کوئیز می‌سازه!",
+      "angle_fa": "آموزش گام‌به‌گام و سریع برای دانشجوها، دانش‌آموزان و افراد فنی برای خلاصه‌سازی و یادگیری سریع مطالب.",
+      "outline_fa": [
+       "نشون دادن صفحه Gemini Notebook و تغییر نامش از نوتبوک ال‌ام",
+       "آپلود یک پی‌دی‌اف و نوشتن پرامپت 'make me a site'",
+       "نمایش سایت آماده شده با فلش‌کارت‌ها و تست‌های چهارگزینه‌ای در پنل Studio",
+       "تذکر سریع درباره اینکه حواستون به توهم‌های احتمالی هوش مصنوعی باشه"
+      ],
+      "visual_tip_fa": "اسکرین ریکورد شفاف از رابط کاربری Gemini Notebook، کلیک روی فلش‌کارت‌ها و انیمیشن جذاب سایت تولید شده."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "آموزش ساخت مینی‌سایت با جمینای نوتبوک",
+      "hook_fa": "ویژگی مخفی گوگل که هیچ‌کس ازش حرف نمی‌زنه: ساخت سایت بدون یک خط کدنویسی!",
+      "angle_fa": "یک راهنمای تصویری اسلایدی به صورت اسکرین‌شات و فلش که مخاطب ذخیره (Save) کند.",
+      "outline_fa": [
+       "اسلاید ۱: معرفی قابلیت جدید وب‌سایت‌ساز در NotebookLM",
+       "اسلاید ۲: مراحل گام‌به‌گام: ساخت Notebook و آپلود فایل‌ها",
+       "اسلاید ۳: پرامپت جادویی که باید در چت بنویسید",
+       "اسلاید ۴: کاربردهای غیردرسی: داشبورد فروش و ترکر پروژه‌ها",
+       "اسلاید ۵: محدودیت‌ها و نکته امنیتی راستی‌آزمایی فکت‌ها"
+      ],
+      "visual_tip_fa": "ترکیب اسکرین‌شات‌های مقاله از محیط کاربری با هایلایت کردن دکمه‌ها و فلش‌های راهنما."
+     }
+    ],
+    "hashtags": [
+     "#گوگل",
+     "#جمینای",
+     "#ابزار_رایگان",
+     "#هوش_مصنوعی",
+     "#دانشجویی",
+     "#GeminiNotebook",
+     "#NotebookLM",
+     "#GoogleGemini"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "9b236bdec4"
+  },
+  {
+   "title": "Etsy says it will not use sellers' content to train AI after they revolt over policy changes",
+   "url": "https://www.engadget.com/2324090/etsy-not-use-seller-content-train-ai/",
+   "source": "Engadget",
+   "published": "2026-11-21T14:25:25+00:00",
+   "origin": "Engadget",
+   "summary": "Etsy changed its terms of use, adding a clause on AI training. Now, it has clarified that it will not use sellers' content to train AI that can copy their work.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/etsy-says-it-will-not-use-sellers-content-to-train-ai-after-they-revolt-over-policy-changes/l-intro-1795270607.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/etsy-says-it-will-not-use-sellers-content-to-train-ai-after-they-revolt-over-policy-changes/intro-1795270607.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 6,
+   "category": "policy_regulation",
+   "story_key": "etsy-ai-training-policy-backtrack",
+   "topic_key": "ai-copyright-training-disputes",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "شورش فروشندگان اتسی؛ شفاف‌سازی پلتفرم درباره عدم آموزش هوش مصنوعی روی آثار هنری",
+   "one_liner_fa": "",
+   "deep": {
+    "id": "f8016f2e25",
+    "title_fa": "شورش فروشندگان اتسی؛ شفاف‌سازی پلتفرم درباره عدم آموزش هوش مصنوعی روی آثار هنری",
+    "summary_fa": "در پی تغییر قوانین و شرایط استفاده در پلتفرم اتسی (Etsy) و احتمال آموزش هوش مصنوعی روی آثار هنری، موجی از خروج و اعتراض فروشندگان صنایع دستی شکل گرفت. به دنبال این بحران، مدیران اتسی بیانیه‌ای صادر کرده و اعلام نمودند از محتوای فروشندگان برای آموزش مدل‌های کپی‌کننده آثار یا جایگزین‌کننده خلاقیت آن‌ها استفاده نخواهد شد. طبق توضیحات اتسی، هوش مصنوعی این پلتفرم صرفاً برای ترجمه خودکار، تبلیغات و بهینه‌سازی فروشگاه‌ها به کار گرفته می‌شود.",
+    "key_points_fa": [
+     "بند مناقشه‌برانگیز در قوانین جدید اتسی با حق آموزش مدل‌های هوش مصنوعی تا تاریخ ۱۶ دسامبر",
+     "مهاجرت و ترک پلتفرم توسط هنرمندان و تولیدکنندگان کارهای دست‌ساز دست‌اول",
+     "پاسخ رسمی جیمز اسمن (James Ossman)، نایب‌رئیس عملیات اتسی مبنی بر عدم کپی یا جایگزینی هنر کاربران",
+     "استفاده هوش مصنوعی محدود به ترجمه متون، ابزارهای تحلیلی فروشگاه و کشف کلاهبرداری اعلام شد",
+     "ممنوعیت فعالیت ربات‌های خزنده هوش مصنوعی (AI scrapers) بر روی صفحات و محصولات اتسی"
+    ],
+    "why_it_matters_fa": "این اتفاق قدرت جامعه خالقان محتوا در برابر کمپانی‌های غول‌پیکر را نشان می‌دهد و زنگ خطری جدی درباره حفظ کپی‌رایت در عصر هوش مصنوعی است.",
+    "content_ideas": [
+     {
+      "format": "پست",
+      "title_fa": "پیروزی هنرمندان بر هوش مصنوعی؛ عقب‌نشینی اتسی",
+      "hook_fa": "وقتی هنرمندها باهم متحد بشن، غول‌های تکنولوژی مجبور به عقب‌نشینی می‌شن!",
+      "angle_fa": "داستان اعتصاب صنفی هنرمندان علیه سوءاستفاده غول‌های فناوری از هنر دست‌ساز برای آموزش AI.",
+      "outline_fa": [
+       "تغییر بی‌سر و صدای قوانین اتسی برای دیتای هوش مصنوعی",
+       "واکنش خشمگین فروشنده‌ها و بستن هزاران فروشگاه در اعتراض",
+       "عذرخواهی و بیانیه فوری شرکت برای رفع ابهام",
+       "چرا پلتفرم‌های دیگه هم باید حواسشون به کپی‌رایت سازندگان باشه؟"
+      ],
+      "visual_tip_fa": "تصویر آرت‌ورک دست‌ساز در تضاد با کدهای دیجیتال، لوگوی اتسی همراه با تیترهای اعتراضی خبرگزاری‌ها."
+     },
+     {
+      "format": "استوری",
+      "title_fa": "خطر هوش مصنوعی بیخ گوش فروشگاه‌های آنلاین",
+      "hook_fa": "اگه محصول دست‌ساز می‌فروشی، این خبر مهم رو بدون!",
+      "angle_fa": "اطلاع‌رسانی سریع به آرتیست‌ها و فریلنسرهای ایرانی شاغل در پلتفرم‌های بین‌المللی درباره امنیت آثارشان.",
+      "outline_fa": [
+       "استوری ۱: توضیح بحران چند روز اخیر Etsy و خروج دسته‌جمعی فروشنده‌ها",
+       "استوری ۲: توضیح بیانیه رسمی و شفاف‌سازی مدیریت",
+       "استوری ۳: چطور بفهمیم کارامون خوراک هوش مصنوعی نمیشه؟ (نکات محافظت از کپی‌رایت)"
+      ],
+      "visual_tip_fa": "عکس‌های محصولات مینیمال صنایع‌دستی با آیکون ضربدر روی ربات‌های هوش مصنوعی."
+     }
+    ],
+    "hashtags": [
+     "#کپی_رایت",
+     "#حقوق_هنرمندان",
+     "#اتسی",
+     "#هوش_مصنوعی",
+     "#اخبار_فناوری",
+     "#Etsy",
+     "#AIEthics"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "f8016f2e25"
+  }
+ ],
+ "others": [],
+ "scored": [
+  {
+   "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+   "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+   "source": "TechCrunch",
+   "published": "2026-11-21T16:00:00+00:00",
+   "origin": "TechCrunch",
+   "summary": "An actor has licensed his face to a microdrama startup — in a trend that's already popular in China. Experts question the long-term consequences if this becomes a trend in Hollywood, too.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2026/11/Inevitable-Key-Art_3x4-full-size.jpg?resize=899,1200",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2025/12/495cdfd5deaad915a1ad58ab35edcbaa84b90c4ce9b7ded356c5ad1b61884800.png?w=150",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 7,
+   "category": "tools_for_creators",
+   "story_key": "actor-ai-face-licensing-microdrama",
+   "topic_key": "ai-hollywood-licensing",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "اجاره دادن چهره به هوش مصنوعی؛ آیا بازیگران هالیوود خانه‌نشین می‌شوند؟",
+   "one_liner_fa": "",
+   "deep": {
+    "id": "dffab27fe8",
+    "title_fa": "اجاره دادن چهره به هوش مصنوعی؛ آیا بازیگران هالیوود خانه‌نشین می‌شوند؟",
+    "summary_fa": "استارتاپ شورتیکال (Shortical) که در حوزه تولید سریال‌های کوتاه دوقیقه‌ای (Microdrama) فعالیت می‌کند، شروع به اجاره چهره افراد واقعی برای ساخت فیلم‌های تماماً مبتنی بر هوش مصنوعی کرده است. در نخستین پروژه، آکی آونی (Aki Avni)، بازیگر هالیوودی، تصویر و چهره خود را واگذار کرده تا یک آواتار دیجیتال از او نقش‌آفرینی کند. این روند که پیش از این در چین با دستمزدهای ۱۵ تا ۷۰۰ دلار رایج شده بود، اکنون با واکنش‌های منفی صنف بازیگران و نگرانی از نابودی فرصت‌های شغلی نوپا روبرو شده است.",
+    "key_points_fa": [
+     "پخش مینی‌سریال جدید این استارتاپ به نام Inevitable با چهره دیجیتالی آکی آونی (Aki Avni)",
+     "امکان ثبت‌نام عمومی در سایت Shortical برای واگذاری و اجاره چهره در ازای دریافت قرارداد مالی",
+     "کاهش شدید هزینه‌های تولید و امکان ساخت فضاهای فانتزی سنگین مثل اژدها و قلعه بدون فیلمبرداری",
+     "پرداخت مبالغ ناچیز بین ۱۵ تا ۷۰۰ دلار برای لایسنس چهره طبق گزارش Rest of World در چین",
+     "نگرانی شدید جامعه بازیگران تازه‌کار از نابودی ورود به صنعت فیلم و کاهش فرصت‌های کاری"
+    ],
+    "why_it_matters_fa": "این مدل تجاری نشان می‌دهد اتوماسیون فراتر از جلوه‌های ویژه رفته و در حال جایگزینی مستقیم هویت فیزیکی بازیگران با آواتارهای ارزان قیمت است.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "چهره‌ات رو بفروش، بدون بازی کردن پول بگیر!",
+      "hook_fa": "حاضری قیافه‌ت رو به یه شرکت فیلم‌سازی بفروشی تا با هوش مصنوعی ازت فیلم بسازن؟",
+      "angle_fa": "معرفی بیزنس مدل عجیب Shortical و پیامدهای اخلاقی و شغلی کپی شدن چهره انسان در هوش مصنوعی.",
+      "outline_fa": [
+       "ماجرای بازیگر هالیوودی که فقط چهرش رو فروخت و هوش مصنوعی جاش بازی کرد",
+       "استارتاپ شورتیکال چیه؟ تولید سریال‌های پرطرفدار ۲ دقیقه‌ای فقط با AI",
+       "هزینه‌هایی که پرداخت می‌شه (از ۱۵ دلار تا قراردادهای حرفه‌ای)",
+       "خطر بزرگ برای آینده هنر و بازیگرهای جوان"
+      ],
+      "visual_tip_fa": "ویدیو و تصاویر کات‌های سریع از مینی‌سریال‌های هوش مصنوعی، تضاد چهره واقعی بازیگر با نسخه کامپیوتری‌اش."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "آینده سینما یا پایان بازیگری؟ ماجرای لایسنس صورت",
+      "hook_fa": "شغل بازیگری در آستانه نابودی؛ کمپانی‌ها دیگر به انسان زنده نیاز ندارند!",
+      "angle_fa": "بررسی موج مینی‌دراماهای هوش مصنوعی، صرفه اقتصادی برای شرکت‌ها و سرنوشت هنرمندان.",
+      "outline_fa": [
+       "اسلاید ۱: پدیده جدید لایسنس چهره (Face Licensing) چیست؟",
+       "اسلاید ۲: چرا کمپانی‌ها مثل Shortical عاشق هوش مصنوعی شدن؟ (هزینه پایین، جلوه‌های ویژه نامحدود)",
+       "اسلاید ۳: واکنش هنرمندان و هالیوود؛ چرا همه شاکی هستند؟",
+       "اسلاید ۴: خطرات جعل و سوءاستفاده از هویت افراد",
+       "اسلاید ۵: سوال نهایی: آیا شما حاضر به فروش چهره خود هستید؟"
+      ],
+      "visual_tip_fa": "تصویر چهره اسکن‌شده به سبک سایبرپانک، نمونه سریال‌های عمودی موبایلی و آمار درآمدهای سازندگان."
+     }
+    ],
+    "hashtags": [
+     "#هوش_مصنوعی",
+     "#هالیوود",
+     "#تکنولوژی",
+     "#دیپ_فیک",
+     "#Shortical",
+     "#AIActors",
+     "#Deepfake"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "dffab27fe8"
+  },
+  {
+   "title": "Waymo recalls robotaxis after they drove into closed freeway lanes",
+   "url": "https://www.engadget.com/2324099/waymo-recalls-robotaxis-after-they-drove-into-closed-freeway-lanes/",
+   "source": "Engadget",
+   "published": "2026-11-21T16:01:32+00:00",
+   "origin": "Engadget",
+   "summary": "The recalls come after the California DMV banned Waymo from operating on its state freeways.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/waymo-recalls-robotaxis-after-they-drove-into-closed-freeway-lanes/l-intro-1795276679.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/waymo-recalls-robotaxis-after-they-drove-into-closed-freeway-lanes/intro-1795276679.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "safety_ethics",
+   "story_key": "waymo-freeway-recall",
+   "topic_key": "waymo-robotaxi",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "بحران برای تاکسی‌های خودران گوگل؛ ویمو ناوگانش را به دلیل خطای اتوبانی فراخوان داد",
+   "one_liner_fa": "شرکت ویمو در پی ورود خطرناک خودروهای خودرانش به خطوط مسدود بزرگراه و ممنوعیت تردد توسط مقامات کالیفرنیا، دست به فراخوان نرم‌افزاری تاکسی‌های خود زد.",
+   "deep": {
+    "id": "08b706923a",
+    "title_fa": "بحران برای تاکسی‌های خودران گوگل؛ ویمو ناوگانش را به دلیل خطای اتوبانی فراخوان داد",
+    "summary_fa": "شرکت ویمو (Waymo)، متعلق به آلفابت، به دنبال ورود خودروهای خودرانش به خطوط مسدود بزرگراه و نادیده گرفتن دستورات دستی پلیس، دو فراخوان رسمی ثبت کرد. این اقدام پس از آن صورت گرفت که اداره وسایل نقلیه کالیفرنیا (DMV) تردد خودروهای ویمو در آزادراه‌ها را به دلیل تهدید ایمنی عمومی ممنوع کرد. ویمو در حال حاضر تردد در اتوبان‌ها را متوقف کرده اما تاکسی‌های آن همچنان در خیابان‌های شهری به فعالیت ادامه می‌دهند.",
+    "key_points_fa": [
+     "ثبت دو فراخوان رسمی داوطلبانه نزد NHTSA برای ارتقای نرم‌افزار Waymo Driver",
+     "ممنوعیت تردد روبوتاکسی‌های ویمو در اتوبان‌های کالیفرنیا توسط اداره DMV",
+     "ورود خودروهای بدون راننده به کارگاه‌های ساختمانی بسته در شهر برلینگیم (Burlingame)",
+     "مشکل در درک هشدارهای دستی ماموران و دور زدن ماشین پلیس هنگام انسداد ترافیکی",
+     "توقف موقت سرویس‌دهی در آزادراه‌ها، هم‌زمان با ادامه فعالیت بدون تغییر در خیابان‌های شهری",
+     "عدم گزارش هرگونه تصادف یا جراحت در رابطه با نقص اخیر ورود به لاین‌های بسته"
+    ],
+    "why_it_matters_fa": "نشان‌دهنده این است که ماشین‌های خودران علیرغم پیشرفت خیره‌کننده، هنوز در درک علائم موقت کارگاهی و دستورات دستی پلیس با چالش‌های مرگبار روبرو هستند.",
+    "content_ideas": [
+     {
+      "format": "پست",
+      "title_fa": "چرا تاکسی‌های ویمو از اتوبان‌ها اخراج شدند؟",
+      "hook_fa": "پلیس کالیفرنیا جلوی خودروهای بدون راننده گوگل رو گرفت! ماجرا چیه؟",
+      "angle_fa": "تحلیل چالش ماشین‌های خودران در موقعیت‌های غیرقابل پیش‌بینی جاده‌ای و چرایی نقص آنها.",
+      "outline_fa": [
+       "تصمیم ناگهانی DMV کالیفرنیا و توقف سرویس ویمو در اتوبان‌ها",
+       "خطاهایی که خودروها انجام دادن: ورود به محدوده کارگری و نادیده گرفتن پلیس",
+       "پاسخ رسمی ویمو و فراخوان نرم‌افزاری NHTSA",
+       "چالش اصلی: آیا هوش مصنوعی بالاخره دست‌فرمان انسان رو کامل یاد می‌گیره؟"
+      ],
+      "visual_tip_fa": "عکس‌های ارائه‌شده از خودروی جگوار ویمو و تصویری با حس خطر یا آژیر پلیس روی کاور."
+     },
+     {
+      "format": "استوری",
+      "title_fa": "عقب‌نشینی موقت ویمو در بزرگراه‌ها",
+      "hook_fa": "ماشین‌های خودران گوگل دوباره سوتی دادن!",
+      "angle_fa": "پوشش سریع و تعاملی خبر با نظرسنجی از کاربران درباره اعتماد به تاکسی اینترنتی بدون راننده.",
+      "outline_fa": [
+       "استوری ۱: اعلام خبر تعلیق تردد اتوبانی ویمو با تصویر خودروها",
+       "استوری ۲: توضیح دلیل (ورود به کارگاه‌های جاده‌ای و متوجه نشدن سوت و فرمان دست پلیس)",
+       "استوری ۳: نظرسنجی: اگه الان تو خیابونای ایران بود سوارش می‌شدی؟ (بله / هرگز)"
+      ],
+      "visual_tip_fa": "اسکرین‌شات از تیتر خبر با هایلایت کردن کلمات کلیدی، همراه با استیکر پول (Poll)."
+     }
+    ],
+    "hashtags": [
+     "#ماشین_خودران",
+     "#ویمو",
+     "#گوگل",
+     "#تکنولوژی_جدید",
+     "#Waymo",
+     "#Robotaxi",
+     "#SelfDrivingCars"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "08b706923a"
+  },
+  {
+   "title": "Etsy says it will not use sellers' content to train AI after they revolt over policy changes",
+   "url": "https://www.engadget.com/2324090/etsy-not-use-seller-content-train-ai/",
+   "source": "Engadget",
+   "published": "2026-11-21T14:25:25+00:00",
+   "origin": "Engadget",
+   "summary": "Etsy changed its terms of use, adding a clause on AI training. Now, it has clarified that it will not use sellers' content to train AI that can copy their work.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/etsy-says-it-will-not-use-sellers-content-to-train-ai-after-they-revolt-over-policy-changes/l-intro-1795270607.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/etsy-says-it-will-not-use-sellers-content-to-train-ai-after-they-revolt-over-policy-changes/intro-1795270607.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 6,
+   "category": "policy_regulation",
+   "story_key": "etsy-ai-training-policy-backtrack",
+   "topic_key": "ai-copyright-training-disputes",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "شورش فروشندگان اتسی؛ شفاف‌سازی پلتفرم درباره عدم آموزش هوش مصنوعی روی آثار هنری",
+   "one_liner_fa": "",
+   "deep": {
+    "id": "f8016f2e25",
+    "title_fa": "شورش فروشندگان اتسی؛ شفاف‌سازی پلتفرم درباره عدم آموزش هوش مصنوعی روی آثار هنری",
+    "summary_fa": "در پی تغییر قوانین و شرایط استفاده در پلتفرم اتسی (Etsy) و احتمال آموزش هوش مصنوعی روی آثار هنری، موجی از خروج و اعتراض فروشندگان صنایع دستی شکل گرفت. به دنبال این بحران، مدیران اتسی بیانیه‌ای صادر کرده و اعلام نمودند از محتوای فروشندگان برای آموزش مدل‌های کپی‌کننده آثار یا جایگزین‌کننده خلاقیت آن‌ها استفاده نخواهد شد. طبق توضیحات اتسی، هوش مصنوعی این پلتفرم صرفاً برای ترجمه خودکار، تبلیغات و بهینه‌سازی فروشگاه‌ها به کار گرفته می‌شود.",
+    "key_points_fa": [
+     "بند مناقشه‌برانگیز در قوانین جدید اتسی با حق آموزش مدل‌های هوش مصنوعی تا تاریخ ۱۶ دسامبر",
+     "مهاجرت و ترک پلتفرم توسط هنرمندان و تولیدکنندگان کارهای دست‌ساز دست‌اول",
+     "پاسخ رسمی جیمز اسمن (James Ossman)، نایب‌رئیس عملیات اتسی مبنی بر عدم کپی یا جایگزینی هنر کاربران",
+     "استفاده هوش مصنوعی محدود به ترجمه متون، ابزارهای تحلیلی فروشگاه و کشف کلاهبرداری اعلام شد",
+     "ممنوعیت فعالیت ربات‌های خزنده هوش مصنوعی (AI scrapers) بر روی صفحات و محصولات اتسی"
+    ],
+    "why_it_matters_fa": "این اتفاق قدرت جامعه خالقان محتوا در برابر کمپانی‌های غول‌پیکر را نشان می‌دهد و زنگ خطری جدی درباره حفظ کپی‌رایت در عصر هوش مصنوعی است.",
+    "content_ideas": [
+     {
+      "format": "پست",
+      "title_fa": "پیروزی هنرمندان بر هوش مصنوعی؛ عقب‌نشینی اتسی",
+      "hook_fa": "وقتی هنرمندها باهم متحد بشن، غول‌های تکنولوژی مجبور به عقب‌نشینی می‌شن!",
+      "angle_fa": "داستان اعتصاب صنفی هنرمندان علیه سوءاستفاده غول‌های فناوری از هنر دست‌ساز برای آموزش AI.",
+      "outline_fa": [
+       "تغییر بی‌سر و صدای قوانین اتسی برای دیتای هوش مصنوعی",
+       "واکنش خشمگین فروشنده‌ها و بستن هزاران فروشگاه در اعتراض",
+       "عذرخواهی و بیانیه فوری شرکت برای رفع ابهام",
+       "چرا پلتفرم‌های دیگه هم باید حواسشون به کپی‌رایت سازندگان باشه؟"
+      ],
+      "visual_tip_fa": "تصویر آرت‌ورک دست‌ساز در تضاد با کدهای دیجیتال، لوگوی اتسی همراه با تیترهای اعتراضی خبرگزاری‌ها."
+     },
+     {
+      "format": "استوری",
+      "title_fa": "خطر هوش مصنوعی بیخ گوش فروشگاه‌های آنلاین",
+      "hook_fa": "اگه محصول دست‌ساز می‌فروشی، این خبر مهم رو بدون!",
+      "angle_fa": "اطلاع‌رسانی سریع به آرتیست‌ها و فریلنسرهای ایرانی شاغل در پلتفرم‌های بین‌المللی درباره امنیت آثارشان.",
+      "outline_fa": [
+       "استوری ۱: توضیح بحران چند روز اخیر Etsy و خروج دسته‌جمعی فروشنده‌ها",
+       "استوری ۲: توضیح بیانیه رسمی و شفاف‌سازی مدیریت",
+       "استوری ۳: چطور بفهمیم کارامون خوراک هوش مصنوعی نمیشه؟ (نکات محافظت از کپی‌رایت)"
+      ],
+      "visual_tip_fa": "عکس‌های محصولات مینیمال صنایع‌دستی با آیکون ضربدر روی ربات‌های هوش مصنوعی."
+     }
+    ],
+    "hashtags": [
+     "#کپی_رایت",
+     "#حقوق_هنرمندان",
+     "#اتسی",
+     "#هوش_مصنوعی",
+     "#اخبار_فناوری",
+     "#Etsy",
+     "#AIEthics"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "f8016f2e25"
+  },
+  {
+   "title": "How to use Gemini Notebook to turn your research into an interactive site",
+   "url": "https://www.engadget.com/2321236/how-to-use-gemini-notebook-to-turn-your-research-into-an-interactive-site/",
+   "source": "Engadget",
+   "published": "2026-11-21T13:30:00+00:00",
+   "origin": "Engadget",
+   "summary": "Gemini Notebook's newest feature can create a website with visual aids and interactive elements (just double-check its work).",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/how-to-use-gemini-notebook-to-turn-your-research-into-an-interactive-site/l-intro-1795027769.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/how-to-use-gemini-notebook-to-turn-your-research-into-an-interactive-site/intro-1795027769.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/how-to-use-gemini-notebook-to-turn-your-research-into-an-interactive-site/how-to-create-an-interactive-site-1795027771.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/uploads/embed/it-EcKD9X-1795021756.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 7,
+   "category": "tools_for_creators",
+   "story_key": "gemini-notebook-interactive-site-feature",
+   "topic_key": "google-gemini-features",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "تبدیل فایل و جزوه به وب‌سایت تعاملی فقط با یک دستور در Gemini Notebook",
+   "one_liner_fa": "",
+   "deep": {
+    "id": "9b236bdec4",
+    "title_fa": "تبدیل فایل و جزوه به وب‌سایت تعاملی فقط با یک دستور در Gemini Notebook",
+    "summary_fa": "گوگل قابلیت جذاب جدیدی را به ابزار جمینای نوتبوک (Gemini Notebook - همان NotebookLM سابق) اضافه کرد که می‌تواند بر اساس منابع آپلود شده شما، یک وب‌سایت کاملاً تعاملی بسازد. این ویژگی با دریافت فایل‌های پی‌دی‌اف، کتاب‌ها یا یادداشت‌های کاربر، سایتی با بخش‌های کلیک‌خور، فلش‌کارت آموزشی و آزمون‌های سنجش یادگیری طراحی می‌کند. این قابلیت در حال حاضر روی نسخه وب برای کاربران بالای ۱۸ سال فعال شده و به زودی به اپلیکیشن موبایل نیز می‌آید.",
+    "key_points_fa": [
+     "تغییر نام ابزار معروف NotebookLM گوگل به Gemini Notebook",
+     "امکان ساخت وب‌سایت اختصاصی فقط با نوشتن پرامپت «make me a site» در چت‌باکس",
+     "قابلیت تعاملی شامل فلش‌کارت‌ها، آزمون (Quiz) و منوهای کلیک‌خور با طراحی منحصربه‌فرد",
+     "پشتیبانی از انواع ورودی‌ها: PDF، تصاویر گوگل‌درایو، لینک وب‌سایت‌ها و متن‌های کپی‌شده",
+     "دسترسی فعلی از طریق نسخه دسکتاپ وب برای افراد ۱۸ سال به بالا (موبایل به زودی)",
+     "امکان استفاده برای ساخت داشبوردهای فروش یا سیستم‌های ردیابی پروژه کاری علاوه بر آموزش"
+    ],
+    "why_it_matters_fa": "این ویژگی تولید مینی‌سایت و ابزارهای یادگیری را از یک پروسه کدنویسی پیچیده، به یک دستور متنی ساده تبدیل می‌کند و برای دانشجوها و فریلنسرها بی‌نظیر است.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "با جزوه‌هات در ۳۰ ثانیه سایت بساز!",
+      "hook_fa": "دیگه برای درس خوندن جزوه نخون! گوگل برات از همون جزوه یه سایت تعاملی با کوئیز می‌سازه!",
+      "angle_fa": "آموزش گام‌به‌گام و سریع برای دانشجوها، دانش‌آموزان و افراد فنی برای خلاصه‌سازی و یادگیری سریع مطالب.",
+      "outline_fa": [
+       "نشون دادن صفحه Gemini Notebook و تغییر نامش از نوتبوک ال‌ام",
+       "آپلود یک پی‌دی‌اف و نوشتن پرامپت 'make me a site'",
+       "نمایش سایت آماده شده با فلش‌کارت‌ها و تست‌های چهارگزینه‌ای در پنل Studio",
+       "تذکر سریع درباره اینکه حواستون به توهم‌های احتمالی هوش مصنوعی باشه"
+      ],
+      "visual_tip_fa": "اسکرین ریکورد شفاف از رابط کاربری Gemini Notebook، کلیک روی فلش‌کارت‌ها و انیمیشن جذاب سایت تولید شده."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "آموزش ساخت مینی‌سایت با جمینای نوتبوک",
+      "hook_fa": "ویژگی مخفی گوگل که هیچ‌کس ازش حرف نمی‌زنه: ساخت سایت بدون یک خط کدنویسی!",
+      "angle_fa": "یک راهنمای تصویری اسلایدی به صورت اسکرین‌شات و فلش که مخاطب ذخیره (Save) کند.",
+      "outline_fa": [
+       "اسلاید ۱: معرفی قابلیت جدید وب‌سایت‌ساز در NotebookLM",
+       "اسلاید ۲: مراحل گام‌به‌گام: ساخت Notebook و آپلود فایل‌ها",
+       "اسلاید ۳: پرامپت جادویی که باید در چت بنویسید",
+       "اسلاید ۴: کاربردهای غیردرسی: داشبورد فروش و ترکر پروژه‌ها",
+       "اسلاید ۵: محدودیت‌ها و نکته امنیتی راستی‌آزمایی فکت‌ها"
+      ],
+      "visual_tip_fa": "ترکیب اسکرین‌شات‌های مقاله از محیط کاربری با هایلایت کردن دکمه‌ها و فلش‌های راهنما."
+     }
+    ],
+    "hashtags": [
+     "#گوگل",
+     "#جمینای",
+     "#ابزار_رایگان",
+     "#هوش_مصنوعی",
+     "#دانشجویی",
+     "#GeminiNotebook",
+     "#NotebookLM",
+     "#GoogleGemini"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "9b236bdec4"
+  },
+  {
+   "title": "Lean Verification of the Riemann Hypothesis - Joint statement by...",
+   "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+   "source": "leanprover-community.github.io",
+   "published": "2026-11-21T14:36:45+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 257 امتیاز، 194 کامنت",
+   "signal_value": 257,
+   "discussion_url": "https://news.ycombinator.com/item?id=50589618",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://leanprover-community.github.io/blog/meta-twitter.png",
+     "origin": "og"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 6,
+   "category": "research",
+   "story_key": "riemann-hypothesis-lean-statement",
+   "topic_key": "riemann-hypothesis-claims",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "یکی از بزرگ‌ترین معماهای ریاضی تاریخ حل شد؛ اثبات فرضیه ریمان با ۱۷ میلیون خط کد در Lean",
+   "one_liner_fa": "تیم توسعه‌دهنده سیستم اثبات نرم‌افزاری لین (Lean) بیانیه‌ای رسمی برای اعتبارسنجی و بررسی کامپیوتری ادعاهای اخیر اثبات فرضیه ریمان منتشر کرد.",
+   "deep": {
+    "id": "18d9f9bc59",
+    "title_fa": "یکی از بزرگ‌ترین معماهای ریاضی تاریخ حل شد؛ اثبات فرضیه ریمان با ۱۷ میلیون خط کد در Lean",
+    "summary_fa": "لونت آلپوگه (Levent Alpöge) با انتشار یک کتابخانه ۱۷ میلیون خطی بر بستر نرم‌افزار اثبات قضیه لین (Lean)، فرضیه مشهور ریمان را به‌صورت رسمی اثبات کرد. سازمان Lean FRO و جامعه مَث‌لیب (Mathlib) در بیانیه‌ای مشترک تأیید کردند که این اثبات کامپایل شده و صددرصد معتبر و صحیح است. این کد با چندین ارزیاب مستقل (proof checker) بررسی شده و نشان می‌دهد سیستم‌های راستی‌آزمایی نرم‌افزاری می‌توانند پیچیده‌ترین مسائل علمی تاریخ را حل و ثبت کنند.",
+    "key_points_fa": [
+     "انتشار اثبات در تاریخ ۲۰ نوامبر ۲۰۲۶ توسط ریاضیدان لونت آلپوگه (Levent Alpöge)",
+     "اثبات شامل ۱۷ میلیون خط کد منبع بر بستر نرم‌افزار لین (Lean) و متکی به Mathlib",
+     "تأییدیه رسمی مشترک از سوی Lean FRO و ابتکار عمل Mathlib بر درستی اثبات",
+     "بررسی بدون خطا با چندین ارزیاب مستقل از جمله هسته رسمی لین، con-leche و con-ron",
+     "اثبات فرضیه ریمان به عنوان یکی از مسائل جایزه هزاره (Millennium Prize Problems)"
+    ],
+    "why_it_matters_fa": "فرضیه ریمان یکی از مهم‌ترین معماهای ریاضی تاریخ است و تایید آن با کدنویسی و راستی‌آزمایی خودکار، عصر کاملاً جدیدی را در حل مسائل بنیادی علم و علوم کامپیوتر آغاز می‌کند.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "بزرگ‌ترین معمای ریاضی بالاخره حل شد!",
+      "hook_fa": "باورنکردنیه ولی یکی از سخت‌ترین معماهای تاریخ ریاضی با ۱۷ میلیون خط کد حل شد!",
+      "angle_fa": "توضیح هیجان‌انگیز حل فرضیه ریمان توسط کامپیوتر و سیستم اثبات قضیه لین به زبان ساده برای مخاطب عام.",
+      "outline_fa": [
+       "معرفی مسئله ریمان و اینکه دهه‌ها کسی نتونسته بود اثباتش کنه",
+       "اتفاقی که دیشب افتاد: ۱۷ میلیون خط کد توسط دانشمندی به نام لونت آلپوگه",
+       "نقش نرم‌افزار اثبات‌گر Lean و تایید رسمی جامعه ریاضیات",
+       "نتیجه‌گیری: هوش مصنوعی و نرم‌افزارهای محاسباتی چطور مرزهای علم رو جابجا می‌کنن؟"
+      ],
+      "visual_tip_fa": "تصاویر گرافیکی از فرمول‌های تابع زتای ریمان، اسکرین‌شات از بیانیه رسمی گیت‌هاب Mathlib و کدهای زبان Lean روی پس‌زمینه دارک."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "چگونه Lean تاریخ ریاضیات را تغییر داد؟",
+      "hook_fa": "آیا ریاضیدان‌ها با نرم‌افزار Lean قراره بازنشسته بشن؟ ورق بزنید!",
+      "angle_fa": "بررسی فنی‌تر و دقیق‌تر برای علاقه‌مندان به برنامه‌نویسی و علوم کامپیوتر درباره دستیارهای اثبات قضیه.",
+      "outline_fa": [
+       "اسلاید ۱: خلاصه ماجرای اثبات فرضیه ریمان",
+       "اسلاید ۲: نرم‌افزار Lean چیه و چطور خط به خط منطق ریاضی رو تست می‌کنه؟",
+       "اسلاید ۳: چرا این ۱۷ میلیون خط کد بدون خطا کامپایل شد؟",
+       "اسلاید ۴: ابزارهای بررسی مثل con-leche چطور احتمال خطای سیستم رو صفر کردن؟",
+       "اسلاید ۵: آینده پژوهش علمی در کنار این مدل سیستم‌های نرم‌افزاری"
+      ],
+      "visual_tip_fa": "اینفوگرافیک معماری Lean، مقایسه اثبات روی کاغذ در برابر کد کامپیوتری و اسکرین‌شات گزارش MIT."
+     }
+    ],
+    "hashtags": [
+     "#ریاضیات",
+     "#هوش_مصنوعی",
+     "#تکنولوژی",
+     "#برنامه_نویسی",
+     "#LeanProver",
+     "#Mathlib",
+     "#RiemannHypothesis"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "18d9f9bc59"
+  },
+  {
+   "title": "My Monitor Was Cutting My Download Speed by 75%",
+   "url": "https://blog.tymscar.com/posts/studiodisplayethernet/",
+   "source": "blog.tymscar.com",
+   "published": "2026-11-21T10:36:32+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 224 امتیاز، 94 کامنت",
+   "signal_value": 224,
+   "discussion_url": "https://news.ycombinator.com/item?id=50587875",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 6,
+   "category": "other_tech",
+   "story_key": "monitor-interference-wifi-speed",
+   "topic_key": "tech-quirks-debugging",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "e3142f2708"
+  },
+  {
+   "title": "Winedroid – run Android apps without Android (WASM demo)",
+   "url": "https://winedroid.soham.sh/demo/",
+   "source": "winedroid.soham.sh",
+   "published": "2026-11-20T19:30:16+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 173 امتیاز، 45 کامنت",
+   "signal_value": 173,
+   "discussion_url": "https://news.ycombinator.com/item?id=50580536",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 5,
+   "category": "open_source",
+   "story_key": "winedroid-wasm-android-demo",
+   "topic_key": "wasm-emulation",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "2ad14a149d"
+  },
+  {
+   "title": "Vibecoding an inference chip",
+   "url": "https://ankitg.me/blog/vibecoding-inference-chip/",
+   "source": "ankitg.me",
+   "published": "2026-11-20T18:15:16+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 166 امتیاز، 67 کامنت",
+   "signal_value": 166,
+   "discussion_url": "https://news.ycombinator.com/item?id=50579297",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 5,
+   "category": "hardware_chips",
+   "story_key": "vibecoding-inference-chip",
+   "topic_key": "ai-chip-design",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "3e30621eb1"
+  }
+ ],
+ "failed_sources": [],
+ "models": [
+  "gemini-3.8-flash",
+  "gemini-3.8-flash"
+ ]
+}
