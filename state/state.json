@@ -329,7 +329,43 @@
   "https://huggingface.co/papers/2611.26590": "2026-11-21",
   "https://huggingface.co/papers/2611.26629": "2026-11-21",
   "https://huggingface.co/papers/2611.26603": "2026-11-21",
-  "https://huggingface.co/papers/2611.26414": "2026-11-21"
+  "https://huggingface.co/papers/2611.26414": "2026-11-21",
+  "https://openai.com/index/combatting-adversarial-distillation": "2026-11-21",
+  "https://openai.com/business/customer-stories/hebbia": "2026-11-21",
+  "https://openai.com/index/introducing-medchembench": "2026-11-21",
+  "https://blog.google/products-and-platforms/products/search/connected-apps-holiday-errands": "2026-11-21",
+  "https://huggingface.co/blog/inkling2mini": "2026-11-21",
+  "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building": "2026-11-21",
+  "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too": "2026-11-21",
+  "https://technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update": "2026-11-21",
+  "https://engadget.com/2323929/why-you-shouldnt-rely-on-gta-6-auto-save": "2026-11-21",
+  "https://engadget.com/2323927/youtube-could-pay-3-billion-to-settle-social-media-addiction-lawsuits-with-school-districts": "2026-11-21",
+  "https://engadget.com/2323828/the-internet-archives-workers-are-unionizing": "2026-11-21",
+  "https://engadget.com/2323793/how-to-stream-gta-6-iphone-ipad-mac": "2026-11-21",
+  "https://engadget.com/2323671/gta-6-made-dollar379-billion-in-its-first-day-but-rockstars-workers-still-lack-job-security": "2026-11-21",
+  "https://engadget.com/2323606/germany-seems-to-be-serious-about-a-tiktok-europe-takeover": "2026-11-21",
+  "https://engadget.com/2323574/signal-now-blocks-screenshots-by-default-to-stymie-ai-agents": "2026-11-21",
+  "https://engadget.com/2323542/change-these-settings-if-you-want-gta-6-to-feel-like-old-gta": "2026-11-21",
+  "https://engadget.com/2323486/gta-6-fast-travel-trick-price": "2026-11-21",
+  "https://engadget.com/2323390/teenage-engineerings-first-cd-player-kind-of-looks-like-a-turntable": "2026-11-21",
+  "https://engadget.com/2323323/gta-plus-benefits-gta-6-is-it-worth-it": "2026-11-21",
+  "https://engadget.com/2323016/openai-brings-its-collaborative-space-hubs-to-plus-users": "2026-11-21",
+  "https://simonwillison.net/2026/Nov/20/ravi-vakil": "2026-11-21",
+  "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh": "2026-11-21",
+  "https://thinkingmachines.ai/news/inkling-2-mini": "2026-11-21",
+  "https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis": "2026-11-21",
+  "https://arxiv.org/abs/2611.21885": "2026-11-21",
+  "https://manidoraisamy.com/developer-to-architect.html": "2026-11-21",
+  "https://motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition": "2026-11-21",
+  "https://github.com/tristanbuckmaster/navier-stokes": "2026-11-21",
+  "https://marketscreener.com/news/us-sec-s-nvidia-probe-is-examining-potential-accounting-issues-sources-say-ce785ed3dd8ff627": "2026-11-21",
+  "https://scottaaronson.blog/?p=10344": "2026-11-21",
+  "https://jeanmicheljarre.com/aaa/the-making-of-oxygene": "2026-11-21",
+  "https://nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394": "2026-11-21",
+  "https://institute.deepmind.com/essays/what-comes-after-agi": "2026-11-21",
+  "https://gimp.org/news/2026/11/16/gimp-ui-tests": "2026-11-21",
+  "https://startups.novumsignals.com/": "2026-11-21",
+  "https://huggingface.co/papers/2611.26073": "2026-11-21"
  },
  "reported": [
   {
@@ -817,6 +853,84 @@
    "title": "Global stock markets slump as Anthropic's record IPO fails to stem AI sell-off",
    "title_fa": "ریزش بازارهای مالی جهان؛ ورود تاریخی آنتروپیک به بورس هم مانع سقوط سهام هوش مصنوعی نشد",
    "url": "https://theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off"
+  },
+  {
+   "date": "2026-11-21",
+   "title": "Hurried Announcement: Alessandro Masullo GRH",
+   "title_fa": "ادعای اثبات فرضیه بزرگ ریمان؛ آن هم کاملاً انسانی و بدون دخالت هوش مصنوعی!",
+   "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh"
+  },
+  {
+   "date": "2026-11-21",
+   "title": "Signal now blocks screenshots by default to stymie AI agents",
+   "title_fa": "سیگنال شمشیر را بست: مسدودسازی اسکرین‌شات برای جلوگیری از سرک کشیدن هوش مصنوعی!",
+   "url": "https://engadget.com/2323574/signal-now-blocks-screenshots-by-default-to-stymie-ai-agents"
+  },
+  {
+   "date": "2026-11-21",
+   "title": "US SEC's Nvidia probe is examining potential accounting issues – sources",
+   "title_fa": "تحقیقات کمیسیون بورس آمریکا درباره انویدیا؛ آیا پای مشکلات حسابداری در میان است؟",
+   "url": "https://marketscreener.com/news/us-sec-s-nvidia-probe-is-examining-potential-accounting-issues-sources-say-ce785ed3dd8ff627"
+  },
+  {
+   "date": "2026-11-21",
+   "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+   "title_fa": "مدل متن‌باز Inkling 2 Mini معرفی شد؛ غول مولتی‌مودال جدید برای سیستم خانگی شما!",
+   "url": "https://huggingface.co/blog/inkling2mini"
+  },
+  {
+   "date": "2026-11-21",
+   "title": "GTA 6 made $3.79 billion in its first day, but Rockstar's workers still lack job security",
+   "title_fa": "فروش تاریخی ۳.۸ میلیارد دلاری GTA 6 در روز اول، هم‌زمان با بحران امنیت شغلی سازندگانش!",
+   "url": "https://engadget.com/2323671/gta-6-made-dollar379-billion-in-its-first-day-but-rockstars-workers-still-lack-job-security"
+  },
+  {
+   "date": "2026-11-21",
+   "title": "Unforced Navier-Stokes Singularity and the Generalized Riemann Hypothesis",
+   "title_fa": "تحلیل ترنس تائو درباره حل همزمان دو معمای بزرگ هزاره ریاضیات!",
+   "url": "https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis"
+  },
+  {
+   "date": "2026-11-21",
+   "title": "Language Models Can Rewrite Their Own Weights",
+   "title_fa": "ترسناک اما واقعی: مدل‌های زبانی یاد گرفتند وزن‌های شبکه عصبی خود را تغییر دهند!",
+   "url": "https://arxiv.org/abs/2611.21885"
+  },
+  {
+   "date": "2026-11-21",
+   "title": "YouTube could pay $3 billion to settle social media addiction lawsuits with school districts",
+   "title_fa": "جریمه ۳ میلیارد دلاری یوتیوب به اتهام اعتیادآور بودن برای نوجوانان!",
+   "url": "https://engadget.com/2323927/youtube-could-pay-3-billion-to-settle-social-media-addiction-lawsuits-with-school-districts"
+  },
+  {
+   "date": "2026-11-21",
+   "title": "Finite-time blow-up for the Navier–Stokes equations",
+   "title_fa": "پیشرفت چشمگیر در حل معمای بی‌پاسخ هزاره: معادلات ناویر-استوکس",
+   "url": "https://github.com/tristanbuckmaster/navier-stokes"
+  },
+  {
+   "date": "2026-11-21",
+   "title": "What Comes After AGI?",
+   "title_fa": "تحقیق جدید دیپ‌مایند: دنیای بعد از هوش عمومی مصنوعی (AGI) چگونه خواهد بود؟",
+   "url": "https://institute.deepmind.com/essays/what-comes-after-agi"
+  },
+  {
+   "date": "2026-11-21",
+   "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+   "title_fa": "تست قدرت مدل مخفی GPT-6 Astra اوپن‌ای‌آی در تحقیقات مالی!",
+   "url": "https://openai.com/business/customer-stories/hebbia"
+  },
+  {
+   "date": "2026-11-21",
+   "title": "The most misunderstood graph in AI just got a major update",
+   "title_fa": "گزارش جنجالی METR: هوش مصنوعی در کدنویسی می‌درخشد اما در قضاوت هنوز لنگ می‌زند!",
+   "url": "https://technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update"
+  },
+  {
+   "date": "2026-11-21",
+   "title": "OpenAI brings its collaborative Space hubs to Plus users",
+   "title_fa": "قابلیت همکاری تیمی ChatGPT Space در دسترس کاربران نسخه پلاس قرار گرفت",
+   "url": "https://engadget.com/2323016/openai-brings-its-collaborative-space-hubs-to-plus-users"
   }
  ],
  "telegram_chat_id": "925911315"
