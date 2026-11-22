@@ -426,7 +426,19 @@
   "https://bbc.com/news/articles/cvze7de86pk3o": "2026-11-22",
   "https://esa.int/articles/about-us/directorates/operations/space-safety/hera/sir-brian-may-adds-new-dimension-to-hera-asteroid": "2026-11-22",
   "https://simple-bench.com/": "2026-11-22",
-  "https://ricapar.net/ClawDOS": "2026-11-22"
+  "https://ricapar.net/ClawDOS": "2026-11-22",
+  "https://engadget.com/2319300/pixel-11-is-it-worth-upgrading-from-9-10": "2026-11-22",
+  "https://engadget.com/2310887/samsung-vs-lg-oled-tv-difference-between": "2026-11-22",
+  "https://engadget.com/2319295/what-can-happen-too-many-devices-on-home-network": "2026-11-22",
+  "https://engadget.com/2319291/how-to-enable-usb-port-charging-pc-off": "2026-11-22",
+  "https://engadget.com/2317775/never-do-these-things-on-android-phone": "2026-11-22",
+  "https://simonwillison.net/2026/Nov/21/muru": "2026-11-22",
+  "https://caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs": "2026-11-22",
+  "https://stulle.app/": "2026-11-22",
+  "https://economist.com/business/2026/11/19/jensen-huangs-fall-is-bad-news-for-silicon-valleys-accelerationists": "2026-11-22",
+  "https://linebender.org/blog/next-100-guis": "2026-11-22",
+  "https://onurgumus.github.io/zero-csharp/index.html": "2026-11-22",
+  "https://github.com/ItsNotRexed/Leonida": "2026-11-22"
  },
  "reported": [
   {
@@ -1046,6 +1058,18 @@
    "title": "ClawDOS – An AI coding agent for DOS",
    "title_fa": "کلاداس (ClawDOS): توسعه ایجنت برنامه‌نویسی هوش مصنوعی برای کامپیوترهای قدیمی داس (DOS)",
    "url": "https://ricapar.net/ClawDOS"
+  },
+  {
+   "date": "2026-11-22",
+   "title": "Leonida – PC Recompilation of the Xbox Version of GTA 6",
+   "title_fa": "پروژه مرموز «لئونیدا» در گیت‌هاب: ادعای بازکامپایل نسخه ایکس‌باکس GTA 6 برای پی‌سی!",
+   "url": "https://github.com/ItsNotRexed/Leonida"
+  },
+  {
+   "date": "2026-11-22",
+   "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
+   "title_fa": "اتحاد غول‌های ژاپنی: تویوتا، نیسان و هوندا قطعات مشترک تولید می‌کنند",
+   "url": "https://caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs"
   }
  ],
  "telegram_chat_id": "925911315"

@@ -1,0 +1,316 @@
+{
+ "content": [
+  {
+   "title": "Leonida – PC Recompilation of the Xbox Version of GTA 6",
+   "url": "https://github.com/ItsNotRexed/Leonida",
+   "source": "github.com",
+   "published": "2026-11-22T00:57:26+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 156 امتیاز، 120 کامنت",
+   "signal_value": 156,
+   "discussion_url": "https://news.ycombinator.com/item?id=50595168",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://opengraph.githubassets.com/df43dfd206d13ff15f3b140f5e2f2b689cd125e48b058bb09988863851855bb1/ItsNotRexed/Leonida",
+     "origin": "og"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 8,
+   "category": "open_source",
+   "story_key": "leonida-gta6-pc-recompilation",
+   "topic_key": "gta-6-launch",
+   "already_reported": false,
+   "viral": 8,
+   "title_fa": "پروژه مرموز «لئونیدا» در گیت‌هاب: ادعای بازکامپایل نسخه ایکس‌باکس GTA 6 برای پی‌سی!",
+   "one_liner_fa": "توسعه‌دهندگان در پروژه‌ای متن‌باز تلاش می‌کنند نسخه ایکس‌باکس بازی GTA 6 را بدون نیاز به شبیه‌ساز، مستقیماً برای پی‌سی بازکامپایل و پورت کنند.",
+   "deep": {
+    "id": "01af6e752b",
+    "title_fa": "پروژه مرموز «لئونیدا» در گیت‌هاب: ادعای بازکامپایل نسخه ایکس‌باکس GTA 6 برای پی‌سی!",
+    "summary_fa": "یک ریپازیتوری جدید در گیت‌هاب (GitHub) تحت عنوان «لئونیدا» (Leonida) توسط کاربری به نام ItsNotRexed منتشر شده که مدعی است یک نسخه بازکامپایل‌شده و نیتیو (Native Recompilation) از بازی مورد انتظار جی‌تی‌ای ۶ (Grand Theft Auto 6) از پلتفرم ایکس‌باکس (Xbox) برای رایانه‌های شخصی (PC) است. این مخزن با سرعت عجیبی بیش از ۸.۶ هزار ستاره دریافت کرده و بحث‌های داغی را در انجمن‌هایی مثل هکر نیوز (Hacker News) به راه انداخته است. با این حال، به دلیل عدم عرضه رسمی این بازی و عدم دسترسی به سورس‌کد یا فایل‌های نهایی، این پروژه با شک و شبهه بسیار زیادی روبه‌رو است و احتمال فیک یا شوخی بودن آن بالاست.",
+    "key_points_fa": [
+     "انتشار مخزنی به نام Leonida در گیت‌هاب توسط کاربری با شناسه ItsNotRexed",
+     "ادعای بازکامپایل نیتیو کد بازی Grand Theft Auto 6 از نسخه کنسول ایکس‌باکس برای PC",
+     "جلب توجه سریع کاربران و ثبت بیش از ۸۶۰۰ ستاره (Star) در گیت‌هاب",
+     "ایجاد بحث و گفت‌وگوی گسترده در پلتفرم هکر نیوز (Hacker News) با ۱۵۶ امتیاز و ۱۲۰ دیدگاه",
+     "نبود هیچ‌گونه تاییدیه رسمی یا اثبات عملکرد واقعی این کد"
+    ],
+    "why_it_matters_fa": "انتظار طولانی کاربران برای عرضه نسخه کامپیوتر GTA 6 باعث شده هرگونه خبر یا ابزار مرتبط با آن به سرعت وایرال شود، اما ورود کدهای ناشناس به گیت‌هاب خطرات امنیتی و تله‌های تبلیغاتی زیادی به همراه دارد.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "ماجرای GTA 6 روی کامپیوتر در گیت‌هاب؛ واقعیت یا فریب؟",
+      "hook_fa": "یعنی واقعاً جی‌تی‌ای ۶ همین الان برای کامپیوتر پورت شده و روی گیت‌هابه؟!",
+      "angle_fa": "بررسی فنی مفهوم Native Recompilation و تحلیل شک‌برانگیز بودن این پروژه پر سر و صدا برای آگاه‌سازی مخاطبان.",
+      "outline_fa": [
+       "نمایش اسکرین‌شات گیت‌هاب لئونیدا با بیش از ۸ هزار ستاره",
+       "توضیح کوتاه اینکه بازکامپایل نیتیو چیست و چطور در بازی‌های قدیمی جواب داده",
+       "بیان دلایلی که ثابت می‌کند چرا این پروژه به احتمال ۹۹ درصد شوخی، فیک یا بدافزار است",
+       "توصیه اکید به اجرا نکردن و دانلود نکردن فایل‌های ناشناخته"
+      ],
+      "visual_tip_fa": "استفاده از اسکرین‌شات صفحه اصلی ریپازیتوری گیت‌هاب Leonida به همراه تصاویری از تریلر رسمی GTA VI در پس‌زمینه و فوتیج‌های تایپ کد."
+     },
+     {
+      "format": "استوری",
+      "title_fa": "داستان پروژه جنجالی Leonida",
+      "hook_fa": "امروز این صفحه گیت‌هاب کل ردیت و توییتر رو بهم ریخته!",
+      "angle_fa": "پوشش لحظه‌ای و راستی‌آزمایی یک ترند اینترنتی همراه با تعامل و هشدار به فالوورها.",
+      "outline_fa": [
+       "استوری اول: انتشار اسکرین‌شات ریپازیتوری با تیتر جنجالی ادعای GTA 6 روی پی‌سی",
+       "استوری دوم: توضیح اجمالی درباره هیاهوی هکر نیوز و ستاره‌های بالای ریپازیتوری",
+       "استوری سوم: حقیقت ماجرا و هشدارهای امنیتی درباره پروژه‌های تاییدنشده",
+       "استوری چهارم: استیکر نظرسنجی: به نظرتون راک‌استار نسخه PC رو همزمان میده یا طبق معمول تاخیر داره؟"
+      ],
+      "visual_tip_fa": "تصویر صفحه گیت‌هاب ریپازیتوری همراه با المان‌های گرافیکی هشدار (Warning) و استیکر تعاملی نظرسنجی اینستاگرام."
+     }
+    ],
+    "hashtags": [
+     "#GTA6",
+     "#جی_تی_ای",
+     "#گیت_هاب",
+     "#گیمینگ",
+     "#فناوری",
+     "#تکنولوژی",
+     "#GamingNews",
+     "#راک_استار"
+    ],
+    "caution_fa": "هشدار جدی: این پروژه به احتمال بسیار بالا جعلی، ترول اینترنتی یا حتی ابزاری برای انتشار بدافزار است؛ از آنجا که GTA 6 هنوز منتشر نشده، ادعای بازکامپایل آن غیرممکن به نظر می‌رسد و نباید فایل‌های آن دانلود یا اجرا شوند."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "01af6e752b"
+  }
+ ],
+ "others": [
+  {
+   "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
+   "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
+   "source": "caranddriver.com",
+   "published": "2026-11-22T04:04:56+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 462 امتیاز، 274 کامنت",
+   "signal_value": 462,
+   "discussion_url": "https://news.ycombinator.com/item?id=50596133",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 5,
+   "category": "other_tech",
+   "story_key": "toyota-nissan-honda-parts-standardization",
+   "topic_key": "ev-auto-industry-consolidation",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "اتحاد غول‌های ژاپنی: تویوتا، نیسان و هوندا قطعات مشترک تولید می‌کنند",
+   "one_liner_fa": "سه خودروساز بزرگ ژاپنی یعنی تویوتا (Toyota)، نیسان (Nissan) و هوندا (Honda) برای کاهش هزینه‌ها و رقابت در عصر خودروهای برقی تصمیم گرفتند قطعات را استاندارد و یکپارچه کنند.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "d3a1a9a15e"
+  }
+ ],
+ "scored": [
+  {
+   "title": "Muru",
+   "url": "https://simonwillison.net/2026/Nov/21/muru/",
+   "source": "Simon Willison",
+   "published": "2026-11-21T23:56:28+00:00",
+   "origin": "Simon Willison",
+   "summary": "Muru Graham Dumpleton started mod_wsgi 20 years ago, and has been thinking about the ideal way to serve Python web applications in production ever since. Muru is his new, AI-assisted Rust server that aims to provide the best possible tools for running ASGI and WSGI Python apps both in development and production. As he did with wrapture , he's been publishing an extraordinarily detailed account of the project as he works on it - as part of his development process. Here's everything he's published so far, all in the last three weeks: 2026-11-04 — Twenty years of mod_wsgi, and what comes next 202",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 3,
+   "category": "open_source",
+   "story_key": "muru-rust-python-server",
+   "topic_key": "python-web-tooling",
+   "already_reported": false,
+   "viral": 3,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "21bd1d482a"
+  },
+  {
+   "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
+   "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
+   "source": "caranddriver.com",
+   "published": "2026-11-22T04:04:56+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 462 امتیاز، 274 کامنت",
+   "signal_value": 462,
+   "discussion_url": "https://news.ycombinator.com/item?id=50596133",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 5,
+   "category": "other_tech",
+   "story_key": "toyota-nissan-honda-parts-standardization",
+   "topic_key": "ev-auto-industry-consolidation",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "اتحاد غول‌های ژاپنی: تویوتا، نیسان و هوندا قطعات مشترک تولید می‌کنند",
+   "one_liner_fa": "سه خودروساز بزرگ ژاپنی یعنی تویوتا (Toyota)، نیسان (Nissan) و هوندا (Honda) برای کاهش هزینه‌ها و رقابت در عصر خودروهای برقی تصمیم گرفتند قطعات را استاندارد و یکپارچه کنند.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "d3a1a9a15e"
+  },
+  {
+   "title": "Jensen Huang's fall is bad news for Silicon Valley's accelerationists",
+   "url": "https://www.economist.com/business/2026/11/19/jensen-huangs-fall-is-bad-news-for-silicon-valleys-accelerationists",
+   "source": "economist.com",
+   "published": "2026-11-21T17:59:59+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 168 امتیاز، 356 کامنت",
+   "signal_value": 168,
+   "discussion_url": "https://news.ycombinator.com/item?id=50591835",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 6,
+   "category": "big_tech",
+   "story_key": "jensen-huang-ouster-fallout",
+   "topic_key": "nvidia-leadership-crisis",
+   "already_reported": true,
+   "viral": 6,
+   "title_fa": "تحلیل اکونومیست: سقوط جن‌سن هوانگ، ضربه‌ای سهمگین به شتاب‌گرایان هوش مصنوعی سیلیکون‌ولی",
+   "one_liner_fa": "نشریه اکونومیست در تحلیلی هشدار داد که برکناری جنسان هوانگ از انویدیا (Nvidia) مانعی بزرگ در مسیر توسعه جنون‌آمیز و شتاب‌گرایانه هوش مصنوعی در دره سیلیکون خواهد بود.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "f212478af3"
+  },
+  {
+   "title": "Show HN: Zero C# – C# without a runtime or GC",
+   "url": "https://onurgumus.github.io/zero-csharp/index.html",
+   "source": "onurgumus.github.io",
+   "published": "2026-11-21T15:39:09+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 160 امتیاز، 110 کامنت",
+   "signal_value": 160,
+   "discussion_url": "https://news.ycombinator.com/item?id=50590279",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 4,
+   "category": "open_source",
+   "story_key": "zero-csharp-no-runtime",
+   "topic_key": "programming-languages",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "fd986dd95e"
+  },
+  {
+   "title": "Leonida – PC Recompilation of the Xbox Version of GTA 6",
+   "url": "https://github.com/ItsNotRexed/Leonida",
+   "source": "github.com",
+   "published": "2026-11-22T00:57:26+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 156 امتیاز، 120 کامنت",
+   "signal_value": 156,
+   "discussion_url": "https://news.ycombinator.com/item?id=50595168",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://opengraph.githubassets.com/df43dfd206d13ff15f3b140f5e2f2b689cd125e48b058bb09988863851855bb1/ItsNotRexed/Leonida",
+     "origin": "og"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 8,
+   "category": "open_source",
+   "story_key": "leonida-gta6-pc-recompilation",
+   "topic_key": "gta-6-launch",
+   "already_reported": false,
+   "viral": 8,
+   "title_fa": "پروژه مرموز «لئونیدا» در گیت‌هاب: ادعای بازکامپایل نسخه ایکس‌باکس GTA 6 برای پی‌سی!",
+   "one_liner_fa": "توسعه‌دهندگان در پروژه‌ای متن‌باز تلاش می‌کنند نسخه ایکس‌باکس بازی GTA 6 را بدون نیاز به شبیه‌ساز، مستقیماً برای پی‌سی بازکامپایل و پورت کنند.",
+   "deep": {
+    "id": "01af6e752b",
+    "title_fa": "پروژه مرموز «لئونیدا» در گیت‌هاب: ادعای بازکامپایل نسخه ایکس‌باکس GTA 6 برای پی‌سی!",
+    "summary_fa": "یک ریپازیتوری جدید در گیت‌هاب (GitHub) تحت عنوان «لئونیدا» (Leonida) توسط کاربری به نام ItsNotRexed منتشر شده که مدعی است یک نسخه بازکامپایل‌شده و نیتیو (Native Recompilation) از بازی مورد انتظار جی‌تی‌ای ۶ (Grand Theft Auto 6) از پلتفرم ایکس‌باکس (Xbox) برای رایانه‌های شخصی (PC) است. این مخزن با سرعت عجیبی بیش از ۸.۶ هزار ستاره دریافت کرده و بحث‌های داغی را در انجمن‌هایی مثل هکر نیوز (Hacker News) به راه انداخته است. با این حال، به دلیل عدم عرضه رسمی این بازی و عدم دسترسی به سورس‌کد یا فایل‌های نهایی، این پروژه با شک و شبهه بسیار زیادی روبه‌رو است و احتمال فیک یا شوخی بودن آن بالاست.",
+    "key_points_fa": [
+     "انتشار مخزنی به نام Leonida در گیت‌هاب توسط کاربری با شناسه ItsNotRexed",
+     "ادعای بازکامپایل نیتیو کد بازی Grand Theft Auto 6 از نسخه کنسول ایکس‌باکس برای PC",
+     "جلب توجه سریع کاربران و ثبت بیش از ۸۶۰۰ ستاره (Star) در گیت‌هاب",
+     "ایجاد بحث و گفت‌وگوی گسترده در پلتفرم هکر نیوز (Hacker News) با ۱۵۶ امتیاز و ۱۲۰ دیدگاه",
+     "نبود هیچ‌گونه تاییدیه رسمی یا اثبات عملکرد واقعی این کد"
+    ],
+    "why_it_matters_fa": "انتظار طولانی کاربران برای عرضه نسخه کامپیوتر GTA 6 باعث شده هرگونه خبر یا ابزار مرتبط با آن به سرعت وایرال شود، اما ورود کدهای ناشناس به گیت‌هاب خطرات امنیتی و تله‌های تبلیغاتی زیادی به همراه دارد.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "ماجرای GTA 6 روی کامپیوتر در گیت‌هاب؛ واقعیت یا فریب؟",
+      "hook_fa": "یعنی واقعاً جی‌تی‌ای ۶ همین الان برای کامپیوتر پورت شده و روی گیت‌هابه؟!",
+      "angle_fa": "بررسی فنی مفهوم Native Recompilation و تحلیل شک‌برانگیز بودن این پروژه پر سر و صدا برای آگاه‌سازی مخاطبان.",
+      "outline_fa": [
+       "نمایش اسکرین‌شات گیت‌هاب لئونیدا با بیش از ۸ هزار ستاره",
+       "توضیح کوتاه اینکه بازکامپایل نیتیو چیست و چطور در بازی‌های قدیمی جواب داده",
+       "بیان دلایلی که ثابت می‌کند چرا این پروژه به احتمال ۹۹ درصد شوخی، فیک یا بدافزار است",
+       "توصیه اکید به اجرا نکردن و دانلود نکردن فایل‌های ناشناخته"
+      ],
+      "visual_tip_fa": "استفاده از اسکرین‌شات صفحه اصلی ریپازیتوری گیت‌هاب Leonida به همراه تصاویری از تریلر رسمی GTA VI در پس‌زمینه و فوتیج‌های تایپ کد."
+     },
+     {
+      "format": "استوری",
+      "title_fa": "داستان پروژه جنجالی Leonida",
+      "hook_fa": "امروز این صفحه گیت‌هاب کل ردیت و توییتر رو بهم ریخته!",
+      "angle_fa": "پوشش لحظه‌ای و راستی‌آزمایی یک ترند اینترنتی همراه با تعامل و هشدار به فالوورها.",
+      "outline_fa": [
+       "استوری اول: انتشار اسکرین‌شات ریپازیتوری با تیتر جنجالی ادعای GTA 6 روی پی‌سی",
+       "استوری دوم: توضیح اجمالی درباره هیاهوی هکر نیوز و ستاره‌های بالای ریپازیتوری",
+       "استوری سوم: حقیقت ماجرا و هشدارهای امنیتی درباره پروژه‌های تاییدنشده",
+       "استوری چهارم: استیکر نظرسنجی: به نظرتون راک‌استار نسخه PC رو همزمان میده یا طبق معمول تاخیر داره؟"
+      ],
+      "visual_tip_fa": "تصویر صفحه گیت‌هاب ریپازیتوری همراه با المان‌های گرافیکی هشدار (Warning) و استیکر تعاملی نظرسنجی اینستاگرام."
+     }
+    ],
+    "hashtags": [
+     "#GTA6",
+     "#جی_تی_ای",
+     "#گیت_هاب",
+     "#گیمینگ",
+     "#فناوری",
+     "#تکنولوژی",
+     "#GamingNews",
+     "#راک_استار"
+    ],
+    "caution_fa": "هشدار جدی: این پروژه به احتمال بسیار بالا جعلی، ترول اینترنتی یا حتی ابزاری برای انتشار بدافزار است؛ از آنجا که GTA 6 هنوز منتشر نشده، ادعای بازکامپایل آن غیرممکن به نظر می‌رسد و نباید فایل‌های آن دانلود یا اجرا شوند."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "01af6e752b"
+  }
+ ],
+ "failed_sources": [],
+ "models": [
+  "gemini-3.8-flash",
+  "gemini-3.8-flash"
+ ]
+}
