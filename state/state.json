@@ -397,7 +397,36 @@
   "https://winedroid.soham.sh/demo": "2026-11-22",
   "https://ankitg.me/blog/vibecoding-inference-chip": "2026-11-22",
   "https://signoregalilei.com/2026/11/20/and-yet-it-moves": "2026-11-22",
-  "https://eli.thegreenplace.net/2017/clojure-the-perfect-language-to-expand-your-brain": "2026-11-22"
+  "https://eli.thegreenplace.net/2017/clojure-the-perfect-language-to-expand-your-brain": "2026-11-22",
+  "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance": "2026-11-22",
+  "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias": "2026-11-22",
+  "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages": "2026-11-22",
+  "https://engadget.com/2319289/wireless-earbuds-type-best-for-audio-output": "2026-11-22",
+  "https://engadget.com/2310980/how-to-calibrate-3d-printer-why-should": "2026-11-22",
+  "https://engadget.com/2319272/build-mini-pc-cost-harder-than-expected": "2026-11-22",
+  "https://engadget.com/2319181/google-products-services-discontinued-2026": "2026-11-22",
+  "https://engadget.com/2319140/phone-says-no-service-with-sim-card": "2026-11-22",
+  "https://engadget.com/2319122/ipad-air-vs-pro-features-compared-price-difference": "2026-11-22",
+  "https://engadget.com/2319109/built-in-windows-tool-find-problem-directx-diagnostic": "2026-11-22",
+  "https://engadget.com/2324179/fbi-and-usda-were-reportedly-targeted-in-back-to-back-cyberattacks": "2026-11-22",
+  "https://engadget.com/2319090/free-raspberry-pi-tool-access-remotely": "2026-11-22",
+  "https://engadget.com/2319077/fiber-optic-cable-how-long-before-lose-signal": "2026-11-22",
+  "https://engadget.com/2319074/how-to-factory-reset-fitbit-device": "2026-11-22",
+  "https://engadget.com/2319050/whats-new-siri-remote-does-older-apple-tv-support": "2026-11-22",
+  "https://engadget.com/2319042/trade-offs-using-apple-airpods-max-headphones": "2026-11-22",
+  "https://engadget.com/2319034/discs-vs-disks-differences": "2026-11-22",
+  "https://engadget.com/2318875/why-apple-vision-pro-did-not-take-off-vs-meta-vr": "2026-11-22",
+  "https://engadget.com/2318874/how-to-block-device-home-network": "2026-11-22",
+  "https://engadget.com/2324141/anthropic-employee-claims-to-have-proven-the-most-famous-math-problem-using-claude": "2026-11-22",
+  "https://engadget.com/2318873/how-much-sony-walkman-cost-1980-vs-2026": "2026-11-22",
+  "https://engadget.com/2318871/signs-when-replace-phone-screen-protector": "2026-11-22",
+  "https://engadget.com/2318772/how-does-icloud-private-relay-security-compare-vpn-alternatives": "2026-11-22",
+  "https://github.com/ShinMegamiBoson/lookatmyquant": "2026-11-22",
+  "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html": "2026-11-22",
+  "https://bbc.com/news/articles/cvze7de86pk3o": "2026-11-22",
+  "https://esa.int/articles/about-us/directorates/operations/space-safety/hera/sir-brian-may-adds-new-dimension-to-hera-asteroid": "2026-11-22",
+  "https://simple-bench.com/": "2026-11-22",
+  "https://ricapar.net/ClawDOS": "2026-11-22"
  },
  "reported": [
   {
@@ -993,6 +1022,30 @@
    "title": "Etsy says it will not use sellers' content to train AI after they revolt over policy changes",
    "title_fa": "شورش فروشندگان اتسی؛ شفاف‌سازی پلتفرم درباره عدم آموزش هوش مصنوعی روی آثار هنری",
    "url": "https://engadget.com/2324090/etsy-not-use-seller-content-train-ai"
+  },
+  {
+   "date": "2026-11-22",
+   "title": "FBI reportedly investigating apparent hack of its criminal database",
+   "title_fa": "گزارش‌ها از نفوذ احتمالی هکرها به پایگاه داده اطلاعات جنایی اف‌بی‌آی (FBI)",
+   "url": "https://bbc.com/news/articles/cvze7de86pk3o"
+  },
+  {
+   "date": "2026-11-22",
+   "title": "RCE in Gnupg",
+   "title_fa": "هشدار امنیتی شدید: کشف آسیب‌پذیری بحرانی اجرای کد از راه دور در Gnupg",
+   "url": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html"
+  },
+  {
+   "date": "2026-11-22",
+   "title": "Astra 6.2 and Sol 6.2 flop at Simple Bench",
+   "title_fa": "شکست مدل‌های بزرگ هوش مصنوعی در برابر عقل سلیم انسان با بنچمارک SimpleBench",
+   "url": "https://simple-bench.com/"
+  },
+  {
+   "date": "2026-11-22",
+   "title": "ClawDOS – An AI coding agent for DOS",
+   "title_fa": "کلاداس (ClawDOS): توسعه ایجنت برنامه‌نویسی هوش مصنوعی برای کامپیوترهای قدیمی داس (DOS)",
+   "url": "https://ricapar.net/ClawDOS"
   }
  ],
  "telegram_chat_id": "925911315"

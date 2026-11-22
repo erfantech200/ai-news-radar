@@ -1,0 +1,889 @@
+{
+ "content": [
+  {
+   "title": "FBI reportedly investigating apparent hack of its criminal database",
+   "url": "https://www.bbc.com/news/articles/cvze7de86pk3o",
+   "source": "bbc.com",
+   "published": "2026-11-21T10:33:57+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 167 امتیاز، 82 کامنت",
+   "signal_value": 167,
+   "discussion_url": "https://news.ycombinator.com/item?id=50587859",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://ichef.bbci.co.uk/news/1024/branded_news/3fd7/live/9009b220-e58d-11f1-99a1-253766e7ad8b.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://ichef.bbci.co.uk/news/1536/cpsprodpb/b03e/live/13380570-e557-11f1-ad51-c3505e495cd9.jpg.webp",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/fbi-and-usda-were-reportedly-targeted-in-back-to-back-cyberattacks/l-intro-1795297525.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [
+    "Engadget"
+   ],
+   "importance": 7,
+   "worthiness": 7,
+   "category": "safety_ethics",
+   "story_key": "fbi-usda-cyberattack-database-hack",
+   "topic_key": "us-government-cyberattacks",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "گزارش‌ها از نفوذ احتمالی هکرها به پایگاه داده اطلاعات جنایی اف‌بی‌آی (FBI)",
+   "one_liner_fa": "پلیس فدرال آمریکا نفوذ هکرها به پایگاه داده سوابق مجرمان را تایید کرده و در حال بررسی ابعاد گسترده این رسوایی امنیتی است.",
+   "deep": {
+    "id": "68cb36c6bf",
+    "title_fa": "گزارش‌ها از نفوذ احتمالی هکرها به پایگاه داده اطلاعات جنایی اف‌بی‌آی (FBI)",
+    "summary_fa": "بر اساس گزارش رسانه‌های آمریکایی، اف‌بی‌آی (FBI) در حال بررسی یک نفوذ امنیتی احتمالی به دیتابیس مرکز ملی اطلاعات جرایم (NCIC) است. این پایگاه داده حساس حاوی اطلاعات حیاتی برای بررسی سوابق افراد و احکام جلب در سراسر ایالات متحده است. دونالد ترامپ نیز در مصاحبه‌ای با فاکس‌نیوز وقوع این هک را تایید نکرده اما اعلام کرده به تازگی از آن باخبر شده و اتفاق خوبی نیست. این حادثه همزمان با گزارش‌هایی از حمله به وزارت کشاورزی آمریکا و اختلالات سیستمی اخیر در این کشور رخ داده است.",
+    "key_points_fa": [
+     "پایگاه داده هدف، سیستم اطلاعات جرایم ملی (NCIC) است که توسط نهادهای محلی و فدرال استفاده می‌شود.",
+     "دونالد ترامپ در گفت‌وگو با فاکس‌نیوز (Fox News) گفت به تازگی از موضوع باخبر شده و واکنش منفی نشان داد.",
+     "اف‌بی‌آی تا زمان انتشار خبر پاسخ رسمی به درخواست مصاحبه رسانه‌ها نداده است.",
+     "این گزارش‌ها به دنبال برکناری شان کرن‌کراس (مدیر امنیت سایبری کاخ سفید) و اختلالات فنی در بخش بانکی و هوایی آمریکا منتشر شده‌اند.",
+     "در ماه سپتامبر نیز گروه ShinyHunters ادعا کرده بود اطلاعات شخصی حدود ۳۸ هزار کارمند اف‌بی‌آی را دزدیده است.",
+     "شبکه NBC همچنین از حمله سایبری جداگانه‌ای به سامانه پرداخت‌های وزارت کشاورزی آمریکا (USDA) خبر داده است."
+    ],
+    "why_it_matters_fa": "دسترسی مهاجمان به دیتابیس‌های مجرمانه و اطلاعات امنیتی حیاتی، امنیت مأموران، داده‌های محرمانه و سیستم‌های قضایی را به خطر می‌اندازد و آسیب‌پذیری زیرساخت‌های کلان در برابر جنگ‌های سایبری مدرن را نشان می‌دهد.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "هک بزرگ دیتابیس اف‌بی‌آی: ماجرا از چه قراره؟",
+      "hook_fa": "باورتون میشه هکرها به مهم‌ترین دیتابیس جنایی اف‌بی‌آی نفوذ کرده باشن؟",
+      "angle_fa": "روایت هیجان‌انگیز از افشای احتمالی داده‌های مجرمانه در آمریکا و واکنش ترامپ به این بحران امنیتی.",
+      "outline_fa": [
+       "شروع پرانرژی و معرفی دیتابیس NCIC و اهمیت اون در سوابق جنایی آمریکا",
+       "واکنش ترامپ در فاکس‌نیوز و برکناری مسئول امنیت سایبری کاخ سفید",
+       "سوابق قبلی هک‌ها در نهادهای دولتی آمریکا مثل گروه ShinyHunters",
+       "جمع‌بندی درباره تشدید حملات سایبری در سطح جهان و چالش‌های امنیتی ۲۰۲۶"
+      ],
+      "visual_tip_fa": "استفاده از تصاویر گرافیکی لوگوی FBI، تصاویر تاریک هکری، تیتر اخبار BBC و راش‌های کوتاه مصاحبه ترامپ با فاکس‌نیوز."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "جزئیات نفوذ امنیتی به مرکز جرایم ملی آمریکا (FBI)",
+      "hook_fa": "آیا پایگاه‌های فوق‌امنیتی آمریکا واقعاً نفوذناپذیرند؟",
+      "angle_fa": "بررسی عمق ماجرا، ابعاد نفوذ به سامانه NCIC و سناریوهای خطرساز سایبری.",
+      "outline_fa": [
+       "اسلاید ۱: خلاصه خبر و ماهیت پایگاه داده NCIC",
+       "اسلاید ۲: چه اطلاعاتی داخل این سیستم قرار دارد و چه خطری وجود دارد؟",
+       "اسلاید ۳: واکنش دولت، برکناری‌ها و سخنان ترامپ",
+       "اسلاید ۴: حوادث موازی (حمله به وزارت کشاورزی و قطعی‌های مشکوک)",
+       "اسلاید ۵: تحلیل کارشناسان سابق NSA درباره آینده امنیت داده‌های حیاتی"
+      ],
+      "visual_tip_fa": "طراحی تم مشکی-قرمز سایبری، نمایش عکس سرورها و بریده اسکرین‌شات تیتر خبر بی‌بی‌سی روی اسلاید اول."
+     }
+    ],
+    "hashtags": [
+     "#امنیت_سایبری",
+     "#هک",
+     "#اف_بی_آی",
+     "#تکنولوژی",
+     "#CyberSecurity",
+     "#FBIHack",
+     "#فناوری"
+    ],
+    "caution_fa": "هنوز اف‌بی‌آی به‌طور رسمی این هک را تایید یا رد نکرده و گزارش بر اساس منابع آگاه رسانه‌ای منتشر شده است."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "68cb36c6bf"
+  },
+  {
+   "title": "RCE in Gnupg",
+   "url": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html",
+   "source": "lists.gnupg.org",
+   "published": "2026-11-21T08:32:58+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 226 امتیاز، 92 کامنت",
+   "signal_value": 226,
+   "discussion_url": "https://news.ycombinator.com/item?id=50587208",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 6,
+   "category": "safety_ethics",
+   "story_key": "gnupg-rce-vulnerability",
+   "topic_key": "core-software-vulnerabilities",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "هشدار امنیتی شدید: کشف آسیب‌پذیری بحرانی اجرای کد از راه دور در Gnupg",
+   "one_liner_fa": "یک باگ امنیتی فوق‌العاده خطرناک از نوع RCE در هسته ابزار رمزنگاری محبوب گنوپی‌جی (GnuPG) کشف شد که امکان اجرای کدهای مخرب را به نفوذگران می‌دهد.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "4cb2fb025b"
+  },
+  {
+   "title": "Astra 6.2 and Sol 6.2 flop at Simple Bench",
+   "url": "https://simple-bench.com/",
+   "source": "simple-bench.com",
+   "published": "2026-11-21T13:16:12+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 158 امتیاز، 155 کامنت",
+   "signal_value": 158,
+   "discussion_url": "https://news.ycombinator.com/item?id=50588916",
+   "media": [
+    {
+     "kind": "embed",
+     "url": "https://www.youtube.com/watch?v=tGsBJhMbiIU",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://img.youtube.com/vi/tGsBJhMbiIU/maxresdefault.jpg",
+     "origin": "youtube"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 6,
+   "category": "research",
+   "story_key": "astra-sol-simple-bench-flop",
+   "topic_key": "gpt-6-astra",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "شکست مدل‌های بزرگ هوش مصنوعی در برابر عقل سلیم انسان با بنچمارک SimpleBench",
+   "one_liner_fa": "مدل‌های جدید Astra 6.2 و Sol 6.2 در آزمون‌های بنچمارک Simple Bench عملکردی بسیار پایین‌تر از انتظارات ثبت کردند و جنجال‌برانگیز شدند.",
+   "deep": {
+    "id": "aaaedd31c4",
+    "title_fa": "شکست مدل‌های بزرگ هوش مصنوعی در برابر عقل سلیم انسان با بنچمارک SimpleBench",
+    "summary_fa": "پژوهشگران بنچمارک جدیدی با نام سیمپل‌بنچ (SimpleBench) معرفی کرده‌اند که نشان می‌دهد هوش مصنوعی‌های پیشرو در پاسخ به سوالات ساده فکری و روزمره هنوز از انسان‌ها ضعیف‌تر عمل می‌کنند. این آزمون شامل بیش از ۲۰۰ سوال چهارگزینه‌ای در زمینه استدلال فضایی-زمانی، هوش اجتماعی و سوالات گمراه‌کننده (حلیه‌آمیز) است. در حالی که دانش‌آموزان دبیرستانی معمولی امتیاز میانگین ۸۳.۷ درصد گرفتند، حتی قوی‌ترین مدل تست‌شده یعنی Claude Fable تنها به امتیاز ۸۱.۹ درصد دست یافت. این نتایج اثبات می‌کند که هوش‌های مصنوعی پیشرفته هنوز در درک منطق ابتدایی دنیای واقعی به حافظه و بازیابی تقریبی متکی هستند و ضعف جدی دارند.",
+    "key_points_fa": [
+     "بنچمارک SimpleBench شامل بیش از ۲۰۰ سوال متنی چهارگزینه‌ای است.",
+     "زمینه‌های آزمون شامل استدلال مکانی-زمانی، هوش اجتماعی و سوالات انحرافی است.",
+     "میانگین افراد انسانی غیرمتخصص (سطح دانش دبیرستانی) امتیاز ۸۳.۷٪ بود.",
+     "بهترین مدل تست‌شده، Claude Fable، به امتیاز ۸۱.۹٪ رسید و پشت سر انسان قرار گرفت.",
+     "مدل‌هایی مثل Sol 6.2 و Astra 6.2 در این ارزیابی ساده نتایج ضعیفی ثبت کردند.",
+     "کاربران می‌توانند مدل‌ها را از طریق اپلیکیشن LMcouncil.ai بررسی کنند."
+    ],
+    "why_it_matters_fa": "این یافته خط بطلانی بر توهم شکست‌ناپذیری هوش مصنوعی است و نشان می‌دهد مدل‌ها علی‌رغم حل مسائل پیچیده دانشگاهی، هنوز در عقل سلیم و منطق ساده روزمره که کودکان هم می‌فهمند دچار خطا می‌شوند.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "سوالاتی که قوی‌ترین هوش مصنوعی دنیا هم نمی‌تونه جواب بده!",
+      "hook_fa": "یه سوال ساده دبیرستانی که تمام مدل‌های هوش مصنوعی رو گیج کرد!",
+      "angle_fa": "مقایسه شوخ‌طبعانه توانایی‌های حفظی LLMها با هوش شهودی و عقل سلیم انسان.",
+      "outline_fa": [
+       "طرح یک معمای گول‌زننده یا مفهومی استدلال فضایی در ثانیه‌های اول",
+       "معرفی بنچمارک جدید SimpleBench و تفاوتش با آزمون‌های پیچیده ریاضی",
+       "نمایش نتایج: پیروزی انسان‌های عادی (۸۳.۷٪) در برابر کلود و سایر مدل‌ها",
+       "توضیح فنی ساده درباره اینکه چرا LLMها استدلال واقعی نمی‌کنند بلکه تقریب می‌زنند",
+       "دعوت از مخاطب برای به چالش کشیدن هوش مصنوعی در کامنت‌ها"
+      ],
+      "visual_tip_fa": "قرار دادن ویدیوی تست یوتیوب پروژه SimpleBench، نمایش نمودار لیدربورد و مقایسه درصدهای هوش مصنوعی با انسان."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "چرا هوش مصنوعی هنوز از یک دانش‌آموز معمولی خنگ‌تر است؟",
+      "hook_fa": "هوش مصنوعی دکتر و وکیل شد ولی از پس این سوالات برنیامد!",
+      "angle_fa": "تحلیل عمیق و آموزشی پیرامون نقاط ضعف بنیادی معماری ترنسفورمرها در درک شهودی.",
+      "outline_fa": [
+       "اسلاید ۱: کاور شوکه‌کننده با تیتر افتضاح مدل‌های SOTA در SimpleBench",
+       "اسلاید ۲: ماجرای SimpleBench چیست؟ (آزمون استدلال و هوش اجتماعی)",
+       "اسلاید ۳: ارائه آمار دقیق (Claude Fable با ۸۱.۹٪ در برابر انسان با ۸۳.۷٪)",
+       "اسلاید ۴: چرا مدل‌ها فریب سوالات گول‌زننده و معماهای فضایی را می‌خورند؟",
+       "اسلاید ۵: راهکار امتحان کردن مدل‌ها در LMcouncil.ai و نتیجه‌گیری"
+      ],
+      "visual_tip_fa": "تصویرسازی مقایسه‌ای مغز انسان و چیپ هوش مصنوعی همراه با اسکرین‌شات از سوالات نمونه موجود در سایت simple-bench."
+     }
+    ],
+    "hashtags": [
+     "#هوش_مصنوعی",
+     "#فناوری",
+     "#چت_جی_پی_تی",
+     "#کلود",
+     "#AI",
+     "#SimpleBench",
+     "#اخبار_تکنولوژی"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "aaaedd31c4"
+  },
+  {
+   "title": "ClawDOS – An AI coding agent for DOS",
+   "url": "http://ricapar.net/ClawDOS/",
+   "source": "ricapar.net",
+   "published": "2026-11-21T05:38:01+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 156 امتیاز، 50 کامنت",
+   "signal_value": 156,
+   "discussion_url": "https://news.ycombinator.com/item?id=50586292",
+   "media": [
+    {
+     "kind": "embed",
+     "url": "https://www.youtube.com/watch?v=Jok7MQi-16Q",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "http://ricapar.net/ClawDOS/docs/images/opening.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "http://ricapar.net/ClawDOS/docs/images/coding.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "http://ricapar.net/ClawDOS/docs/images/wargames-video.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "http://ricapar.net/ClawDOS/docs/images/wargames-run.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "http://ricapar.net/ClawDOS/docs/images/wargames-shot-8088.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "http://ricapar.net/ClawDOS/docs/images/wargames-seen.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://img.youtube.com/vi/Jok7MQi-16Q/maxresdefault.jpg",
+     "origin": "youtube"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 6,
+   "category": "tools_for_creators",
+   "story_key": "clawdos-dos-ai-agent",
+   "topic_key": "retro-tech-ai",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "کلاداس (ClawDOS): توسعه ایجنت برنامه‌نویسی هوش مصنوعی برای کامپیوترهای قدیمی داس (DOS)",
+   "one_liner_fa": "",
+   "deep": {
+    "id": "56c8c69722",
+    "title_fa": "کلاداس (ClawDOS): توسعه ایجنت برنامه‌نویسی هوش مصنوعی برای کامپیوترهای قدیمی داس (DOS)",
+    "summary_fa": "یک توسعه‌دهنده خلاق توانسته با کمک مدل‌های کلاود (Claude) یک ایجنت هوش مصنوعی برنامه‌نویسی به نام ClawDOS بسازد که مستقیماً روی یک سیستم قدیمی IBM PC XT مدل سال‌ها پیش با مشخصات پردازنده ۸۰۸۸ و رم ۶۴۰ کیلوبایت اجرا می‌شود. این ابزار به کاربر اجازه می‌دهد با کامپیوتر عتیقه خود چت کند و هوش مصنوعی فایل‌ها را روی دیسک می‌خواند، به زبان توربو سی (Turbo C) کد می‌نویسد، آن را کامپایل و تست کرده و حتی از صفحه نمایش خروجی می‌گیرد. تمام برنامه داس به جز پروتکل امنیتی ارتباط اینترنتی کامپایل و روی ماشین واقعی اجرا شده است.",
+    "key_points_fa": [
+     "سخت‌افزار هدف: سیستم IBM PC XT (مدل ۵۱۶۰) با پردازنده ۴.۷۷ مگاهرتز، ۶۴۰ کیلوبایت رم و کارت گرافیک CGA.",
+     "برنامه HARNESS.EXE فقط ۱۷۶ کیلوبایت حجم دارد و مستقیماً با API کلود ارتباط برقرار می‌کند.",
+     "سیستم می‌تواند با Turbo C برنامه‌نویسی، بیلد و اجرا کند؛ مثلاً نوشتن برنامه اعداد اول در ۶۴ ثانیه.",
+     "ایجنت توانایی ثبت اسکرین‌شات از حافظه ویدیویی CGA (تصویر ۴ رنگ با وضوح ۳۲۰x۲۰۰) و درک آن را دارد.",
+     "برای نمونه، بازی و ادای احترامی کامل به فیلم WarGames توسط این ایجنت روی سخت‌افزار واقعی ساخته شد.",
+     "۱۰۰٪ سورس کدهای پروژه توسط خود کلود نوشته شده و نیازمند یک رایانه واسط فقط برای هندل کردن رمزنگاری TLS است."
+    ],
+    "why_it_matters_fa": "این پروژه پیوند شگفت‌انگیز آینده و گذشته تکنولوژی است و ثابت می‌کند می‌توان سیستم‌های ایجنتی پیشرفته امروزی را حتی به سخت‌افزارهای نوستالژیک چهل سال پیش پیوند زد.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "هوش مصنوعی ۲۰۲۶ روی کامپیوتر ۴۰ سال پیش!",
+      "hook_fa": "فکر می‌کردید هوش مصنوعی فقط سیستم‌های غول‌پیکر می‌خواد؟ این ویدیو رو ببینید!",
+      "angle_fa": "نمایش هیجان‌انگیز زنده کردن کامپیوتر داس عتیقه به کمک پرامپت‌نویسی و ایجنت هوش مصنوعی.",
+      "outline_fa": [
+       "شروع با نمای مانیتور لامپی سبز و کامپیوتر قدیمی IBM PC",
+       "تایپ دستور CLAWDOS و پرامپت دادن به هوش مصنوعی در محیط DOS",
+       "نمایش پروسه نوشتن کد، کامپایل با Turbo C و گرفتن اسکرین‌شات ۴ رنگ توسط هوش مصنوعی",
+       "توضیح مختصر نحوه ارتباط با کلود و خلاقیت باورنکردنی پروژه",
+       "پرسش از مخاطبان: اولین کامپیوتری که داشتید چی بود؟"
+      ],
+      "visual_tip_fa": "استفاده حتمی از کلیپ یوتیوب مربوط به اجرای بازی WarGames روی نمایشگر IBM و اسکرین‌شات‌های پیکسلی CGA پروژه."
+     },
+     {
+      "format": "پست",
+      "title_fa": "وقتی کلود (Claude) برنامه‌نویس کامپیوتر IBM دهه ۸۰ می‌شود!",
+      "hook_fa": "آیا می‌دانستید یک ایجنت هوش مصنوعی مدرن می‌تواند با ۶۴۰ کیلوبایت رم کدنویسی کند؟",
+      "angle_fa": "بررسی فنی و رترو-تکنولوژی پروژه ClawDOS و شاهکار برنامه‌نویسی روی سخت‌افزارهای باستانی.",
+      "outline_fa": [
+       "معرفی کامپیوتر IBM 5160 و ایده دیوانه‌وار ترکیب AI با داس",
+       "عملکرد HARNESS.EXE: مدیریت حافظه برای خالی کردن فضا برای کامپایلر توربو سی",
+       "بینایی ماشین به سبک دهه ۸۰: تبدیل حافظه CGA به عکس PNG برای مدل هوش مصنوعی",
+       "نتیجه پروژه: ساخت بازی کامل WarGames تنها بر اساس یک درخواست متنی"
+      ],
+      "visual_tip_fa": "عکس باکیفیت از دستگاه IBM PC در کنار خط فرمان داس و تصاویری از کدهای سبز رنگ رترو روی نمایشگر."
+     }
+    ],
+    "hashtags": [
+     "#هوش_مصنوعی",
+     "#نوستالژی",
+     "#برنامه_نویسی",
+     "#رترو",
+     "#تکنولوژی",
+     "#Claude",
+     "#RetroComputing"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "56c8c69722"
+  }
+ ],
+ "others": [],
+ "scored": [
+  {
+   "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+   "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+   "source": "TechCrunch",
+   "published": "2026-11-21T21:37:10+00:00",
+   "origin": "TechCrunch",
+   "summary": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 6,
+   "category": "safety_ethics",
+   "story_key": "signal-screenshot-block-ai",
+   "topic_key": "ai-privacy-defense",
+   "already_reported": true,
+   "viral": 5,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "f3487ac988"
+  },
+  {
+   "title": "A tale of two Nvidias",
+   "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+   "source": "TechCrunch",
+   "published": "2026-11-21T21:07:42+00:00",
+   "origin": "TechCrunch",
+   "summary": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 6,
+   "category": "big_tech",
+   "story_key": "nvidia-jensen-huang-turmoil",
+   "topic_key": "nvidia-leadership-crisis",
+   "already_reported": true,
+   "viral": 6,
+   "title_fa": "دوگانگی عجیب در انویدیا؛ سودآوری خیره‌کننده در میان آشوب برکناری جن‌سن هوانگ",
+   "one_liner_fa": "در حالی که گزارش‌های مالی جدید انویدیا از رشد درآمد خبر می‌دهند، فشار رهبران سیلیکون‌ولی برای بازگرداندن جن‌سن هوانگ به صندلی مدیریت بالا گرفته است.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "a1abc1ba27"
+  },
+  {
+   "title": "Here are the top AI agents that can live in your text messages",
+   "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+   "source": "TechCrunch",
+   "published": "2026-11-21T17:00:00+00:00",
+   "origin": "TechCrunch",
+   "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 5,
+   "category": "tools_for_creators",
+   "story_key": "top-sms-ai-agents-roundup",
+   "topic_key": "ai-consumer-agents",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "6ccebafcdf"
+  },
+  {
+   "title": "Six products and services Google discontinued in 2026",
+   "url": "https://www.engadget.com/2319181/google-products-services-discontinued-2026/",
+   "source": "Engadget",
+   "published": "2026-11-21T23:00:00+00:00",
+   "origin": "Engadget",
+   "summary": "Here's a rundown of some Google tools that ended up in the graveyard this year.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/six-products-and-services-google-discontinued-in-2026/l-intro-1794930715.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 5,
+   "category": "big_tech",
+   "story_key": "google-graveyard-2026",
+   "topic_key": "google-deprecated-products",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "2ec11c477d"
+  },
+  {
+   "title": "FBI and USDA were reportedly targeted in back-to-back cyberattacks",
+   "url": "https://www.engadget.com/2324179/fbi-and-usda-were-reportedly-targeted-in-back-to-back-cyberattacks/",
+   "source": "Engadget",
+   "published": "2026-11-21T21:51:29+00:00",
+   "origin": "Engadget",
+   "summary": "It's still unclear who is responsible for the two incidents.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/fbi-and-usda-were-reportedly-targeted-in-back-to-back-cyberattacks/l-intro-1795297525.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 7,
+   "category": "safety_ethics",
+   "story_key": "fbi-usda-cyberattack-database-hack",
+   "topic_key": "us-government-cyberattacks",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "حمله سایبری پیاپی به نهادهای فدرال؛ اف‌بی‌آی و وزارت کشاورزی آمریکا هدف نفوذ قرار گرفتند",
+   "one_liner_fa": "اف‌بی‌آی (FBI) و وزارت کشاورزی ایالات متحده به دنبال حملات سایبری متوالی و مشکوک به پایگاه‌های اطلاعاتی خود، تحقیقات گسترده‌ای را آغاز کردند.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "ac99875a97"
+  },
+  {
+   "title": "Anthropic employee claims to have proven the most famous math problem using Claude",
+   "url": "https://www.engadget.com/2324141/anthropic-employee-claims-to-have-proven-the-most-famous-math-problem-using-claude/",
+   "source": "Engadget",
+   "published": "2026-11-21T19:45:01+00:00",
+   "origin": "Engadget",
+   "summary": "Levent Alpöge says he worked with Claude to discover a proof of the Riemann Hypothesis.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/anthropic-employee-claims-to-have-proven-the-most-famous-math-problem-using-claude/l-intro-1795290107.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 7,
+   "category": "research",
+   "story_key": "riemann-hypothesis-anthropic-proof",
+   "topic_key": "riemann-hypothesis-proof",
+   "already_reported": true,
+   "viral": 7,
+   "title_fa": "ادعای تاریخی پژوهشگر آنتروپیک: حل بزرگ‌ترین معمای ریاضی جهان با کمک کلاود!",
+   "one_liner_fa": "پژوهشگری در شرکت انتروپیک (Anthropic) مدعی شده که با همکاری هوش مصنوعی کلود موفق به اثبات قطعی فرضیه ریمان شده است.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "fdb06dabd9"
+  },
+  {
+   "title": "Inkling-2-Mini in 5.4 GB Memory",
+   "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
+   "source": "github.com",
+   "published": "2026-11-21T18:02:19+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 331 امتیاز، 89 کامنت",
+   "signal_value": 331,
+   "discussion_url": "https://news.ycombinator.com/item?id=50591853",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 6,
+   "category": "open_source",
+   "story_key": "inkling-2-mini-release",
+   "topic_key": "open-source-llm",
+   "already_reported": true,
+   "viral": 5,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "c6e0f6fe1d"
+  },
+  {
+   "title": "RCE in Gnupg",
+   "url": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html",
+   "source": "lists.gnupg.org",
+   "published": "2026-11-21T08:32:58+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 226 امتیاز، 92 کامنت",
+   "signal_value": 226,
+   "discussion_url": "https://news.ycombinator.com/item?id=50587208",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 6,
+   "category": "safety_ethics",
+   "story_key": "gnupg-rce-vulnerability",
+   "topic_key": "core-software-vulnerabilities",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "هشدار امنیتی شدید: کشف آسیب‌پذیری بحرانی اجرای کد از راه دور در Gnupg",
+   "one_liner_fa": "یک باگ امنیتی فوق‌العاده خطرناک از نوع RCE در هسته ابزار رمزنگاری محبوب گنوپی‌جی (GnuPG) کشف شد که امکان اجرای کدهای مخرب را به نفوذگران می‌دهد.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "4cb2fb025b"
+  },
+  {
+   "title": "FBI reportedly investigating apparent hack of its criminal database",
+   "url": "https://www.bbc.com/news/articles/cvze7de86pk3o",
+   "source": "bbc.com",
+   "published": "2026-11-21T10:33:57+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 167 امتیاز، 82 کامنت",
+   "signal_value": 167,
+   "discussion_url": "https://news.ycombinator.com/item?id=50587859",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://ichef.bbci.co.uk/news/1024/branded_news/3fd7/live/9009b220-e58d-11f1-99a1-253766e7ad8b.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://ichef.bbci.co.uk/news/1536/cpsprodpb/b03e/live/13380570-e557-11f1-ad51-c3505e495cd9.jpg.webp",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/fbi-and-usda-were-reportedly-targeted-in-back-to-back-cyberattacks/l-intro-1795297525.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [
+    "Engadget"
+   ],
+   "importance": 7,
+   "worthiness": 7,
+   "category": "safety_ethics",
+   "story_key": "fbi-usda-cyberattack-database-hack",
+   "topic_key": "us-government-cyberattacks",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "گزارش‌ها از نفوذ احتمالی هکرها به پایگاه داده اطلاعات جنایی اف‌بی‌آی (FBI)",
+   "one_liner_fa": "پلیس فدرال آمریکا نفوذ هکرها به پایگاه داده سوابق مجرمان را تایید کرده و در حال بررسی ابعاد گسترده این رسوایی امنیتی است.",
+   "deep": {
+    "id": "68cb36c6bf",
+    "title_fa": "گزارش‌ها از نفوذ احتمالی هکرها به پایگاه داده اطلاعات جنایی اف‌بی‌آی (FBI)",
+    "summary_fa": "بر اساس گزارش رسانه‌های آمریکایی، اف‌بی‌آی (FBI) در حال بررسی یک نفوذ امنیتی احتمالی به دیتابیس مرکز ملی اطلاعات جرایم (NCIC) است. این پایگاه داده حساس حاوی اطلاعات حیاتی برای بررسی سوابق افراد و احکام جلب در سراسر ایالات متحده است. دونالد ترامپ نیز در مصاحبه‌ای با فاکس‌نیوز وقوع این هک را تایید نکرده اما اعلام کرده به تازگی از آن باخبر شده و اتفاق خوبی نیست. این حادثه همزمان با گزارش‌هایی از حمله به وزارت کشاورزی آمریکا و اختلالات سیستمی اخیر در این کشور رخ داده است.",
+    "key_points_fa": [
+     "پایگاه داده هدف، سیستم اطلاعات جرایم ملی (NCIC) است که توسط نهادهای محلی و فدرال استفاده می‌شود.",
+     "دونالد ترامپ در گفت‌وگو با فاکس‌نیوز (Fox News) گفت به تازگی از موضوع باخبر شده و واکنش منفی نشان داد.",
+     "اف‌بی‌آی تا زمان انتشار خبر پاسخ رسمی به درخواست مصاحبه رسانه‌ها نداده است.",
+     "این گزارش‌ها به دنبال برکناری شان کرن‌کراس (مدیر امنیت سایبری کاخ سفید) و اختلالات فنی در بخش بانکی و هوایی آمریکا منتشر شده‌اند.",
+     "در ماه سپتامبر نیز گروه ShinyHunters ادعا کرده بود اطلاعات شخصی حدود ۳۸ هزار کارمند اف‌بی‌آی را دزدیده است.",
+     "شبکه NBC همچنین از حمله سایبری جداگانه‌ای به سامانه پرداخت‌های وزارت کشاورزی آمریکا (USDA) خبر داده است."
+    ],
+    "why_it_matters_fa": "دسترسی مهاجمان به دیتابیس‌های مجرمانه و اطلاعات امنیتی حیاتی، امنیت مأموران، داده‌های محرمانه و سیستم‌های قضایی را به خطر می‌اندازد و آسیب‌پذیری زیرساخت‌های کلان در برابر جنگ‌های سایبری مدرن را نشان می‌دهد.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "هک بزرگ دیتابیس اف‌بی‌آی: ماجرا از چه قراره؟",
+      "hook_fa": "باورتون میشه هکرها به مهم‌ترین دیتابیس جنایی اف‌بی‌آی نفوذ کرده باشن؟",
+      "angle_fa": "روایت هیجان‌انگیز از افشای احتمالی داده‌های مجرمانه در آمریکا و واکنش ترامپ به این بحران امنیتی.",
+      "outline_fa": [
+       "شروع پرانرژی و معرفی دیتابیس NCIC و اهمیت اون در سوابق جنایی آمریکا",
+       "واکنش ترامپ در فاکس‌نیوز و برکناری مسئول امنیت سایبری کاخ سفید",
+       "سوابق قبلی هک‌ها در نهادهای دولتی آمریکا مثل گروه ShinyHunters",
+       "جمع‌بندی درباره تشدید حملات سایبری در سطح جهان و چالش‌های امنیتی ۲۰۲۶"
+      ],
+      "visual_tip_fa": "استفاده از تصاویر گرافیکی لوگوی FBI، تصاویر تاریک هکری، تیتر اخبار BBC و راش‌های کوتاه مصاحبه ترامپ با فاکس‌نیوز."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "جزئیات نفوذ امنیتی به مرکز جرایم ملی آمریکا (FBI)",
+      "hook_fa": "آیا پایگاه‌های فوق‌امنیتی آمریکا واقعاً نفوذناپذیرند؟",
+      "angle_fa": "بررسی عمق ماجرا، ابعاد نفوذ به سامانه NCIC و سناریوهای خطرساز سایبری.",
+      "outline_fa": [
+       "اسلاید ۱: خلاصه خبر و ماهیت پایگاه داده NCIC",
+       "اسلاید ۲: چه اطلاعاتی داخل این سیستم قرار دارد و چه خطری وجود دارد؟",
+       "اسلاید ۳: واکنش دولت، برکناری‌ها و سخنان ترامپ",
+       "اسلاید ۴: حوادث موازی (حمله به وزارت کشاورزی و قطعی‌های مشکوک)",
+       "اسلاید ۵: تحلیل کارشناسان سابق NSA درباره آینده امنیت داده‌های حیاتی"
+      ],
+      "visual_tip_fa": "طراحی تم مشکی-قرمز سایبری، نمایش عکس سرورها و بریده اسکرین‌شات تیتر خبر بی‌بی‌سی روی اسلاید اول."
+     }
+    ],
+    "hashtags": [
+     "#امنیت_سایبری",
+     "#هک",
+     "#اف_بی_آی",
+     "#تکنولوژی",
+     "#CyberSecurity",
+     "#FBIHack",
+     "#فناوری"
+    ],
+    "caution_fa": "هنوز اف‌بی‌آی به‌طور رسمی این هک را تایید یا رد نکرده و گزارش بر اساس منابع آگاه رسانه‌ای منتشر شده است."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "68cb36c6bf"
+  },
+  {
+   "title": "Astra 6.2 and Sol 6.2 flop at Simple Bench",
+   "url": "https://simple-bench.com/",
+   "source": "simple-bench.com",
+   "published": "2026-11-21T13:16:12+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 158 امتیاز، 155 کامنت",
+   "signal_value": 158,
+   "discussion_url": "https://news.ycombinator.com/item?id=50588916",
+   "media": [
+    {
+     "kind": "embed",
+     "url": "https://www.youtube.com/watch?v=tGsBJhMbiIU",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://img.youtube.com/vi/tGsBJhMbiIU/maxresdefault.jpg",
+     "origin": "youtube"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 6,
+   "category": "research",
+   "story_key": "astra-sol-simple-bench-flop",
+   "topic_key": "gpt-6-astra",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "شکست مدل‌های بزرگ هوش مصنوعی در برابر عقل سلیم انسان با بنچمارک SimpleBench",
+   "one_liner_fa": "مدل‌های جدید Astra 6.2 و Sol 6.2 در آزمون‌های بنچمارک Simple Bench عملکردی بسیار پایین‌تر از انتظارات ثبت کردند و جنجال‌برانگیز شدند.",
+   "deep": {
+    "id": "aaaedd31c4",
+    "title_fa": "شکست مدل‌های بزرگ هوش مصنوعی در برابر عقل سلیم انسان با بنچمارک SimpleBench",
+    "summary_fa": "پژوهشگران بنچمارک جدیدی با نام سیمپل‌بنچ (SimpleBench) معرفی کرده‌اند که نشان می‌دهد هوش مصنوعی‌های پیشرو در پاسخ به سوالات ساده فکری و روزمره هنوز از انسان‌ها ضعیف‌تر عمل می‌کنند. این آزمون شامل بیش از ۲۰۰ سوال چهارگزینه‌ای در زمینه استدلال فضایی-زمانی، هوش اجتماعی و سوالات گمراه‌کننده (حلیه‌آمیز) است. در حالی که دانش‌آموزان دبیرستانی معمولی امتیاز میانگین ۸۳.۷ درصد گرفتند، حتی قوی‌ترین مدل تست‌شده یعنی Claude Fable تنها به امتیاز ۸۱.۹ درصد دست یافت. این نتایج اثبات می‌کند که هوش‌های مصنوعی پیشرفته هنوز در درک منطق ابتدایی دنیای واقعی به حافظه و بازیابی تقریبی متکی هستند و ضعف جدی دارند.",
+    "key_points_fa": [
+     "بنچمارک SimpleBench شامل بیش از ۲۰۰ سوال متنی چهارگزینه‌ای است.",
+     "زمینه‌های آزمون شامل استدلال مکانی-زمانی، هوش اجتماعی و سوالات انحرافی است.",
+     "میانگین افراد انسانی غیرمتخصص (سطح دانش دبیرستانی) امتیاز ۸۳.۷٪ بود.",
+     "بهترین مدل تست‌شده، Claude Fable، به امتیاز ۸۱.۹٪ رسید و پشت سر انسان قرار گرفت.",
+     "مدل‌هایی مثل Sol 6.2 و Astra 6.2 در این ارزیابی ساده نتایج ضعیفی ثبت کردند.",
+     "کاربران می‌توانند مدل‌ها را از طریق اپلیکیشن LMcouncil.ai بررسی کنند."
+    ],
+    "why_it_matters_fa": "این یافته خط بطلانی بر توهم شکست‌ناپذیری هوش مصنوعی است و نشان می‌دهد مدل‌ها علی‌رغم حل مسائل پیچیده دانشگاهی، هنوز در عقل سلیم و منطق ساده روزمره که کودکان هم می‌فهمند دچار خطا می‌شوند.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "سوالاتی که قوی‌ترین هوش مصنوعی دنیا هم نمی‌تونه جواب بده!",
+      "hook_fa": "یه سوال ساده دبیرستانی که تمام مدل‌های هوش مصنوعی رو گیج کرد!",
+      "angle_fa": "مقایسه شوخ‌طبعانه توانایی‌های حفظی LLMها با هوش شهودی و عقل سلیم انسان.",
+      "outline_fa": [
+       "طرح یک معمای گول‌زننده یا مفهومی استدلال فضایی در ثانیه‌های اول",
+       "معرفی بنچمارک جدید SimpleBench و تفاوتش با آزمون‌های پیچیده ریاضی",
+       "نمایش نتایج: پیروزی انسان‌های عادی (۸۳.۷٪) در برابر کلود و سایر مدل‌ها",
+       "توضیح فنی ساده درباره اینکه چرا LLMها استدلال واقعی نمی‌کنند بلکه تقریب می‌زنند",
+       "دعوت از مخاطب برای به چالش کشیدن هوش مصنوعی در کامنت‌ها"
+      ],
+      "visual_tip_fa": "قرار دادن ویدیوی تست یوتیوب پروژه SimpleBench، نمایش نمودار لیدربورد و مقایسه درصدهای هوش مصنوعی با انسان."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "چرا هوش مصنوعی هنوز از یک دانش‌آموز معمولی خنگ‌تر است؟",
+      "hook_fa": "هوش مصنوعی دکتر و وکیل شد ولی از پس این سوالات برنیامد!",
+      "angle_fa": "تحلیل عمیق و آموزشی پیرامون نقاط ضعف بنیادی معماری ترنسفورمرها در درک شهودی.",
+      "outline_fa": [
+       "اسلاید ۱: کاور شوکه‌کننده با تیتر افتضاح مدل‌های SOTA در SimpleBench",
+       "اسلاید ۲: ماجرای SimpleBench چیست؟ (آزمون استدلال و هوش اجتماعی)",
+       "اسلاید ۳: ارائه آمار دقیق (Claude Fable با ۸۱.۹٪ در برابر انسان با ۸۳.۷٪)",
+       "اسلاید ۴: چرا مدل‌ها فریب سوالات گول‌زننده و معماهای فضایی را می‌خورند؟",
+       "اسلاید ۵: راهکار امتحان کردن مدل‌ها در LMcouncil.ai و نتیجه‌گیری"
+      ],
+      "visual_tip_fa": "تصویرسازی مقایسه‌ای مغز انسان و چیپ هوش مصنوعی همراه با اسکرین‌شات از سوالات نمونه موجود در سایت simple-bench."
+     }
+    ],
+    "hashtags": [
+     "#هوش_مصنوعی",
+     "#فناوری",
+     "#چت_جی_پی_تی",
+     "#کلود",
+     "#AI",
+     "#SimpleBench",
+     "#اخبار_تکنولوژی"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "aaaedd31c4"
+  },
+  {
+   "title": "ClawDOS – An AI coding agent for DOS",
+   "url": "http://ricapar.net/ClawDOS/",
+   "source": "ricapar.net",
+   "published": "2026-11-21T05:38:01+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 156 امتیاز، 50 کامنت",
+   "signal_value": 156,
+   "discussion_url": "https://news.ycombinator.com/item?id=50586292",
+   "media": [
+    {
+     "kind": "embed",
+     "url": "https://www.youtube.com/watch?v=Jok7MQi-16Q",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "http://ricapar.net/ClawDOS/docs/images/opening.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "http://ricapar.net/ClawDOS/docs/images/coding.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "http://ricapar.net/ClawDOS/docs/images/wargames-video.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "http://ricapar.net/ClawDOS/docs/images/wargames-run.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "http://ricapar.net/ClawDOS/docs/images/wargames-shot-8088.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "http://ricapar.net/ClawDOS/docs/images/wargames-seen.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://img.youtube.com/vi/Jok7MQi-16Q/maxresdefault.jpg",
+     "origin": "youtube"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 6,
+   "category": "tools_for_creators",
+   "story_key": "clawdos-dos-ai-agent",
+   "topic_key": "retro-tech-ai",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "کلاداس (ClawDOS): توسعه ایجنت برنامه‌نویسی هوش مصنوعی برای کامپیوترهای قدیمی داس (DOS)",
+   "one_liner_fa": "",
+   "deep": {
+    "id": "56c8c69722",
+    "title_fa": "کلاداس (ClawDOS): توسعه ایجنت برنامه‌نویسی هوش مصنوعی برای کامپیوترهای قدیمی داس (DOS)",
+    "summary_fa": "یک توسعه‌دهنده خلاق توانسته با کمک مدل‌های کلاود (Claude) یک ایجنت هوش مصنوعی برنامه‌نویسی به نام ClawDOS بسازد که مستقیماً روی یک سیستم قدیمی IBM PC XT مدل سال‌ها پیش با مشخصات پردازنده ۸۰۸۸ و رم ۶۴۰ کیلوبایت اجرا می‌شود. این ابزار به کاربر اجازه می‌دهد با کامپیوتر عتیقه خود چت کند و هوش مصنوعی فایل‌ها را روی دیسک می‌خواند، به زبان توربو سی (Turbo C) کد می‌نویسد، آن را کامپایل و تست کرده و حتی از صفحه نمایش خروجی می‌گیرد. تمام برنامه داس به جز پروتکل امنیتی ارتباط اینترنتی کامپایل و روی ماشین واقعی اجرا شده است.",
+    "key_points_fa": [
+     "سخت‌افزار هدف: سیستم IBM PC XT (مدل ۵۱۶۰) با پردازنده ۴.۷۷ مگاهرتز، ۶۴۰ کیلوبایت رم و کارت گرافیک CGA.",
+     "برنامه HARNESS.EXE فقط ۱۷۶ کیلوبایت حجم دارد و مستقیماً با API کلود ارتباط برقرار می‌کند.",
+     "سیستم می‌تواند با Turbo C برنامه‌نویسی، بیلد و اجرا کند؛ مثلاً نوشتن برنامه اعداد اول در ۶۴ ثانیه.",
+     "ایجنت توانایی ثبت اسکرین‌شات از حافظه ویدیویی CGA (تصویر ۴ رنگ با وضوح ۳۲۰x۲۰۰) و درک آن را دارد.",
+     "برای نمونه، بازی و ادای احترامی کامل به فیلم WarGames توسط این ایجنت روی سخت‌افزار واقعی ساخته شد.",
+     "۱۰۰٪ سورس کدهای پروژه توسط خود کلود نوشته شده و نیازمند یک رایانه واسط فقط برای هندل کردن رمزنگاری TLS است."
+    ],
+    "why_it_matters_fa": "این پروژه پیوند شگفت‌انگیز آینده و گذشته تکنولوژی است و ثابت می‌کند می‌توان سیستم‌های ایجنتی پیشرفته امروزی را حتی به سخت‌افزارهای نوستالژیک چهل سال پیش پیوند زد.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "هوش مصنوعی ۲۰۲۶ روی کامپیوتر ۴۰ سال پیش!",
+      "hook_fa": "فکر می‌کردید هوش مصنوعی فقط سیستم‌های غول‌پیکر می‌خواد؟ این ویدیو رو ببینید!",
+      "angle_fa": "نمایش هیجان‌انگیز زنده کردن کامپیوتر داس عتیقه به کمک پرامپت‌نویسی و ایجنت هوش مصنوعی.",
+      "outline_fa": [
+       "شروع با نمای مانیتور لامپی سبز و کامپیوتر قدیمی IBM PC",
+       "تایپ دستور CLAWDOS و پرامپت دادن به هوش مصنوعی در محیط DOS",
+       "نمایش پروسه نوشتن کد، کامپایل با Turbo C و گرفتن اسکرین‌شات ۴ رنگ توسط هوش مصنوعی",
+       "توضیح مختصر نحوه ارتباط با کلود و خلاقیت باورنکردنی پروژه",
+       "پرسش از مخاطبان: اولین کامپیوتری که داشتید چی بود؟"
+      ],
+      "visual_tip_fa": "استفاده حتمی از کلیپ یوتیوب مربوط به اجرای بازی WarGames روی نمایشگر IBM و اسکرین‌شات‌های پیکسلی CGA پروژه."
+     },
+     {
+      "format": "پست",
+      "title_fa": "وقتی کلود (Claude) برنامه‌نویس کامپیوتر IBM دهه ۸۰ می‌شود!",
+      "hook_fa": "آیا می‌دانستید یک ایجنت هوش مصنوعی مدرن می‌تواند با ۶۴۰ کیلوبایت رم کدنویسی کند؟",
+      "angle_fa": "بررسی فنی و رترو-تکنولوژی پروژه ClawDOS و شاهکار برنامه‌نویسی روی سخت‌افزارهای باستانی.",
+      "outline_fa": [
+       "معرفی کامپیوتر IBM 5160 و ایده دیوانه‌وار ترکیب AI با داس",
+       "عملکرد HARNESS.EXE: مدیریت حافظه برای خالی کردن فضا برای کامپایلر توربو سی",
+       "بینایی ماشین به سبک دهه ۸۰: تبدیل حافظه CGA به عکس PNG برای مدل هوش مصنوعی",
+       "نتیجه پروژه: ساخت بازی کامل WarGames تنها بر اساس یک درخواست متنی"
+      ],
+      "visual_tip_fa": "عکس باکیفیت از دستگاه IBM PC در کنار خط فرمان داس و تصاویری از کدهای سبز رنگ رترو روی نمایشگر."
+     }
+    ],
+    "hashtags": [
+     "#هوش_مصنوعی",
+     "#نوستالژی",
+     "#برنامه_نویسی",
+     "#رترو",
+     "#تکنولوژی",
+     "#Claude",
+     "#RetroComputing"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "56c8c69722"
+  }
+ ],
+ "failed_sources": [],
+ "models": [
+  "gemini-3.8-flash",
+  "gemini-3.8-flash"
+ ]
+}
