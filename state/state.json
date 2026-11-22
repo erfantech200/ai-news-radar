@@ -438,147 +438,28 @@
   "https://economist.com/business/2026/11/19/jensen-huangs-fall-is-bad-news-for-silicon-valleys-accelerationists": "2026-11-22",
   "https://linebender.org/blog/next-100-guis": "2026-11-22",
   "https://onurgumus.github.io/zero-csharp/index.html": "2026-11-22",
-  "https://github.com/ItsNotRexed/Leonida": "2026-11-22"
+  "https://github.com/ItsNotRexed/Leonida": "2026-11-22",
+  "https://engadget.com/2319388/how-to-test-usb-speed": "2026-11-23",
+  "https://engadget.com/2319385/fixing-annoying-one-ui-feature-easy-but-theres-catch": "2026-11-23",
+  "https://engadget.com/2319383/random-apps-that-work-with-android-auto": "2026-11-23",
+  "https://engadget.com/2310723/handy-ways-use-old-mini-pc": "2026-11-23",
+  "https://engadget.com/2319374/apple-intelligence-iphone-storage-usage": "2026-11-23",
+  "https://engadget.com/2319371/most-recognizable-spam-email-type-way-older-than-internet": "2026-11-23",
+  "https://engadget.com/2319367/ipad-alternatives-to-ditch-apple": "2026-11-23",
+  "https://engadget.com/2319361/why-you-should-never-vacuum-inside-computer": "2026-11-23",
+  "https://engadget.com/2319358/xbox-series-x-owners-sleep-mode-vs-shutdown": "2026-11-23",
+  "https://engadget.com/2319357/limit-one-ui-9-on-samsung-phone": "2026-11-23",
+  "https://engadget.com/2319353/old-laptop-sc-port-purpose": "2026-11-23",
+  "https://engadget.com/2319349/common-reasons-why-usb-ports-red": "2026-11-23",
+  "https://engadget.com/2319347/old-computer-hardware-truly-useless": "2026-11-23",
+  "https://engadget.com/2319344/apple-airpods-5-vs-airpods-pro-3-differences": "2026-11-23",
+  "https://engadget.com/2321882/rare-game-console-no-one-owns": "2026-11-23",
+  "https://engadget.com/2319342/tesla-battery-blue-snowflake-icon-meaning": "2026-11-23",
+  "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power": "2026-11-23",
+  "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers": "2026-11-23",
+  "https://jespino.github.io/gopgext": "2026-11-23"
  },
  "reported": [
-  {
-   "date": "2026-11-18",
-   "title": "Introducing GPT-6.2 Astra and Sol",
-   "title_fa": "اوپن‌ای‌آی از مدل‌های جدید GPT-6.2 آسترا و سول رونمایی کرد",
-   "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol"
-  },
-  {
-   "date": "2026-11-18",
-   "title": "Anyone can create a personal avatar of themselves in Google Vids, at no cost.",
-   "title_fa": "گوگل ساخت آواتار شخصی ویدیویی را برای همه رایگان کرد",
-   "url": "https://blog.google/products-and-platforms/products/workspace/vids-personal-avatars-no-cost"
-  },
-  {
-   "date": "2026-11-18",
-   "title": "NVIDIA's board chair says the company is not considering reinstating Jensen Huang as CEO",
-   "title_fa": "تخته‌گاز انویدیا بدون جن‌سن هوانگ؛ بازگشت مدیرعامل سابق منتفی شد",
-   "url": "https://engadget.com/2319982/nvidias-board-chair-says-the-company-is-not-considering-reinstating-jensen-huang-as-ceo"
-  },
-  {
-   "date": "2026-11-18",
-   "title": "Google expands access to Gemini Tasks, which can help with calls, purchases",
-   "title_fa": "قابلیت تسک در جیمینای گوگل؛ هوش مصنوعی دستیار تلفنی و خرید شما شد",
-   "url": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases"
-  },
-  {
-   "date": "2026-11-18",
-   "title": "Waymo is pausing all freeway rides after California DMV says the robotaxis are 'imminent hazard to public safety'",
-   "title_fa": "ترمز ویمو کشیده شد؛ توقف تاکسی‌های خودران در بزرگراه‌های آمریکا",
-   "url": "https://engadget.com/2319947/waymo-is-pausing-all-freeway-rides-after-california-dmv-says-the-robotaxis-are-imminent-hazard-to-public-safety"
-  },
-  {
-   "date": "2026-11-18",
-   "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
-   "title_fa": "سهم ۳۰ درصدی آمازون و گوگل از آنتروپیک در آستانه عرضه اولیه سهام",
-   "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo"
-  },
-  {
-   "date": "2026-11-18",
-   "title": "Nvidia is abandoning China after Jensen Huang’s ouster",
-   "title_fa": "پایان حضور انویدیا در چین پس از برکناری جن‌سن هوانگ",
-   "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster"
-  },
-  {
-   "date": "2026-11-18",
-   "title": "SEC reportedly investigating Nvidia amid Huang exit",
-   "title_fa": "آغاز تحقیقات رسمی نهاد نظارتی بورس آمریکا درباره انویدیا و ماجرای هوانگ",
-   "url": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit"
-  },
-  {
-   "date": "2026-11-18",
-   "title": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials",
-   "title_fa": "سرمایه‌گذاری تاریخی ۵ میلیارد دلاری روی پلتفرم کشف داروی هوش مصنوعی دیپ‌مایند",
-   "url": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials"
-  },
-  {
-   "date": "2026-11-18",
-   "title": "Highly classified US national security communications network goes down",
-   "title_fa": "قطعی مرموز شبکه ارتباطات فوق‌محرمانه امنیت ملی آمریکا",
-   "url": "https://cnn.com/2026/11/17/politics/highly-classified-national-security-communications-network-goes-down"
-  },
-  {
-   "date": "2026-11-18",
-   "title": "MAI Code 2 and Code 2 Flash",
-   "title_fa": "پاسخ مایکروسافت با مدل‌های جدید برنامه‌نویسی MAI Code 2 و Flash",
-   "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash"
-  },
-  {
-   "date": "2026-11-18",
-   "title": "Nvidia promises that revenue will keep soaring — for now",
-   "title_fa": "ادعای انویدیا: رکوردهای درآمدی پس از برکناری جن‌سن هوانگ متوقف نمی‌شود",
-   "url": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now"
-  },
-  {
-   "date": "2026-11-18",
-   "title": "Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit",
-   "title_fa": "پایبندی انویدیا به استراتژی متن‌باز و برنامه خرید هاگینگ فیس",
-   "url": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit"
-  },
-  {
-   "date": "2026-11-18",
-   "title": "Jensen Huang says he would be ‘honored’ if allowed to return as Nvidia CEO",
-   "title_fa": "جن‌سن هوانگ: افتخار می‌کنم اگر اجازه بازگشت به مدیریت انویدیا را داشته باشم",
-   "url": "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo"
-  },
-  {
-   "date": "2026-11-18",
-   "title": "Windows 11 is collecting data on which coding agents and developer tools you use",
-   "title_fa": "جاسوسی ویندوز ۱۱ از ایجنت‌ها و ابزارهای کدنویسی برنامه‌نویسان!",
-   "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry"
-  },
-  {
-   "date": "2026-11-18",
-   "title": "Optimizely compromised, served malware on Zoom, GitLab",
-   "title_fa": "هک زنجیره تأمین Optimizely و تزریق بدافزار در وب‌سایت‌های زوم و گیت‌لب",
-   "url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely"
-  },
-  {
-   "date": "2026-11-18",
-   "title": "Google's AI answers reducing search traffic by 40%",
-   "title_fa": "ضربه مهلک هوش مصنوعی گوگل به وب‌سایت‌ها: کاهش ۴۰ درصدی ترافیک ورودی جستجو!",
-   "url": "https://revscope.co/blog/search-seo-geo-2026"
-  },
-  {
-   "date": "2026-11-18",
-   "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
-   "title_fa": "تحقیق دانشگاه هاروارد: هوش مصنوعی خروجی برنامه‌نویسان را زیاد نکرده، فقط بازبینی کد را کندتر کرده است!",
-   "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review"
-  },
-  {
-   "date": "2026-11-18",
-   "title": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future deals in doubt",
-   "title_fa": "ارزش سرمایه‌گذاری انویدیا در استارتاپ‌ها به ۶۵ میلیارد دلار رسید؛ آینده نامعلوم با تغییرات مدیریتی",
-   "url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt"
-  },
-  {
-   "date": "2026-11-18",
-   "title": "Microsoft's ONNX Runtime has disappeared from GitHub",
-   "title_fa": "ناپدید شدن ناگهانی پروژه کلیدی ONNX Runtime مایکروسافت از گیت‌هاب جنجال آفرید",
-   "url": "https://github.com/microsoft/onnxruntime"
-  },
-  {
-   "date": "2026-11-18",
-   "title": "FastFrames: Video Generation at Interactive Latency",
-   "title_fa": "رونمایی از FastFrames؛ مدل جدید تولید ویدیوی آنی و Real-time با سرعت باورنکردنی",
-   "url": "https://huggingface.co/papers/2611.23226"
-  },
-  {
-   "date": "2026-11-18",
-   "title": "TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks",
-   "title_fa": "رونمایی از Xing 4؛ پیشرفت چشمگیر مدل‌های هوش مصنوعی چین روی تراشه‌های بومی اسند",
-   "url": "https://huggingface.co/papers/2611.22115"
-  },
-  {
-   "date": "2026-11-18",
-   "title": "FAA suspends installation of router that led to a ground stop of flights across the US",
-   "title_fa": "روتر معیوبی که تمام پروازهای آمریکا را زمین‌گیر کرد؛ دستور فوری سازمان هوانوردی برای توقف نصب",
-   "url": "https://engadget.com/2320202/faa-suspends-installation-router-ground-stop-flights-across-us"
-  },
   {
    "date": "2026-11-19",
    "title": "GTA 6 launch day: Live updates on the biggest game of the year",
@@ -1070,6 +951,12 @@
    "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
    "title_fa": "اتحاد غول‌های ژاپنی: تویوتا، نیسان و هوندا قطعات مشترک تولید می‌کنند",
    "url": "https://caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs"
+  },
+  {
+   "date": "2026-11-23",
+   "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+   "title_fa": "پشت‌پرده تاریک هوش مصنوعی: ۸۷ درصد برق آنتروپیک تا سال ۲۰۲۸ از سوخت‌های فسیلی تأمین می‌شود!",
+   "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power"
   }
  ],
  "telegram_chat_id": "925911315"
