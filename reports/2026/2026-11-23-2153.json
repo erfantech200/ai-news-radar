@@ -1,0 +1,673 @@
+{
+ "content": [
+  {
+   "title": "XNU Linux: Full OS X GUI Userspace on Linux",
+   "url": "https://github.com/AFK-surf/xnulinux",
+   "source": "github.com",
+   "published": "2026-11-23T03:49:24+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 345 امتیاز، 162 کامنت",
+   "signal_value": 345,
+   "discussion_url": "https://news.ycombinator.com/item?id=50607261",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://opengraph.githubassets.com/1eb861d39fb514e21c8cdaf6f09e49006ccfd815647c83842cf1bc2c839ee4fb/AFK-surf/xnulinux",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://github.com/AFK-surf/xnulinux/raw/main/docs/images/macos-and-linux.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://github.com/AFK-surf/xnulinux/raw/main/docs/images/desktop.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://github.com/AFK-surf/xnulinux/raw/main/docs/images/safari-xnu.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://github.com/AFK-surf/xnulinux/raw/main/docs/images/safari-kernel-org.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://github.com/AFK-surf/xnulinux/raw/main/docs/images/safari-github.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "open_source",
+   "story_key": "xnu-linux-gui",
+   "topic_key": "macos-on-linux",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "اجرای مستقیم رابط گرافیکی مک روی لینوکس با پروژه متن‌باز XNU Linux",
+   "one_liner_fa": "پروژه متن‌باز جدید XNU Linux امکان اجرای مستقیم و بومی محیط دسکتاپ سیستم‌عامل مک (macOS) را روی توزیع‌های لینوکس فراهم کرد.",
+   "deep": {
+    "id": "35cfea2e7f",
+    "title_fa": "اجرای مستقیم رابط گرافیکی مک روی لینوکس با پروژه متن‌باز XNU Linux",
+    "summary_fa": "پروژه متن‌باز جدیدی به نام XNU Linux روی گیت‌هاب منتشر شده که هدف آن اجرای کامل فضای کاربری گرافیکی سیستم‌عامل مک (macOS/OS X) روی لینوکس است. این ابزار هسته XNU را به صورت یک ماژول بارگذاری‌شونده در کرنل لینوکس (Loadable Kernel Module) پیاده‌سازی کرده و سازگاری سیستم‌عامل اپل را برای لینوکس آرم (arm64 Linux) به ارمغان می‌آورد. این مخزن با استقبال کم‌نظیر جامعه برنامه‌نویسان در هکر نیوز (Hacker News) مواجه شده است.",
+    "key_points_fa": [
+     "پروژه متن‌باز AFK-surf/xnulinux منتشر شده در گیت‌هاب (GitHub)",
+     "پیاده‌سازی هسته XNU به صورت ماژول بارگذاری‌شونده کرنل درون لینوکس",
+     "ایجاد قابلیت سازگاری با سیستم‌عامل مک (macOS personality) برای لینوکس معماری arm64",
+     "هدف‌گذاری برای اجرای کامل رابط کاربری گرافیکی (GUI Userspace) مک روی محیط لینوکس",
+     "کسب صدها ستاره در گیت‌هاب و بیش از ۳۴۰ امتیاز در هکر نیوز طی ساعات اولیه انتشار"
+    ],
+    "why_it_matters_fa": "رویای اجرای برنامه‌ها و رابط کاربری اختصاصی اپل به صورت بومی روی کرنل لینوکس همیشه برای توسعه‌دهندگان جذاب بوده و این پروژه پیشرفتی اساسی در این مسیر است.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "اجرای محیط مک روی لینوکس؛ غیرممکنی که ممکن شد!",
+      "hook_fa": "تا حالا دیدید رابط کاربری اپل بدون ماشین مجازی، مستقیم روی لینوکس بالا بیاد؟! این پروژه رو ببینید!",
+      "angle_fa": "روایت ماجراجویانه از تلاش توسعه‌دهنده‌ها برای شکستن مرزهای بین لینوکس و مک روی چیپ‌های آرم.",
+      "outline_fa": [
+       "طرح چالش انحصار رابط کاربری مک‌او‌اس و محدودیت‌های سنتی شبیه‌سازها",
+       "معرفی پروژه XNU Linux و نحوه ادغام هسته اپل با لینوکس arm64",
+       "نمایش محیط مخزن و توضیحات فنی پروژه به زبان ساده",
+       "طرح سوال از مخاطبان درباره کاربرد این ابزار برای برنامه‌نویس‌ها"
+      ],
+      "visual_tip_fa": "استفاده از اسکرین‌شات‌ها و تصاویر موجود در مخزن پروژه، همراه با نمایش لوگوهای ادغام‌شده لینوکس و اپل."
+     },
+     {
+      "format": "پست",
+      "title_fa": "بررسی فنی پروژه جنجالی XNU Linux",
+      "hook_fa": "چطور هسته macOS تبدیل به ماژول لینوکس شد؟",
+      "angle_fa": "بررسی عمیق‌تر اما ساده برای برنامه‌نویسان و علاقه‌مندان به مباحث سیستم‌عامل و هسته لینوکس.",
+      "outline_fa": [
+       "تفاوت معماری هسته لینوکس و XNU اپل",
+       "توضیح کارکرد ماژول‌های کرنل در لینوکس",
+       "وضعیت فعلی پروژه و پشتیبانی از پردازنده‌های arm64",
+       "آینده احتمالی اجرای نرم‌افزارهای مک روی لینوکس"
+      ],
+      "visual_tip_fa": "طراحی گرافیکی اسلایدی با کدهای گیت‌هاب، نمودار معماری کرنل لینوکس و ماژول‌های بارگذاری‌شونده."
+     }
+    ],
+    "hashtags": [
+     "#لینوکس",
+     "#مک_او_اس",
+     "#برنامه_نویسی",
+     "#گیت_هاب",
+     "#تکنولوژی",
+     "#Linux",
+     "#macOS",
+     "#OpenSource"
+    ],
+    "caution_fa": "پروژه در مراحل کاملاً آزمایشی و توسعه اولیه است و اصلاً برای استفاده روزمره کاربران آماده نیست."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "35cfea2e7f"
+  },
+  {
+   "title": "Progress map for the Lean formalization of Alessandro Masullo's manuscript",
+   "url": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
+   "source": "claude.ai",
+   "published": "2026-11-22T23:12:10+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 239 امتیاز، 173 کامنت",
+   "signal_value": 239,
+   "discussion_url": "https://news.ycombinator.com/item?id=50605045",
+   "media": [],
+   "also_covered_by": [
+    "johncarlosbaez.wordpress.com"
+   ],
+   "importance": 6,
+   "worthiness": 6,
+   "category": "research",
+   "story_key": "masullo-riemann-analysis",
+   "topic_key": "riemann-hypothesis-proof",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "نقشه تعاملی رسمی‌سازی اثبات ریاضی ماسولو با ابزار Lean روی کلود",
+   "one_liner_fa": "جامعه ریاضی نقشه راه ویژه‌ای را برای صورت‌بندی و راستی‌آزمایی گام‌به‌گام دست‌نویس اثبات فرضیه ریمان ماسولو با دستیار اثبات لین (Lean) آغاز کرد.",
+   "deep": {
+    "id": "ae6e6a3519",
+    "title_fa": "نقشه تعاملی رسمی‌سازی اثبات ریاضی ماسولو با ابزار Lean روی کلود",
+    "summary_fa": "یک نقشه پیشرفت تعاملی برای رسمی‌سازی و راستی‌آزمایی کامپیوتری دست‌نوشته ریاضی الساندرو ماسولو (Alessandro Masullo) با استفاده از سیستم اثبات قضیه لین (Lean) منتشر شده است. این ابزار به عنوان یک آرتفکت تعاملی (Artifact) روی پلتفرم کلود (Claude.ai) میزبانی می‌شود و روند بررسی بخش‌های مختلف اثبات را به نمایش می‌گذارد. این پروژه به دلیل ترکیب ریاضیات مدرن و محیط‌های تعاملی محاسباتی، توجه جامعه علمی را جلب کرده است.",
+    "key_points_fa": [
+     "پروژه رسمی‌سازی کامپیوتری اثبات ریاضی (Formalization) بر پایه دست‌نوشته الساندرو ماسولو",
+     "استفاده از نرم‌افزار و زبان اثبات قضیه لین (Lean theorem prover)",
+     "پیاده‌سازی نقشه پیشرفت در قالب آرتفکت تعاملی روی Claude.ai",
+     "پوشش و ارجاع علمی در وبلاگ تخصصی ریاضیدان برجسته جان کارلوس بائز (John Carlos Baez)",
+     "ایجاد بحث‌های گسترده پیرامون کاربرد دستیارهای هوشمند در ریاضیات با بیش از ۲۳۰ امتیاز در هکر نیوز"
+    ],
+    "why_it_matters_fa": "این پروژه نشان‌دهنده آینده اثبات‌های ریاضی است؛ جایی که هوش مصنوعی و نرم‌افزارهای اثبات قضیه به راستی‌آزمایی دست‌نوشته‌های پیچیده دانشمندان کمک می‌کنند.",
+    "content_ideas": [
+     {
+      "format": "کاروسل",
+      "title_fa": "کامپیوترها چطور درستی فرمول‌های ریاضی رو چک می‌کنن؟",
+      "hook_fa": "آیا می‌دونستید ریاضی‌دان‌ها دارن کم‌کم چک کردن فرمول‌ها رو به هوش مصنوعی و کدهای کامپیوتری می‌سپارن؟",
+      "angle_fa": "آشنایی مخاطب با مفهوم زبان Lean و آینده اثبات‌های علمی بدون خطای انسانی.",
+      "outline_fa": [
+       "اسلاید ۱: معضل خطاهای انسانی در بررسی دست‌نوشته‌های طولانی ریاضی",
+       "اسلاید ۲: ابزار Lean چیست و چطور قضایای ریاضی رو به زبان کد تبدیل می‌کنه؟",
+       "اسلاید ۳: ماجرای پروژه رسمی‌سازی دست‌نوشته ماسولو و نقشه پیشرفت آن روی کلود",
+       "اسلاید ۴: چرا همکاری ریاضیات و هوش مصنوعی آینده دنیای علم رو تغییر میده؟"
+      ],
+      "visual_tip_fa": "ترکیب تصاویر کدهای فرمول‌نویسی‌شده در نرم‌افزار Lean با رابط کاربری شیک آرتفکت‌های Claude.ai."
+     },
+     {
+      "format": "استوری",
+      "title_fa": "نقش کلود و لین در تحول ریاضیات مدرن",
+      "hook_fa": "یک کاربرد واقعاً جدی و علمی از Claude Artifacts که شگفت‌زده‌تون می‌کنه!",
+      "angle_fa": "نشان دادن یک نمونه واقعی و غیرسرگرمی از قابلیت‌های ابزارهای تعاملی مدرن.",
+      "outline_fa": [
+       "استوری ۱: نشان دادن نقشه راه این اثبات ریاضی در Claude.ai",
+       "استوری ۲: توضیح کوتاه درباره اثبات کامپیوتری مقالات علمی",
+       "استوری ۳: نظرسنجی: آیا هوش مصنوعی در نهایت ریاضیات جدید خلق خواهد کرد؟"
+      ],
+      "visual_tip_fa": "اسکرین‌شات از رابط کاربری آرتفکت و نمودارهای روند اثبات به همراه هایلایت کردن بخش‌های تعاملی."
+     }
+    ],
+    "hashtags": [
+     "#هوش_مصنوعی",
+     "#ریاضیات",
+     "#کلود",
+     "#تکنولوژی_آموزشی",
+     "#ClaudeAI",
+     "#LeanProver",
+     "#علم"
+    ],
+    "caution_fa": "محتوای ریاضی این خبر به شدت تخصصی است؛ بهتر است تمرکز تولید محتوا روی ابزار Lean و متدولوژی راستی‌آزمایی باشد نه جزئیات فرمول‌ها."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "ae6e6a3519"
+  },
+  {
+   "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
+   "url": "https://spelunkr.tv",
+   "source": "spelunkr.tv",
+   "published": "2026-11-23T01:13:51+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 544 امتیاز، 86 کامنت",
+   "signal_value": 544,
+   "discussion_url": "https://news.ycombinator.com/item?id=50606192",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 6,
+   "category": "other_tech",
+   "story_key": "spelunkr-tv-internet-archive",
+   "topic_key": "internet-archive-projects",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "اسپلانکر تی‌وی؛ شبکه تلویزیونی رایگان از ویدیوهای گمشده تاریخ اینترنت",
+   "one_liner_fa": "",
+   "deep": {
+    "id": "76c713ea51",
+    "title_fa": "اسپلانکر تی‌وی؛ شبکه تلویزیونی رایگان از ویدیوهای گمشده تاریخ اینترنت",
+    "summary_fa": "یک شبکه تلویزیونی اینترنتی کاملاً رایگان به نام اسپلانکر تی‌وی (spelunkr.tv) راه‌اندازی شده که محتوای خود را از دل ویدیوهای آرشیو اینترنت (Internet Archive) تامین می‌کند. این پلتفرم با استخراج و بازپخش ویدیوهای ناشناخته، قدیمی و عجیب، تجربه‌ای مانند تماشای کانال‌های تلویزیونی سنتی اما با محتوای فراموش‌شده وب ایجاد کرده است. این ایده نوستالژیک و متفاوت با استقبال چشمگیر صدها کاربر در هکر نیوز مواجه شده است.",
+    "key_points_fa": [
+     "راه‌اندازی پروژه مستقل spelunkr.tv برای پخش مداوم ویدیوهای وب",
+     "استفاده اختصاصی از گنجینه ویدیوهای آرشیو اینترنت (Internet Archive)",
+     "پخش کاملاً رایگان، بدون نیاز به ثبت‌نام یا اشتراک کاربری",
+     "شبیه‌سازی تجربه کانال‌گردی سنتی در تلویزیون برای کشف محتواهای عجیب و نوستالژیک",
+     "کسب بیش از ۵۴۰ امتیاز در هکر نیوز و تبدیل شدن به ترند محبوب کاربران"
+    ],
+    "why_it_matters_fa": "این سرویس نشان می‌دهد چطور می‌توان از محتواهای آزاد و خاک‌خورده وب، بدون الگوریتم‌های پیچیده شبکه‌های اجتماعی، پلتفرم‌های سرگرم‌کننده و نوستالژیک ساخت.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "عجیب‌ترین تلویزیون اینترنت که تا حالا ندیدید!",
+      "hook_fa": "از الگوریتم‌های خسته‌کننده تیک‌تاک و اکسپلور خسته شدی؟ این وبسایت عجیب رو ببین که هیچ ویدیوش شبیه دیگری نیست!",
+      "angle_fa": "معرفی جذاب و پرانرژی یک وبسایت کاربردی و فان برای سرگرمی و گشت‌وگذار شبانه در اینترنت.",
+      "outline_fa": [
+       "نمایش سریع محیط سایت spelunkr.tv و عوض کردن کانال‌ها شبیه تلویزیون قدیمی",
+       "توضیح اینکه تمام این ویدیوها از بایگانی‌های فراموش‌شده آرشیو اینترنت استخراج میشن",
+       "نمایش کلیپ‌های قدیمی و حس نوستالژی دهه ۸۰ و ۹۰ میلادی",
+       "دعوت به امتحان رایگان سایت و ذخیره کردن پست برای مواقع بی‌حوصلگی"
+      ],
+      "visual_tip_fa": "اسکرین‌رکورد باکیفیت از صفحه دسکتاپ هنگام جابجایی بین کانال‌های وبسایت spelunkr.tv با افکت‌های نویز تلویزیون قدیمی."
+     },
+     {
+      "format": "استوری",
+      "title_fa": "سایت روز: Spelunkr TV",
+      "hook_fa": "امشب اگر بی‌خوابی زد به سرتون، حتما به این سایت سر بزنید...",
+      "angle_fa": "معرفی یک‌دقیقه‌ای ابزار سرگرمی وب به صورت استوری پیوسته به همراه استیکر لینک.",
+      "outline_fa": [
+       "استوری ۱: تیزر ویدیویی از چند کلیپ عجیب در حال پخش در سایت",
+       "استوری ۲: توضیح منبع ویدیوها (آرشیو اینترنت) و نحوه کارکرد سرویس",
+       "استوری ۳: قرار دادن استیکر لینک مستقیم به همراه نظرخواهی از تجربه کاربران"
+      ],
+      "visual_tip_fa": "ضبط ویدیوی افقی تمام صفحه از پلیر وبسایت و نمایش رابط کاربری ساده آن."
+     }
+    ],
+    "hashtags": [
+     "#معرفی_سایت",
+     "#نوستالژی",
+     "#ویدیو_قدیمی",
+     "#سرگرمی",
+     "#وبگردی",
+     "#InternetArchive",
+     "#SpelunkrTV"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "76c713ea51"
+  }
+ ],
+ "others": [],
+ "scored": [
+  {
+   "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+   "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+   "source": "TechCrunch",
+   "published": "2026-11-23T01:25:53+00:00",
+   "origin": "TechCrunch",
+   "summary": "Three significant backers share what gave them conviction to bet billions on Anthropic.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 4,
+   "category": "business_funding",
+   "story_key": "anthropic-early-backers",
+   "topic_key": "anthropic-ipo",
+   "already_reported": false,
+   "viral": 3,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "914bb147d0"
+  },
+  {
+   "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
+   "url": "https://spelunkr.tv",
+   "source": "spelunkr.tv",
+   "published": "2026-11-23T01:13:51+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 544 امتیاز، 86 کامنت",
+   "signal_value": 544,
+   "discussion_url": "https://news.ycombinator.com/item?id=50606192",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 6,
+   "category": "other_tech",
+   "story_key": "spelunkr-tv-internet-archive",
+   "topic_key": "internet-archive-projects",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "اسپلانکر تی‌وی؛ شبکه تلویزیونی رایگان از ویدیوهای گمشده تاریخ اینترنت",
+   "one_liner_fa": "",
+   "deep": {
+    "id": "76c713ea51",
+    "title_fa": "اسپلانکر تی‌وی؛ شبکه تلویزیونی رایگان از ویدیوهای گمشده تاریخ اینترنت",
+    "summary_fa": "یک شبکه تلویزیونی اینترنتی کاملاً رایگان به نام اسپلانکر تی‌وی (spelunkr.tv) راه‌اندازی شده که محتوای خود را از دل ویدیوهای آرشیو اینترنت (Internet Archive) تامین می‌کند. این پلتفرم با استخراج و بازپخش ویدیوهای ناشناخته، قدیمی و عجیب، تجربه‌ای مانند تماشای کانال‌های تلویزیونی سنتی اما با محتوای فراموش‌شده وب ایجاد کرده است. این ایده نوستالژیک و متفاوت با استقبال چشمگیر صدها کاربر در هکر نیوز مواجه شده است.",
+    "key_points_fa": [
+     "راه‌اندازی پروژه مستقل spelunkr.tv برای پخش مداوم ویدیوهای وب",
+     "استفاده اختصاصی از گنجینه ویدیوهای آرشیو اینترنت (Internet Archive)",
+     "پخش کاملاً رایگان، بدون نیاز به ثبت‌نام یا اشتراک کاربری",
+     "شبیه‌سازی تجربه کانال‌گردی سنتی در تلویزیون برای کشف محتواهای عجیب و نوستالژیک",
+     "کسب بیش از ۵۴۰ امتیاز در هکر نیوز و تبدیل شدن به ترند محبوب کاربران"
+    ],
+    "why_it_matters_fa": "این سرویس نشان می‌دهد چطور می‌توان از محتواهای آزاد و خاک‌خورده وب، بدون الگوریتم‌های پیچیده شبکه‌های اجتماعی، پلتفرم‌های سرگرم‌کننده و نوستالژیک ساخت.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "عجیب‌ترین تلویزیون اینترنت که تا حالا ندیدید!",
+      "hook_fa": "از الگوریتم‌های خسته‌کننده تیک‌تاک و اکسپلور خسته شدی؟ این وبسایت عجیب رو ببین که هیچ ویدیوش شبیه دیگری نیست!",
+      "angle_fa": "معرفی جذاب و پرانرژی یک وبسایت کاربردی و فان برای سرگرمی و گشت‌وگذار شبانه در اینترنت.",
+      "outline_fa": [
+       "نمایش سریع محیط سایت spelunkr.tv و عوض کردن کانال‌ها شبیه تلویزیون قدیمی",
+       "توضیح اینکه تمام این ویدیوها از بایگانی‌های فراموش‌شده آرشیو اینترنت استخراج میشن",
+       "نمایش کلیپ‌های قدیمی و حس نوستالژی دهه ۸۰ و ۹۰ میلادی",
+       "دعوت به امتحان رایگان سایت و ذخیره کردن پست برای مواقع بی‌حوصلگی"
+      ],
+      "visual_tip_fa": "اسکرین‌رکورد باکیفیت از صفحه دسکتاپ هنگام جابجایی بین کانال‌های وبسایت spelunkr.tv با افکت‌های نویز تلویزیون قدیمی."
+     },
+     {
+      "format": "استوری",
+      "title_fa": "سایت روز: Spelunkr TV",
+      "hook_fa": "امشب اگر بی‌خوابی زد به سرتون، حتما به این سایت سر بزنید...",
+      "angle_fa": "معرفی یک‌دقیقه‌ای ابزار سرگرمی وب به صورت استوری پیوسته به همراه استیکر لینک.",
+      "outline_fa": [
+       "استوری ۱: تیزر ویدیویی از چند کلیپ عجیب در حال پخش در سایت",
+       "استوری ۲: توضیح منبع ویدیوها (آرشیو اینترنت) و نحوه کارکرد سرویس",
+       "استوری ۳: قرار دادن استیکر لینک مستقیم به همراه نظرخواهی از تجربه کاربران"
+      ],
+      "visual_tip_fa": "ضبط ویدیوی افقی تمام صفحه از پلیر وبسایت و نمایش رابط کاربری ساده آن."
+     }
+    ],
+    "hashtags": [
+     "#معرفی_سایت",
+     "#نوستالژی",
+     "#ویدیو_قدیمی",
+     "#سرگرمی",
+     "#وبگردی",
+     "#InternetArchive",
+     "#SpelunkrTV"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "76c713ea51"
+  },
+  {
+   "title": "XNU Linux: Full OS X GUI Userspace on Linux",
+   "url": "https://github.com/AFK-surf/xnulinux",
+   "source": "github.com",
+   "published": "2026-11-23T03:49:24+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 345 امتیاز، 162 کامنت",
+   "signal_value": 345,
+   "discussion_url": "https://news.ycombinator.com/item?id=50607261",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://opengraph.githubassets.com/1eb861d39fb514e21c8cdaf6f09e49006ccfd815647c83842cf1bc2c839ee4fb/AFK-surf/xnulinux",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://github.com/AFK-surf/xnulinux/raw/main/docs/images/macos-and-linux.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://github.com/AFK-surf/xnulinux/raw/main/docs/images/desktop.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://github.com/AFK-surf/xnulinux/raw/main/docs/images/safari-xnu.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://github.com/AFK-surf/xnulinux/raw/main/docs/images/safari-kernel-org.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://github.com/AFK-surf/xnulinux/raw/main/docs/images/safari-github.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "open_source",
+   "story_key": "xnu-linux-gui",
+   "topic_key": "macos-on-linux",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "اجرای مستقیم رابط گرافیکی مک روی لینوکس با پروژه متن‌باز XNU Linux",
+   "one_liner_fa": "پروژه متن‌باز جدید XNU Linux امکان اجرای مستقیم و بومی محیط دسکتاپ سیستم‌عامل مک (macOS) را روی توزیع‌های لینوکس فراهم کرد.",
+   "deep": {
+    "id": "35cfea2e7f",
+    "title_fa": "اجرای مستقیم رابط گرافیکی مک روی لینوکس با پروژه متن‌باز XNU Linux",
+    "summary_fa": "پروژه متن‌باز جدیدی به نام XNU Linux روی گیت‌هاب منتشر شده که هدف آن اجرای کامل فضای کاربری گرافیکی سیستم‌عامل مک (macOS/OS X) روی لینوکس است. این ابزار هسته XNU را به صورت یک ماژول بارگذاری‌شونده در کرنل لینوکس (Loadable Kernel Module) پیاده‌سازی کرده و سازگاری سیستم‌عامل اپل را برای لینوکس آرم (arm64 Linux) به ارمغان می‌آورد. این مخزن با استقبال کم‌نظیر جامعه برنامه‌نویسان در هکر نیوز (Hacker News) مواجه شده است.",
+    "key_points_fa": [
+     "پروژه متن‌باز AFK-surf/xnulinux منتشر شده در گیت‌هاب (GitHub)",
+     "پیاده‌سازی هسته XNU به صورت ماژول بارگذاری‌شونده کرنل درون لینوکس",
+     "ایجاد قابلیت سازگاری با سیستم‌عامل مک (macOS personality) برای لینوکس معماری arm64",
+     "هدف‌گذاری برای اجرای کامل رابط کاربری گرافیکی (GUI Userspace) مک روی محیط لینوکس",
+     "کسب صدها ستاره در گیت‌هاب و بیش از ۳۴۰ امتیاز در هکر نیوز طی ساعات اولیه انتشار"
+    ],
+    "why_it_matters_fa": "رویای اجرای برنامه‌ها و رابط کاربری اختصاصی اپل به صورت بومی روی کرنل لینوکس همیشه برای توسعه‌دهندگان جذاب بوده و این پروژه پیشرفتی اساسی در این مسیر است.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "اجرای محیط مک روی لینوکس؛ غیرممکنی که ممکن شد!",
+      "hook_fa": "تا حالا دیدید رابط کاربری اپل بدون ماشین مجازی، مستقیم روی لینوکس بالا بیاد؟! این پروژه رو ببینید!",
+      "angle_fa": "روایت ماجراجویانه از تلاش توسعه‌دهنده‌ها برای شکستن مرزهای بین لینوکس و مک روی چیپ‌های آرم.",
+      "outline_fa": [
+       "طرح چالش انحصار رابط کاربری مک‌او‌اس و محدودیت‌های سنتی شبیه‌سازها",
+       "معرفی پروژه XNU Linux و نحوه ادغام هسته اپل با لینوکس arm64",
+       "نمایش محیط مخزن و توضیحات فنی پروژه به زبان ساده",
+       "طرح سوال از مخاطبان درباره کاربرد این ابزار برای برنامه‌نویس‌ها"
+      ],
+      "visual_tip_fa": "استفاده از اسکرین‌شات‌ها و تصاویر موجود در مخزن پروژه، همراه با نمایش لوگوهای ادغام‌شده لینوکس و اپل."
+     },
+     {
+      "format": "پست",
+      "title_fa": "بررسی فنی پروژه جنجالی XNU Linux",
+      "hook_fa": "چطور هسته macOS تبدیل به ماژول لینوکس شد؟",
+      "angle_fa": "بررسی عمیق‌تر اما ساده برای برنامه‌نویسان و علاقه‌مندان به مباحث سیستم‌عامل و هسته لینوکس.",
+      "outline_fa": [
+       "تفاوت معماری هسته لینوکس و XNU اپل",
+       "توضیح کارکرد ماژول‌های کرنل در لینوکس",
+       "وضعیت فعلی پروژه و پشتیبانی از پردازنده‌های arm64",
+       "آینده احتمالی اجرای نرم‌افزارهای مک روی لینوکس"
+      ],
+      "visual_tip_fa": "طراحی گرافیکی اسلایدی با کدهای گیت‌هاب، نمودار معماری کرنل لینوکس و ماژول‌های بارگذاری‌شونده."
+     }
+    ],
+    "hashtags": [
+     "#لینوکس",
+     "#مک_او_اس",
+     "#برنامه_نویسی",
+     "#گیت_هاب",
+     "#تکنولوژی",
+     "#Linux",
+     "#macOS",
+     "#OpenSource"
+    ],
+    "caution_fa": "پروژه در مراحل کاملاً آزمایشی و توسعه اولیه است و اصلاً برای استفاده روزمره کاربران آماده نیست."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "35cfea2e7f"
+  },
+  {
+   "title": "A miniature San Francisco with live buses, planes and boats",
+   "url": "https://smallsf.com/",
+   "source": "smallsf.com",
+   "published": "2026-11-22T20:33:23+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 280 امتیاز، 93 کامنت",
+   "signal_value": 280,
+   "discussion_url": "https://news.ycombinator.com/item?id=50603589",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 5,
+   "category": "other_tech",
+   "story_key": "small-sf-live-miniature",
+   "topic_key": "creative-web-projects",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "5f31db7583"
+  },
+  {
+   "title": "Progress map for the Lean formalization of Alessandro Masullo's manuscript",
+   "url": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
+   "source": "claude.ai",
+   "published": "2026-11-22T23:12:10+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 239 امتیاز، 173 کامنت",
+   "signal_value": 239,
+   "discussion_url": "https://news.ycombinator.com/item?id=50605045",
+   "media": [],
+   "also_covered_by": [
+    "johncarlosbaez.wordpress.com"
+   ],
+   "importance": 6,
+   "worthiness": 6,
+   "category": "research",
+   "story_key": "masullo-riemann-analysis",
+   "topic_key": "riemann-hypothesis-proof",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "نقشه تعاملی رسمی‌سازی اثبات ریاضی ماسولو با ابزار Lean روی کلود",
+   "one_liner_fa": "جامعه ریاضی نقشه راه ویژه‌ای را برای صورت‌بندی و راستی‌آزمایی گام‌به‌گام دست‌نویس اثبات فرضیه ریمان ماسولو با دستیار اثبات لین (Lean) آغاز کرد.",
+   "deep": {
+    "id": "ae6e6a3519",
+    "title_fa": "نقشه تعاملی رسمی‌سازی اثبات ریاضی ماسولو با ابزار Lean روی کلود",
+    "summary_fa": "یک نقشه پیشرفت تعاملی برای رسمی‌سازی و راستی‌آزمایی کامپیوتری دست‌نوشته ریاضی الساندرو ماسولو (Alessandro Masullo) با استفاده از سیستم اثبات قضیه لین (Lean) منتشر شده است. این ابزار به عنوان یک آرتفکت تعاملی (Artifact) روی پلتفرم کلود (Claude.ai) میزبانی می‌شود و روند بررسی بخش‌های مختلف اثبات را به نمایش می‌گذارد. این پروژه به دلیل ترکیب ریاضیات مدرن و محیط‌های تعاملی محاسباتی، توجه جامعه علمی را جلب کرده است.",
+    "key_points_fa": [
+     "پروژه رسمی‌سازی کامپیوتری اثبات ریاضی (Formalization) بر پایه دست‌نوشته الساندرو ماسولو",
+     "استفاده از نرم‌افزار و زبان اثبات قضیه لین (Lean theorem prover)",
+     "پیاده‌سازی نقشه پیشرفت در قالب آرتفکت تعاملی روی Claude.ai",
+     "پوشش و ارجاع علمی در وبلاگ تخصصی ریاضیدان برجسته جان کارلوس بائز (John Carlos Baez)",
+     "ایجاد بحث‌های گسترده پیرامون کاربرد دستیارهای هوشمند در ریاضیات با بیش از ۲۳۰ امتیاز در هکر نیوز"
+    ],
+    "why_it_matters_fa": "این پروژه نشان‌دهنده آینده اثبات‌های ریاضی است؛ جایی که هوش مصنوعی و نرم‌افزارهای اثبات قضیه به راستی‌آزمایی دست‌نوشته‌های پیچیده دانشمندان کمک می‌کنند.",
+    "content_ideas": [
+     {
+      "format": "کاروسل",
+      "title_fa": "کامپیوترها چطور درستی فرمول‌های ریاضی رو چک می‌کنن؟",
+      "hook_fa": "آیا می‌دونستید ریاضی‌دان‌ها دارن کم‌کم چک کردن فرمول‌ها رو به هوش مصنوعی و کدهای کامپیوتری می‌سپارن؟",
+      "angle_fa": "آشنایی مخاطب با مفهوم زبان Lean و آینده اثبات‌های علمی بدون خطای انسانی.",
+      "outline_fa": [
+       "اسلاید ۱: معضل خطاهای انسانی در بررسی دست‌نوشته‌های طولانی ریاضی",
+       "اسلاید ۲: ابزار Lean چیست و چطور قضایای ریاضی رو به زبان کد تبدیل می‌کنه؟",
+       "اسلاید ۳: ماجرای پروژه رسمی‌سازی دست‌نوشته ماسولو و نقشه پیشرفت آن روی کلود",
+       "اسلاید ۴: چرا همکاری ریاضیات و هوش مصنوعی آینده دنیای علم رو تغییر میده؟"
+      ],
+      "visual_tip_fa": "ترکیب تصاویر کدهای فرمول‌نویسی‌شده در نرم‌افزار Lean با رابط کاربری شیک آرتفکت‌های Claude.ai."
+     },
+     {
+      "format": "استوری",
+      "title_fa": "نقش کلود و لین در تحول ریاضیات مدرن",
+      "hook_fa": "یک کاربرد واقعاً جدی و علمی از Claude Artifacts که شگفت‌زده‌تون می‌کنه!",
+      "angle_fa": "نشان دادن یک نمونه واقعی و غیرسرگرمی از قابلیت‌های ابزارهای تعاملی مدرن.",
+      "outline_fa": [
+       "استوری ۱: نشان دادن نقشه راه این اثبات ریاضی در Claude.ai",
+       "استوری ۲: توضیح کوتاه درباره اثبات کامپیوتری مقالات علمی",
+       "استوری ۳: نظرسنجی: آیا هوش مصنوعی در نهایت ریاضیات جدید خلق خواهد کرد؟"
+      ],
+      "visual_tip_fa": "اسکرین‌شات از رابط کاربری آرتفکت و نمودارهای روند اثبات به همراه هایلایت کردن بخش‌های تعاملی."
+     }
+    ],
+    "hashtags": [
+     "#هوش_مصنوعی",
+     "#ریاضیات",
+     "#کلود",
+     "#تکنولوژی_آموزشی",
+     "#ClaudeAI",
+     "#LeanProver",
+     "#علم"
+    ],
+    "caution_fa": "محتوای ریاضی این خبر به شدت تخصصی است؛ بهتر است تمرکز تولید محتوا روی ابزار Lean و متدولوژی راستی‌آزمایی باشد نه جزئیات فرمول‌ها."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "ae6e6a3519"
+  },
+  {
+   "title": "Masullo on the Riemann Hypothesis",
+   "url": "https://johncarlosbaez.wordpress.com/2026/11/22/masullo-on-the-riemann-hypothesis/",
+   "source": "johncarlosbaez.wordpress.com",
+   "published": "2026-11-22T10:59:56+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 232 امتیاز، 201 کامنت",
+   "signal_value": 232,
+   "discussion_url": "https://news.ycombinator.com/item?id=50598441",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 5,
+   "category": "research",
+   "story_key": "masullo-riemann-analysis",
+   "topic_key": "riemann-hypothesis-proof",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "بررسی موشکافانه ادعای اثبات فرضیه ریمان توسط ریاضیدانان برجسته دنیا",
+   "one_liner_fa": "جان باز، فیزیکدان و ریاضیدان سرشناس، به همراه جامعه علمی بررسی ساختار اثبات ارائه‌شده توسط ماسولو برای فرضیه ریمان را کلید زدند.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "a7483c3700"
+  },
+  {
+   "title": "GL.iNet Security Notice 2026-11-20",
+   "url": "https://www.gl-inet.com/en-us/blogs/blog/glinet-security-notice-2026-11-20",
+   "source": "gl-inet.com",
+   "published": "2026-11-22T23:06:37+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 209 امتیاز، 97 کامنت",
+   "signal_value": 209,
+   "discussion_url": "https://news.ycombinator.com/item?id=50604988",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 3,
+   "category": "other_tech",
+   "story_key": "gl-inet-security-advisory",
+   "topic_key": "hardware-vulnerabilities",
+   "already_reported": false,
+   "viral": 3,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "e80d783c68"
+  },
+  {
+   "title": "Backblaze customers worried of personal data sale/sharing after policy update",
+   "url": "https://www.neowin.net/news/backblaze-customers-worried-of-personal-data-salesharing-after-policy-update/",
+   "source": "neowin.net",
+   "published": "2026-11-22T15:16:02+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 168 امتیاز، 62 کامنت",
+   "signal_value": 168,
+   "discussion_url": "https://news.ycombinator.com/item?id=50600435",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 5,
+   "category": "safety_ethics",
+   "story_key": "backblaze-privacy-policy-backlash",
+   "topic_key": "cloud-storage-privacy",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "ad73016cb3"
+  }
+ ],
+ "failed_sources": [],
+ "models": [
+  "gemini-3.8-flash",
+  "gemini-3.8-flash"
+ ]
+}
