@@ -503,171 +503,69 @@
   "https://danielsada.tech/blog/assume-people-are-not-interested-in-your-blog-post": "2026-11-23",
   "https://neowin.net/news/backblaze-customers-worried-of-personal-data-salesharing-after-policy-update": "2026-11-23",
   "https://jeffgeerling.com/blog/2026/i-joined-the-ntp-pool": "2026-11-23",
-  "https://alvinbunk.wordpress.com/2026/11/01/nespresso-project-olympus": "2026-11-23"
+  "https://alvinbunk.wordpress.com/2026/11/01/nespresso-project-olympus": "2026-11-23",
+  "https://openai.com/business/learn/connected-intelligence-for-in-house-legal": "2026-11-24",
+  "https://openai.com/business/customer-stories/richpanel-ai-customer-support": "2026-11-24",
+  "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification": "2026-11-24",
+  "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-hydrogen-builders": "2026-11-24",
+  "https://blog.google/innovation-and-ai/products/gemini-app/gemini-canvas-tasks": "2026-11-24",
+  "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps": "2026-11-24",
+  "https://blog.google/products-and-platforms/products/photos/google-photo-tools-holiday-season-2026": "2026-11-24",
+  "https://blog.google/innovation-and-ai/technology/developers-tools/file-slicing-controls": "2026-11-24",
+  "https://huggingface.co/blog/allenai/robotrack": "2026-11-24",
+  "https://huggingface.co/blog/agentic-evals": "2026-11-24",
+  "https://blogs.nvidia.com/blog/nvidia-technologies-holidays-2026": "2026-11-24",
+  "https://techcrunch.com/2026/11/23/nvidia-employees-greet-jensen-huang-like-a-hero-as-he-returns-to-companys-hq": "2026-11-24",
+  "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses": "2026-11-24",
+  "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo": "2026-11-24",
+  "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips": "2026-11-24",
+  "https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet": "2026-11-24",
+  "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return": "2026-11-24",
+  "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing": "2026-11-24",
+  "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off": "2026-11-24",
+  "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo": "2026-11-24",
+  "https://technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument": "2026-11-24",
+  "https://engadget.com/2320290/discontinued-airtags-still-serve-purpose": "2026-11-24",
+  "https://engadget.com/2325828/new-leaks-reveal-the-iphone-18e-will-have-a-redesigned-camera-plateau": "2026-11-24",
+  "https://engadget.com/2325800/gta-6-player-gets-social-ban-on-psn-after-sending-a-photo-of-in-game-nudity": "2026-11-24",
+  "https://engadget.com/2325713/grand-theft-auto": "2026-11-24",
+  "https://engadget.com/2325684/anthropic-softens-its-data-retention-policy-for-mythos-and-fable-model-use": "2026-11-24",
+  "https://engadget.com/2325655/nvidia-jensen-huang-will-testify-publlicly-before-senators-on-december-3": "2026-11-24",
+  "https://engadget.com/2325643/the-infamous-gta-6-hacker-has-been-released-after-pleading-guilty": "2026-11-24",
+  "https://engadget.com/2320288/how-to-connect-bluetooth-headphones-xbox-series-x": "2026-11-24",
+  "https://engadget.com/2325598/kodak-slidetag-combines-a-digital-photo-frame-and-an-airtag": "2026-11-24",
+  "https://engadget.com/2320286/underrated-smart-rings-more-affordable-oura-ring-5": "2026-11-24",
+  "https://engadget.com/2325472/uber-now-lets-riders-request-drivers-who-are-recording-their-trips": "2026-11-24",
+  "https://engadget.com/2320174/how-to-clear-cache-fire-tv": "2026-11-24",
+  "https://engadget.com/2325384/samsung-odyssey-g6-g60h-is-the-worlds-first-1100hz-gaming-monitor": "2026-11-24",
+  "https://engadget.com/2320284/how-block-ai-slop-spam-social-media-platforms": "2026-11-24",
+  "https://engadget.com/2320283/important-home-security-camera-features": "2026-11-24",
+  "https://engadget.com/2325245/google-is-finally-retiring-the-nest-app-early-next-year": "2026-11-24",
+  "https://engadget.com/2320282/pros-cons-wearing-fitbit-ankle": "2026-11-24",
+  "https://engadget.com/2321531/what-green-flasing-light-roku-remote-telling-you": "2026-11-24",
+  "https://engadget.com/2325111/two-states-sue-spacex-over-sexually-explicit-grok-deepfakes": "2026-11-24",
+  "https://engadget.com/2320280/what-is-apple-homepod-sound-glow": "2026-11-24",
+  "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director": "2026-11-24",
+  "https://cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html": "2026-11-24",
+  "https://ladybird.org/posts/alpha": "2026-11-24",
+  "https://z.ai/blog/glm-5.4": "2026-11-24",
+  "https://twitter.com/ylecun/status/2124550037912920090": "2026-11-24",
+  "https://arm.jonpalmisc.com/": "2026-11-24",
+  "https://github.com/glushchenko/fsnotes/discussions/2056": "2026-11-24",
+  "https://micjm.com/blog/yes-17m-lines-of-lean-is-a-lot": "2026-11-24",
+  "https://blog.kagi.com/kagi-mail-public-beta": "2026-11-24",
+  "https://github.com/os6/nospeaker": "2026-11-24",
+  "https://blogs.gentoo.org/mgorny/2026/10/27/the-next-circle-of-security-hell": "2026-11-24",
+  "https://reddit.com/r/GamingLeaksAndRumours/comments/1y3jzqe/cyberleek_posted_the_gta_6_xbox_build_executable": "2026-11-24",
+  "https://facebook.com/shugvermonte/posts/the-deflock-america-group-with-over-840k-members-has-been-suspended-by-meta-what/10165140280736049": "2026-11-24",
+  "https://github.com/mikuta0407/win4wine": "2026-11-24",
+  "https://pengowray.github.io/riemann-zeta-proof-visualizer": "2026-11-24",
+  "https://pequalnp.com/": "2026-11-24",
+  "https://ias.edu/sites/default/files/library/UsefulnessHarpers.pdf": "2026-11-24",
+  "https://fosscomics.com/posts/16.%20BSD%20Unix%20Part%206%20-%20The%20Struggle%20for%20Freedom": "2026-11-24",
+  "https://nyx.net/": "2026-11-24"
  },
  "reported": [
-  {
-   "date": "2026-11-19",
-   "title": "GTA 6 launch day: Live updates on the biggest game of the year",
-   "title_fa": "لانچ رسمی GTA 6؛ پرحاشیه‌ترین بازی دهه با حجم ۲۱۲ گیگابایت منتشر شد",
-   "url": "https://engadget.com/2320788/gta-vi-launch-day-live-blog"
-  },
-  {
-   "date": "2026-11-19",
-   "title": "NVIDIA RTX Spark Compact Desktops Out Now",
-   "title_fa": "انویدیا از مینی‌دسکتاپ‌های RTX Spark برای اجرای محلی هوش مصنوعی رونمایی کرد",
-   "url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now"
-  },
-  {
-   "date": "2026-11-19",
-   "title": "AI found a hole in Java, and it starts with 'AAAAAAAA...'",
-   "title_fa": "کشف آسیب‌پذیری مرگبار جاوا توسط هوش مصنوعی با ۶۴ بار تکرار حرف A!",
-   "url": "https://engadget.com/2320797/ai-found-a-hole-in-java-and-it-starts-with-aaaaaaaa"
-  },
-  {
-   "date": "2026-11-19",
-   "title": "More banks say customers using AI agents are on their own — even if they get hacked",
-   "title_fa": "سلب مسئولیت بانک‌ها: اگر پولتان با ایجنت‌های هوش مصنوعی برود، مقصر خودتانید!",
-   "url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked"
-  },
-  {
-   "date": "2026-11-19",
-   "title": "Microsoft AI: Seven new world-class models at scalable price-performance",
-   "title_fa": "رونمایی مایکروسافت از ۷ مدل هوش مصنوعی تحت عنوان MAI",
-   "url": "https://microsoft.ai/news/microsoft-ignite-2026"
-  },
-  {
-   "date": "2026-11-19",
-   "title": "Pre-auth RCE in Nginx HTTP/2 handling",
-   "title_fa": "خطر نفوذ مستقیم به سرورها؛ کشف آسیب‌پذیری بحرانی اجرای کد (RCE) در Nginx",
-   "url": "https://wiz.io/blog/nginx-http2-rce-vulnerabilities"
-  },
-  {
-   "date": "2026-11-19",
-   "title": "Advancing chip design with OpenAI models",
-   "title_fa": "ورود اوپن‌ای‌آی به دنیای سخت‌افزار؛ بهینه‌سازی و طراحی تراشه‌ها با هوش مصنوعی آسترا!",
-   "url": "https://openai.com/index/advancing-chip-design-with-our-models"
-  },
-  {
-   "date": "2026-11-19",
-   "title": "Energy-Based Reasoners: 385x more efficient inference",
-   "title_fa": "تحول در معماری هوش مصنوعی؛ مدل‌های استدلالی جدید ۳۸۵ برابر بهینه‌تر عمل می‌کنند!",
-   "url": "https://energy-based-reasoners.github.io/"
-  },
-  {
-   "date": "2026-11-19",
-   "title": "The Gemini app is now available on lower-memory Android devices.",
-   "title_fa": "جمینای برای همه؛ اجرای هوش مصنوعی گوگل روی گوشی‌های اقتصادی و ضعیف‌تر اندروید",
-   "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices"
-  },
-  {
-   "date": "2026-11-19",
-   "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
-   "title_fa": "شاهکار هاگینگ فیس در اجرای مدل‌های غول‌پیکر؛ اجرای مدل ۱۸۰ میلیاردی روی فقط ۳۲ گیگابایت رم!",
-   "url": "https://huggingface.co/blog/moe-expert-streaming"
-  },
-  {
-   "date": "2026-11-19",
-   "title": "Google’s AI feature in Search gets its own incognito mode",
-   "title_fa": "حالت مخفی به هوش مصنوعی گوگل آمد؛ مکالمه در جستجو بدون ثبت در تاریخچه!",
-   "url": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode"
-  },
-  {
-   "date": "2026-11-19",
-   "title": "Sam Altman warns against a future where AI, not humans, calls the shots",
-   "title_fa": "هشدار تازه سام آلتمن درباره آینده‌ای که تصمیم‌گیرنده نهایی هوش مصنوعی باشد، نه انسان",
-   "url": "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots"
-  },
-  {
-   "date": "2026-11-19",
-   "title": "OpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’",
-   "title_fa": "واکنش سام آلتمن به کناره‌گیری جن‌سن هوانگ: تصور صنعت هوش مصنوعی بدون او بسیار سخت است",
-   "url": "https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen"
-  },
-  {
-   "date": "2026-11-19",
-   "title": "Introducing Gemini 4 Neon",
-   "title_fa": "گوگل از جمینای ۴ نئون رونمایی کرد؛ ارزان‌تر، فوق‌سریع و استاد کدنویسی",
-   "url": "https://deepmind.google/blog/introducing-gemini-4-neon"
-  },
-  {
-   "date": "2026-11-19",
-   "title": "Genie 4 is now available",
-   "title_fa": "انتشار رسمی جینی ۴ توسط گوگل؛ ساخت دنیاهای سه‌بعدی تعاملی با متن",
-   "url": "https://deepmind.google/blog/genie-4-is-now-available"
-  },
-  {
-   "date": "2026-11-19",
-   "title": "You can finally edit an Instagram Story without deleting it",
-   "title_fa": "بالاخره شد: امکان ویرایش استوری اینستاگرام بدون پاک کردن آن فراهم شد",
-   "url": "https://engadget.com/2320953/you-can-finally-edit-an-instagram-story-without-deleting-it"
-  },
-  {
-   "date": "2026-11-19",
-   "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
-   "title_fa": "ساتیا نادلا: چرا از ۶۰ هزار کارمندم خواستم مایکروسافت را ترک کنند؟",
-   "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit"
-  },
-  {
-   "date": "2026-11-19",
-   "title": "Anthropic reportedly prices IPO at $83 a share, above projected range",
-   "title_fa": "ورود تاریخی انتروپیک به بورس؛ قیمت‌گذاری سهام کلود با ارزش ۱.۵ تریلیون دلار",
-   "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range"
-  },
-  {
-   "date": "2026-11-19",
-   "title": "AI agents ask better questions than KPMG accountants in audit trial",
-   "title_fa": "حسابداران شوکه شدند: طرح سوالات دقیق‌تر توسط هوش مصنوعی نسبت به حسابرسان حرفه‌ای KPMG!",
-   "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg"
-  },
-  {
-   "date": "2026-11-19",
-   "title": "Claude was trained on protein sequences at scale",
-   "title_fa": "افشای راز قدرت بیولوژی کلاود: آموزش گسترده روی توالی پروتئین‌ها",
-   "url": "https://xinmingtu.cn/blog/2026/claude-opus-5-5-protein-sequences"
-  },
-  {
-   "date": "2026-11-19",
-   "title": "Research acceleration: The jagged frontier",
-   "title_fa": "تحقیق جدید اوپن‌ای‌آی: مرزهای ناهموار خودبه‌بودی هوش مصنوعی با ایجنت‌های کدنویسی",
-   "url": "https://openai.com/index/research-acceleration-jagged-frontier"
-  },
-  {
-   "date": "2026-11-19",
-   "title": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
-   "title_fa": "هشدار نگران‌کننده نادلا: بسیاری از زیرساخت‌های حیاتی جهان در برابر هوش مصنوعی غیرقابل وصله‌اند!",
-   "url": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable"
-  },
-  {
-   "date": "2026-11-19",
-   "title": "Elon Musk says ousting Jensen Huang is like ‘kicking Michael Jordan off your team’",
-   "title_fa": "واکنش تند ایلان ماسک به برکناری جن‌سن هوانگ: مثل اخراج مایکل جردن از تیم است!",
-   "url": "https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team"
-  },
-  {
-   "date": "2026-11-19",
-   "title": "Satya Nadella predicts AI agents will reshuffle the economics of the web",
-   "title_fa": "پیش‌بینی ساتیا نادلا: ایجنت‌های هوش مصنوعی اقتصاد وب و مدل‌های تبلیغاتی را زیر و رو می‌کنند",
-   "url": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web"
-  },
-  {
-   "date": "2026-11-19",
-   "title": "Nvidia created a weird bit of intrigue by not filing a routine SEC report",
-   "title_fa": "ماجرای مشکوک تاخیر انویدیا در ارائه گزارش مالی رسمی به بورس آمریکا",
-   "url": "https://techcrunch.com/2026/11/18/nvidia-created-a-weird-bit-of-intrigue-by-not-filing-a-routine-sec-report"
-  },
-  {
-   "date": "2026-11-19",
-   "title": "Palmer Luckey warns AI-powered cyberattacks are outpacing defenses: ‘It’s time to start running’",
-   "title_fa": "هشدار بنیان‌گذار پالمر لاکی: حملات سایبری هوش مصنوعی از دفاع سبقت گرفتند، فقط باید فرار کنید!",
-   "url": "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running"
-  },
-  {
-   "date": "2026-11-19",
-   "title": "Unreal Tournament 2004 in the Browser",
-   "title_fa": "اجرای کامل بازی خاطره‌انگیز آنریل تورنومنت ۲۰۰۴ مستقیماً داخل مرورگر وب!",
-   "url": "https://ut2004.dev/"
-  },
   {
    "date": "2026-11-20",
    "title": "We’re partnering with Blue Origin on our first heavy-lift Project Suncatcher launch.",
@@ -1039,6 +937,72 @@
    "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
    "title_fa": "اسپلانکر تی‌وی؛ شبکه تلویزیونی رایگان از ویدیوهای گمشده تاریخ اینترنت",
    "url": "https://spelunkr.tv/"
+  },
+  {
+   "date": "2026-11-24",
+   "title": "Jensen Huang Reinstated as Nvidia CEO",
+   "title_fa": "بازگشت رسمی جن سن هوانگ به صندلی مدیرعاملی انویدیا",
+   "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
+  },
+  {
+   "date": "2026-11-24",
+   "title": "Two states sue SpaceX over sexually explicit Grok deepfakes",
+   "title_fa": "شکایت دو ایالت آمریکا از اسپیس‌اکس به خاطر دیپ‌فیک‌های غیراخلاقی چت‌بات گروک",
+   "url": "https://engadget.com/2325111/two-states-sue-spacex-over-sexually-explicit-grok-deepfakes"
+  },
+  {
+   "date": "2026-11-24",
+   "title": "A more tailored Google Search that’s uniquely yours",
+   "title_fa": "گوگل سرچ شخصی‌تر می‌شود: اتصال مستقیم به گوگل درایو و کیف پول",
+   "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps"
+  },
+  {
+   "date": "2026-11-24",
+   "title": "Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
+   "title_fa": "خرید ۷.۵ میلیارد دلاری آمازون برای رقابت سنگین با چیپ‌های انویدیا",
+   "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips"
+  },
+  {
+   "date": "2026-11-24",
+   "title": "GLM-5.4: Toward generalized coding with our first loop transformer",
+   "title_fa": "معرفی مدل GLM-5.4 با معماری جدید Loop Transformer برای کدنویسی پیشرفته",
+   "url": "https://z.ai/blog/glm-5.4"
+  },
+  {
+   "date": "2026-11-24",
+   "title": "Jensen Huang scheduled to testify next week in Senate following reinstatement as Nvidia CEO",
+   "title_fa": "جنسان هوانگ به سنا احضار شد؛ شهادت درباره اتهام جنجالی جاسوسی هفته آینده!",
+   "url": "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo"
+  },
+  {
+   "date": "2026-11-24",
+   "title": "Trump endorses Jensen Huang’s return to Nvidia, says US has no evidence of wrongdoing",
+   "title_fa": "حمایت رسمی کاخ سفید از بازگشت هوانگ؛ ترامپ: هیچ مدرکی علیه مدیرعامل انویدیا نیست",
+   "url": "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing"
+  },
+  {
+   "date": "2026-11-24",
+   "title": "Sierra doubles valuation to $30B within six months as demand for AI in CX takes off",
+   "title_fa": "ارزش استارتاپ هوش مصنوعی سیرا ظرف ۶ ماه دو برابر شد؛ جهش به ۳۰ میلیارد دلار!",
+   "url": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off"
+  },
+  {
+   "date": "2026-11-24",
+   "title": "Ladybird is now in alpha",
+   "title_fa": "ورود مرورگر مستقل لیدی‌برد به فاز آلفا؛ امید نو برای رهایی وب از انحصار کروم",
+   "url": "https://ladybird.org/posts/alpha"
+  },
+  {
+   "date": "2026-11-24",
+   "title": "Anthropic softens its data retention policy for Mythos and Fable model use",
+   "title_fa": "عقب‌نشینی آنتروپیک در سیاست ذخیره‌سازی داده؛ نگهداری اطلاعات روی سرورهای اختصاصی مشتریان",
+   "url": "https://engadget.com/2325684/anthropic-softens-its-data-retention-policy-for-mythos-and-fable-model-use"
+  },
+  {
+   "date": "2026-11-24",
+   "title": "Google is finally retiring the Nest app early next year",
+   "title_fa": "پایان دوران گوگل اسیستنت؛ گوگل اپلیکیشن Nest و دستیار صوتی را بازنشسته می‌کند",
+   "url": "https://engadget.com/2325245/google-is-finally-retiring-the-nest-app-early-next-year"
   }
  ],
  "telegram_chat_id": "925911315"
