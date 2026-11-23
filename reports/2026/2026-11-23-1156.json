@@ -1,0 +1,778 @@
+{
+ "content": [
+  {
+   "title": "Perplexity and Intelligence",
+   "url": "https://openai.com/index/perplexity-and-intelligence",
+   "source": "OpenAI",
+   "published": "2026-11-22T00:00:00+00:00",
+   "origin": "OpenAI",
+   "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+   "lang": "en",
+   "signal": "Hacker News: 466 امتیاز، 320 کامنت",
+   "signal_value": 466,
+   "discussion_url": "https://news.ycombinator.com/item?id=50601525",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://images.ctfassets.net/kftzwdyauwt9/6rIIhCRSKrhIfe385Onmcz/aca2d190553c62fd5d49efb5d5ce1eb6/perplexity-and-intelligence-social.png?w=1600&h=900&fit=fill",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://images.ctfassets.net/kftzwdyauwt9/4GWchdof3kw2l5OtMIvGt4/56144e08b813d6af76ae93adc2cefc1b/introducing-medchembench-cover.png?w=3840&q=90&fm=webp",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://images.ctfassets.net/kftzwdyauwt9/3q9FXuH69IDGjPgpzj2Ayv/95477fdeea31ffb7eae01ec1c191b1f0/research-acceleration-the-jagged-frontier-of-rsi-cover.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://images.ctfassets.net/kftzwdyauwt9/2wgLGyEPUNlB5pI0rK8Pld/a33fa3e03c8833d03b3876d6cf91d0ac/managing-frontier-ai-risk-cover.png?w=3840&q=90&fm=webp",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [
+    "TechCrunch"
+   ],
+   "importance": 7,
+   "worthiness": 6,
+   "category": "research",
+   "story_key": "openai-perplexity-intelligence-limits",
+   "topic_key": "ai-evaluation-and-governance",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "افشاگری دانشمند ارشد اوپن‌ای‌آی: هوش مدل‌ها دقیقاً چگونه سنجیده می‌شود؟",
+   "one_liner_fa": "اوپن‌ای‌آی (OpenAI) در مقاله‌ای جدید نشان داد که چگونه معیار پرپلکسیتی (Perplexity) می‌تواند استانداردی مشترک برای سنجش هوش مدل‌ها و نظارت بر قابلیت‌های نوظهور باشد.",
+   "deep": {
+    "id": "de5cd1a6d5",
+    "title_fa": "افشاگری دانشمند ارشد اوپن‌ای‌آی: هوش مدل‌ها دقیقاً چگونه سنجیده می‌شود؟",
+    "summary_fa": "یاکوب پاچوکی (Jakub Pachocki)، دانشمند ارشد اوپن‌ای‌آی (OpenAI)، با انتشار مقاله‌ای تحلیلی استدلال کرده که هوش مدل‌های زبانی از یک فرایند ساده فشرده‌سازی و پیش‌بینی کلمات ناشی می‌شود. او با شفاف‌سازی معیارهای درونی شرکت اعلام کرد که ردیابی معیار «پرپلکسیتی» یا سردرگمی مدل (Perplexity) بهترین راه برای مقایسه مدل‌ها و تعیین استانداردهای ایمنی مشترک است. طبق نمودارهای ارائه‌شده، مدل‌های جی‌پی‌تی با کاهش این خطا به قابلیت‌های شگفت‌انگیز جدید دست پیدا کرده‌اند و با رسیدن هوش مصنوعی به تحقیقات پایه‌ای الگوریتم‌ها، تا سال ۲۰۲۷ شاهد جهش‌هایی بزرگ خواهیم بود.",
+    "key_points_fa": [
+     "پاچوکی، دانشمند ارشد OpenAI، پیشنهاد می‌کند معیار پرپلکسیتی (یا همان cross-entropy loss) به عنوان استاندارد مشترک ایمنی و ارزیابی در کل صنعت پذیرفته شود.",
+     "میزان log-perplexity مدل GPT-3.5 حدود ۰.۹۹ بود (مکالمه روان)، مدل GPT-4 به حدود ۰.۹۱ رسید (استدلال زنجیره‌ای) و مدل‌های فعلی به زیر ۰.۸ افت کرده‌اند.",
+     "با رسیدن پرپلکسیتی به حدود ۰.۷۶، مدل‌ها توانسته‌اند مسائل حل‌نشده ریاضی را پشت سر هم و در قالب یک پیام اسلک (Slack) حل کنند.",
+     "پیش‌بینی شده با ورود به بازه ۰.۶۸ تا ۰.۷ قابلیت‌های پیش‌بینی‌نشده جدیدی ظاهر شوند.",
+     "پیش‌بینی وقوع موجی از پیشرفت‌های بنیادی در پیش‌آموزش (Pretraining) تا اوایل سال ۲۰۲۷ به کمک مشارکت خود مدل‌های هوش مصنوعی در تحقیقات."
+    ],
+    "why_it_matters_fa": "این نوشته یکی از معدود دفعاتی است که اوپن‌ای‌آی معیارهای دقیق فنی داخلی خود را منتشر می‌کند و نشان می‌دهد چگونه کاهش اندک خطای پیش‌بینی، به حل مسائل علمی پیچیده منجر می‌شود.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "هوش مصنوعی چطور یک‌شبه نخبه ریاضی شد؟",
+      "hook_fa": "دانشمند ارشد اوپن‌ای‌آی راز پیشرفت ترسناک چت‌جی‌پی‌تی رو فاش کرد!",
+      "angle_fa": "توضیح ساده مفهوم فشرده‌سازی داده و جهش ناگهانی قابلیت‌ها در مدل‌های هوش مصنوعی.",
+      "outline_fa": [
+       "اشاره به توییت و مقاله جدید یاکوب پاچوکی درباره مفهوم پرپلکسیتی",
+       "چطور مدل با حدس زدن کلمه بعدی از مکالمه ساده به حل معماهای حل‌نشده ریاضی رسید",
+       "چرا پیش‌بینی شده سال ۲۰۲۷ نقطه عطف دیگری در توسعه هوش مصنوعی خواهد بود؟"
+      ],
+      "visual_tip_fa": "نمایش تصویر نمودار کاهش پرپلکسیتی از وبلاگ اوپن‌ای‌آی روی پس‌زمینه موشن و تکست‌گرافی اعداد ۰.۹۹ تا ۰.۷۶."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "معیار واقعی سنجش هوش مصنوعی چیه؟",
+      "hook_fa": "فکر می‌کنید مدل‌های جدید چطور باهوش‌تر میشن؟ جواب بنچمارک‌ها نیست!",
+      "angle_fa": "بررسی فنی اما روان اسلایدی درباره مفهوم Perplexity و تاریخچه تکامل مدل‌ها از GPT-2 تا آینده.",
+      "outline_fa": [
+       "اسلاید ۱: نقد بنچمارک‌های قدیمی و معرفی معیار پرپلکسیتی به زبان ساده",
+       "اسلاید ۲: مقایسه نسخه‌ها (GPT-3.5 با ۰.۹۹، GPT-4 با ۰.۹۱، مدل‌های جدید با ۰.۷۶)",
+       "اسلاید ۳: چرا مشارکت هوش مصنوعی در تحقیقات الگوریتمی معادلات را تا ۲۰۲۷ تغییر می‌دهد؟",
+       "اسلاید ۴: نتیجه‌گیری درباره مرز بعدی هوش و دعوت به تبادل نظر در کامنت‌ها"
+      ],
+      "visual_tip_fa": "استفاده از اسکرین‌شات نمودار رسمی وبلاگ اوپن‌ای‌آی و تایم‌لاین بصری نسخه‌های GPT."
+     }
+    ],
+    "hashtags": [
+     "#هوش_مصنوعی",
+     "#اوپن_ای_ای",
+     "#OpenAI",
+     "#تکنولوژی_روز",
+     "#ChatGPT",
+     "#یادگیری_ماشین",
+     "#AIResearch"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "de5cd1a6d5"
+  },
+  {
+   "title": "Show HN: I built a game where you are an LLM's subagent",
+   "url": "https://github.com/gulivan/worker755",
+   "source": "github.com",
+   "published": "2026-11-22T13:56:58+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 266 امتیاز، 61 کامنت",
+   "signal_value": 266,
+   "discussion_url": "https://news.ycombinator.com/item?id=50599762",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://opengraph.githubassets.com/e05aba94ea29ac95c8533bfbf5c848809f062e4c544c4459efbca2334f720139/gulivan/worker755",
+     "origin": "og"
+    },
+    {
+     "kind": "video",
+     "url": "https://private-user-images.githubusercontent.com/34831957/708193531-279ed2c4-59de-4d32-ad71-c5ee943adefe.mp4?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTUzOTU3MTMsIm5iZiI6MTc5NTM5NTQxMywicGF0aCI6Ii8zNDgzMTk1Ny83MDgxOTM1MzEtMjc5ZWQyYzQtNTlkZS00ZDMyLWFkNzEtYzVlZTk0M2FkZWZlLm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjExMjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYxMTIzVDAwNTY1M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTBkNzM4OTJlZTE3NWMxMzBmYWQ1MmQyNzcwYWIyMGNjODAyNDI2MjM3NzY4MDljNzQwMWI0NzA3YjJiOGY2NWQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT12aWRlbyUyRm1wNCJ9.Fg6R7WTKZr4qDGkvy7JY8C_0VJeBWyeHw3AJyvCmt_o",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://github.com/gulivan/worker755/raw/main/docs/play.png",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 6,
+   "category": "tools_for_creators",
+   "story_key": "llm-subagent-game",
+   "topic_key": "ai-agents-experiments",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "این بازی عجیب شما را کارمند زیردست هوش مصنوعی می‌کند!",
+   "one_liner_fa": "",
+   "deep": {
+    "id": "3c4f4993ad",
+    "title_fa": "این بازی عجیب شما را کارمند زیردست هوش مصنوعی می‌کند!",
+    "summary_fa": "یک توسعه‌دهنده به نام گولیوان (gulivan) بازی تحت وب جدیدی به نام Worker755 طراحی کرده که در آن جای انسان و هوش مصنوعی عوض می‌شود. در این بازی متنی، یک مدیر هوش مصنوعی تصور می‌کند شما عامل فرعی یا ساب‌ایجنت (Subagent) او هستید و به شما مأموریت می‌دهد. این پروژه توجه زیادی در جامعه متن‌باز به خود جلب کرده و به شکل عمومی و رایگان در دسترس کاربران قرار گرفته است.",
+    "key_points_fa": [
+     "نام بازی Worker755 است و روی دامنه worker755.com به صورت تحت وب قابل اجرا است.",
+     "توسعه‌دهنده بازی شخصی با نام مستعار gulivan بوده و کد پروژه را در گیت‌هاب (GitHub) منتشر کرده است.",
+     "ایده بازی: مدل زبانی مدیر شماست و خیال می‌کند شما ساب‌ایجنت او هستید که باید دستوراتش را اجرا کنید.",
+     "پروژه با استقبال جامعه هکر نیوز مواجه شده و بیش از ۱۲۵ ستاره در گیت‌هاب ثبت کرده است."
+    ],
+    "why_it_matters_fa": "این بازی به شکلی طنزآمیز و تعاملی نشان می‌دهد تعاملات آینده در دنیای ایجنت‌های هوش مصنوعی (AI Agents) چطور خواهد بود و پتانسیل بالایی برای وایرال شدن میان کاربران دارد.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "وقتی هوش مصنوعی رییست میشه!",
+      "hook_fa": "همیشه ما به هوش مصنوعی پرامپت می‌دادیم، حالا این بازی شما رو می‌کنه کارمند هوش مصنوعی!",
+      "angle_fa": "تجربه زنده، فان و تعاملی از اجرای بازی در مرورگر و دریافت تسک از ربات مدیر.",
+      "outline_fa": [
+       "ورود به سایت worker755.com و نشان دادن پیام اول مدیر هوش مصنوعی",
+       "تلاش برای گول زدن یا پاسخ دادن به تسک‌های ربات به عنوان ساب‌ایجنت",
+       "دعوت از مخاطبان برای تست کردن و گفتن واکنش‌های عجیب سیستم در کامنت‌ها"
+      ],
+      "visual_tip_fa": "اسکرین ریکورد شفاف از محیط دارک‌مود چت‌روم بازی و تایپ کردن پرامپت‌ها همزمان با فیس‌کم ری‌اکشن."
+     },
+     {
+      "format": "استوری",
+      "title_fa": "معرفی مینی‌گیم Worker755",
+      "hook_fa": "یک بازی هوش مصنوعی به‌شدت عجیب و اعتیادآور پیدا کردم!",
+      "angle_fa": "اشتراک‌گذاری لینک مستقیم بازی با استیکر لینک و ایجاد یک چالش تعاملی.",
+      "outline_fa": [
+       "استوری ۱: اسکرین‌شات از گیگاچت مدیر و توضیح اینکه هوش مصنوعی فکر می‌کنه شما ساب‌ایجنتش هستید",
+       "استوری ۲: اسکرین‌شات خنده‌دار از دیالوگ‌های رد و بدل شده",
+       "استوری ۳: استیکر لینک سایت worker755.com با نظرسنجی «چقدر تونستی دووم بیاری؟»"
+      ],
+      "visual_tip_fa": "اسکرین‌شات از محیط سایت همراه با هایلایت کردن جملات بامزه هوش مصنوعی."
+     }
+    ],
+    "hashtags": [
+     "#بازی_جدید",
+     "#هوش_مصنوعی",
+     "#AIGame",
+     "#طنز_تکنولوژی",
+     "#چت_بات",
+     "#گیمر_ایرانی"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "3c4f4993ad"
+  },
+  {
+   "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+   "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+   "source": "gpupartner.com",
+   "published": "2026-11-22T21:01:16+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 172 امتیاز، 62 کامنت",
+   "signal_value": 172,
+   "discussion_url": "https://news.ycombinator.com/item?id=50603845",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth/opengraph-image-17m7t5?6653c98c6cd84ba6",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://cdn.gpupartner.com/prod/nvidia-geforce-rtx-5090-green-blueprint-hero-1440x600.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://cdn.gpupartner.com/prod/quantization-same-photo-8-bit-4-bit-2-bit.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://cdn.gpupartner.com/prod/qwen3-8-27b-memory-by-precision-128k-context-chart.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://cdn.gpupartner.com/prod/unsloth-desktop-first-launch-home-screen.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://cdn.gpupartner.com/prod/unsloth-desktop-model-picker-recommended-list.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://cdn.gpupartner.com/prod/unsloth-desktop-quantization-list-ud-q4-k-xl.png",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 6,
+   "category": "open_source",
+   "story_key": "local-ai-guide-inkling-qwen-unsloth",
+   "topic_key": "local-llm-ecosystem",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "چگونه چت‌جی‌پی‌تی خانگی و کاملاً رایگان بسازیم؟ (بدون کدنویسی)",
+   "one_liner_fa": "",
+   "deep": {
+    "id": "1ba4d31258",
+    "title_fa": "چگونه چت‌جی‌پی‌تی خانگی و کاملاً رایگان بسازیم؟ (بدون کدنویسی)",
+    "summary_fa": "راهنمای جامعی منتشر شده که نشان می‌دهد چگونه می‌توان با استفاده از نرم‌افزار آن‌اسلاث دسکتاپ (Unsloth Desktop) و مدل‌های متن‌باز مثل کوئن (Qwen) یا اینکلینگ (Inkling)، یک هوش مصنوعی شخصی و کاملاً محلی روی ویندوز راه‌اندازی کرد. این راهنما فرایند اجرای مدل‌های کوآنتایز شده (Quantized) را بدون نیاز به خط فرمان، لینوکس یا اشتراک‌های ماهانه ابری توضیح می‌دهد و تنها با ۱۰ الی ۱۵ دقیقه زمان، دسترسی مدل را روی کل شبکه خانگی فراهم می‌سازد.",
+    "key_points_fa": [
+     "نرم‌افزار Unsloth Desktop رایگان است و به عنوان سرور رابط چت روی ویندوز عمل می‌کند.",
+     "زمان راه‌اندازی اولیه تنها ۱۰ تا ۱۵ دقیقه است (بدون احتساب دانلود فایل‌ها) و به پایتون یا کدنویسی نیاز ندارد.",
+     "کارت‌های گرافیک با ۸ تا ۱۲ گیگابایت VRAM می‌توانند مدل‌های سبک (۹ تا ۱۴ میلیاردی و مدل‌های MoE سبک) را اجرا کنند.",
+     "کارت‌های ۳۲ گیگابایتی (مثل RTX 5090) قادر به اجرای روان مدل Qwen3.8-27B نسخه 4-bit با حافظه متنی ۱۲۸K هستند.",
+     "مدل جدید Inkling 2 Mini (منتشر شده توسط Thinking Machines Lab) با ۲۶.۴ میلیارد پارامتر و ساختار MoE (فعال بودن ۵.۴ میلیارد پارامتر)، پنجره متنی ۱ میلیون توکن و پشتیبانی از پردازش تصویر، با حجم ۱۷.۶ گیگابایت روی سیستم‌های دارای رم و کارت گرافیک سازگار اجرا می‌شود.",
+     "امکان فعال‌سازی دسترسی LAN وجود دارد تا تمام اعضای خانواده یا اعضای یک شبکه محلی بتوانند به چت‌بات دسترسی داشته باشند."
+    ],
+    "why_it_matters_fa": "مخاطبان نگران هزینه‌های اشتراک کلود و حریم خصوصی داده‌هایشان هستند؛ این راهنما دقیقا به آن‌ها نشان می‌دهد چگونه می‌توان هوش مصنوعی قدرتمند را بدون ریسک حریم خصوصی در خانه اجرا کرد.",
+    "content_ideas": [
+     {
+      "format": "کاروسل",
+      "title_fa": "آموزش گام‌به‌گام ساخت هوش مصنوعی شخصی در خانه",
+      "hook_fa": "دیگه اشتراک چت‌جی‌پی‌تی نخر! هوش مصنوعی خودت رو آفلاین و مجانی روی سیستمت بساز.",
+      "angle_fa": "آموزش تصویری و بسیار ساده راه‌اندازی Unsloth Desktop همراه با جدول کارت‌های گرافیک مناسب.",
+      "outline_fa": [
+       "اسلاید ۱: چرا لوکال کردن هوش مصنوعی بهتر از سرویس‌های کلاد است؟ (هزینه صفر و امنیت بالا)",
+       "اسلاید ۲: به چه سخت‌افزاری نیاز داریم؟ (معرفی مفهوم VRAM و کوآنتایزیشن)",
+       "اسلاید ۳: کارت گرافیک من چه مدلی رو می‌کشه؟ (مقایسه گرافیک‌های ۸GB تا ۳۲GB)",
+       "اسلاید ۴: معرفی ۳ مرحله ساده در Unsloth Desktop (دانلود، انتخاب مدل و فعال‌سازی روی شبکه خانه)",
+       "اسلاید ۵: سیو کن که موقع راه‌اندازی گمش نکنی!"
+      ],
+      "visual_tip_fa": "طراحی گرافیکی جدول VRAM و اسکرین‌شات از محیط نرم‌افزار Unsloth Desktop و تصویر مقایسه دقت عکس‌ها برای مفهوم کوآنتایزیشن."
+     },
+     {
+      "format": "پست",
+      "title_fa": "راهنمای کارت‌های گرافیک برای اجرای هوش مصنوعی محلی",
+      "hook_fa": "سیستم شما توان اجرای چت‌بات‌های پیشرفته ۲۰۲۶ رو داره؟ این جدول رو چک کن!",
+      "angle_fa": "بررسی مقایسه‌ای سخت‌افزارهای مختلف و مدل‌های بهینه‌ای مثل Qwen و Inkling 2 Mini.",
+      "outline_fa": [
+       "توضیح تفاوت حجم حافظه (VRAM) در پردازش مدل‌های سنگین",
+       "معرفی مدل‌های کارآمد MoE که فشار کمتری روی پردازنده گرافیکی می‌آورند",
+       "چک‌لیست شروع کار با ابزار رایگان Unsloth Desktop"
+      ],
+      "visual_tip_fa": "اینفوگرافیک با کیفیت از تناسب کارت گرافیک‌های سری RTX 3000/4000/5000 با مدل‌های مختلف هوش مصنوعی."
+     }
+    ],
+    "hashtags": [
+     "#آموزش_هوش_مصنوعی",
+     "#کارت_گرافیک",
+     "#LocalAI",
+     "#کامپیوتر",
+     "#Unsloth",
+     "#ترفند_کامپیوتر",
+     "#هوش_مصنوعی_رایگان"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "1ba4d31258"
+  }
+ ],
+ "others": [],
+ "scored": [
+  {
+   "title": "Perplexity and Intelligence",
+   "url": "https://openai.com/index/perplexity-and-intelligence",
+   "source": "OpenAI",
+   "published": "2026-11-22T00:00:00+00:00",
+   "origin": "OpenAI",
+   "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+   "lang": "en",
+   "signal": "Hacker News: 466 امتیاز، 320 کامنت",
+   "signal_value": 466,
+   "discussion_url": "https://news.ycombinator.com/item?id=50601525",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://images.ctfassets.net/kftzwdyauwt9/6rIIhCRSKrhIfe385Onmcz/aca2d190553c62fd5d49efb5d5ce1eb6/perplexity-and-intelligence-social.png?w=1600&h=900&fit=fill",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://images.ctfassets.net/kftzwdyauwt9/4GWchdof3kw2l5OtMIvGt4/56144e08b813d6af76ae93adc2cefc1b/introducing-medchembench-cover.png?w=3840&q=90&fm=webp",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://images.ctfassets.net/kftzwdyauwt9/3q9FXuH69IDGjPgpzj2Ayv/95477fdeea31ffb7eae01ec1c191b1f0/research-acceleration-the-jagged-frontier-of-rsi-cover.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://images.ctfassets.net/kftzwdyauwt9/2wgLGyEPUNlB5pI0rK8Pld/a33fa3e03c8833d03b3876d6cf91d0ac/managing-frontier-ai-risk-cover.png?w=3840&q=90&fm=webp",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [
+    "TechCrunch"
+   ],
+   "importance": 7,
+   "worthiness": 6,
+   "category": "research",
+   "story_key": "openai-perplexity-intelligence-limits",
+   "topic_key": "ai-evaluation-and-governance",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "افشاگری دانشمند ارشد اوپن‌ای‌آی: هوش مدل‌ها دقیقاً چگونه سنجیده می‌شود؟",
+   "one_liner_fa": "اوپن‌ای‌آی (OpenAI) در مقاله‌ای جدید نشان داد که چگونه معیار پرپلکسیتی (Perplexity) می‌تواند استانداردی مشترک برای سنجش هوش مدل‌ها و نظارت بر قابلیت‌های نوظهور باشد.",
+   "deep": {
+    "id": "de5cd1a6d5",
+    "title_fa": "افشاگری دانشمند ارشد اوپن‌ای‌آی: هوش مدل‌ها دقیقاً چگونه سنجیده می‌شود؟",
+    "summary_fa": "یاکوب پاچوکی (Jakub Pachocki)، دانشمند ارشد اوپن‌ای‌آی (OpenAI)، با انتشار مقاله‌ای تحلیلی استدلال کرده که هوش مدل‌های زبانی از یک فرایند ساده فشرده‌سازی و پیش‌بینی کلمات ناشی می‌شود. او با شفاف‌سازی معیارهای درونی شرکت اعلام کرد که ردیابی معیار «پرپلکسیتی» یا سردرگمی مدل (Perplexity) بهترین راه برای مقایسه مدل‌ها و تعیین استانداردهای ایمنی مشترک است. طبق نمودارهای ارائه‌شده، مدل‌های جی‌پی‌تی با کاهش این خطا به قابلیت‌های شگفت‌انگیز جدید دست پیدا کرده‌اند و با رسیدن هوش مصنوعی به تحقیقات پایه‌ای الگوریتم‌ها، تا سال ۲۰۲۷ شاهد جهش‌هایی بزرگ خواهیم بود.",
+    "key_points_fa": [
+     "پاچوکی، دانشمند ارشد OpenAI، پیشنهاد می‌کند معیار پرپلکسیتی (یا همان cross-entropy loss) به عنوان استاندارد مشترک ایمنی و ارزیابی در کل صنعت پذیرفته شود.",
+     "میزان log-perplexity مدل GPT-3.5 حدود ۰.۹۹ بود (مکالمه روان)، مدل GPT-4 به حدود ۰.۹۱ رسید (استدلال زنجیره‌ای) و مدل‌های فعلی به زیر ۰.۸ افت کرده‌اند.",
+     "با رسیدن پرپلکسیتی به حدود ۰.۷۶، مدل‌ها توانسته‌اند مسائل حل‌نشده ریاضی را پشت سر هم و در قالب یک پیام اسلک (Slack) حل کنند.",
+     "پیش‌بینی شده با ورود به بازه ۰.۶۸ تا ۰.۷ قابلیت‌های پیش‌بینی‌نشده جدیدی ظاهر شوند.",
+     "پیش‌بینی وقوع موجی از پیشرفت‌های بنیادی در پیش‌آموزش (Pretraining) تا اوایل سال ۲۰۲۷ به کمک مشارکت خود مدل‌های هوش مصنوعی در تحقیقات."
+    ],
+    "why_it_matters_fa": "این نوشته یکی از معدود دفعاتی است که اوپن‌ای‌آی معیارهای دقیق فنی داخلی خود را منتشر می‌کند و نشان می‌دهد چگونه کاهش اندک خطای پیش‌بینی، به حل مسائل علمی پیچیده منجر می‌شود.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "هوش مصنوعی چطور یک‌شبه نخبه ریاضی شد؟",
+      "hook_fa": "دانشمند ارشد اوپن‌ای‌آی راز پیشرفت ترسناک چت‌جی‌پی‌تی رو فاش کرد!",
+      "angle_fa": "توضیح ساده مفهوم فشرده‌سازی داده و جهش ناگهانی قابلیت‌ها در مدل‌های هوش مصنوعی.",
+      "outline_fa": [
+       "اشاره به توییت و مقاله جدید یاکوب پاچوکی درباره مفهوم پرپلکسیتی",
+       "چطور مدل با حدس زدن کلمه بعدی از مکالمه ساده به حل معماهای حل‌نشده ریاضی رسید",
+       "چرا پیش‌بینی شده سال ۲۰۲۷ نقطه عطف دیگری در توسعه هوش مصنوعی خواهد بود؟"
+      ],
+      "visual_tip_fa": "نمایش تصویر نمودار کاهش پرپلکسیتی از وبلاگ اوپن‌ای‌آی روی پس‌زمینه موشن و تکست‌گرافی اعداد ۰.۹۹ تا ۰.۷۶."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "معیار واقعی سنجش هوش مصنوعی چیه؟",
+      "hook_fa": "فکر می‌کنید مدل‌های جدید چطور باهوش‌تر میشن؟ جواب بنچمارک‌ها نیست!",
+      "angle_fa": "بررسی فنی اما روان اسلایدی درباره مفهوم Perplexity و تاریخچه تکامل مدل‌ها از GPT-2 تا آینده.",
+      "outline_fa": [
+       "اسلاید ۱: نقد بنچمارک‌های قدیمی و معرفی معیار پرپلکسیتی به زبان ساده",
+       "اسلاید ۲: مقایسه نسخه‌ها (GPT-3.5 با ۰.۹۹، GPT-4 با ۰.۹۱، مدل‌های جدید با ۰.۷۶)",
+       "اسلاید ۳: چرا مشارکت هوش مصنوعی در تحقیقات الگوریتمی معادلات را تا ۲۰۲۷ تغییر می‌دهد؟",
+       "اسلاید ۴: نتیجه‌گیری درباره مرز بعدی هوش و دعوت به تبادل نظر در کامنت‌ها"
+      ],
+      "visual_tip_fa": "استفاده از اسکرین‌شات نمودار رسمی وبلاگ اوپن‌ای‌آی و تایم‌لاین بصری نسخه‌های GPT."
+     }
+    ],
+    "hashtags": [
+     "#هوش_مصنوعی",
+     "#اوپن_ای_ای",
+     "#OpenAI",
+     "#تکنولوژی_روز",
+     "#ChatGPT",
+     "#یادگیری_ماشین",
+     "#AIResearch"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "de5cd1a6d5"
+  },
+  {
+   "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+   "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+   "source": "TechCrunch",
+   "published": "2026-11-22T21:14:07+00:00",
+   "origin": "TechCrunch",
+   "summary": "To establish a speed limit on AI development, you need to agree on how to measure speed.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 6,
+   "category": "safety_ethics",
+   "story_key": "openai-perplexity-intelligence-limits",
+   "topic_key": "ai-evaluation-and-governance",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "ایده دانشمند ارشد اوپن‌ای‌آی برای تعیین «محدودیت سرعت» در توسعه هوش مصنوعی",
+   "one_liner_fa": "دانشمند ارشد اوپن‌ای‌آی (OpenAI) معتقد است پیش از هرگونه قانون‌گذاری برای ترمز زدن به توسعه هوش مصنوعی، دنیا ابتدا باید بر سر یک خط‌کش مشترک برای اندازه‌گیری سرعت پیشرفت به توافق برسد.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "05744626c0"
+  },
+  {
+   "title": "Why data centers are at the center of the Big Tech backlash",
+   "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
+   "source": "TechCrunch",
+   "published": "2026-11-22T18:08:43+00:00",
+   "origin": "TechCrunch",
+   "summary": "Journalist Paris Marx unpacks his new book \"Hyperscale.\"",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 4,
+   "category": "big_tech",
+   "story_key": "hyperscale-data-center-backlash-book",
+   "topic_key": "ai-data-center-environmental-impact",
+   "already_reported": false,
+   "viral": 3,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "bed82431ae"
+  },
+  {
+   "title": "What Happened to Silicon Valley?",
+   "url": "https://www.oreilly.com/radar/what-happened-to-silicon-valley/",
+   "source": "oreilly.com",
+   "published": "2026-11-22T19:20:15+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 388 امتیاز، 223 کامنت",
+   "signal_value": 388,
+   "discussion_url": "https://news.ycombinator.com/item?id=50602947",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 5,
+   "category": "other_tech",
+   "story_key": "what-happened-to-silicon-valley",
+   "topic_key": "tech-industry-culture",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "fbde3c7ed3"
+  },
+  {
+   "title": "Show HN: I built a game where you are an LLM's subagent",
+   "url": "https://github.com/gulivan/worker755",
+   "source": "github.com",
+   "published": "2026-11-22T13:56:58+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 266 امتیاز، 61 کامنت",
+   "signal_value": 266,
+   "discussion_url": "https://news.ycombinator.com/item?id=50599762",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://opengraph.githubassets.com/e05aba94ea29ac95c8533bfbf5c848809f062e4c544c4459efbca2334f720139/gulivan/worker755",
+     "origin": "og"
+    },
+    {
+     "kind": "video",
+     "url": "https://private-user-images.githubusercontent.com/34831957/708193531-279ed2c4-59de-4d32-ad71-c5ee943adefe.mp4?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTUzOTU3MTMsIm5iZiI6MTc5NTM5NTQxMywicGF0aCI6Ii8zNDgzMTk1Ny83MDgxOTM1MzEtMjc5ZWQyYzQtNTlkZS00ZDMyLWFkNzEtYzVlZTk0M2FkZWZlLm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjExMjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYxMTIzVDAwNTY1M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTBkNzM4OTJlZTE3NWMxMzBmYWQ1MmQyNzcwYWIyMGNjODAyNDI2MjM3NzY4MDljNzQwMWI0NzA3YjJiOGY2NWQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT12aWRlbyUyRm1wNCJ9.Fg6R7WTKZr4qDGkvy7JY8C_0VJeBWyeHw3AJyvCmt_o",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://github.com/gulivan/worker755/raw/main/docs/play.png",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 6,
+   "category": "tools_for_creators",
+   "story_key": "llm-subagent-game",
+   "topic_key": "ai-agents-experiments",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "این بازی عجیب شما را کارمند زیردست هوش مصنوعی می‌کند!",
+   "one_liner_fa": "",
+   "deep": {
+    "id": "3c4f4993ad",
+    "title_fa": "این بازی عجیب شما را کارمند زیردست هوش مصنوعی می‌کند!",
+    "summary_fa": "یک توسعه‌دهنده به نام گولیوان (gulivan) بازی تحت وب جدیدی به نام Worker755 طراحی کرده که در آن جای انسان و هوش مصنوعی عوض می‌شود. در این بازی متنی، یک مدیر هوش مصنوعی تصور می‌کند شما عامل فرعی یا ساب‌ایجنت (Subagent) او هستید و به شما مأموریت می‌دهد. این پروژه توجه زیادی در جامعه متن‌باز به خود جلب کرده و به شکل عمومی و رایگان در دسترس کاربران قرار گرفته است.",
+    "key_points_fa": [
+     "نام بازی Worker755 است و روی دامنه worker755.com به صورت تحت وب قابل اجرا است.",
+     "توسعه‌دهنده بازی شخصی با نام مستعار gulivan بوده و کد پروژه را در گیت‌هاب (GitHub) منتشر کرده است.",
+     "ایده بازی: مدل زبانی مدیر شماست و خیال می‌کند شما ساب‌ایجنت او هستید که باید دستوراتش را اجرا کنید.",
+     "پروژه با استقبال جامعه هکر نیوز مواجه شده و بیش از ۱۲۵ ستاره در گیت‌هاب ثبت کرده است."
+    ],
+    "why_it_matters_fa": "این بازی به شکلی طنزآمیز و تعاملی نشان می‌دهد تعاملات آینده در دنیای ایجنت‌های هوش مصنوعی (AI Agents) چطور خواهد بود و پتانسیل بالایی برای وایرال شدن میان کاربران دارد.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "وقتی هوش مصنوعی رییست میشه!",
+      "hook_fa": "همیشه ما به هوش مصنوعی پرامپت می‌دادیم، حالا این بازی شما رو می‌کنه کارمند هوش مصنوعی!",
+      "angle_fa": "تجربه زنده، فان و تعاملی از اجرای بازی در مرورگر و دریافت تسک از ربات مدیر.",
+      "outline_fa": [
+       "ورود به سایت worker755.com و نشان دادن پیام اول مدیر هوش مصنوعی",
+       "تلاش برای گول زدن یا پاسخ دادن به تسک‌های ربات به عنوان ساب‌ایجنت",
+       "دعوت از مخاطبان برای تست کردن و گفتن واکنش‌های عجیب سیستم در کامنت‌ها"
+      ],
+      "visual_tip_fa": "اسکرین ریکورد شفاف از محیط دارک‌مود چت‌روم بازی و تایپ کردن پرامپت‌ها همزمان با فیس‌کم ری‌اکشن."
+     },
+     {
+      "format": "استوری",
+      "title_fa": "معرفی مینی‌گیم Worker755",
+      "hook_fa": "یک بازی هوش مصنوعی به‌شدت عجیب و اعتیادآور پیدا کردم!",
+      "angle_fa": "اشتراک‌گذاری لینک مستقیم بازی با استیکر لینک و ایجاد یک چالش تعاملی.",
+      "outline_fa": [
+       "استوری ۱: اسکرین‌شات از گیگاچت مدیر و توضیح اینکه هوش مصنوعی فکر می‌کنه شما ساب‌ایجنتش هستید",
+       "استوری ۲: اسکرین‌شات خنده‌دار از دیالوگ‌های رد و بدل شده",
+       "استوری ۳: استیکر لینک سایت worker755.com با نظرسنجی «چقدر تونستی دووم بیاری؟»"
+      ],
+      "visual_tip_fa": "اسکرین‌شات از محیط سایت همراه با هایلایت کردن جملات بامزه هوش مصنوعی."
+     }
+    ],
+    "hashtags": [
+     "#بازی_جدید",
+     "#هوش_مصنوعی",
+     "#AIGame",
+     "#طنز_تکنولوژی",
+     "#چت_بات",
+     "#گیمر_ایرانی"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "3c4f4993ad"
+  },
+  {
+   "title": "Open Social Web Alliance",
+   "url": "https://osw-alliance.net/en/",
+   "source": "osw-alliance.net",
+   "published": "2026-11-22T15:24:32+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 218 امتیاز، 213 کامنت",
+   "signal_value": 218,
+   "discussion_url": "https://news.ycombinator.com/item?id=50600511",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 3,
+   "category": "open_source",
+   "story_key": "open-social-web-alliance",
+   "topic_key": "fediverse-open-social-web",
+   "already_reported": false,
+   "viral": 3,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "5e1b558f14"
+  },
+  {
+   "title": "Fast-Anything: Don't rewrite it in Rust. Rewrite the 5% that's slow",
+   "url": "https://github.com/EL4CTEO/fast-anything",
+   "source": "github.com",
+   "published": "2026-11-22T04:10:09+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 177 امتیاز، 148 کامنت",
+   "signal_value": 177,
+   "discussion_url": "https://news.ycombinator.com/item?id=50596155",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 4,
+   "category": "open_source",
+   "story_key": "fast-anything-rust-optimization",
+   "topic_key": "software-performance-engineering",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "3400785e00"
+  },
+  {
+   "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+   "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+   "source": "gpupartner.com",
+   "published": "2026-11-22T21:01:16+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 172 امتیاز، 62 کامنت",
+   "signal_value": 172,
+   "discussion_url": "https://news.ycombinator.com/item?id=50603845",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth/opengraph-image-17m7t5?6653c98c6cd84ba6",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://cdn.gpupartner.com/prod/nvidia-geforce-rtx-5090-green-blueprint-hero-1440x600.jpg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://cdn.gpupartner.com/prod/quantization-same-photo-8-bit-4-bit-2-bit.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://cdn.gpupartner.com/prod/qwen3-8-27b-memory-by-precision-128k-context-chart.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://cdn.gpupartner.com/prod/unsloth-desktop-first-launch-home-screen.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://cdn.gpupartner.com/prod/unsloth-desktop-model-picker-recommended-list.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://cdn.gpupartner.com/prod/unsloth-desktop-quantization-list-ud-q4-k-xl.png",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 6,
+   "category": "open_source",
+   "story_key": "local-ai-guide-inkling-qwen-unsloth",
+   "topic_key": "local-llm-ecosystem",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "چگونه چت‌جی‌پی‌تی خانگی و کاملاً رایگان بسازیم؟ (بدون کدنویسی)",
+   "one_liner_fa": "",
+   "deep": {
+    "id": "1ba4d31258",
+    "title_fa": "چگونه چت‌جی‌پی‌تی خانگی و کاملاً رایگان بسازیم؟ (بدون کدنویسی)",
+    "summary_fa": "راهنمای جامعی منتشر شده که نشان می‌دهد چگونه می‌توان با استفاده از نرم‌افزار آن‌اسلاث دسکتاپ (Unsloth Desktop) و مدل‌های متن‌باز مثل کوئن (Qwen) یا اینکلینگ (Inkling)، یک هوش مصنوعی شخصی و کاملاً محلی روی ویندوز راه‌اندازی کرد. این راهنما فرایند اجرای مدل‌های کوآنتایز شده (Quantized) را بدون نیاز به خط فرمان، لینوکس یا اشتراک‌های ماهانه ابری توضیح می‌دهد و تنها با ۱۰ الی ۱۵ دقیقه زمان، دسترسی مدل را روی کل شبکه خانگی فراهم می‌سازد.",
+    "key_points_fa": [
+     "نرم‌افزار Unsloth Desktop رایگان است و به عنوان سرور رابط چت روی ویندوز عمل می‌کند.",
+     "زمان راه‌اندازی اولیه تنها ۱۰ تا ۱۵ دقیقه است (بدون احتساب دانلود فایل‌ها) و به پایتون یا کدنویسی نیاز ندارد.",
+     "کارت‌های گرافیک با ۸ تا ۱۲ گیگابایت VRAM می‌توانند مدل‌های سبک (۹ تا ۱۴ میلیاردی و مدل‌های MoE سبک) را اجرا کنند.",
+     "کارت‌های ۳۲ گیگابایتی (مثل RTX 5090) قادر به اجرای روان مدل Qwen3.8-27B نسخه 4-bit با حافظه متنی ۱۲۸K هستند.",
+     "مدل جدید Inkling 2 Mini (منتشر شده توسط Thinking Machines Lab) با ۲۶.۴ میلیارد پارامتر و ساختار MoE (فعال بودن ۵.۴ میلیارد پارامتر)، پنجره متنی ۱ میلیون توکن و پشتیبانی از پردازش تصویر، با حجم ۱۷.۶ گیگابایت روی سیستم‌های دارای رم و کارت گرافیک سازگار اجرا می‌شود.",
+     "امکان فعال‌سازی دسترسی LAN وجود دارد تا تمام اعضای خانواده یا اعضای یک شبکه محلی بتوانند به چت‌بات دسترسی داشته باشند."
+    ],
+    "why_it_matters_fa": "مخاطبان نگران هزینه‌های اشتراک کلود و حریم خصوصی داده‌هایشان هستند؛ این راهنما دقیقا به آن‌ها نشان می‌دهد چگونه می‌توان هوش مصنوعی قدرتمند را بدون ریسک حریم خصوصی در خانه اجرا کرد.",
+    "content_ideas": [
+     {
+      "format": "کاروسل",
+      "title_fa": "آموزش گام‌به‌گام ساخت هوش مصنوعی شخصی در خانه",
+      "hook_fa": "دیگه اشتراک چت‌جی‌پی‌تی نخر! هوش مصنوعی خودت رو آفلاین و مجانی روی سیستمت بساز.",
+      "angle_fa": "آموزش تصویری و بسیار ساده راه‌اندازی Unsloth Desktop همراه با جدول کارت‌های گرافیک مناسب.",
+      "outline_fa": [
+       "اسلاید ۱: چرا لوکال کردن هوش مصنوعی بهتر از سرویس‌های کلاد است؟ (هزینه صفر و امنیت بالا)",
+       "اسلاید ۲: به چه سخت‌افزاری نیاز داریم؟ (معرفی مفهوم VRAM و کوآنتایزیشن)",
+       "اسلاید ۳: کارت گرافیک من چه مدلی رو می‌کشه؟ (مقایسه گرافیک‌های ۸GB تا ۳۲GB)",
+       "اسلاید ۴: معرفی ۳ مرحله ساده در Unsloth Desktop (دانلود، انتخاب مدل و فعال‌سازی روی شبکه خانه)",
+       "اسلاید ۵: سیو کن که موقع راه‌اندازی گمش نکنی!"
+      ],
+      "visual_tip_fa": "طراحی گرافیکی جدول VRAM و اسکرین‌شات از محیط نرم‌افزار Unsloth Desktop و تصویر مقایسه دقت عکس‌ها برای مفهوم کوآنتایزیشن."
+     },
+     {
+      "format": "پست",
+      "title_fa": "راهنمای کارت‌های گرافیک برای اجرای هوش مصنوعی محلی",
+      "hook_fa": "سیستم شما توان اجرای چت‌بات‌های پیشرفته ۲۰۲۶ رو داره؟ این جدول رو چک کن!",
+      "angle_fa": "بررسی مقایسه‌ای سخت‌افزارهای مختلف و مدل‌های بهینه‌ای مثل Qwen و Inkling 2 Mini.",
+      "outline_fa": [
+       "توضیح تفاوت حجم حافظه (VRAM) در پردازش مدل‌های سنگین",
+       "معرفی مدل‌های کارآمد MoE که فشار کمتری روی پردازنده گرافیکی می‌آورند",
+       "چک‌لیست شروع کار با ابزار رایگان Unsloth Desktop"
+      ],
+      "visual_tip_fa": "اینفوگرافیک با کیفیت از تناسب کارت گرافیک‌های سری RTX 3000/4000/5000 با مدل‌های مختلف هوش مصنوعی."
+     }
+    ],
+    "hashtags": [
+     "#آموزش_هوش_مصنوعی",
+     "#کارت_گرافیک",
+     "#LocalAI",
+     "#کامپیوتر",
+     "#Unsloth",
+     "#ترفند_کامپیوتر",
+     "#هوش_مصنوعی_رایگان"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "1ba4d31258"
+  },
+  {
+   "title": "The Mythology of Conscious AI",
+   "url": "https://www.noemamag.com/the-mythology-of-conscious-ai/",
+   "source": "noemamag.com",
+   "published": "2026-11-22T02:10:02+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 165 امتیاز، 469 کامنت",
+   "signal_value": 165,
+   "discussion_url": "https://news.ycombinator.com/item?id=50595537",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 5,
+   "category": "safety_ethics",
+   "story_key": "mythology-of-conscious-ai",
+   "topic_key": "ai-consciousness-debate",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "528d6924cf"
+  }
+ ],
+ "failed_sources": [],
+ "models": [
+  "gemini-3.8-flash",
+  "gemini-3.8-flash"
+ ]
+}

@@ -457,7 +457,39 @@
   "https://engadget.com/2319342/tesla-battery-blue-snowflake-icon-meaning": "2026-11-23",
   "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power": "2026-11-23",
   "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers": "2026-11-23",
-  "https://jespino.github.io/gopgext": "2026-11-23"
+  "https://jespino.github.io/gopgext": "2026-11-23",
+  "https://openai.com/index/perplexity-and-intelligence": "2026-11-23",
+  "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development": "2026-11-23",
+  "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash": "2026-11-23",
+  "https://engadget.com/2319565/vorssaint-free-swiss-army-knife-macos-replace-utility-apps": "2026-11-23",
+  "https://engadget.com/2311788/headphone-dac-amp-combo-vs-stack": "2026-11-23",
+  "https://engadget.com/2317781/windows-apps-remove-from-pc": "2026-11-23",
+  "https://engadget.com/2310692/public-vs-private-ip-addresses-differences": "2026-11-23",
+  "https://engadget.com/2319558/best-way-secure-playstation-5-for-flight-travel": "2026-11-23",
+  "https://engadget.com/2319553/how-to-use-ai-glasses-as-teleprompter": "2026-11-23",
+  "https://engadget.com/2319550/pros-and-cons-sharing-your-location": "2026-11-23",
+  "https://engadget.com/2319546/can-iphone-safely-use-140w-charger": "2026-11-23",
+  "https://engadget.com/2319544/free-app-connects-android-phone-windows-pc-wirelessly-plainapp": "2026-11-23",
+  "https://engadget.com/2319541/safely-clean-pc-gpu-avoid-damage": "2026-11-23",
+  "https://engadget.com/2319538/monitor-flickering-when-turned-on-how-to-fix": "2026-11-23",
+  "https://engadget.com/2319533/how-to-use-phone-test-remote-control-battery": "2026-11-23",
+  "https://engadget.com/2319531/solar-panel-types-best-home-use": "2026-11-23",
+  "https://engadget.com/2319522/how-secure-is-password": "2026-11-23",
+  "https://engadget.com/2319519/ios-settings-help-control-mobile-data-use": "2026-11-23",
+  "https://engadget.com/2319509/what-tiny-key-icon-means-android-device": "2026-11-23",
+  "https://engadget.com/2319499/you-dont-need-foldable-phone-use-split-screen-android": "2026-11-23",
+  "https://engadget.com/2319496/advantages-using-usb-c-docking-station": "2026-11-23",
+  "https://engadget.com/2319492/try-using-youtube-custom-feeds-control-homepage": "2026-11-23",
+  "https://engadget.com/2319487/how-long-new-fitbit-last-lifespan-software-support": "2026-11-23",
+  "https://simonwillison.net/2026/Nov/22/select-styling": "2026-11-23",
+  "https://oreilly.com/radar/what-happened-to-silicon-valley": "2026-11-23",
+  "https://audubon.org/magazine/birds-of-gta-6-field-guide-vice-city-wildlife": "2026-11-23",
+  "https://github.com/gulivan/worker755": "2026-11-23",
+  "https://osw-alliance.net/en": "2026-11-23",
+  "https://github.com/EL4CTEO/fast-anything": "2026-11-23",
+  "https://gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth": "2026-11-23",
+  "https://noemamag.com/the-mythology-of-conscious-ai": "2026-11-23",
+  "https://lemonde.fr/en/opinion/article/2026/11/22/as-science-increasingly-shows-the-role-chemical-substances-play-in-lifestyle-diseases-europe-weakens-its-regulations_6786595_23.html": "2026-11-23"
  },
  "reported": [
   {
@@ -957,6 +989,24 @@
    "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
    "title_fa": "پشت‌پرده تاریک هوش مصنوعی: ۸۷ درصد برق آنتروپیک تا سال ۲۰۲۸ از سوخت‌های فسیلی تأمین می‌شود!",
    "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power"
+  },
+  {
+   "date": "2026-11-23",
+   "title": "Perplexity and Intelligence",
+   "title_fa": "افشاگری دانشمند ارشد اوپن‌ای‌آی: هوش مدل‌ها دقیقاً چگونه سنجیده می‌شود؟",
+   "url": "https://openai.com/index/perplexity-and-intelligence"
+  },
+  {
+   "date": "2026-11-23",
+   "title": "Show HN: I built a game where you are an LLM's subagent",
+   "title_fa": "این بازی عجیب شما را کارمند زیردست هوش مصنوعی می‌کند!",
+   "url": "https://github.com/gulivan/worker755"
+  },
+  {
+   "date": "2026-11-23",
+   "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+   "title_fa": "چگونه چت‌جی‌پی‌تی خانگی و کاملاً رایگان بسازیم؟ (بدون کدنویسی)",
+   "url": "https://gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth"
   }
  ],
  "telegram_chat_id": "925911315"
