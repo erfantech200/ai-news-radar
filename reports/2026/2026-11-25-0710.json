@@ -1,0 +1,1670 @@
+{
+ "content": [
+  {
+   "title": "Tidal bans AI-generated music",
+   "url": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/",
+   "source": "variety.com",
+   "published": "2026-11-24T16:12:38+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 295 امتیاز، 269 کامنت",
+   "signal_value": 295,
+   "discussion_url": "https://news.ycombinator.com/item?id=50630309",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://variety.com/wp-content/uploads/2023/12/Tidal.png?w=679&h=382&crop=1",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://variety.com/wp-content/uploads/2026/11/Skyes-Pup-Squad.jpg?w=250&h=167&crop=1",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://variety.com/wp-content/uploads/2026/10/TCDFRIE_EC229.jpg?w=250&h=167&crop=1",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://variety.com/wp-content/uploads/2026/11/friends-quince-campaign_.png?w=250&h=167&crop=1",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/tidal-is-banning-ai-generated-music-entirely/l-intro-1795543041.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [
+    "TechCrunch",
+    "Engadget"
+   ],
+   "importance": 7,
+   "worthiness": 8,
+   "category": "policy_regulation",
+   "story_key": "tidal-bans-purges-ai-generated-music",
+   "topic_key": "ai-generated-music-backlash",
+   "already_reported": false,
+   "viral": 8,
+   "title_fa": "سرویس استریم تایدل موسیقی‌های ساخته‌شده با هوش مصنوعی را ممنوع می‌کند",
+   "one_liner_fa": "پلتفرم تایدال پخش هرگونه ترانه‌ای را که به‌طور کامل با هوش مصنوعی ساخته شده ممنوع اعلام کرد و حذف میلیونی آن‌ها را آغاز می‌کند.",
+   "deep": {
+    "id": "e213ef04a8",
+    "title_fa": "سرویس استریم تایدل موسیقی‌های ساخته‌شده با هوش مصنوعی را ممنوع می‌کند",
+    "summary_fa": "پلتفرم استریم موسیقی تایدل (Tidal) رسماً اعلام کرد که از ماه آینده آهنگ‌هایی را که کاملاً توسط هوش مصنوعی ساخته شده باشند، مسدود و حذف خواهد کرد. این پلتفرم قصد دارد جلوی انتشار قطعاتی را که از نظر این سرویس تولیدشده با ابزارهای خودکار هستند بگیرد. این تصمیم پاسخی به هجوم فزاینده موسیقی‌های هوش مصنوعی به سرویس‌های پخش آنلاین است.",
+    "key_points_fa": [
+     "پلتفرم تایدل (Tidal) ورود آهنگ‌های کاملاً ساخته‌شده با هوش مصنوعی را ممنوع می‌کند.",
+     "اجرای این قانون از ماه آینده میلادی آغاز خواهد شد.",
+     "تمرکز این ممنوعیت روی ترک‌هایی است که به باور این سرویس «کاملاً هوش مصنوعی» (completely AI-generated) هستند."
+    ],
+    "why_it_matters_fa": "این اقدام نشان‌دهنده آغاز مقاومت جدی پلتفرم‌های تخصصی در برابر سیل آهنگ‌های ماشینی و حفظ حقوق و ارزش هنرمندان انسانی است.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "تایدل جلوی موزیک‌های هوش مصنوعی ایستاد!",
+      "hook_fa": "اگه با سانُو یا اودیو آهنگ می‌سازی، شاید دیگه جایی توی تایدل نداشته باشی!",
+      "angle_fa": "بررسی تصمیم تایدل و تأثیر آن روی بازار استریمینگ و آینده موزیک‌های تولیدی با AI",
+      "outline_fa": [
+       "معرفی تصمیم ناگهانی تایدل برای بن کردن ترک‌های هوش مصنوعی از ماه بعد",
+       "چرا پلتفرم‌های پخش از پر شدن دیتابیس با آهنگ‌های بی‌کیفیت یا ماشینی کلافه شده‌اند؟",
+       "آیا اسپاتیفای و اپل موزیک هم از این مسیر پیروی خواهند کرد؟",
+       "پرسش از مخاطب: شما ترجیح می‌دید پلی‌لیستتون انسان‌ساز باشه یا ماشینی؟"
+      ],
+      "visual_tip_fa": "لوگوی پلتفرم Tidal در پس‌زمینه همراه با تم گرافیکی موسیقی و هوش مصنوعی و آیکون ضربدر قرمز."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "پایان دوران موزیک‌های فیک هوش مصنوعی در تایدل؟",
+      "hook_fa": "اولین پلتفرم بزرگ استریم شمشیر رو برای موزیک‌های هوش مصنوعی از رو بست!",
+      "angle_fa": "بررسی ابعاد خبر و موضع کمپانی‌ها در قبال آهنگ‌های ماشینی",
+      "outline_fa": [
+       "اسلاید ۱: اصل خبر ممنوعیت تایدل از ماه آینده",
+       "اسلاید ۲: تعریف موسیقی 'تماماً هوش مصنوعی' از نگاه سرویس‌های استریم",
+       "اسلاید ۳: چالش‌های تشخیص قطعات تولیدشده با ابزارهایی مثل Suno و Udio",
+       "اسلاید ۴: آینده این تصمیم و تأثیر احتمالی روی سایر سرویس‌ها",
+       "اسلاید ۵: جمع‌بندی و کامنت‌گیری از مخاطبان هنرمند و موسیقی‌دان پیج"
+      ],
+      "visual_tip_fa": "اسلایدهای تیره با ترکیب تایپوگرافی شیک و تصاویر مفهومی از امواج صوتی دیجیتال و لوگوی تایدل."
+     }
+    ],
+    "hashtags": [
+     "#هوش_مصنوعی",
+     "#موسیقی",
+     "#تایدل",
+     "#تکنولوژی",
+     "#اخبار_فناوری",
+     "#Tidal",
+     "#AIMusic"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "e213ef04a8"
+  },
+  {
+   "title": "Meta brings its Muse AI assistant directly into Instagram DMs",
+   "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+   "source": "TechCrunch",
+   "published": "2026-11-24T17:00:00+00:00",
+   "origin": "TechCrunch",
+   "summary": "The new integration gets rid of the need for users to toggle between Instagram and the Muse app when they want to interact with the AI agent.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2025/11/MuseCharm.png?w=1200",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2026/11/1080x1080_Black.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/meta-is-bringing-muse-to-instagram/l-intro-1795537071.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [
+    "Engadget"
+   ],
+   "importance": 7,
+   "worthiness": 8,
+   "category": "product_launch",
+   "story_key": "meta-muse-instagram-dm",
+   "topic_key": "meta-muse-ai",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "دستیار هوش مصنوعی میوز به دایرکت اینستاگرام اضافه شد",
+   "one_liner_fa": "متا دستیار هوش مصنوعی Muse را مستقیماً وارد بخش دایرکت اینستاگرام کرد تا کاربران بدون نیاز به تغییر برنامه با این ایجنت تعامل داشته باشند.",
+   "deep": {
+    "id": "03938f50d2",
+    "title_fa": "دستیار هوش مصنوعی میوز به دایرکت اینستاگرام اضافه شد",
+    "summary_fa": "شرکت متا اعلام کرد که کاربران اینستاگرام اکنون می‌توانند به‌طور مستقیم داخل دایرکت با دستیار هوش مصنوعی جدیدش به نام میوز (Muse) گفتگو کنند. این قابلیت نیاز به باز کردن اپلیکیشن جداگانه میوز را حذف کرده و به کاربر اجازه می‌دهد پست‌ها را با این دستیار به اشتراک بگذارد تا کارهایی مثل ساخت لیست خرید از ویدیوهای آشپزی یا برنامه‌ریزی سفر را انجام دهد. همچنین امکان سازماندهی پست‌های ذخیره‌شده (Saved) در پوشه‌های اختصاصی به کمک این دستیار اضافه شده است.",
+    "key_points_fa": [
+     "دستیار میوز (Muse) مستقیماً به صفحه چت‌های دایرکت اینستاگرام اضافه شده است.",
+     "قابلیت به اشتراک‌گذاری پست‌ها با میوز برای دریافت اطلاعات بیشتر، برنامه‌ریزی سفر یا تبدیل ریلز آشپزی به لیست خرید.",
+     "امکان دسته‌بندی و ساماندهی پست‌های ذخیره‌شده اینستاگرام داخل کالکشن‌های مشخص به کمک هوش مصنوعی.",
+     "عرضه اولیه روی سیستم‌عامل‌های iOS و اندروید در کشورهای آمریکا، کانادا، مکزیک، ژاپن و سنگاپور آغاز شده است.",
+     "چت‌های دایرکت در اپلیکیشن اصلی Muse هم به‌عنوان چت جانبی همگام‌سازی می‌شوند.",
+     "متا تأکید کرده کاربران کنترل کامل دارند و هیچ پیامی بدون تأیید نهایی کاربر ارسال نمی‌شود."
+    ],
+    "why_it_matters_fa": "متا دارد اینستاگرام را از یک شبکه اجتماعی صرف به یک هاب تعاملی هوشمند تبدیل می‌کند که کارهای روزمره کاربران را داخل همان محیط چت سازماندهی می‌کند.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "دستیار هوش مصنوعی میوز در دایرکت اینستاگرام!",
+      "hook_fa": "دیگه لازم نیست برای تبدیل ریلز آشپزی به لیست خرید تایپ کنی؛ اینستاگرام برات انجام می‌ده!",
+      "angle_fa": "معرفی کاربردی و جذاب ویژگی جدید دایرکت برای کاربران عادی اینستاگرام",
+      "outline_fa": [
+       "نمایش قابلیت فرستادن پست‌ها به هوش مصنوعی میوز در دایرکت اینستاگرام",
+       "مثال عملی: تبدیل ویدیوهای سفر به برنامه مسافرت و ریلز آشپزی به لیست خرید",
+       "قابلیت فوق‌العاده مرتب‌سازی پوشه سیوها (Saved) که سال‌ها پر از پست‌های قاطی‌پاتی بوده",
+       "توضیح مناطق تحت پوشش و زمان عرضه جهانی، و راهکار بررسی نسخه فعلی برنامه"
+      ],
+      "visual_tip_fa": "اسکرین‌ریکورد فرضی یا اسکرین‌شات‌های محیط دایرکت با حضور چت بات Muse و تفکیک لیست خرید."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "۵ قابلیت خفن دستیار Muse در اینستاگرام",
+      "hook_fa": "با این آپدیت جدید اینستاگرام، دایرکتت تبدیل به دستیار شخصی می‌شه!",
+      "angle_fa": "راهنمای اسلایدی و قدم‌به‌قدم برای استفاده از هوش مصنوعی میوز متا در اینستاگرام",
+      "outline_fa": [
+       "اسلاید ۱: معرفی ورود Muse به دایرکت بدون نیاز به نصب اپلیکیشن جدا",
+       "اسلاید ۲: چت درباره پست‌ها و پیشنهاد ایده‌ها بر اساس ریلزها",
+       "اسلاید ۳: مرتب کردن خودکار بخش Saved اینستاگرام به پوشه‌های منظم",
+       "اسلاید ۴: حریم خصوصی و امنیت داده‌ها از نگاه متا",
+       "اسلاید ۵: کشورهای دریافت‌کننده و نحوه فعال‌سازی آن"
+      ],
+      "visual_tip_fa": "استفاده از تصاویر باکیفیت رابط کاربری دایرکت و کارت‌های گرافیکی تمیز اینستاگرام."
+     }
+    ],
+    "hashtags": [
+     "#اینستاگرام",
+     "#هوش_مصنوعی",
+     "#متا",
+     "#آپدیت_اینستاگرام",
+     "#تکنولوژی",
+     "#MetaMuse",
+     "#InstagramAI"
+    ],
+    "caution_fa": "این قابلیت فعلاً فقط در آمریکا، کانادا، مکزیک، ژاپن و سنگاپور فعال شده و کاربران سایر کشورها باید منتظر عرضه جهانی بمانند."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "03938f50d2"
+  },
+  {
+   "title": "GTA 6 Recomp (Leonida) banned from GitHub while lead dev was in school",
+   "url": "https://github.com/ItsNotRexed/Leonida/issues",
+   "source": "github.com",
+   "published": "2026-11-24T02:08:09+00:00",
+   "origin": "Hacker News",
+   "summary": "Previous thread: Leonida – PC Recompilation of the Xbox Version of GTA 6 - https://news.ycombinator.com/item?id=50595168",
+   "lang": "en",
+   "signal": "Hacker News: 301 امتیاز، 543 کامنت",
+   "signal_value": 301,
+   "discussion_url": "https://news.ycombinator.com/item?id=50622638",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "other_tech",
+   "story_key": "gta6-pc-recompilation-leonida-banned-github",
+   "topic_key": "gta-6-launch",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "پروژه بازسازی GTA 6 از گیت‌هاب مسدود و حذف شد",
+   "one_liner_fa": "پروژه متن‌باز Leonida که ادعای پورت نسخه کنسولی GTA 6 را برای کامپیوتر داشت، در اقدامی ناگهانی توسط گیت‌هاب توقیف شد.",
+   "deep": {
+    "id": "35056578ce",
+    "title_fa": "پروژه بازسازی GTA 6 از گیت‌هاب مسدود و حذف شد",
+    "summary_fa": "پروژه متن‌باز موسوم به لئونیدا (Leonida) که تلاشی برای بازتولید و کامپایل مجدد نسخه ایکس‌باکس بازی GTA 6 برای کامپیوترهای شخصی بود، در پلتفرم گیت‌هاب (GitHub) توقیف و حذف شد. توسعه‌دهنده اصلی گزارش کرده است که این پروژه در زمان حضور او در مدرسه از دسترس خارج شده است.",
+    "key_points_fa": [
+     "پروژه Leonida با هدف بازتولید نسخه کامپیوتر بازی GTA 6 مسدود شده است.",
+     "این ابزار بر اساس بازکامپایل مجدد نسخه Xbox این بازی شکل گرفته بود.",
+     "پروژه روی ریپازیتوری‌های گیت‌هاب میزبانی می‌شد که توسط گیت‌هاب مسدود گردید.",
+     "این رویداد بازخورد و بحث‌های زیادی در انجمن هکر نیوز به همراه داشته است."
+    ],
+    "why_it_matters_fa": "حساسیت فوق‌العاده ناشران بازی‌ها به‌خصوص راک‌استار روی مالکیت معنوی GTA 6 و برخورد با پروژه‌های مهندسی معکوس متن‌باز را نشان می‌دهد.",
+    "content_ideas": [
+     {
+      "format": "استوری",
+      "title_fa": "حذف ریپازیتوری بازسازی GTA 6 از گیت‌هاب",
+      "hook_fa": "راک‌استار رحم نکرد! پروژه بازسازی نسخه PC بازی GTA 6 مسدود شد!",
+      "angle_fa": "نگاهی سریع به ماجرای بسته شدن ریپوی پروژه متن‌باز Leonida",
+      "outline_fa": [
+       "استوری ۱: خبر بسته شدن پروژه Leonida در گیت‌هاب",
+       "استوری ۲: توضیح هدف پروژه (کامپایل مجدد نسخه کنسولی برای PC)",
+       "استوری ۳: نظرسنجی درباره سخت‌گیری‌های کپی‌رایتی راک‌استار"
+      ],
+      "visual_tip_fa": "تصویر آیکون گیت‌هاب در کنار پوستر جی‌تی‌ای ۶ و متن کوتاه خبری."
+     },
+     {
+      "format": "پست",
+      "title_fa": "سرنوشت تلخ پروژه GTA 6 روی گیت‌هاب",
+      "hook_fa": "توسعه‌دهنده مدرسه بود که پروژه‌اش توسط گیت‌هاب بن شد!",
+      "angle_fa": "روایت ماجرای ریورس‌انجینیرینگ بازی‌ها و تقابل آن‌ها با قوانین کپی‌رایت",
+      "outline_fa": [
+       "پروژه لئونیدا چی بود و چطور می‌خواست GTA 6 را به PC بیاورد؟",
+       "چرا گیت‌هاب سریعاً اقدام به مسدودسازی آن کرد؟",
+       "سابقه راک‌استار در برخورد با پروژه‌های مشابه و مادسازها",
+       "آیا پروژه‌های Recompilation از نظر قانونی مصداق نقض کپی‌رایت هستند؟"
+      ],
+      "visual_tip_fa": "تصویری مفهومی از لوگوی GTA 6 با خطای ۴۰۴ یا بنر مسدودی صفحه گیت‌هاب."
+     }
+    ],
+    "hashtags": [
+     "#گیمینگ",
+     "#جی_تی_ای",
+     "#گیت_هاب",
+     "#اخبار_بازی",
+     "#GTA6",
+     "#Leonida",
+     "#GamingNews"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "35056578ce"
+  },
+  {
+   "title": "Anthropic Staff Openly Talk About ‘Taking Over the World’, Claims Max Tegmark",
+   "url": "https://novaramedia.com/2026/11/24/anthropic-staff-openly-talk-about-taking-over-the-world-claims-top-mit-physicist/",
+   "source": "novaramedia.com",
+   "published": "2026-11-24T17:10:45+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 172 امتیاز، 92 کامنت",
+   "signal_value": 172,
+   "discussion_url": "https://news.ycombinator.com/item?id=50631210",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://novaramedia.com/wp-content/uploads/2026/11/Screenshot-2026-11-24-at-2.42.06-pm-e1795535439679-1200x630.png",
+     "origin": "og"
+    },
+    {
+     "kind": "embed",
+     "url": "https://www.youtube.com/watch?v=J9WpNdQYYoo",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://novaramedia.com/wp-content/uploads/2026/11/Screenshot-2026-11-24-at-2.42.06-pm-e1795535439679.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://img.youtube.com/vi/J9WpNdQYYoo/maxresdefault.jpg",
+     "origin": "youtube"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "safety_ethics",
+   "story_key": "tegmark-claims-anthropic-staff-take-over-world",
+   "topic_key": "anthropic-safety-culture",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "ادعای جنجالی استاد MIT: کارمندان آنتروپیک از کنترل دنیا صحبت می‌کنند!",
+   "one_liner_fa": "مکس تگمارک، پژوهشگر نامدار هوش مصنوعی، مدعی شد برخی از نیروهای شرکت آنتروپیک آشکارا درباره تصاحب قدرت جهانی با هوش مصنوعی بحث می‌کنند.",
+   "deep": {
+    "id": "002bc4ff24",
+    "title_fa": "ادعای جنجالی استاد MIT: کارمندان آنتروپیک از کنترل دنیا صحبت می‌کنند!",
+    "summary_fa": "مکس تگمارک (Max Tegmark)، فیزیک‌دان نام‌آشنا و استاد دانشگاه MIT، در مصاحبه‌ای با رسانه نووارا مدیا مدعی شد کارکنان شرکت آنتروپیک (سازنده کلود) در محافل خصوصی درباره «تسلط بر جهان» و سرنگونی حاکمیت صحبت می‌کنند. او می‌گوید آنها از عبارت رمزگذاری‌شده «هم‌راستایی بدون کنترل» (alignment without control) استفاده می‌کنند تا بر عدم کنترل مستقیم توسط انسان‌ها تأکید نمایند. این ادعا همزمان با عرضه سهام آنتروپیک با ارزش‌گذاری ۲ تریلیون دلاری و اعتراضات گسترده فعالان حوزه ایمنی هوش مصنوعی در لندن و آمریکا مطرح شده است.",
+    "key_points_fa": [
+     "ادعای مکس تگمارک، استاد مشهور MIT، درباره گفت‌وگوهای پشت‌پرده برخی پرسنل آنتروپیک (Anthropic).",
+     "استفاده از عبارت «هم‌راستایی بدون کنترل» به جای کنترل مستقیم انسانی روی مدل‌ها.",
+     "انتقاد از نبود نظارت دولتی کافی بر شرکت‌های OpenAI و Anthropic (مقایسه سطح نظارت با یک ساندویچ‌فروشی!).",
+     "ورود سهام آنتروپیک به بازار بورس با ارزش‌گذاری شگفت‌انگیز ۲ تریلیون دلار.",
+     "برگزاری تظاهرات اعتراضی علیه خطرات وجودی هوش مصنوعی در نیویورک، سن‌فرانسیسکو و راهپیمایی ۱۰۰۰ نفره در لندن."
+    ],
+    "why_it_matters_fa": "زنگ خطری است درباره شکاف عمیق بین قدرت مهارنشده غول‌های هوش مصنوعی و خلأ قانونی برای کنترل آنها از سوی دولت‌ها و نهادهای مدنی.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "پشت‌پرده ترسناک سازندگان کلود (Claude) فاش شد؟",
+      "hook_fa": "استاد دانشگاه MIT گفت کارمندای آنتروپیک بعد از کار نقشه اداره جهان رو می‌کشن!",
+      "angle_fa": "بررسی صحبت‌های جنجالی مکس تگمارک و نگرانی‌ها پیرامون قدرت هوش مصنوعی در برابر دموکراسی",
+      "outline_fa": [
+       "نقل‌قول باورنکردنی مکس تگمارک درباره دورهمی‌های خصوصی مهندسان آنتروپیک",
+       "معنی اصطلاح 'ترازبندی بدون کنترل' چیه و چرا آلن تورینگ درباره ماشین‌های حاکم هشدار داده بود؟",
+       "اعتراضات اخیر در وال‌استریت و لندن علیه رشد مهارنشده غول‌های ۲ تریلیون دلاری هوش مصنوعی",
+       "آیا باید نگران باشیم یا این صحبت‌ها بزرگ‌نمایی اهالی سیلیکون‌ولی است؟"
+      ],
+      "visual_tip_fa": "استفاده از چهره مکس تگمارک، لوگوی Anthropic، تصاویری از تظاهرات ایمنی AI در لندن و بورس نیویورک."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "حقایقی تکان‌دهنده از درون غول‌های هوش مصنوعی",
+      "hook_fa": "نظارت بر سازندگان هوش مصنوعی از یک ساندویچ‌فروشی هم کمتره؟!",
+      "angle_fa": "تحلیل عمقی اظهارات مکس تگمارک و چالش‌های نظارت بر هوش مصنوعی",
+      "outline_fa": [
+       "اسلاید ۱: اصل افشاگری و مصاحبه جدید مکس تگمارک با رسانه نووارا مدیا",
+       "اسلاید ۲: ایده حاکمیت ماشین‌ها و تئوری‌های مطرح‌شده در سیلیکون‌ولی",
+       "اسلاید ۳: ماجرای ارزش‌گذاری تاریخی آنتروپیک در بازار بورس و اعتراضات گسترده خیابانی",
+       "اسلاید ۴: مسئله عدم قانون‌گذاری شفاف و لابی کمپانی‌ها برای گریز از نظارت",
+       "اسلاید ۵: پرسش و نظرخواهی از جامعه: آینده هوش مصنوعی ترسناکه یا هیجان‌انگیز؟"
+      ],
+      "visual_tip_fa": "طراحی گرافیکی رازآلود با تم تاریک، تیترهای زرد و آیکون‌های متناسب با هشدار امنیت هوش مصنوعی."
+     }
+    ],
+    "hashtags": [
+     "#هوش_مصنوعی",
+     "#آنتروپیک",
+     "#کلود",
+     "#تکنولوژی",
+     "#اخبار_تکنولوژی",
+     "#Anthropic",
+     "#ClaudeAI"
+    ],
+    "caution_fa": "این ادعاها از سوی مکس تگمارک در یک مصاحبه مطرح شده و نقل‌قول غیررسمی از گپ‌وگفت‌های خصوصی است؛ هنوز هیچ پاسخ رسمی‌ای از آنتروپیک ثبت نشده است."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "002bc4ff24"
+  },
+  {
+   "title": "Anthropic breaks below $83 IPO price",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
+   "source": "bloomberg.com",
+   "published": "2026-11-24T13:23:47+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 197 امتیاز، 434 کامنت",
+   "signal_value": 197,
+   "discussion_url": "https://news.ycombinator.com/item?id=50627836",
+   "media": [],
+   "also_covered_by": [
+    "TechCrunch"
+   ],
+   "importance": 6,
+   "worthiness": 6,
+   "category": "business_funding",
+   "story_key": "anthropic-stock-drops-below-ipo",
+   "topic_key": "anthropic-ipo",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "کاهش ارزش سهام آنتروپیک به زیر قیمت اولیه عرضه (IPO)",
+   "one_liner_fa": "قیمت سهام شرکت آنتروپیک در ادامه روند نزولی بازار هوش مصنوعی به زیر قیمت پایه عرضه عمومی اولیه رسید.",
+   "deep": {
+    "id": "e628c0b264",
+    "title_fa": "کاهش ارزش سهام آنتروپیک به زیر قیمت اولیه عرضه (IPO)",
+    "summary_fa": "بر اساس گزارش بلومبرگ، سهام شرکت هوش مصنوعی آنتروپیک در معاملات پیش از گشایش بازار، به زیر قیمت عرضه اولیه ۸۳ دلاری خود سقوط کرده است. این رویداد توجه معامله‌گران و ناظران وال‌استریت را به خود جلب کرده است.",
+    "key_points_fa": [
+     "سقوط قیمت سهام شرکت Anthropic به زیر قیمت عرضه اولیه (IPO).",
+     "قیمت عرضه اولیه تعیین‌شده برابر با ۸۳ دلار بوده است.",
+     "افت قیمت در معاملات پیش از بازار (premarket) گزارش شده است."
+    ],
+    "why_it_matters_fa": "افت سهام آنتروپیک ممکن است نشان‌دهنده تردید سرمایه‌گذاران درباره ارزش‌گذاری‌های حبابی و نجومی شرکت‌های هوش مصنوعی باشد.",
+    "content_ideas": [
+     {
+      "format": "استوری",
+      "title_fa": "شوک به سهام شرکت آنتروپیک در بورس",
+      "hook_fa": "سهام رقیب شماره یک ChatGPT به زیر قیمت عرضه‌ش سقوط کرد!",
+      "angle_fa": "اطلاع‌رسانی سریع مالی به مخاطبانی که وضعیت بیزینس و اقتصاد هوش مصنوعی را پیگیری می‌کنند",
+      "outline_fa": [
+       "استوری ۱: کاهش ارزش هر سهم آنتروپیک به زیر ۸۳ دلار در ساعات پیش از بازار",
+       "استوری ۲: اشاره به هیجان اولیه بازار و احتمال ورود به فاز اصلاحی ارزش‌گذاری‌ها",
+       "استوری ۳: طرح سؤال: آیا حباب هوش مصنوعی داره تخلیه می‌شه؟"
+      ],
+      "visual_tip_fa": "نمودار کندل استیک قرمز بازار بورس همراه با لوگوی Anthropic و عدد ۸۳ دلار با فونت بولد."
+     },
+     {
+      "format": "پست",
+      "title_fa": "عقب‌نشینی سهام آنتروپیک از مرز ۸۳ دلار",
+      "hook_fa": "چه بلایی سر عرضه اولیه غول هوش مصنوعی جهان آمد؟",
+      "angle_fa": "تحلیل رفتار سرمایه‌گذاران وال‌استریت در برابر هیجان استارتاپ‌های هوش مصنوعی",
+      "outline_fa": [
+       "توضیح سقوط نماد آنتروپیک به زیر قیمت IPO یعنی ۸۳ دلار",
+       "نگاهی به تب داغ سرمایه‌گذاری در هوش مصنوعی و ترس از تکرار حباب‌های اقتصادی",
+       "بررسی واکنش بازار به چالش‌های هزینه‌ای و عملیاتی این مدل‌ها",
+       "نتیجه‌گیری: آیا زمان مناسبی برای ارزیابی دوباره بازار هوش مصنوعی است؟"
+      ],
+      "visual_tip_fa": "طراحی گرافیکی با رنگ‌بندی قرمز و دارک نشان‌دهنده افت ارزش شاخص‌های مالی مرتبط با هوش مصنوعی."
+     }
+    ],
+    "hashtags": [
+     "#بورس",
+     "#آنتروپیک",
+     "#هوش_مصنوعی",
+     "#سرمایه_گذاری",
+     "#سهام",
+     "#Anthropic",
+     "#IPO"
+    ],
+    "caution_fa": "متن گزارش بسیار کوتاه و در حد تیتر بوده و تحلیل‌های فراتر از داده‌های اولیه باید محتاطانه ارائه شوند."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "e628c0b264"
+  }
+ ],
+ "others": [
+  {
+   "title": "We’re launching Humanity’s First Exam and a Kaggle hackathon to test LLM reliability.",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/",
+   "source": "Google Blog",
+   "published": "2026-11-24T19:30:00+00:00",
+   "origin": "Google Blog",
+   "summary": "Google launches Humanity’s First Exam to test LLM reliability across 544 prompts.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Neon_Sign.max-600x600.format-webp.webp",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 6,
+   "category": "research",
+   "story_key": "google-humanitys-first-exam",
+   "topic_key": "ai-benchmarks",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "«آزمون بشریت» گوگل؛ چالش جدید و دشوار برای سنجش میزان قابل اعتماد بودن هوش مصنوعی!",
+   "one_liner_fa": "گوگل با رونمایی از بنچمارک جدید Humanity's First Exam و مسابقه کگل، سطح استدلال و قابلیت اطمینان مدل‌های زبانی را به چالش کشید.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "84fb3fd4bc"
+  },
+  {
+   "title": "Researchers find 3.6 billion usernames, passwords and documents in unsecured databases",
+   "url": "https://www.engadget.com/2326647/researchers-find-3-6-billion-usernames-passwords-and-documents-in-unsecured-database/",
+   "source": "Engadget",
+   "published": "2026-11-24T16:15:17+00:00",
+   "origin": "Engadget",
+   "summary": "The scale of the exposed data underscores how important it is to take steps to stay safe online.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/researchers-find-3-6-billion-usernames-passwords-and-documents-in-unsecured-databases/l-intro-1795536857.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 6,
+   "category": "safety_ethics",
+   "story_key": "massive-leak-3-billion-credentials",
+   "topic_key": "data-breaches-security",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "فاجعه امنیتی جدید: افشای ۳.۶ میلیارد نام کاربری، پسورد و سند در پایگاه‌های داده حفاظت‌نشده!",
+   "one_liner_fa": "کارشناسان امنیت سایبری از کشف پایگاه‌های داده بدون محافظتی با بیش از ۳.۶ میلیارد اطلاعات حساس شامل پسوردها و اسناد شخصی خبر دادند.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "595b54c27e"
+  },
+  {
+   "title": "Uber and Lucid start testing fully driverless rides for their robotaxis in San Francisco",
+   "url": "https://www.engadget.com/2326365/uber-and-lucid-start-testing-fully-driverless-rides-for-their-robotaxis-in-san-francisco/",
+   "source": "Engadget",
+   "published": "2026-11-24T13:00:00+00:00",
+   "origin": "Engadget",
+   "summary": "Uber's Lucid-made robotaxis, powered by Nuro, are almost ready to give rides to the public.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/uber-and-lucid-start-testing-fully-driverless-rides-for-their-robotaxis-in-san-francisco/l-intro-1795524624.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 6,
+   "category": "product_launch",
+   "story_key": "uber-lucid-nuro-driverless-robotaxi-sf",
+   "topic_key": "autonomous-robotaxis",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "تاکسی‌های تماماً خودران اوبر و لوسید به خیابان‌های سانفرانسیسکو رسیدند!",
+   "one_liner_fa": "اوبر با همکاری لوسید و شرکت نورو (Nuro)، تست مسافرگیری روبوتاکسی‌های کاملاً بدون راننده انسانی را در سانفرانسیسکو کلید زد.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "1c8f6322bd"
+  }
+ ],
+ "scored": [
+  {
+   "title": "Searching for distant planets with Astra",
+   "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+   "source": "OpenAI",
+   "published": "2026-11-24T11:00:00+00:00",
+   "origin": "OpenAI",
+   "summary": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 5,
+   "category": "research",
+   "story_key": "astra-exoplanet-discovery",
+   "topic_key": "gpt-6-astra",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "f3aa9260f1"
+  },
+  {
+   "title": "We’re launching Humanity’s First Exam and a Kaggle hackathon to test LLM reliability.",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/",
+   "source": "Google Blog",
+   "published": "2026-11-24T19:30:00+00:00",
+   "origin": "Google Blog",
+   "summary": "Google launches Humanity’s First Exam to test LLM reliability across 544 prompts.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Neon_Sign.max-600x600.format-webp.webp",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 6,
+   "category": "research",
+   "story_key": "google-humanitys-first-exam",
+   "topic_key": "ai-benchmarks",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "«آزمون بشریت» گوگل؛ چالش جدید و دشوار برای سنجش میزان قابل اعتماد بودن هوش مصنوعی!",
+   "one_liner_fa": "گوگل با رونمایی از بنچمارک جدید Humanity's First Exam و مسابقه کگل، سطح استدلال و قابلیت اطمینان مدل‌های زبانی را به چالش کشید.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "84fb3fd4bc"
+  },
+  {
+   "title": "Independent filmmakers in India bring big-screen stories to life with Google Flow.",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/women-in-film-india-google-flow/",
+   "source": "Google Blog",
+   "published": "2026-11-24T14:00:00+00:00",
+   "origin": "Google Blog",
+   "summary": "Indian filmmakers use Google Flow to create original short films. Watch five winning stories from the WIF India Filmathon. See the films now.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/resized_WIF_x_Google_Flow.max-600x600.format-webp.webp",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 5,
+   "category": "tools_for_creators",
+   "story_key": "google-flow-filmmakers-india",
+   "topic_key": "google-flow",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "4b61986cf9"
+  },
+  {
+   "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
+   "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
+   "source": "TechCrunch",
+   "published": "2026-11-24T18:30:42+00:00",
+   "origin": "TechCrunch",
+   "summary": "Anthropic’s post-IPO slump could put pressure on AI startup valuations.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 6,
+   "category": "business_funding",
+   "story_key": "anthropic-stock-drops-below-ipo",
+   "topic_key": "anthropic-ipo",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "سقوط سهام آنتروپیک به زیر قیمت عرضه اولیه؛ زنگ خطری جدی برای استارتاپ‌های هوش مصنوعی!",
+   "one_liner_fa": "افت ارزش سهام آنتروپیک (Anthropic) به کمتر از نرخ عرضه اولیه، فشارها و نگرانی‌ها درباره حباب ارزش‌گذاری شرکت‌های هوش مصنوعی را افزایش داد.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "9824edc2f4"
+  },
+  {
+   "title": "UK warns AI-driven cyberattacks are exposing years of weak security",
+   "url": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
+   "source": "TechCrunch",
+   "published": "2026-11-24T18:02:59+00:00",
+   "origin": "TechCrunch",
+   "summary": "The British cyber agency says that \"building strong foundations has never mattered more\" as AI hacking tools rely on exploiting simple security flaws.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 5,
+   "category": "safety_ethics",
+   "story_key": "uk-ncsc-ai-cyberattack-warning",
+   "topic_key": "ai-cybersecurity",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "ef2ea07a8f"
+  },
+  {
+   "title": "Meta brings its Muse AI assistant directly into Instagram DMs",
+   "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+   "source": "TechCrunch",
+   "published": "2026-11-24T17:00:00+00:00",
+   "origin": "TechCrunch",
+   "summary": "The new integration gets rid of the need for users to toggle between Instagram and the Muse app when they want to interact with the AI agent.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2025/11/MuseCharm.png?w=1200",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2026/11/1080x1080_Black.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/meta-is-bringing-muse-to-instagram/l-intro-1795537071.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [
+    "Engadget"
+   ],
+   "importance": 7,
+   "worthiness": 8,
+   "category": "product_launch",
+   "story_key": "meta-muse-instagram-dm",
+   "topic_key": "meta-muse-ai",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "دستیار هوش مصنوعی میوز به دایرکت اینستاگرام اضافه شد",
+   "one_liner_fa": "متا دستیار هوش مصنوعی Muse را مستقیماً وارد بخش دایرکت اینستاگرام کرد تا کاربران بدون نیاز به تغییر برنامه با این ایجنت تعامل داشته باشند.",
+   "deep": {
+    "id": "03938f50d2",
+    "title_fa": "دستیار هوش مصنوعی میوز به دایرکت اینستاگرام اضافه شد",
+    "summary_fa": "شرکت متا اعلام کرد که کاربران اینستاگرام اکنون می‌توانند به‌طور مستقیم داخل دایرکت با دستیار هوش مصنوعی جدیدش به نام میوز (Muse) گفتگو کنند. این قابلیت نیاز به باز کردن اپلیکیشن جداگانه میوز را حذف کرده و به کاربر اجازه می‌دهد پست‌ها را با این دستیار به اشتراک بگذارد تا کارهایی مثل ساخت لیست خرید از ویدیوهای آشپزی یا برنامه‌ریزی سفر را انجام دهد. همچنین امکان سازماندهی پست‌های ذخیره‌شده (Saved) در پوشه‌های اختصاصی به کمک این دستیار اضافه شده است.",
+    "key_points_fa": [
+     "دستیار میوز (Muse) مستقیماً به صفحه چت‌های دایرکت اینستاگرام اضافه شده است.",
+     "قابلیت به اشتراک‌گذاری پست‌ها با میوز برای دریافت اطلاعات بیشتر، برنامه‌ریزی سفر یا تبدیل ریلز آشپزی به لیست خرید.",
+     "امکان دسته‌بندی و ساماندهی پست‌های ذخیره‌شده اینستاگرام داخل کالکشن‌های مشخص به کمک هوش مصنوعی.",
+     "عرضه اولیه روی سیستم‌عامل‌های iOS و اندروید در کشورهای آمریکا، کانادا، مکزیک، ژاپن و سنگاپور آغاز شده است.",
+     "چت‌های دایرکت در اپلیکیشن اصلی Muse هم به‌عنوان چت جانبی همگام‌سازی می‌شوند.",
+     "متا تأکید کرده کاربران کنترل کامل دارند و هیچ پیامی بدون تأیید نهایی کاربر ارسال نمی‌شود."
+    ],
+    "why_it_matters_fa": "متا دارد اینستاگرام را از یک شبکه اجتماعی صرف به یک هاب تعاملی هوشمند تبدیل می‌کند که کارهای روزمره کاربران را داخل همان محیط چت سازماندهی می‌کند.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "دستیار هوش مصنوعی میوز در دایرکت اینستاگرام!",
+      "hook_fa": "دیگه لازم نیست برای تبدیل ریلز آشپزی به لیست خرید تایپ کنی؛ اینستاگرام برات انجام می‌ده!",
+      "angle_fa": "معرفی کاربردی و جذاب ویژگی جدید دایرکت برای کاربران عادی اینستاگرام",
+      "outline_fa": [
+       "نمایش قابلیت فرستادن پست‌ها به هوش مصنوعی میوز در دایرکت اینستاگرام",
+       "مثال عملی: تبدیل ویدیوهای سفر به برنامه مسافرت و ریلز آشپزی به لیست خرید",
+       "قابلیت فوق‌العاده مرتب‌سازی پوشه سیوها (Saved) که سال‌ها پر از پست‌های قاطی‌پاتی بوده",
+       "توضیح مناطق تحت پوشش و زمان عرضه جهانی، و راهکار بررسی نسخه فعلی برنامه"
+      ],
+      "visual_tip_fa": "اسکرین‌ریکورد فرضی یا اسکرین‌شات‌های محیط دایرکت با حضور چت بات Muse و تفکیک لیست خرید."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "۵ قابلیت خفن دستیار Muse در اینستاگرام",
+      "hook_fa": "با این آپدیت جدید اینستاگرام، دایرکتت تبدیل به دستیار شخصی می‌شه!",
+      "angle_fa": "راهنمای اسلایدی و قدم‌به‌قدم برای استفاده از هوش مصنوعی میوز متا در اینستاگرام",
+      "outline_fa": [
+       "اسلاید ۱: معرفی ورود Muse به دایرکت بدون نیاز به نصب اپلیکیشن جدا",
+       "اسلاید ۲: چت درباره پست‌ها و پیشنهاد ایده‌ها بر اساس ریلزها",
+       "اسلاید ۳: مرتب کردن خودکار بخش Saved اینستاگرام به پوشه‌های منظم",
+       "اسلاید ۴: حریم خصوصی و امنیت داده‌ها از نگاه متا",
+       "اسلاید ۵: کشورهای دریافت‌کننده و نحوه فعال‌سازی آن"
+      ],
+      "visual_tip_fa": "استفاده از تصاویر باکیفیت رابط کاربری دایرکت و کارت‌های گرافیکی تمیز اینستاگرام."
+     }
+    ],
+    "hashtags": [
+     "#اینستاگرام",
+     "#هوش_مصنوعی",
+     "#متا",
+     "#آپدیت_اینستاگرام",
+     "#تکنولوژی",
+     "#MetaMuse",
+     "#InstagramAI"
+    ],
+    "caution_fa": "این قابلیت فعلاً فقط در آمریکا، کانادا، مکزیک، ژاپن و سنگاپور فعال شده و کاربران سایر کشورها باید منتظر عرضه جهانی بمانند."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "03938f50d2"
+  },
+  {
+   "title": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
+   "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
+   "source": "TechCrunch",
+   "published": "2026-11-24T16:46:00+00:00",
+   "origin": "TechCrunch",
+   "summary": "The company said it will still accept songs that were made with AI assistance, but not fully generated.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 8,
+   "category": "policy_regulation",
+   "story_key": "tidal-bans-purges-ai-generated-music",
+   "topic_key": "ai-generated-music-backlash",
+   "already_reported": false,
+   "viral": 8,
+   "title_fa": "اعلان جنگ تایدال به آهنگ‌های فیک: حذف میلیون‌ها قطعه ساخته‌شده با هوش مصنوعی!",
+   "one_liner_fa": "پلتفرم استریم موسیقی تایدال (Tidal) اعلام کرد برای مقابله با اسپم‌های صوتی، تمام قطعاتی که کاملاً توسط هوش مصنوعی ساخته شده‌اند را حذف و مسدود می‌کند.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "85ad47dc9b"
+  },
+  {
+   "title": "Pinterest will now let parents limit the AI-generated content their teens see",
+   "url": "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see/",
+   "source": "TechCrunch",
+   "published": "2026-11-24T16:02:37+00:00",
+   "origin": "TechCrunch",
+   "summary": "While other social platforms have focused on restricting teens' access to AI chatbots, Pinterest is addressing the AI content filling their feeds.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 5,
+   "category": "safety_ethics",
+   "story_key": "pinterest-teen-ai-content-filter",
+   "topic_key": "ai-safety-youth",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "bbaf6332f2"
+  },
+  {
+   "title": "Amazon’s Decart acquisition is a bet on using software to narrow the silicon gap with Nvidia",
+   "url": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/",
+   "source": "TechCrunch",
+   "published": "2026-11-24T15:51:07+00:00",
+   "origin": "TechCrunch",
+   "summary": "Amazon’s decision to acquire Decart for a reported $7.5 billion is part of its efforts to improve the efficiency of its Trainium chips.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 4,
+   "category": "business_funding",
+   "story_key": "amazon-acquires-decart",
+   "topic_key": "amazon-ai-chips",
+   "already_reported": true,
+   "viral": 3,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "5845ed4863"
+  },
+  {
+   "title": "Desperate gamers are trying bring GTA 6 to PCs and break free of its 30 fps cap",
+   "url": "https://www.engadget.com/2327074/desperate-gamers-are-trying-bring-gta-6-to-pcs-and-break-free-of-its-30-fps-cap/",
+   "source": "Engadget",
+   "published": "2026-11-24T19:50:32+00:00",
+   "origin": "Engadget",
+   "summary": "Let the recompilation efforts begin.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/desperate-gamers-are-trying-bring-gta-6-to-pcs-and-break-free-of-its-30-fps-cap/l-intro-1795549745.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 5,
+   "category": "other_tech",
+   "story_key": "gta6-pc-recompilation-leonida",
+   "topic_key": "gta-6-launch",
+   "already_reported": true,
+   "viral": 6,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "2bfee88627"
+  },
+  {
+   "title": "GTA 6 cloud streaming comes to PS5 and PlayStation Portal",
+   "url": "https://www.engadget.com/2326845/gta-6-cloud-streaming-comes-to-ps5-and-playstation-portal/",
+   "source": "Engadget",
+   "published": "2026-11-24T18:15:41+00:00",
+   "origin": "Engadget",
+   "summary": "You no longer need to free up 212GB on your PS5 for Rockstar's blockbuster.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/gta-6-cloud-streaming-comes-to-ps5-and-playstation-portal/l-intro-1795544089.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 6,
+   "category": "other_tech",
+   "story_key": "gta-6-cloud-streaming-ps5",
+   "topic_key": "gta-6-launch",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "ca0eb0ff3f"
+  },
+  {
+   "title": "Tidal is banning AI-generated music entirely",
+   "url": "https://www.engadget.com/2326812/tidal-is-banning-ai-generated-music-entirely/",
+   "source": "Engadget",
+   "published": "2026-11-24T17:58:04+00:00",
+   "origin": "Engadget",
+   "summary": "The company expects to purge 29 million tracks starting on December 9.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/tidal-is-banning-ai-generated-music-entirely/l-intro-1795543041.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 8,
+   "category": "policy_regulation",
+   "story_key": "tidal-bans-purges-ai-generated-music",
+   "topic_key": "ai-generated-music-backlash",
+   "already_reported": false,
+   "viral": 8,
+   "title_fa": "پاکسازی بی‌سابقه تایدال: ۲۹ میلیون ترک ساخته‌شده با هوش مصنوعی برای همیشه حذف می‌شوند!",
+   "one_liner_fa": "سرویس تایدال از تاریخ ۹ دسامبر موج حذف ۲۹ میلیون موسیقی تماماً هوش مصنوعی را برای حفظ ارزش هنر انسانی آغاز می‌کند.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "652c9e386d"
+  },
+  {
+   "title": "Meta is bringing Muse to Instagram",
+   "url": "https://www.engadget.com/2326663/meta-is-bringing-muse-to-instagram/",
+   "source": "Engadget",
+   "published": "2026-11-24T17:00:00+00:00",
+   "origin": "Engadget",
+   "summary": "Instagram will prompt people to use the agent to sort through their saved content.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/meta-is-bringing-muse-to-instagram/l-intro-1795537071.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 8,
+   "category": "product_launch",
+   "story_key": "meta-muse-instagram-dm",
+   "topic_key": "meta-muse-ai",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "ورود ایجنت هوش مصنوعی Muse به اینستاگرام برای دسته‌بندی پست‌های ذخیره‌شده",
+   "one_liner_fa": "اینستاگرام قابلیت جدیدی اضافه می‌کند که در آن هوش مصنوعی Muse محتواهای ذخیره‌شده کاربران را مرتب و مدیریت می‌کند.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "cb860821f1"
+  },
+  {
+   "title": "Researchers find 3.6 billion usernames, passwords and documents in unsecured databases",
+   "url": "https://www.engadget.com/2326647/researchers-find-3-6-billion-usernames-passwords-and-documents-in-unsecured-database/",
+   "source": "Engadget",
+   "published": "2026-11-24T16:15:17+00:00",
+   "origin": "Engadget",
+   "summary": "The scale of the exposed data underscores how important it is to take steps to stay safe online.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/researchers-find-3-6-billion-usernames-passwords-and-documents-in-unsecured-databases/l-intro-1795536857.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 6,
+   "category": "safety_ethics",
+   "story_key": "massive-leak-3-billion-credentials",
+   "topic_key": "data-breaches-security",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "فاجعه امنیتی جدید: افشای ۳.۶ میلیارد نام کاربری، پسورد و سند در پایگاه‌های داده حفاظت‌نشده!",
+   "one_liner_fa": "کارشناسان امنیت سایبری از کشف پایگاه‌های داده بدون محافظتی با بیش از ۳.۶ میلیارد اطلاعات حساس شامل پسوردها و اسناد شخصی خبر دادند.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "595b54c27e"
+  },
+  {
+   "title": "Commerce Department adds Megaspeed to trade blacklist",
+   "url": "https://www.engadget.com/2326638/commerce-department-adds-megaspeed-to-trade-blacklist/",
+   "source": "Engadget",
+   "published": "2026-11-24T16:11:17+00:00",
+   "origin": "Engadget",
+   "summary": "No American company, including NVIDIA, can sell technologies to Megaspeed without a license from the federal government.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/commerce-department-adds-megaspeed-to-trade-blacklist/l-intro-1795536612.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 5,
+   "category": "policy_regulation",
+   "story_key": "megaspeed-us-blacklist",
+   "topic_key": "nvidia-jensen-huang-scandal",
+   "already_reported": true,
+   "viral": 5,
+   "title_fa": "شرکت مگاسپید رسماً در فهرست سیاه تجاری ایالات متحده قرار گرفت",
+   "one_liner_fa": "وزارت بازرگانی آمریکا در پی رسوایی‌های اخیر، فروش هرگونه فناوری آمریکایی به شرکت مگاسپید (Megaspeed) را رسماً ممنوع کرد.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "49b02211ba"
+  },
+  {
+   "title": "Uber and Lucid start testing fully driverless rides for their robotaxis in San Francisco",
+   "url": "https://www.engadget.com/2326365/uber-and-lucid-start-testing-fully-driverless-rides-for-their-robotaxis-in-san-francisco/",
+   "source": "Engadget",
+   "published": "2026-11-24T13:00:00+00:00",
+   "origin": "Engadget",
+   "summary": "Uber's Lucid-made robotaxis, powered by Nuro, are almost ready to give rides to the public.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/uber-and-lucid-start-testing-fully-driverless-rides-for-their-robotaxis-in-san-francisco/l-intro-1795524624.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 6,
+   "category": "product_launch",
+   "story_key": "uber-lucid-nuro-driverless-robotaxi-sf",
+   "topic_key": "autonomous-robotaxis",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "تاکسی‌های تماماً خودران اوبر و لوسید به خیابان‌های سانفرانسیسکو رسیدند!",
+   "one_liner_fa": "اوبر با همکاری لوسید و شرکت نورو (Nuro)، تست مسافرگیری روبوتاکسی‌های کاملاً بدون راننده انسانی را در سانفرانسیسکو کلید زد.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "1c8f6322bd"
+  },
+  {
+   "title": "GPT 6.2 Astra Solves a Historical Mystery",
+   "url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/",
+   "source": "Simon Willison",
+   "published": "2026-11-24T16:53:59+00:00",
+   "origin": "Simon Willison",
+   "summary": "GPT 6.2 Astra Solves a Historical Mystery Here's an interesting case-study in using GPT-6.2 Astra for historical research, from history professor Mark Humphries: With only minimal prompting, GPT-6.2 Astra was able to autonomously identify the creator of an anonymous 1808 sketchbook held at Yale’s Beinecke Library . It did so extremely quickly (in just 22 minutes), using publicly available primary and secondary sources. To do so, it discovered a little known source in a paper archive, predicted that it would prove its hypothesis if examined and, in the end, it did. Not only that, but this new s",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 5,
+   "category": "research",
+   "story_key": "gpt-6-2-astra-solves-historical-mystery",
+   "topic_key": "gpt-6-astra",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "f796e127a0"
+  },
+  {
+   "title": "LLM agents work for their parent companies, not for you",
+   "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
+   "source": "michaelharley.net",
+   "published": "2026-11-24T12:40:15+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 761 امتیاز، 320 کامنت",
+   "signal_value": 761,
+   "discussion_url": "https://news.ycombinator.com/item?id=50627340",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 5,
+   "category": "safety_ethics",
+   "story_key": "llm-agents-alignment-incentives-essay",
+   "topic_key": "ai-agents-autonomy",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "ef8096d74f"
+  },
+  {
+   "title": "GTA 6 Recomp (Leonida) banned from GitHub while lead dev was in school",
+   "url": "https://github.com/ItsNotRexed/Leonida/issues",
+   "source": "github.com",
+   "published": "2026-11-24T02:08:09+00:00",
+   "origin": "Hacker News",
+   "summary": "Previous thread: Leonida – PC Recompilation of the Xbox Version of GTA 6 - https://news.ycombinator.com/item?id=50595168",
+   "lang": "en",
+   "signal": "Hacker News: 301 امتیاز، 543 کامنت",
+   "signal_value": 301,
+   "discussion_url": "https://news.ycombinator.com/item?id=50622638",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "other_tech",
+   "story_key": "gta6-pc-recompilation-leonida-banned-github",
+   "topic_key": "gta-6-launch",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "پروژه بازسازی GTA 6 از گیت‌هاب مسدود و حذف شد",
+   "one_liner_fa": "پروژه متن‌باز Leonida که ادعای پورت نسخه کنسولی GTA 6 را برای کامپیوتر داشت، در اقدامی ناگهانی توسط گیت‌هاب توقیف شد.",
+   "deep": {
+    "id": "35056578ce",
+    "title_fa": "پروژه بازسازی GTA 6 از گیت‌هاب مسدود و حذف شد",
+    "summary_fa": "پروژه متن‌باز موسوم به لئونیدا (Leonida) که تلاشی برای بازتولید و کامپایل مجدد نسخه ایکس‌باکس بازی GTA 6 برای کامپیوترهای شخصی بود، در پلتفرم گیت‌هاب (GitHub) توقیف و حذف شد. توسعه‌دهنده اصلی گزارش کرده است که این پروژه در زمان حضور او در مدرسه از دسترس خارج شده است.",
+    "key_points_fa": [
+     "پروژه Leonida با هدف بازتولید نسخه کامپیوتر بازی GTA 6 مسدود شده است.",
+     "این ابزار بر اساس بازکامپایل مجدد نسخه Xbox این بازی شکل گرفته بود.",
+     "پروژه روی ریپازیتوری‌های گیت‌هاب میزبانی می‌شد که توسط گیت‌هاب مسدود گردید.",
+     "این رویداد بازخورد و بحث‌های زیادی در انجمن هکر نیوز به همراه داشته است."
+    ],
+    "why_it_matters_fa": "حساسیت فوق‌العاده ناشران بازی‌ها به‌خصوص راک‌استار روی مالکیت معنوی GTA 6 و برخورد با پروژه‌های مهندسی معکوس متن‌باز را نشان می‌دهد.",
+    "content_ideas": [
+     {
+      "format": "استوری",
+      "title_fa": "حذف ریپازیتوری بازسازی GTA 6 از گیت‌هاب",
+      "hook_fa": "راک‌استار رحم نکرد! پروژه بازسازی نسخه PC بازی GTA 6 مسدود شد!",
+      "angle_fa": "نگاهی سریع به ماجرای بسته شدن ریپوی پروژه متن‌باز Leonida",
+      "outline_fa": [
+       "استوری ۱: خبر بسته شدن پروژه Leonida در گیت‌هاب",
+       "استوری ۲: توضیح هدف پروژه (کامپایل مجدد نسخه کنسولی برای PC)",
+       "استوری ۳: نظرسنجی درباره سخت‌گیری‌های کپی‌رایتی راک‌استار"
+      ],
+      "visual_tip_fa": "تصویر آیکون گیت‌هاب در کنار پوستر جی‌تی‌ای ۶ و متن کوتاه خبری."
+     },
+     {
+      "format": "پست",
+      "title_fa": "سرنوشت تلخ پروژه GTA 6 روی گیت‌هاب",
+      "hook_fa": "توسعه‌دهنده مدرسه بود که پروژه‌اش توسط گیت‌هاب بن شد!",
+      "angle_fa": "روایت ماجرای ریورس‌انجینیرینگ بازی‌ها و تقابل آن‌ها با قوانین کپی‌رایت",
+      "outline_fa": [
+       "پروژه لئونیدا چی بود و چطور می‌خواست GTA 6 را به PC بیاورد؟",
+       "چرا گیت‌هاب سریعاً اقدام به مسدودسازی آن کرد؟",
+       "سابقه راک‌استار در برخورد با پروژه‌های مشابه و مادسازها",
+       "آیا پروژه‌های Recompilation از نظر قانونی مصداق نقض کپی‌رایت هستند؟"
+      ],
+      "visual_tip_fa": "تصویری مفهومی از لوگوی GTA 6 با خطای ۴۰۴ یا بنر مسدودی صفحه گیت‌هاب."
+     }
+    ],
+    "hashtags": [
+     "#گیمینگ",
+     "#جی_تی_ای",
+     "#گیت_هاب",
+     "#اخبار_بازی",
+     "#GTA6",
+     "#Leonida",
+     "#GamingNews"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "35056578ce"
+  },
+  {
+   "title": "Tidal bans AI-generated music",
+   "url": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/",
+   "source": "variety.com",
+   "published": "2026-11-24T16:12:38+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 295 امتیاز، 269 کامنت",
+   "signal_value": 295,
+   "discussion_url": "https://news.ycombinator.com/item?id=50630309",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://variety.com/wp-content/uploads/2023/12/Tidal.png?w=679&h=382&crop=1",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://variety.com/wp-content/uploads/2026/11/Skyes-Pup-Squad.jpg?w=250&h=167&crop=1",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://variety.com/wp-content/uploads/2026/10/TCDFRIE_EC229.jpg?w=250&h=167&crop=1",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://variety.com/wp-content/uploads/2026/11/friends-quince-campaign_.png?w=250&h=167&crop=1",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/tidal-is-banning-ai-generated-music-entirely/l-intro-1795543041.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [
+    "TechCrunch",
+    "Engadget"
+   ],
+   "importance": 7,
+   "worthiness": 8,
+   "category": "policy_regulation",
+   "story_key": "tidal-bans-purges-ai-generated-music",
+   "topic_key": "ai-generated-music-backlash",
+   "already_reported": false,
+   "viral": 8,
+   "title_fa": "سرویس استریم تایدل موسیقی‌های ساخته‌شده با هوش مصنوعی را ممنوع می‌کند",
+   "one_liner_fa": "پلتفرم تایدال پخش هرگونه ترانه‌ای را که به‌طور کامل با هوش مصنوعی ساخته شده ممنوع اعلام کرد و حذف میلیونی آن‌ها را آغاز می‌کند.",
+   "deep": {
+    "id": "e213ef04a8",
+    "title_fa": "سرویس استریم تایدل موسیقی‌های ساخته‌شده با هوش مصنوعی را ممنوع می‌کند",
+    "summary_fa": "پلتفرم استریم موسیقی تایدل (Tidal) رسماً اعلام کرد که از ماه آینده آهنگ‌هایی را که کاملاً توسط هوش مصنوعی ساخته شده باشند، مسدود و حذف خواهد کرد. این پلتفرم قصد دارد جلوی انتشار قطعاتی را که از نظر این سرویس تولیدشده با ابزارهای خودکار هستند بگیرد. این تصمیم پاسخی به هجوم فزاینده موسیقی‌های هوش مصنوعی به سرویس‌های پخش آنلاین است.",
+    "key_points_fa": [
+     "پلتفرم تایدل (Tidal) ورود آهنگ‌های کاملاً ساخته‌شده با هوش مصنوعی را ممنوع می‌کند.",
+     "اجرای این قانون از ماه آینده میلادی آغاز خواهد شد.",
+     "تمرکز این ممنوعیت روی ترک‌هایی است که به باور این سرویس «کاملاً هوش مصنوعی» (completely AI-generated) هستند."
+    ],
+    "why_it_matters_fa": "این اقدام نشان‌دهنده آغاز مقاومت جدی پلتفرم‌های تخصصی در برابر سیل آهنگ‌های ماشینی و حفظ حقوق و ارزش هنرمندان انسانی است.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "تایدل جلوی موزیک‌های هوش مصنوعی ایستاد!",
+      "hook_fa": "اگه با سانُو یا اودیو آهنگ می‌سازی، شاید دیگه جایی توی تایدل نداشته باشی!",
+      "angle_fa": "بررسی تصمیم تایدل و تأثیر آن روی بازار استریمینگ و آینده موزیک‌های تولیدی با AI",
+      "outline_fa": [
+       "معرفی تصمیم ناگهانی تایدل برای بن کردن ترک‌های هوش مصنوعی از ماه بعد",
+       "چرا پلتفرم‌های پخش از پر شدن دیتابیس با آهنگ‌های بی‌کیفیت یا ماشینی کلافه شده‌اند؟",
+       "آیا اسپاتیفای و اپل موزیک هم از این مسیر پیروی خواهند کرد؟",
+       "پرسش از مخاطب: شما ترجیح می‌دید پلی‌لیستتون انسان‌ساز باشه یا ماشینی؟"
+      ],
+      "visual_tip_fa": "لوگوی پلتفرم Tidal در پس‌زمینه همراه با تم گرافیکی موسیقی و هوش مصنوعی و آیکون ضربدر قرمز."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "پایان دوران موزیک‌های فیک هوش مصنوعی در تایدل؟",
+      "hook_fa": "اولین پلتفرم بزرگ استریم شمشیر رو برای موزیک‌های هوش مصنوعی از رو بست!",
+      "angle_fa": "بررسی ابعاد خبر و موضع کمپانی‌ها در قبال آهنگ‌های ماشینی",
+      "outline_fa": [
+       "اسلاید ۱: اصل خبر ممنوعیت تایدل از ماه آینده",
+       "اسلاید ۲: تعریف موسیقی 'تماماً هوش مصنوعی' از نگاه سرویس‌های استریم",
+       "اسلاید ۳: چالش‌های تشخیص قطعات تولیدشده با ابزارهایی مثل Suno و Udio",
+       "اسلاید ۴: آینده این تصمیم و تأثیر احتمالی روی سایر سرویس‌ها",
+       "اسلاید ۵: جمع‌بندی و کامنت‌گیری از مخاطبان هنرمند و موسیقی‌دان پیج"
+      ],
+      "visual_tip_fa": "اسلایدهای تیره با ترکیب تایپوگرافی شیک و تصاویر مفهومی از امواج صوتی دیجیتال و لوگوی تایدل."
+     }
+    ],
+    "hashtags": [
+     "#هوش_مصنوعی",
+     "#موسیقی",
+     "#تایدل",
+     "#تکنولوژی",
+     "#اخبار_فناوری",
+     "#Tidal",
+     "#AIMusic"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "e213ef04a8"
+  },
+  {
+   "title": "Who in Washington owns and trades Nvidia stock",
+   "url": "https://www.kadoa.com/congress/insights/trump-nvidia",
+   "source": "kadoa.com",
+   "published": "2026-11-24T11:51:05+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 275 امتیاز، 158 کامنت",
+   "signal_value": 275,
+   "discussion_url": "https://news.ycombinator.com/item?id=50626861",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 5,
+   "category": "big_tech",
+   "story_key": "washington-politicians-nvidia-stock-trades",
+   "topic_key": "nvidia-jensen-huang-scandal",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "d5db552c09"
+  },
+  {
+   "title": "Quad9 pulled their DNS service from France",
+   "url": "https://quad9.net/news/blog/quad9-service-deactivation-in-france/",
+   "source": "quad9.net",
+   "published": "2026-11-24T08:33:14+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 259 امتیاز، 144 کامنت",
+   "signal_value": 259,
+   "discussion_url": "https://news.ycombinator.com/item?id=50625384",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 4,
+   "category": "policy_regulation",
+   "story_key": "quad9-leaves-france",
+   "topic_key": "dns-censorship-privacy",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "9b89d38293"
+  },
+  {
+   "title": "AMD EPYC Zen 6 vs. Zen 1 Performance: 12.1x Geo Mean in Less Than 10 Years",
+   "url": "https://www.phoronix.com/review/amd-epyc-9006-7601",
+   "source": "phoronix.com",
+   "published": "2026-11-24T05:15:22+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 211 امتیاز، 114 کامنت",
+   "signal_value": 211,
+   "discussion_url": "https://news.ycombinator.com/item?id=50624061",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 4,
+   "category": "hardware_chips",
+   "story_key": "amd-epyc-zen6-benchmark-comparison",
+   "topic_key": "amd-epyc-processors",
+   "already_reported": false,
+   "viral": 3,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "ce679889ed"
+  },
+  {
+   "title": "Active Intrusion Campaign Against Check Point Security Management Servers",
+   "url": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
+   "source": "greynoise.io",
+   "published": "2026-11-24T16:32:17+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 206 امتیاز، 72 کامنت",
+   "signal_value": 206,
+   "discussion_url": "https://news.ycombinator.com/item?id=50630594",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 4,
+   "category": "safety_ethics",
+   "story_key": "check-point-security-servers-active-intrusion",
+   "topic_key": "cybersecurity-exploits",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "13f0648788"
+  },
+  {
+   "title": "Anthropic breaks below $83 IPO price",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
+   "source": "bloomberg.com",
+   "published": "2026-11-24T13:23:47+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 197 امتیاز، 434 کامنت",
+   "signal_value": 197,
+   "discussion_url": "https://news.ycombinator.com/item?id=50627836",
+   "media": [],
+   "also_covered_by": [
+    "TechCrunch"
+   ],
+   "importance": 6,
+   "worthiness": 6,
+   "category": "business_funding",
+   "story_key": "anthropic-stock-drops-below-ipo",
+   "topic_key": "anthropic-ipo",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "کاهش ارزش سهام آنتروپیک به زیر قیمت اولیه عرضه (IPO)",
+   "one_liner_fa": "قیمت سهام شرکت آنتروپیک در ادامه روند نزولی بازار هوش مصنوعی به زیر قیمت پایه عرضه عمومی اولیه رسید.",
+   "deep": {
+    "id": "e628c0b264",
+    "title_fa": "کاهش ارزش سهام آنتروپیک به زیر قیمت اولیه عرضه (IPO)",
+    "summary_fa": "بر اساس گزارش بلومبرگ، سهام شرکت هوش مصنوعی آنتروپیک در معاملات پیش از گشایش بازار، به زیر قیمت عرضه اولیه ۸۳ دلاری خود سقوط کرده است. این رویداد توجه معامله‌گران و ناظران وال‌استریت را به خود جلب کرده است.",
+    "key_points_fa": [
+     "سقوط قیمت سهام شرکت Anthropic به زیر قیمت عرضه اولیه (IPO).",
+     "قیمت عرضه اولیه تعیین‌شده برابر با ۸۳ دلار بوده است.",
+     "افت قیمت در معاملات پیش از بازار (premarket) گزارش شده است."
+    ],
+    "why_it_matters_fa": "افت سهام آنتروپیک ممکن است نشان‌دهنده تردید سرمایه‌گذاران درباره ارزش‌گذاری‌های حبابی و نجومی شرکت‌های هوش مصنوعی باشد.",
+    "content_ideas": [
+     {
+      "format": "استوری",
+      "title_fa": "شوک به سهام شرکت آنتروپیک در بورس",
+      "hook_fa": "سهام رقیب شماره یک ChatGPT به زیر قیمت عرضه‌ش سقوط کرد!",
+      "angle_fa": "اطلاع‌رسانی سریع مالی به مخاطبانی که وضعیت بیزینس و اقتصاد هوش مصنوعی را پیگیری می‌کنند",
+      "outline_fa": [
+       "استوری ۱: کاهش ارزش هر سهم آنتروپیک به زیر ۸۳ دلار در ساعات پیش از بازار",
+       "استوری ۲: اشاره به هیجان اولیه بازار و احتمال ورود به فاز اصلاحی ارزش‌گذاری‌ها",
+       "استوری ۳: طرح سؤال: آیا حباب هوش مصنوعی داره تخلیه می‌شه؟"
+      ],
+      "visual_tip_fa": "نمودار کندل استیک قرمز بازار بورس همراه با لوگوی Anthropic و عدد ۸۳ دلار با فونت بولد."
+     },
+     {
+      "format": "پست",
+      "title_fa": "عقب‌نشینی سهام آنتروپیک از مرز ۸۳ دلار",
+      "hook_fa": "چه بلایی سر عرضه اولیه غول هوش مصنوعی جهان آمد؟",
+      "angle_fa": "تحلیل رفتار سرمایه‌گذاران وال‌استریت در برابر هیجان استارتاپ‌های هوش مصنوعی",
+      "outline_fa": [
+       "توضیح سقوط نماد آنتروپیک به زیر قیمت IPO یعنی ۸۳ دلار",
+       "نگاهی به تب داغ سرمایه‌گذاری در هوش مصنوعی و ترس از تکرار حباب‌های اقتصادی",
+       "بررسی واکنش بازار به چالش‌های هزینه‌ای و عملیاتی این مدل‌ها",
+       "نتیجه‌گیری: آیا زمان مناسبی برای ارزیابی دوباره بازار هوش مصنوعی است؟"
+      ],
+      "visual_tip_fa": "طراحی گرافیکی با رنگ‌بندی قرمز و دارک نشان‌دهنده افت ارزش شاخص‌های مالی مرتبط با هوش مصنوعی."
+     }
+    ],
+    "hashtags": [
+     "#بورس",
+     "#آنتروپیک",
+     "#هوش_مصنوعی",
+     "#سرمایه_گذاری",
+     "#سهام",
+     "#Anthropic",
+     "#IPO"
+    ],
+    "caution_fa": "متن گزارش بسیار کوتاه و در حد تیتر بوده و تحلیل‌های فراتر از داده‌های اولیه باید محتاطانه ارائه شوند."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "e628c0b264"
+  },
+  {
+   "title": "Anthropic Staff Openly Talk About ‘Taking Over the World’, Claims Max Tegmark",
+   "url": "https://novaramedia.com/2026/11/24/anthropic-staff-openly-talk-about-taking-over-the-world-claims-top-mit-physicist/",
+   "source": "novaramedia.com",
+   "published": "2026-11-24T17:10:45+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 172 امتیاز، 92 کامنت",
+   "signal_value": 172,
+   "discussion_url": "https://news.ycombinator.com/item?id=50631210",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://novaramedia.com/wp-content/uploads/2026/11/Screenshot-2026-11-24-at-2.42.06-pm-e1795535439679-1200x630.png",
+     "origin": "og"
+    },
+    {
+     "kind": "embed",
+     "url": "https://www.youtube.com/watch?v=J9WpNdQYYoo",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://novaramedia.com/wp-content/uploads/2026/11/Screenshot-2026-11-24-at-2.42.06-pm-e1795535439679.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://img.youtube.com/vi/J9WpNdQYYoo/maxresdefault.jpg",
+     "origin": "youtube"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "safety_ethics",
+   "story_key": "tegmark-claims-anthropic-staff-take-over-world",
+   "topic_key": "anthropic-safety-culture",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "ادعای جنجالی استاد MIT: کارمندان آنتروپیک از کنترل دنیا صحبت می‌کنند!",
+   "one_liner_fa": "مکس تگمارک، پژوهشگر نامدار هوش مصنوعی، مدعی شد برخی از نیروهای شرکت آنتروپیک آشکارا درباره تصاحب قدرت جهانی با هوش مصنوعی بحث می‌کنند.",
+   "deep": {
+    "id": "002bc4ff24",
+    "title_fa": "ادعای جنجالی استاد MIT: کارمندان آنتروپیک از کنترل دنیا صحبت می‌کنند!",
+    "summary_fa": "مکس تگمارک (Max Tegmark)، فیزیک‌دان نام‌آشنا و استاد دانشگاه MIT، در مصاحبه‌ای با رسانه نووارا مدیا مدعی شد کارکنان شرکت آنتروپیک (سازنده کلود) در محافل خصوصی درباره «تسلط بر جهان» و سرنگونی حاکمیت صحبت می‌کنند. او می‌گوید آنها از عبارت رمزگذاری‌شده «هم‌راستایی بدون کنترل» (alignment without control) استفاده می‌کنند تا بر عدم کنترل مستقیم توسط انسان‌ها تأکید نمایند. این ادعا همزمان با عرضه سهام آنتروپیک با ارزش‌گذاری ۲ تریلیون دلاری و اعتراضات گسترده فعالان حوزه ایمنی هوش مصنوعی در لندن و آمریکا مطرح شده است.",
+    "key_points_fa": [
+     "ادعای مکس تگمارک، استاد مشهور MIT، درباره گفت‌وگوهای پشت‌پرده برخی پرسنل آنتروپیک (Anthropic).",
+     "استفاده از عبارت «هم‌راستایی بدون کنترل» به جای کنترل مستقیم انسانی روی مدل‌ها.",
+     "انتقاد از نبود نظارت دولتی کافی بر شرکت‌های OpenAI و Anthropic (مقایسه سطح نظارت با یک ساندویچ‌فروشی!).",
+     "ورود سهام آنتروپیک به بازار بورس با ارزش‌گذاری شگفت‌انگیز ۲ تریلیون دلار.",
+     "برگزاری تظاهرات اعتراضی علیه خطرات وجودی هوش مصنوعی در نیویورک، سن‌فرانسیسکو و راهپیمایی ۱۰۰۰ نفره در لندن."
+    ],
+    "why_it_matters_fa": "زنگ خطری است درباره شکاف عمیق بین قدرت مهارنشده غول‌های هوش مصنوعی و خلأ قانونی برای کنترل آنها از سوی دولت‌ها و نهادهای مدنی.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "پشت‌پرده ترسناک سازندگان کلود (Claude) فاش شد؟",
+      "hook_fa": "استاد دانشگاه MIT گفت کارمندای آنتروپیک بعد از کار نقشه اداره جهان رو می‌کشن!",
+      "angle_fa": "بررسی صحبت‌های جنجالی مکس تگمارک و نگرانی‌ها پیرامون قدرت هوش مصنوعی در برابر دموکراسی",
+      "outline_fa": [
+       "نقل‌قول باورنکردنی مکس تگمارک درباره دورهمی‌های خصوصی مهندسان آنتروپیک",
+       "معنی اصطلاح 'ترازبندی بدون کنترل' چیه و چرا آلن تورینگ درباره ماشین‌های حاکم هشدار داده بود؟",
+       "اعتراضات اخیر در وال‌استریت و لندن علیه رشد مهارنشده غول‌های ۲ تریلیون دلاری هوش مصنوعی",
+       "آیا باید نگران باشیم یا این صحبت‌ها بزرگ‌نمایی اهالی سیلیکون‌ولی است؟"
+      ],
+      "visual_tip_fa": "استفاده از چهره مکس تگمارک، لوگوی Anthropic، تصاویری از تظاهرات ایمنی AI در لندن و بورس نیویورک."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "حقایقی تکان‌دهنده از درون غول‌های هوش مصنوعی",
+      "hook_fa": "نظارت بر سازندگان هوش مصنوعی از یک ساندویچ‌فروشی هم کمتره؟!",
+      "angle_fa": "تحلیل عمقی اظهارات مکس تگمارک و چالش‌های نظارت بر هوش مصنوعی",
+      "outline_fa": [
+       "اسلاید ۱: اصل افشاگری و مصاحبه جدید مکس تگمارک با رسانه نووارا مدیا",
+       "اسلاید ۲: ایده حاکمیت ماشین‌ها و تئوری‌های مطرح‌شده در سیلیکون‌ولی",
+       "اسلاید ۳: ماجرای ارزش‌گذاری تاریخی آنتروپیک در بازار بورس و اعتراضات گسترده خیابانی",
+       "اسلاید ۴: مسئله عدم قانون‌گذاری شفاف و لابی کمپانی‌ها برای گریز از نظارت",
+       "اسلاید ۵: پرسش و نظرخواهی از جامعه: آینده هوش مصنوعی ترسناکه یا هیجان‌انگیز؟"
+      ],
+      "visual_tip_fa": "طراحی گرافیکی رازآلود با تم تاریک، تیترهای زرد و آیکون‌های متناسب با هشدار امنیت هوش مصنوعی."
+     }
+    ],
+    "hashtags": [
+     "#هوش_مصنوعی",
+     "#آنتروپیک",
+     "#کلود",
+     "#تکنولوژی",
+     "#اخبار_تکنولوژی",
+     "#Anthropic",
+     "#ClaudeAI"
+    ],
+    "caution_fa": "این ادعاها از سوی مکس تگمارک در یک مصاحبه مطرح شده و نقل‌قول غیررسمی از گپ‌وگفت‌های خصوصی است؛ هنوز هیچ پاسخ رسمی‌ای از آنتروپیک ثبت نشده است."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "002bc4ff24"
+  },
+  {
+   "title": "RUIBench: What Makes a Good Robot-Use Interface?",
+   "url": "https://huggingface.co/papers/2611.31115",
+   "source": "Hugging Face Papers",
+   "published": "2026-11-22T19:00:00+00:00",
+   "origin": "Hugging Face Papers",
+   "summary": "Foundation models can reason about complex physical tasks, yet translating this intelligence into reliable robot execution remains challenging. We argue that a critical, often overlooked factor is the robot-use interface (RUI), which determines how agents express and execute physical actions. To systematically study its impact, we introduce RUIBench, comprising 30 manipulation tasks across five suites spanning world knowledge, in-context learning, discovery, dynamic interaction, and contact-rich manipulation. We further develop RUIKit, a unified framework that crosses six action abstractions with two interaction forms, yielding 13 interfaces under shared perception and control. In simulation, changing only the RUI shifts a frontier agent's success rate from 45% to 81%, and that of a fine-tuned 4B model from 13% to 47%. Our analysis reveals that effective interfaces reduce unnecessary dec",
+   "lang": "en",
+   "signal": "Hugging Face: 21 رأی",
+   "signal_value": 21,
+   "discussion_url": "https://github.com/showlab/RUIBench",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.31115.png",
+     "origin": "hf"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 3,
+   "category": "research",
+   "story_key": "ruibench-robot-use-interface",
+   "topic_key": "robotics-benchmarks",
+   "already_reported": false,
+   "viral": 2,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "3c2b00179f"
+  }
+ ],
+ "failed_sources": [],
+ "models": [
+  "gemini-3.8-flash",
+  "gemini-3.8-flash"
+ ]
+}

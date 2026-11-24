@@ -600,159 +600,61 @@
   "https://huggingface.co/papers/2611.30013": "2026-11-24",
   "https://huggingface.co/papers/2611.30989": "2026-11-24",
   "https://huggingface.co/papers/2611.29338": "2026-11-24",
-  "https://huggingface.co/papers/2611.30898": "2026-11-24"
+  "https://huggingface.co/papers/2611.30898": "2026-11-24",
+  "https://openai.com/index/searching-for-distant-planets-with-astra": "2026-11-25",
+  "https://openai.com/business/customer-stories/intentful-dots": "2026-11-25",
+  "https://openai.com/business/customer-stories/ifood": "2026-11-25",
+  "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam": "2026-11-25",
+  "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state": "2026-11-25",
+  "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-neon-builders": "2026-11-25",
+  "https://blog.google/innovation-and-ai/models-and-research/google-labs/women-in-film-india-google-flow": "2026-11-25",
+  "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance": "2026-11-25",
+  "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups": "2026-11-25",
+  "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security": "2026-11-25",
+  "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms": "2026-11-25",
+  "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming": "2026-11-25",
+  "https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers": "2026-11-25",
+  "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see": "2026-11-25",
+  "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race": "2026-11-25",
+  "https://technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization": "2026-11-25",
+  "https://engadget.com/2327074/desperate-gamers-are-trying-bring-gta-6-to-pcs-and-break-free-of-its-30-fps-cap": "2026-11-25",
+  "https://engadget.com/2321243/why-never-reply-stop-when-receive-spam-texts": "2026-11-25",
+  "https://engadget.com/2321242/chatgpt-biggest-limitations": "2026-11-25",
+  "https://engadget.com/2326845/gta-6-cloud-streaming-comes-to-ps5-and-playstation-portal": "2026-11-25",
+  "https://engadget.com/2324749/video-doorbell-winter-charging-tips": "2026-11-25",
+  "https://engadget.com/2326812/tidal-is-banning-ai-generated-music-entirely": "2026-11-25",
+  "https://engadget.com/2321241/how-much-replace-tesla-battery-out-of-warranty": "2026-11-25",
+  "https://engadget.com/2320960/macbook-desktop-spaces-rearranging-fix": "2026-11-25",
+  "https://engadget.com/2326663/meta-is-bringing-muse-to-instagram": "2026-11-25",
+  "https://engadget.com/2320821/wireless-android-auto-battery-drain-fix": "2026-11-25",
+  "https://engadget.com/2326681/google-maps-dark-mode-is-getting-even-darker": "2026-11-25",
+  "https://engadget.com/2326647/researchers-find-3-6-billion-usernames-passwords-and-documents-in-unsecured-database": "2026-11-25",
+  "https://engadget.com/2320810/built-in-windows-tool-find-pc-stability-issues-reliability-monitor": "2026-11-25",
+  "https://engadget.com/2326638/commerce-department-adds-megaspeed-to-trade-blacklist": "2026-11-25",
+  "https://engadget.com/2322030/make-usb-c-cables-last-longer": "2026-11-25",
+  "https://engadget.com/2320475/essential-car-gadgets-and-accessories": "2026-11-25",
+  "https://engadget.com/2320467/never-ignore-cars-software-updates-reasons": "2026-11-25",
+  "https://engadget.com/2320357/why-faa-doesnt-want-airpods-in-luggage": "2026-11-25",
+  "https://engadget.com/2320276/smart-tv-wifi-disconnecting-5ghz-fixes": "2026-11-25",
+  "https://engadget.com/2326365/uber-and-lucid-start-testing-fully-driverless-rides-for-their-robotaxis-in-san-francisco": "2026-11-25",
+  "https://simonwillison.net/2026/Nov/24/astra-historical-mystery": "2026-11-25",
+  "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you": "2026-11-25",
+  "https://github.com/ItsNotRexed/Leonida/issues": "2026-11-25",
+  "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924": "2026-11-25",
+  "https://kadoa.com/congress/insights/trump-nvidia": "2026-11-25",
+  "https://quad9.net/news/blog/quad9-service-deactivation-in-france": "2026-11-25",
+  "https://phoronix.com/review/amd-epyc-9006-7601": "2026-11-25",
+  "https://greynoise.io/blog/check-point-security-management-servers-intrusion-campaign": "2026-11-25",
+  "https://fzakaria.com/2026/11/12/worshipping-at-the-altar-of-brendan-gregg": "2026-11-25",
+  "https://bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading": "2026-11-25",
+  "https://hypercritical.co/2026/11/23/jetty-pro": "2026-11-25",
+  "https://novaramedia.com/2026/11/24/anthropic-staff-openly-talk-about-taking-over-the-world-claims-top-mit-physicist": "2026-11-25",
+  "https://salvageyarddrone.wordpress.com/": "2026-11-25",
+  "https://qsantos.fr/2026/11/19/making-a-dumb-tv-just-smart-enough": "2026-11-25",
+  "https://huggingface.co/papers/2611.31115": "2026-11-25",
+  "https://huggingface.co/papers/2611.30597": "2026-11-25"
  },
  "reported": [
-  {
-   "date": "2026-11-20",
-   "title": "We’re partnering with Blue Origin on our first heavy-lift Project Suncatcher launch.",
-   "title_fa": "همکاری گوگل و بلو اوریجین: دیتاسنترهای هوش مصنوعی به فضا می‌روند!",
-   "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/blue-origin-project-suncatcher-partnership"
-  },
-  {
-   "date": "2026-11-20",
-   "title": "Let Gemini tackle repetitive chores on your Mac",
-   "title_fa": "قابلیت کنترل کامپیوتر جمینای گوگل برای مک منتشر شد",
-   "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac"
-  },
-  {
-   "date": "2026-11-20",
-   "title": "Meta’s AI agent Muse is mixing up conversations and exposing private data, report says",
-   "title_fa": "رسوایی امنیتی متا: هوش مصنوعی میوز چت‌ها و موجودی بانک افراد را فاش کرد!",
-   "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says"
-  },
-  {
-   "date": "2026-11-20",
-   "title": "Anthropic’s IPO puts AI’s circular financing boom to the test",
-   "title_fa": "ورود تاریخی آنتروپیک به بورس: ثروتمندترین استارتاپ هوش مصنوعی جهان",
-   "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test"
-  },
-  {
-   "date": "2026-11-20",
-   "title": "Canva will let users switch off most generative AI",
-   "title_fa": "قابلیت جدید کانوا: هوش مصنوعی را با یک کلیک خاموش کنید!",
-   "url": "https://engadget.com/2321318/canva-will-let-users-switch-off-most-generative-ai"
-  },
-  {
-   "date": "2026-11-20",
-   "title": "Ruby2ßhell: Pre-authentication RCE on stock Rails",
-   "title_fa": "خطر حمله به میلیون‌ها سرور؛ کشف باگ بحرانی نفوذ بدون احراز هویت در روبی آن ریلز!",
-   "url": "https://verialabs.com/ruby2shell"
-  },
-  {
-   "date": "2026-11-20",
-   "title": "Claude solves two open problems in the physics of black holes",
-   "title_fa": "دستاورد بزرگ انتروپیک: هوش مصنوعی کلود دو معمای حل‌نشده فیزیک سیاه‌چاله‌ها را حل کرد",
-   "url": "https://anthropic.com/research/claude-black-hole-physics"
-  },
-  {
-   "date": "2026-11-20",
-   "title": "Pancreatic cancer halted by virus injection in three patients",
-   "title_fa": "توقف کشنده‌ترین سرطان در ۳ بیمار با تزریق ویروس مهندسی‌شده",
-   "url": "https://newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients"
-  },
-  {
-   "date": "2026-11-20",
-   "title": "Apple may be developing its own AI agent that runs your Mac",
-   "title_fa": "اپل ایجنت هوش مصنوعی اختصاصی می‌سازد؛ کنترل کامل مک به دست هوش مصنوعی",
-   "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac"
-  },
-  {
-   "date": "2026-11-20",
-   "title": "Anthropic’s Nasdaq debut",
-   "title_fa": "شروع تاریخی آنتروپیک در نزدک؛ استقبال طوفانی سرمایه‌گذاران از سازنده Claude",
-   "url": "https://reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19"
-  },
-  {
-   "date": "2026-11-20",
-   "title": "Ubisoft lays off 166 more workers, opens a generative AI studio",
-   "title_fa": "تناقض در صنعت گیم: یوبیسافت ۱۶۶ کارمند دیگر را اخراج و استودیوی هوش مصنوعی مولد تاسیس کرد",
-   "url": "https://engadget.com/2322205/ubisoft-lays-off-166-more-workers-opens-a-generative-ai-studio"
-  },
-  {
-   "date": "2026-11-20",
-   "title": "UK government forced to admit it issued Apple a secret encryption order",
-   "title_fa": "رسوایی امنیتی در بریتانیا: دستور محرمانه دولت به اپل برای شکستن رمزنگاری پیام‌ها لو رفت!",
-   "url": "https://macanorak.com/uk-government-forced-to-admit-it-issued-apple-a-secret-encryption-order"
-  },
-  {
-   "date": "2026-11-20",
-   "title": "How we’re putting one of quantum mechanics’ deepest features to the test at scale.",
-   "title_fa": "دستاورد جدید کوانتوم گوگل: شکستن مرزهای پردازش کلاسیک با قوانین بنیادی کوانتومی",
-   "url": "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/putting-one-of-quantum-mechanics-deepest-features-to-test-at-scale"
-  },
-  {
-   "date": "2026-11-20",
-   "title": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
-   "title_fa": "پاداش هنگفت بنیان‌گذاران آنتروپیک: خروج نزدیک به ۲ میلیارد دلار نقد در عرضه اولیه رکوردشکن!",
-   "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo"
-  },
-  {
-   "date": "2026-11-20",
-   "title": "ICYMI: Transfer your history from other AI apps into Gemini.",
-   "title_fa": "مهاجرت آسان به جمینای: تاریخچه چت‌های چت‌جی‌پی‌تی را به هوش مصنوعی گوگل بیاورید!",
-   "url": "https://blog.google/innovation-and-ai/products/gemini-app/switch-ai-assistants-transfer-history"
-  },
-  {
-   "date": "2026-11-20",
-   "title": "NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs",
-   "title_fa": "همکاری گسترده انویدیا و مایکروسافت: هوش مصنوعی شتاب‌یافته از آزور به کامپیوترهای ویندوزی می‌آید",
-   "url": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs"
-  },
-  {
-   "date": "2026-11-20",
-   "title": "Meta’s new Muse Charm device may cost $300",
-   "title_fa": "گجت پوشیدنی هوش مصنوعی متا لو رفت: «میوز چارم» با قیمت ۳۰۰ دلار در راه است",
-   "url": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300"
-  },
-  {
-   "date": "2026-11-20",
-   "title": "These tech outages are giving Y2K, AI agent style",
-   "title_fa": "کابوس ایجنت‌های خودمختار؛ آیا قطعی‌های اخیر بانک‌ها و پروازها تقصیر هوش مصنوعی است؟",
-   "url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style"
-  },
-  {
-   "date": "2026-11-20",
-   "title": "Anthropic’s IPO could deliver $156B to charity",
-   "title_fa": "خیریه ۱۵۶ میلیارد دلاری! رکورد تاریخی بنیاد عام‌المنفعه آنتروپیک پس از ورود به بورس",
-   "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity"
-  },
-  {
-   "date": "2026-11-20",
-   "title": "OpenAI is testing Dots personal agents on its $20 per month Plus tier",
-   "title_fa": "ایجنت‌های خودکار داتس اوپن‌ای‌آی به اشتراک ۲۰ دلاری ChatGPT Plus می‌آیند",
-   "url": "https://engadget.com/2322656/openai-is-testing-dots-personal-agents-on-its-20-per-month-plus-tier"
-  },
-  {
-   "date": "2026-11-20",
-   "title": "Visa, Mastercard and JPMorgan Customer Data Leaked by Hackers",
-   "title_fa": "افشای اطلاعات مشتریان ویزا، مسترکارت و جی‌پی‌مورگان توسط هکرها",
-   "url": "https://wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87"
-  },
-  {
-   "date": "2026-11-20",
-   "title": "OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)",
-   "title_fa": "کشف آسیب‌پذیری بحرانی در OpenSSL با امتیاز ۹.۸",
-   "url": "https://github.com/openssl/openssl/pull/33652"
-  },
-  {
-   "date": "2026-11-20",
-   "title": "Google's latest home page redesign makes Gemini even more prominent",
-   "title_fa": "تغییر بزرگ در ظاهر دسکتاپ گوگل: جمینای پررنگ‌تر از همیشه",
-   "url": "https://engadget.com/2322647/google-latest-home-page-redesign-makes-gemini-even-more-prominent"
-  },
-  {
-   "date": "2026-11-20",
-   "title": "Unblockable communication with gravity",
-   "title_fa": "ارتباطات غیرقابل مسدودسازی با استفاده از گرانش؛ دستاورد جدید دانشمندان",
-   "url": "https://science.org/doi/10.1126/sciadv.aee0802"
-  },
-  {
-   "date": "2026-11-20",
-   "title": "Google is pushing OEMs against GrapheneOS and bootloader unlocking",
-   "title_fa": "فشار گوگل به سازندگان موبایل: قفل کردن بوت‌لودر و مبارزه با سیستم‌عامل‌های امنیتی!",
-   "url": "https://grapheneos.social/@GrapheneOS/117645038299496084"
-  },
   {
    "date": "2026-11-21",
    "title": "Anthropic employee claims general proof of the Riemann Hypothesis [pdf]",
@@ -1106,6 +1008,54 @@
    "title": "Investigation of Polymarket Insider Trading on the Reinstatement of Jensen Huang",
    "title_fa": "ردپای رانت اطلاعاتی در بازگشت جنسان هوانگ؛ جنجال شرط‌بندی میلیونی در پالی‌مارکت",
    "url": "https://deucalionn.vercel.app/polymarket-delit-initie-jensen-huang-nvidia"
+  },
+  {
+   "date": "2026-11-25",
+   "title": "Tidal bans AI-generated music",
+   "title_fa": "سرویس استریم تایدل موسیقی‌های ساخته‌شده با هوش مصنوعی را ممنوع می‌کند",
+   "url": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924"
+  },
+  {
+   "date": "2026-11-25",
+   "title": "Meta brings its Muse AI assistant directly into Instagram DMs",
+   "title_fa": "دستیار هوش مصنوعی میوز به دایرکت اینستاگرام اضافه شد",
+   "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms"
+  },
+  {
+   "date": "2026-11-25",
+   "title": "GTA 6 Recomp (Leonida) banned from GitHub while lead dev was in school",
+   "title_fa": "پروژه بازسازی GTA 6 از گیت‌هاب مسدود و حذف شد",
+   "url": "https://github.com/ItsNotRexed/Leonida/issues"
+  },
+  {
+   "date": "2026-11-25",
+   "title": "Anthropic Staff Openly Talk About ‘Taking Over the World’, Claims Max Tegmark",
+   "title_fa": "ادعای جنجالی استاد MIT: کارمندان آنتروپیک از کنترل دنیا صحبت می‌کنند!",
+   "url": "https://novaramedia.com/2026/11/24/anthropic-staff-openly-talk-about-taking-over-the-world-claims-top-mit-physicist"
+  },
+  {
+   "date": "2026-11-25",
+   "title": "Anthropic breaks below $83 IPO price",
+   "title_fa": "کاهش ارزش سهام آنتروپیک به زیر قیمت اولیه عرضه (IPO)",
+   "url": "https://bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading"
+  },
+  {
+   "date": "2026-11-25",
+   "title": "We’re launching Humanity’s First Exam and a Kaggle hackathon to test LLM reliability.",
+   "title_fa": "«آزمون بشریت» گوگل؛ چالش جدید و دشوار برای سنجش میزان قابل اعتماد بودن هوش مصنوعی!",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam"
+  },
+  {
+   "date": "2026-11-25",
+   "title": "Researchers find 3.6 billion usernames, passwords and documents in unsecured databases",
+   "title_fa": "فاجعه امنیتی جدید: افشای ۳.۶ میلیارد نام کاربری، پسورد و سند در پایگاه‌های داده حفاظت‌نشده!",
+   "url": "https://engadget.com/2326647/researchers-find-3-6-billion-usernames-passwords-and-documents-in-unsecured-database"
+  },
+  {
+   "date": "2026-11-25",
+   "title": "Uber and Lucid start testing fully driverless rides for their robotaxis in San Francisco",
+   "title_fa": "تاکسی‌های تماماً خودران اوبر و لوسید به خیابان‌های سانفرانسیسکو رسیدند!",
+   "url": "https://engadget.com/2326365/uber-and-lucid-start-testing-fully-driverless-rides-for-their-robotaxis-in-san-francisco"
   }
  ],
  "telegram_chat_id": "925911315"
