@@ -581,7 +581,26 @@
   "https://foreignpolicy.com/2026/11/23/jensen-huang-nvidia-return-ceo-national-security-scandal": "2026-11-24",
   "https://github.com/zed-industries/gpui": "2026-11-24",
   "https://bored.com/": "2026-11-24",
-  "https://jola.dev/posts/you-cant-afford-ssh-keys-disk": "2026-11-24"
+  "https://jola.dev/posts/you-cant-afford-ssh-keys-disk": "2026-11-24",
+  "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/expanding-london-home-kings-cross": "2026-11-24",
+  "https://engadget.com/2326351/grand-theft-auto-6-is-the-biggest-playstation-launch-of-all-time": "2026-11-24",
+  "https://engadget.com/2326288/openai-employee-recorded-meetings-allegedly-affiliated-saudi-government": "2026-11-24",
+  "https://engadget.com/2325316/honor-teams-up-with-cinema-camera-maker-arri-on-the-magic-9-pro-max": "2026-11-24",
+  "https://engadget.com/2326238/apple-confirms-ted-lasso-will-return-for-season-5": "2026-11-24",
+  "https://simonwillison.net/2026/Nov/24/datasette-charts": "2026-11-24",
+  "https://simonwillison.net/2026/Nov/24/datasette-agent": "2026-11-24",
+  "https://governor.ny.gov/news/money-your-pockets-governor-hochul-signs-bill-restricting-exploitative-vehicle-subscription": "2026-11-24",
+  "https://fzakaria.com/2026/11/23/2035-came-early": "2026-11-24",
+  "https://korben.info/en/india-opposition-storms-meta-offices-instagram-accounts.html": "2026-11-24",
+  "https://deucalionn.vercel.app/polymarket-delit-initie-jensen-huang-nvidia": "2026-11-24",
+  "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF": "2026-11-24",
+  "https://huggingface.co/papers/2611.29897": "2026-11-24",
+  "https://huggingface.co/papers/2611.31201": "2026-11-24",
+  "https://huggingface.co/papers/2611.30662": "2026-11-24",
+  "https://huggingface.co/papers/2611.30013": "2026-11-24",
+  "https://huggingface.co/papers/2611.30989": "2026-11-24",
+  "https://huggingface.co/papers/2611.29338": "2026-11-24",
+  "https://huggingface.co/papers/2611.30898": "2026-11-24"
  },
  "reported": [
   {
@@ -1051,6 +1070,42 @@
    "title": "Huang's Return Is the Biggest National Security Scandal in U.S. History",
    "title_fa": "تحلیل جنجالی فارین پالیسی: بازگشت هوانگ به انویدیا، بزرگ‌ترین رسوایی امنیت ملی تاریخ آمریکاست",
    "url": "https://foreignpolicy.com/2026/11/23/jensen-huang-nvidia-return-ceo-national-security-scandal"
+  },
+  {
+   "date": "2026-11-24",
+   "title": "OpenAI employee who secretly recorded meetings allegedly affiliated with the Saudi government",
+   "title_fa": "رسوایی جاسوسی در اوپن‌ای‌آی: کارمند سابق به ضبط مخفیانه جلسات و ارتباط با عربستان متهم شد",
+   "url": "https://engadget.com/2326288/openai-employee-recorded-meetings-allegedly-affiliated-saudi-government"
+  },
+  {
+   "date": "2026-11-24",
+   "title": "India's opposition storms Meta's offices to get its Instagram accounts back",
+   "title_fa": "حمله معترضان اپوزیسیون هند به دفاتر متا بر سر تعلیق حساب‌های اینستاگرام",
+   "url": "https://korben.info/en/india-opposition-storms-meta-offices-instagram-accounts.html"
+  },
+  {
+   "date": "2026-11-24",
+   "title": "Grand Theft Auto 6 is the biggest PlayStation launch of all time",
+   "title_fa": "رکوردشکنی باورنکردنی GTA 6؛ بزرگ‌ترین عرضه تاریخ پلی‌استیشن و فروش ۳.۸ میلیارد دلاری",
+   "url": "https://engadget.com/2326351/grand-theft-auto-6-is-the-biggest-playstation-launch-of-all-time"
+  },
+  {
+   "date": "2026-11-24",
+   "title": "New York Bans Subscription and Post-Purchase Fees on Cars",
+   "title_fa": "نیویورک دریافت حق اشتراک برای آپشن‌های خودرو را ممنوع کرد",
+   "url": "https://governor.ny.gov/news/money-your-pockets-governor-hochul-signs-bill-restricting-exploitative-vehicle-subscription"
+  },
+  {
+   "date": "2026-11-24",
+   "title": "NariQ: BF16-level Qwen3.8-27B in a 10 GB file",
+   "title_fa": "مدل NariQ: اجرای مدل ۲۷ میلیارد پارامتری Qwen در یک فایل ۱۰ گیگابایتی!",
+   "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF"
+  },
+  {
+   "date": "2026-11-24",
+   "title": "Investigation of Polymarket Insider Trading on the Reinstatement of Jensen Huang",
+   "title_fa": "ردپای رانت اطلاعاتی در بازگشت جنسان هوانگ؛ جنجال شرط‌بندی میلیونی در پالی‌مارکت",
+   "url": "https://deucalionn.vercel.app/polymarket-delit-initie-jensen-huang-nvidia"
   }
  ],
  "telegram_chat_id": "925911315"

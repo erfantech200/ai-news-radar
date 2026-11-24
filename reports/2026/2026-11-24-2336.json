@@ -1,0 +1,1192 @@
+{
+ "content": [
+  {
+   "title": "OpenAI employee who secretly recorded meetings allegedly affiliated with the Saudi government",
+   "url": "https://www.engadget.com/2326288/openai-employee-recorded-meetings-allegedly-affiliated-saudi-government/",
+   "source": "Engadget",
+   "published": "2026-11-24T09:24:09+00:00",
+   "origin": "Engadget",
+   "summary": "The OpenAI employee who was charged for implanting a recording device uploaded files to Dropbox and took photos of confidential files, prosecutors say.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/openai-employee-who-secretly-recorded-meetings-allegedly-affiliated-with-the-saudi-government/l-intro-1795509730.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/openai-employee-who-secretly-recorded-meetings-allegedly-affiliated-with-the-saudi-government/intro-1795509730.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 8,
+   "worthiness": 8,
+   "category": "safety_ethics",
+   "story_key": "openai-saudi-spy-allegations",
+   "topic_key": "openai-security-scandal",
+   "already_reported": false,
+   "viral": 8,
+   "title_fa": "رسوایی جاسوسی در اوپن‌ای‌آی: کارمند سابق به ضبط مخفیانه جلسات و ارتباط با عربستان متهم شد",
+   "one_liner_fa": "دادستان‌های آمریکا یک کارمند سابق اوپن‌ای‌آی (OpenAI) را به کار گذاشتن دستگاه شنود در جلسات و سرقت اسناد محرمانه به نفع دولت عربستان متهم کردند.",
+   "deep": {
+    "id": "f589d7cd78",
+    "title_fa": "رسوایی جاسوسی در اوپن‌ای‌آی: کارمند سابق به ضبط مخفیانه جلسات و ارتباط با عربستان متهم شد",
+    "summary_fa": "دادستان‌های ایالات متحده یکی از کارمندان سابق اوپن‌ای‌آی (OpenAI) به نام عبدالرحمن الفوزان را متهم کرده‌اند که پنهانی در جلسات شرکت ابزار شنود کار گذاشته و با افراد وابسته به دولت عربستان سعودی در ارتباط بوده است. این شخص با مخفی‌کردن دستگاه ضبط پشت تلویزیون اتاق کنفرانس مدیران، صدها فایل صوتی محرمانه حاوی اسرار تجاری را ضبط و بخشی از آن‌ها را روی دراپ‌باکس (Dropbox) ذخیره کرده بود. الفوزان همچنین با کمک هوش مصنوعی از جلسات متن‌برداری کرده و نام‌گذاری‌ها را انجام داده است. وی اتهام جاسوسی را رد کرده و تقاضای وثیقه یک میلیون دلاری دارد.",
+    "key_points_fa": [
+     "عبدالرحمن الفوزان (Abdulrahman Alfozan) در ماه اکتبر پس از کشف دستگاه شنود پشت تلویزیون اتاق جلسات اخراج و دستگیر شد.",
+     "دادستان‌ها اعلام کردند صدها فایل صوتی شامل جلسات سپتامبر ۲۰۲۶ روی سیستم او کشف شده که حاوی اسرار تجاری است.",
+     "متهم با ابزارهای هوش مصنوعی فایل‌های صوتی را به متن (Transcript) تبدیل و دسته‌بندی می‌کرده است.",
+     "تصاویری از اسناد محرمانه تحت عنوان «همکاری استراتژیک» در گوشی او پیدا شده است.",
+     "الفوزان سرقت اسرار به نفع عربستان را رد کرده و خواستار وثیقه یک میلیون دلاری برای آزادی موقت است."
+    ],
+    "why_it_matters_fa": "این ماجرا نشان می‌دهد که کورس رقابت غول‌های هوش مصنوعی وارد فاز حساس جاسوسی بین‌المللی شده و داده‌های محرمانه شرکت‌ها تا چه اندازه هدف سرویس‌های خارجی است.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "جاسوسی به سبک جیمز باند در مقر OpenAI!",
+      "hook_fa": "باورتون میشه پشت تلویزیون اتاق مدیران OpenAI دستگاه شنود کار گذاشته بودن؟! قضیه چیه؟",
+      "angle_fa": "روایت داستانی و پرهیجان از رخنه امنیتی در معتبرترین شرکت هوش مصنوعی دنیا.",
+      "outline_fa": [
+       "کشف عجیب دستگاه ضبط صدا پشت تلویزیون اتاق جلسات مدیران",
+       "هویت کارمند و پیاده‌سازی صداهای محرمانه با خود هوش مصنوعی",
+       "اتهام ارتباط با دولت عربستان و اسناد محرمانه لورفته",
+       "پیامد این ماجرا برای آینده امنیت داده در شرکت‌های فناوری"
+      ],
+      "visual_tip_fa": "استفاده از تصاویر گرافیکی لوگوی OpenAI همراه با آیکون‌های هشدار و دستگاه شنود، و اشاره به اسناد دادگاه."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "همه چیز درباره رسوایی امنیتی بزرگ در OpenAI",
+      "hook_fa": "چطور یک کارمند توانست اسرار تجاری خالق ChatGPT را پنهانی ضبط کند؟",
+      "angle_fa": "تحلیل گام‌به‌گام و دقیق از پرونده قضایی و نفوذ اطلاعاتی.",
+      "outline_fa": [
+       "اسلاید اول: خلاصه واقعه و جزئیات بازداشت",
+       "اسلاید دوم: اطلاعاتی که سرقت شد و استفاده از AI برای پیاده‌سازی صدا",
+       "اسلاید سوم: ارتباط مشکوک با افراد وابسته به عربستان سعودی",
+       "اسلاید چهارم: دفاعیه متهم و نظر قاضی پرونده"
+      ],
+      "visual_tip_fa": "تصاویر اسناد قضایی منتشرشده از سوی بلومبرگ و عکسی از مقر شرکت اوپن‌ای‌آی."
+     }
+    ],
+    "hashtags": [
+     "#اوپن_ای_ای",
+     "#هوش_مصنوعی",
+     "#امنیت_اطلاعات",
+     "#اخبار_تکنولوژی",
+     "#OpenAI",
+     "#CyberSecurity",
+     "#فناوری"
+    ],
+    "caution_fa": "پرونده هنوز در مرحله بررسی قضایی است و ارتباط قطعی متهم با سرویس‌های دولتی عربستان توسط دادگاه تأیید نهایی نشده و در قالب ادعای دادستانی مطرح است."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "f589d7cd78"
+  },
+  {
+   "title": "India's opposition storms Meta's offices to get its Instagram accounts back",
+   "url": "https://korben.info/en/india-opposition-storms-meta-offices-instagram-accounts.html",
+   "source": "korben.info",
+   "published": "2026-11-24T06:28:04+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 208 امتیاز، 93 کامنت",
+   "signal_value": 208,
+   "discussion_url": "https://news.ycombinator.com/item?id=50624487",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "big_tech",
+   "story_key": "india-opposition-storms-meta-office",
+   "topic_key": "meta-political-censorship",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "حمله معترضان اپوزیسیون هند به دفاتر متا بر سر تعلیق حساب‌های اینستاگرام",
+   "one_liner_fa": "اعضای حزب مخالف دولت هند در واکنش به مسدود شدن صفحات اینستاگرام خود، به دفاتر شرکت متا (Meta) در این کشور هجوم بردند.",
+   "deep": {
+    "id": "beca06c30d",
+    "title_fa": "حمله معترضان اپوزیسیون هند به دفاتر متا بر سر تعلیق حساب‌های اینستاگرام",
+    "summary_fa": "نیروهای وابسته به احزاب اپوزیسیون در هند در اقدامی اعتراضی به دفاتر شرکت متا (Meta) هجوم برده‌اند تا حساب‌های مسدودشده اینستاگرام خود را پس بگیرند. این تنش در پی مسدودسازی و محدودیت حساب‌های کاربری فعالان سیاسی شکل گرفته است. این رویداد در میان محافل فناوری بازتاب داشته اما هنوز جزئیات رسمی درباره خسارت‌ها یا واکنش مدیران متا به صورت کامل منتشر نشده است.",
+    "key_points_fa": [
+     "حمله فیزیکی اعضای اپوزیسیون هند به دفاتر شرکت متا (Meta).",
+     "اعتراض به تعلیق، سانسور و توقیف صفحات اینستاگرام وابسته به مخالفان سیاسی.",
+     "بازتاب گسترده موضوع در میان جامعه توسعه‌دهندگان و کاربران فضای مجازی."
+    ],
+    "why_it_matters_fa": "این اقدام نشان می‌دهد تصمیمات الگوریتمی یا نظارتی غول‌های فناوری چگونه می‌تواند به ناآرامی‌های فیزیکی در جهان واقعی و تنش با جریان‌های سیاسی تبدیل شود.",
+    "content_ideas": [
+     {
+      "format": "استوری",
+      "title_fa": "وقتی سانسور مجازی به درگیری فیزیکی کشیده شد!",
+      "hook_fa": "شنیدید توی هند معترضان ریختن تو دفاتر شرکت متا تا پیج‌های اینستاگرامشون رو پس بگیرن؟!",
+      "angle_fa": "پوشش فوری و تعاملی ماجرا همراه با نظرسنجی درباره سانسور سیاسی در شبکه‌های اجتماعی.",
+      "outline_fa": [
+       "روایت تیتر خبر و حمله به دفاتر متا",
+       "علت درگیری: مسدود شدن صفحات اپوزیسیون",
+       "نظرسنجی: آیا شبکه‌های اجتماعی باید در سیاست مداخله کنند؟"
+      ],
+      "visual_tip_fa": "لوگوی شکسته اینستاگرام یا متا به همراه استیکر کوئسشن‌باکس درباره تجربه بلاک شدن."
+     },
+     {
+      "format": "پست",
+      "title_fa": "بحران جدید زاکربرگ در هند: هجوم به دفاتر متا",
+      "hook_fa": "متا چگونه با تصمیماتش درباره پیج‌های اینستاگرام، خشم معترضان هندی را برافروخت؟",
+      "angle_fa": "بررسی خطرات مداخله پلتفرم‌ها در فضای دموکراسی و عواقب اجتماعی آن.",
+      "outline_fa": [
+       "توضیح رویداد و علت هجوم به دفتر متا",
+       "سابقه درگیری پلتفرم‌ها با احزاب سیاسی در آسیا",
+       "مسئولیت پلتفرم‌ها در حفظ بی‌طرفی و مدیریت محتوا"
+      ],
+      "visual_tip_fa": "استفاده از تمپلیت گرافیکی خشن و تاریک با عکس دفتر متا و پرچم هند."
+     }
+    ],
+    "hashtags": [
+     "#اینستاگرام",
+     "#متا",
+     "#آزادی_بیان",
+     "#سانسور",
+     "#Instagram",
+     "#Meta",
+     "#اخبار_فناوری"
+    ],
+    "caution_fa": "متن گزارش اولیه بسیار کوتاه بوده و هنوز بیانیه رسمی شرکت متا یا جزئیات دقیق خسارت‌ها اعلام نشده است؛ از بزرگ‌نمایی پرهیز شود."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "beca06c30d"
+  },
+  {
+   "title": "Grand Theft Auto 6 is the biggest PlayStation launch of all time",
+   "url": "https://www.engadget.com/2326351/grand-theft-auto-6-is-the-biggest-playstation-launch-of-all-time/",
+   "source": "Engadget",
+   "published": "2026-11-24T12:09:54+00:00",
+   "origin": "Engadget",
+   "summary": "Sony says GTA 6 is the biggest launch in PlayStation history, across five generations of consoles.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/grand-theft-auto-6-is-the-biggest-playstation-launch-yet/l-intro-1795522019.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/grand-theft-auto-6-is-the-biggest-playstation-launch-yet/intro-1795522019.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "other_tech",
+   "story_key": "gta-6-playstation-sales-record",
+   "topic_key": "gta-6-launch",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "رکوردشکنی باورنکردنی GTA 6؛ بزرگ‌ترین عرضه تاریخ پلی‌استیشن و فروش ۳.۸ میلیارد دلاری",
+   "one_liner_fa": "شرکت سونی رسماً تأیید کرد بازی جی‌تی‌ای ۶ (GTA 6) با پشت سر گذاشتن تمام رکوردهای پنج نسل پلی‌استیشن، به بزرگ‌ترین انتشار تاریخ این پلتفرم تبدیل شده است.",
+   "deep": {
+    "id": "46000d8ecd",
+    "title_fa": "رکوردشکنی باورنکردنی GTA 6؛ بزرگ‌ترین عرضه تاریخ پلی‌استیشن و فروش ۳.۸ میلیارد دلاری",
+    "summary_fa": "بازی Grand Theft Auto 6 طبق اعلام شرکت سونی اینتراکتیو اینترتینمنت (SIE) با پشت سر گذاشتن تمام رکوردهای سه دهه گذشته، به بزرگ‌ترین انتشار در تاریخ پلی‌استیشن تبدیل شد. گیمرها در آخر هفته اول در مجموع ۶۸۳ میلیون ساعت پای این بازی روی کنسول PS5 نشسته‌اند که میانگین ۱۷.۴ ساعت برای هر کاربر است. شرکت مادر راک‌استار گیمز یعنی تیک-تو (Take-Two) اعلام کرد فروش روز اول بازی به رقم نجومی ۳.۷۹ میلیارد دلار رسیده است که آن را به بزرگ‌ترین رویداد تاریخ صنعت سرگرمی بدل می‌کند.",
+    "key_points_fa": [
+     "ثبت رکورد ۶۸۳ میلیون ساعت بازی روی پلی‌استیشن ۵ طی آخر هفته ابتدایی انتشار.",
+     "بیش از ۳۹ میلیون کاربر یکتا بازی را روی کنسول PS5 تجربه کرده‌اند.",
+     "ثبت درآمد خارق‌العاده ۳.۷۹ میلیارد دلاری فقط در روز اول انتشار به اعلام Take-Two.",
+     "انتخاب به عنوان نخستین بازی در ۷۰ درصد از کنسول‌های تازه خریداری و متصل شده به شبکه.",
+     "عرضه بازی در ۱۹ نوامبر برای PS5 و Xbox Series X|S پس از ۱۳ سال انتظار."
+    ],
+    "why_it_matters_fa": "این ارقام خیره‌کننده نشان می‌دهد صنعت ویدیوگیم توانسته سینما و موسیقی را به راحتی پشت سر بگذارد و جی‌تی‌ای ۶ عملاً بزرگ‌ترین اثر تاریخ سرگرمی است.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "GTA 6 تمام رکوردهای تاریخ سرگرمی را نابود کرد!",
+      "hook_fa": "فروش ۳.۸ میلیارد دلار فقط توی ۲۴ ساعت اول؟! مگه داریم چنین چیزی؟!",
+      "angle_fa": "هیجان‌انگیز و آماری؛ بازتاب عظمت اقتصادی عرضه بازی با لحنی بسیار پرانرژی.",
+      "outline_fa": [
+       "اعلام رقم وحشتناک ۳.۷۹ میلیارد دلاری روز اول",
+       "مقایسه ساعات بازی (۶۸۳ میلیون ساعت فقط روی PS5)",
+       "نجات فروش کنسول پلی‌استیشن و نایاب شدن PS5 Pro",
+       "جمع‌بندی درباره قدرت بی‌رقیب راک‌استار"
+      ],
+      "visual_tip_fa": "کات‌های سریع از تریلرهای جذاب بازی GTA 6 با فونت‌های بولد زرد و صورتی نئونی برای ارقام میلیاردی."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "۵ آمار باورنکردنی از آخر هفته اول عرضه GTA 6",
+      "hook_fa": "چرا انتشار GTA 6 تبدیل به بزرگ‌ترین رویداد تاریخ بشر در حوزه سرگرمی شد؟",
+      "angle_fa": "اینفوگرافیک بصری از اعداد شگفت‌انگیز فروش و زمان بازی.",
+      "outline_fa": [
+       "اسلاید ۱: درآمد نجومی روز اول (۳.۷۹ میلیارد دلار)",
+       "اسلاید ۲: ۳۹ میلیون کاربر و ۶۸۳ میلیون ساعت گیم‌پلی",
+       "اسلاید ۳: انفجار فروش کنسول PS5 و کمبود در بازار",
+       "اسلاید ۴: مقایسه درآمد بازی با پرفروش‌ترین فیلم‌های تاریخ هالیوود",
+       "اسلاید ۵: چالش‌های آینده توسعه‌دهندگان علی‌رغم موفقیت"
+      ],
+      "visual_tip_fa": "استفاده از آرت‌ورک‌های رسمی بازی لوسیا و جیسون همراه با نمودارهای شکیل مقایسه‌ای."
+     }
+    ],
+    "hashtags": [
+     "#جی_تی_ای_۶",
+     "#پلی_استیشن",
+     "#گیمینگ",
+     "#راکستار",
+     "#اخبار_گیم",
+     "#GTA6",
+     "#PS5"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "46000d8ecd"
+  },
+  {
+   "title": "New York Bans Subscription and Post-Purchase Fees on Cars",
+   "url": "https://www.governor.ny.gov/news/money-your-pockets-governor-hochul-signs-bill-restricting-exploitative-vehicle-subscription",
+   "source": "governor.ny.gov",
+   "published": "2026-11-24T02:27:02+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 456 امتیاز، 176 کامنت",
+   "signal_value": 456,
+   "discussion_url": "https://news.ycombinator.com/item?id=50622774",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.governor.ny.gov/profiles/contrib/nygov/themes/custom/nygov-theme/storybook/assets/nygov-logo-share.png",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.governor.ny.gov/sites/default/files/styles/cover_image_660x400_/public/thumbnails/image/cars.cr_.jpg?h=b5f6a62e&itok=FV7N-hBe",
+     "origin": "og"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "policy_regulation",
+   "story_key": "ny-bans-car-feature-subscriptions",
+   "topic_key": "automotive-subscriptions",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "نیویورک دریافت حق اشتراک برای آپشن‌های خودرو را ممنوع کرد",
+   "one_liner_fa": "ایالت نیویورک با تصویب قانونی مهم، دریافت آبونمان ماهانه برای قابلیت‌های پیش‌فرض خودرو نظیر گرم‌کن صندلی را رسماً ممنوع کرد.",
+   "deep": {
+    "id": "d0f92b38f6",
+    "title_fa": "نیویورک دریافت حق اشتراک برای آپشن‌های خودرو را ممنوع کرد",
+    "summary_fa": "کتی هوکول (Kathy Hochul)، فرماندار نیویورک، لایحه‌ای را به امضا رساند که خودروسازان و نمایندگی‌ها را از دریافت هزینه‌های اشتراکی ماهانه بعد از خرید خودرو منع می‌کند. این مصوبه با هدف مقابله با سوءاستفاده شرکت‌ها به تصویب رسیده؛ اقدامی که مانع از قفل نرم‌افزاری امکانات فابریک خودرو مثل گرم‌کن صندلی یا امکانات پایه و فروش مجدد آن‌ها به صورت آبونمانی می‌شود. این تصمیم می‌تواند الگویی برای حمایت از مالکیت واقعی خریداران در برابر سیاست‌های سودجویانه باشد.",
+    "key_points_fa": [
+     "امضای لایحه رسمی توسط کتی هوکول، فرماندار ایالت نیویورک.",
+     "ممنوعیت کامل شرکت‌های خودروسازی و نمایندگی‌ها از دریافت اشتراک ماهانه یا هزینه‌های بعد از خرید خودرو.",
+     "جلوگیری از رفتارهای استثماری خودروسازان در قفل کردن نرم‌افزاری امکانات سخت‌افزاری ماشین."
+    ],
+    "why_it_matters_fa": "شکستی بزرگ برای شرکت‌هایی است که تلاش می‌کردند فرهنگ هزینه‌های اشتراکی نرم‌افزار را به اجزای فیزیکی و قطعات خودرو تحمیل کنند.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "پایان باج‌گیری خودروسازها از مردم؟",
+      "hook_fa": "ماشین خریدی ولی برای گرم شدن صندلیش باید ماهانه اشتراک بخری؟! نیویورک جلوشون واستاد!",
+      "angle_fa": "بررسی اعتراضی روند مسخره اشتراکی‌کردن آپشن‌های خودرو و پیروزی حقوق مصرف‌کننده.",
+      "outline_fa": [
+       "داستان مسخره خودروسازها مثل اشتراک گرم‌کن صندلی یا شتاب بیشتر",
+       "تصمیم جدید و تاریخی نیویورک برای غیرقانونی کردن آن",
+       "پیامدهای این قانون برای بازار جهانی خودرو و سایر ایالت‌ها"
+      ],
+      "visual_tip_fa": "تصاویر پنل نرم‌افزاری خودروهای مدرن با آیکون‌های قفل و پیام هشدار در کنار چهره معترض خریداران."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "چرا اشتراک ماهانه آپشن‌های خودرو غیرقانونی شد؟",
+      "hook_fa": "ماشینی که خریدی واقعاً مال خودته یا ماهانه اجاره‌اش کردی؟",
+      "angle_fa": "بحث مالکیت داده و سخت‌افزار در عصر فناوری مدرن.",
+      "outline_fa": [
+       "اسلاید اول: معرفی پدیده زشت قفل نرم‌افزاری روی خودروها",
+       "اسلاید دوم: قانون جدید فرماندار نیویورک چه می‌گوید؟",
+       "اسلاید سوم: کدام خودروسازان هدف اصلی این قانون هستند؟",
+       "اسلاید چهارم: چرا خریداران باید مالک ۱۰۰٪ امکانات خودرو باشند؟"
+      ],
+      "visual_tip_fa": "اینفوگرافیک با تصاویر خودروهای لوکس و قطعات قفل‌شده مثل ریموت، شتاب و صندلی گرم‌کن."
+     }
+    ],
+    "hashtags": [
+     "#صنعت_خودرو",
+     "#ماشین",
+     "#تکنولوژی",
+     "#حقوق_مصرف_کننده",
+     "#فناوری",
+     "#TechNews"
+    ],
+    "caution_fa": "این قانون مربوط به ایالت نیویورک است و ممکن است قوانین سایر کشورها یا ایالت‌ها بلافاصله همگام نشود."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "d0f92b38f6"
+  },
+  {
+   "title": "NariQ: BF16-level Qwen3.8-27B in a 10 GB file",
+   "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
+   "source": "huggingface.co",
+   "published": "2026-11-23T13:42:38+00:00",
+   "origin": "Hacker News",
+   "summary": "We built NariQ: 3-bit-or-lower quantizations of Qwen3.8-27B that retain near-BF16 quality across agentic tasks, math, multilingual reasoning, and image understanding. To our knowledge, this is the first 3-bit-or-lower quantization that retains BF16 lvl performance on long-horizon agentic tasks. Benchmarks (BF16 / 3-bit / 2.5-bit / 2-bit): - DeepSWE: 39.8 / 41.0 / 41.9 / 28.6 - Terminal-Bench 2.1: 62.6 / 63.8 / 60.2 / 52.4 - AIME 25+26: 97.7 / 98.3 / 96.5 / 86.0 - MSGM: 94.0 / 93.1 / 91.8 / 90.6 - RealWorldQA: 82.4 / 82.4 / 81.3 / 80.9 Decode speed is comparable to other quants on an RTX PRO 60",
+   "lang": "en",
+   "signal": "Hacker News: 175 امتیاز، 35 کامنت",
+   "signal_value": 175,
+   "discussion_url": "https://news.ycombinator.com/item?id=50611402",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/nari-labs/Qwen3.8-27B-NariQ-GGUF.png",
+     "origin": "og"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "open_source",
+   "story_key": "nariq-3bit-qwen-quantization",
+   "topic_key": "local-llm-quantization",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "مدل NariQ: اجرای مدل ۲۷ میلیارد پارامتری Qwen در یک فایل ۱۰ گیگابایتی!",
+   "one_liner_fa": "پروژه متن‌باز NariQ موفق شد با کوانتیزاسیون ۳ بیتی، مدل Qwen3.8-27B را بدون افت محسوس دقت به یک فایل ۱۰ گیگابایتی برای سیستم‌های خانگی تبدیل کند.",
+   "deep": {
+    "id": "81ecb7742e",
+    "title_fa": "مدل NariQ: اجرای مدل ۲۷ میلیارد پارامتری Qwen در یک فایل ۱۰ گیگابایتی!",
+    "summary_fa": "آزمایشگاه ناری (Nari Labs) نسخه کوانتیزه‌شده‌ای از مدل چندرسانه‌ای Qwen3.8-27B را با عنوان NariQ در پلتفرم هاگینگ فیس (Hugging Face) در دسترس قرار داده است. این دستاورد فنی موفق شده مدلی با ۲۷ میلیارد پارامتر را در یک فایل فشرده حدود ۱۰ گیگابایتی با فرمت GGUF جا دهد، در حالی که کیفیتی هم‌رده با دقت BF16 ارائه می‌کند. این مدل توانایی پردازش هم‌زمان متن و تصویر را دارد و امکان اجرای محلی چنین ابزار قدرتمندی را روی سخت‌افزارهای عادی به واقعیت تبدیل می‌کند.",
+    "key_points_fa": [
+     "مدل پایه Qwen3.8-27B با ۲۷ میلیارد پارامتر و پشتیبانی از ورودی و خروجی تصویر و متن (Image-Text-to-Text).",
+     "کاهش چشمگیر حجم فایل مدل به حدود ۱۰ گیگابایت به لطف متد کوانتیزاسیون NariQ.",
+     "حفظ دقتی مشابه فرمت با دقت بالای BF16 علی‌رغم کاهش شدید حجم.",
+     "انتشار در فرمت محبوب GGUF برای اجرا روی ابزارهای محلی مانند llama.cpp و Ollama.",
+     "عرضه رسمی و امکان دانلود مستقیم از طریق پلتفرم Hugging Face."
+    ],
+    "why_it_matters_fa": "دیگر نیازی به سرورهای فوق‌گران‌قیمت برای تست مدل‌های چندرسانه‌ای ۲۷ میلیاردی نیست و گیمرها و برنامه‌نویس‌ها می‌توانند آن را مستقیماً روی سیستم خانگی بالا بیاورند.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "اجرای مدل هوش مصنوعی ۲۷ میلیاردی روی کارت گرافیک معمولی!",
+      "hook_fa": "مگه میشه یک مدل غول‌پیکر بینایی و متنی رو توی فقط ۱۰ گیگ جا داد؟! این مدل جدید اومده!",
+      "angle_fa": "آموزش و معرفی هیجان‌انگیز ابزاری جذاب برای افراد فنی و کنجکاو هوش مصنوعی.",
+      "outline_fa": [
+       "معرفی مدل NariQ و کارکرد Image-to-Text آن",
+       "معجزه کوانتیزیشن و حجم تنها ۱۰ گیگابایت با دقت BF16",
+       "نحوه دانلود از هاگینگ فیس و اجرا با ابزارهای لوکال",
+       "دعوت به تست و ارسال نظر در کامنت‌ها"
+      ],
+      "visual_tip_fa": "فیلم اسکرین‌رکورد از باز کردن صفحه Hugging Face مدل و بنچمارک‌های خروجی متن و تصویر."
+     },
+     {
+      "format": "استوری",
+      "title_fa": "یک ابزار رایگان و سبک برای سیستم‌های شخصی!",
+      "hook_fa": "اگه می‌خواید روی سیستمتون یک هوش مصنوعی کاردرست داشته باشید، این مدل ۱۰ گیگی رو ببینید!",
+      "angle_fa": "پیشنهاد ابزاری سریع با ارجاع به لینک برای دانلود مستقیم.",
+      "outline_fa": [
+       "اسلاید ۱: معرفی NariQ Qwen3.8-27B",
+       "اسلاید ۲: مقایسه حجم و کیفیت استثنایی آن",
+       "اسلاید ۳: استیکر لینک صفحه هاگینگ فیس"
+      ],
+      "visual_tip_fa": "عکس کاور مدل در هاگینگ فیس همراه با مشخصات و لینک استوری."
+     }
+    ],
+    "hashtags": [
+     "#هوش_مصنوعی",
+     "#اوپن_سورس",
+     "#تکنولوژی",
+     "#کارت_گرافیک",
+     "#هاگینگ_فیس",
+     "#AI",
+     "#HuggingFace",
+     "#Qwen"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "81ecb7742e"
+  }
+ ],
+ "others": [
+  {
+   "title": "Investigation of Polymarket Insider Trading on the Reinstatement of Jensen Huang",
+   "url": "https://deucalionn.vercel.app/polymarket-delit-initie-jensen-huang-nvidia/",
+   "source": "deucalionn.vercel.app",
+   "published": "2026-11-24T11:13:55+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 202 امتیاز، 99 کامنت",
+   "signal_value": 202,
+   "discussion_url": "https://news.ycombinator.com/item?id=50626578",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 6,
+   "category": "business_funding",
+   "story_key": "polymarket-insider-trading-jensen-huang",
+   "topic_key": "nvidia-leadership-crisis",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "ردپای رانت اطلاعاتی در بازگشت جنسان هوانگ؛ جنجال شرط‌بندی میلیونی در پالی‌مارکت",
+   "one_liner_fa": "بررسی تراکنش‌های پلتفرم پالی‌مارکت (Polymarket) نشان می‌دهد برخی کاربران پیش از اعلام عمومی بازگشت هوانگ به انویدیا، با اطلاعات نهانی سودهای کلان کسب کرده‌اند.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "796c738a59"
+  }
+ ],
+ "scored": [
+  {
+   "title": "Grand Theft Auto 6 is the biggest PlayStation launch of all time",
+   "url": "https://www.engadget.com/2326351/grand-theft-auto-6-is-the-biggest-playstation-launch-of-all-time/",
+   "source": "Engadget",
+   "published": "2026-11-24T12:09:54+00:00",
+   "origin": "Engadget",
+   "summary": "Sony says GTA 6 is the biggest launch in PlayStation history, across five generations of consoles.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/grand-theft-auto-6-is-the-biggest-playstation-launch-yet/l-intro-1795522019.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/grand-theft-auto-6-is-the-biggest-playstation-launch-yet/intro-1795522019.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "other_tech",
+   "story_key": "gta-6-playstation-sales-record",
+   "topic_key": "gta-6-launch",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "رکوردشکنی باورنکردنی GTA 6؛ بزرگ‌ترین عرضه تاریخ پلی‌استیشن و فروش ۳.۸ میلیارد دلاری",
+   "one_liner_fa": "شرکت سونی رسماً تأیید کرد بازی جی‌تی‌ای ۶ (GTA 6) با پشت سر گذاشتن تمام رکوردهای پنج نسل پلی‌استیشن، به بزرگ‌ترین انتشار تاریخ این پلتفرم تبدیل شده است.",
+   "deep": {
+    "id": "46000d8ecd",
+    "title_fa": "رکوردشکنی باورنکردنی GTA 6؛ بزرگ‌ترین عرضه تاریخ پلی‌استیشن و فروش ۳.۸ میلیارد دلاری",
+    "summary_fa": "بازی Grand Theft Auto 6 طبق اعلام شرکت سونی اینتراکتیو اینترتینمنت (SIE) با پشت سر گذاشتن تمام رکوردهای سه دهه گذشته، به بزرگ‌ترین انتشار در تاریخ پلی‌استیشن تبدیل شد. گیمرها در آخر هفته اول در مجموع ۶۸۳ میلیون ساعت پای این بازی روی کنسول PS5 نشسته‌اند که میانگین ۱۷.۴ ساعت برای هر کاربر است. شرکت مادر راک‌استار گیمز یعنی تیک-تو (Take-Two) اعلام کرد فروش روز اول بازی به رقم نجومی ۳.۷۹ میلیارد دلار رسیده است که آن را به بزرگ‌ترین رویداد تاریخ صنعت سرگرمی بدل می‌کند.",
+    "key_points_fa": [
+     "ثبت رکورد ۶۸۳ میلیون ساعت بازی روی پلی‌استیشن ۵ طی آخر هفته ابتدایی انتشار.",
+     "بیش از ۳۹ میلیون کاربر یکتا بازی را روی کنسول PS5 تجربه کرده‌اند.",
+     "ثبت درآمد خارق‌العاده ۳.۷۹ میلیارد دلاری فقط در روز اول انتشار به اعلام Take-Two.",
+     "انتخاب به عنوان نخستین بازی در ۷۰ درصد از کنسول‌های تازه خریداری و متصل شده به شبکه.",
+     "عرضه بازی در ۱۹ نوامبر برای PS5 و Xbox Series X|S پس از ۱۳ سال انتظار."
+    ],
+    "why_it_matters_fa": "این ارقام خیره‌کننده نشان می‌دهد صنعت ویدیوگیم توانسته سینما و موسیقی را به راحتی پشت سر بگذارد و جی‌تی‌ای ۶ عملاً بزرگ‌ترین اثر تاریخ سرگرمی است.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "GTA 6 تمام رکوردهای تاریخ سرگرمی را نابود کرد!",
+      "hook_fa": "فروش ۳.۸ میلیارد دلار فقط توی ۲۴ ساعت اول؟! مگه داریم چنین چیزی؟!",
+      "angle_fa": "هیجان‌انگیز و آماری؛ بازتاب عظمت اقتصادی عرضه بازی با لحنی بسیار پرانرژی.",
+      "outline_fa": [
+       "اعلام رقم وحشتناک ۳.۷۹ میلیارد دلاری روز اول",
+       "مقایسه ساعات بازی (۶۸۳ میلیون ساعت فقط روی PS5)",
+       "نجات فروش کنسول پلی‌استیشن و نایاب شدن PS5 Pro",
+       "جمع‌بندی درباره قدرت بی‌رقیب راک‌استار"
+      ],
+      "visual_tip_fa": "کات‌های سریع از تریلرهای جذاب بازی GTA 6 با فونت‌های بولد زرد و صورتی نئونی برای ارقام میلیاردی."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "۵ آمار باورنکردنی از آخر هفته اول عرضه GTA 6",
+      "hook_fa": "چرا انتشار GTA 6 تبدیل به بزرگ‌ترین رویداد تاریخ بشر در حوزه سرگرمی شد؟",
+      "angle_fa": "اینفوگرافیک بصری از اعداد شگفت‌انگیز فروش و زمان بازی.",
+      "outline_fa": [
+       "اسلاید ۱: درآمد نجومی روز اول (۳.۷۹ میلیارد دلار)",
+       "اسلاید ۲: ۳۹ میلیون کاربر و ۶۸۳ میلیون ساعت گیم‌پلی",
+       "اسلاید ۳: انفجار فروش کنسول PS5 و کمبود در بازار",
+       "اسلاید ۴: مقایسه درآمد بازی با پرفروش‌ترین فیلم‌های تاریخ هالیوود",
+       "اسلاید ۵: چالش‌های آینده توسعه‌دهندگان علی‌رغم موفقیت"
+      ],
+      "visual_tip_fa": "استفاده از آرت‌ورک‌های رسمی بازی لوسیا و جیسون همراه با نمودارهای شکیل مقایسه‌ای."
+     }
+    ],
+    "hashtags": [
+     "#جی_تی_ای_۶",
+     "#پلی_استیشن",
+     "#گیمینگ",
+     "#راکستار",
+     "#اخبار_گیم",
+     "#GTA6",
+     "#PS5"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "46000d8ecd"
+  },
+  {
+   "title": "OpenAI employee who secretly recorded meetings allegedly affiliated with the Saudi government",
+   "url": "https://www.engadget.com/2326288/openai-employee-recorded-meetings-allegedly-affiliated-saudi-government/",
+   "source": "Engadget",
+   "published": "2026-11-24T09:24:09+00:00",
+   "origin": "Engadget",
+   "summary": "The OpenAI employee who was charged for implanting a recording device uploaded files to Dropbox and took photos of confidential files, prosecutors say.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/openai-employee-who-secretly-recorded-meetings-allegedly-affiliated-with-the-saudi-government/l-intro-1795509730.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/openai-employee-who-secretly-recorded-meetings-allegedly-affiliated-with-the-saudi-government/intro-1795509730.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 8,
+   "worthiness": 8,
+   "category": "safety_ethics",
+   "story_key": "openai-saudi-spy-allegations",
+   "topic_key": "openai-security-scandal",
+   "already_reported": false,
+   "viral": 8,
+   "title_fa": "رسوایی جاسوسی در اوپن‌ای‌آی: کارمند سابق به ضبط مخفیانه جلسات و ارتباط با عربستان متهم شد",
+   "one_liner_fa": "دادستان‌های آمریکا یک کارمند سابق اوپن‌ای‌آی (OpenAI) را به کار گذاشتن دستگاه شنود در جلسات و سرقت اسناد محرمانه به نفع دولت عربستان متهم کردند.",
+   "deep": {
+    "id": "f589d7cd78",
+    "title_fa": "رسوایی جاسوسی در اوپن‌ای‌آی: کارمند سابق به ضبط مخفیانه جلسات و ارتباط با عربستان متهم شد",
+    "summary_fa": "دادستان‌های ایالات متحده یکی از کارمندان سابق اوپن‌ای‌آی (OpenAI) به نام عبدالرحمن الفوزان را متهم کرده‌اند که پنهانی در جلسات شرکت ابزار شنود کار گذاشته و با افراد وابسته به دولت عربستان سعودی در ارتباط بوده است. این شخص با مخفی‌کردن دستگاه ضبط پشت تلویزیون اتاق کنفرانس مدیران، صدها فایل صوتی محرمانه حاوی اسرار تجاری را ضبط و بخشی از آن‌ها را روی دراپ‌باکس (Dropbox) ذخیره کرده بود. الفوزان همچنین با کمک هوش مصنوعی از جلسات متن‌برداری کرده و نام‌گذاری‌ها را انجام داده است. وی اتهام جاسوسی را رد کرده و تقاضای وثیقه یک میلیون دلاری دارد.",
+    "key_points_fa": [
+     "عبدالرحمن الفوزان (Abdulrahman Alfozan) در ماه اکتبر پس از کشف دستگاه شنود پشت تلویزیون اتاق جلسات اخراج و دستگیر شد.",
+     "دادستان‌ها اعلام کردند صدها فایل صوتی شامل جلسات سپتامبر ۲۰۲۶ روی سیستم او کشف شده که حاوی اسرار تجاری است.",
+     "متهم با ابزارهای هوش مصنوعی فایل‌های صوتی را به متن (Transcript) تبدیل و دسته‌بندی می‌کرده است.",
+     "تصاویری از اسناد محرمانه تحت عنوان «همکاری استراتژیک» در گوشی او پیدا شده است.",
+     "الفوزان سرقت اسرار به نفع عربستان را رد کرده و خواستار وثیقه یک میلیون دلاری برای آزادی موقت است."
+    ],
+    "why_it_matters_fa": "این ماجرا نشان می‌دهد که کورس رقابت غول‌های هوش مصنوعی وارد فاز حساس جاسوسی بین‌المللی شده و داده‌های محرمانه شرکت‌ها تا چه اندازه هدف سرویس‌های خارجی است.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "جاسوسی به سبک جیمز باند در مقر OpenAI!",
+      "hook_fa": "باورتون میشه پشت تلویزیون اتاق مدیران OpenAI دستگاه شنود کار گذاشته بودن؟! قضیه چیه؟",
+      "angle_fa": "روایت داستانی و پرهیجان از رخنه امنیتی در معتبرترین شرکت هوش مصنوعی دنیا.",
+      "outline_fa": [
+       "کشف عجیب دستگاه ضبط صدا پشت تلویزیون اتاق جلسات مدیران",
+       "هویت کارمند و پیاده‌سازی صداهای محرمانه با خود هوش مصنوعی",
+       "اتهام ارتباط با دولت عربستان و اسناد محرمانه لورفته",
+       "پیامد این ماجرا برای آینده امنیت داده در شرکت‌های فناوری"
+      ],
+      "visual_tip_fa": "استفاده از تصاویر گرافیکی لوگوی OpenAI همراه با آیکون‌های هشدار و دستگاه شنود، و اشاره به اسناد دادگاه."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "همه چیز درباره رسوایی امنیتی بزرگ در OpenAI",
+      "hook_fa": "چطور یک کارمند توانست اسرار تجاری خالق ChatGPT را پنهانی ضبط کند؟",
+      "angle_fa": "تحلیل گام‌به‌گام و دقیق از پرونده قضایی و نفوذ اطلاعاتی.",
+      "outline_fa": [
+       "اسلاید اول: خلاصه واقعه و جزئیات بازداشت",
+       "اسلاید دوم: اطلاعاتی که سرقت شد و استفاده از AI برای پیاده‌سازی صدا",
+       "اسلاید سوم: ارتباط مشکوک با افراد وابسته به عربستان سعودی",
+       "اسلاید چهارم: دفاعیه متهم و نظر قاضی پرونده"
+      ],
+      "visual_tip_fa": "تصاویر اسناد قضایی منتشرشده از سوی بلومبرگ و عکسی از مقر شرکت اوپن‌ای‌آی."
+     }
+    ],
+    "hashtags": [
+     "#اوپن_ای_ای",
+     "#هوش_مصنوعی",
+     "#امنیت_اطلاعات",
+     "#اخبار_تکنولوژی",
+     "#OpenAI",
+     "#CyberSecurity",
+     "#فناوری"
+    ],
+    "caution_fa": "پرونده هنوز در مرحله بررسی قضایی است و ارتباط قطعی متهم با سرویس‌های دولتی عربستان توسط دادگاه تأیید نهایی نشده و در قالب ادعای دادستانی مطرح است."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "f589d7cd78"
+  },
+  {
+   "title": "Honor teams up with cinema camera-maker Arri on the Magic 9 Pro Max",
+   "url": "https://www.engadget.com/2325316/honor-teams-up-with-cinema-camera-maker-arri-on-the-magic-9-pro-max/",
+   "source": "Engadget",
+   "published": "2026-11-24T09:00:00+00:00",
+   "origin": "Engadget",
+   "summary": "Honor's Magic 9 Pro Max looks familiar, doesn't it?",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/honor-teams-up-with-cinema-camera-maker-arri-on-the-magic-9-pro-max/l-intro-1795454552.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 5,
+   "category": "hardware_chips",
+   "story_key": "honor-arri-magic-9-pro-max",
+   "topic_key": "smartphone-releases",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "992844f957"
+  },
+  {
+   "title": "New York Bans Subscription and Post-Purchase Fees on Cars",
+   "url": "https://www.governor.ny.gov/news/money-your-pockets-governor-hochul-signs-bill-restricting-exploitative-vehicle-subscription",
+   "source": "governor.ny.gov",
+   "published": "2026-11-24T02:27:02+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 456 امتیاز، 176 کامنت",
+   "signal_value": 456,
+   "discussion_url": "https://news.ycombinator.com/item?id=50622774",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.governor.ny.gov/profiles/contrib/nygov/themes/custom/nygov-theme/storybook/assets/nygov-logo-share.png",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.governor.ny.gov/sites/default/files/styles/cover_image_660x400_/public/thumbnails/image/cars.cr_.jpg?h=b5f6a62e&itok=FV7N-hBe",
+     "origin": "og"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "policy_regulation",
+   "story_key": "ny-bans-car-feature-subscriptions",
+   "topic_key": "automotive-subscriptions",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "نیویورک دریافت حق اشتراک برای آپشن‌های خودرو را ممنوع کرد",
+   "one_liner_fa": "ایالت نیویورک با تصویب قانونی مهم، دریافت آبونمان ماهانه برای قابلیت‌های پیش‌فرض خودرو نظیر گرم‌کن صندلی را رسماً ممنوع کرد.",
+   "deep": {
+    "id": "d0f92b38f6",
+    "title_fa": "نیویورک دریافت حق اشتراک برای آپشن‌های خودرو را ممنوع کرد",
+    "summary_fa": "کتی هوکول (Kathy Hochul)، فرماندار نیویورک، لایحه‌ای را به امضا رساند که خودروسازان و نمایندگی‌ها را از دریافت هزینه‌های اشتراکی ماهانه بعد از خرید خودرو منع می‌کند. این مصوبه با هدف مقابله با سوءاستفاده شرکت‌ها به تصویب رسیده؛ اقدامی که مانع از قفل نرم‌افزاری امکانات فابریک خودرو مثل گرم‌کن صندلی یا امکانات پایه و فروش مجدد آن‌ها به صورت آبونمانی می‌شود. این تصمیم می‌تواند الگویی برای حمایت از مالکیت واقعی خریداران در برابر سیاست‌های سودجویانه باشد.",
+    "key_points_fa": [
+     "امضای لایحه رسمی توسط کتی هوکول، فرماندار ایالت نیویورک.",
+     "ممنوعیت کامل شرکت‌های خودروسازی و نمایندگی‌ها از دریافت اشتراک ماهانه یا هزینه‌های بعد از خرید خودرو.",
+     "جلوگیری از رفتارهای استثماری خودروسازان در قفل کردن نرم‌افزاری امکانات سخت‌افزاری ماشین."
+    ],
+    "why_it_matters_fa": "شکستی بزرگ برای شرکت‌هایی است که تلاش می‌کردند فرهنگ هزینه‌های اشتراکی نرم‌افزار را به اجزای فیزیکی و قطعات خودرو تحمیل کنند.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "پایان باج‌گیری خودروسازها از مردم؟",
+      "hook_fa": "ماشین خریدی ولی برای گرم شدن صندلیش باید ماهانه اشتراک بخری؟! نیویورک جلوشون واستاد!",
+      "angle_fa": "بررسی اعتراضی روند مسخره اشتراکی‌کردن آپشن‌های خودرو و پیروزی حقوق مصرف‌کننده.",
+      "outline_fa": [
+       "داستان مسخره خودروسازها مثل اشتراک گرم‌کن صندلی یا شتاب بیشتر",
+       "تصمیم جدید و تاریخی نیویورک برای غیرقانونی کردن آن",
+       "پیامدهای این قانون برای بازار جهانی خودرو و سایر ایالت‌ها"
+      ],
+      "visual_tip_fa": "تصاویر پنل نرم‌افزاری خودروهای مدرن با آیکون‌های قفل و پیام هشدار در کنار چهره معترض خریداران."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "چرا اشتراک ماهانه آپشن‌های خودرو غیرقانونی شد؟",
+      "hook_fa": "ماشینی که خریدی واقعاً مال خودته یا ماهانه اجاره‌اش کردی؟",
+      "angle_fa": "بحث مالکیت داده و سخت‌افزار در عصر فناوری مدرن.",
+      "outline_fa": [
+       "اسلاید اول: معرفی پدیده زشت قفل نرم‌افزاری روی خودروها",
+       "اسلاید دوم: قانون جدید فرماندار نیویورک چه می‌گوید؟",
+       "اسلاید سوم: کدام خودروسازان هدف اصلی این قانون هستند؟",
+       "اسلاید چهارم: چرا خریداران باید مالک ۱۰۰٪ امکانات خودرو باشند؟"
+      ],
+      "visual_tip_fa": "اینفوگرافیک با تصاویر خودروهای لوکس و قطعات قفل‌شده مثل ریموت، شتاب و صندلی گرم‌کن."
+     }
+    ],
+    "hashtags": [
+     "#صنعت_خودرو",
+     "#ماشین",
+     "#تکنولوژی",
+     "#حقوق_مصرف_کننده",
+     "#فناوری",
+     "#TechNews"
+    ],
+    "caution_fa": "این قانون مربوط به ایالت نیویورک است و ممکن است قوانین سایر کشورها یا ایالت‌ها بلافاصله همگام نشود."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "d0f92b38f6"
+  },
+  {
+   "title": "2035 Came Early",
+   "url": "https://fzakaria.com/2026/11/23/2035-came-early",
+   "source": "fzakaria.com",
+   "published": "2026-11-24T06:30:33+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 382 امتیاز، 139 کامنت",
+   "signal_value": 382,
+   "discussion_url": "https://news.ycombinator.com/item?id=50624497",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 4,
+   "category": "other_tech",
+   "story_key": "2035-came-early-essay",
+   "topic_key": "tech-future-debates",
+   "already_reported": false,
+   "viral": 3,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "70e8b292ce"
+  },
+  {
+   "title": "India's opposition storms Meta's offices to get its Instagram accounts back",
+   "url": "https://korben.info/en/india-opposition-storms-meta-offices-instagram-accounts.html",
+   "source": "korben.info",
+   "published": "2026-11-24T06:28:04+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 208 امتیاز، 93 کامنت",
+   "signal_value": 208,
+   "discussion_url": "https://news.ycombinator.com/item?id=50624487",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "big_tech",
+   "story_key": "india-opposition-storms-meta-office",
+   "topic_key": "meta-political-censorship",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "حمله معترضان اپوزیسیون هند به دفاتر متا بر سر تعلیق حساب‌های اینستاگرام",
+   "one_liner_fa": "اعضای حزب مخالف دولت هند در واکنش به مسدود شدن صفحات اینستاگرام خود، به دفاتر شرکت متا (Meta) در این کشور هجوم بردند.",
+   "deep": {
+    "id": "beca06c30d",
+    "title_fa": "حمله معترضان اپوزیسیون هند به دفاتر متا بر سر تعلیق حساب‌های اینستاگرام",
+    "summary_fa": "نیروهای وابسته به احزاب اپوزیسیون در هند در اقدامی اعتراضی به دفاتر شرکت متا (Meta) هجوم برده‌اند تا حساب‌های مسدودشده اینستاگرام خود را پس بگیرند. این تنش در پی مسدودسازی و محدودیت حساب‌های کاربری فعالان سیاسی شکل گرفته است. این رویداد در میان محافل فناوری بازتاب داشته اما هنوز جزئیات رسمی درباره خسارت‌ها یا واکنش مدیران متا به صورت کامل منتشر نشده است.",
+    "key_points_fa": [
+     "حمله فیزیکی اعضای اپوزیسیون هند به دفاتر شرکت متا (Meta).",
+     "اعتراض به تعلیق، سانسور و توقیف صفحات اینستاگرام وابسته به مخالفان سیاسی.",
+     "بازتاب گسترده موضوع در میان جامعه توسعه‌دهندگان و کاربران فضای مجازی."
+    ],
+    "why_it_matters_fa": "این اقدام نشان می‌دهد تصمیمات الگوریتمی یا نظارتی غول‌های فناوری چگونه می‌تواند به ناآرامی‌های فیزیکی در جهان واقعی و تنش با جریان‌های سیاسی تبدیل شود.",
+    "content_ideas": [
+     {
+      "format": "استوری",
+      "title_fa": "وقتی سانسور مجازی به درگیری فیزیکی کشیده شد!",
+      "hook_fa": "شنیدید توی هند معترضان ریختن تو دفاتر شرکت متا تا پیج‌های اینستاگرامشون رو پس بگیرن؟!",
+      "angle_fa": "پوشش فوری و تعاملی ماجرا همراه با نظرسنجی درباره سانسور سیاسی در شبکه‌های اجتماعی.",
+      "outline_fa": [
+       "روایت تیتر خبر و حمله به دفاتر متا",
+       "علت درگیری: مسدود شدن صفحات اپوزیسیون",
+       "نظرسنجی: آیا شبکه‌های اجتماعی باید در سیاست مداخله کنند؟"
+      ],
+      "visual_tip_fa": "لوگوی شکسته اینستاگرام یا متا به همراه استیکر کوئسشن‌باکس درباره تجربه بلاک شدن."
+     },
+     {
+      "format": "پست",
+      "title_fa": "بحران جدید زاکربرگ در هند: هجوم به دفاتر متا",
+      "hook_fa": "متا چگونه با تصمیماتش درباره پیج‌های اینستاگرام، خشم معترضان هندی را برافروخت؟",
+      "angle_fa": "بررسی خطرات مداخله پلتفرم‌ها در فضای دموکراسی و عواقب اجتماعی آن.",
+      "outline_fa": [
+       "توضیح رویداد و علت هجوم به دفتر متا",
+       "سابقه درگیری پلتفرم‌ها با احزاب سیاسی در آسیا",
+       "مسئولیت پلتفرم‌ها در حفظ بی‌طرفی و مدیریت محتوا"
+      ],
+      "visual_tip_fa": "استفاده از تمپلیت گرافیکی خشن و تاریک با عکس دفتر متا و پرچم هند."
+     }
+    ],
+    "hashtags": [
+     "#اینستاگرام",
+     "#متا",
+     "#آزادی_بیان",
+     "#سانسور",
+     "#Instagram",
+     "#Meta",
+     "#اخبار_فناوری"
+    ],
+    "caution_fa": "متن گزارش اولیه بسیار کوتاه بوده و هنوز بیانیه رسمی شرکت متا یا جزئیات دقیق خسارت‌ها اعلام نشده است؛ از بزرگ‌نمایی پرهیز شود."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "beca06c30d"
+  },
+  {
+   "title": "Investigation of Polymarket Insider Trading on the Reinstatement of Jensen Huang",
+   "url": "https://deucalionn.vercel.app/polymarket-delit-initie-jensen-huang-nvidia/",
+   "source": "deucalionn.vercel.app",
+   "published": "2026-11-24T11:13:55+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 202 امتیاز، 99 کامنت",
+   "signal_value": 202,
+   "discussion_url": "https://news.ycombinator.com/item?id=50626578",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 6,
+   "category": "business_funding",
+   "story_key": "polymarket-insider-trading-jensen-huang",
+   "topic_key": "nvidia-leadership-crisis",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "ردپای رانت اطلاعاتی در بازگشت جنسان هوانگ؛ جنجال شرط‌بندی میلیونی در پالی‌مارکت",
+   "one_liner_fa": "بررسی تراکنش‌های پلتفرم پالی‌مارکت (Polymarket) نشان می‌دهد برخی کاربران پیش از اعلام عمومی بازگشت هوانگ به انویدیا، با اطلاعات نهانی سودهای کلان کسب کرده‌اند.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "796c738a59"
+  },
+  {
+   "title": "NariQ: BF16-level Qwen3.8-27B in a 10 GB file",
+   "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
+   "source": "huggingface.co",
+   "published": "2026-11-23T13:42:38+00:00",
+   "origin": "Hacker News",
+   "summary": "We built NariQ: 3-bit-or-lower quantizations of Qwen3.8-27B that retain near-BF16 quality across agentic tasks, math, multilingual reasoning, and image understanding. To our knowledge, this is the first 3-bit-or-lower quantization that retains BF16 lvl performance on long-horizon agentic tasks. Benchmarks (BF16 / 3-bit / 2.5-bit / 2-bit): - DeepSWE: 39.8 / 41.0 / 41.9 / 28.6 - Terminal-Bench 2.1: 62.6 / 63.8 / 60.2 / 52.4 - AIME 25+26: 97.7 / 98.3 / 96.5 / 86.0 - MSGM: 94.0 / 93.1 / 91.8 / 90.6 - RealWorldQA: 82.4 / 82.4 / 81.3 / 80.9 Decode speed is comparable to other quants on an RTX PRO 60",
+   "lang": "en",
+   "signal": "Hacker News: 175 امتیاز، 35 کامنت",
+   "signal_value": 175,
+   "discussion_url": "https://news.ycombinator.com/item?id=50611402",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/nari-labs/Qwen3.8-27B-NariQ-GGUF.png",
+     "origin": "og"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "open_source",
+   "story_key": "nariq-3bit-qwen-quantization",
+   "topic_key": "local-llm-quantization",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "مدل NariQ: اجرای مدل ۲۷ میلیارد پارامتری Qwen در یک فایل ۱۰ گیگابایتی!",
+   "one_liner_fa": "پروژه متن‌باز NariQ موفق شد با کوانتیزاسیون ۳ بیتی، مدل Qwen3.8-27B را بدون افت محسوس دقت به یک فایل ۱۰ گیگابایتی برای سیستم‌های خانگی تبدیل کند.",
+   "deep": {
+    "id": "81ecb7742e",
+    "title_fa": "مدل NariQ: اجرای مدل ۲۷ میلیارد پارامتری Qwen در یک فایل ۱۰ گیگابایتی!",
+    "summary_fa": "آزمایشگاه ناری (Nari Labs) نسخه کوانتیزه‌شده‌ای از مدل چندرسانه‌ای Qwen3.8-27B را با عنوان NariQ در پلتفرم هاگینگ فیس (Hugging Face) در دسترس قرار داده است. این دستاورد فنی موفق شده مدلی با ۲۷ میلیارد پارامتر را در یک فایل فشرده حدود ۱۰ گیگابایتی با فرمت GGUF جا دهد، در حالی که کیفیتی هم‌رده با دقت BF16 ارائه می‌کند. این مدل توانایی پردازش هم‌زمان متن و تصویر را دارد و امکان اجرای محلی چنین ابزار قدرتمندی را روی سخت‌افزارهای عادی به واقعیت تبدیل می‌کند.",
+    "key_points_fa": [
+     "مدل پایه Qwen3.8-27B با ۲۷ میلیارد پارامتر و پشتیبانی از ورودی و خروجی تصویر و متن (Image-Text-to-Text).",
+     "کاهش چشمگیر حجم فایل مدل به حدود ۱۰ گیگابایت به لطف متد کوانتیزاسیون NariQ.",
+     "حفظ دقتی مشابه فرمت با دقت بالای BF16 علی‌رغم کاهش شدید حجم.",
+     "انتشار در فرمت محبوب GGUF برای اجرا روی ابزارهای محلی مانند llama.cpp و Ollama.",
+     "عرضه رسمی و امکان دانلود مستقیم از طریق پلتفرم Hugging Face."
+    ],
+    "why_it_matters_fa": "دیگر نیازی به سرورهای فوق‌گران‌قیمت برای تست مدل‌های چندرسانه‌ای ۲۷ میلیاردی نیست و گیمرها و برنامه‌نویس‌ها می‌توانند آن را مستقیماً روی سیستم خانگی بالا بیاورند.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "اجرای مدل هوش مصنوعی ۲۷ میلیاردی روی کارت گرافیک معمولی!",
+      "hook_fa": "مگه میشه یک مدل غول‌پیکر بینایی و متنی رو توی فقط ۱۰ گیگ جا داد؟! این مدل جدید اومده!",
+      "angle_fa": "آموزش و معرفی هیجان‌انگیز ابزاری جذاب برای افراد فنی و کنجکاو هوش مصنوعی.",
+      "outline_fa": [
+       "معرفی مدل NariQ و کارکرد Image-to-Text آن",
+       "معجزه کوانتیزیشن و حجم تنها ۱۰ گیگابایت با دقت BF16",
+       "نحوه دانلود از هاگینگ فیس و اجرا با ابزارهای لوکال",
+       "دعوت به تست و ارسال نظر در کامنت‌ها"
+      ],
+      "visual_tip_fa": "فیلم اسکرین‌رکورد از باز کردن صفحه Hugging Face مدل و بنچمارک‌های خروجی متن و تصویر."
+     },
+     {
+      "format": "استوری",
+      "title_fa": "یک ابزار رایگان و سبک برای سیستم‌های شخصی!",
+      "hook_fa": "اگه می‌خواید روی سیستمتون یک هوش مصنوعی کاردرست داشته باشید، این مدل ۱۰ گیگی رو ببینید!",
+      "angle_fa": "پیشنهاد ابزاری سریع با ارجاع به لینک برای دانلود مستقیم.",
+      "outline_fa": [
+       "اسلاید ۱: معرفی NariQ Qwen3.8-27B",
+       "اسلاید ۲: مقایسه حجم و کیفیت استثنایی آن",
+       "اسلاید ۳: استیکر لینک صفحه هاگینگ فیس"
+      ],
+      "visual_tip_fa": "عکس کاور مدل در هاگینگ فیس همراه با مشخصات و لینک استوری."
+     }
+    ],
+    "hashtags": [
+     "#هوش_مصنوعی",
+     "#اوپن_سورس",
+     "#تکنولوژی",
+     "#کارت_گرافیک",
+     "#هاگینگ_فیس",
+     "#AI",
+     "#HuggingFace",
+     "#Qwen"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "81ecb7742e"
+  },
+  {
+   "title": "Motion Mamba 2.0: Autoregressive Diffusion Mamba for Long-Horizon Humanoid Control",
+   "url": "https://huggingface.co/papers/2611.29897",
+   "source": "Hugging Face Papers",
+   "published": "2026-11-22T19:00:00+00:00",
+   "origin": "Hugging Face Papers",
+   "summary": "Long-horizon, real-time controllable motion generation is essential for interactive animation and humanoid robotics, where an agent must respond to changing instructions and spatial goals while moving. Existing autoregressive diffusion methods generate motion incrementally, but bounded attention caches limit access to distant history, while repeated denoising introduces substantial inference overhead. We present Motion Mamba 2.0, a Mamba-based root-body diffusion architecture that integrates local attention, resumable recurrent states, and persistent content memory (PCM) for long-horizon controllable motion generation. PCM transforms compressed motion history from Mamba recurrent states, together with state changes and text-conditioned features, into dynamically updated content slots accessible to local attention. To enable efficient inference, we further develop an execution scheme tail",
+   "lang": "en",
+   "signal": "Hugging Face: 128 رأی",
+   "signal_value": 128,
+   "discussion_url": "https://github.com/AIGeeksGroup/MotionMamba2.0",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.29897.png",
+     "origin": "hf"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 4,
+   "category": "research",
+   "story_key": "motion-mamba-2-humanoid-control",
+   "topic_key": "robotics-motion-generation",
+   "already_reported": false,
+   "viral": 3,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "a90a868b5e"
+  },
+  {
+   "title": "Embo-Harness: Towards Understanding Frontier-Model-as-Policy Harness",
+   "url": "https://huggingface.co/papers/2611.31201",
+   "source": "Hugging Face Papers",
+   "published": "2026-11-22T19:00:00+00:00",
+   "origin": "Hugging Face Papers",
+   "summary": "Frontier multimodal models exhibit extraordinary generalization in generating robot actions from observations and instructions, enabling a new paradigm in which they serve directly as policies within closed-loop robotic harnesses. However, the design principles of such harnesses, and the capabilities underlying their strong performance, remain unclear. We present Embo-Harness, a framework for systematically studying frontier-model-as-policy harnesses. We investigate four components of the robotic agentic loop, namely, prompting, planning, action execution, and tool use, and distill six empirical findings into a practical recipe. This recipe prioritizes interfaces that exploit the model's native visual reasoning and tool-use capabilities over handcrafted plans, skills, or action priors, and identifies effective choices for action representation, chunking, reasoning effort, visual observat",
+   "lang": "en",
+   "signal": "Hugging Face: 84 رأی",
+   "signal_value": 84,
+   "discussion_url": "https://github.com/DravenALG/Embo-Harness",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.31201.png",
+     "origin": "hf"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 4,
+   "category": "research",
+   "story_key": "embo-harness-robot-policy",
+   "topic_key": "robotics-control-frameworks",
+   "already_reported": false,
+   "viral": 2,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "4b17f79747"
+  },
+  {
+   "title": "WeMM-Ecom: Advancing Multimodal Content Understanding for WeChat E-Commerce",
+   "url": "https://huggingface.co/papers/2611.30662",
+   "source": "Hugging Face Papers",
+   "published": "2026-11-22T19:00:00+00:00",
+   "origin": "Hugging Face Papers",
+   "summary": "We present WeMM-Ecom, a family of multimodal large language models that deliver frontier e-commerce capabilities while achieving state-of-the-art general-purpose performance at their respective scales. The family spans five sizes, from a 0.8B dense model to a 35B mixture-of-experts model with 3B active parameters. Our training pipeline begins with two-stage continued pre-training that progressively raises the proportion of e-commerce data within a diverse multimodal data mixture, followed by hybrid-thinking post-training that combines on-policy distillation and reinforcement learning to support both non-thinking and thinking modes. For evaluation, we construct a comprehensive suite of 28 e-commerce benchmarks (23 in-house and five open-source) covering eight business scenarios and complement it with 64 public general-purpose benchmarks. On the e-commerce suite, WeMM-Ecom-35B-A3B surpasse",
+   "lang": "en",
+   "signal": "Hugging Face: 54 رأی",
+   "signal_value": 54,
+   "discussion_url": "https://github.com/Tencent/WeMM-Ecom",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.30662.png",
+     "origin": "hf"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 3,
+   "category": "model_release",
+   "story_key": "wemm-ecom-multimodal-family",
+   "topic_key": "ecommerce-multimodal-ai",
+   "already_reported": false,
+   "viral": 2,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "80b6d0407b"
+  },
+  {
+   "title": "3AGameFactory-Motion: Agentic Rigging and Reliable Complex Motion Generation for Diverse 3D Assets",
+   "url": "https://huggingface.co/papers/2611.30013",
+   "source": "Hugging Face Papers",
+   "published": "2026-11-22T19:00:00+00:00",
+   "origin": "Hugging Face Papers",
+   "summary": "Animating arbitrary 3D assets from instructions requires both structural inference and motion control, yet existing motion benchmarks mostly cover conventional human or animal skeletons with simple instructions. We introduce DivDynBench, which evaluates rigging and motion generation across six morphology categories, with instructions requiring multi-phase part coordination and explicit timing, angle, repetition, and trajectory constraints. With large language models, we systematically compare three common paradigms: specialized motion generation, video generation followed by motion recovery, and direct agent-driven generation. We analyze their control capabilities, cross-morphology adaptability, and generation costs. Guided by this comparison, we propose an Agentic Motion Framework in which an agent writes compact parametric skeleton and motion programs, and a deterministic executor perf",
+   "lang": "en",
+   "signal": "Hugging Face: 48 رأی",
+   "signal_value": 48,
+   "discussion_url": "https://github.com/OpenDCAI/GameFactory-3A",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.30013.png",
+     "origin": "hf"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 5,
+   "category": "research",
+   "story_key": "3agamefactory-motion-rigging",
+   "topic_key": "ai-3d-animation",
+   "already_reported": false,
+   "viral": 3,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "71d7a8ddbc"
+  },
+  {
+   "title": "WorldLeague: Benchmarking Physical Agency",
+   "url": "https://huggingface.co/papers/2611.30989",
+   "source": "Hugging Face Papers",
+   "published": "2026-11-22T19:00:00+00:00",
+   "origin": "Hugging Face Papers",
+   "summary": "AI systems can now operate Blender, follow instructions in complex video games, and manipulate objects with robot arms. What range of physical goals can today's AI systems achieve autonomously? Answering this question requires testing systems on tasks that demand different combinations of perception, memory, planning, and action. We introduce WorldLeague, a benchmark that compares AI systems on a common set of 60 simulated robot tasks by measuring progress toward each task's physical goal from the robot's trajectory. Robots explore scenes to gather evidence in WorldSeek, rearrange objects in WorldShape, and adapt to changes in WorldShift. Tying these goals to a single control interface limits which AI systems can be compared. In WorldLeague, vision-language models (VLMs) choose targets and motions, while vision-language-action models (VLAs) and world-action models (WAMs) use their native",
+   "lang": "en",
+   "signal": "Hugging Face: 36 رأی",
+   "signal_value": 36,
+   "discussion_url": "https://github.com/xyangzhou/WorldLeague",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.30989.png",
+     "origin": "hf"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 3,
+   "category": "research",
+   "story_key": "worldleague-physical-agency-benchmark",
+   "topic_key": "embodied-ai-benchmarks",
+   "already_reported": false,
+   "viral": 2,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "316e6b12da"
+  },
+  {
+   "title": "A Glimpse of Training VLMs as Foundation Models for Robotic Manipulation",
+   "url": "https://huggingface.co/papers/2611.29338",
+   "source": "Hugging Face Papers",
+   "published": "2026-11-21T19:00:00+00:00",
+   "origin": "Hugging Face Papers",
+   "summary": "Recently, GPT-6 Astra demonstrates strong generalization in robot control, yet limited disclosure of its training leaves open how such capabilities can be reproduced. We introduce nanoAstra, an approach to training vision-language models (VLMs) for generalizable manipulation that combines semantic action modeling with capability-preserving supervised fine-tuning (CP-SFT). nanoAstra represents robot behavior as semantic steps composed of reusable, parameterized action primitives, guided by explicit progress descriptions. Meanwhile, CP-SFT uses an explicit robot-specific system prompt to constrain manipulation outputs to a structured action space, aiming to focus adaptation on robot-specific contexts and promote specialization while minimizing interference with broader pretrained capabilities. With this formulation, we train nanoAstra on more than 5,000 hours of robot data together with ge",
+   "lang": "en",
+   "signal": "Hugging Face: 34 رأی",
+   "signal_value": 34,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.29338.png",
+     "origin": "hf"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 4,
+   "category": "research",
+   "story_key": "nanoastra-vlm-robotics-training",
+   "topic_key": "gpt-6-astra-reproduction",
+   "already_reported": false,
+   "viral": 3,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "4dd7557615"
+  },
+  {
+   "title": "World Models as Native Latent Action Models",
+   "url": "https://huggingface.co/papers/2611.30898",
+   "source": "Hugging Face Papers",
+   "published": "2026-11-22T19:00:00+00:00",
+   "origin": "Hugging Face Papers",
+   "summary": "Large and diverse video sources, such as egocentric human video and heterogeneous robot recordings, carry rich dynamics but come either without actions or without a shared action space. Latent action models (LAMs) can recover these dynamics, but they train their inverse- and forward-dynamics models (IDM, FDM) from scratch, trading off pixel reconstruction against latent capacity and accuracy. Pretrained video world models natively generate high-fidelity dynamics, yet represent them densely, entangled across all layers. Viewing the world model as a LAM, we show that these dynamics can be extracted with minimal changes to the model. Native LAM operates one pretrained video diffusion transformer as both IDM and FDM, with learnable dynamics registers as the only causal bridge between the two, and trains on counterfactual temporal pairs that differ in motion alone, so that the registers disti",
+   "lang": "en",
+   "signal": "Hugging Face: 20 رأی",
+   "signal_value": 20,
+   "discussion_url": "https://pawteam-eai.github.io/native-lam/",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.30898.png",
+     "origin": "hf"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 3,
+   "category": "research",
+   "story_key": "world-models-latent-action-models",
+   "topic_key": "video-world-models",
+   "already_reported": false,
+   "viral": 2,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "db5a7352d8"
+  }
+ ],
+ "failed_sources": [],
+ "models": [
+  "gemini-3.8-flash",
+  "gemini-3.8-flash"
+ ]
+}
