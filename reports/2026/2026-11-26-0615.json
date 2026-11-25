@@ -1,0 +1,1296 @@
+{
+ "content": [
+  {
+   "title": "Character.AI’s plan to auction off users’ private chats challenged by state AGs",
+   "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+   "source": "TechCrunch",
+   "published": "2026-11-25T17:35:58+00:00",
+   "origin": "TechCrunch",
+   "summary": "The proposed Character.ai bankruptcy sale includes sensitive personal data from more than 21 million U.S. accounts, including 2.1 million registered to minors, the state AGs said.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2024/06/Character-Calls-Image-feat.jpg?resize=1200,675",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2021/01/lwzxxnshgj71bonwbik3.jpg.jpg?w=150",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 8,
+   "worthiness": 9,
+   "category": "safety_ethics",
+   "story_key": "character-ai-auction-private-chats",
+   "topic_key": "character-ai-crisis",
+   "already_reported": false,
+   "viral": 9,
+   "title_fa": "تلاش برای حراج چت‌های خصوصی کاربران Character.AI و شکایت ۴۲ ایالت آمریکا",
+   "one_liner_fa": "دادستان‌های آمریکا علیه پلتفرم Character.AI وارد عمل شدند که قصد داشت در حراجی ورشکستگی، چت‌های خصوصی بیش از ۲۱ میلیون کاربر از جمله ۲ میلیون کودک را به فروش بگذارد.",
+   "deep": {
+    "id": "9241987731",
+    "title_fa": "تلاش برای حراج چت‌های خصوصی کاربران Character.AI و شکایت ۴۲ ایالت آمریکا",
+    "summary_fa": "استارتاپ کرکتر ای‌آی (Character.AI) پس از اعلام ورشکستگی ذیل فصل ۱۱ در اکتبر، قصد دارد داده‌های حساس کاربران شامل تاریخچه چت‌های خصوصی آنها را به بالاترین پیشنهاد حراج کند. ائتلافی از دادستان‌های کل ۴۲ ایالت آمریکا با ورود به دادگاه تلاش دارند جلوی این اقدام را بگیرند. به گفته این مقامات، این داده‌ها شامل تاریخچه گفت‌وگوهای بیش از ۲۱ میلیون حساب کاربری آمریکایی است که بیش از ۲.۱ میلیون از آن‌ها متعلق به افراد زیر سن قانونی است.",
+    "key_points_fa": [
+     "شرکت Character.AI در اکتبر تحت فصل ۱۱ اعلام ورشکستگی کرد.",
+     "ائتلافی از دادستان‌های کل ۴۲ ایالت آمریکا از جمله کالیفرنیا و کنتیکت وارد پرونده شدند تا حراج را متوقف کنند.",
+     "مجموعه داده‌ها شامل تاریخچه چت بیش از ۲۱ میلیون حساب آمریکایی و ۲.۱ میلیون کودک و نوجوان، به همراه آی‌پی‌هاست.",
+     "تنها خریدار علنی شده تا کنون شرکتی به نام Smirks and Pangs Acquisition LLC است که ۱۳ نوامبر ۲۰۲۶ تأسیس شده است.",
+     "حراج برای تاریخ ۱ دسامبر برنامه‌ریزی شده و قرارداد قبلی ۲۰ میلیون دلاری دیزنی برای پتنت‌ها هم هنوز تایید نهایی نگرفته است."
+    ],
+    "why_it_matters_fa": "این اتفاق زنگ خطری جدی درباره سرنوشت چت‌ها و اعترافات خصوصی کاربران در چت‌بات‌ها پس از ورشکستگی استارتاپ‌هاست و اثبات می‌کند حریم خصوصی هوش مصنوعی چقدر شکننده است.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "چت‌های خصوصیت با هوش مصنوعی حراج شد؟!",
+      "hook_fa": "اگه شرکت هوش مصنوعی ورشکست بشه، چت‌های خصوصی شما چی میشه؟ به بالاترین قیمت فروخته میشن!",
+      "angle_fa": "هشدار درباره چت‌های شخصی و درددل با چت‌بات‌ها و آنچه بعد از ورشکستگی شرکت‌ها رخ می‌دهد.",
+      "outline_fa": [
+       "طرح سوال شوکه‌کننده درباره چت‌های خصوصی کاربران با کاراکترهای مجازی",
+       "روایت ورشکستگی Character.AI و تصمیمش برای حراج اطلاعات ۲۱ میلیون کاربر به یک خریدار ناشناس",
+       "واکنش دادستان‌های ۴۲ ایالت آمریکا برای توقف این کار غیرقانونی",
+       "نتیجه‌گیری: هیچ‌وقت اطلاعات به شدت محرمانه و احساسی خودتون رو به چت‌بات‌ها نگید"
+      ],
+      "visual_tip_fa": "نمایش اسکرین‌شات از محیط Character.AI و تصویر دادخواست دادستانی با افکت هشدار قرمز و متن متحرک حراج اطلاعات."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "رسوایی بزرگ Character.AI: چت‌های کاربران زیر چکش حراج!",
+      "hook_fa": "بزرگترین خیانت در حریم خصوصی دنیای هوش مصنوعی رقم خورد!",
+      "angle_fa": "تحلیل ابعاد حقوقی و امنیتی فروش دیتای حساس کودکان و نوجوانان توسط پلتفرم‌های هوش مصنوعی.",
+      "outline_fa": [
+       "اسلاید ۱: اصل ماجرا؛ ورشکستگی Character.AI و تصمیم برای حراج چت‌ها",
+       "اسلاید ۲: آمار شوکه‌کننده؛ ۲۱ میلیون حساب، ۲.۱ میلیون کودک، آی‌پی و پیام‌ها",
+       "اسلاید ۳: خریدار مرموز و عدم تعهد به حفظ حریم خصوصی کاربران",
+       "اسلاید ۴: واکنش ایالت‌ها و سوابق تلخ این پلتفرم در خودکشی نوجوانان",
+       "اسلاید ۵: راهکارهای کاربردی برای حذف ردپا و محافظت از خود در ابزارهای هوش مصنوعی"
+      ],
+      "visual_tip_fa": "اسلایدهای تیره و نئونی با استفاده از گرافیک چکش حراج، اسکرین‌شات تیتر TechCrunch و آمار تفکیک‌شده کاربران."
+     }
+    ],
+    "hashtags": [
+     "#هوش_مصنوعی",
+     "#امنیت_اطلاعات",
+     "#حریم_خصوصی",
+     "#هوش_مصنوعی_فارسی",
+     "#CharacterAI",
+     "#AIprivacy",
+     "#تکنولوژی"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "9241987731"
+  },
+  {
+   "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
+   "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+   "source": "TechCrunch",
+   "published": "2026-11-25T18:11:46+00:00",
+   "origin": "TechCrunch",
+   "summary": "New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2237660127.jpg?resize=1200,800",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2025/04/RebeccaBellan_default-large-1-e1787760589727.jpg?w=150",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 8,
+   "category": "policy_regulation",
+   "story_key": "ny-bans-ai-toys",
+   "topic_key": "ai-safety-regulation",
+   "already_reported": false,
+   "viral": 8,
+   "title_fa": "ممنوعیت ۵ ساله فروش اسباب‌بازی‌های هوش مصنوعی در نیویورک",
+   "one_liner_fa": "ایالت نیویورک به خاطر نگرانی‌های جدی درباره امنیت محتوا و آسیب به رشد عاطفی کودکان، فروش اسباب‌بازی‌های مجهز به چت‌بات‌های هوش مصنوعی را تا ۵ سال ممنوع کرد.",
+   "deep": {
+    "id": "c2211ba4f6",
+    "title_fa": "ممنوعیت ۵ ساله فروش اسباب‌بازی‌های هوش مصنوعی در نیویورک",
+    "summary_fa": "کتی هوکول، فرماندار نیویورک، لایحه‌ای را امضا کرد که تولید، توزیع و فروش اسباب‌بازی‌های مجهز به چت‌بات‌های هوش مصنوعی را برای ۵ سال آینده ممنوع می‌کند. نیویورک بعد از کالیفرنیا دومین ایالتی است که چنین تصمیمی می‌گیرد. این اقدام به دنبال گزارش‌های موسسه «Common Sense Media» صورت گرفت که نشان می‌داد برخی از این اسباب‌بازی‌ها مانند BubblePal Panda به سناریوهای خطرناک مثل تیراندازی دسته‌جمعی یا یافتن چاقو و قرص پاسخ مثبت داده‌اند.",
+    "key_points_fa": [
+     "نیویورک دومین ایالت آمریکا پس از کالیفرنیا شد که فروش اسباب‌بازی‌های دارای چت‌بات هوش مصنوعی را ممنوع کرد.",
+     "این قانون یک دوره ممنوعیت ۵ ساله ایجاد می‌کند و ۹۰ روز پس از امضا اجرایی خواهد شد.",
+     "جریمه نقض این قانون روزانه ۱۵ هزار دلار تعیین شده است.",
+     "بر اساس تحقیقات، اسباب‌بازی‌هایی مانند BubblePal Panda بازی نقش‌آفرینی تیراندازی جمعی را اجرا کرده و وسایل خطرناک را به کودکان آموزش داده‌اند.",
+     "یک‌چهارم والدین آمریکایی دارای کودکان زیر ۸ سال این اسباب‌بازی‌ها را دارند یا قصد خرید آنها را داشتند."
+    ],
+    "why_it_matters_fa": "ورود بی‌ضابطه هوش مصنوعی به اسباب‌بازی‌های تعاملی می‌تواند خطرات روانی و ایمنی بزرگی برای کودکان ایجاد کند و این ممنوعیت زنگ خطر جدی برای والدین است.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "چرا نیویورک اسباب‌بازی‌های هوش مصنوعی رو ممنوع کرد؟",
+      "hook_fa": "عروسک‌هایی که به بچه‌ها یاد میدن چاقو کجاست! نیویورک رسماً این اسباب‌بازی‌ها رو ممنوع کرد.",
+      "angle_fa": "هشدار به والدین درباره خطرات چت‌بات‌ها در وسایل بازی کودکان و دلایل تصمیم سریع قانون‌گذاران.",
+      "outline_fa": [
+       "نشان دادن ظاهر جذاب و فریبنده اسباب‌بازی‌های سخنگوی هوش مصنوعی",
+       "بررسی پرونده و نتایج آزمایش موسسه کامن سنس مدیا و اجرای سناریوی تیراندازی توسط عروسک",
+       "معرفی قانون جریمه ۱۵ هزار دلاری در روز در ایالت نیویورک",
+       "توصیه به مخاطبان درباره نظارت دقیق روی تکنولوژی‌هایی که به خانه می‌برند"
+      ],
+      "visual_tip_fa": "تصاویر اسباب‌بازی‌های هوش مصنوعی تست‌شده (مثل BubblePal یا ربات‌های نرم)، ترکیب با متون قرمز هشداردهنده."
+     },
+     {
+      "format": "پست",
+      "title_fa": "خطرات پنهان هوش مصنوعی برای کودکان",
+      "hook_fa": "هدیه‌ای خطرناک در پوشش یک عروسک مهربان؛ چرا تکنولوژیست‌ها نگران نسل جدید هستند؟",
+      "angle_fa": "بررسی روان‌شناختی و ایمنی استفاده کودکان از چت‌بات‌ها و درس‌هایی که خانواده‌ها باید بگیرند.",
+      "outline_fa": [
+       "توضیح خبر ممنوعیت در نیویورک و کالیفرنیا",
+       "مشکلات افشا شده: تشویق به قانون‌شکنی، رازداری از والدین و پاسخ به محتوای خشن",
+       "نبود رونوشت دقیق از چت‌ها برای والدین و ضعف نظارتی",
+       "جمع‌بندی: سن مناسب ورود کودکان به هوش مصنوعی کجاست؟"
+      ],
+      "visual_tip_fa": "اینفوگرافیک از خطرات آزمایش‌شده اسباب‌بازی‌های هوش مصنوعی با تصویری تاثیرگذار از کودک و عروسک هوشمند."
+     }
+    ],
+    "hashtags": [
+     "#کودک_و_تکنولوژی",
+     "#هوش_مصنوعی",
+     "#امنیت_کودکان",
+     "#والدین",
+     "#فناوری",
+     "#اخبار_فناوری",
+     "#AIToys"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "c2211ba4f6"
+  },
+  {
+   "title": "Google releases Cogentic papers on integer factorization, discrete logs and more",
+   "url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
+   "source": "github.com",
+   "published": "2026-11-25T13:33:07+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 347 امتیاز، 265 کامنت",
+   "signal_value": 347,
+   "discussion_url": "https://news.ycombinator.com/item?id=50642086",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://opengraph.githubassets.com/10c923cab9f51f18f1408c3f6f915bf38a8dd61b1811aac225aba93685290b4f/google-research/google-research",
+     "origin": "og"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 8,
+   "worthiness": 7,
+   "category": "research",
+   "story_key": "google-cogentic-math-papers",
+   "topic_key": "google-cogentic-cryptography",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "انتشار مقالات پژوهشی Cogentic توسط گوگل در زمینه محاسبات و رمزنگاری",
+   "one_liner_fa": "تیم تحقیقاتی گوگل با انتشار مقالات پروژه «کوجنتیک» پیرامون فاکتورگیری اعداد صحیح و لگاریتم گسسته، جامعه امنیت و رمزنگاری را شگفت‌زده کرد.",
+   "deep": {
+    "id": "abef7dcffe",
+    "title_fa": "انتشار مقالات پژوهشی Cogentic توسط گوگل در زمینه محاسبات و رمزنگاری",
+    "summary_fa": "بخش تحقیقات گوگل (Google Research) مجموعه‌ای از مقالات علمی تحت عنوان Cogentic را در مخزن گیت‌هاب خود منتشر کرد. این مقالات پژوهشی به مسائل بنیادی ریاضیات و علوم کامپیوتر شامل تجزیه اعداد صحیح (Integer Factorization) و محاسبات لگاریتم گسسته (Discrete Logs) می‌پردازند؛ مباحثی که در حوزه پایه‌های رمزنگاری مدرن و حل مسائل پیچیده محاسباتی از اهمیت بالایی برخوردارند.",
+    "key_points_fa": [
+     "پروژه توسط تیم پژوهشی Google Research در گیت‌هاب رسمی منتشر شده است.",
+     "تمرکز پژوهش‌ها روی موضوعات پایه‌ای ریاضی و رمزنگاری مانند تجزیه اعداد صحیح و لگاریتم گسسته است.",
+     "این انتشار در پلتفرم هکر نیوز توجه زیادی جلب کرده است (بیش از ۳۴۰ امتیاز).",
+     "این مقالات بستری برای پیشرفت الگوریتم‌های پیشرفته محاسباتی و امنیتی هستند."
+    ],
+    "why_it_matters_fa": "شکستن یا بهبود تجزیه اعداد صحیح و لگاریتم گسسته مستقیماً با آینده رمزنگاری، امضاهای دیجیتال و امنیت الگوریتم‌های سنتی و کوانتومی در ارتباط است.",
+    "content_ideas": [
+     {
+      "format": "پست",
+      "title_fa": "تحقیقات جدید گوگل؛ پایه‌های رمزنگاری مدرن در حال تغییر است؟",
+      "hook_fa": "گوگل به سراغ مسائلی رفته که تمام امنیت اینترنت روی اون‌ها بنا شده!",
+      "angle_fa": "توضیح موضوع پیچیده تجزیه اعداد و لگاریتم گسسته به زبان ساده و ارتباط آن با امنیت روزمره.",
+      "outline_fa": [
+       "توضیح اینکه رمزنگاری فعلی اینترنت چطور به حل‌نشدن سریع مسائل ریاضی مثل تجزیه اعداد وابسته است",
+       "معرفی مقالات جدید Cogentic منتشر شده توسط بخش تحقیقات گوگل",
+       "بررسی اینکه چرا جامعه مهندسان و متخصصان امنیت با دقت بالا در حال بررسی این مقالات هستند",
+       "جمع‌بندی درباره آینده رمزنگاری با ورود مدل‌های هوش مصنوعی و پردازش پیشرفته"
+      ],
+      "visual_tip_fa": "گرافیک ریاضیاتی با کدهای باینری، لوگوی گیت‌هاب و گوگل ریسرچ با تایپوگرافی علمی و جذاب."
+     },
+     {
+      "format": "استوری",
+      "title_fa": "مقالات جدید Google Research درباره الگوریتم‌های پیچیده",
+      "hook_fa": "برای علاقه‌مندان به ریاضی و رمزنگاری: گوگل اسناد تحقیقاتی Cogentic رو منتشر کرد.",
+      "angle_fa": "معرفی مستقیم ریپازیتوری برای کاربران و برنامه‌نویسان جامعه هدف.",
+      "outline_fa": [
+       "اسکرین‌شات از ریپو گیت‌هاب google-research",
+       "توضیح یک‌خطی در مورد تمرکز بر Integer Factorization و Discrete Logs",
+       "لینک گیت‌هاب به همراه باکس تبادل نظر برای متخصصان امنیت"
+      ],
+      "visual_tip_fa": "اسکرین‌شات واضح از صفحه گیت‌هاب پروژه به همراه هایلایت کردن نام فایل‌ها."
+     }
+    ],
+    "hashtags": [
+     "#گوگل",
+     "#GoogleResearch",
+     "#رمزنگاری",
+     "#علوم_کامپیوتر",
+     "#امنیت",
+     "#برنامه_نویسی"
+    ],
+    "caution_fa": "متن موجود در منبع تنها شامل ساختار مخزن گیت‌هاب است و جزییات الگوریتمی عمیق‌تری در متن خبر نیامده است، نباید ادعای شکسته‌شدن رمزنگاری مطرح شود."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "abef7dcffe"
+  },
+  {
+   "title": "Nothing's Ear (note) is a pair of earbuds with built-in AI notetaking",
+   "url": "https://www.engadget.com/2328122/nothings-ear-note-is-a-pair-of-earbuds-with-built-in-ai-notetaking/",
+   "source": "Engadget",
+   "published": "2026-11-25T16:03:17+00:00",
+   "origin": "Engadget",
+   "summary": "The company has promised to share more details on December 8.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/nothings-ear-note-is-a-pair-of-earbuds-with-built-in-ai-notetaking/l-intro-1795622251.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/nothings-ear-note-is-a-pair-of-earbuds-with-built-in-ai-notetaking/intro-1795622251.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 8,
+   "category": "product_launch",
+   "story_key": "nothing-ear-note-announcement",
+   "topic_key": "nothing-tech-ecosystem",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "ناتینگ از ایرباد جدید Ear (note) با هوش مصنوعی یادداشت‌بردار رونمایی کرد",
+   "one_liner_fa": "کمپانی ناتینگ (Nothing) ایرپاد جدیدی به نام Ear (note) را معرفی کرده که به قابلیت یادداشت‌برداری هوشمند با هوش مصنوعی مجهز است.",
+   "deep": {
+    "id": "e6906ab7d4",
+    "title_fa": "ناتینگ از ایرباد جدید Ear (note) با هوش مصنوعی یادداشت‌بردار رونمایی کرد",
+    "summary_fa": "برند ناتینگ (Nothing) رسماً اولین گجت اختصاصی مبتنی بر هوش مصنوعی خود را با نام Ear (note) معرفی کرد. این ایربادها علاوه بر پخش باکیفیت صدا و پشتیبانی از Hi-Res، قابلیت پیاده‌سازی متن (Transcribe) و خلاصه‌سازی مکالمات حضوری، تماس‌ها و جلسات آنلاین را ارائه می‌دهند. طراحی کیس این محصول از سبک دستگاه‌های واکمن سونی الهام گرفته شده و دکمه‌های فیزیکی Record و Talk روی آن تعبیه شده است.",
+    "key_points_fa": [
+     "نام دستگاه Nothing Ear (note) است و اولین گجت AI-native رسمی این برند محسوب می‌شود.",
+     "قابلیت رونویسی (Transcribe) و خلاصه‌سازی جلسات، تماس‌ها و وویس‌ها را دارد.",
+     "کیس دستگاه دارای بدنه آلومینیومی با دکمه‌های Record و Talk با الهام از Sony Walkman است.",
+     "از فرمت صوتی Hi-Res برای پخش موسیقی پشتیبانی می‌کند.",
+     "عرضه رسمی محصول برای ۸ دسامبر برنامه‌ریزی شده و مشخصات فنی کامل و قیمت به زودی اعلام می‌شود."
+    ],
+    "why_it_matters_fa": "استفاده از هوش مصنوعی مولد در گجت‌های پوشیدنی روزمره مانند ایربادها، یادداشت‌برداری در جلسات و ضبط ایده‌ها را بدون نیاز به نگاه کردن به گوشی متحول می‌کند.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "ایربادی که کل جلسه‌هات رو برات می‌نویسه و خلاصه می‌کنه!",
+      "hook_fa": "دیگه سر کلاس و جلسه نوت‌برداری نکن! ناتینگ این مشکل رو حل کرد.",
+      "angle_fa": "معرفی جذاب گجت به عنوان ابزار کاربردی دانشجویان، مدیران و علاقه‌مندان به بهره‌وری.",
+      "outline_fa": [
+       "نمایش دردسر یادداشت‌برداری در جلسات طولانی یا کلاس‌های دانشگاه",
+       "معرفی ایرباد جدید Nothing Ear (note) و طراحی جذاب واکمن‌مانند با دکمه رکورد",
+       "توضیح قابلیت‌های تبدیل گفتار به متن و خلاصه سریع مکالمات آنلاین و حضوری",
+       "اعلام تاریخ عرضه در ۸ دسامبر و دعوت به کامنت درباره کاربرد آن"
+      ],
+      "visual_tip_fa": "رندرهای منتشر شده از ایرباد ناتینگ با کیس شفاف/آلومینیومی و دکمه‌های فیزیکی Record، همگام با ریتم موزیک سریع."
+     },
+     {
+      "format": "استوری",
+      "title_fa": "محصول عجیب جدید ناتینگ!",
+      "hook_fa": "فکر می‌کردید ناتینگ قراره چی معرفی کنه؟ ایرباد مجهز به هوش مصنوعی!",
+      "angle_fa": "پوشش سریع و تعاملی رونمایی محصول جدید همراه با نظرسنجی از استایل و کاربرد آن.",
+      "outline_fa": [
+       "اسلاید اول: تصویر کیس جدید ناتینگ با دکمه‌های Record و Talk و ایجاد حدس اولیه",
+       "اسلاید دوم: توضیح قابلیت خلاصه‌سازی جلسات و تماس‌ها به کمک هوش مصنوعی",
+       "اسلاید سوم: استیکر نظرسنجی: 'آیا همچین قابلیتی تو هندزفری به دردت می‌خوره؟'"
+      ],
+      "visual_tip_fa": "استفاده از تصویر رسمی کیس آلومینیومی با فونت پیکسلی و معروف ناتینگ در استوری."
+     }
+    ],
+    "hashtags": [
+     "#Nothing",
+     "#ناتینگ",
+     "#ایرباد",
+     "#گجت_هوشمند",
+     "#هوش_مصنوعی",
+     "#تکنولوژی",
+     "#Earbuds"
+    ],
+    "caution_fa": "قیمت و مشخصات فنی دقیق هنوز منتشر نشده و نباید قیمتی تخمین زده شود."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "e6906ab7d4"
+  },
+  {
+   "title": "1Password Security Incident",
+   "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
+   "source": "1password.com",
+   "published": "2026-11-25T17:18:26+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 390 امتیاز، 171 کامنت",
+   "signal_value": 390,
+   "discussion_url": "https://news.ycombinator.com/item?id=50644817",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://images.ctfassets.net/3091ajzcmzlr/3yu0DTU3edoU7HK8MxkW54/c5e7801fb8c0d7d52295da96af7e8013/business_2x.webp",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://images.ctfassets.net/3091ajzcmzlr/3yu0DTU3edoU7HK8MxkW54/c5e7801fb8c0d7d52295da96af7e8013/business_2x.webp?w=3840&q=70&fm=avif",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 7,
+   "category": "safety_ethics",
+   "story_key": "1password-security-incident",
+   "topic_key": "1password-security-incident",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "رخنه امنیتی در 1Password؛ هکر به گیت‌هاب شرکتی دسترسی پیدا کرد",
+   "one_liner_fa": "سرویس مدیریت پسورد وان‌پسورد (1Password) با انتشار گزارشی رسمی از شناسایی یک حادثه امنیتی مشکوک در سرورهای خود خبر داد.",
+   "deep": {
+    "id": "2da10ebf72",
+    "title_fa": "رخنه امنیتی در 1Password؛ هکر به گیت‌هاب شرکتی دسترسی پیدا کرد",
+    "summary_fa": "پلتفرم مدیریت رمز عبور وان‌پسورد (1Password) گزارش داد که در ۱۹ نوامبر ۲۰۲۶ متوجه نفوذ به حساب گیت‌هاب سازمانی یکی از کارمندان خود شده است. هکر با ارسال کدهای مخرب به سیستم‌های بک‌اند، سوابق ادمین شامل نام، ایمیل و متادیتای غیرمحرمانه تعدادی از کاربران را دریافت کرده است. با این حال، وان‌پسورد تاکید کرده که خزانه‌ها (Vaults) و محتوای پسوردهای کاربران به لطف رمزنگاری و عدم ذخیره کلید محرمانه کاملاً امن مانده‌اند.",
+    "key_points_fa": [
+     "حمله در تاریخ ۱۹ نوامبر ۲۰۲۶ شناسایی شد و عامل آن از طریق حساب شرکتی GitHub نفوذ کرده بود.",
+     "اطلاعات افشا شده شامل نام، ایمیل، شناسه کاربری، توکن‌های ریکاوری دعوت‌نامه‌ها و متادیتاهای غیرمحرمانه است.",
+     "محتوای پسوردها و خزانه‌های کاربران (Vaults) ابداً در دسترس نفوذگر قرار نگرفته است.",
+     "طول کدهای تأیید ایمیل برای بازیابی حساب از ۶ رقم عددی به ۱۰ کاراکتر حروفی-عددی ارتقا یافت.",
+     "کلیدهای دسترسی داخلی چرخانده (Rotate) شده و سیستم مانیتورینگ ارتقا یافته است."
+    ],
+    "why_it_matters_fa": "این اتفاق به کاربران یادآوری می‌کند معماری Zero-Knowledge در نرم‌افزارهای مدیریت رمز چقدر حیاتی است و آنها را در برابر حملات فیشینگ هدفمند هوشیار می‌سازد.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "آیا پسوردهای شما در 1Password لو رفته است؟",
+      "hook_fa": "یکی از معروف‌ترین برنامه‌های مدیریت پسورد دنیا هک شد؛ اما نگران نباشید!",
+      "angle_fa": "تحلیل آرامش‌بخش اما جدی از تفاوت نفوذ به سرور و امنیت معماری رمزنگاری انتها به انتها.",
+      "outline_fa": [
+       "شروع با خبر حمله به گیت‌هاب و سرورهای 1Password",
+       "پاسخ سریع به نگرانی اصلی: آیا پسوردهای ذخیره شده به سرقت رفته‌اند؟ (خیر، معماری Zero-Knowledge)",
+       "چه اطلاعاتی لو رفته؟ (ایمیل‌ها، نام‌ها و متادیتا)",
+       "اقدام ضروری مخاطب: مراقب ایمیل‌های فیشینگ و جعلی به اسم 1Password باشید"
+      ],
+      "visual_tip_fa": "انیمیشن یا ویدیوی گرافیکی از نحوه عملکرد رمزنگاری کلید محرمانه (Secret Key) در برابر سرور نفوذ یافته."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "بررسی فنی نفوذ به 1Password؛ چطور پسوردها امن ماندند؟",
+      "hook_fa": "وقتی یک برنامه هک می‌شود ولی هکر دستش به هیچ رمزی نمی‌رسد!",
+      "angle_fa": "روایت آموزشی برای کاربران حرفه‌ای و فنی درباره نحوه طراحی ایمن سیستم‌های مدیریت رمز عبور.",
+      "outline_fa": [
+       "اسلاید ۱: شرح حادثه و دسترسی هکر از طریق گیت‌هاب یکی از کارمندان",
+       "اسلاید ۲: لیست داده‌هایی که هکر توانست ببیند (نام، ایمیل و متادیتا)",
+       "اسلاید ۳: چرا پسوردها دست‌نخورده ماندند؟ سازوکار Secret Key شخصی",
+       "اسلاید ۴: اقدامات امنیتی جدید شرکت از جمله کدهای ۱۰ رقمی",
+       "اسلاید ۵: هشدارهای مهم در مورد حملات فیشینگ بعد از نشت ایمیل‌ها"
+      ],
+      "visual_tip_fa": "دیاگرام‌های امنیتی ساده، لوگوی 1Password همراه با هشدارهای ضد فیشینگ به صورت اسلایدهای متوالی مینیمال."
+     }
+    ],
+    "hashtags": [
+     "#امنیت_سایبری",
+     "#1Password",
+     "#هک",
+     "#مدیریت_پسورد",
+     "#فیشینگ",
+     "#فناوری_اطلاعات",
+     "#CyberSecurity"
+    ],
+    "caution_fa": "تاکید شود که خزانه‌ها (Vaults) و پسوردهای اصلی رمزنگاری شده و افشا نشده‌اند تا وحشت بی‌مورد ایجاد نشود."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "2da10ebf72"
+  }
+ ],
+ "others": [
+  {
+   "title": "Rumors swirling that labs might have cracked Factoring in P",
+   "url": "https://www.reddit.com/r/singularity/comments/1y59ef1/rumor_that_openai_or_anthropic_found_a_way_to/",
+   "source": "reddit.com",
+   "published": "2026-11-25T15:08:44+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 294 امتیاز، 205 کامنت",
+   "signal_value": 294,
+   "discussion_url": "https://news.ycombinator.com/item?id=50643065",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 6,
+   "category": "research",
+   "story_key": "factoring-in-p-rumors",
+   "topic_key": "google-cogentic-cryptography",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "شایعه بزرگ در دنیای رمزنگاری: آیا هوش مصنوعی الگوریتم شکستن رمزنگاری RSA را کشف کرده؟",
+   "one_liner_fa": "شایعات و تحلیل‌های گسترده‌ای میان متخصصان شکل گرفته مبنی بر اینکه پژوهش‌های اخیر آزمایشگاه‌ها ممکن است به حل مسئله تجزیه اعداد در زمان چندجمله‌ای منجر شود.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "3b9100b6bf"
+  },
+  {
+   "title": "The questions Jensen Huang and Nvidia will still have to answer about Megaspeed",
+   "url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
+   "source": "TechCrunch",
+   "published": "2026-11-25T13:00:00+00:00",
+   "origin": "TechCrunch",
+   "summary": "The central question for investigators is what Nvidia knew about where those chips ended up and whether Huang's affair with a Megaspeed executive gave the company reason to doubt Megaspeed's assurances.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 6,
+   "category": "big_tech",
+   "story_key": "jensen-huang-megaspeed-questions",
+   "topic_key": "nvidia-leadership-crisis",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "سوالات بی‌پاسخ سنا از جنسان هوانگ؛ رسوایی قاچاق تراشه‌های انویدیا به شرکت مگاسپید",
+   "one_liner_fa": "با نزدیک شدن به جلسه استماع در سنا، پرونده اتهامات امنیتی پیرامون روابط جنسان هوانگ و رسیدن چیپ‌های انویدیا به شرکت مگاسپید ابعاد جدی‌تری به خود گرفته است.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "9edbb62c9b"
+  },
+  {
+   "title": "Taking over US Treasury subdomains for $3 each",
+   "url": "https://www.intruder.io/research/taking-over-us-treasury-subdomains-for-3-each",
+   "source": "intruder.io",
+   "published": "2026-11-25T04:27:55+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 208 امتیاز، 44 کامنت",
+   "signal_value": 208,
+   "discussion_url": "https://news.ycombinator.com/item?id=50638478",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "safety_ethics",
+   "story_key": "us-treasury-subdomain-takeover",
+   "topic_key": "cybersecurity-vulnerabilities",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "رسوایی سایبری: تصاحب ساب‌دامین‌های وزارت خزانه‌داری آمریکا تنها با ۳ دلار!",
+   "one_liner_fa": "یک پژوهشگر امنیتی نشان داد که چگونه به دلیل پیکربندی اشتباه دامنه‌های متروکه، توانسته ساب‌دامین‌های رسمی وزارت خزانه‌داری آمریکا را با هزینه ناچیز ۳ دلار کنترل کند.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "cde7f1703c"
+  },
+  {
+   "title": "AI data centers are becoming harder to build, and neoclouds are feeling it",
+   "url": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
+   "source": "TechCrunch",
+   "published": "2026-11-25T15:41:43+00:00",
+   "origin": "TechCrunch",
+   "summary": "⁠Nvidia has made clear⁠ it won’t backstop an AI data center until it’s nearly ready to run, and that’s landing just as neoclouds report construction delays and more expensive debt. The message to developers is that land, power, and a finished building matter more than a pitch deck. ⁠Anita Verma-Lallian⁠ has been selling exactly that. […]",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 5,
+   "category": "business_funding",
+   "story_key": "ai-data-center-crunch-neoclouds",
+   "topic_key": "ai-infrastructure-crunch",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "سخت‌تر شدن ساخت دیتاسنترهای هوش مصنوعی؛ انویدیا قوانین بازی را تغییر داد",
+   "one_liner_fa": "با افزایش هزینه‌ها و بحران تامین برق، انویدیا اعلام کرده دیگر تا زمان آماده‌سازی نهایی دیتاسنترها از ارائه‌دهندگان ابری نئوکلاود حمایت مالی نخواهد کرد.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "f6730ac844"
+  },
+  {
+   "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
+   "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+   "source": "TechCrunch",
+   "published": "2026-11-25T14:10:18+00:00",
+   "origin": "TechCrunch",
+   "summary": "Amazon and Meta are discussing a potential deal that would end a two-month-long blockade of Muse.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "big_tech",
+   "story_key": "amazon-meta-muse-talks",
+   "topic_key": "meta-muse-rollout",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "مذاکرات آمازون و متا برای رفع مسدودیت دو ماهه دستیار هوش مصنوعی میوز",
+   "one_liner_fa": "آمازون و متا در حال رایزنی هستند تا به مسدودسازی دستیار هوش مصنوعی میوز (Muse) خاتمه داده و امکان خرید مستقیم کاربران را فراهم کنند.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "28175a595e"
+  }
+ ],
+ "scored": [
+  {
+   "title": "Where scientists draw the line on AI agents",
+   "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+   "source": "Hugging Face Blog",
+   "published": "2026-11-25T18:52:55+00:00",
+   "origin": "Hugging Face Blog",
+   "summary": "",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 6,
+   "category": "research",
+   "story_key": "scientists-line-on-ai-agents",
+   "topic_key": "ai-agent-safety",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "37b5c9ba93"
+  },
+  {
+   "title": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
+   "url": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
+   "source": "Hugging Face Blog",
+   "published": "2026-11-25T00:00:00+00:00",
+   "origin": "Hugging Face Blog",
+   "summary": "",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 4,
+   "category": "research",
+   "story_key": "inkling-2-mini-rtx-pro-6000",
+   "topic_key": "inkling-ai-models",
+   "already_reported": false,
+   "viral": 3,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "d8d6777ecf"
+  },
+  {
+   "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
+   "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+   "source": "TechCrunch",
+   "published": "2026-11-25T18:11:46+00:00",
+   "origin": "TechCrunch",
+   "summary": "New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2237660127.jpg?resize=1200,800",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2025/04/RebeccaBellan_default-large-1-e1787760589727.jpg?w=150",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 8,
+   "category": "policy_regulation",
+   "story_key": "ny-bans-ai-toys",
+   "topic_key": "ai-safety-regulation",
+   "already_reported": false,
+   "viral": 8,
+   "title_fa": "ممنوعیت ۵ ساله فروش اسباب‌بازی‌های هوش مصنوعی در نیویورک",
+   "one_liner_fa": "ایالت نیویورک به خاطر نگرانی‌های جدی درباره امنیت محتوا و آسیب به رشد عاطفی کودکان، فروش اسباب‌بازی‌های مجهز به چت‌بات‌های هوش مصنوعی را تا ۵ سال ممنوع کرد.",
+   "deep": {
+    "id": "c2211ba4f6",
+    "title_fa": "ممنوعیت ۵ ساله فروش اسباب‌بازی‌های هوش مصنوعی در نیویورک",
+    "summary_fa": "کتی هوکول، فرماندار نیویورک، لایحه‌ای را امضا کرد که تولید، توزیع و فروش اسباب‌بازی‌های مجهز به چت‌بات‌های هوش مصنوعی را برای ۵ سال آینده ممنوع می‌کند. نیویورک بعد از کالیفرنیا دومین ایالتی است که چنین تصمیمی می‌گیرد. این اقدام به دنبال گزارش‌های موسسه «Common Sense Media» صورت گرفت که نشان می‌داد برخی از این اسباب‌بازی‌ها مانند BubblePal Panda به سناریوهای خطرناک مثل تیراندازی دسته‌جمعی یا یافتن چاقو و قرص پاسخ مثبت داده‌اند.",
+    "key_points_fa": [
+     "نیویورک دومین ایالت آمریکا پس از کالیفرنیا شد که فروش اسباب‌بازی‌های دارای چت‌بات هوش مصنوعی را ممنوع کرد.",
+     "این قانون یک دوره ممنوعیت ۵ ساله ایجاد می‌کند و ۹۰ روز پس از امضا اجرایی خواهد شد.",
+     "جریمه نقض این قانون روزانه ۱۵ هزار دلار تعیین شده است.",
+     "بر اساس تحقیقات، اسباب‌بازی‌هایی مانند BubblePal Panda بازی نقش‌آفرینی تیراندازی جمعی را اجرا کرده و وسایل خطرناک را به کودکان آموزش داده‌اند.",
+     "یک‌چهارم والدین آمریکایی دارای کودکان زیر ۸ سال این اسباب‌بازی‌ها را دارند یا قصد خرید آنها را داشتند."
+    ],
+    "why_it_matters_fa": "ورود بی‌ضابطه هوش مصنوعی به اسباب‌بازی‌های تعاملی می‌تواند خطرات روانی و ایمنی بزرگی برای کودکان ایجاد کند و این ممنوعیت زنگ خطر جدی برای والدین است.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "چرا نیویورک اسباب‌بازی‌های هوش مصنوعی رو ممنوع کرد؟",
+      "hook_fa": "عروسک‌هایی که به بچه‌ها یاد میدن چاقو کجاست! نیویورک رسماً این اسباب‌بازی‌ها رو ممنوع کرد.",
+      "angle_fa": "هشدار به والدین درباره خطرات چت‌بات‌ها در وسایل بازی کودکان و دلایل تصمیم سریع قانون‌گذاران.",
+      "outline_fa": [
+       "نشان دادن ظاهر جذاب و فریبنده اسباب‌بازی‌های سخنگوی هوش مصنوعی",
+       "بررسی پرونده و نتایج آزمایش موسسه کامن سنس مدیا و اجرای سناریوی تیراندازی توسط عروسک",
+       "معرفی قانون جریمه ۱۵ هزار دلاری در روز در ایالت نیویورک",
+       "توصیه به مخاطبان درباره نظارت دقیق روی تکنولوژی‌هایی که به خانه می‌برند"
+      ],
+      "visual_tip_fa": "تصاویر اسباب‌بازی‌های هوش مصنوعی تست‌شده (مثل BubblePal یا ربات‌های نرم)، ترکیب با متون قرمز هشداردهنده."
+     },
+     {
+      "format": "پست",
+      "title_fa": "خطرات پنهان هوش مصنوعی برای کودکان",
+      "hook_fa": "هدیه‌ای خطرناک در پوشش یک عروسک مهربان؛ چرا تکنولوژیست‌ها نگران نسل جدید هستند؟",
+      "angle_fa": "بررسی روان‌شناختی و ایمنی استفاده کودکان از چت‌بات‌ها و درس‌هایی که خانواده‌ها باید بگیرند.",
+      "outline_fa": [
+       "توضیح خبر ممنوعیت در نیویورک و کالیفرنیا",
+       "مشکلات افشا شده: تشویق به قانون‌شکنی، رازداری از والدین و پاسخ به محتوای خشن",
+       "نبود رونوشت دقیق از چت‌ها برای والدین و ضعف نظارتی",
+       "جمع‌بندی: سن مناسب ورود کودکان به هوش مصنوعی کجاست؟"
+      ],
+      "visual_tip_fa": "اینفوگرافیک از خطرات آزمایش‌شده اسباب‌بازی‌های هوش مصنوعی با تصویری تاثیرگذار از کودک و عروسک هوشمند."
+     }
+    ],
+    "hashtags": [
+     "#کودک_و_تکنولوژی",
+     "#هوش_مصنوعی",
+     "#امنیت_کودکان",
+     "#والدین",
+     "#فناوری",
+     "#اخبار_فناوری",
+     "#AIToys"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "c2211ba4f6"
+  },
+  {
+   "title": "Character.AI’s plan to auction off users’ private chats challenged by state AGs",
+   "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+   "source": "TechCrunch",
+   "published": "2026-11-25T17:35:58+00:00",
+   "origin": "TechCrunch",
+   "summary": "The proposed Character.ai bankruptcy sale includes sensitive personal data from more than 21 million U.S. accounts, including 2.1 million registered to minors, the state AGs said.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2024/06/Character-Calls-Image-feat.jpg?resize=1200,675",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2021/01/lwzxxnshgj71bonwbik3.jpg.jpg?w=150",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 8,
+   "worthiness": 9,
+   "category": "safety_ethics",
+   "story_key": "character-ai-auction-private-chats",
+   "topic_key": "character-ai-crisis",
+   "already_reported": false,
+   "viral": 9,
+   "title_fa": "تلاش برای حراج چت‌های خصوصی کاربران Character.AI و شکایت ۴۲ ایالت آمریکا",
+   "one_liner_fa": "دادستان‌های آمریکا علیه پلتفرم Character.AI وارد عمل شدند که قصد داشت در حراجی ورشکستگی، چت‌های خصوصی بیش از ۲۱ میلیون کاربر از جمله ۲ میلیون کودک را به فروش بگذارد.",
+   "deep": {
+    "id": "9241987731",
+    "title_fa": "تلاش برای حراج چت‌های خصوصی کاربران Character.AI و شکایت ۴۲ ایالت آمریکا",
+    "summary_fa": "استارتاپ کرکتر ای‌آی (Character.AI) پس از اعلام ورشکستگی ذیل فصل ۱۱ در اکتبر، قصد دارد داده‌های حساس کاربران شامل تاریخچه چت‌های خصوصی آنها را به بالاترین پیشنهاد حراج کند. ائتلافی از دادستان‌های کل ۴۲ ایالت آمریکا با ورود به دادگاه تلاش دارند جلوی این اقدام را بگیرند. به گفته این مقامات، این داده‌ها شامل تاریخچه گفت‌وگوهای بیش از ۲۱ میلیون حساب کاربری آمریکایی است که بیش از ۲.۱ میلیون از آن‌ها متعلق به افراد زیر سن قانونی است.",
+    "key_points_fa": [
+     "شرکت Character.AI در اکتبر تحت فصل ۱۱ اعلام ورشکستگی کرد.",
+     "ائتلافی از دادستان‌های کل ۴۲ ایالت آمریکا از جمله کالیفرنیا و کنتیکت وارد پرونده شدند تا حراج را متوقف کنند.",
+     "مجموعه داده‌ها شامل تاریخچه چت بیش از ۲۱ میلیون حساب آمریکایی و ۲.۱ میلیون کودک و نوجوان، به همراه آی‌پی‌هاست.",
+     "تنها خریدار علنی شده تا کنون شرکتی به نام Smirks and Pangs Acquisition LLC است که ۱۳ نوامبر ۲۰۲۶ تأسیس شده است.",
+     "حراج برای تاریخ ۱ دسامبر برنامه‌ریزی شده و قرارداد قبلی ۲۰ میلیون دلاری دیزنی برای پتنت‌ها هم هنوز تایید نهایی نگرفته است."
+    ],
+    "why_it_matters_fa": "این اتفاق زنگ خطری جدی درباره سرنوشت چت‌ها و اعترافات خصوصی کاربران در چت‌بات‌ها پس از ورشکستگی استارتاپ‌هاست و اثبات می‌کند حریم خصوصی هوش مصنوعی چقدر شکننده است.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "چت‌های خصوصیت با هوش مصنوعی حراج شد؟!",
+      "hook_fa": "اگه شرکت هوش مصنوعی ورشکست بشه، چت‌های خصوصی شما چی میشه؟ به بالاترین قیمت فروخته میشن!",
+      "angle_fa": "هشدار درباره چت‌های شخصی و درددل با چت‌بات‌ها و آنچه بعد از ورشکستگی شرکت‌ها رخ می‌دهد.",
+      "outline_fa": [
+       "طرح سوال شوکه‌کننده درباره چت‌های خصوصی کاربران با کاراکترهای مجازی",
+       "روایت ورشکستگی Character.AI و تصمیمش برای حراج اطلاعات ۲۱ میلیون کاربر به یک خریدار ناشناس",
+       "واکنش دادستان‌های ۴۲ ایالت آمریکا برای توقف این کار غیرقانونی",
+       "نتیجه‌گیری: هیچ‌وقت اطلاعات به شدت محرمانه و احساسی خودتون رو به چت‌بات‌ها نگید"
+      ],
+      "visual_tip_fa": "نمایش اسکرین‌شات از محیط Character.AI و تصویر دادخواست دادستانی با افکت هشدار قرمز و متن متحرک حراج اطلاعات."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "رسوایی بزرگ Character.AI: چت‌های کاربران زیر چکش حراج!",
+      "hook_fa": "بزرگترین خیانت در حریم خصوصی دنیای هوش مصنوعی رقم خورد!",
+      "angle_fa": "تحلیل ابعاد حقوقی و امنیتی فروش دیتای حساس کودکان و نوجوانان توسط پلتفرم‌های هوش مصنوعی.",
+      "outline_fa": [
+       "اسلاید ۱: اصل ماجرا؛ ورشکستگی Character.AI و تصمیم برای حراج چت‌ها",
+       "اسلاید ۲: آمار شوکه‌کننده؛ ۲۱ میلیون حساب، ۲.۱ میلیون کودک، آی‌پی و پیام‌ها",
+       "اسلاید ۳: خریدار مرموز و عدم تعهد به حفظ حریم خصوصی کاربران",
+       "اسلاید ۴: واکنش ایالت‌ها و سوابق تلخ این پلتفرم در خودکشی نوجوانان",
+       "اسلاید ۵: راهکارهای کاربردی برای حذف ردپا و محافظت از خود در ابزارهای هوش مصنوعی"
+      ],
+      "visual_tip_fa": "اسلایدهای تیره و نئونی با استفاده از گرافیک چکش حراج، اسکرین‌شات تیتر TechCrunch و آمار تفکیک‌شده کاربران."
+     }
+    ],
+    "hashtags": [
+     "#هوش_مصنوعی",
+     "#امنیت_اطلاعات",
+     "#حریم_خصوصی",
+     "#هوش_مصنوعی_فارسی",
+     "#CharacterAI",
+     "#AIprivacy",
+     "#تکنولوژی"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "9241987731"
+  },
+  {
+   "title": "AI data centers are becoming harder to build, and neoclouds are feeling it",
+   "url": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
+   "source": "TechCrunch",
+   "published": "2026-11-25T15:41:43+00:00",
+   "origin": "TechCrunch",
+   "summary": "⁠Nvidia has made clear⁠ it won’t backstop an AI data center until it’s nearly ready to run, and that’s landing just as neoclouds report construction delays and more expensive debt. The message to developers is that land, power, and a finished building matter more than a pitch deck. ⁠Anita Verma-Lallian⁠ has been selling exactly that. […]",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 5,
+   "category": "business_funding",
+   "story_key": "ai-data-center-crunch-neoclouds",
+   "topic_key": "ai-infrastructure-crunch",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "سخت‌تر شدن ساخت دیتاسنترهای هوش مصنوعی؛ انویدیا قوانین بازی را تغییر داد",
+   "one_liner_fa": "با افزایش هزینه‌ها و بحران تامین برق، انویدیا اعلام کرده دیگر تا زمان آماده‌سازی نهایی دیتاسنترها از ارائه‌دهندگان ابری نئوکلاود حمایت مالی نخواهد کرد.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "f6730ac844"
+  },
+  {
+   "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
+   "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+   "source": "TechCrunch",
+   "published": "2026-11-25T14:10:18+00:00",
+   "origin": "TechCrunch",
+   "summary": "Amazon and Meta are discussing a potential deal that would end a two-month-long blockade of Muse.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "big_tech",
+   "story_key": "amazon-meta-muse-talks",
+   "topic_key": "meta-muse-rollout",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "مذاکرات آمازون و متا برای رفع مسدودیت دو ماهه دستیار هوش مصنوعی میوز",
+   "one_liner_fa": "آمازون و متا در حال رایزنی هستند تا به مسدودسازی دستیار هوش مصنوعی میوز (Muse) خاتمه داده و امکان خرید مستقیم کاربران را فراهم کنند.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "28175a595e"
+  },
+  {
+   "title": "The questions Jensen Huang and Nvidia will still have to answer about Megaspeed",
+   "url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
+   "source": "TechCrunch",
+   "published": "2026-11-25T13:00:00+00:00",
+   "origin": "TechCrunch",
+   "summary": "The central question for investigators is what Nvidia knew about where those chips ended up and whether Huang's affair with a Megaspeed executive gave the company reason to doubt Megaspeed's assurances.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 6,
+   "category": "big_tech",
+   "story_key": "jensen-huang-megaspeed-questions",
+   "topic_key": "nvidia-leadership-crisis",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "سوالات بی‌پاسخ سنا از جنسان هوانگ؛ رسوایی قاچاق تراشه‌های انویدیا به شرکت مگاسپید",
+   "one_liner_fa": "با نزدیک شدن به جلسه استماع در سنا، پرونده اتهامات امنیتی پیرامون روابط جنسان هوانگ و رسیدن چیپ‌های انویدیا به شرکت مگاسپید ابعاد جدی‌تری به خود گرفته است.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "9edbb62c9b"
+  },
+  {
+   "title": "WhatsApp is finally offering scheduled messages",
+   "url": "https://www.engadget.com/2328242/whatsapp-is-finally-offering-scheduled-messages/",
+   "source": "Engadget",
+   "published": "2026-11-25T16:54:10+00:00",
+   "origin": "Engadget",
+   "summary": "You'll be able to schedule a text, photo or video message up to 14 days in advance.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/whatsapp-is-finally-offering-scheduled-messages/l-intro-1795625210.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 7,
+   "category": "product_launch",
+   "story_key": "whatsapp-scheduled-messages",
+   "topic_key": "whatsapp-features",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "95cd691201"
+  },
+  {
+   "title": "Nothing's Ear (note) is a pair of earbuds with built-in AI notetaking",
+   "url": "https://www.engadget.com/2328122/nothings-ear-note-is-a-pair-of-earbuds-with-built-in-ai-notetaking/",
+   "source": "Engadget",
+   "published": "2026-11-25T16:03:17+00:00",
+   "origin": "Engadget",
+   "summary": "The company has promised to share more details on December 8.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/nothings-ear-note-is-a-pair-of-earbuds-with-built-in-ai-notetaking/l-intro-1795622251.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/nothings-ear-note-is-a-pair-of-earbuds-with-built-in-ai-notetaking/intro-1795622251.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 8,
+   "category": "product_launch",
+   "story_key": "nothing-ear-note-announcement",
+   "topic_key": "nothing-tech-ecosystem",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "ناتینگ از ایرباد جدید Ear (note) با هوش مصنوعی یادداشت‌بردار رونمایی کرد",
+   "one_liner_fa": "کمپانی ناتینگ (Nothing) ایرپاد جدیدی به نام Ear (note) را معرفی کرده که به قابلیت یادداشت‌برداری هوشمند با هوش مصنوعی مجهز است.",
+   "deep": {
+    "id": "e6906ab7d4",
+    "title_fa": "ناتینگ از ایرباد جدید Ear (note) با هوش مصنوعی یادداشت‌بردار رونمایی کرد",
+    "summary_fa": "برند ناتینگ (Nothing) رسماً اولین گجت اختصاصی مبتنی بر هوش مصنوعی خود را با نام Ear (note) معرفی کرد. این ایربادها علاوه بر پخش باکیفیت صدا و پشتیبانی از Hi-Res، قابلیت پیاده‌سازی متن (Transcribe) و خلاصه‌سازی مکالمات حضوری، تماس‌ها و جلسات آنلاین را ارائه می‌دهند. طراحی کیس این محصول از سبک دستگاه‌های واکمن سونی الهام گرفته شده و دکمه‌های فیزیکی Record و Talk روی آن تعبیه شده است.",
+    "key_points_fa": [
+     "نام دستگاه Nothing Ear (note) است و اولین گجت AI-native رسمی این برند محسوب می‌شود.",
+     "قابلیت رونویسی (Transcribe) و خلاصه‌سازی جلسات، تماس‌ها و وویس‌ها را دارد.",
+     "کیس دستگاه دارای بدنه آلومینیومی با دکمه‌های Record و Talk با الهام از Sony Walkman است.",
+     "از فرمت صوتی Hi-Res برای پخش موسیقی پشتیبانی می‌کند.",
+     "عرضه رسمی محصول برای ۸ دسامبر برنامه‌ریزی شده و مشخصات فنی کامل و قیمت به زودی اعلام می‌شود."
+    ],
+    "why_it_matters_fa": "استفاده از هوش مصنوعی مولد در گجت‌های پوشیدنی روزمره مانند ایربادها، یادداشت‌برداری در جلسات و ضبط ایده‌ها را بدون نیاز به نگاه کردن به گوشی متحول می‌کند.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "ایربادی که کل جلسه‌هات رو برات می‌نویسه و خلاصه می‌کنه!",
+      "hook_fa": "دیگه سر کلاس و جلسه نوت‌برداری نکن! ناتینگ این مشکل رو حل کرد.",
+      "angle_fa": "معرفی جذاب گجت به عنوان ابزار کاربردی دانشجویان، مدیران و علاقه‌مندان به بهره‌وری.",
+      "outline_fa": [
+       "نمایش دردسر یادداشت‌برداری در جلسات طولانی یا کلاس‌های دانشگاه",
+       "معرفی ایرباد جدید Nothing Ear (note) و طراحی جذاب واکمن‌مانند با دکمه رکورد",
+       "توضیح قابلیت‌های تبدیل گفتار به متن و خلاصه سریع مکالمات آنلاین و حضوری",
+       "اعلام تاریخ عرضه در ۸ دسامبر و دعوت به کامنت درباره کاربرد آن"
+      ],
+      "visual_tip_fa": "رندرهای منتشر شده از ایرباد ناتینگ با کیس شفاف/آلومینیومی و دکمه‌های فیزیکی Record، همگام با ریتم موزیک سریع."
+     },
+     {
+      "format": "استوری",
+      "title_fa": "محصول عجیب جدید ناتینگ!",
+      "hook_fa": "فکر می‌کردید ناتینگ قراره چی معرفی کنه؟ ایرباد مجهز به هوش مصنوعی!",
+      "angle_fa": "پوشش سریع و تعاملی رونمایی محصول جدید همراه با نظرسنجی از استایل و کاربرد آن.",
+      "outline_fa": [
+       "اسلاید اول: تصویر کیس جدید ناتینگ با دکمه‌های Record و Talk و ایجاد حدس اولیه",
+       "اسلاید دوم: توضیح قابلیت خلاصه‌سازی جلسات و تماس‌ها به کمک هوش مصنوعی",
+       "اسلاید سوم: استیکر نظرسنجی: 'آیا همچین قابلیتی تو هندزفری به دردت می‌خوره؟'"
+      ],
+      "visual_tip_fa": "استفاده از تصویر رسمی کیس آلومینیومی با فونت پیکسلی و معروف ناتینگ در استوری."
+     }
+    ],
+    "hashtags": [
+     "#Nothing",
+     "#ناتینگ",
+     "#ایرباد",
+     "#گجت_هوشمند",
+     "#هوش_مصنوعی",
+     "#تکنولوژی",
+     "#Earbuds"
+    ],
+    "caution_fa": "قیمت و مشخصات فنی دقیق هنوز منتشر نشده و نباید قیمتی تخمین زده شود."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "e6906ab7d4"
+  },
+  {
+   "title": "WhatsApp is testing stickers with sound",
+   "url": "https://www.engadget.com/2327763/whatsapp-is-testing-stickers-with-sound/",
+   "source": "Engadget",
+   "published": "2026-11-25T12:24:57+00:00",
+   "origin": "Engadget",
+   "summary": "WhatsApp's newest public beta includes the ability to create stickers with sounds.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/whatsapp-is-testing-stickers-with-sound/l-intro-1795609389.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 5,
+   "category": "product_launch",
+   "story_key": "whatsapp-sound-stickers",
+   "topic_key": "whatsapp-features",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "fcad2b56fe"
+  },
+  {
+   "title": "1Password Security Incident",
+   "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
+   "source": "1password.com",
+   "published": "2026-11-25T17:18:26+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 390 امتیاز، 171 کامنت",
+   "signal_value": 390,
+   "discussion_url": "https://news.ycombinator.com/item?id=50644817",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://images.ctfassets.net/3091ajzcmzlr/3yu0DTU3edoU7HK8MxkW54/c5e7801fb8c0d7d52295da96af7e8013/business_2x.webp",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://images.ctfassets.net/3091ajzcmzlr/3yu0DTU3edoU7HK8MxkW54/c5e7801fb8c0d7d52295da96af7e8013/business_2x.webp?w=3840&q=70&fm=avif",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 7,
+   "category": "safety_ethics",
+   "story_key": "1password-security-incident",
+   "topic_key": "1password-security-incident",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "رخنه امنیتی در 1Password؛ هکر به گیت‌هاب شرکتی دسترسی پیدا کرد",
+   "one_liner_fa": "سرویس مدیریت پسورد وان‌پسورد (1Password) با انتشار گزارشی رسمی از شناسایی یک حادثه امنیتی مشکوک در سرورهای خود خبر داد.",
+   "deep": {
+    "id": "2da10ebf72",
+    "title_fa": "رخنه امنیتی در 1Password؛ هکر به گیت‌هاب شرکتی دسترسی پیدا کرد",
+    "summary_fa": "پلتفرم مدیریت رمز عبور وان‌پسورد (1Password) گزارش داد که در ۱۹ نوامبر ۲۰۲۶ متوجه نفوذ به حساب گیت‌هاب سازمانی یکی از کارمندان خود شده است. هکر با ارسال کدهای مخرب به سیستم‌های بک‌اند، سوابق ادمین شامل نام، ایمیل و متادیتای غیرمحرمانه تعدادی از کاربران را دریافت کرده است. با این حال، وان‌پسورد تاکید کرده که خزانه‌ها (Vaults) و محتوای پسوردهای کاربران به لطف رمزنگاری و عدم ذخیره کلید محرمانه کاملاً امن مانده‌اند.",
+    "key_points_fa": [
+     "حمله در تاریخ ۱۹ نوامبر ۲۰۲۶ شناسایی شد و عامل آن از طریق حساب شرکتی GitHub نفوذ کرده بود.",
+     "اطلاعات افشا شده شامل نام، ایمیل، شناسه کاربری، توکن‌های ریکاوری دعوت‌نامه‌ها و متادیتاهای غیرمحرمانه است.",
+     "محتوای پسوردها و خزانه‌های کاربران (Vaults) ابداً در دسترس نفوذگر قرار نگرفته است.",
+     "طول کدهای تأیید ایمیل برای بازیابی حساب از ۶ رقم عددی به ۱۰ کاراکتر حروفی-عددی ارتقا یافت.",
+     "کلیدهای دسترسی داخلی چرخانده (Rotate) شده و سیستم مانیتورینگ ارتقا یافته است."
+    ],
+    "why_it_matters_fa": "این اتفاق به کاربران یادآوری می‌کند معماری Zero-Knowledge در نرم‌افزارهای مدیریت رمز چقدر حیاتی است و آنها را در برابر حملات فیشینگ هدفمند هوشیار می‌سازد.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "آیا پسوردهای شما در 1Password لو رفته است؟",
+      "hook_fa": "یکی از معروف‌ترین برنامه‌های مدیریت پسورد دنیا هک شد؛ اما نگران نباشید!",
+      "angle_fa": "تحلیل آرامش‌بخش اما جدی از تفاوت نفوذ به سرور و امنیت معماری رمزنگاری انتها به انتها.",
+      "outline_fa": [
+       "شروع با خبر حمله به گیت‌هاب و سرورهای 1Password",
+       "پاسخ سریع به نگرانی اصلی: آیا پسوردهای ذخیره شده به سرقت رفته‌اند؟ (خیر، معماری Zero-Knowledge)",
+       "چه اطلاعاتی لو رفته؟ (ایمیل‌ها، نام‌ها و متادیتا)",
+       "اقدام ضروری مخاطب: مراقب ایمیل‌های فیشینگ و جعلی به اسم 1Password باشید"
+      ],
+      "visual_tip_fa": "انیمیشن یا ویدیوی گرافیکی از نحوه عملکرد رمزنگاری کلید محرمانه (Secret Key) در برابر سرور نفوذ یافته."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "بررسی فنی نفوذ به 1Password؛ چطور پسوردها امن ماندند؟",
+      "hook_fa": "وقتی یک برنامه هک می‌شود ولی هکر دستش به هیچ رمزی نمی‌رسد!",
+      "angle_fa": "روایت آموزشی برای کاربران حرفه‌ای و فنی درباره نحوه طراحی ایمن سیستم‌های مدیریت رمز عبور.",
+      "outline_fa": [
+       "اسلاید ۱: شرح حادثه و دسترسی هکر از طریق گیت‌هاب یکی از کارمندان",
+       "اسلاید ۲: لیست داده‌هایی که هکر توانست ببیند (نام، ایمیل و متادیتا)",
+       "اسلاید ۳: چرا پسوردها دست‌نخورده ماندند؟ سازوکار Secret Key شخصی",
+       "اسلاید ۴: اقدامات امنیتی جدید شرکت از جمله کدهای ۱۰ رقمی",
+       "اسلاید ۵: هشدارهای مهم در مورد حملات فیشینگ بعد از نشت ایمیل‌ها"
+      ],
+      "visual_tip_fa": "دیاگرام‌های امنیتی ساده، لوگوی 1Password همراه با هشدارهای ضد فیشینگ به صورت اسلایدهای متوالی مینیمال."
+     }
+    ],
+    "hashtags": [
+     "#امنیت_سایبری",
+     "#1Password",
+     "#هک",
+     "#مدیریت_پسورد",
+     "#فیشینگ",
+     "#فناوری_اطلاعات",
+     "#CyberSecurity"
+    ],
+    "caution_fa": "تاکید شود که خزانه‌ها (Vaults) و پسوردهای اصلی رمزنگاری شده و افشا نشده‌اند تا وحشت بی‌مورد ایجاد نشود."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "2da10ebf72"
+  },
+  {
+   "title": "Google releases Cogentic papers on integer factorization, discrete logs and more",
+   "url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
+   "source": "github.com",
+   "published": "2026-11-25T13:33:07+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 347 امتیاز، 265 کامنت",
+   "signal_value": 347,
+   "discussion_url": "https://news.ycombinator.com/item?id=50642086",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://opengraph.githubassets.com/10c923cab9f51f18f1408c3f6f915bf38a8dd61b1811aac225aba93685290b4f/google-research/google-research",
+     "origin": "og"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 8,
+   "worthiness": 7,
+   "category": "research",
+   "story_key": "google-cogentic-math-papers",
+   "topic_key": "google-cogentic-cryptography",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "انتشار مقالات پژوهشی Cogentic توسط گوگل در زمینه محاسبات و رمزنگاری",
+   "one_liner_fa": "تیم تحقیقاتی گوگل با انتشار مقالات پروژه «کوجنتیک» پیرامون فاکتورگیری اعداد صحیح و لگاریتم گسسته، جامعه امنیت و رمزنگاری را شگفت‌زده کرد.",
+   "deep": {
+    "id": "abef7dcffe",
+    "title_fa": "انتشار مقالات پژوهشی Cogentic توسط گوگل در زمینه محاسبات و رمزنگاری",
+    "summary_fa": "بخش تحقیقات گوگل (Google Research) مجموعه‌ای از مقالات علمی تحت عنوان Cogentic را در مخزن گیت‌هاب خود منتشر کرد. این مقالات پژوهشی به مسائل بنیادی ریاضیات و علوم کامپیوتر شامل تجزیه اعداد صحیح (Integer Factorization) و محاسبات لگاریتم گسسته (Discrete Logs) می‌پردازند؛ مباحثی که در حوزه پایه‌های رمزنگاری مدرن و حل مسائل پیچیده محاسباتی از اهمیت بالایی برخوردارند.",
+    "key_points_fa": [
+     "پروژه توسط تیم پژوهشی Google Research در گیت‌هاب رسمی منتشر شده است.",
+     "تمرکز پژوهش‌ها روی موضوعات پایه‌ای ریاضی و رمزنگاری مانند تجزیه اعداد صحیح و لگاریتم گسسته است.",
+     "این انتشار در پلتفرم هکر نیوز توجه زیادی جلب کرده است (بیش از ۳۴۰ امتیاز).",
+     "این مقالات بستری برای پیشرفت الگوریتم‌های پیشرفته محاسباتی و امنیتی هستند."
+    ],
+    "why_it_matters_fa": "شکستن یا بهبود تجزیه اعداد صحیح و لگاریتم گسسته مستقیماً با آینده رمزنگاری، امضاهای دیجیتال و امنیت الگوریتم‌های سنتی و کوانتومی در ارتباط است.",
+    "content_ideas": [
+     {
+      "format": "پست",
+      "title_fa": "تحقیقات جدید گوگل؛ پایه‌های رمزنگاری مدرن در حال تغییر است؟",
+      "hook_fa": "گوگل به سراغ مسائلی رفته که تمام امنیت اینترنت روی اون‌ها بنا شده!",
+      "angle_fa": "توضیح موضوع پیچیده تجزیه اعداد و لگاریتم گسسته به زبان ساده و ارتباط آن با امنیت روزمره.",
+      "outline_fa": [
+       "توضیح اینکه رمزنگاری فعلی اینترنت چطور به حل‌نشدن سریع مسائل ریاضی مثل تجزیه اعداد وابسته است",
+       "معرفی مقالات جدید Cogentic منتشر شده توسط بخش تحقیقات گوگل",
+       "بررسی اینکه چرا جامعه مهندسان و متخصصان امنیت با دقت بالا در حال بررسی این مقالات هستند",
+       "جمع‌بندی درباره آینده رمزنگاری با ورود مدل‌های هوش مصنوعی و پردازش پیشرفته"
+      ],
+      "visual_tip_fa": "گرافیک ریاضیاتی با کدهای باینری، لوگوی گیت‌هاب و گوگل ریسرچ با تایپوگرافی علمی و جذاب."
+     },
+     {
+      "format": "استوری",
+      "title_fa": "مقالات جدید Google Research درباره الگوریتم‌های پیچیده",
+      "hook_fa": "برای علاقه‌مندان به ریاضی و رمزنگاری: گوگل اسناد تحقیقاتی Cogentic رو منتشر کرد.",
+      "angle_fa": "معرفی مستقیم ریپازیتوری برای کاربران و برنامه‌نویسان جامعه هدف.",
+      "outline_fa": [
+       "اسکرین‌شات از ریپو گیت‌هاب google-research",
+       "توضیح یک‌خطی در مورد تمرکز بر Integer Factorization و Discrete Logs",
+       "لینک گیت‌هاب به همراه باکس تبادل نظر برای متخصصان امنیت"
+      ],
+      "visual_tip_fa": "اسکرین‌شات واضح از صفحه گیت‌هاب پروژه به همراه هایلایت کردن نام فایل‌ها."
+     }
+    ],
+    "hashtags": [
+     "#گوگل",
+     "#GoogleResearch",
+     "#رمزنگاری",
+     "#علوم_کامپیوتر",
+     "#امنیت",
+     "#برنامه_نویسی"
+    ],
+    "caution_fa": "متن موجود در منبع تنها شامل ساختار مخزن گیت‌هاب است و جزییات الگوریتمی عمیق‌تری در متن خبر نیامده است، نباید ادعای شکسته‌شدن رمزنگاری مطرح شود."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "abef7dcffe"
+  },
+  {
+   "title": "Rumors swirling that labs might have cracked Factoring in P",
+   "url": "https://www.reddit.com/r/singularity/comments/1y59ef1/rumor_that_openai_or_anthropic_found_a_way_to/",
+   "source": "reddit.com",
+   "published": "2026-11-25T15:08:44+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 294 امتیاز، 205 کامنت",
+   "signal_value": 294,
+   "discussion_url": "https://news.ycombinator.com/item?id=50643065",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 6,
+   "category": "research",
+   "story_key": "factoring-in-p-rumors",
+   "topic_key": "google-cogentic-cryptography",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "شایعه بزرگ در دنیای رمزنگاری: آیا هوش مصنوعی الگوریتم شکستن رمزنگاری RSA را کشف کرده؟",
+   "one_liner_fa": "شایعات و تحلیل‌های گسترده‌ای میان متخصصان شکل گرفته مبنی بر اینکه پژوهش‌های اخیر آزمایشگاه‌ها ممکن است به حل مسئله تجزیه اعداد در زمان چندجمله‌ای منجر شود.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "3b9100b6bf"
+  },
+  {
+   "title": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
+   "url": "https://github.com/xoxorwr/pw-loudness-eq",
+   "source": "github.com",
+   "published": "2026-11-25T11:34:25+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 260 امتیاز، 153 کامنت",
+   "signal_value": 260,
+   "discussion_url": "https://news.ycombinator.com/item?id=50641171",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 5,
+   "category": "open_source",
+   "story_key": "windows-loudness-equalization-pipewire",
+   "topic_key": "linux-audio-tools",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "ffad66169d"
+  },
+  {
+   "title": "Taking over US Treasury subdomains for $3 each",
+   "url": "https://www.intruder.io/research/taking-over-us-treasury-subdomains-for-3-each",
+   "source": "intruder.io",
+   "published": "2026-11-25T04:27:55+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 208 امتیاز، 44 کامنت",
+   "signal_value": 208,
+   "discussion_url": "https://news.ycombinator.com/item?id=50638478",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "safety_ethics",
+   "story_key": "us-treasury-subdomain-takeover",
+   "topic_key": "cybersecurity-vulnerabilities",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "رسوایی سایبری: تصاحب ساب‌دامین‌های وزارت خزانه‌داری آمریکا تنها با ۳ دلار!",
+   "one_liner_fa": "یک پژوهشگر امنیتی نشان داد که چگونه به دلیل پیکربندی اشتباه دامنه‌های متروکه، توانسته ساب‌دامین‌های رسمی وزارت خزانه‌داری آمریکا را با هزینه ناچیز ۳ دلار کنترل کند.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "cde7f1703c"
+  }
+ ],
+ "failed_sources": [],
+ "models": [
+  "gemini-3.8-flash",
+  "gemini-3.8-flash"
+ ]
+}

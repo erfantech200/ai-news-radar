@@ -696,123 +696,30 @@
   "https://huggingface.co/papers/2611.30962": "2026-11-25",
   "https://huggingface.co/papers/2611.32554": "2026-11-25",
   "https://huggingface.co/papers/2611.33010": "2026-11-25",
-  "https://huggingface.co/papers/2611.32183": "2026-11-25"
+  "https://huggingface.co/papers/2611.32183": "2026-11-25",
+  "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents": "2026-11-26",
+  "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb": "2026-11-26",
+  "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york": "2026-11-26",
+  "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats": "2026-11-26",
+  "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it": "2026-11-26",
+  "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse": "2026-11-26",
+  "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed": "2026-11-26",
+  "https://engadget.com/2328361/this-dollar1900-alienware-aurora-is-one-of-the-best-early-black-friday-pc-deals": "2026-11-26",
+  "https://engadget.com/2328242/whatsapp-is-finally-offering-scheduled-messages": "2026-11-26",
+  "https://engadget.com/2328122/nothings-ear-note-is-a-pair-of-earbuds-with-built-in-ai-notetaking": "2026-11-26",
+  "https://engadget.com/2327916/five-solar-generators-going-for-deep-discounts-on-black-friday": "2026-11-26",
+  "https://engadget.com/2326961/acer-predator-atlas-8-review": "2026-11-26",
+  "https://engadget.com/2327763/whatsapp-is-testing-stickers-with-sound": "2026-11-26",
+  "https://1password.com/blog/update-on-nov-2026-security-incident": "2026-11-26",
+  "https://github.com/google-research/google-research/tree/master/cogentic_research_papers": "2026-11-26",
+  "https://vox.com/down-to-earth/511999/home-depot-retention-pond-snorkel-joseph-ricketts": "2026-11-26",
+  "https://reddit.com/r/singularity/comments/1y59ef1/rumor_that_openai_or_anthropic_found_a_way_to": "2026-11-26",
+  "https://github.com/xoxorwr/pw-loudness-eq": "2026-11-26",
+  "https://marginalia.nu/log/a_141_marginalia_update": "2026-11-26",
+  "https://intruder.io/research/taking-over-us-treasury-subdomains-for-3-each": "2026-11-26",
+  "https://githubstatus.com/incidents/qn8mfv6q5hlx": "2026-11-26"
  },
  "reported": [
-  {
-   "date": "2026-11-21",
-   "title": "Anthropic employee claims general proof of the Riemann Hypothesis [pdf]",
-   "title_fa": "ادعای حل فرضیه ریمان توسط پژوهشگر شرکت انتروپیک",
-   "url": "https://alpo.ge/remark.pdf"
-  },
-  {
-   "date": "2026-11-21",
-   "title": "Nothing's AI device debuts December 8, and it looks like two vapes stuck together",
-   "title_fa": "افشای اولین گجت هوش مصنوعی ناتینگ؛ معرفی رسمی در ۱۷ آذر",
-   "url": "https://engadget.com/2323187/nothings-ai-device-debuts-december-8-and-it-looks-like-two-vapes-stuck-together"
-  },
-  {
-   "date": "2026-11-21",
-   "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
-   "title_fa": "فراست‌بایت: پردازنده‌ای که هوش مصنوعی از صفر طراحی کرد!",
-   "url": "https://architectlabs.com/blog/frostbite"
-  },
-  {
-   "date": "2026-11-21",
-   "title": "The fallout from Nvidia’s Jensen Huang scandal continues",
-   "title_fa": "بحران در انویدیا؛ پیامدهای عزل جنسان هوانگ و توقف فروش تراشه به چین",
-   "url": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues"
-  },
-  {
-   "date": "2026-11-21",
-   "title": "Ray-Ban Meta (Gen 3) review: Minor upgrades that cost too much",
-   "title_fa": "نقد عینک ری‌بن متا نسل ۳؛ تغییرات اندک با قیمت نجومی!",
-   "url": "https://engadget.com/2322827/ray-ban-meta-gen-3-review"
-  },
-  {
-   "date": "2026-11-21",
-   "title": "Global stock markets slump as Anthropic's record IPO fails to stem AI sell-off",
-   "title_fa": "ریزش بازارهای مالی جهان؛ ورود تاریخی آنتروپیک به بورس هم مانع سقوط سهام هوش مصنوعی نشد",
-   "url": "https://theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off"
-  },
-  {
-   "date": "2026-11-21",
-   "title": "Hurried Announcement: Alessandro Masullo GRH",
-   "title_fa": "ادعای اثبات فرضیه بزرگ ریمان؛ آن هم کاملاً انسانی و بدون دخالت هوش مصنوعی!",
-   "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh"
-  },
-  {
-   "date": "2026-11-21",
-   "title": "Signal now blocks screenshots by default to stymie AI agents",
-   "title_fa": "سیگنال شمشیر را بست: مسدودسازی اسکرین‌شات برای جلوگیری از سرک کشیدن هوش مصنوعی!",
-   "url": "https://engadget.com/2323574/signal-now-blocks-screenshots-by-default-to-stymie-ai-agents"
-  },
-  {
-   "date": "2026-11-21",
-   "title": "US SEC's Nvidia probe is examining potential accounting issues – sources",
-   "title_fa": "تحقیقات کمیسیون بورس آمریکا درباره انویدیا؛ آیا پای مشکلات حسابداری در میان است؟",
-   "url": "https://marketscreener.com/news/us-sec-s-nvidia-probe-is-examining-potential-accounting-issues-sources-say-ce785ed3dd8ff627"
-  },
-  {
-   "date": "2026-11-21",
-   "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
-   "title_fa": "مدل متن‌باز Inkling 2 Mini معرفی شد؛ غول مولتی‌مودال جدید برای سیستم خانگی شما!",
-   "url": "https://huggingface.co/blog/inkling2mini"
-  },
-  {
-   "date": "2026-11-21",
-   "title": "GTA 6 made $3.79 billion in its first day, but Rockstar's workers still lack job security",
-   "title_fa": "فروش تاریخی ۳.۸ میلیارد دلاری GTA 6 در روز اول، هم‌زمان با بحران امنیت شغلی سازندگانش!",
-   "url": "https://engadget.com/2323671/gta-6-made-dollar379-billion-in-its-first-day-but-rockstars-workers-still-lack-job-security"
-  },
-  {
-   "date": "2026-11-21",
-   "title": "Unforced Navier-Stokes Singularity and the Generalized Riemann Hypothesis",
-   "title_fa": "تحلیل ترنس تائو درباره حل همزمان دو معمای بزرگ هزاره ریاضیات!",
-   "url": "https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis"
-  },
-  {
-   "date": "2026-11-21",
-   "title": "Language Models Can Rewrite Their Own Weights",
-   "title_fa": "ترسناک اما واقعی: مدل‌های زبانی یاد گرفتند وزن‌های شبکه عصبی خود را تغییر دهند!",
-   "url": "https://arxiv.org/abs/2611.21885"
-  },
-  {
-   "date": "2026-11-21",
-   "title": "YouTube could pay $3 billion to settle social media addiction lawsuits with school districts",
-   "title_fa": "جریمه ۳ میلیارد دلاری یوتیوب به اتهام اعتیادآور بودن برای نوجوانان!",
-   "url": "https://engadget.com/2323927/youtube-could-pay-3-billion-to-settle-social-media-addiction-lawsuits-with-school-districts"
-  },
-  {
-   "date": "2026-11-21",
-   "title": "Finite-time blow-up for the Navier–Stokes equations",
-   "title_fa": "پیشرفت چشمگیر در حل معمای بی‌پاسخ هزاره: معادلات ناویر-استوکس",
-   "url": "https://github.com/tristanbuckmaster/navier-stokes"
-  },
-  {
-   "date": "2026-11-21",
-   "title": "What Comes After AGI?",
-   "title_fa": "تحقیق جدید دیپ‌مایند: دنیای بعد از هوش عمومی مصنوعی (AGI) چگونه خواهد بود؟",
-   "url": "https://institute.deepmind.com/essays/what-comes-after-agi"
-  },
-  {
-   "date": "2026-11-21",
-   "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
-   "title_fa": "تست قدرت مدل مخفی GPT-6 Astra اوپن‌ای‌آی در تحقیقات مالی!",
-   "url": "https://openai.com/business/customer-stories/hebbia"
-  },
-  {
-   "date": "2026-11-21",
-   "title": "The most misunderstood graph in AI just got a major update",
-   "title_fa": "گزارش جنجالی METR: هوش مصنوعی در کدنویسی می‌درخشد اما در قضاوت هنوز لنگ می‌زند!",
-   "url": "https://technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update"
-  },
-  {
-   "date": "2026-11-21",
-   "title": "OpenAI brings its collaborative Space hubs to Plus users",
-   "title_fa": "قابلیت همکاری تیمی ChatGPT Space در دسترس کاربران نسخه پلاس قرار گرفت",
-   "url": "https://engadget.com/2323016/openai-brings-its-collaborative-space-hubs-to-plus-users"
-  },
   {
    "date": "2026-11-22",
    "title": "Lean Verification of the Riemann Hypothesis - Joint statement by...",
@@ -1208,6 +1115,66 @@
    "title": "Button Sounds – collection of professionally-recorded button clicks and presses",
    "title_fa": "مجموعه رایگان بیش از ۵۰ افکت صوتی حرفه‌ای دکمه برای توسعه‌دهندگان وب",
    "url": "https://buttons.joshwcomeau.com/"
+  },
+  {
+   "date": "2026-11-26",
+   "title": "Character.AI’s plan to auction off users’ private chats challenged by state AGs",
+   "title_fa": "تلاش برای حراج چت‌های خصوصی کاربران Character.AI و شکایت ۴۲ ایالت آمریکا",
+   "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats"
+  },
+  {
+   "date": "2026-11-26",
+   "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
+   "title_fa": "ممنوعیت ۵ ساله فروش اسباب‌بازی‌های هوش مصنوعی در نیویورک",
+   "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york"
+  },
+  {
+   "date": "2026-11-26",
+   "title": "Google releases Cogentic papers on integer factorization, discrete logs and more",
+   "title_fa": "انتشار مقالات پژوهشی Cogentic توسط گوگل در زمینه محاسبات و رمزنگاری",
+   "url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers"
+  },
+  {
+   "date": "2026-11-26",
+   "title": "Nothing's Ear (note) is a pair of earbuds with built-in AI notetaking",
+   "title_fa": "ناتینگ از ایرباد جدید Ear (note) با هوش مصنوعی یادداشت‌بردار رونمایی کرد",
+   "url": "https://engadget.com/2328122/nothings-ear-note-is-a-pair-of-earbuds-with-built-in-ai-notetaking"
+  },
+  {
+   "date": "2026-11-26",
+   "title": "1Password Security Incident",
+   "title_fa": "رخنه امنیتی در 1Password؛ هکر به گیت‌هاب شرکتی دسترسی پیدا کرد",
+   "url": "https://1password.com/blog/update-on-nov-2026-security-incident"
+  },
+  {
+   "date": "2026-11-26",
+   "title": "Rumors swirling that labs might have cracked Factoring in P",
+   "title_fa": "شایعه بزرگ در دنیای رمزنگاری: آیا هوش مصنوعی الگوریتم شکستن رمزنگاری RSA را کشف کرده؟",
+   "url": "https://reddit.com/r/singularity/comments/1y59ef1/rumor_that_openai_or_anthropic_found_a_way_to"
+  },
+  {
+   "date": "2026-11-26",
+   "title": "The questions Jensen Huang and Nvidia will still have to answer about Megaspeed",
+   "title_fa": "سوالات بی‌پاسخ سنا از جنسان هوانگ؛ رسوایی قاچاق تراشه‌های انویدیا به شرکت مگاسپید",
+   "url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed"
+  },
+  {
+   "date": "2026-11-26",
+   "title": "Taking over US Treasury subdomains for $3 each",
+   "title_fa": "رسوایی سایبری: تصاحب ساب‌دامین‌های وزارت خزانه‌داری آمریکا تنها با ۳ دلار!",
+   "url": "https://intruder.io/research/taking-over-us-treasury-subdomains-for-3-each"
+  },
+  {
+   "date": "2026-11-26",
+   "title": "AI data centers are becoming harder to build, and neoclouds are feeling it",
+   "title_fa": "سخت‌تر شدن ساخت دیتاسنترهای هوش مصنوعی؛ انویدیا قوانین بازی را تغییر داد",
+   "url": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it"
+  },
+  {
+   "date": "2026-11-26",
+   "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
+   "title_fa": "مذاکرات آمازون و متا برای رفع مسدودیت دو ماهه دستیار هوش مصنوعی میوز",
+   "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse"
   }
  ],
  "telegram_chat_id": "925911315"
