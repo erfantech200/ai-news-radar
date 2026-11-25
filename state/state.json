@@ -676,7 +676,27 @@
   "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf": "2026-11-25",
   "https://github.com/sous-labs/songe": "2026-11-25",
   "https://ed.ac.uk/news/heart-attack-and-stroke-risk-detectable-decades-in-advance": "2026-11-25",
-  "https://huggingface.co/papers/2611.31358": "2026-11-25"
+  "https://huggingface.co/papers/2611.31358": "2026-11-25",
+  "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga": "2026-11-25",
+  "https://technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems": "2026-11-25",
+  "https://engadget.com/2323102/how-to-watch-every-2026-nfl-thanksgiving-streaming": "2026-11-25",
+  "https://engadget.com/2327693/amazon-autos-is-coming-to-the-uk-in-its-first-expansion-outside-the-us": "2026-11-25",
+  "https://buttons.joshwcomeau.com/": "2026-11-25",
+  "https://greydanus.github.io/2026/11/12/pengpt": "2026-11-25",
+  "https://lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being": "2026-11-25",
+  "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit": "2026-11-25",
+  "https://scottaaronson.blog/?p=10362": "2026-11-25",
+  "https://comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F": "2026-11-25",
+  "https://charlie.fish/posts/2026/11/what-cloudflare-doesnt-tell-you": "2026-11-25",
+  "https://gpu-demo-gallery.pages.dev/": "2026-11-25",
+  "https://grafana.com/grafana/download": "2026-11-25",
+  "https://huggingface.co/papers/2611.30634": "2026-11-25",
+  "https://huggingface.co/papers/2611.31205": "2026-11-25",
+  "https://huggingface.co/papers/2611.32884": "2026-11-25",
+  "https://huggingface.co/papers/2611.30962": "2026-11-25",
+  "https://huggingface.co/papers/2611.32554": "2026-11-25",
+  "https://huggingface.co/papers/2611.33010": "2026-11-25",
+  "https://huggingface.co/papers/2611.32183": "2026-11-25"
  },
  "reported": [
   {
@@ -1158,6 +1178,36 @@
    "title": "Huawei is guilty of conspiracy to steal trade secrets, US jury rules",
    "title_fa": "دادگاه آمریکا هواوی را به جرم سرقت اسرار تجاری محکوم کرد",
    "url": "https://engadget.com/2327450/huawei-is-guilty-of-conspiracy-to-steal-trade-secrets-us-jury-rules"
+  },
+  {
+   "date": "2026-11-25",
+   "title": "Embodied AI Fails the Mirror Test: How a Simple Mirror Breaks Robot Policies",
+   "title_fa": "ربات‌ها در آزمون آینه مردود شدند؛ چالش جدید هوش مصنوعی در درک بازتاب‌ها",
+   "url": "https://huggingface.co/papers/2611.33010"
+  },
+  {
+   "date": "2026-11-25",
+   "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
+   "title_fa": "ارتباط پنهانی مدل‌های ایزوله؛ کشف روزنه امنیتی در سرورهای هوش مصنوعی",
+   "url": "https://lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being"
+  },
+  {
+   "date": "2026-11-25",
+   "title": "PenGPT: A Generative Transformer for Handwriting and Sketches",
+   "title_fa": "تولد PenGPT: ترنسفورمر بسیار کوچکی که مثل انسان می‌نویسد و نقاشی می‌کند",
+   "url": "https://greydanus.github.io/2026/11/12/pengpt"
+  },
+  {
+   "date": "2026-11-25",
+   "title": "Lazy Agents Answer Against Their Own Beliefs: Reinforcement Learning with Verifiable Beliefs Teaches Them to Act on What They Believe",
+   "title_fa": "درمان تنبلی مدل‌های هوش مصنوعی با متد RLVB؛ تصمیم‌گیری فقط با شواهد کافی",
+   "url": "https://huggingface.co/papers/2611.32884"
+  },
+  {
+   "date": "2026-11-25",
+   "title": "Button Sounds – collection of professionally-recorded button clicks and presses",
+   "title_fa": "مجموعه رایگان بیش از ۵۰ افکت صوتی حرفه‌ای دکمه برای توسعه‌دهندگان وب",
+   "url": "https://buttons.joshwcomeau.com/"
   }
  ],
  "telegram_chat_id": "925911315"
