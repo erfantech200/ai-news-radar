@@ -1,0 +1,791 @@
+{
+ "content": [
+  {
+   "title": "SpaceX gets FCC approval to deploy 1 million satellites for its AI orbital data center",
+   "url": "https://www.engadget.com/2329071/spacex-gets-fcc-approval-to-deploy-1-million-satellites-for-its-ai-orbital-data-center/",
+   "source": "Engadget",
+   "published": "2026-11-26T11:01:32+00:00",
+   "origin": "Engadget",
+   "summary": "The FCC has granted SpaceX's request to deploy 1 million satellites to build an AI data center in orbit.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/spacex-gets-fcc-approval-to-deploy-1-million-satellites-for-its-ai-orbital-data-center/l-intro-1795690830.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/spacex-gets-fcc-approval-to-deploy-1-million-satellites-for-its-ai-orbital-data-center/intro-1795690830.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 8,
+   "worthiness": 9,
+   "category": "big_tech",
+   "story_key": "spacex-fcc-approval-orbital-ai-datacenter",
+   "topic_key": "spacex-orbital-compute",
+   "already_reported": false,
+   "viral": 9,
+   "title_fa": "چراغ سبز آمریکا به ایلان ماسک: پرتاب ۱ میلیون ماهواره برای دیتاسنتر هوش مصنوعی در فضا!",
+   "one_liner_fa": "کمیسیون ارتباطات فدرال آمریکا (FCC) درخواست اسپیس‌ایکس (SpaceX) برای پرتاب یک میلیون ماهواره به‌منظور احداث دیتاسنتر فضایی هوش مصنوعی را تایید کرد.",
+   "deep": {
+    "id": "6eebab6a0a",
+    "title_fa": "چراغ سبز آمریکا به ایلان ماسک: پرتاب ۱ میلیون ماهواره برای دیتاسنتر هوش مصنوعی در فضا!",
+    "summary_fa": "کمیسیون فدرال ارتباطات آمریکا (FCC) به شرکت اسپیس‌ایکس (SpaceX) مجوز داد تا پروژه‌ای موسوم به «استارمایند» (Starmind) را آغاز کند که هدف آن پرتاب یک میلیون ماهواره برای ساخت دیتاسنتر هوش مصنوعی در مدار زمین است. اسپیس‌ایکس معتقد است دیتاسنترهای مداری با استفاده از انرژی خورشیدی و بدون هزینه سنگین نگهداری روی زمین، بهترین پاسخ به نیاز محاسباتی هوش مصنوعی هستند. با این حال دانشمندان هشدار داده‌اند که خنک‌سازی سخت‌افزار در خلأ فضا به خاطر نبود همرفت هوا و وابستگی به تابش گرمایی بسیار دشوار است و خطر تولید زباله‌های فضایی فراوان وجود دارد. طبق برنامه مصوب، اولین ماهواره باید تا سال ۲۰۳۳ و کل یک میلیون ماهواره تا سال ۲۰۴۰ مستقر شوند.",
+    "key_points_fa": [
+     "پروژه دیتاسنتر مداری اسپیس‌ایکس «استارمایند» (Starmind) نام دارد و تاییدیه FCC را گرفته است.",
+     "مجوز شامل پرتاب ۱ میلیون ماهواره در ارتفاع مداری بین ۵۰۰ متر تا ۱۰۰۲ کیلومتر است.",
+     "مهلت قانونی FCC: پرتاب اولین ماهواره تا نوامبر ۲۰۳۳، ۱۰۰ هزار تا سال ۲۰۳۵، ۵۰۰ هزار تا سال ۲۰۲۸ (طبق جدول FCC) و تکمیل ۱ میلیون تا نوامبر ۲۰۴۰.",
+     "ایلان ماسک پیش‌تر ادعا کرده بود پرتاب‌ها از سال ۲۰۲۷ آغاز می‌شود.",
+     "انتقاد دانشمندان: حبس حرارت در خلأ فضا، محدودیت‌های فیزیکی دفع گرما از طریق تابش، و ریسک بالای تصادم و زباله فضایی."
+    ],
+    "why_it_matters_fa": "با بحران شدید مصرف برق و آب دیتاسنترهای هوش مصنوعی روی زمین، انتقال پردازش به مدار زمین می‌تواند بزرگ‌ترین جهش زیرساختی تاریخ تکنولوژی یا یک فاجعه پرهزینه مداری باشد.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "هوش مصنوعی به فضا رفت؛ ایده دیوانه‌وار جدید ایلان ماسک!",
+      "hook_fa": "ایلان ماسک بالاخره مجوز ساخت دیتاسنتر هوش مصنوعی توی فضا رو گرفت؛ اونم با ۱ میلیون ماهواره!",
+      "angle_fa": "بررسی جذابیت ایده انتقال پردازش هوش مصنوعی به فضا در برابر موانع علمی واقعی مثل خنک‌سازی و داغ شدن در خلأ.",
+      "outline_fa": [
+       "معرفی پروژه استارمایند و دریافت مجوز از FCC برای ۱ میلیون ماهواره",
+       "چرا فضا؟ رهایی از بحران مصرف وحشتناک آب و برق دیتاسنترها روی زمین با پنل خورشیدی",
+       "مشکل بزرگ علمی چیست؟ چالش خنک‌کردن پردازنده‌ها در خلأ و زباله‌های فضایی",
+       "برنامه زمانی تا سال ۲۰۴۰ و جمع‌بندی درباره واقع‌بینانه بودن آن"
+      ],
+      "visual_tip_fa": "تصاویر رندر فضایی و ماهواره‌های استارلینک، همراه با نمودار یا موکاپ بصری از داغ کردن پردازنده‌ها در فضا."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "دیتاسنتر در مدار زمین: پروژه استارمایند اسپیس‌ایکس چطور کار می‌کند؟",
+      "hook_fa": "زمین دیگه جا نداره؛ ۱ میلیون کامپیوتر هوش مصنوعی قراره دور سرمون بچرخن!",
+      "angle_fa": "بررسی اسلایدی ابعاد فنی، زمان‌بندی اعلام‌شده و چالش‌های فیزیکی این پروژه بلندپروازانه.",
+      "outline_fa": [
+       "اسلاید ۱: معرفی تیتر و کلیت مجوز رسمی FCC برای ۱ میلیون ماهواره",
+       "اسلاید ۲: وعده اسپیس‌ایکس درباره کاهش هزینه‌ها و انرژی خورشیدی ارزان",
+       "اسلاید ۳: زمان‌بندی پرتاب‌ها از ۲۰۳۳ تا تکمیل در ۲۰۴۰",
+       "اسلاید ۴: چرا فیزیکدان‌ها می‌گویند نشدنی است؟ (چالش دفع حرارت در خلأ)",
+       "اسلاید ۵: خطر برخورد مداری و زباله‌های فضایی + نظر مخاطب در اسلاید آخر"
+      ],
+      "visual_tip_fa": "استفاده از اسلایدهای تیره و مینیمال با محوریت فضا، اینفوگرافیک ارتفاع مداری ۵۰۰ تا ۱۰۰۰ کیلومتری و تایم‌لاین سال‌ها."
+     }
+    ],
+    "hashtags": [
+     "#هوش_مصنوعی",
+     "#اسپیس_ایکس",
+     "#ایلان_ماسک",
+     "#فناوری",
+     "#SpaceX",
+     "#ArtificialIntelligence",
+     "#Starmind"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "6eebab6a0a"
+  },
+  {
+   "title": "NVIDIA reportedly halts AI chip shipments to Southeast Asia",
+   "url": "https://www.engadget.com/2329200/nvidia-reportedly-halts-chip-shipments-to-southeast-asia/",
+   "source": "Engadget",
+   "published": "2026-11-26T18:09:18+00:00",
+   "origin": "Engadget",
+   "summary": "In the same week that NVIDIA reinstated Jensen Huang as its CEO, the company has reportedly also blocked shipments to Southeast Asia.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/nvidia-reportedly-halts-ai-chip-shipments-to-southeast-asia/l-intro-1795716287.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/nvidia-reportedly-halts-ai-chip-shipments-to-southeast-asia/intro-1795716287.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 8,
+   "worthiness": 8,
+   "category": "hardware_chips",
+   "story_key": "nvidia-halts-se-asia-chip-shipments",
+   "topic_key": "nvidia-leadership-crisis",
+   "already_reported": false,
+   "viral": 8,
+   "title_fa": "زلزله در بازار تراشه: انویدیا ارسال سرورهای هوش مصنوعی به جنوب شرق آسیا را متوقف کرد",
+   "one_liner_fa": "هم‌زمان با حواشی بازگشت جنسن هوانگ (Jensen Huang)، گزارش‌ها نشان می‌دهد انویدیا (NVIDIA) ارسال محموله‌های پردازنده‌های هوش مصنوعی به جنوب شرق آسیا را متوقف کرده است.",
+   "deep": {
+    "id": "badc15b291",
+    "title_fa": "زلزله در بازار تراشه: انویدیا ارسال سرورهای هوش مصنوعی به جنوب شرق آسیا را متوقف کرد",
+    "summary_fa": "انویدیا (NVIDIA) و شرکای سخت‌افزاری آن مانند دل (Dell) و سوپرمایکرو (Supermicro) ارسال سرورهای هوش مصنوعی به چهار کشور مالزی، سنگاپور، تایلند و اندونزی را متوقف کرده‌اند. این اقدام در پی تلاش وزارت بازرگانی آمریکا برای بستن روزنه‌های تحریمی انجام شده؛ جایی که آزمایشگاه‌های چینی با اجاره توان پردازشی ابری در این کشورها، تحریم‌ها را دور می‌زدند. همچنین تحریم شرکت مگاسپید (Megaspeed) و ماجراهای حاشیه‌ای حول بازگشت جنسن هوانگ (Jensen Huang) به مدیرعاملی، سردرگمی شدیدی میان دیتاسنترهای منطقه برای اخذ مجوز ۹۰ روزه ایجاد کرده است.",
+    "key_points_fa": [
+     "توقف ارسال سرورهای هوش مصنوعی به ۴ کشور: مالزی، سنگاپور، تایلند و اندونزی توسط دل و سوپرمایکرو به دستور انویدیا.",
+     "دلیل اصلی: مسدود کردن دور زدن تحریم‌های آمریکا توسط شرکت‌های هوش مصنوعی چین از طریق اجاره سرورهای ابری منطقه.",
+     "وزارت بازرگانی آمریکا شرکت «مگاسپید» را به لیست سیاه (Entity List) اضافه کرده است.",
+     "دیتاسنترهای منطقه ۹۰ روز از تاریخ ۱۹ نوامبر فرصت دارند مجوز دریافت کنند، در حالی که راهنمای مشخصی ارائه نشده است.",
+     "واحد سنگاپور انویدیا در سال ۲۰۲۵ درآمد ۱۰۴ میلیارد دلاری (۷۲ درصد رشد سالانه) ثبت کرده بود."
+    ],
+    "why_it_matters_fa": "این اقدام نشان می‌دهد جنگ سرد هوش مصنوعی میان آمریکا و چین وارد مرحله حساسی شده و محدود شدن زیرساخت‌های ابری در آسیا می‌تواند دسترسی توسعه‌دهندگان به پردازنده‌های قدرتمند را گران‌تر و سخت‌تر کند.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "پشت‌پرده توقف ناگهانی فروش تراشه‌های انویدیا!",
+      "hook_fa": "انویدیا فروش قوی‌ترین تراشه‌هاش به آسیا رو یهویی قطع کرد! ماجرا چیه؟",
+      "angle_fa": "داستان جذاب موش و گربه بازی چین و آمریکا سر تراشه‌های انویدیا و نقشه دور زدن تحریم‌ها با دیتاسنترهای اجاره‌ای.",
+      "outline_fa": [
+       "خبر توقف ارسال سرورهای AI توسط دل و انویدیا به سنگاپور و مالزی",
+       "ترفند چین چه بود؟ اجاره ابری تراشه‌های انویدیا به جای خرید مستقیم",
+       "ورود آمریکا و قرار دادن شرکت مگاسپید در لیست سیاه",
+       "آشفتگی دیتاسنترها و سود سرسام‌آور ۱۰۴ میلیارد دلاری سنگاپور"
+      ],
+      "visual_tip_fa": "تصاویر گرافیکی نقشه جنوب شرق آسیا، تراشه‌های انویدیا و چهره جنسن هوانگ همراه با متن‌های متحرک بزرگ."
+     },
+     {
+      "format": "پست",
+      "title_fa": "جنگ تراشه‌ها داغ‌تر شد: چرا انویدیا دسترسی آسیای جنوب شرقی را بست؟",
+      "hook_fa": "آمریکا بزرگ‌ترین روزنه هوش مصنوعی چین رو بست؛ سنگاپور و مالزی زیر تیغ تحریم انویدیا!",
+      "angle_fa": "تحلیل استراتژیک تاثیر این اقدام بر بازار جهانی دیتاسنترها و شرکت‌های هوش مصنوعی.",
+      "outline_fa": [
+       "روایت ماجرا: مسدود شدن ارسال سرورها توسط انویدیا و شرکا",
+       "چگونه کشورهای جنوب شرق آسیا هاب دور زدن تحریم برای هوش مصنوعی چین شدند؟",
+       "قانون ضرب‌الاجل ۹۰ روزه آمریکا و سردرگمی شرکت‌های ارائه‌دهنده کلود",
+       "تاثیر اقتصادی روی درآمد انویدیا و آینده زیرساخت هوش مصنوعی"
+      ],
+      "visual_tip_fa": "طراحی کاور جذاب شامل تراشه انویدیا و پرچم‌های آمریکا، چین و سنگاپور."
+     }
+    ],
+    "hashtags": [
+     "#انویدیا",
+     "#هوش_مصنوعی",
+     "#تکنولوژی",
+     "#NVIDIA",
+     "#تحریم_تکنولوژی",
+     "#هوش_مصنوعی_چین"
+    ],
+    "caution_fa": "هنوز رسماً اعلام نشده که این توقف ارسال دائمی است یا موقت."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "badc15b291"
+  },
+  {
+   "title": "Man sentenced to 47 months in prison after using AI to impersonate streamer N3on",
+   "url": "https://www.engadget.com/2329150/man-sentenced-to-47-month-prison-sentence-after-using-ai-impersonate-streamer/",
+   "source": "Engadget",
+   "published": "2026-11-26T15:50:37+00:00",
+   "origin": "Engadget",
+   "summary": "David Anthony Sanchez, the man who impersonated N3on, scammed victims out of $260,000 worth of cryptocurrency.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/man-sentenced-to-47-months-in-prison-after-using-ai-to-impersonate-streamer-n3on/l-intro-1795707863.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/man-sentenced-to-47-months-in-prison-after-using-ai-to-impersonate-streamer-n3on/intro-1795707863.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 8,
+   "category": "safety_ethics",
+   "story_key": "ai-impersonation-crypto-scam-prison-sentence",
+   "topic_key": "ai-deepfake-crimes",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "حبس ابد صوتی! ۴۷ ماه زندان برای کلاهبرداری با کلون صدای استریمر معروف",
+   "one_liner_fa": "دادگاه فردی را که با شبیه‌سازی هویت استریمر مشهور N3on از طریق هوش مصنوعی ۲۶۰ هزار دلار رمزارز به جیب زده بود، به ۴۷ ماه زندان محکوم کرد.",
+   "deep": {
+    "id": "463a1d53cd",
+    "title_fa": "حبس ابد صوتی! ۴۷ ماه زندان برای کلاهبرداری با کلون صدای استریمر معروف",
+    "summary_fa": "مردی اهل فلوریدا معروف به «دیو طلافروش» به دلیل استفاده از هوش مصنوعی برای شبیه‌سازی صدای یک استریمر سرشناس و کلاهبرداری ارز دیجیتال، به ۴۷ ماه زندان محکوم شد. او با ساخت دیپ‌فیک صوتی از مایکل رافیق ملقب به «N3on»، سازندگان یک میم‌کوین را قانع کرده بود که این استریمر حاضر به تبلیغ پروژه آنهاست. او از این طریق توانست حدود ۲۶۰ هزار دلار ارز دیجیتال به چنگ آورده و آن را تبدیل به پول نقد کند، اما در نهایت دادگاه او را به جرم پول‌شویی و سرقت هویت محکوم کرد.",
+    "key_points_fa": [
+     "متهم: دیوید آنتونی سانچز (معروف به Dave the Jewler) به ۴۷ ماه زندان محکوم شد.",
+     "شگرد جرم: شبیه‌سازی صدای استریمر معروف به نام Mikyle 'N3on' Rafiq با ابزارهای هوش مصنوعی صوتی.",
+     "مبلغ سرقت: حدود ۲۶۰ هزار دلار ارز دیجیتال از توسعه‌دهندگان یک پروژه میم‌کوین.",
+     "اتهامات پذیرفته‌شده: پول‌شویی و سرقت هویت تشدیدشده همراه با حکم بازگرداندن اموال.",
+     "دادستانی فدرال این حکم را زنگ خطری برای سوءاستفاده از فناوری‌های نوظهور علیه سرمایه‌گذاران دانست."
+    ],
+    "why_it_matters_fa": "کلون کردن صدا با هوش مصنوعی آن‌قدر دقیق و ساده شده که حتی فعالان دنیای کریپتو هم فریب می‌خورند؛ هشداری جدی برای خطرات امنیتی جعل هویت صوتی.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "کلاهبرداری ۲۶۰ هزار دلاری فقط با شبیه‌سازی یک صدا!",
+      "hook_fa": "باورت میشه با کلون صدای هوش مصنوعی ۲۶۰ هزار دلار دزدید و حالا داره میره زندان؟!",
+      "angle_fa": "روایت ماجرای پلیسی و جذاب این کلاهبرداری و آموزش خطر جعل صدا برای مخاطب.",
+      "outline_fa": [
+       "قلاب: معرفی کلاهبرداری عجیب با صدای کلون شده استریمر N3on",
+       "نحوه فریب تیم میم‌کوین با ویس‌های فیک و ادعای اسپانسرشیپ",
+       "سود ۲۶۰ هزار دلاری و تبدیل کریپتو به دلار",
+       "پایان کار: دادگاه فدرال و ۴۷ ماه زندان قطعی",
+       "پیام هشدار: چطور به هر صدای تلفنی یا پیامی در تلگرام اعتماد نکنیم؟"
+      ],
+      "visual_tip_fa": "استفاده از تصویر واقعی استریمر N3on، افکت‌های صوتی موج صدا (waveform) و اسکرین‌شات تیتر خبر."
+     },
+     {
+      "format": "استوری",
+      "title_fa": "هشدار جعل صدا با هوش مصنوعی؛ کلاهبرداری کریپتویی ۴ سال زندان گرفت!",
+      "hook_fa": "صداتون دیگه متعلق به خودتون نیست! این خبر عجیب رو ببینید 👇",
+      "angle_fa": "زنجیره استوری تعاملی درباره پیشرفت جعل صدا و ضرورت فعال‌سازی تاییدهای چندمرحله‌ای برای توافقات مالی.",
+      "outline_fa": [
+       "استوری ۱: خبر محکومیت ۴۷ ماهه کلاهبردار با صدای کلون‌شده",
+       "استوری ۲: توضیح ماجرا و دزدی ۲۶۰ هزار دلاری از پروژه کریپتو",
+       "استوری ۳: نظرسنجی: آیا تا حالا به فیک بودن صدای کسی شک کردید؟",
+       "استوری ۴: نکته امنیتی: برای کارهای مالی همیشه تماس ویدیویی زنده بخواهید"
+      ],
+      "visual_tip_fa": "استیکر باکس نظرسنجی و اسکرین‌شات از اخبار مرتبط با ابزارهای Voice Cloning."
+     }
+    ],
+    "hashtags": [
+     "#دیپ_فیک",
+     "#هوش_مصنوعی",
+     "#امنیت_سایبری",
+     "#ارز_دیجیتال",
+     "#Deepfake",
+     "#VoiceCloning",
+     "#CyberSecurity"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "463a1d53cd"
+  }
+ ],
+ "others": [],
+ "scored": [
+  {
+   "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+   "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+   "source": "Hugging Face Blog",
+   "published": "2026-11-26T11:37:17+00:00",
+   "origin": "Hugging Face Blog",
+   "summary": "",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 5,
+   "category": "open_source",
+   "story_key": "llamacpp-amd-benchmark-dashboard",
+   "topic_key": "local-llm-benchmarks",
+   "already_reported": false,
+   "viral": 3,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "02a0884347"
+  },
+  {
+   "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+   "url": "https://huggingface.co/blog/training-swarms",
+   "source": "Hugging Face Blog",
+   "published": "2026-11-26T00:00:00+00:00",
+   "origin": "Hugging Face Blog",
+   "summary": "",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 4,
+   "category": "research",
+   "story_key": "huggingface-multi-agent-guide",
+   "topic_key": "multi-agent-systems",
+   "already_reported": false,
+   "viral": 3,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "c01600d416"
+  },
+  {
+   "title": "NVIDIA reportedly halts AI chip shipments to Southeast Asia",
+   "url": "https://www.engadget.com/2329200/nvidia-reportedly-halts-chip-shipments-to-southeast-asia/",
+   "source": "Engadget",
+   "published": "2026-11-26T18:09:18+00:00",
+   "origin": "Engadget",
+   "summary": "In the same week that NVIDIA reinstated Jensen Huang as its CEO, the company has reportedly also blocked shipments to Southeast Asia.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/nvidia-reportedly-halts-ai-chip-shipments-to-southeast-asia/l-intro-1795716287.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/nvidia-reportedly-halts-ai-chip-shipments-to-southeast-asia/intro-1795716287.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 8,
+   "worthiness": 8,
+   "category": "hardware_chips",
+   "story_key": "nvidia-halts-se-asia-chip-shipments",
+   "topic_key": "nvidia-leadership-crisis",
+   "already_reported": false,
+   "viral": 8,
+   "title_fa": "زلزله در بازار تراشه: انویدیا ارسال سرورهای هوش مصنوعی به جنوب شرق آسیا را متوقف کرد",
+   "one_liner_fa": "هم‌زمان با حواشی بازگشت جنسن هوانگ (Jensen Huang)، گزارش‌ها نشان می‌دهد انویدیا (NVIDIA) ارسال محموله‌های پردازنده‌های هوش مصنوعی به جنوب شرق آسیا را متوقف کرده است.",
+   "deep": {
+    "id": "badc15b291",
+    "title_fa": "زلزله در بازار تراشه: انویدیا ارسال سرورهای هوش مصنوعی به جنوب شرق آسیا را متوقف کرد",
+    "summary_fa": "انویدیا (NVIDIA) و شرکای سخت‌افزاری آن مانند دل (Dell) و سوپرمایکرو (Supermicro) ارسال سرورهای هوش مصنوعی به چهار کشور مالزی، سنگاپور، تایلند و اندونزی را متوقف کرده‌اند. این اقدام در پی تلاش وزارت بازرگانی آمریکا برای بستن روزنه‌های تحریمی انجام شده؛ جایی که آزمایشگاه‌های چینی با اجاره توان پردازشی ابری در این کشورها، تحریم‌ها را دور می‌زدند. همچنین تحریم شرکت مگاسپید (Megaspeed) و ماجراهای حاشیه‌ای حول بازگشت جنسن هوانگ (Jensen Huang) به مدیرعاملی، سردرگمی شدیدی میان دیتاسنترهای منطقه برای اخذ مجوز ۹۰ روزه ایجاد کرده است.",
+    "key_points_fa": [
+     "توقف ارسال سرورهای هوش مصنوعی به ۴ کشور: مالزی، سنگاپور، تایلند و اندونزی توسط دل و سوپرمایکرو به دستور انویدیا.",
+     "دلیل اصلی: مسدود کردن دور زدن تحریم‌های آمریکا توسط شرکت‌های هوش مصنوعی چین از طریق اجاره سرورهای ابری منطقه.",
+     "وزارت بازرگانی آمریکا شرکت «مگاسپید» را به لیست سیاه (Entity List) اضافه کرده است.",
+     "دیتاسنترهای منطقه ۹۰ روز از تاریخ ۱۹ نوامبر فرصت دارند مجوز دریافت کنند، در حالی که راهنمای مشخصی ارائه نشده است.",
+     "واحد سنگاپور انویدیا در سال ۲۰۲۵ درآمد ۱۰۴ میلیارد دلاری (۷۲ درصد رشد سالانه) ثبت کرده بود."
+    ],
+    "why_it_matters_fa": "این اقدام نشان می‌دهد جنگ سرد هوش مصنوعی میان آمریکا و چین وارد مرحله حساسی شده و محدود شدن زیرساخت‌های ابری در آسیا می‌تواند دسترسی توسعه‌دهندگان به پردازنده‌های قدرتمند را گران‌تر و سخت‌تر کند.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "پشت‌پرده توقف ناگهانی فروش تراشه‌های انویدیا!",
+      "hook_fa": "انویدیا فروش قوی‌ترین تراشه‌هاش به آسیا رو یهویی قطع کرد! ماجرا چیه؟",
+      "angle_fa": "داستان جذاب موش و گربه بازی چین و آمریکا سر تراشه‌های انویدیا و نقشه دور زدن تحریم‌ها با دیتاسنترهای اجاره‌ای.",
+      "outline_fa": [
+       "خبر توقف ارسال سرورهای AI توسط دل و انویدیا به سنگاپور و مالزی",
+       "ترفند چین چه بود؟ اجاره ابری تراشه‌های انویدیا به جای خرید مستقیم",
+       "ورود آمریکا و قرار دادن شرکت مگاسپید در لیست سیاه",
+       "آشفتگی دیتاسنترها و سود سرسام‌آور ۱۰۴ میلیارد دلاری سنگاپور"
+      ],
+      "visual_tip_fa": "تصاویر گرافیکی نقشه جنوب شرق آسیا، تراشه‌های انویدیا و چهره جنسن هوانگ همراه با متن‌های متحرک بزرگ."
+     },
+     {
+      "format": "پست",
+      "title_fa": "جنگ تراشه‌ها داغ‌تر شد: چرا انویدیا دسترسی آسیای جنوب شرقی را بست؟",
+      "hook_fa": "آمریکا بزرگ‌ترین روزنه هوش مصنوعی چین رو بست؛ سنگاپور و مالزی زیر تیغ تحریم انویدیا!",
+      "angle_fa": "تحلیل استراتژیک تاثیر این اقدام بر بازار جهانی دیتاسنترها و شرکت‌های هوش مصنوعی.",
+      "outline_fa": [
+       "روایت ماجرا: مسدود شدن ارسال سرورها توسط انویدیا و شرکا",
+       "چگونه کشورهای جنوب شرق آسیا هاب دور زدن تحریم برای هوش مصنوعی چین شدند؟",
+       "قانون ضرب‌الاجل ۹۰ روزه آمریکا و سردرگمی شرکت‌های ارائه‌دهنده کلود",
+       "تاثیر اقتصادی روی درآمد انویدیا و آینده زیرساخت هوش مصنوعی"
+      ],
+      "visual_tip_fa": "طراحی کاور جذاب شامل تراشه انویدیا و پرچم‌های آمریکا، چین و سنگاپور."
+     }
+    ],
+    "hashtags": [
+     "#انویدیا",
+     "#هوش_مصنوعی",
+     "#تکنولوژی",
+     "#NVIDIA",
+     "#تحریم_تکنولوژی",
+     "#هوش_مصنوعی_چین"
+    ],
+    "caution_fa": "هنوز رسماً اعلام نشده که این توقف ارسال دائمی است یا موقت."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "badc15b291"
+  },
+  {
+   "title": "Workers at GTA 6 studio Rockstar Games vote overwhelmingly against union recognition",
+   "url": "https://www.engadget.com/2329177/workers-gta-6-studio-rockstar-games-vote-against-union-recognition/",
+   "source": "Engadget",
+   "published": "2026-11-26T16:53:58+00:00",
+   "origin": "Engadget",
+   "summary": "The IWGB Rockstar Game Workers Union will continue to organize after only a quarter of workers voted in favor of a formal deal with the studio.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/workers-at-gta-6-studio-rockstar-games-vote-overwhelmingly-against-union-recognition/l-intro-1795711860.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 4,
+   "category": "other_tech",
+   "story_key": "rockstar-workers-reject-union",
+   "topic_key": "gta-6-launch",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "0eeb144ef5"
+  },
+  {
+   "title": "Man sentenced to 47 months in prison after using AI to impersonate streamer N3on",
+   "url": "https://www.engadget.com/2329150/man-sentenced-to-47-month-prison-sentence-after-using-ai-impersonate-streamer/",
+   "source": "Engadget",
+   "published": "2026-11-26T15:50:37+00:00",
+   "origin": "Engadget",
+   "summary": "David Anthony Sanchez, the man who impersonated N3on, scammed victims out of $260,000 worth of cryptocurrency.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/man-sentenced-to-47-months-in-prison-after-using-ai-to-impersonate-streamer-n3on/l-intro-1795707863.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/man-sentenced-to-47-months-in-prison-after-using-ai-to-impersonate-streamer-n3on/intro-1795707863.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 8,
+   "category": "safety_ethics",
+   "story_key": "ai-impersonation-crypto-scam-prison-sentence",
+   "topic_key": "ai-deepfake-crimes",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "حبس ابد صوتی! ۴۷ ماه زندان برای کلاهبرداری با کلون صدای استریمر معروف",
+   "one_liner_fa": "دادگاه فردی را که با شبیه‌سازی هویت استریمر مشهور N3on از طریق هوش مصنوعی ۲۶۰ هزار دلار رمزارز به جیب زده بود، به ۴۷ ماه زندان محکوم کرد.",
+   "deep": {
+    "id": "463a1d53cd",
+    "title_fa": "حبس ابد صوتی! ۴۷ ماه زندان برای کلاهبرداری با کلون صدای استریمر معروف",
+    "summary_fa": "مردی اهل فلوریدا معروف به «دیو طلافروش» به دلیل استفاده از هوش مصنوعی برای شبیه‌سازی صدای یک استریمر سرشناس و کلاهبرداری ارز دیجیتال، به ۴۷ ماه زندان محکوم شد. او با ساخت دیپ‌فیک صوتی از مایکل رافیق ملقب به «N3on»، سازندگان یک میم‌کوین را قانع کرده بود که این استریمر حاضر به تبلیغ پروژه آنهاست. او از این طریق توانست حدود ۲۶۰ هزار دلار ارز دیجیتال به چنگ آورده و آن را تبدیل به پول نقد کند، اما در نهایت دادگاه او را به جرم پول‌شویی و سرقت هویت محکوم کرد.",
+    "key_points_fa": [
+     "متهم: دیوید آنتونی سانچز (معروف به Dave the Jewler) به ۴۷ ماه زندان محکوم شد.",
+     "شگرد جرم: شبیه‌سازی صدای استریمر معروف به نام Mikyle 'N3on' Rafiq با ابزارهای هوش مصنوعی صوتی.",
+     "مبلغ سرقت: حدود ۲۶۰ هزار دلار ارز دیجیتال از توسعه‌دهندگان یک پروژه میم‌کوین.",
+     "اتهامات پذیرفته‌شده: پول‌شویی و سرقت هویت تشدیدشده همراه با حکم بازگرداندن اموال.",
+     "دادستانی فدرال این حکم را زنگ خطری برای سوءاستفاده از فناوری‌های نوظهور علیه سرمایه‌گذاران دانست."
+    ],
+    "why_it_matters_fa": "کلون کردن صدا با هوش مصنوعی آن‌قدر دقیق و ساده شده که حتی فعالان دنیای کریپتو هم فریب می‌خورند؛ هشداری جدی برای خطرات امنیتی جعل هویت صوتی.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "کلاهبرداری ۲۶۰ هزار دلاری فقط با شبیه‌سازی یک صدا!",
+      "hook_fa": "باورت میشه با کلون صدای هوش مصنوعی ۲۶۰ هزار دلار دزدید و حالا داره میره زندان؟!",
+      "angle_fa": "روایت ماجرای پلیسی و جذاب این کلاهبرداری و آموزش خطر جعل صدا برای مخاطب.",
+      "outline_fa": [
+       "قلاب: معرفی کلاهبرداری عجیب با صدای کلون شده استریمر N3on",
+       "نحوه فریب تیم میم‌کوین با ویس‌های فیک و ادعای اسپانسرشیپ",
+       "سود ۲۶۰ هزار دلاری و تبدیل کریپتو به دلار",
+       "پایان کار: دادگاه فدرال و ۴۷ ماه زندان قطعی",
+       "پیام هشدار: چطور به هر صدای تلفنی یا پیامی در تلگرام اعتماد نکنیم؟"
+      ],
+      "visual_tip_fa": "استفاده از تصویر واقعی استریمر N3on، افکت‌های صوتی موج صدا (waveform) و اسکرین‌شات تیتر خبر."
+     },
+     {
+      "format": "استوری",
+      "title_fa": "هشدار جعل صدا با هوش مصنوعی؛ کلاهبرداری کریپتویی ۴ سال زندان گرفت!",
+      "hook_fa": "صداتون دیگه متعلق به خودتون نیست! این خبر عجیب رو ببینید 👇",
+      "angle_fa": "زنجیره استوری تعاملی درباره پیشرفت جعل صدا و ضرورت فعال‌سازی تاییدهای چندمرحله‌ای برای توافقات مالی.",
+      "outline_fa": [
+       "استوری ۱: خبر محکومیت ۴۷ ماهه کلاهبردار با صدای کلون‌شده",
+       "استوری ۲: توضیح ماجرا و دزدی ۲۶۰ هزار دلاری از پروژه کریپتو",
+       "استوری ۳: نظرسنجی: آیا تا حالا به فیک بودن صدای کسی شک کردید؟",
+       "استوری ۴: نکته امنیتی: برای کارهای مالی همیشه تماس ویدیویی زنده بخواهید"
+      ],
+      "visual_tip_fa": "استیکر باکس نظرسنجی و اسکرین‌شات از اخبار مرتبط با ابزارهای Voice Cloning."
+     }
+    ],
+    "hashtags": [
+     "#دیپ_فیک",
+     "#هوش_مصنوعی",
+     "#امنیت_سایبری",
+     "#ارز_دیجیتال",
+     "#Deepfake",
+     "#VoiceCloning",
+     "#CyberSecurity"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "463a1d53cd"
+  },
+  {
+   "title": "SpaceX gets FCC approval to deploy 1 million satellites for its AI orbital data center",
+   "url": "https://www.engadget.com/2329071/spacex-gets-fcc-approval-to-deploy-1-million-satellites-for-its-ai-orbital-data-center/",
+   "source": "Engadget",
+   "published": "2026-11-26T11:01:32+00:00",
+   "origin": "Engadget",
+   "summary": "The FCC has granted SpaceX's request to deploy 1 million satellites to build an AI data center in orbit.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/spacex-gets-fcc-approval-to-deploy-1-million-satellites-for-its-ai-orbital-data-center/l-intro-1795690830.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/spacex-gets-fcc-approval-to-deploy-1-million-satellites-for-its-ai-orbital-data-center/intro-1795690830.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 8,
+   "worthiness": 9,
+   "category": "big_tech",
+   "story_key": "spacex-fcc-approval-orbital-ai-datacenter",
+   "topic_key": "spacex-orbital-compute",
+   "already_reported": false,
+   "viral": 9,
+   "title_fa": "چراغ سبز آمریکا به ایلان ماسک: پرتاب ۱ میلیون ماهواره برای دیتاسنتر هوش مصنوعی در فضا!",
+   "one_liner_fa": "کمیسیون ارتباطات فدرال آمریکا (FCC) درخواست اسپیس‌ایکس (SpaceX) برای پرتاب یک میلیون ماهواره به‌منظور احداث دیتاسنتر فضایی هوش مصنوعی را تایید کرد.",
+   "deep": {
+    "id": "6eebab6a0a",
+    "title_fa": "چراغ سبز آمریکا به ایلان ماسک: پرتاب ۱ میلیون ماهواره برای دیتاسنتر هوش مصنوعی در فضا!",
+    "summary_fa": "کمیسیون فدرال ارتباطات آمریکا (FCC) به شرکت اسپیس‌ایکس (SpaceX) مجوز داد تا پروژه‌ای موسوم به «استارمایند» (Starmind) را آغاز کند که هدف آن پرتاب یک میلیون ماهواره برای ساخت دیتاسنتر هوش مصنوعی در مدار زمین است. اسپیس‌ایکس معتقد است دیتاسنترهای مداری با استفاده از انرژی خورشیدی و بدون هزینه سنگین نگهداری روی زمین، بهترین پاسخ به نیاز محاسباتی هوش مصنوعی هستند. با این حال دانشمندان هشدار داده‌اند که خنک‌سازی سخت‌افزار در خلأ فضا به خاطر نبود همرفت هوا و وابستگی به تابش گرمایی بسیار دشوار است و خطر تولید زباله‌های فضایی فراوان وجود دارد. طبق برنامه مصوب، اولین ماهواره باید تا سال ۲۰۳۳ و کل یک میلیون ماهواره تا سال ۲۰۴۰ مستقر شوند.",
+    "key_points_fa": [
+     "پروژه دیتاسنتر مداری اسپیس‌ایکس «استارمایند» (Starmind) نام دارد و تاییدیه FCC را گرفته است.",
+     "مجوز شامل پرتاب ۱ میلیون ماهواره در ارتفاع مداری بین ۵۰۰ متر تا ۱۰۰۲ کیلومتر است.",
+     "مهلت قانونی FCC: پرتاب اولین ماهواره تا نوامبر ۲۰۳۳، ۱۰۰ هزار تا سال ۲۰۳۵، ۵۰۰ هزار تا سال ۲۰۲۸ (طبق جدول FCC) و تکمیل ۱ میلیون تا نوامبر ۲۰۴۰.",
+     "ایلان ماسک پیش‌تر ادعا کرده بود پرتاب‌ها از سال ۲۰۲۷ آغاز می‌شود.",
+     "انتقاد دانشمندان: حبس حرارت در خلأ فضا، محدودیت‌های فیزیکی دفع گرما از طریق تابش، و ریسک بالای تصادم و زباله فضایی."
+    ],
+    "why_it_matters_fa": "با بحران شدید مصرف برق و آب دیتاسنترهای هوش مصنوعی روی زمین، انتقال پردازش به مدار زمین می‌تواند بزرگ‌ترین جهش زیرساختی تاریخ تکنولوژی یا یک فاجعه پرهزینه مداری باشد.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "هوش مصنوعی به فضا رفت؛ ایده دیوانه‌وار جدید ایلان ماسک!",
+      "hook_fa": "ایلان ماسک بالاخره مجوز ساخت دیتاسنتر هوش مصنوعی توی فضا رو گرفت؛ اونم با ۱ میلیون ماهواره!",
+      "angle_fa": "بررسی جذابیت ایده انتقال پردازش هوش مصنوعی به فضا در برابر موانع علمی واقعی مثل خنک‌سازی و داغ شدن در خلأ.",
+      "outline_fa": [
+       "معرفی پروژه استارمایند و دریافت مجوز از FCC برای ۱ میلیون ماهواره",
+       "چرا فضا؟ رهایی از بحران مصرف وحشتناک آب و برق دیتاسنترها روی زمین با پنل خورشیدی",
+       "مشکل بزرگ علمی چیست؟ چالش خنک‌کردن پردازنده‌ها در خلأ و زباله‌های فضایی",
+       "برنامه زمانی تا سال ۲۰۴۰ و جمع‌بندی درباره واقع‌بینانه بودن آن"
+      ],
+      "visual_tip_fa": "تصاویر رندر فضایی و ماهواره‌های استارلینک، همراه با نمودار یا موکاپ بصری از داغ کردن پردازنده‌ها در فضا."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "دیتاسنتر در مدار زمین: پروژه استارمایند اسپیس‌ایکس چطور کار می‌کند؟",
+      "hook_fa": "زمین دیگه جا نداره؛ ۱ میلیون کامپیوتر هوش مصنوعی قراره دور سرمون بچرخن!",
+      "angle_fa": "بررسی اسلایدی ابعاد فنی، زمان‌بندی اعلام‌شده و چالش‌های فیزیکی این پروژه بلندپروازانه.",
+      "outline_fa": [
+       "اسلاید ۱: معرفی تیتر و کلیت مجوز رسمی FCC برای ۱ میلیون ماهواره",
+       "اسلاید ۲: وعده اسپیس‌ایکس درباره کاهش هزینه‌ها و انرژی خورشیدی ارزان",
+       "اسلاید ۳: زمان‌بندی پرتاب‌ها از ۲۰۳۳ تا تکمیل در ۲۰۴۰",
+       "اسلاید ۴: چرا فیزیکدان‌ها می‌گویند نشدنی است؟ (چالش دفع حرارت در خلأ)",
+       "اسلاید ۵: خطر برخورد مداری و زباله‌های فضایی + نظر مخاطب در اسلاید آخر"
+      ],
+      "visual_tip_fa": "استفاده از اسلایدهای تیره و مینیمال با محوریت فضا، اینفوگرافیک ارتفاع مداری ۵۰۰ تا ۱۰۰۰ کیلومتری و تایم‌لاین سال‌ها."
+     }
+    ],
+    "hashtags": [
+     "#هوش_مصنوعی",
+     "#اسپیس_ایکس",
+     "#ایلان_ماسک",
+     "#فناوری",
+     "#SpaceX",
+     "#ArtificialIntelligence",
+     "#Starmind"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "6eebab6a0a"
+  },
+  {
+   "title": "The New York Times warns photographers not to update Photoshop over AI features",
+   "url": "https://simonwillison.net/2026/Nov/26/hn-50651685/",
+   "source": "Simon Willison",
+   "published": "2026-11-26T05:08:46+00:00",
+   "origin": "Simon Willison",
+   "summary": "My comment on The New York Times warns photographers not to update Photoshop over AI features — Hacker News. I had a NYT photographer take my picture at my home earlier this year (for a story about Moltbook, oddly enough). At one point I asked if they could fix things up if I had a stain on my shirt and they said absolutely not - they present photographs as they were taken, with cropping and balancing applied but no edits beyond that. He did spend a bunch of time trying to find the best possible natural lighting for the shots he wanted. The photo at the top of https://www.nytimes.com/2026/02/0",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 7,
+   "category": "safety_ethics",
+   "story_key": "nyt-warns-photographers-photoshop-ai",
+   "topic_key": "ai-in-journalism",
+   "already_reported": true,
+   "viral": 6,
+   "title_fa": "هشدار نیویورک تایمز به عکاسان درباره آپدیت فتوشاپ به دلیل هوش مصنوعی",
+   "one_liner_fa": "نیویورک تایمز به عکاسان خود اعلام کرده است که به دلیل نگرانی از دستکاری‌های هوش مصنوعی، نسخه جدید فتوشاپ را نصب نکنند.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "4faaa3acd7"
+  },
+  {
+   "title": "Nextcloud Office Desktop app",
+   "url": "https://nextcloud.com/blog/euro-office-comes-to-your-desktop-with-the-nextcloud-office-desktop-app/",
+   "source": "nextcloud.com",
+   "published": "2026-11-26T11:50:49+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 353 امتیاز، 155 کامنت",
+   "signal_value": 353,
+   "discussion_url": "https://news.ycombinator.com/item?id=50654289",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 5,
+   "category": "product_launch",
+   "story_key": "nextcloud-office-desktop-launch",
+   "topic_key": "nextcloud-ecosystem",
+   "already_reported": false,
+   "viral": 3,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "de9c79db32"
+  },
+  {
+   "title": "Minipg: PostgreSQL as a Single Executable",
+   "url": "https://progrium.github.io/minipg/",
+   "source": "progrium.github.io",
+   "published": "2026-11-26T03:00:48+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 264 امتیاز، 42 کامنت",
+   "signal_value": 264,
+   "discussion_url": "https://news.ycombinator.com/item?id=50650892",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 4,
+   "category": "open_source",
+   "story_key": "minipg-single-executable-postgres",
+   "topic_key": "developer-tooling",
+   "already_reported": false,
+   "viral": 3,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "23df494564"
+  },
+  {
+   "title": "Tracking Diseases Cured by AI",
+   "url": "https://diseasescuredbyai.com/",
+   "source": "diseasescuredbyai.com",
+   "published": "2026-11-26T17:16:41+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 224 امتیاز، 120 کامنت",
+   "signal_value": 224,
+   "discussion_url": "https://news.ycombinator.com/item?id=50657307",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 5,
+   "category": "research",
+   "story_key": "tracking-diseases-cured-by-ai",
+   "topic_key": "ai-in-healthcare",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "280fc6b8ee"
+  },
+  {
+   "title": "Moat: Your OpenRouter Replacement",
+   "url": "https://commandcode.ai/moat",
+   "source": "commandcode.ai",
+   "published": "2026-11-26T06:32:48+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 197 امتیاز، 117 کامنت",
+   "signal_value": 197,
+   "discussion_url": "https://news.ycombinator.com/item?id=50652184",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 5,
+   "category": "tools_for_creators",
+   "story_key": "moat-openrouter-alternative",
+   "topic_key": "llm-api-tooling",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "64a870b6a9"
+  },
+  {
+   "title": "45°C inlets just killed the chiller. Most people haven't noticed yet",
+   "url": "https://www.theregister.com/hpc/2026/11/26/45c-inlets-just-killed-the-chiller-most-people-havent-noticed-yet/5311831",
+   "source": "theregister.com",
+   "published": "2026-11-26T13:48:11+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 197 امتیاز، 93 کامنت",
+   "signal_value": 197,
+   "discussion_url": "https://news.ycombinator.com/item?id=50655278",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 5,
+   "category": "hardware_chips",
+   "story_key": "warm-water-cooling-replaces-datacenter-chillers",
+   "topic_key": "datacenter-cooling-tech",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "18cfa8107c"
+  }
+ ],
+ "failed_sources": [],
+ "models": [
+  "gemini-3.8-flash",
+  "gemini-3.8-flash"
+ ]
+}

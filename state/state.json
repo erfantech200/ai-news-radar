@@ -759,75 +759,31 @@
   "https://huggingface.co/papers/2611.33144": "2026-11-26",
   "https://huggingface.co/papers/2611.34941": "2026-11-26",
   "https://huggingface.co/papers/2611.34420": "2026-11-26",
-  "https://huggingface.co/papers/2611.34811": "2026-11-26"
+  "https://huggingface.co/papers/2611.34811": "2026-11-26",
+  "https://blog.google/company-news/outreach-and-initiatives/google-org/15-years-investing-colombia-talent-future": "2026-11-27",
+  "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench": "2026-11-27",
+  "https://huggingface.co/blog/training-swarms": "2026-11-27",
+  "https://blogs.nvidia.com/blog/geforce-now-thursday-community-war-thunder-reward": "2026-11-27",
+  "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue": "2026-11-27",
+  "https://engadget.com/2329200/nvidia-reportedly-halts-chip-shipments-to-southeast-asia": "2026-11-27",
+  "https://engadget.com/2329177/workers-gta-6-studio-rockstar-games-vote-against-union-recognition": "2026-11-27",
+  "https://engadget.com/2329150/man-sentenced-to-47-month-prison-sentence-after-using-ai-impersonate-streamer": "2026-11-27",
+  "https://engadget.com/2329115/the-screens-app-will-let-you-turn-your-iphone-duo-into-an-itty-bitty-macbook": "2026-11-27",
+  "https://engadget.com/2329106/casetifys-pokmon-30th-anniversary-collection-includes-a-pok-ball-case-for-your-airpods": "2026-11-27",
+  "https://engadget.com/2329071/spacex-gets-fcc-approval-to-deploy-1-million-satellites-for-its-ai-orbital-data-center": "2026-11-27",
+  "https://simonwillison.net/2026/Nov/26/jack-despain-zhou": "2026-11-27",
+  "https://simonwillison.net/2026/Nov/26/hn-50651685": "2026-11-27",
+  "https://news.ycombinator.com/item?id=50655664": "2026-11-27",
+  "https://github.com/intel/intel-one-mono": "2026-11-27",
+  "https://nextcloud.com/blog/euro-office-comes-to-your-desktop-with-the-nextcloud-office-desktop-app": "2026-11-27",
+  "https://progrium.github.io/minipg": "2026-11-27",
+  "https://fosscomics.com/posts/17.%20Lions%27%20Commentary%20on%20Unix": "2026-11-27",
+  "https://diseasescuredbyai.com/": "2026-11-27",
+  "https://commandcode.ai/moat": "2026-11-27",
+  "https://theregister.com/hpc/2026/11/26/45c-inlets-just-killed-the-chiller-most-people-havent-noticed-yet/5311831": "2026-11-27",
+  "https://arxiv.org/abs/2611.34924": "2026-11-27"
  },
  "reported": [
-  {
-   "date": "2026-11-22",
-   "title": "Lean Verification of the Riemann Hypothesis - Joint statement by...",
-   "title_fa": "یکی از بزرگ‌ترین معماهای ریاضی تاریخ حل شد؛ اثبات فرضیه ریمان با ۱۷ میلیون خط کد در Lean",
-   "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis"
-  },
-  {
-   "date": "2026-11-22",
-   "title": "Waymo recalls robotaxis after they drove into closed freeway lanes",
-   "title_fa": "بحران برای تاکسی‌های خودران گوگل؛ ویمو ناوگانش را به دلیل خطای اتوبانی فراخوان داد",
-   "url": "https://engadget.com/2324099/waymo-recalls-robotaxis-after-they-drove-into-closed-freeway-lanes"
-  },
-  {
-   "date": "2026-11-22",
-   "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
-   "title_fa": "اجاره دادن چهره به هوش مصنوعی؛ آیا بازیگران هالیوود خانه‌نشین می‌شوند؟",
-   "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood"
-  },
-  {
-   "date": "2026-11-22",
-   "title": "How to use Gemini Notebook to turn your research into an interactive site",
-   "title_fa": "تبدیل فایل و جزوه به وب‌سایت تعاملی فقط با یک دستور در Gemini Notebook",
-   "url": "https://engadget.com/2321236/how-to-use-gemini-notebook-to-turn-your-research-into-an-interactive-site"
-  },
-  {
-   "date": "2026-11-22",
-   "title": "Etsy says it will not use sellers' content to train AI after they revolt over policy changes",
-   "title_fa": "شورش فروشندگان اتسی؛ شفاف‌سازی پلتفرم درباره عدم آموزش هوش مصنوعی روی آثار هنری",
-   "url": "https://engadget.com/2324090/etsy-not-use-seller-content-train-ai"
-  },
-  {
-   "date": "2026-11-22",
-   "title": "FBI reportedly investigating apparent hack of its criminal database",
-   "title_fa": "گزارش‌ها از نفوذ احتمالی هکرها به پایگاه داده اطلاعات جنایی اف‌بی‌آی (FBI)",
-   "url": "https://bbc.com/news/articles/cvze7de86pk3o"
-  },
-  {
-   "date": "2026-11-22",
-   "title": "RCE in Gnupg",
-   "title_fa": "هشدار امنیتی شدید: کشف آسیب‌پذیری بحرانی اجرای کد از راه دور در Gnupg",
-   "url": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html"
-  },
-  {
-   "date": "2026-11-22",
-   "title": "Astra 6.2 and Sol 6.2 flop at Simple Bench",
-   "title_fa": "شکست مدل‌های بزرگ هوش مصنوعی در برابر عقل سلیم انسان با بنچمارک SimpleBench",
-   "url": "https://simple-bench.com/"
-  },
-  {
-   "date": "2026-11-22",
-   "title": "ClawDOS – An AI coding agent for DOS",
-   "title_fa": "کلاداس (ClawDOS): توسعه ایجنت برنامه‌نویسی هوش مصنوعی برای کامپیوترهای قدیمی داس (DOS)",
-   "url": "https://ricapar.net/ClawDOS"
-  },
-  {
-   "date": "2026-11-22",
-   "title": "Leonida – PC Recompilation of the Xbox Version of GTA 6",
-   "title_fa": "پروژه مرموز «لئونیدا» در گیت‌هاب: ادعای بازکامپایل نسخه ایکس‌باکس GTA 6 برای پی‌سی!",
-   "url": "https://github.com/ItsNotRexed/Leonida"
-  },
-  {
-   "date": "2026-11-22",
-   "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
-   "title_fa": "اتحاد غول‌های ژاپنی: تویوتا، نیسان و هوندا قطعات مشترک تولید می‌کنند",
-   "url": "https://caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs"
-  },
   {
    "date": "2026-11-23",
    "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
@@ -1295,6 +1251,24 @@
    "title": "Nfs2root: A 12-year-old pre-auth remote root in the Linux kernel's NFS server",
    "title_fa": "کشف آسیب‌پذیری ۱۲ ساله در کرنل لینوکس؛ دسترسی روت بدون نیاز به احراز هویت!",
    "url": "https://opensec.in/blog/nfs2root-cve-2026-99362"
+  },
+  {
+   "date": "2026-11-27",
+   "title": "SpaceX gets FCC approval to deploy 1 million satellites for its AI orbital data center",
+   "title_fa": "چراغ سبز آمریکا به ایلان ماسک: پرتاب ۱ میلیون ماهواره برای دیتاسنتر هوش مصنوعی در فضا!",
+   "url": "https://engadget.com/2329071/spacex-gets-fcc-approval-to-deploy-1-million-satellites-for-its-ai-orbital-data-center"
+  },
+  {
+   "date": "2026-11-27",
+   "title": "NVIDIA reportedly halts AI chip shipments to Southeast Asia",
+   "title_fa": "زلزله در بازار تراشه: انویدیا ارسال سرورهای هوش مصنوعی به جنوب شرق آسیا را متوقف کرد",
+   "url": "https://engadget.com/2329200/nvidia-reportedly-halts-chip-shipments-to-southeast-asia"
+  },
+  {
+   "date": "2026-11-27",
+   "title": "Man sentenced to 47 months in prison after using AI to impersonate streamer N3on",
+   "title_fa": "حبس ابد صوتی! ۴۷ ماه زندان برای کلاهبرداری با کلون صدای استریمر معروف",
+   "url": "https://engadget.com/2329150/man-sentenced-to-47-month-prison-sentence-after-using-ai-impersonate-streamer"
   }
  ],
  "telegram_chat_id": "925911315"
