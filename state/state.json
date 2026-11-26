@@ -717,7 +717,29 @@
   "https://github.com/xoxorwr/pw-loudness-eq": "2026-11-26",
   "https://marginalia.nu/log/a_141_marginalia_update": "2026-11-26",
   "https://intruder.io/research/taking-over-us-treasury-subdomains-for-3-each": "2026-11-26",
-  "https://githubstatus.com/incidents/qn8mfv6q5hlx": "2026-11-26"
+  "https://githubstatus.com/incidents/qn8mfv6q5hlx": "2026-11-26",
+  "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks": "2026-11-26",
+  "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work": "2026-11-26",
+  "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it": "2026-11-26",
+  "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd": "2026-11-26",
+  "https://engadget.com/2328876/black-friday-2026-deals-on-reviewed-gadgets": "2026-11-26",
+  "https://engadget.com/2328792/can-you-play-gta-6-from-external-hard-drive": "2026-11-26",
+  "https://engadget.com/2328767/gadgets-instantly-upgrade-thanksgiving-feast": "2026-11-26",
+  "https://engadget.com/2328630/state-ags-are-trying-to-stop-characterai-from-auctioning-off-users-chat-histories": "2026-11-26",
+  "https://engadget.com/2328617/nasas-dart-mission-left-a-stadium-sized-crater-in-an-asteroid-the-esa-finds": "2026-11-26",
+  "https://simonwillison.net/2026/Nov/25/scott-aaronson": "2026-11-26",
+  "https://scottaaronson.blog/?p=10379": "2026-11-26",
+  "https://github.com/lsernau/grh-lean": "2026-11-26",
+  "https://iankduncan.com/engineering/2026-11-19-smart-people-who-give-a-shit-use-tools": "2026-11-26",
+  "https://modaic.dev/blog/latency-doesnt-lie": "2026-11-26",
+  "https://theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features": "2026-11-26",
+  "https://s.conao3.com/blog/2026/e4f733": "2026-11-26",
+  "https://scienceinhand.com/72-hour-fasting-can-reset-your-entire-immune-system-usc-study-shows": "2026-11-26",
+  "https://basilhalperin.com/essays/macrohistory.html": "2026-11-26",
+  "https://openwall.com/lists/oss-security/2026/11/25/9": "2026-11-26",
+  "https://upi.com/Top_News/US/2026/11/25/jury-convicts-Huawei/3151795587204": "2026-11-26",
+  "https://huggingface.co/papers/2611.32649": "2026-11-26",
+  "https://huggingface.co/papers/2611.32736": "2026-11-26"
  },
  "reported": [
   {
@@ -1175,6 +1197,42 @@
    "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
    "title_fa": "مذاکرات آمازون و متا برای رفع مسدودیت دو ماهه دستیار هوش مصنوعی میوز",
    "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse"
+  },
+  {
+   "date": "2026-11-26",
+   "title": "The New York Times warns photographers not to update Photoshop over AI features",
+   "title_fa": "نیویورک تایمز به عکاسانش: آپدیت جدید فتوشاپ را اصلاً نصب نکنید!",
+   "url": "https://theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features"
+  },
+  {
+   "date": "2026-11-26",
+   "title": "Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening",
+   "title_fa": "شوکه شدن دانشمندان: هوش مصنوعی معماهای بزرگ ریاضیات را یکی‌یکی حل می‌کند!",
+   "url": "https://scottaaronson.blog/?p=10379"
+  },
+  {
+   "date": "2026-11-26",
+   "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+   "title_fa": "یکی‌شدن چت و تسک‌های کاری در ChatGPT؛ صدای کاربران پرو درآمد!",
+   "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work"
+  },
+  {
+   "date": "2026-11-26",
+   "title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
+   "title_fa": "پاسخ تند مدیرعامل آنتروپیک: تسلیم هوش مصنوعی نخواهیم شد!",
+   "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd"
+  },
+  {
+   "date": "2026-11-26",
+   "title": "Qwen-Image-HD: Autoregressive Diffusion for High Definition Image Generation",
+   "title_fa": "تولید تصاویر خیره‌کننده 4K با مدل متن‌باز چینی Qwen-Image-HD",
+   "url": "https://huggingface.co/papers/2611.32736"
+  },
+  {
+   "date": "2026-11-26",
+   "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+   "title_fa": "احتمال کاهش رتبه اعتباری انویدیا؛ پیامدهای بحران مدیریتی جنسن هوانگ",
+   "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks"
   }
  ],
  "telegram_chat_id": "925911315"

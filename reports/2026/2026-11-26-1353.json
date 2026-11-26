@@ -1,0 +1,1337 @@
+{
+ "content": [
+  {
+   "title": "The New York Times warns photographers not to update Photoshop over AI features",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+   "source": "theverge.com",
+   "published": "2026-11-25T21:18:02+00:00",
+   "origin": "Hacker News",
+   "summary": "https://archive.ph/pcUgy",
+   "lang": "en",
+   "signal": "Hacker News: 222 امتیاز، 186 کامنت",
+   "signal_value": 222,
+   "discussion_url": "https://news.ycombinator.com/item?id=50647673",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2289911637.jpg?quality=90&strip=all&crop=0%2C10.232235952618%2C100%2C79.535528094764&w=1200",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/author_profile_images/195810/EMMA_ROTH.0.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C100&w=2400",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2289911637.jpg?quality=90&strip=all&crop=0.6295907660021%2C0%2C98.740818467996%2C100&w=2400",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 8,
+   "category": "tools_for_creators",
+   "story_key": "nyt-warns-photographers-photoshop-ai",
+   "topic_key": "ai-photojournalism-ethics",
+   "already_reported": false,
+   "viral": 8,
+   "title_fa": "نیویورک تایمز به عکاسانش: آپدیت جدید فتوشاپ را اصلاً نصب نکنید!",
+   "one_liner_fa": "روزنامه نیویورک تایمز به عکاسان خبری خود هشدار داده به دلیل قابلیت‌های دستکاری خودکار هوش مصنوعی و خطر نقض اصالت تصویر، فتوشاپ (Photoshop) را به‌روزرسانی نکنند.",
+   "deep": {
+    "id": "19f2f984a8",
+    "title_fa": "نیویورک تایمز به عکاسانش: آپدیت جدید فتوشاپ را اصلاً نصب نکنید!",
+    "summary_fa": "روزنامه نیویورک تایمز (The New York Times) با ارسال ایمیلی به عکاسان همکار و فریلنسر خود، اکیداً خواسته که نرم‌افزار ادوبی فتوشاپ (Adobe Photoshop) را به نسخه ۲۰۲۷ آپدیت نکنند. علت این ماجرا، نفوذ پنهانی ابزارهای هوش مصنوعی به فرایندهای ادیت است که باعث می‌شود متادیتای اختصاصی C2PA به فایل تصویر الصاق شده و عکس به عنوان «ادیت‌شده با هوش مصنوعی» ثبت شود. نیویورک تایمز نگران است که وجود این برچسب‌ها اعتبار رسانه‌ای و اعتماد خوانندگانش را از بین ببرد، زیرا قوانین سفت‌وسختی علیه هرگونه دستکاری محتوایی عکس دارد. ادوبی ابزارهای هوش مصنوعی پرشماری را حتی به انتخابگرهای معمولی اضافه کرده و کار عکاسان خبری را حسابی پیچیده کرده است.",
+    "key_points_fa": [
+     "دستور ممنوعیت استفاده از ادوبی فتوشاپ ۲۰۲۷ (ورژن 28.0.0 و به‌روزرسانی‌های بعدی) برای تمام عکاسان همکار نیویورک تایمز.",
+     "ایمیل ارسال‌شده توسط مگان لورام (Meaghan Looram) و جاش هانر (Josh Haner)، مدیران بخش عکاسی تایمز.",
+     "سیستم اعتبارسنجی C2PA ادوبی به شکل خودکار روی تصاویر، متادیتای مرتبط با هوش مصنوعی ثبت می‌کند.",
+     "ویژگی جدید «AI Assisted Editor» و ابزارهای تغییر ابعاد یا آپ‌اسکیل به صورت پیش‌فرض در این نسخه فعال هستند.",
+     "سیاست سخت‌گیرانه نیویورک تایمز که فقط اجازه تغییرات حداقلی در اصلاح رنگ را به عکاسان می‌دهد و هر دستکاری دیگری را ممنوع کرده است."
+    ],
+    "why_it_matters_fa": "برای اولین بار مرز بین «ابزار ادیت معمولی» و «هوش مصنوعی مولد» آن‌قدر محو شده که می‌تواند اعتبار حرفه‌ای عکاسان و گرافیست‌ها را مستقیماً به خطر بیندازد.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "چرا نیویورک تایمز فتوشاپ رو تحریم کرد؟",
+      "hook_fa": "اگه عکاس یا ادیتوری، دست نگه‌دار و فتوشاپت رو آپدیت نکن!",
+      "angle_fa": "بررسی دردسر جدید سیستم‌های شفافیت متادیتا (C2PA) که چطور حتی کارهای ساده عکاسان حرفه‌ای رو به اسم هوش مصنوعی ثبت می‌کنن.",
+      "outline_fa": [
+       "نمایش تیتر تحریم فتوشاپ توسط نیویورک تایمز",
+       "توضیح متادیتای C2PA و برچسب‌های مخفی ادوبی در آپدیت جدید",
+       "چرا رسانه‌های بزرگ جهانی از بی‌اعتمادی مردم به عکس‌ها وحشت دارند؟",
+       "توصیه نهایی به عکاس‌ها و ادیتورها برای کنترل متادیتای خروجی"
+      ],
+      "visual_tip_fa": "استفاده از اسکرین‌شات ایمیل درزکرده، لوگوی نیویورک تایمز و محیط ابزار جدید AI Assisted Editor فتوشاپ."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "فتوشاپ ۲۰۲۷ چه بلایی سر عکس‌های شما می‌آورد؟",
+      "hook_fa": "عکس واقعی گرفتی، ولی سیستم میگه با هوش مصنوعی ساختیش!",
+      "angle_fa": "آموزش و آگاهی‌بخشی درباره تگ‌های C2PA و تغییرات نسخه جدید فتوشاپ برای کریتورها.",
+      "outline_fa": [
+       "ماجرای نامه محرمانه نیویورک تایمز به عکاس‌ها",
+       "ابزارهای جدید فتوشاپ که در ظاهر ادیت معمولی هستن ولی AI حساب میشن",
+       "متادیتای C2PA چیه و چطور روی عکس‌ها اثر میذاره؟",
+       "راهکارها: چطور متادیتای عکسمون رو پاک یا بررسی کنیم؟"
+      ],
+      "visual_tip_fa": "اسلایدهای مقایسه‌ای از کادر متادیتای C2PA و آیکون ابزارهای انتخاب هوشمند ادوبی."
+     }
+    ],
+    "hashtags": [
+     "#فتوشاپ",
+     "#هوش_مصنوعی",
+     "#عکاسی",
+     "#ادوبی",
+     "#Photoshop",
+     "#AdobeAI",
+     "#C2PA"
+    ],
+    "caution_fa": "نیویورک تایمز به صورت دقیق مشخص نکرده کدام ابزار جزئی فتوشاپ این برچسب را فعال می‌کند و ادوبی نیز هنوز پاسخ رسمی کاملی نداده است."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "19f2f984a8"
+  },
+  {
+   "title": "Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening",
+   "url": "https://scottaaronson.blog/?p=10379",
+   "source": "scottaaronson.blog",
+   "published": "2026-11-25T19:11:27+00:00",
+   "origin": "Hacker News",
+   "summary": "See also The matrix multiplication exponent is nine fourths [pdf] - https://news.ycombinator.com/item?id=50637220",
+   "lang": "en",
+   "signal": "Hacker News: 962 امتیاز، 820 کامنت",
+   "signal_value": 962,
+   "discussion_url": "https://news.ycombinator.com/item?id=50646108",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://s0.wp.com/_si/?t=eyJpbWciOiJodHRwczpcL1wvc2NvdHRhYXJvbnNvbi5ibG9nXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8xMFwvY3JvcHBlZC1KYWNrZXQuZ2lmIiwidHh0IjoiU2h0ZXRsLU9wdGltaXplZCIsInRlbXBsYXRlIjoiZWRnZSIsImZvbnQiOiIiLCJibG9nX2lkIjoxMjk1MjA1ODB9.siOtN7gHw4tefA_rZickBw4GfI6tPxGgOQ1AXr2ZoOQMQ",
+     "origin": "og"
+    },
+    {
+     "kind": "embed",
+     "url": "https://www.youtube.com/watch?v=Vubj74mZBQ0",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://scottaaronson.blog/wp-content/plugins/really-simple-facebook-twitter-share-buttons/images/specificfeeds_follow.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://img.youtube.com/vi/Vubj74mZBQ0/maxresdefault.jpg",
+     "origin": "youtube"
+    }
+   ],
+   "also_covered_by": [
+    "Simon Willison"
+   ],
+   "importance": 7,
+   "worthiness": 7,
+   "category": "research",
+   "story_key": "aaronson-math-breakthroughs-reaction",
+   "topic_key": "ai-math-formalization",
+   "already_reported": false,
+   "viral": 8,
+   "title_fa": "شوکه شدن دانشمندان: هوش مصنوعی معماهای بزرگ ریاضیات را یکی‌یکی حل می‌کند!",
+   "one_liner_fa": "پژوهشگران ارشد علوم نظری با ابراز شگفتی از سرعت حل مسائل پیچیده ریاضی توسط ابزارهای نوین اثبات و هوش مصنوعی، این دوره را آغاز انقلابی بی‌سابقه می‌دانند.",
+   "deep": {
+    "id": "c31465abe4",
+    "title_fa": "شوکه شدن دانشمندان: هوش مصنوعی معماهای بزرگ ریاضیات را یکی‌یکی حل می‌کند!",
+    "summary_fa": "اسکات آرونسون (Scott Aaronson)، دانشمند برجسته علوم کامپیوتر نظری، در مقاله‌ای با لحنی شگفت‌زده و کم‌سابقه اعلام کرد که هوش مصنوعی وارد دوره تازه‌ای از اکتشافات بنیادی شده است. به گفته او، مدل‌های هوش مصنوعی متعلق به اوپن‌ای‌آی (OpenAI) و آنتروپیک (Anthropic) توانسته‌اند مسائل حل‌نشده‌ای مانند نمای ضرب ماتریسی (ω = 9/4) و کران‌های تبدیل فوریه (FFT) را که از دهه ۱۹۶۰ معما مانده بودند، با کدهای اثبات صوری زبان لین (Lean) به‌طور قطعی حل کنند. او تأکید کرده که سرعت حل این مسائل به‌قدری بالاست که شاید اثبات مسئله تاریخی «P در برابر NP» نیز بسیار نزدیک باشد. همچنین زمزمه‌هایی جدی درباره احتمال باز شدن قفل برخی الگوریتم‌های رمزنگاری توسط این مدل‌ها به گوش می‌رسد.",
+    "key_points_fa": [
+     "ادعای حل معمای باستانی نمای ضرب ماتریس و اثبات دقیق آن روی عدد 9/4 توسط مدل‌های OpenAI.",
+     "ثبت رکورد و کران‌های جدید در محاسبه الگوریتم تبدیل سریع فوریه (FFT) بدون نیاز به انسان.",
+     "استفاده از گواهی‌های زبان لین (Lean) برای اثبات ریاضی دقیق به جای پاسخ‌های متنی و غیرقابل‌اعتماد.",
+     "اشاره اسکات آرونسون به اینکه اثبات حل یکی از ۷ مسئله هزاره یعنی P ≠ NP ممکن است بسیار نزدیک باشد.",
+     "انتشار مستقیم مقالات روی گیت‌هاب توسط شرکت‌ها بدون برگزاری کنفرانس‌های خبری سنتی.",
+     "شایعات جدی درباره توسعه الگوریتم‌هایی با قابلیت تهدید یا شکستن سیستم‌های رمزنگاری مدرن."
+    ],
+    "why_it_matters_fa": "اگر هوش مصنوعی ریاضیات پایه و رمزنگاری را بازتعریف کند، کل زیرساخت وب، هوش عمومی مصنوعی (AGI) و امنیت مالی دنیا وارد عصری کاملاً غیرقابل‌پیش‌بینی می‌شود.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "اتفاقی وحشتناک یا معجزه‌ای علمی؟ ریاضیات شکست خورد!",
+      "hook_fa": "دانشمندها دارن رسماً وحشت‌زده میشن: هوش مصنوعی دیشب مسائلی رو حل کرد که ۶۰ سال قفل بودن!",
+      "angle_fa": "روایت هیجان‌انگیز از شوک جامعه علمی و اینکه چطور مدل‌ها به جای تولید عکس و ویدیو، سراغ بنیان‌های علم و رمزنگاری رفتن.",
+      "outline_fa": [
+       "شروع با واکنش شوکه‌کننده اسکات آرونسون و پستی که با فریاد شروع شده",
+       "توضیح ساده معماهایی که هوش مصنوعی ظرف چند ساعت حل کرد (ضرب ماتریس و فوریه)",
+       "پشت صحنه ماجرا: اثبات با کدهای ریاضی زبان Lean نه فقط چت ساده",
+       "خطر بزرگتر: آیا رمزنگاری بانک‌ها و کیف‌پول‌ها در خطره؟"
+      ],
+      "visual_tip_fa": "تیتر وبلاگ اسکات آرونسون، فرمول‌های ریاضی ماتریسی و انیمیشن از گیت‌هاب و کدهای اثبات ریاضی."
+     },
+     {
+      "format": "پست",
+      "title_fa": "هوش مصنوعی به مرز AGI رسید؟ ماجرای پست جنجالی اسکات آرونسون",
+      "hook_fa": "آیا داریم به روزی می‌رسیم که قوی‌ترین رمزهای جهان توسط AI شکسته بشن؟",
+      "angle_fa": "تحلیل عمیق فنی برای مخاطب کنجکاو درباره اثبات‌های ریاضیاتی اخیر OpenAI و Anthropic.",
+      "outline_fa": [
+       "توضیح مفهوم ضرب ماتریس و ارتباط مستقیمش با قدرت چیپ‌ها و مدل‌ها",
+       "چرا اثبات با سیستم Lean تفاوت اساسی با توهم‌های چت‌بات‌ها داره؟",
+       "شایعه شکستن رمزنگاری (ECDSA) و هشدارهایی که داده شده",
+       "نتیجه‌گیری: آیا سال ۲۰۲۶ سال فتح ریاضیات توسط ماشین است؟"
+      ],
+      "visual_tip_fa": "اسلایدهای تمیز اینفوگرافیک از فرمول‌های پیچیده ساده‌سازی‌شده در کنار لوگوی OpenAI و Anthropic."
+     }
+    ],
+    "hashtags": [
+     "#هوش_مصنوعی",
+     "#ریاضیات",
+     "#اوپن_ای_ای",
+     "#آینده_تکنولوژی",
+     "#OpenAI",
+     "#Anthropic",
+     "#AGI"
+    ],
+    "caution_fa": "ادعای شکستن الگوریتم‌های رمزنگاری هنوز در حد شایعه است و جامعه ریاضی‌دانان مستقل در حال بررسی کدهای منتشرشده در گیت‌هاب هستند."
+   },
+   "alert": {},
+   "alerted": true,
+   "id": "c31465abe4"
+  },
+  {
+   "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+   "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+   "source": "TechCrunch",
+   "published": "2026-11-25T20:03:27+00:00",
+   "origin": "TechCrunch",
+   "summary": "OpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work experiences.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2026/11/openai-chatgpt.jpg?resize=1200,800",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2025/01/7a9bd5727569147c3025b40e3775fc64.png?w=150",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 8,
+   "category": "product_launch",
+   "story_key": "chatgpt-unified-usage-limits",
+   "topic_key": "openai-chatgpt",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "یکی‌شدن چت و تسک‌های کاری در ChatGPT؛ صدای کاربران پرو درآمد!",
+   "one_liner_fa": "اوپن‌ای‌آی (OpenAI) با ادغام محیط‌های گفت‌وگو و کاربری بیزینس چت‌جی‌پی‌تی (ChatGPT)، محدودیت مصرف واحدی اعمال می‌کند که باعث تمام شدن سریع‌تر سقف پیام کاربران حرفه‌ای می‌شود.",
+   "deep": {
+    "id": "4c44ce3014",
+    "title_fa": "یکی‌شدن چت و تسک‌های کاری در ChatGPT؛ صدای کاربران پرو درآمد!",
+    "summary_fa": "شرکت اوپن‌ای‌آی (OpenAI) فرایند ادغام محیط کاربری چت معمولی (Chat) و محیط انجام کارهای اداری (Work) را در قالب یک بخش یکپارچه برای برخی کاربران آغاز کرده است. در این ساختار جدید، هر دو محیط سهمیه مصرفی مشترک خواهند داشت که این تغییر نگرانی شدید مشترکین پرمصرف نسخه پرو (Pro) را به همراه داشته است. سخنگوی اوپن‌ای‌آی تایید کرده کاربران فوق‌پرمصرف ممکن است زودتر از قبل به سقف محدودیت مدل‌های استدلالی برسند، هرچند مدل Instant بدون محدودیت باقی می‌ماند. هدف از این تغییر، مدیریت فشار سنگین سرورها و ساده‌سازی تجربه کاربری عنوان شده است.",
+    "key_points_fa": [
+     "ادغام محدودیت مصرف Chat و Work در یک سهمیه اشتراکی واحد در ChatGPT.",
+     "تایید رسمی توسط تیبو سوتیو (Thibault Sottiaux)، مدیر محصول اوپن‌ای‌آی در پلتفرم X.",
+     "اعمال تغییرات روی دسته محدودی از کاربران پرو و عرضه عمومی در ماه دسامبر.",
+     "کاربران به پایان رسیدن سریع‌تر سقف دسترسی به مدل‌های استدلالی سنگین اعتراض دارند.",
+     "مکالمات با مدل فوری (Instant) بدون محدودیت و خارج از سهمیه مشترک باقی خواهند ماند.",
+     "اقدام مشابه شرکت آنتروپیک در ماه سپتامبر برای ترکیب محیط Claude با پنل Cowork."
+    ],
+    "why_it_matters_fa": "هزینه‌های سرسام‌آور پردازش هوش مصنوعی بالاخره شرکت‌ها را مجبور کرده سهمیه‌ها را منقبض‌تر کنند و ممکن است کاربران حرفه‌ای زودتر به بن‌بست محدودیت بخورند.",
+    "content_ideas": [
+     {
+      "format": "استوری",
+      "title_fa": "محدودیت جدید ChatGPT برای اشتراک‌های پولی",
+      "hook_fa": "اگه اکانت ChatGPT پلاس یا پرو داری این خبر مهم رو بدون!",
+      "angle_fa": "اطلاع‌رسانی سریع درباره مصرف هوشمندانه‌تر پرامپت‌ها قبل از تموم شدن محدودیت در دسامبر.",
+      "outline_fa": [
+       "اسکرین‌شات از تغییرات جدید و ادغام Chat و Work",
+       "توضیح اینکه سهمیه‌ها یکی شده و زودتر تموم میشه",
+       "ترفند: برای کارهای سبک فقط از مدل Instant استفاده کنید تا سهمیتون نسوزه",
+       "نظرسنجی: آیا شما هم با افت سهمیه مواجه شدید؟"
+      ],
+      "visual_tip_fa": "محیط اینترفیس جدید ChatGPT و بخش تنظیمات انتخاب مدل‌ها."
+     },
+     {
+      "format": "ریلز",
+      "title_fa": "اوپن‌ای‌آی سهمیه ChatGPT رو کم کرد؟",
+      "hook_fa": "داری پول میدی ولی دسترسی‌ت کمتر میشه؟! داستان تغییرات جدید چت‌جی‌پی‌تی چیه؟",
+      "angle_fa": "بررسی دلایل اقتصادی و کمبود چیپ‌های پردازشی که غول‌های AI رو مجبور به اشتراکی‌کردن محدودیت‌ها کرده.",
+      "outline_fa": [
+       "اعتراض کاربران پرو در شبکه‌های اجتماعی به ادغام Chat و Work",
+       "توضیح سخنگوی اوپن‌ای‌آی درباره کاربران پرمصرف",
+       "مقایسه با حرکت چند ماه قبل آنتروپیک در کلود",
+       "توصیه برای جلوگیری از رسیدن زودهنگام به لیمیت"
+      ],
+      "visual_tip_fa": "تصاویر کامنت‌های شاکی ردیت و توییتر در کنار رابط کاربری تقسیم مدل‌ها در سایت OpenAI."
+     }
+    ],
+    "hashtags": [
+     "#چت_جی_پی_تی",
+     "#اوپن_ای_ای",
+     "#هوش_مصنوعی",
+     "#فناوری",
+     "#ChatGPT",
+     "#OpenAI",
+     "#AIUpdates"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": true,
+   "id": "4c44ce3014"
+  },
+  {
+   "title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
+   "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
+   "source": "TechCrunch",
+   "published": "2026-11-25T19:44:24+00:00",
+   "origin": "TechCrunch",
+   "summary": "Anthropic CEO Dario Amodei pushes back against rivals’ accusations that he favors surrendering human agency to AI, even as leading AI companies increasingly automate their own research and model development.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2026/03/Dario-Amodei-Anthropic-viva-tech.jpg?w=1024",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2025/04/RebeccaBellan_default-large-1-e1787760589727.jpg?w=150",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "safety_ethics",
+   "story_key": "amodei-rejects-ai-control-claims",
+   "topic_key": "anthropic-safety-debate",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "پاسخ تند مدیرعامل آنتروپیک: تسلیم هوش مصنوعی نخواهیم شد!",
+   "one_liner_fa": "داریو آمودی، مدیرعامل آنتروپیک (Anthropic)، اتهامات رقبا مبنی بر تلاش این شرکت برای تسلیم کنترل انسان در برابر هوش مصنوعی را بی‌اساس خواند.",
+   "deep": {
+    "id": "372ac89133",
+    "title_fa": "پاسخ تند مدیرعامل آنتروپیک: تسلیم هوش مصنوعی نخواهیم شد!",
+    "summary_fa": "داریو آمودی (Dario Amodei)، مدیرعامل شرکت آنتروپیک (Anthropic)، ادعاهای مطرح‌شده توسط رقبا مبنی بر اینکه آنها قصد دارند کنترل اراده انسان را به هوش مصنوعی واگذار کنند «مضحک و پوچ» نامید. این بحث‌ها پس از اظهارات مدیران اوپن‌ای‌آی و متا پیرامون خطرات اتوماسیون بی‌حدومرز بالا گرفت. آمودی اعلام کرده که همواره مدافع نظارت دموکراتیک بر فناوری بوده و نباید مشروعیت و اراده انسان را فدای امنیت یا کارایی کرد. با این وجود، خود آنتروپیک از کدهای تولیدشده توسط مدل Claude برای توسعه مدل‌های بعدی خود استفاده می‌کند که این موضوع سوالات جدی در مورد مرز خودبهبودبخشی ماشین‌ها ایجاد کرده است.",
+    "key_points_fa": [
+     "پست تند داریو آمودی در شبکه X در پاسخ به ادعاهای تسلیم اراده انسان به هوش مصنوعی.",
+     "کنایه‌های اخیر سم آلتمن (مدیر اوپن‌ای‌آی) و الکساندر وانگ (مدیر ارشد هوش مصنوعی متا) علیه رقبا.",
+     "تأکید آمودی بر تفکیک میان اتوماسیون وظایف کاری خاص با واگذاری حکمرانی و اراده به AI.",
+     "بحث حساس روی مفهوم RSI یا «خودبهبودبخشی بازگشتی» (Recursive Self-Improvement).",
+     "تولید بیش از ۸۰ درصد کدهای جدید آنتروپیک توسط خود هوش مصنوعی Claude طبق آمار رسمی ماه ژوئن.",
+     "گزارش موسسه مستقل METR مبنی بر اینکه سرعت پیشرفت کلود به خاطر برنامه‌نویسی خودکار دوبرابر شده است."
+    ],
+    "why_it_matters_fa": "جنگ لفظی بین رهبران اصلی هوش مصنوعی نشان می‌دهد که بحث کنترل بشر بر سیستم‌های فوق هوشمند دیگر یک فرضیه علمی-تخیلی نیست، بلکه نبردی واقعی بر سر آینده است.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "دعوای غول‌های هوش مصنوعی سر کنترل جهان!",
+      "hook_fa": "آیا هوش مصنوعی داره از دست سازنده‌هاش خارج میشه؟ مدیر کلود جواب داد!",
+      "angle_fa": "روایت درگیری فلسفی-امنیتی میان آنتروپیک، متا و اوپن‌ای‌آی درباره پدیده خودبهبودبخشی ماشین‌ها.",
+      "outline_fa": [
+       "شروع با اتهامات سنگین متا و سم آلتمن علیه رقیبشان",
+       "پاسخ آتشین داریو آمودی و خط قرمزی که کشیده",
+       "تناقض عجیب: وقتی ۸۰ درصد کدهای شرکت رو خود هوش مصنوعی داره می‌نویسه!",
+       "معنای این اتفاق برای آینده بشر و شغل‌های فنی"
+      ],
+      "visual_tip_fa": "تصاویر چهره‌های داریو آمودی، سم آلتمن و الکساندر وانگ با افکت‌های تیره و پرانرژی."
+     },
+     {
+      "format": "پست",
+      "title_fa": "اصطلاح روز: پدیده RSI یا خودبهبودبخشی چیست؟",
+      "hook_fa": "وقتی هوش مصنوعی خودش رو ارتقا میده، چه بلایی سر کنترل انسان میاد؟",
+      "angle_fa": "توضیح مفهومی عمیق اما ساده از واژه RSI برای مخاطبانی که می‌خواهند فراتر از اخبار روزمره یاد بگیرند.",
+      "outline_fa": [
+       "تعریف ساده بازگشت‌پذیری در یادگیری ماشین",
+       "چگونه Claude نسخه بعدی خودش را کدنویسی می‌کند؟",
+       "گزارش موسسه METR و جهش سرعت دو برابری توسعه",
+       "راهکارهای ایمنی برای جلوگیری از خارج شدن کنترل مدل‌ها"
+      ],
+      "visual_tip_fa": "نمودار گرافیکی که چرخه بی‌پایان تولید مدل توسط مدل قبلی را نشان می‌دهد."
+     }
+    ],
+    "hashtags": [
+     "#کلود",
+     "#آنتروپیک",
+     "#امنیت_هوش_مصنوعی",
+     "#سم_آلتمن",
+     "#Anthropic",
+     "#Claude",
+     "#AIControl"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "372ac89133"
+  },
+  {
+   "title": "Qwen-Image-HD: Autoregressive Diffusion for High Definition Image Generation",
+   "url": "https://huggingface.co/papers/2611.32736",
+   "source": "Hugging Face Papers",
+   "published": "2026-11-23T19:00:00+00:00",
+   "origin": "Hugging Face Papers",
+   "summary": "Fine-tuning a generator on a complete high-resolution canvas requires long image sequences and substantial computation, yet local regions can still exhibit unnatural repetitive stripes when training resources are limited. We introduce Qwen-Image-HD, which adapts Qwen-Image 2.0 to high-resolution synthesis through local training and blockwise autoregressive generation. Each prediction covers a target tile at 1K scale, conditioned on high-resolution upper and left neighbors and a compressed historical thumbnail. These conditions provide adjacent fine-scale structures and an overview of the scene generated so far. To integrate these complementary cues, we map both forms of history and the target to a shared canvas coordinate system to express their spatial relationships and scale differences. On Qwen-Image-Bench at 4K, Qwen-Image-HD achieves stronger overall evaluation performance than dire",
+   "lang": "en",
+   "signal": "Hugging Face: 20 رأی",
+   "signal_value": 20,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.32736/gradient.png",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://cdn-avatars.huggingface.co/v1/production/uploads/651f8133dbf879b8c58f5136/0L8Ecgi5Ietkm_DchJwE-.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://cdn-avatars.huggingface.co/v1/production/uploads/6481523b3fb124fc9850afed/XqXS2k42HF8HjeUXc21RX.jpeg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/0q49MyGuav8lJ9CIeyLhu.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://cdn-avatars.huggingface.co/v1/production/uploads/644a196f1af2bfd37ae0769f/L0rZShXLka1UG_o2XjNQ4.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://cdn-avatars.huggingface.co/v1/production/uploads/1671954059773-62dbeaf3d36b2070f922747f.jpeg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.32736.png",
+     "origin": "hf"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "model_release",
+   "story_key": "qwen-image-hd-release",
+   "topic_key": "qwen-models",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "تولید تصاویر خیره‌کننده 4K با مدل متن‌باز چینی Qwen-Image-HD",
+   "one_liner_fa": "تیم کوئن (Qwen) با معرفی مدل Qwen-Image-HD روشی جدید برای تولید تصاویر شفاف با وضوح بالا ارائه داد که خطاهای بصری متداول در مدل‌های انتشار را حذف می‌کند.",
+   "deep": {
+    "id": "6ab67ac03b",
+    "title_fa": "تولید تصاویر خیره‌کننده 4K با مدل متن‌باز چینی Qwen-Image-HD",
+    "summary_fa": "پژوهشگران هوش مصنوعی با انتشار مقاله‌ای از مدل پیشرفته Qwen-Image-HD رونمایی کردند که قادر است تصاویری با وضوح فوق‌العاده بالا (4K) تولید کند. برخلاف مدل‌های سنتی که برای رزولوشن‌های سنگین دچار اعوجاج، خطوط غیرطبیعی و مصرف وحشتناک کارت گرافیک می‌شوند، این متد تصویر را به کاشی‌های ۱۰۰۰ پیکسلی (1K) تقسیم کرده و به روش خودبازگشتی (Autoregressive) می‌سازد. در ارزیابی‌ها، این مدل کیفیت بهتری را نسبت به غول‌هایی مانند FLUX-3 ثبت کرده است. روش جدید نه تنها مصرف حافظه پردازشی را به شدت کاهش می‌دهد، بلکه رندرینگ موازی سریع‌تری را به ارمغان می‌آورد.",
+    "key_points_fa": [
+     "معرفی معماری Qwen-Image-HD برای سنتز تصاویر 4K بر پایه مدل Qwen-Image 2.0.",
+     "تولید کاشی‌به‌کاشی (Blockwise) ابعاد 1K با شرط‌بندی روی بخش‌های بالایی و سمت چپ تصویر.",
+     "کسب امتیاز بالاتر در بنچمارک Qwen-Image-Bench نسبت به مدل مطرح FLUX-3-Image-Klein.",
+     "حذف خطوط نواری ناخواسته و تکرارشونده که در خروجی‌های رزولوشن بالا رایج است.",
+     "معرفی زمان‌بندی جدید استنتاج موسوم به Wavefront-AutoRegressive جهت پردازش همزمان روی چند کارت گرافیک.",
+     "بهینه‌سازی چشمگیر هزینه‌های محاسباتی برای آموزش و تولید تصویر در مقایسه با روش‌های قدیمی."
+    ],
+    "why_it_matters_fa": "به زودی کریتورها و طراحان گرافیک می‌توانند پوسترهای چاپی و تصاویر فوق باکیفیت 4K را با سخت‌افزارهای بسیار ارزان‌تر و بدون خطاهای بافتی خلق کنند.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "کیفیت 4K واقعی با هوش مصنوعی جدید علی‌بابا!",
+      "hook_fa": "دیگه عکس‌های هوش مصنوعی تار و پیکسلی نمیشن؛ با این هوش مصنوعی کیفیت 4K واقعی بگیر!",
+      "angle_fa": "معرفی تکنولوژی جذاب تقسیم‌بندی کاشی‌وار تصویر و مقایسه بصری آن با فلکس (FLUX).",
+      "outline_fa": [
+       "زوم شدید روی یک تصویر 4K و نمایش جزئیات دیوانه‌وار آن",
+       "معرفی معماری جدید Qwen-Image-HD و تکنیک تولید کاشی به کاشی",
+       "چرا این مدل رقیب مستقیمش یعنی FLUX رو شکست داده؟",
+       "کاربرد این متد برای عکاسی تبلیغاتی و چاپ پوستر"
+      ],
+      "visual_tip_fa": "تصاویر مقایسه‌ای داخل مقاله که جزئیات چشم و بافت پوست را در مقیاس 4K نشان می‌دهد."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "مدل Qwen-Image-HD چطور دنیای تصاویر AI را تغییر می‌دهد؟",
+      "hook_fa": "راز خلق عکس‌های ۴ هزار پیکسلی با کارت گرافیک معمولی فاش شد!",
+      "angle_fa": "راهنمای تکنیکال و جذاب درباره عملکرد مدل و دلایل از بین رفتن نویزها و خطوط تکراری.",
+      "outline_fa": [
+       "مشکل قدیمی مدل‌های دیفیوژن در سایزهای بزرگ چی بود؟",
+       "روش نبوغ‌آمیز Qwen: چیدن تایل‌های 1K مثل موزاییک کنار هم",
+       "نمودار بنچمارک کیفیت در برابر رقبای بزرگی مثل FLUX",
+       "چه زمانی این مدل برای عموم در دسترس قرار می‌گیرد؟"
+      ],
+      "visual_tip_fa": "دیاگرام نحوه چیدمان تایل‌های همسایه از روی تصاویر ضمیمه مقاله Qwen."
+     }
+    ],
+    "hashtags": [
+     "#تولید_عکس",
+     "#هوش_مصنوعی",
+     "#کیفیت_4k",
+     "#گرافیک",
+     "#Qwen",
+     "#FLUX",
+     "#AIArt"
+    ],
+    "caution_fa": "این دستاورد در قالب یک مقاله پژوهشی ارائه شده و وزن‌ها یا رابط وب عمومی آن ممکن است هنوز برای تست مستقیم همه در دسترس نباشد."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "6ab67ac03b"
+  }
+ ],
+ "others": [
+  {
+   "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+   "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+   "source": "TechCrunch",
+   "published": "2026-11-25T22:44:32+00:00",
+   "origin": "TechCrunch",
+   "summary": "The credit rating agency may lower Nvidia's credit rating to AA-, the fourth-highest rating.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 6,
+   "category": "big_tech",
+   "story_key": "nvidia-credit-downgrade-risk",
+   "topic_key": "nvidia-leadership-crisis",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "احتمال کاهش رتبه اعتباری انویدیا؛ پیامدهای بحران مدیریتی جنسن هوانگ",
+   "one_liner_fa": "مؤسسه اعتبارسنجی اس‌اندپی (S&P) هشدار داد که به دلیل ریسک‌های حاکمیت شرکتی و وابستگی به جنسن هوانگ، ممکن است رتبه اعتباری انویدیا (Nvidia) را کاهش دهد.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "f27e0de9d0"
+  }
+ ],
+ "scored": [
+  {
+   "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+   "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+   "source": "TechCrunch",
+   "published": "2026-11-25T22:44:32+00:00",
+   "origin": "TechCrunch",
+   "summary": "The credit rating agency may lower Nvidia's credit rating to AA-, the fourth-highest rating.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 6,
+   "category": "big_tech",
+   "story_key": "nvidia-credit-downgrade-risk",
+   "topic_key": "nvidia-leadership-crisis",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "احتمال کاهش رتبه اعتباری انویدیا؛ پیامدهای بحران مدیریتی جنسن هوانگ",
+   "one_liner_fa": "مؤسسه اعتبارسنجی اس‌اندپی (S&P) هشدار داد که به دلیل ریسک‌های حاکمیت شرکتی و وابستگی به جنسن هوانگ، ممکن است رتبه اعتباری انویدیا (Nvidia) را کاهش دهد.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "f27e0de9d0"
+  },
+  {
+   "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+   "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+   "source": "TechCrunch",
+   "published": "2026-11-25T20:03:27+00:00",
+   "origin": "TechCrunch",
+   "summary": "OpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work experiences.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2026/11/openai-chatgpt.jpg?resize=1200,800",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2025/01/7a9bd5727569147c3025b40e3775fc64.png?w=150",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 8,
+   "category": "product_launch",
+   "story_key": "chatgpt-unified-usage-limits",
+   "topic_key": "openai-chatgpt",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "یکی‌شدن چت و تسک‌های کاری در ChatGPT؛ صدای کاربران پرو درآمد!",
+   "one_liner_fa": "اوپن‌ای‌آی (OpenAI) با ادغام محیط‌های گفت‌وگو و کاربری بیزینس چت‌جی‌پی‌تی (ChatGPT)، محدودیت مصرف واحدی اعمال می‌کند که باعث تمام شدن سریع‌تر سقف پیام کاربران حرفه‌ای می‌شود.",
+   "deep": {
+    "id": "4c44ce3014",
+    "title_fa": "یکی‌شدن چت و تسک‌های کاری در ChatGPT؛ صدای کاربران پرو درآمد!",
+    "summary_fa": "شرکت اوپن‌ای‌آی (OpenAI) فرایند ادغام محیط کاربری چت معمولی (Chat) و محیط انجام کارهای اداری (Work) را در قالب یک بخش یکپارچه برای برخی کاربران آغاز کرده است. در این ساختار جدید، هر دو محیط سهمیه مصرفی مشترک خواهند داشت که این تغییر نگرانی شدید مشترکین پرمصرف نسخه پرو (Pro) را به همراه داشته است. سخنگوی اوپن‌ای‌آی تایید کرده کاربران فوق‌پرمصرف ممکن است زودتر از قبل به سقف محدودیت مدل‌های استدلالی برسند، هرچند مدل Instant بدون محدودیت باقی می‌ماند. هدف از این تغییر، مدیریت فشار سنگین سرورها و ساده‌سازی تجربه کاربری عنوان شده است.",
+    "key_points_fa": [
+     "ادغام محدودیت مصرف Chat و Work در یک سهمیه اشتراکی واحد در ChatGPT.",
+     "تایید رسمی توسط تیبو سوتیو (Thibault Sottiaux)، مدیر محصول اوپن‌ای‌آی در پلتفرم X.",
+     "اعمال تغییرات روی دسته محدودی از کاربران پرو و عرضه عمومی در ماه دسامبر.",
+     "کاربران به پایان رسیدن سریع‌تر سقف دسترسی به مدل‌های استدلالی سنگین اعتراض دارند.",
+     "مکالمات با مدل فوری (Instant) بدون محدودیت و خارج از سهمیه مشترک باقی خواهند ماند.",
+     "اقدام مشابه شرکت آنتروپیک در ماه سپتامبر برای ترکیب محیط Claude با پنل Cowork."
+    ],
+    "why_it_matters_fa": "هزینه‌های سرسام‌آور پردازش هوش مصنوعی بالاخره شرکت‌ها را مجبور کرده سهمیه‌ها را منقبض‌تر کنند و ممکن است کاربران حرفه‌ای زودتر به بن‌بست محدودیت بخورند.",
+    "content_ideas": [
+     {
+      "format": "استوری",
+      "title_fa": "محدودیت جدید ChatGPT برای اشتراک‌های پولی",
+      "hook_fa": "اگه اکانت ChatGPT پلاس یا پرو داری این خبر مهم رو بدون!",
+      "angle_fa": "اطلاع‌رسانی سریع درباره مصرف هوشمندانه‌تر پرامپت‌ها قبل از تموم شدن محدودیت در دسامبر.",
+      "outline_fa": [
+       "اسکرین‌شات از تغییرات جدید و ادغام Chat و Work",
+       "توضیح اینکه سهمیه‌ها یکی شده و زودتر تموم میشه",
+       "ترفند: برای کارهای سبک فقط از مدل Instant استفاده کنید تا سهمیتون نسوزه",
+       "نظرسنجی: آیا شما هم با افت سهمیه مواجه شدید؟"
+      ],
+      "visual_tip_fa": "محیط اینترفیس جدید ChatGPT و بخش تنظیمات انتخاب مدل‌ها."
+     },
+     {
+      "format": "ریلز",
+      "title_fa": "اوپن‌ای‌آی سهمیه ChatGPT رو کم کرد؟",
+      "hook_fa": "داری پول میدی ولی دسترسی‌ت کمتر میشه؟! داستان تغییرات جدید چت‌جی‌پی‌تی چیه؟",
+      "angle_fa": "بررسی دلایل اقتصادی و کمبود چیپ‌های پردازشی که غول‌های AI رو مجبور به اشتراکی‌کردن محدودیت‌ها کرده.",
+      "outline_fa": [
+       "اعتراض کاربران پرو در شبکه‌های اجتماعی به ادغام Chat و Work",
+       "توضیح سخنگوی اوپن‌ای‌آی درباره کاربران پرمصرف",
+       "مقایسه با حرکت چند ماه قبل آنتروپیک در کلود",
+       "توصیه برای جلوگیری از رسیدن زودهنگام به لیمیت"
+      ],
+      "visual_tip_fa": "تصاویر کامنت‌های شاکی ردیت و توییتر در کنار رابط کاربری تقسیم مدل‌ها در سایت OpenAI."
+     }
+    ],
+    "hashtags": [
+     "#چت_جی_پی_تی",
+     "#اوپن_ای_ای",
+     "#هوش_مصنوعی",
+     "#فناوری",
+     "#ChatGPT",
+     "#OpenAI",
+     "#AIUpdates"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": true,
+   "id": "4c44ce3014"
+  },
+  {
+   "title": "Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it",
+   "url": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
+   "source": "TechCrunch",
+   "published": "2026-11-25T19:54:57+00:00",
+   "origin": "TechCrunch",
+   "summary": "Most codes of conduct serve as a reflection of corporate culture. In Nvidia's case, that could have consequences.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 5,
+   "category": "big_tech",
+   "story_key": "nvidia-internal-code-of-conduct",
+   "topic_key": "nvidia-leadership-crisis",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "e7d7a2ca3b"
+  },
+  {
+   "title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
+   "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
+   "source": "TechCrunch",
+   "published": "2026-11-25T19:44:24+00:00",
+   "origin": "TechCrunch",
+   "summary": "Anthropic CEO Dario Amodei pushes back against rivals’ accusations that he favors surrendering human agency to AI, even as leading AI companies increasingly automate their own research and model development.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2026/03/Dario-Amodei-Anthropic-viva-tech.jpg?w=1024",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://techcrunch.com/wp-content/uploads/2025/04/RebeccaBellan_default-large-1-e1787760589727.jpg?w=150",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "safety_ethics",
+   "story_key": "amodei-rejects-ai-control-claims",
+   "topic_key": "anthropic-safety-debate",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "پاسخ تند مدیرعامل آنتروپیک: تسلیم هوش مصنوعی نخواهیم شد!",
+   "one_liner_fa": "داریو آمودی، مدیرعامل آنتروپیک (Anthropic)، اتهامات رقبا مبنی بر تلاش این شرکت برای تسلیم کنترل انسان در برابر هوش مصنوعی را بی‌اساس خواند.",
+   "deep": {
+    "id": "372ac89133",
+    "title_fa": "پاسخ تند مدیرعامل آنتروپیک: تسلیم هوش مصنوعی نخواهیم شد!",
+    "summary_fa": "داریو آمودی (Dario Amodei)، مدیرعامل شرکت آنتروپیک (Anthropic)، ادعاهای مطرح‌شده توسط رقبا مبنی بر اینکه آنها قصد دارند کنترل اراده انسان را به هوش مصنوعی واگذار کنند «مضحک و پوچ» نامید. این بحث‌ها پس از اظهارات مدیران اوپن‌ای‌آی و متا پیرامون خطرات اتوماسیون بی‌حدومرز بالا گرفت. آمودی اعلام کرده که همواره مدافع نظارت دموکراتیک بر فناوری بوده و نباید مشروعیت و اراده انسان را فدای امنیت یا کارایی کرد. با این وجود، خود آنتروپیک از کدهای تولیدشده توسط مدل Claude برای توسعه مدل‌های بعدی خود استفاده می‌کند که این موضوع سوالات جدی در مورد مرز خودبهبودبخشی ماشین‌ها ایجاد کرده است.",
+    "key_points_fa": [
+     "پست تند داریو آمودی در شبکه X در پاسخ به ادعاهای تسلیم اراده انسان به هوش مصنوعی.",
+     "کنایه‌های اخیر سم آلتمن (مدیر اوپن‌ای‌آی) و الکساندر وانگ (مدیر ارشد هوش مصنوعی متا) علیه رقبا.",
+     "تأکید آمودی بر تفکیک میان اتوماسیون وظایف کاری خاص با واگذاری حکمرانی و اراده به AI.",
+     "بحث حساس روی مفهوم RSI یا «خودبهبودبخشی بازگشتی» (Recursive Self-Improvement).",
+     "تولید بیش از ۸۰ درصد کدهای جدید آنتروپیک توسط خود هوش مصنوعی Claude طبق آمار رسمی ماه ژوئن.",
+     "گزارش موسسه مستقل METR مبنی بر اینکه سرعت پیشرفت کلود به خاطر برنامه‌نویسی خودکار دوبرابر شده است."
+    ],
+    "why_it_matters_fa": "جنگ لفظی بین رهبران اصلی هوش مصنوعی نشان می‌دهد که بحث کنترل بشر بر سیستم‌های فوق هوشمند دیگر یک فرضیه علمی-تخیلی نیست، بلکه نبردی واقعی بر سر آینده است.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "دعوای غول‌های هوش مصنوعی سر کنترل جهان!",
+      "hook_fa": "آیا هوش مصنوعی داره از دست سازنده‌هاش خارج میشه؟ مدیر کلود جواب داد!",
+      "angle_fa": "روایت درگیری فلسفی-امنیتی میان آنتروپیک، متا و اوپن‌ای‌آی درباره پدیده خودبهبودبخشی ماشین‌ها.",
+      "outline_fa": [
+       "شروع با اتهامات سنگین متا و سم آلتمن علیه رقیبشان",
+       "پاسخ آتشین داریو آمودی و خط قرمزی که کشیده",
+       "تناقض عجیب: وقتی ۸۰ درصد کدهای شرکت رو خود هوش مصنوعی داره می‌نویسه!",
+       "معنای این اتفاق برای آینده بشر و شغل‌های فنی"
+      ],
+      "visual_tip_fa": "تصاویر چهره‌های داریو آمودی، سم آلتمن و الکساندر وانگ با افکت‌های تیره و پرانرژی."
+     },
+     {
+      "format": "پست",
+      "title_fa": "اصطلاح روز: پدیده RSI یا خودبهبودبخشی چیست؟",
+      "hook_fa": "وقتی هوش مصنوعی خودش رو ارتقا میده، چه بلایی سر کنترل انسان میاد؟",
+      "angle_fa": "توضیح مفهومی عمیق اما ساده از واژه RSI برای مخاطبانی که می‌خواهند فراتر از اخبار روزمره یاد بگیرند.",
+      "outline_fa": [
+       "تعریف ساده بازگشت‌پذیری در یادگیری ماشین",
+       "چگونه Claude نسخه بعدی خودش را کدنویسی می‌کند؟",
+       "گزارش موسسه METR و جهش سرعت دو برابری توسعه",
+       "راهکارهای ایمنی برای جلوگیری از خارج شدن کنترل مدل‌ها"
+      ],
+      "visual_tip_fa": "نمودار گرافیکی که چرخه بی‌پایان تولید مدل توسط مدل قبلی را نشان می‌دهد."
+     }
+    ],
+    "hashtags": [
+     "#کلود",
+     "#آنتروپیک",
+     "#امنیت_هوش_مصنوعی",
+     "#سم_آلتمن",
+     "#Anthropic",
+     "#Claude",
+     "#AIControl"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "372ac89133"
+  },
+  {
+   "title": "State AGs are trying to stop Character.AI from auctioning off users' chat histories",
+   "url": "https://www.engadget.com/2328630/state-ags-are-trying-to-stop-characterai-from-auctioning-off-users-chat-histories/",
+   "source": "Engadget",
+   "published": "2026-11-25T20:04:07+00:00",
+   "origin": "Engadget",
+   "summary": "The proposed sale would include explicit conversations with children, officials say.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/state-ags-are-trying-to-stop-character-ai-from-auctioning-off-users-chat-histories/l-intro-1795637016.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 5,
+   "category": "safety_ethics",
+   "story_key": "character-ai-chat-auction-backlash",
+   "topic_key": "character-ai-privacy-scandal",
+   "already_reported": true,
+   "viral": 5,
+   "title_fa": "دادستان‌های آمریکا جلوی حراج پیام‌های خصوصی کاربران Character.AI را می‌گیرند",
+   "one_liner_fa": "دادستان‌های چند ایالت آمریکا در پی جلوگیری از فروش اطلاعات و چت‌های خصوصی کاربران، از جمله گفت‌وگوهای حساس کودکان، توسط پلتفرم کاراکتر ای‌آی (Character.AI) هستند.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "a8145bdbed"
+  },
+  {
+   "title": "NASA's DART mission left a stadium-sized crater in an asteroid, the ESA finds",
+   "url": "https://www.engadget.com/2328617/nasas-dart-mission-left-a-stadium-sized-crater-in-an-asteroid-the-esa-finds/",
+   "source": "Engadget",
+   "published": "2026-11-25T20:01:08+00:00",
+   "origin": "Engadget",
+   "summary": "The ESA's Hera mission has begun capturing images of the aftermath of DART's impact.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/nasas-dart-mission-left-a-stadium-sized-crater-in-an-asteroid-the-esa-finds/l-intro-1795636789.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 5,
+   "category": "other_tech",
+   "story_key": "dart-crater-esa-hera",
+   "topic_key": "space-exploration",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "60ed51a468"
+  },
+  {
+   "title": "Quoting Scott Aaronson",
+   "url": "https://simonwillison.net/2026/Nov/25/scott-aaronson/",
+   "source": "Simon Willison",
+   "published": "2026-11-25T23:26:32+00:00",
+   "origin": "Simon Willison",
+   "summary": "It’s now obvious that we’ll be getting, not one-off solutions to this or that complexity question, but a whole new continent of mathematical truth, one that we’d previously only glimpsed through fog. Picture van Leeuwenhoek first training a microscope on pondwater, or Galileo first training his telescope on the stars. That might give you some idea of how our resolution into the complexity-theoretic universe, and the whole universe of mathematical truth beyond it, has now improved. — Scott Aaronson Tags: mathematics , llms , ai , generative-ai",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 7,
+   "category": "research",
+   "story_key": "aaronson-math-breakthroughs-reaction",
+   "topic_key": "ai-math-formalization",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "اسکات آرونسون: کشف قاره‌ای جدید از حقایق ریاضی توسط هوش مصنوعی آغاز شد",
+   "one_liner_fa": "اسکات آرونسون، دانشمند برجسته علوم کامپیوتر، پیشرفت‌های اخیر مدل‌های هوش مصنوعی در حل و اثبات مسائل ریاضی را جهشی تاریخی و ورود به سرزمینی ناشناخته توصیف کرد.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "04a9805dfa"
+  },
+  {
+   "title": "Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening",
+   "url": "https://scottaaronson.blog/?p=10379",
+   "source": "scottaaronson.blog",
+   "published": "2026-11-25T19:11:27+00:00",
+   "origin": "Hacker News",
+   "summary": "See also The matrix multiplication exponent is nine fourths [pdf] - https://news.ycombinator.com/item?id=50637220",
+   "lang": "en",
+   "signal": "Hacker News: 962 امتیاز، 820 کامنت",
+   "signal_value": 962,
+   "discussion_url": "https://news.ycombinator.com/item?id=50646108",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://s0.wp.com/_si/?t=eyJpbWciOiJodHRwczpcL1wvc2NvdHRhYXJvbnNvbi5ibG9nXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8xMFwvY3JvcHBlZC1KYWNrZXQuZ2lmIiwidHh0IjoiU2h0ZXRsLU9wdGltaXplZCIsInRlbXBsYXRlIjoiZWRnZSIsImZvbnQiOiIiLCJibG9nX2lkIjoxMjk1MjA1ODB9.siOtN7gHw4tefA_rZickBw4GfI6tPxGgOQ1AXr2ZoOQMQ",
+     "origin": "og"
+    },
+    {
+     "kind": "embed",
+     "url": "https://www.youtube.com/watch?v=Vubj74mZBQ0",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://scottaaronson.blog/wp-content/plugins/really-simple-facebook-twitter-share-buttons/images/specificfeeds_follow.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://img.youtube.com/vi/Vubj74mZBQ0/maxresdefault.jpg",
+     "origin": "youtube"
+    }
+   ],
+   "also_covered_by": [
+    "Simon Willison"
+   ],
+   "importance": 7,
+   "worthiness": 7,
+   "category": "research",
+   "story_key": "aaronson-math-breakthroughs-reaction",
+   "topic_key": "ai-math-formalization",
+   "already_reported": false,
+   "viral": 8,
+   "title_fa": "شوکه شدن دانشمندان: هوش مصنوعی معماهای بزرگ ریاضیات را یکی‌یکی حل می‌کند!",
+   "one_liner_fa": "پژوهشگران ارشد علوم نظری با ابراز شگفتی از سرعت حل مسائل پیچیده ریاضی توسط ابزارهای نوین اثبات و هوش مصنوعی، این دوره را آغاز انقلابی بی‌سابقه می‌دانند.",
+   "deep": {
+    "id": "c31465abe4",
+    "title_fa": "شوکه شدن دانشمندان: هوش مصنوعی معماهای بزرگ ریاضیات را یکی‌یکی حل می‌کند!",
+    "summary_fa": "اسکات آرونسون (Scott Aaronson)، دانشمند برجسته علوم کامپیوتر نظری، در مقاله‌ای با لحنی شگفت‌زده و کم‌سابقه اعلام کرد که هوش مصنوعی وارد دوره تازه‌ای از اکتشافات بنیادی شده است. به گفته او، مدل‌های هوش مصنوعی متعلق به اوپن‌ای‌آی (OpenAI) و آنتروپیک (Anthropic) توانسته‌اند مسائل حل‌نشده‌ای مانند نمای ضرب ماتریسی (ω = 9/4) و کران‌های تبدیل فوریه (FFT) را که از دهه ۱۹۶۰ معما مانده بودند، با کدهای اثبات صوری زبان لین (Lean) به‌طور قطعی حل کنند. او تأکید کرده که سرعت حل این مسائل به‌قدری بالاست که شاید اثبات مسئله تاریخی «P در برابر NP» نیز بسیار نزدیک باشد. همچنین زمزمه‌هایی جدی درباره احتمال باز شدن قفل برخی الگوریتم‌های رمزنگاری توسط این مدل‌ها به گوش می‌رسد.",
+    "key_points_fa": [
+     "ادعای حل معمای باستانی نمای ضرب ماتریس و اثبات دقیق آن روی عدد 9/4 توسط مدل‌های OpenAI.",
+     "ثبت رکورد و کران‌های جدید در محاسبه الگوریتم تبدیل سریع فوریه (FFT) بدون نیاز به انسان.",
+     "استفاده از گواهی‌های زبان لین (Lean) برای اثبات ریاضی دقیق به جای پاسخ‌های متنی و غیرقابل‌اعتماد.",
+     "اشاره اسکات آرونسون به اینکه اثبات حل یکی از ۷ مسئله هزاره یعنی P ≠ NP ممکن است بسیار نزدیک باشد.",
+     "انتشار مستقیم مقالات روی گیت‌هاب توسط شرکت‌ها بدون برگزاری کنفرانس‌های خبری سنتی.",
+     "شایعات جدی درباره توسعه الگوریتم‌هایی با قابلیت تهدید یا شکستن سیستم‌های رمزنگاری مدرن."
+    ],
+    "why_it_matters_fa": "اگر هوش مصنوعی ریاضیات پایه و رمزنگاری را بازتعریف کند، کل زیرساخت وب، هوش عمومی مصنوعی (AGI) و امنیت مالی دنیا وارد عصری کاملاً غیرقابل‌پیش‌بینی می‌شود.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "اتفاقی وحشتناک یا معجزه‌ای علمی؟ ریاضیات شکست خورد!",
+      "hook_fa": "دانشمندها دارن رسماً وحشت‌زده میشن: هوش مصنوعی دیشب مسائلی رو حل کرد که ۶۰ سال قفل بودن!",
+      "angle_fa": "روایت هیجان‌انگیز از شوک جامعه علمی و اینکه چطور مدل‌ها به جای تولید عکس و ویدیو، سراغ بنیان‌های علم و رمزنگاری رفتن.",
+      "outline_fa": [
+       "شروع با واکنش شوکه‌کننده اسکات آرونسون و پستی که با فریاد شروع شده",
+       "توضیح ساده معماهایی که هوش مصنوعی ظرف چند ساعت حل کرد (ضرب ماتریس و فوریه)",
+       "پشت صحنه ماجرا: اثبات با کدهای ریاضی زبان Lean نه فقط چت ساده",
+       "خطر بزرگتر: آیا رمزنگاری بانک‌ها و کیف‌پول‌ها در خطره؟"
+      ],
+      "visual_tip_fa": "تیتر وبلاگ اسکات آرونسون، فرمول‌های ریاضی ماتریسی و انیمیشن از گیت‌هاب و کدهای اثبات ریاضی."
+     },
+     {
+      "format": "پست",
+      "title_fa": "هوش مصنوعی به مرز AGI رسید؟ ماجرای پست جنجالی اسکات آرونسون",
+      "hook_fa": "آیا داریم به روزی می‌رسیم که قوی‌ترین رمزهای جهان توسط AI شکسته بشن؟",
+      "angle_fa": "تحلیل عمیق فنی برای مخاطب کنجکاو درباره اثبات‌های ریاضیاتی اخیر OpenAI و Anthropic.",
+      "outline_fa": [
+       "توضیح مفهوم ضرب ماتریس و ارتباط مستقیمش با قدرت چیپ‌ها و مدل‌ها",
+       "چرا اثبات با سیستم Lean تفاوت اساسی با توهم‌های چت‌بات‌ها داره؟",
+       "شایعه شکستن رمزنگاری (ECDSA) و هشدارهایی که داده شده",
+       "نتیجه‌گیری: آیا سال ۲۰۲۶ سال فتح ریاضیات توسط ماشین است؟"
+      ],
+      "visual_tip_fa": "اسلایدهای تمیز اینفوگرافیک از فرمول‌های پیچیده ساده‌سازی‌شده در کنار لوگوی OpenAI و Anthropic."
+     }
+    ],
+    "hashtags": [
+     "#هوش_مصنوعی",
+     "#ریاضیات",
+     "#اوپن_ای_ای",
+     "#آینده_تکنولوژی",
+     "#OpenAI",
+     "#Anthropic",
+     "#AGI"
+    ],
+    "caution_fa": "ادعای شکستن الگوریتم‌های رمزنگاری هنوز در حد شایعه است و جامعه ریاضی‌دانان مستقل در حال بررسی کدهای منتشرشده در گیت‌هاب هستند."
+   },
+   "alert": {},
+   "alerted": true,
+   "id": "c31465abe4"
+  },
+  {
+   "title": "Much shorter version of GRH Lean verification from Anthropic",
+   "url": "https://github.com/lsernau/grh-lean",
+   "source": "github.com",
+   "published": "2026-11-25T21:48:10+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 302 امتیاز، 137 کامنت",
+   "signal_value": 302,
+   "discussion_url": "https://news.ycombinator.com/item?id=50648050",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 4,
+   "category": "research",
+   "story_key": "anthropic-lean-grh-verification",
+   "topic_key": "ai-math-formalization",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "f63f4cad14"
+  },
+  {
+   "title": "Jev is probably Qwen3.5-35B-A3B",
+   "url": "https://modaic.dev/blog/latency-doesnt-lie",
+   "source": "modaic.dev",
+   "published": "2026-11-25T22:57:04+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 235 امتیاز، 68 کامنت",
+   "signal_value": 235,
+   "discussion_url": "https://news.ycombinator.com/item?id=50648823",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 4,
+   "category": "open_source",
+   "story_key": "jev-model-qwen-mystery",
+   "topic_key": "qwen-models",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "0452d68d88"
+  },
+  {
+   "title": "The New York Times warns photographers not to update Photoshop over AI features",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+   "source": "theverge.com",
+   "published": "2026-11-25T21:18:02+00:00",
+   "origin": "Hacker News",
+   "summary": "https://archive.ph/pcUgy",
+   "lang": "en",
+   "signal": "Hacker News: 222 امتیاز، 186 کامنت",
+   "signal_value": 222,
+   "discussion_url": "https://news.ycombinator.com/item?id=50647673",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2289911637.jpg?quality=90&strip=all&crop=0%2C10.232235952618%2C100%2C79.535528094764&w=1200",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/author_profile_images/195810/EMMA_ROTH.0.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C100&w=2400",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2289911637.jpg?quality=90&strip=all&crop=0.6295907660021%2C0%2C98.740818467996%2C100&w=2400",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 8,
+   "category": "tools_for_creators",
+   "story_key": "nyt-warns-photographers-photoshop-ai",
+   "topic_key": "ai-photojournalism-ethics",
+   "already_reported": false,
+   "viral": 8,
+   "title_fa": "نیویورک تایمز به عکاسانش: آپدیت جدید فتوشاپ را اصلاً نصب نکنید!",
+   "one_liner_fa": "روزنامه نیویورک تایمز به عکاسان خبری خود هشدار داده به دلیل قابلیت‌های دستکاری خودکار هوش مصنوعی و خطر نقض اصالت تصویر، فتوشاپ (Photoshop) را به‌روزرسانی نکنند.",
+   "deep": {
+    "id": "19f2f984a8",
+    "title_fa": "نیویورک تایمز به عکاسانش: آپدیت جدید فتوشاپ را اصلاً نصب نکنید!",
+    "summary_fa": "روزنامه نیویورک تایمز (The New York Times) با ارسال ایمیلی به عکاسان همکار و فریلنسر خود، اکیداً خواسته که نرم‌افزار ادوبی فتوشاپ (Adobe Photoshop) را به نسخه ۲۰۲۷ آپدیت نکنند. علت این ماجرا، نفوذ پنهانی ابزارهای هوش مصنوعی به فرایندهای ادیت است که باعث می‌شود متادیتای اختصاصی C2PA به فایل تصویر الصاق شده و عکس به عنوان «ادیت‌شده با هوش مصنوعی» ثبت شود. نیویورک تایمز نگران است که وجود این برچسب‌ها اعتبار رسانه‌ای و اعتماد خوانندگانش را از بین ببرد، زیرا قوانین سفت‌وسختی علیه هرگونه دستکاری محتوایی عکس دارد. ادوبی ابزارهای هوش مصنوعی پرشماری را حتی به انتخابگرهای معمولی اضافه کرده و کار عکاسان خبری را حسابی پیچیده کرده است.",
+    "key_points_fa": [
+     "دستور ممنوعیت استفاده از ادوبی فتوشاپ ۲۰۲۷ (ورژن 28.0.0 و به‌روزرسانی‌های بعدی) برای تمام عکاسان همکار نیویورک تایمز.",
+     "ایمیل ارسال‌شده توسط مگان لورام (Meaghan Looram) و جاش هانر (Josh Haner)، مدیران بخش عکاسی تایمز.",
+     "سیستم اعتبارسنجی C2PA ادوبی به شکل خودکار روی تصاویر، متادیتای مرتبط با هوش مصنوعی ثبت می‌کند.",
+     "ویژگی جدید «AI Assisted Editor» و ابزارهای تغییر ابعاد یا آپ‌اسکیل به صورت پیش‌فرض در این نسخه فعال هستند.",
+     "سیاست سخت‌گیرانه نیویورک تایمز که فقط اجازه تغییرات حداقلی در اصلاح رنگ را به عکاسان می‌دهد و هر دستکاری دیگری را ممنوع کرده است."
+    ],
+    "why_it_matters_fa": "برای اولین بار مرز بین «ابزار ادیت معمولی» و «هوش مصنوعی مولد» آن‌قدر محو شده که می‌تواند اعتبار حرفه‌ای عکاسان و گرافیست‌ها را مستقیماً به خطر بیندازد.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "چرا نیویورک تایمز فتوشاپ رو تحریم کرد؟",
+      "hook_fa": "اگه عکاس یا ادیتوری، دست نگه‌دار و فتوشاپت رو آپدیت نکن!",
+      "angle_fa": "بررسی دردسر جدید سیستم‌های شفافیت متادیتا (C2PA) که چطور حتی کارهای ساده عکاسان حرفه‌ای رو به اسم هوش مصنوعی ثبت می‌کنن.",
+      "outline_fa": [
+       "نمایش تیتر تحریم فتوشاپ توسط نیویورک تایمز",
+       "توضیح متادیتای C2PA و برچسب‌های مخفی ادوبی در آپدیت جدید",
+       "چرا رسانه‌های بزرگ جهانی از بی‌اعتمادی مردم به عکس‌ها وحشت دارند؟",
+       "توصیه نهایی به عکاس‌ها و ادیتورها برای کنترل متادیتای خروجی"
+      ],
+      "visual_tip_fa": "استفاده از اسکرین‌شات ایمیل درزکرده، لوگوی نیویورک تایمز و محیط ابزار جدید AI Assisted Editor فتوشاپ."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "فتوشاپ ۲۰۲۷ چه بلایی سر عکس‌های شما می‌آورد؟",
+      "hook_fa": "عکس واقعی گرفتی، ولی سیستم میگه با هوش مصنوعی ساختیش!",
+      "angle_fa": "آموزش و آگاهی‌بخشی درباره تگ‌های C2PA و تغییرات نسخه جدید فتوشاپ برای کریتورها.",
+      "outline_fa": [
+       "ماجرای نامه محرمانه نیویورک تایمز به عکاس‌ها",
+       "ابزارهای جدید فتوشاپ که در ظاهر ادیت معمولی هستن ولی AI حساب میشن",
+       "متادیتای C2PA چیه و چطور روی عکس‌ها اثر میذاره؟",
+       "راهکارها: چطور متادیتای عکسمون رو پاک یا بررسی کنیم؟"
+      ],
+      "visual_tip_fa": "اسلایدهای مقایسه‌ای از کادر متادیتای C2PA و آیکون ابزارهای انتخاب هوشمند ادوبی."
+     }
+    ],
+    "hashtags": [
+     "#فتوشاپ",
+     "#هوش_مصنوعی",
+     "#عکاسی",
+     "#ادوبی",
+     "#Photoshop",
+     "#AdobeAI",
+     "#C2PA"
+    ],
+    "caution_fa": "نیویورک تایمز به صورت دقیق مشخص نکرده کدام ابزار جزئی فتوشاپ این برچسب را فعال می‌کند و ادوبی نیز هنوز پاسخ رسمی کاملی نداده است."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "19f2f984a8"
+  },
+  {
+   "title": "I checked Clojure's core with Lean and found unreported bugs",
+   "url": "https://s.conao3.com/blog/2026/e4f733",
+   "source": "s.conao3.com",
+   "published": "2026-11-25T14:56:52+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 190 امتیاز، 67 کامنت",
+   "signal_value": 190,
+   "discussion_url": "https://news.ycombinator.com/item?id=50642939",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 4,
+   "category": "open_source",
+   "story_key": "lean-clojure-core-bugs",
+   "topic_key": "ai-formal-verification",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "f13df2f736"
+  },
+  {
+   "title": "72-hour fasting can reset your immune system, USC study shows",
+   "url": "https://scienceinhand.com/72-hour-fasting-can-reset-your-entire-immune-system-usc-study-shows/",
+   "source": "scienceinhand.com",
+   "published": "2026-11-25T20:35:39+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 185 امتیاز، 134 کامنت",
+   "signal_value": 185,
+   "discussion_url": "https://news.ycombinator.com/item?id=50647158",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 5,
+   "category": "other_tech",
+   "story_key": "fasting-immune-system-reset",
+   "topic_key": "health-science",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "a3c4b7a545"
+  },
+  {
+   "title": "U.S. jury convicts Huawei of fraud, Iran sanctions violations",
+   "url": "https://www.upi.com/Top_News/US/2026/11/25/jury-convicts-Huawei/3151795587204/",
+   "source": "upi.com",
+   "published": "2026-11-25T14:12:29+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 155 امتیاز، 187 کامنت",
+   "signal_value": 155,
+   "discussion_url": "https://news.ycombinator.com/item?id=50642496",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 4,
+   "category": "policy_regulation",
+   "story_key": "huawei-trade-secrets-conviction",
+   "topic_key": "us-china-tech-war",
+   "already_reported": true,
+   "viral": 4,
+   "title_fa": "محکومیت رسمی هواوی در دادگاه فدرال آمریکا به کلاهبرداری و نقض تحریم‌ها",
+   "one_liner_fa": "هیئت منصفه دادگاه آمریکا شرکت هواوی (Huawei) را علاوه بر سرقت اسرار تجاری، در اتهامات کلاهبرداری بانکی و نقض تحریم‌ها نیز گناهکار شناخت.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "8b5b8a7d39"
+  },
+  {
+   "title": "ICLWorld: Benchmarking In-Context Learning of Agents from Digital to Physical Worlds",
+   "url": "https://huggingface.co/papers/2611.32649",
+   "source": "Hugging Face Papers",
+   "published": "2026-11-23T19:00:00+00:00",
+   "origin": "Hugging Face Papers",
+   "summary": "In-context learning (ICL) lets agents acquire new rules from context and adapt to user-specific requirements at inference time. The same frontier agents now operate both computers and robots, yet their ICL remains insufficiently assessed: existing benchmarks are largely offline, rely on text or static images, and risk training-data contamination, while robot evaluations are limited to method-level ablations. We present ICLWorld, an online benchmark that evaluates the ICL of agents from digital to physical worlds, covering computer use and robot use, together with UIverse, a unified harness that turns every environment into a user interface. We build 30 environments, record 630 demonstration videos (10+ hours), and design 160 tasks with customized, often counter-intuitive rules that cannot be satisfied without learning from the context. Each task comes with three rule versions, given as t",
+   "lang": "en",
+   "signal": "Hugging Face: 20 رأی",
+   "signal_value": 20,
+   "discussion_url": "https://github.com/ICLWorld/ICLWorld",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.32649.png",
+     "origin": "hf"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 3,
+   "category": "research",
+   "story_key": "iclworld-benchmark",
+   "topic_key": "ai-agent-evaluation",
+   "already_reported": false,
+   "viral": 2,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "853993777f"
+  },
+  {
+   "title": "Qwen-Image-HD: Autoregressive Diffusion for High Definition Image Generation",
+   "url": "https://huggingface.co/papers/2611.32736",
+   "source": "Hugging Face Papers",
+   "published": "2026-11-23T19:00:00+00:00",
+   "origin": "Hugging Face Papers",
+   "summary": "Fine-tuning a generator on a complete high-resolution canvas requires long image sequences and substantial computation, yet local regions can still exhibit unnatural repetitive stripes when training resources are limited. We introduce Qwen-Image-HD, which adapts Qwen-Image 2.0 to high-resolution synthesis through local training and blockwise autoregressive generation. Each prediction covers a target tile at 1K scale, conditioned on high-resolution upper and left neighbors and a compressed historical thumbnail. These conditions provide adjacent fine-scale structures and an overview of the scene generated so far. To integrate these complementary cues, we map both forms of history and the target to a shared canvas coordinate system to express their spatial relationships and scale differences. On Qwen-Image-Bench at 4K, Qwen-Image-HD achieves stronger overall evaluation performance than dire",
+   "lang": "en",
+   "signal": "Hugging Face: 20 رأی",
+   "signal_value": 20,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.32736/gradient.png",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://cdn-avatars.huggingface.co/v1/production/uploads/651f8133dbf879b8c58f5136/0L8Ecgi5Ietkm_DchJwE-.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://cdn-avatars.huggingface.co/v1/production/uploads/6481523b3fb124fc9850afed/XqXS2k42HF8HjeUXc21RX.jpeg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/0q49MyGuav8lJ9CIeyLhu.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://cdn-avatars.huggingface.co/v1/production/uploads/644a196f1af2bfd37ae0769f/L0rZShXLka1UG_o2XjNQ4.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://cdn-avatars.huggingface.co/v1/production/uploads/1671954059773-62dbeaf3d36b2070f922747f.jpeg",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.32736.png",
+     "origin": "hf"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "model_release",
+   "story_key": "qwen-image-hd-release",
+   "topic_key": "qwen-models",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "تولید تصاویر خیره‌کننده 4K با مدل متن‌باز چینی Qwen-Image-HD",
+   "one_liner_fa": "تیم کوئن (Qwen) با معرفی مدل Qwen-Image-HD روشی جدید برای تولید تصاویر شفاف با وضوح بالا ارائه داد که خطاهای بصری متداول در مدل‌های انتشار را حذف می‌کند.",
+   "deep": {
+    "id": "6ab67ac03b",
+    "title_fa": "تولید تصاویر خیره‌کننده 4K با مدل متن‌باز چینی Qwen-Image-HD",
+    "summary_fa": "پژوهشگران هوش مصنوعی با انتشار مقاله‌ای از مدل پیشرفته Qwen-Image-HD رونمایی کردند که قادر است تصاویری با وضوح فوق‌العاده بالا (4K) تولید کند. برخلاف مدل‌های سنتی که برای رزولوشن‌های سنگین دچار اعوجاج، خطوط غیرطبیعی و مصرف وحشتناک کارت گرافیک می‌شوند، این متد تصویر را به کاشی‌های ۱۰۰۰ پیکسلی (1K) تقسیم کرده و به روش خودبازگشتی (Autoregressive) می‌سازد. در ارزیابی‌ها، این مدل کیفیت بهتری را نسبت به غول‌هایی مانند FLUX-3 ثبت کرده است. روش جدید نه تنها مصرف حافظه پردازشی را به شدت کاهش می‌دهد، بلکه رندرینگ موازی سریع‌تری را به ارمغان می‌آورد.",
+    "key_points_fa": [
+     "معرفی معماری Qwen-Image-HD برای سنتز تصاویر 4K بر پایه مدل Qwen-Image 2.0.",
+     "تولید کاشی‌به‌کاشی (Blockwise) ابعاد 1K با شرط‌بندی روی بخش‌های بالایی و سمت چپ تصویر.",
+     "کسب امتیاز بالاتر در بنچمارک Qwen-Image-Bench نسبت به مدل مطرح FLUX-3-Image-Klein.",
+     "حذف خطوط نواری ناخواسته و تکرارشونده که در خروجی‌های رزولوشن بالا رایج است.",
+     "معرفی زمان‌بندی جدید استنتاج موسوم به Wavefront-AutoRegressive جهت پردازش همزمان روی چند کارت گرافیک.",
+     "بهینه‌سازی چشمگیر هزینه‌های محاسباتی برای آموزش و تولید تصویر در مقایسه با روش‌های قدیمی."
+    ],
+    "why_it_matters_fa": "به زودی کریتورها و طراحان گرافیک می‌توانند پوسترهای چاپی و تصاویر فوق باکیفیت 4K را با سخت‌افزارهای بسیار ارزان‌تر و بدون خطاهای بافتی خلق کنند.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "کیفیت 4K واقعی با هوش مصنوعی جدید علی‌بابا!",
+      "hook_fa": "دیگه عکس‌های هوش مصنوعی تار و پیکسلی نمیشن؛ با این هوش مصنوعی کیفیت 4K واقعی بگیر!",
+      "angle_fa": "معرفی تکنولوژی جذاب تقسیم‌بندی کاشی‌وار تصویر و مقایسه بصری آن با فلکس (FLUX).",
+      "outline_fa": [
+       "زوم شدید روی یک تصویر 4K و نمایش جزئیات دیوانه‌وار آن",
+       "معرفی معماری جدید Qwen-Image-HD و تکنیک تولید کاشی به کاشی",
+       "چرا این مدل رقیب مستقیمش یعنی FLUX رو شکست داده؟",
+       "کاربرد این متد برای عکاسی تبلیغاتی و چاپ پوستر"
+      ],
+      "visual_tip_fa": "تصاویر مقایسه‌ای داخل مقاله که جزئیات چشم و بافت پوست را در مقیاس 4K نشان می‌دهد."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "مدل Qwen-Image-HD چطور دنیای تصاویر AI را تغییر می‌دهد؟",
+      "hook_fa": "راز خلق عکس‌های ۴ هزار پیکسلی با کارت گرافیک معمولی فاش شد!",
+      "angle_fa": "راهنمای تکنیکال و جذاب درباره عملکرد مدل و دلایل از بین رفتن نویزها و خطوط تکراری.",
+      "outline_fa": [
+       "مشکل قدیمی مدل‌های دیفیوژن در سایزهای بزرگ چی بود؟",
+       "روش نبوغ‌آمیز Qwen: چیدن تایل‌های 1K مثل موزاییک کنار هم",
+       "نمودار بنچمارک کیفیت در برابر رقبای بزرگی مثل FLUX",
+       "چه زمانی این مدل برای عموم در دسترس قرار می‌گیرد؟"
+      ],
+      "visual_tip_fa": "دیاگرام نحوه چیدمان تایل‌های همسایه از روی تصاویر ضمیمه مقاله Qwen."
+     }
+    ],
+    "hashtags": [
+     "#تولید_عکس",
+     "#هوش_مصنوعی",
+     "#کیفیت_4k",
+     "#گرافیک",
+     "#Qwen",
+     "#FLUX",
+     "#AIArt"
+    ],
+    "caution_fa": "این دستاورد در قالب یک مقاله پژوهشی ارائه شده و وزن‌ها یا رابط وب عمومی آن ممکن است هنوز برای تست مستقیم همه در دسترس نباشد."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "6ab67ac03b"
+  }
+ ],
+ "failed_sources": [],
+ "models": [
+  "gemini-3.8-flash",
+  "gemini-3.8-flash"
+ ]
+}
