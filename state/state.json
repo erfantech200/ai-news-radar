@@ -739,7 +739,27 @@
   "https://openwall.com/lists/oss-security/2026/11/25/9": "2026-11-26",
   "https://upi.com/Top_News/US/2026/11/25/jury-convicts-Huawei/3151795587204": "2026-11-26",
   "https://huggingface.co/papers/2611.32649": "2026-11-26",
-  "https://huggingface.co/papers/2611.32736": "2026-11-26"
+  "https://huggingface.co/papers/2611.32736": "2026-11-26",
+  "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin": "2026-11-26",
+  "https://engadget.com/2329049/x-is-adding-its-first-ever-parental-controls": "2026-11-26",
+  "https://engadget.com/2329008/neuralink-receives-fda-approval-for-brain-implant-trial-in-als-patients": "2026-11-26",
+  "https://engadget.com/2328996/new-york-state-bans-ai-chatbot-toys-for-kids": "2026-11-26",
+  "https://simonwillison.net/2026/Nov/26/sqlite3-rsync": "2026-11-26",
+  "https://simonwillison.net/2026/Nov/25/datasette-charts": "2026-11-26",
+  "https://news.ycombinator.com/item?id=50649864": "2026-11-26",
+  "https://twitter.com/thsottiaux/status/2125784147889393806": "2026-11-26",
+  "https://aresluna.org/ui-style-guides": "2026-11-26",
+  "https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf": "2026-11-26",
+  "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os": "2026-11-26",
+  "https://opensec.in/blog/nfs2root-cve-2026-99362": "2026-11-26",
+  "https://huggingface.co/papers/2611.34849": "2026-11-26",
+  "https://huggingface.co/papers/2611.34575": "2026-11-26",
+  "https://huggingface.co/papers/2611.34237": "2026-11-26",
+  "https://huggingface.co/papers/2611.34923": "2026-11-26",
+  "https://huggingface.co/papers/2611.33144": "2026-11-26",
+  "https://huggingface.co/papers/2611.34941": "2026-11-26",
+  "https://huggingface.co/papers/2611.34420": "2026-11-26",
+  "https://huggingface.co/papers/2611.34811": "2026-11-26"
  },
  "reported": [
   {
@@ -1233,6 +1253,48 @@
    "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
    "title_fa": "احتمال کاهش رتبه اعتباری انویدیا؛ پیامدهای بحران مدیریتی جنسن هوانگ",
    "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks"
+  },
+  {
+   "date": "2026-11-26",
+   "title": "Neuralink receives FDA approval for 'pivotal' brain implant trial in ALS patients",
+   "title_fa": "چراغ سبز FDA به نورالینک: آغاز کارآزمایی کلیدی برای بیماران ALS",
+   "url": "https://engadget.com/2329008/neuralink-receives-fda-approval-for-brain-implant-trial-in-als-patients"
+  },
+  {
+   "date": "2026-11-26",
+   "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+   "title_fa": "کاهش محدودیت استفاده از GPT-6.2 توسط اوپن‌ای‌آی",
+   "url": "https://twitter.com/thsottiaux/status/2125784147889393806"
+  },
+  {
+   "date": "2026-11-26",
+   "title": "Bare Metal Qwen",
+   "title_fa": "شاهکار مهندسی: اجرای مدل هوش مصنوعی فقط با کد اسمبلی و بدون سیستم‌عامل!",
+   "url": "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os"
+  },
+  {
+   "date": "2026-11-26",
+   "title": "X is adding its first-ever parental controls",
+   "title_fa": "پلتفرم ایکس بالاخره قابلیت کنترل والدین را اضافه کرد",
+   "url": "https://engadget.com/2329049/x-is-adding-its-first-ever-parental-controls"
+  },
+  {
+   "date": "2026-11-26",
+   "title": "VibeVideoAgent: Closing the Perceptual Loop for Code-Driven Video Generation",
+   "title_fa": "معرفی VibeVideoAgent: نسل جدید تولید ویدیو با کدنویسی و بازخورد بینایی هوش مصنوعی",
+   "url": "https://huggingface.co/papers/2611.34237"
+  },
+  {
+   "date": "2026-11-26",
+   "title": "The polynomial Hirsch conjecture is false [pdf]",
+   "title_fa": "رد حدس چندجمله‌ای هیرش؛ زلزله جدید در دنیای ریاضیات و بهینه‌سازی",
+   "url": "https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf"
+  },
+  {
+   "date": "2026-11-26",
+   "title": "Nfs2root: A 12-year-old pre-auth remote root in the Linux kernel's NFS server",
+   "title_fa": "کشف آسیب‌پذیری ۱۲ ساله در کرنل لینوکس؛ دسترسی روت بدون نیاز به احراز هویت!",
+   "url": "https://opensec.in/blog/nfs2root-cve-2026-99362"
   }
  ],
  "telegram_chat_id": "925911315"

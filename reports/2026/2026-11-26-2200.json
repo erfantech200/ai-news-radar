@@ -1,0 +1,1206 @@
+{
+ "content": [
+  {
+   "title": "Neuralink receives FDA approval for 'pivotal' brain implant trial in ALS patients",
+   "url": "https://www.engadget.com/2329008/neuralink-receives-fda-approval-for-brain-implant-trial-in-als-patients/",
+   "source": "Engadget",
+   "published": "2026-11-26T07:28:21+00:00",
+   "origin": "Engadget",
+   "summary": "Elon Musk's Neuralink has received FDA permission to launch the first trial for its brain-computer interface.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/neuralink-receives-fda-approval-for-pivotal-brain-implant-trial-in-als-patients/l-intro-1795677911.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "embed",
+     "url": "https://x.com/neuralink/status/2125694580544680185?ref_src=twsrc%5Etfw",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/neuralink-receives-fda-approval-for-pivotal-brain-implant-trial-in-als-patients/intro-1795677911.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 8,
+   "worthiness": 8,
+   "category": "other_tech",
+   "story_key": "neuralink-fda-als-pivotal-trial",
+   "topic_key": "neuralink-brain-interface",
+   "already_reported": false,
+   "viral": 8,
+   "title_fa": "چراغ سبز FDA به نورالینک: آغاز کارآزمایی کلیدی برای بیماران ALS",
+   "one_liner_fa": "سازمان غذا و داروی آمریکا (FDA) مجوز آزمایش بالینی محوری رابط مغز و رایانه نورالینکِ ایلان ماسک را برای بیماران مبتلا به ALS صادر کرد.",
+   "deep": {
+    "id": "b79649f86f",
+    "title_fa": "چراغ سبز FDA به نورالینک: آغاز کارآزمایی کلیدی برای بیماران ALS",
+    "summary_fa": "شرکت نورالینک (Neuralink) متعلق به ایلان ماسک مجوز سازمان غذا و داروی آمریکا (FDA) را برای آغاز نخستین آزمایش بالینی اساسی (Pivotal Trial) رابط مغز و رایانه LINK دریافت کرد. این آزمایش پیشرفته برای گروه محدودی از بیماران مبتلا به ای‌ال‌اس (ALS) طراحی شده که دچار تحلیل سلول‌های عصبی و فلج حرکتی هستند. ایمپلنت N1 با استفاده از ربات جراحی R1 در جمجمه قرار می‌گیرد و سیگنال‌های حرکتی مغز را به دستورهای کامپیوتری تبدیل می‌کند تا بیماران بدون نیاز به کیبورد دستگاه‌ها را کنترل کنند. پیش از این بیش از ۳۰ شرکت‌کننده با نورالینک همکاری داشته‌اند و این فاز، مقدمه تجاری‌سازی نهایی دستگاه خواهد بود.",
+    "key_points_fa": [
+     "دریافت تاییدیه رسمی FDA برای اولین کارآزمایی کلیدی (Pivotal Trial) رابط مغز و رایانه در آمریکا",
+     "تمرکز مطالعه روی بیماران مبتلا به ای‌ال‌اس (ALS) جهت بازیابی استقلال و کنترل دستگاه‌های دیجیتال با افکار",
+     "سابقه موفقیت قبلی با اولین بیمار ALS به نام بردفورد اسمیت (Bradford Smith) برای برقراری ارتباط با سیگنال مغزی",
+     "استفاده از سیستم پیشرفته شامل ایمپلنت N1 و ربات جراح R1 برای کاشت الکترودهای منعطف در مغز",
+     "برگزاری مطالعه با تکیه بر تجربه کار با بیش از ۳۰ شرکت‌کننده تا این مرحله"
+    ],
+    "why_it_matters_fa": "این تاییدیه گامی سرنوشت‌ساز برای خروج فناوری رابط مغز و رایانه از فاز آزمایشی اولیه و نزدیک شدن آن به یک محصول پزشکی رسمی برای بازگرداندن استقلال به افراد دارای معلولیت شدید است.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "کنترل کامپیوتر فقط با فکر کردن! تاییدیه تاریخی نورالینک",
+      "hook_fa": "باور می‌کنی بتونی بدون دست زدن به موس و کیبورد، فقط با فکرت تایپ کنی؟",
+      "angle_fa": "روایت امیدبخش از تحول زندگی بیماران فلج و بیماران ALS توسط تراشه مغزی ایلان ماسک و عبور از سد رگولاتوری آمریکا.",
+      "outline_fa": [
+       "نمایش تیتر تاییدیه FDA و توضیح کوتاه درباره وضعیت بیماران ALS",
+       "نحوه کار ربات جراح R1 و قرارگیری تراشه N1 در مغز",
+       "تجربه واقعی بیمار قبلی (بردفورد اسمیت) و کنترل وسایل دیجیتال",
+       "پیام نهایی درباره آینده ارتباط انسان و هوش مصنوعی و دعوت به نظردهی"
+      ],
+      "visual_tip_fa": "استفاده از ویدیوی ضمیمه‌شده توییت نورالینک، تصویر تراشه و تصاویر سه‌بعدی شبیه‌سازی جراحی رباتیک R1."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "تراشه نورالینک چگونه کار می‌کند و تاییدیه جدید یعنی چه؟",
+      "hook_fa": "نورالینک بالاخره مجوز بزرگ‌ترین آزمایش انسانی‌اش را گرفت؛ ماجرا چیه؟",
+      "angle_fa": "بررسی فنی و ساده روند جراحی، ایمپلنت N1، آزمایش بالینی و استانداردهای FDA.",
+      "outline_fa": [
+       "اسلاید ۱: اعلام خبر رسمی مجوز FDA برای آزمایش محوری LINK",
+       "اسلاید ۲: این دستگاه دقیقا چطور کار می‌کند؟ (ایمپلنت N1 و ربات R1)",
+       "اسلاید ۳: چرا بیماران ALS اولین گروه هدف هستند؟",
+       "اسلاید ۴: آزمایش قبلی روی بردفورد اسمیت چطور پیش رفت؟",
+       "اسلاید ۵: مرحله بعد چیست و چه زمانی به بازار عمومی می‌رسد؟"
+      ],
+      "visual_tip_fa": "اسلایدهای با اینفوگرافیک مینیمال تیره از ساختار مغز، الکترودها و نقل‌قول بردفورد اسمیت."
+     }
+    ],
+    "hashtags": [
+     "#نورالینک",
+     "#ایلان_ماسک",
+     "#فناوری_پزشکی",
+     "#هوش_مصنوعی",
+     "#Neuralink",
+     "#BrainComputerInterface"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "b79649f86f"
+  },
+  {
+   "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+   "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
+   "source": "twitter.com",
+   "published": "2026-11-26T03:36:58+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 267 امتیاز، 144 کامنت",
+   "signal_value": 267,
+   "discussion_url": "https://news.ycombinator.com/item?id=50651117",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 8,
+   "category": "product_launch",
+   "story_key": "openai-gpt-6-usage-limits-cut",
+   "topic_key": "gpt-6-rollout",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "کاهش محدودیت استفاده از GPT-6.2 توسط اوپن‌ای‌آی",
+   "one_liner_fa": "اوپن‌ای‌آی سقف استفاده از مدل‌های GPT-6.2 را تا ۴۰ درصد کاهش داد؛ تغییری که باعث اتمام بسیار سریع‌تر سهمیه کاربران حرفه‌ای شده است.",
+   "deep": {
+    "id": "244a3e8cb4",
+    "title_fa": "کاهش محدودیت استفاده از GPT-6.2 توسط اوپن‌ای‌آی",
+    "summary_fa": "طبق گزارش‌های منتشر شده در شبکه اجتماعی ایکس و هکر نیوز، شرکت اوپن‌ای‌آی (OpenAI) محدودیت مصرف مدل‌های هوش مصنوعی سری GPT-6.2 را اعمال کرده است. بر اساس این آمار، دسترسی کاربران به مدل استرا (Astra) حدود ۴۰ درصد سریع‌تر و مدل سول (Sol) حدود ۲۵ درصد سریع‌تر به سقف مجاز (Usage Limits) می‌رسد. این اقدام نشان‌دهنده تغییر سیاست‌ها یا افزایش فشار ترافیکی بر زیرساخت‌های پردازشی این مدل‌ها است.",
+    "key_points_fa": [
+     "اعمال محدودیت‌های جدید روی مدل‌های سری GPT-6.2 اوپن‌ای‌آی",
+     "رسیدن ۴۰ درصد سریع‌تر به سقف مصرف در مدل Astra",
+     "رسیدن ۲۵ درصد سریع‌تر به سقف مصرف در مدل Sol",
+     "انعکاس گسترده خبر در هکر نیوز با صدها امتیاز و کامنت از سمت کاربران"
+    ],
+    "why_it_matters_fa": "برای توسعه‌دهندگان و کاربرانی که کار روزمره‌شان به مدل‌های جدید اوپن‌ای‌آی وابسته است، این محدودیت روی هزینه‌ها و مدیریت پرامپت‌ها مستقیما اثرگذار خواهد بود.",
+    "content_ideas": [
+     {
+      "format": "استوری",
+      "title_fa": "کاهش سهمیه مدل‌های جدید اوپن‌ای‌آی!",
+      "hook_fa": "اگه از اکانت‌های هوش مصنوعی استفاده می‌کنی، حواست به این خبر مهم باشه!",
+      "angle_fa": "اطلاع‌رسانی سریع در مورد محدودیت مصرف مدل‌های جدید و مدیریت مصرف توکن‌ها.",
+      "outline_fa": [
+       "اسلاید ۱: اعلام کاهش محدودیت‌های Astra و Sol",
+       "اسلاید ۲: اعداد دقیق محدودیت (۴۰٪ برای آسترا، ۲۵٪ برای سول)",
+       "اسلاید ۳: نظرسنجی از مخاطبان: آیا متوجه افت کیفیت یا سهمیه شدی؟"
+      ],
+      "visual_tip_fa": "اسکرین‌شات از توییت منبع به همراه لوگوی اوپن‌ای‌آی و نمودار درصد کاهش سهمیه."
+     },
+     {
+      "format": "پست",
+      "title_fa": "چرا اوپن‌ای‌آی دسترسی‌ها را محدودتر می‌کند؟",
+      "hook_fa": "اوپن‌ای‌آی دوباره ترمز مصرف کاربران را کشید!",
+      "angle_fa": "تحلیل دلایل احتمالی سهمیه‌بندی منابع پردازشی سرورها و چالش مصرف انرژی هوش مصنوعی.",
+      "outline_fa": [
+       "شرح خبر کاهش سهمیه GPT-6.2 Astra و Sol",
+       "دلایل فنی پشت کاهش لیمیت‌ها (کمبود تراشه و هزینه‌های سرسام‌آور پردازش)",
+       "راهکارهای جایگزین برای توسعه‌دهندگان و پرامپت‌نویس‌ها"
+      ],
+      "visual_tip_fa": "طراحی تصویر گرافیکی از ربات اوپن‌ای‌آی پشت علامت محدودیت یا گیج بنزین خالی."
+     }
+    ],
+    "hashtags": [
+     "#اوپن_ای_ای",
+     "#هوش_مصنوعی",
+     "#چت_جی_پی_تی",
+     "#OpenAI",
+     "#GPT6"
+    ],
+    "caution_fa": "این گزارش بر اساس پست کاربران و بازتاب آن در هکر نیوز است و هنوز بیانیه مطبوعاتی رسمی مستقلی از سوی اوپن‌ای‌آی منتشر نشده است."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "244a3e8cb4"
+  },
+  {
+   "title": "Bare Metal Qwen",
+   "url": "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os",
+   "source": "github.com",
+   "published": "2026-11-25T22:15:34+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 159 امتیاز، 39 کامنت",
+   "signal_value": 159,
+   "discussion_url": "https://news.ycombinator.com/item?id=50648365",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://opengraph.githubassets.com/ac1e23ba7d5d9a8fa1049fee376e1b7d804c494de6eadd4733fc5b23eee9df9f/alesha-pro/llm.asm",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://github.com/alesha-pro/llm.asm/raw/main/assets/baremetal-vga.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://github.com/alesha-pro/llm.asm/raw/main/assets/proxmox-vm250-vga.png",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 6,
+   "category": "open_source",
+   "story_key": "bare-metal-qwen",
+   "topic_key": "local-llm-deployment",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "شاهکار مهندسی: اجرای مدل هوش مصنوعی فقط با کد اسمبلی و بدون سیستم‌عامل!",
+   "one_liner_fa": "",
+   "deep": {
+    "id": "a1356d98ce",
+    "title_fa": "شاهکار مهندسی: اجرای مدل هوش مصنوعی فقط با کد اسمبلی و بدون سیستم‌عامل!",
+    "summary_fa": "یک توسعه‌دهنده در پروژه‌ای متن‌باز موفق شده مدل زبانی Qwen3-0.6B را بدون نیاز به لینوکس، زبان C یا هیچ کتابخانه وابسته‌ای، مستقیما روی سخت‌افزار (Bare Metal) اجرا کند. این پروژه کاملا با زبان اسمبلی خالص x86-64 NASM نوشته شده و حجم کل استنتاج آن تنها ۱۲ کیلوبایت است. همراه این پکیج، یک سیستم‌عامل بوت‌شونده ۲۲ کیلوبایتی و یک ماژول آموزش Mini-GPT به حجم ۳۲ کیلوبایت با رابط متنی زنده به خط بریل (Braille TUI) قرار دارد. این پروژه به شدت مورد تحسین جامعه برنامه‌نویسان قرار گرفته است.",
+    "key_points_fa": [
+     "اجرای مستقیم مدل Qwen3-0.6B روی سخت‌افزار بدون واسطه سیستم‌عامل",
+     "حجم کل موتور استنتاج مدل تنها ۱۲ کیلوبایت است",
+     "توسعه یک سیستم‌عامل سبک قابل بوت فقط با حجم ۲۲ کیلوبایت",
+     "شامل یک ماژول آموزش از صفر مدل Mini-GPT با حجم ۳۲ کیلوبایت",
+     "نوشته شده به صورت ۱۰۰ درصد خالص با زبان اسمبلی x86-64 NASM بدون حتی یک خط زبان C یا libc"
+    ],
+    "why_it_matters_fa": "این پروژه نشان می‌دهد که هوش مصنوعی نیازی به صدها گیگابایت لایه‌های نرم‌افزاری سنگین ندارد و با بازگشت به ریشه‌های بهینه‌سازی می‌توان مصرف حافظه و پردازش را به حداقل رساند.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "هوش مصنوعی بدون سیستم‌عامل! جنون بهینه‌سازی با اسمبلی",
+      "hook_fa": "باور می‌کنی یک مدل زبانی کامل با حجمی کمتر از یک فایل آیکون اجرا بشه؟!",
+      "angle_fa": "روایت گیکی و شگفت‌انگیز برای برنامه‌نویسان و علاقه‌مندان سخت‌افزار درباره شاهکار کدنویسی سطح پایین.",
+      "outline_fa": [
+       "طرح سوال: برای اجرای LLM به پایتون و لینوکس نیاز داریم؟ نه لزوما!",
+       "معرفی پروژه llm.asm و اعداد عجیب آن (۱۲ کیلوبایت کد اسمبلی)",
+       "نحوه بالا آمدن سیستم‌عامل ۲۲ کیلوبایتی مستقل بدون ویندوز یا لینوکس",
+       "نتیجه‌گیری درباره اهمیت بهینه‌سازی کد در عصر پردازش سنگین"
+      ],
+      "visual_tip_fa": "نمایش محیط ترمینال و رابط متنی TUI، سورس‌کدهای اسمبلی در گیت‌هاب و مقایسه بصری حجم‌ها."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "هوش مصنوعی به زبان اسمبلی: چطور یک مدل را روی Bare-Metal اجرا کردند؟",
+      "hook_fa": "صفر خط پایتون، صفر خط C؛ بازگشت به اصالت کدنویسی!",
+      "angle_fa": "آموزش مفهومی معماری پروژه برای جامعه فنی پیج.",
+      "outline_fa": [
+       "اسلاید ۱: معرفی پروژه عجیب Bare Metal Qwen",
+       "اسلاید ۲: مفهوم Bare Metal یعنی چی و چرا سیستم‌عامل حذف شد؟",
+       "اسلاید ۳: جزییات سه ماژول پروژه (استنتاج، بوت‌لودر، ترینر)",
+       "اسلاید ۴: چرا زبان اسمبلی x86-64؟ مزایا و دیوانگی ماجرا",
+       "اسلاید ۵: لینک گیت‌هاب و نحوه مشاهده پروژه"
+      ],
+      "visual_tip_fa": "اسکرین‌شات از صفحه گیت‌هاب پروژه، کدهای اسمبلی و نمودار معماری اجرا روی سخت‌افزار."
+     }
+    ],
+    "hashtags": [
+     "#برنامه_نویسی",
+     "#اسمبلی",
+     "#هوش_مصنوعی",
+     "#کدنویسی",
+     "#تکنولوژی",
+     "#Assembly",
+     "#OpenSource"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "a1356d98ce"
+  },
+  {
+   "title": "X is adding its first-ever parental controls",
+   "url": "https://www.engadget.com/2329049/x-is-adding-its-first-ever-parental-controls/",
+   "source": "Engadget",
+   "published": "2026-11-26T09:26:24+00:00",
+   "origin": "Engadget",
+   "summary": "X (and Twitter before it) have never really had real parental controls. Until now.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/x-is-adding-its-first-ever-parental-controls/l-intro-1795684809.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/x-is-adding-its-first-ever-parental-controls/intro-1795684809.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 6,
+   "category": "big_tech",
+   "story_key": "x-adds-parental-controls",
+   "topic_key": "x-platform-changes",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "پلتفرم ایکس بالاخره قابلیت کنترل والدین را اضافه کرد",
+   "one_liner_fa": "",
+   "deep": {
+    "id": "864485ffc4",
+    "title_fa": "پلتفرم ایکس بالاخره قابلیت کنترل والدین را اضافه کرد",
+    "summary_fa": "شبکه اجتماعی ایکس (X) متعلق به ایلان ماسک برای اولین بار ابزارهای کنترل والدین را برای نوجوانان ۱۳ تا ۱۷ سال عرضه کرد. با این قابلیت، حساب‌های نوجوانان به صورت پیش‌فرض خصوصی شده و رسانه‌های حساس و تبلیغات هدفمند برای آن‌ها مسدود می‌شود. والدین از طریق اتصال دوطرفه به حساب فرزند خود می‌توانند محدودیت زمانی روزانه تعیین کرده، فالوورهای جدید را تایید کنند و ارتباطات دایرکت را محدود سازند. البته ایکس تاکید کرده که والدین به محتوای چت‌های خصوصی، سابقه سرچ و تاریخچه تماشای نوجوان دسترسی نخواهند داشت.",
+    "key_points_fa": [
+     "ارائه اولین سیستم کنترل والدین در تاریخ پلتفرم برای رده سنی ۱۳ تا ۱۷ سال",
+     "فعال شدن خودکار حالت امن: خصوصی شدن اکانت، فیلتر محتوای حساس و حذف تبلیغات هدفمند",
+     "امکان اتصال هر والد تا سقف ۵ حساب کاربری نوجوان با تایید دوطرفه",
+     "امکان تعیین سقف زمانی روزانه و مدیریت مخاطبان مجاز برای ارسال پیام دایرکت",
+     "عدم امکان خواندن متن پیام‌های خصوصی، تاریخچه جستجو یا ارسال پست توسط والدین"
+    ],
+    "why_it_matters_fa": "ایکس همواره با چالش‌های بزرگ امنیتی و محتوایی روبرو بوده؛ این تغییر نه‌تنها پاسخی به فشارهای قانونی دولت‌هاست، بلکه ابزاری ضروری برای خانواده‌ها در جهت محافظت از نوجوانان است.",
+    "content_ideas": [
+     {
+      "format": "پست",
+      "title_fa": "ویژگی جدید ایکس برای محافظت از نوجوانان؛ کنترل والدین فعال شد",
+      "hook_fa": "اگر نوجوان دارید یا نگران محتوای ایکس هستید، این قابلیت را حتما فعال کنید!",
+      "angle_fa": "آموزش کاربردی و راهنمای گام‌به‌گام برای فعال‌سازی ویژگی جدید با نگاهی به حریم خصوصی.",
+      "outline_fa": [
+       "توضیح دلایل اضافه شدن کنترل والدین به ایکس بعد از سال‌ها حاشیه",
+       "امکاناتی که به والدین داده می‌شود (زمان‌بندی، تایید فالوور، فیلتر کلمات)",
+       "مرزهای حریم خصوصی: کارهایی که والدین نمی‌توانند انجام دهند (خواندن دایرکت)",
+       "نحوه راه‌اندازی اتصال اکانت والد و نوجوان"
+      ],
+      "visual_tip_fa": "استفاده از اسکرین‌شات‌های تنظیمات جدید اپلیکیشن ایکس و اینفوگرافیک دسترسی‌های مجاز و غیرمجاز."
+     },
+     {
+      "format": "استوری",
+      "title_fa": "قابلیت جدید توییتر سابق برای والدین",
+      "hook_fa": "ایکس بالاخره بعد از سال‌ها حاشیه، قابلیت نظارت والدین رو اضافه کرد!",
+      "angle_fa": "خلاصه سریع و پرسش تعاملی با مخاطبان درباره اثربخشی این قابلیت.",
+      "outline_fa": [
+       "اسلاید ۱: معرفی قابلیت parental controls در ایکس",
+       "اسلاید ۲: مهم‌ترین محدودیت‌ها (مسدودسازی تبلیغات هدفمند و محتوای حساس)",
+       "اسلاید ۳: نظرسنجی: آیا فکر می‌کنید این ابزارها جلوی آسیب‌های فضای مجازی را می‌گیرند؟"
+      ],
+      "visual_tip_fa": "تصویر آیکون قفل و لوگوی ایکس با کادربندی شیک و تم مشکی."
+     }
+    ],
+    "hashtags": [
+     "#توییتر",
+     "#ایکس",
+     "#ایلان_ماسک",
+     "#امنیت_کودکان",
+     "#فضای_مجازی",
+     "#TwitterX"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "864485ffc4"
+  },
+  {
+   "title": "VibeVideoAgent: Closing the Perceptual Loop for Code-Driven Video Generation",
+   "url": "https://huggingface.co/papers/2611.34237",
+   "source": "Hugging Face Papers",
+   "published": "2026-11-24T19:00:00+00:00",
+   "origin": "Hugging Face Papers",
+   "summary": "Code-driven video generation asks a coding agent to write and run rendering programs. This gives exact control over typography, data visualizations, synchronized audio, and multi-shot scenes, and it leaves an editable project behind. A program that exits cleanly can still render overlapping labels, a camera aimed away from its subject, broken object interactions, or narration that drifts out of sync, and none of these raise a runtime error. Feeding rendered frames and audio back into the coding session bloats its long-horizon context, while critiquing only the finished full-resolution render turns early design mistakes into costly rewrites. We introduce VibeVideoAgent, a training-free framework that lets coding agents inspect their drafts throughout production. Multimodal perception runs in short-lived contexts kept apart from the coder and returns compact, grounded Findings. Seven primi",
+   "lang": "en",
+   "signal": "Hugging Face: 50 رأی",
+   "signal_value": 50,
+   "discussion_url": "https://github.com/Kling-Keye/VibeVideoAgent",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34237/gradient.png",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34237.png",
+     "origin": "hf"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 6,
+   "category": "research",
+   "story_key": "vibevideoagent-code-driven-video",
+   "topic_key": "ai-video-generation",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "معرفی VibeVideoAgent: نسل جدید تولید ویدیو با کدنویسی و بازخورد بینایی هوش مصنوعی",
+   "one_liner_fa": "",
+   "deep": {
+    "id": "e44c65cf42",
+    "title_fa": "معرفی VibeVideoAgent: نسل جدید تولید ویدیو با کدنویسی و بازخورد بینایی هوش مصنوعی",
+    "summary_fa": "محققان فریم‌ورک متن‌باز جدیدی به نام VibeVideoAgent معرفی کرده‌اند که فرآیند ساخت ویدیو بر پایه کدنویسی (Code-Driven Video Generation) را متحول می‌کند. در روش‌های فعلی، نوشتن کد رندرینگ ممکن است بدون خطا اجرا شود اما خروجی نهایی دچار ناهماهنگی صدا و تصویر، جابجایی سوژه یا تداخل متن باشد. این فریم‌ورک بدون نیاز به بازآموزی مدل (Training-Free)، امکانی فراهم می‌کند تا ایجنت هوش مصنوعی پیش‌نویس‌های ویدیو را در حین کار بازبینی و با ادراک چندوجهی عیب‌یابی کند. نتایج آزمایش روی بنچمارک VibeVideoBench نشان داده کیفیت صدا و تصویر در مدل‌هایی مثل Claude Opus 5.5 و GPT-6 Astra رشد چشمگیری یافته است.",
+    "key_points_fa": [
+     "معرفی فریم‌ورک بدون نیاز به آموزش (Training-Free) برای ساخت ویدیو با کد",
+     "حل مشکل ناهماهنگی متن، صدا و کادر تصویر با سیستم بازخورد چندوجهی چندمرحله‌ای",
+     "بهبود کیفیت صوتی و تصویری (L3) در مدل کلود اپوس ۵.۵ (Claude Opus 5.5) از ۴.۰۳ به ۴.۴۳",
+     "افزایش هماهنگی صوت و تصویر تا حداکثر ۰.۵۶+ نمره در ارزیابی‌ها",
+     "انتشار رسمی کد منبع و پروژه در گیت‌هاب توسط تیم Kling-Keye"
+    ],
+    "why_it_matters_fa": "تولید ویدیو از طریق کدنویسی به کاربر کنترل دقیق روی تایپوگرافی، همگام‌سازی صدا و انیمیشن می‌دهد و این ایجنت جدید، خطاهای رایج رندر را به شکل خودکار رفع می‌کند.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "ساخت ویدیو با هوش مصنوعی و کدنویسی متحول شد!",
+      "hook_fa": "دیگه لازم نیست برای هماهنگ کردن صدا و تصویر توی هوش مصنوعی ساعت‌ها کلنجار بری!",
+      "angle_fa": "معرفی یک راهکار انقلابی در ادیت ویدیو با کمک ایجنت‌های کدنویس هوشمند.",
+      "outline_fa": [
+       "نمایش مشکل رایج ابزارهای ویدیو (به‌هم‌ریختگی متن و ناهماهنگی لب‌زدن یا صدا)",
+       "معرفی ابزار VibeVideoAgent و ایده هوشمندانه ادراک ویدیو حین نوشتن کد",
+       "نمایش نمونه‌های خروجی و ارتقای چشمگیر کیفیت در مقایسه با روش‌های سنتی",
+       "دعوت به بررسی مخزن گیت‌هاب پروژه"
+      ],
+      "visual_tip_fa": "استفاده از تصاویر مقاله و بنچمارک، مقایسه خروجی رندر شده معیوب و نسخه تصحیح‌شده توسط ایجنت."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "بررسی VibeVideoAgent: وقتی هوش مصنوعی ویدیوی خودش را تصحیح می‌کند",
+      "hook_fa": "چرا آینده تولید محتوای ویدیویی در دست Code-to-Video است؟",
+      "angle_fa": "آموزش عمیق نحوه کار بازخورد تصویری بدون نیاز به ترین مجدد مدل.",
+      "outline_fa": [
+       "اسلاید ۱: تولید ویدیو با کد چیه و چرا از پرامپت متنی دقیق‌تره؟",
+       "اسلاید ۲: باگ بزرگ ایجنت‌های کدنویس (کد بدون خطا اجرا می‌شه ولی ویدیو خرابه!)",
+       "اسلاید ۳: مکانیزم حلقه ادراکی VibeVideoAgent چطور کار می‌کنه؟",
+       "اسلاید ۴: تست روی مدل‌های Claude Opus 5.5 و GPT-6 Astra",
+       "اسلاید ۵: چطور می‌توانیم از این پروژه گیت‌هاب استفاده کنیم؟"
+      ],
+      "visual_tip_fa": "دیاگرام‌های معماری چندمرحله‌ای موجود در مقاله و اسلایدهای قبل/بعد ویدیوها."
+     }
+    ],
+    "hashtags": [
+     "#هوش_مصنوعی",
+     "#ساخت_ویدیو",
+     "#تولید_محتوا",
+     "#برنامه_نویسی",
+     "#VibeVideoAgent",
+     "#AIvideo"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "e44c65cf42"
+  }
+ ],
+ "others": [
+  {
+   "title": "The polynomial Hirsch conjecture is false [pdf]",
+   "url": "https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf",
+   "source": "github.com",
+   "published": "2026-11-25T17:34:34+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 159 امتیاز، 44 کامنت",
+   "signal_value": 159,
+   "discussion_url": "https://news.ycombinator.com/item?id=50644980",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 4,
+   "category": "research",
+   "story_key": "polynomial-hirsch-conjecture-disproved",
+   "topic_key": "math-theoretical-cs-breakthroughs",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "رد حدس چندجمله‌ای هیرش؛ زلزله جدید در دنیای ریاضیات و بهینه‌سازی",
+   "one_liner_fa": "پژوهشگران با ارائه مثال نقض، حدس مشهور چندجمله‌ای هیرش در زمینه هندسه محاسباتی و برنامه‌ریزی خطی را پس از دهه‌ها رد کردند.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "3e11caea3c"
+  },
+  {
+   "title": "Nfs2root: A 12-year-old pre-auth remote root in the Linux kernel's NFS server",
+   "url": "https://opensec.in/blog/nfs2root-cve-2026-99362",
+   "source": "opensec.in",
+   "published": "2026-11-25T20:35:50+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 153 امتیاز، 63 کامنت",
+   "signal_value": 153,
+   "discussion_url": "https://news.ycombinator.com/item?id=50647161",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 5,
+   "category": "safety_ethics",
+   "story_key": "linux-nfs2root-vulnerability",
+   "topic_key": "linux-security-flaws",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "کشف آسیب‌پذیری ۱۲ ساله در کرنل لینوکس؛ دسترسی روت بدون نیاز به احراز هویت!",
+   "one_liner_fa": "محققان امنیتی یک آسیب‌پذیری ۱۲ ساله در سرور NFS کرنل لینوکس کشف کردند که به مهاجم اجازه می‌دهد از راه دور و بدون لاگین دسترسی روت بگیرد.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "0e01e5db69"
+  }
+ ],
+ "scored": [
+  {
+   "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+   "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+   "source": "Hugging Face Blog",
+   "published": "2026-11-26T05:05:36+00:00",
+   "origin": "Hugging Face Blog",
+   "summary": "",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 5,
+   "category": "open_source",
+   "story_key": "nemotron-3-5-parse-fine-tuning",
+   "topic_key": "nemotron-models",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "d3aa48daa6"
+  },
+  {
+   "title": "X is adding its first-ever parental controls",
+   "url": "https://www.engadget.com/2329049/x-is-adding-its-first-ever-parental-controls/",
+   "source": "Engadget",
+   "published": "2026-11-26T09:26:24+00:00",
+   "origin": "Engadget",
+   "summary": "X (and Twitter before it) have never really had real parental controls. Until now.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/x-is-adding-its-first-ever-parental-controls/l-intro-1795684809.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/x-is-adding-its-first-ever-parental-controls/intro-1795684809.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 6,
+   "category": "big_tech",
+   "story_key": "x-adds-parental-controls",
+   "topic_key": "x-platform-changes",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "پلتفرم ایکس بالاخره قابلیت کنترل والدین را اضافه کرد",
+   "one_liner_fa": "",
+   "deep": {
+    "id": "864485ffc4",
+    "title_fa": "پلتفرم ایکس بالاخره قابلیت کنترل والدین را اضافه کرد",
+    "summary_fa": "شبکه اجتماعی ایکس (X) متعلق به ایلان ماسک برای اولین بار ابزارهای کنترل والدین را برای نوجوانان ۱۳ تا ۱۷ سال عرضه کرد. با این قابلیت، حساب‌های نوجوانان به صورت پیش‌فرض خصوصی شده و رسانه‌های حساس و تبلیغات هدفمند برای آن‌ها مسدود می‌شود. والدین از طریق اتصال دوطرفه به حساب فرزند خود می‌توانند محدودیت زمانی روزانه تعیین کرده، فالوورهای جدید را تایید کنند و ارتباطات دایرکت را محدود سازند. البته ایکس تاکید کرده که والدین به محتوای چت‌های خصوصی، سابقه سرچ و تاریخچه تماشای نوجوان دسترسی نخواهند داشت.",
+    "key_points_fa": [
+     "ارائه اولین سیستم کنترل والدین در تاریخ پلتفرم برای رده سنی ۱۳ تا ۱۷ سال",
+     "فعال شدن خودکار حالت امن: خصوصی شدن اکانت، فیلتر محتوای حساس و حذف تبلیغات هدفمند",
+     "امکان اتصال هر والد تا سقف ۵ حساب کاربری نوجوان با تایید دوطرفه",
+     "امکان تعیین سقف زمانی روزانه و مدیریت مخاطبان مجاز برای ارسال پیام دایرکت",
+     "عدم امکان خواندن متن پیام‌های خصوصی، تاریخچه جستجو یا ارسال پست توسط والدین"
+    ],
+    "why_it_matters_fa": "ایکس همواره با چالش‌های بزرگ امنیتی و محتوایی روبرو بوده؛ این تغییر نه‌تنها پاسخی به فشارهای قانونی دولت‌هاست، بلکه ابزاری ضروری برای خانواده‌ها در جهت محافظت از نوجوانان است.",
+    "content_ideas": [
+     {
+      "format": "پست",
+      "title_fa": "ویژگی جدید ایکس برای محافظت از نوجوانان؛ کنترل والدین فعال شد",
+      "hook_fa": "اگر نوجوان دارید یا نگران محتوای ایکس هستید، این قابلیت را حتما فعال کنید!",
+      "angle_fa": "آموزش کاربردی و راهنمای گام‌به‌گام برای فعال‌سازی ویژگی جدید با نگاهی به حریم خصوصی.",
+      "outline_fa": [
+       "توضیح دلایل اضافه شدن کنترل والدین به ایکس بعد از سال‌ها حاشیه",
+       "امکاناتی که به والدین داده می‌شود (زمان‌بندی، تایید فالوور، فیلتر کلمات)",
+       "مرزهای حریم خصوصی: کارهایی که والدین نمی‌توانند انجام دهند (خواندن دایرکت)",
+       "نحوه راه‌اندازی اتصال اکانت والد و نوجوان"
+      ],
+      "visual_tip_fa": "استفاده از اسکرین‌شات‌های تنظیمات جدید اپلیکیشن ایکس و اینفوگرافیک دسترسی‌های مجاز و غیرمجاز."
+     },
+     {
+      "format": "استوری",
+      "title_fa": "قابلیت جدید توییتر سابق برای والدین",
+      "hook_fa": "ایکس بالاخره بعد از سال‌ها حاشیه، قابلیت نظارت والدین رو اضافه کرد!",
+      "angle_fa": "خلاصه سریع و پرسش تعاملی با مخاطبان درباره اثربخشی این قابلیت.",
+      "outline_fa": [
+       "اسلاید ۱: معرفی قابلیت parental controls در ایکس",
+       "اسلاید ۲: مهم‌ترین محدودیت‌ها (مسدودسازی تبلیغات هدفمند و محتوای حساس)",
+       "اسلاید ۳: نظرسنجی: آیا فکر می‌کنید این ابزارها جلوی آسیب‌های فضای مجازی را می‌گیرند؟"
+      ],
+      "visual_tip_fa": "تصویر آیکون قفل و لوگوی ایکس با کادربندی شیک و تم مشکی."
+     }
+    ],
+    "hashtags": [
+     "#توییتر",
+     "#ایکس",
+     "#ایلان_ماسک",
+     "#امنیت_کودکان",
+     "#فضای_مجازی",
+     "#TwitterX"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "864485ffc4"
+  },
+  {
+   "title": "Neuralink receives FDA approval for 'pivotal' brain implant trial in ALS patients",
+   "url": "https://www.engadget.com/2329008/neuralink-receives-fda-approval-for-brain-implant-trial-in-als-patients/",
+   "source": "Engadget",
+   "published": "2026-11-26T07:28:21+00:00",
+   "origin": "Engadget",
+   "summary": "Elon Musk's Neuralink has received FDA permission to launch the first trial for its brain-computer interface.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/neuralink-receives-fda-approval-for-pivotal-brain-implant-trial-in-als-patients/l-intro-1795677911.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "embed",
+     "url": "https://x.com/neuralink/status/2125694580544680185?ref_src=twsrc%5Etfw",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/neuralink-receives-fda-approval-for-pivotal-brain-implant-trial-in-als-patients/intro-1795677911.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 8,
+   "worthiness": 8,
+   "category": "other_tech",
+   "story_key": "neuralink-fda-als-pivotal-trial",
+   "topic_key": "neuralink-brain-interface",
+   "already_reported": false,
+   "viral": 8,
+   "title_fa": "چراغ سبز FDA به نورالینک: آغاز کارآزمایی کلیدی برای بیماران ALS",
+   "one_liner_fa": "سازمان غذا و داروی آمریکا (FDA) مجوز آزمایش بالینی محوری رابط مغز و رایانه نورالینکِ ایلان ماسک را برای بیماران مبتلا به ALS صادر کرد.",
+   "deep": {
+    "id": "b79649f86f",
+    "title_fa": "چراغ سبز FDA به نورالینک: آغاز کارآزمایی کلیدی برای بیماران ALS",
+    "summary_fa": "شرکت نورالینک (Neuralink) متعلق به ایلان ماسک مجوز سازمان غذا و داروی آمریکا (FDA) را برای آغاز نخستین آزمایش بالینی اساسی (Pivotal Trial) رابط مغز و رایانه LINK دریافت کرد. این آزمایش پیشرفته برای گروه محدودی از بیماران مبتلا به ای‌ال‌اس (ALS) طراحی شده که دچار تحلیل سلول‌های عصبی و فلج حرکتی هستند. ایمپلنت N1 با استفاده از ربات جراحی R1 در جمجمه قرار می‌گیرد و سیگنال‌های حرکتی مغز را به دستورهای کامپیوتری تبدیل می‌کند تا بیماران بدون نیاز به کیبورد دستگاه‌ها را کنترل کنند. پیش از این بیش از ۳۰ شرکت‌کننده با نورالینک همکاری داشته‌اند و این فاز، مقدمه تجاری‌سازی نهایی دستگاه خواهد بود.",
+    "key_points_fa": [
+     "دریافت تاییدیه رسمی FDA برای اولین کارآزمایی کلیدی (Pivotal Trial) رابط مغز و رایانه در آمریکا",
+     "تمرکز مطالعه روی بیماران مبتلا به ای‌ال‌اس (ALS) جهت بازیابی استقلال و کنترل دستگاه‌های دیجیتال با افکار",
+     "سابقه موفقیت قبلی با اولین بیمار ALS به نام بردفورد اسمیت (Bradford Smith) برای برقراری ارتباط با سیگنال مغزی",
+     "استفاده از سیستم پیشرفته شامل ایمپلنت N1 و ربات جراح R1 برای کاشت الکترودهای منعطف در مغز",
+     "برگزاری مطالعه با تکیه بر تجربه کار با بیش از ۳۰ شرکت‌کننده تا این مرحله"
+    ],
+    "why_it_matters_fa": "این تاییدیه گامی سرنوشت‌ساز برای خروج فناوری رابط مغز و رایانه از فاز آزمایشی اولیه و نزدیک شدن آن به یک محصول پزشکی رسمی برای بازگرداندن استقلال به افراد دارای معلولیت شدید است.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "کنترل کامپیوتر فقط با فکر کردن! تاییدیه تاریخی نورالینک",
+      "hook_fa": "باور می‌کنی بتونی بدون دست زدن به موس و کیبورد، فقط با فکرت تایپ کنی؟",
+      "angle_fa": "روایت امیدبخش از تحول زندگی بیماران فلج و بیماران ALS توسط تراشه مغزی ایلان ماسک و عبور از سد رگولاتوری آمریکا.",
+      "outline_fa": [
+       "نمایش تیتر تاییدیه FDA و توضیح کوتاه درباره وضعیت بیماران ALS",
+       "نحوه کار ربات جراح R1 و قرارگیری تراشه N1 در مغز",
+       "تجربه واقعی بیمار قبلی (بردفورد اسمیت) و کنترل وسایل دیجیتال",
+       "پیام نهایی درباره آینده ارتباط انسان و هوش مصنوعی و دعوت به نظردهی"
+      ],
+      "visual_tip_fa": "استفاده از ویدیوی ضمیمه‌شده توییت نورالینک، تصویر تراشه و تصاویر سه‌بعدی شبیه‌سازی جراحی رباتیک R1."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "تراشه نورالینک چگونه کار می‌کند و تاییدیه جدید یعنی چه؟",
+      "hook_fa": "نورالینک بالاخره مجوز بزرگ‌ترین آزمایش انسانی‌اش را گرفت؛ ماجرا چیه؟",
+      "angle_fa": "بررسی فنی و ساده روند جراحی، ایمپلنت N1، آزمایش بالینی و استانداردهای FDA.",
+      "outline_fa": [
+       "اسلاید ۱: اعلام خبر رسمی مجوز FDA برای آزمایش محوری LINK",
+       "اسلاید ۲: این دستگاه دقیقا چطور کار می‌کند؟ (ایمپلنت N1 و ربات R1)",
+       "اسلاید ۳: چرا بیماران ALS اولین گروه هدف هستند؟",
+       "اسلاید ۴: آزمایش قبلی روی بردفورد اسمیت چطور پیش رفت؟",
+       "اسلاید ۵: مرحله بعد چیست و چه زمانی به بازار عمومی می‌رسد؟"
+      ],
+      "visual_tip_fa": "اسلایدهای با اینفوگرافیک مینیمال تیره از ساختار مغز، الکترودها و نقل‌قول بردفورد اسمیت."
+     }
+    ],
+    "hashtags": [
+     "#نورالینک",
+     "#ایلان_ماسک",
+     "#فناوری_پزشکی",
+     "#هوش_مصنوعی",
+     "#Neuralink",
+     "#BrainComputerInterface"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "b79649f86f"
+  },
+  {
+   "title": "New York state bans AI chatbot toys for kids",
+   "url": "https://www.engadget.com/2328996/new-york-state-bans-ai-chatbot-toys-for-kids/",
+   "source": "Engadget",
+   "published": "2026-11-26T06:02:48+00:00",
+   "origin": "Engadget",
+   "summary": "New York governor Kathy Hochul has signed into law a five-year ban on the sale of AI chatbot toys.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/new-york-state-bans-ai-chatbot-toys-for-kids/l-intro-1795672791.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 6,
+   "category": "policy_regulation",
+   "story_key": "ny-bans-ai-toys",
+   "topic_key": "ai-child-safety-regulation",
+   "already_reported": true,
+   "viral": 5,
+   "title_fa": "ممنوعیت ۵ ساله فروش اسباب‌بازی‌های هوش مصنوعی در نیویورک نهایی شد",
+   "one_liner_fa": "فرماندار نیویورک لایحه ممنوعیت پنج‌ساله فروش اسباب‌بازی‌های مجهز به چت‌بات‌های هوش مصنوعی برای کودکان را رسماً امضا کرد.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "715d5c185e"
+  },
+  {
+   "title": "sqlite3_rsync: Database Remote-Copy Tool For SQLite",
+   "url": "https://simonwillison.net/2026/Nov/26/sqlite3-rsync/",
+   "source": "Simon Willison",
+   "published": "2026-11-26T06:08:25+00:00",
+   "origin": "Simon Willison",
+   "summary": "sqlite3_rsync: Database Remote-Copy Tool For SQLite This additional SQLite tool has been around for a while now - it was added as \"experimental\" in SQLite 3.47.0 in October 2024 and enhanced in SQLite 3.50.0 in May 2025 . It was only today that I understood one of its most attractive characteristics. Normally, if you want to grab a snapshot copy of a SQLite database, you need to use either the backup API or VACUUM INTO . In both cases you need enough disk space to create a duplicate copy of your database, so if you're on a small instance and you already use more than half of the available disk",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 4,
+   "category": "other_tech",
+   "story_key": "sqlite3-rsync-tool",
+   "topic_key": "sqlite-tooling",
+   "already_reported": false,
+   "viral": 3,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "7fcbebbe66"
+  },
+  {
+   "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+   "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
+   "source": "twitter.com",
+   "published": "2026-11-26T03:36:58+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 267 امتیاز، 144 کامنت",
+   "signal_value": 267,
+   "discussion_url": "https://news.ycombinator.com/item?id=50651117",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 8,
+   "category": "product_launch",
+   "story_key": "openai-gpt-6-usage-limits-cut",
+   "topic_key": "gpt-6-rollout",
+   "already_reported": false,
+   "viral": 7,
+   "title_fa": "کاهش محدودیت استفاده از GPT-6.2 توسط اوپن‌ای‌آی",
+   "one_liner_fa": "اوپن‌ای‌آی سقف استفاده از مدل‌های GPT-6.2 را تا ۴۰ درصد کاهش داد؛ تغییری که باعث اتمام بسیار سریع‌تر سهمیه کاربران حرفه‌ای شده است.",
+   "deep": {
+    "id": "244a3e8cb4",
+    "title_fa": "کاهش محدودیت استفاده از GPT-6.2 توسط اوپن‌ای‌آی",
+    "summary_fa": "طبق گزارش‌های منتشر شده در شبکه اجتماعی ایکس و هکر نیوز، شرکت اوپن‌ای‌آی (OpenAI) محدودیت مصرف مدل‌های هوش مصنوعی سری GPT-6.2 را اعمال کرده است. بر اساس این آمار، دسترسی کاربران به مدل استرا (Astra) حدود ۴۰ درصد سریع‌تر و مدل سول (Sol) حدود ۲۵ درصد سریع‌تر به سقف مجاز (Usage Limits) می‌رسد. این اقدام نشان‌دهنده تغییر سیاست‌ها یا افزایش فشار ترافیکی بر زیرساخت‌های پردازشی این مدل‌ها است.",
+    "key_points_fa": [
+     "اعمال محدودیت‌های جدید روی مدل‌های سری GPT-6.2 اوپن‌ای‌آی",
+     "رسیدن ۴۰ درصد سریع‌تر به سقف مصرف در مدل Astra",
+     "رسیدن ۲۵ درصد سریع‌تر به سقف مصرف در مدل Sol",
+     "انعکاس گسترده خبر در هکر نیوز با صدها امتیاز و کامنت از سمت کاربران"
+    ],
+    "why_it_matters_fa": "برای توسعه‌دهندگان و کاربرانی که کار روزمره‌شان به مدل‌های جدید اوپن‌ای‌آی وابسته است، این محدودیت روی هزینه‌ها و مدیریت پرامپت‌ها مستقیما اثرگذار خواهد بود.",
+    "content_ideas": [
+     {
+      "format": "استوری",
+      "title_fa": "کاهش سهمیه مدل‌های جدید اوپن‌ای‌آی!",
+      "hook_fa": "اگه از اکانت‌های هوش مصنوعی استفاده می‌کنی، حواست به این خبر مهم باشه!",
+      "angle_fa": "اطلاع‌رسانی سریع در مورد محدودیت مصرف مدل‌های جدید و مدیریت مصرف توکن‌ها.",
+      "outline_fa": [
+       "اسلاید ۱: اعلام کاهش محدودیت‌های Astra و Sol",
+       "اسلاید ۲: اعداد دقیق محدودیت (۴۰٪ برای آسترا، ۲۵٪ برای سول)",
+       "اسلاید ۳: نظرسنجی از مخاطبان: آیا متوجه افت کیفیت یا سهمیه شدی؟"
+      ],
+      "visual_tip_fa": "اسکرین‌شات از توییت منبع به همراه لوگوی اوپن‌ای‌آی و نمودار درصد کاهش سهمیه."
+     },
+     {
+      "format": "پست",
+      "title_fa": "چرا اوپن‌ای‌آی دسترسی‌ها را محدودتر می‌کند؟",
+      "hook_fa": "اوپن‌ای‌آی دوباره ترمز مصرف کاربران را کشید!",
+      "angle_fa": "تحلیل دلایل احتمالی سهمیه‌بندی منابع پردازشی سرورها و چالش مصرف انرژی هوش مصنوعی.",
+      "outline_fa": [
+       "شرح خبر کاهش سهمیه GPT-6.2 Astra و Sol",
+       "دلایل فنی پشت کاهش لیمیت‌ها (کمبود تراشه و هزینه‌های سرسام‌آور پردازش)",
+       "راهکارهای جایگزین برای توسعه‌دهندگان و پرامپت‌نویس‌ها"
+      ],
+      "visual_tip_fa": "طراحی تصویر گرافیکی از ربات اوپن‌ای‌آی پشت علامت محدودیت یا گیج بنزین خالی."
+     }
+    ],
+    "hashtags": [
+     "#اوپن_ای_ای",
+     "#هوش_مصنوعی",
+     "#چت_جی_پی_تی",
+     "#OpenAI",
+     "#GPT6"
+    ],
+    "caution_fa": "این گزارش بر اساس پست کاربران و بازتاب آن در هکر نیوز است و هنوز بیانیه مطبوعاتی رسمی مستقلی از سوی اوپن‌ای‌آی منتشر نشده است."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "244a3e8cb4"
+  },
+  {
+   "title": "The polynomial Hirsch conjecture is false [pdf]",
+   "url": "https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf",
+   "source": "github.com",
+   "published": "2026-11-25T17:34:34+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 159 امتیاز، 44 کامنت",
+   "signal_value": 159,
+   "discussion_url": "https://news.ycombinator.com/item?id=50644980",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 4,
+   "category": "research",
+   "story_key": "polynomial-hirsch-conjecture-disproved",
+   "topic_key": "math-theoretical-cs-breakthroughs",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "رد حدس چندجمله‌ای هیرش؛ زلزله جدید در دنیای ریاضیات و بهینه‌سازی",
+   "one_liner_fa": "پژوهشگران با ارائه مثال نقض، حدس مشهور چندجمله‌ای هیرش در زمینه هندسه محاسباتی و برنامه‌ریزی خطی را پس از دهه‌ها رد کردند.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "3e11caea3c"
+  },
+  {
+   "title": "Bare Metal Qwen",
+   "url": "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os",
+   "source": "github.com",
+   "published": "2026-11-25T22:15:34+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 159 امتیاز، 39 کامنت",
+   "signal_value": 159,
+   "discussion_url": "https://news.ycombinator.com/item?id=50648365",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://opengraph.githubassets.com/ac1e23ba7d5d9a8fa1049fee376e1b7d804c494de6eadd4733fc5b23eee9df9f/alesha-pro/llm.asm",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://github.com/alesha-pro/llm.asm/raw/main/assets/baremetal-vga.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://github.com/alesha-pro/llm.asm/raw/main/assets/proxmox-vm250-vga.png",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 6,
+   "category": "open_source",
+   "story_key": "bare-metal-qwen",
+   "topic_key": "local-llm-deployment",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "شاهکار مهندسی: اجرای مدل هوش مصنوعی فقط با کد اسمبلی و بدون سیستم‌عامل!",
+   "one_liner_fa": "",
+   "deep": {
+    "id": "a1356d98ce",
+    "title_fa": "شاهکار مهندسی: اجرای مدل هوش مصنوعی فقط با کد اسمبلی و بدون سیستم‌عامل!",
+    "summary_fa": "یک توسعه‌دهنده در پروژه‌ای متن‌باز موفق شده مدل زبانی Qwen3-0.6B را بدون نیاز به لینوکس، زبان C یا هیچ کتابخانه وابسته‌ای، مستقیما روی سخت‌افزار (Bare Metal) اجرا کند. این پروژه کاملا با زبان اسمبلی خالص x86-64 NASM نوشته شده و حجم کل استنتاج آن تنها ۱۲ کیلوبایت است. همراه این پکیج، یک سیستم‌عامل بوت‌شونده ۲۲ کیلوبایتی و یک ماژول آموزش Mini-GPT به حجم ۳۲ کیلوبایت با رابط متنی زنده به خط بریل (Braille TUI) قرار دارد. این پروژه به شدت مورد تحسین جامعه برنامه‌نویسان قرار گرفته است.",
+    "key_points_fa": [
+     "اجرای مستقیم مدل Qwen3-0.6B روی سخت‌افزار بدون واسطه سیستم‌عامل",
+     "حجم کل موتور استنتاج مدل تنها ۱۲ کیلوبایت است",
+     "توسعه یک سیستم‌عامل سبک قابل بوت فقط با حجم ۲۲ کیلوبایت",
+     "شامل یک ماژول آموزش از صفر مدل Mini-GPT با حجم ۳۲ کیلوبایت",
+     "نوشته شده به صورت ۱۰۰ درصد خالص با زبان اسمبلی x86-64 NASM بدون حتی یک خط زبان C یا libc"
+    ],
+    "why_it_matters_fa": "این پروژه نشان می‌دهد که هوش مصنوعی نیازی به صدها گیگابایت لایه‌های نرم‌افزاری سنگین ندارد و با بازگشت به ریشه‌های بهینه‌سازی می‌توان مصرف حافظه و پردازش را به حداقل رساند.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "هوش مصنوعی بدون سیستم‌عامل! جنون بهینه‌سازی با اسمبلی",
+      "hook_fa": "باور می‌کنی یک مدل زبانی کامل با حجمی کمتر از یک فایل آیکون اجرا بشه؟!",
+      "angle_fa": "روایت گیکی و شگفت‌انگیز برای برنامه‌نویسان و علاقه‌مندان سخت‌افزار درباره شاهکار کدنویسی سطح پایین.",
+      "outline_fa": [
+       "طرح سوال: برای اجرای LLM به پایتون و لینوکس نیاز داریم؟ نه لزوما!",
+       "معرفی پروژه llm.asm و اعداد عجیب آن (۱۲ کیلوبایت کد اسمبلی)",
+       "نحوه بالا آمدن سیستم‌عامل ۲۲ کیلوبایتی مستقل بدون ویندوز یا لینوکس",
+       "نتیجه‌گیری درباره اهمیت بهینه‌سازی کد در عصر پردازش سنگین"
+      ],
+      "visual_tip_fa": "نمایش محیط ترمینال و رابط متنی TUI، سورس‌کدهای اسمبلی در گیت‌هاب و مقایسه بصری حجم‌ها."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "هوش مصنوعی به زبان اسمبلی: چطور یک مدل را روی Bare-Metal اجرا کردند؟",
+      "hook_fa": "صفر خط پایتون، صفر خط C؛ بازگشت به اصالت کدنویسی!",
+      "angle_fa": "آموزش مفهومی معماری پروژه برای جامعه فنی پیج.",
+      "outline_fa": [
+       "اسلاید ۱: معرفی پروژه عجیب Bare Metal Qwen",
+       "اسلاید ۲: مفهوم Bare Metal یعنی چی و چرا سیستم‌عامل حذف شد؟",
+       "اسلاید ۳: جزییات سه ماژول پروژه (استنتاج، بوت‌لودر، ترینر)",
+       "اسلاید ۴: چرا زبان اسمبلی x86-64؟ مزایا و دیوانگی ماجرا",
+       "اسلاید ۵: لینک گیت‌هاب و نحوه مشاهده پروژه"
+      ],
+      "visual_tip_fa": "اسکرین‌شات از صفحه گیت‌هاب پروژه، کدهای اسمبلی و نمودار معماری اجرا روی سخت‌افزار."
+     }
+    ],
+    "hashtags": [
+     "#برنامه_نویسی",
+     "#اسمبلی",
+     "#هوش_مصنوعی",
+     "#کدنویسی",
+     "#تکنولوژی",
+     "#Assembly",
+     "#OpenSource"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "a1356d98ce"
+  },
+  {
+   "title": "Nfs2root: A 12-year-old pre-auth remote root in the Linux kernel's NFS server",
+   "url": "https://opensec.in/blog/nfs2root-cve-2026-99362",
+   "source": "opensec.in",
+   "published": "2026-11-25T20:35:50+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 153 امتیاز، 63 کامنت",
+   "signal_value": 153,
+   "discussion_url": "https://news.ycombinator.com/item?id=50647161",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 5,
+   "category": "safety_ethics",
+   "story_key": "linux-nfs2root-vulnerability",
+   "topic_key": "linux-security-flaws",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "کشف آسیب‌پذیری ۱۲ ساله در کرنل لینوکس؛ دسترسی روت بدون نیاز به احراز هویت!",
+   "one_liner_fa": "محققان امنیتی یک آسیب‌پذیری ۱۲ ساله در سرور NFS کرنل لینوکس کشف کردند که به مهاجم اجازه می‌دهد از راه دور و بدون لاگین دسترسی روت بگیرد.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "0e01e5db69"
+  },
+  {
+   "title": "Real2SimLab: A Unified Platform for Real-to-Simulation Transfer",
+   "url": "https://huggingface.co/papers/2611.34849",
+   "source": "Hugging Face Papers",
+   "published": "2026-11-24T19:00:00+00:00",
+   "origin": "Hugging Face Papers",
+   "summary": "Real-to-simulation transfer, which builds simulations from real-world observations, has long been studied in research and industry. Recently, coding agents have become capable of generating simulation programs from video recordings, and several benchmarks have been proposed to evaluate them. However, each individual benchmark defines its own inputs, deliverables, and scoring pipeline. This leads to N times M integrations when evaluating N methods on M benchmarks. To this end, we present Real2SimLab, a unified platform for real-to-simulation transfer. It evaluates a method by running its written program and scoring the output simulation with the original scorer of each benchmark. Moreover, Real2SimLab provides a pipeline to create training data and reward annotations for real-to-simulation methods. Our pipeline carefully avoids data contamination by filtering out the video recordings that",
+   "lang": "en",
+   "signal": "Hugging Face: 83 رأی",
+   "signal_value": 83,
+   "discussion_url": "https://github.com/Real2SimHub/Real2SimLab",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34849.png",
+     "origin": "hf"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 5,
+   "category": "research",
+   "story_key": "real2simlab-transfer",
+   "topic_key": "embodied-ai-simulations",
+   "already_reported": false,
+   "viral": 3,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "de55fe5261"
+  },
+  {
+   "title": "Sage-Med: Scaling Medical Multimodal Intelligence",
+   "url": "https://huggingface.co/papers/2611.34575",
+   "source": "Hugging Face Papers",
+   "published": "2026-11-24T19:00:00+00:00",
+   "origin": "Hugging Face Papers",
+   "summary": "Establishing effective scaling laws for medical multimodal large language models (MLLMs) remains a persistent and fundamental challenge. Our systematic evaluation shows that existing medical MLLMs tend to underperform frontier general-purpose MLLMs across a range of medical tasks, while scaling model size primarily improves text capabilities rather than multimodal perception, and enabling reasoning modes fails to close this visual gap. To investigate how medical multimodal intelligence scales in practice, we introduce Sage-Med-Preview, a 35B-parameter medical multimodal model with 3B activated parameters, built by combining stage-specific curation over 322.7 million candidate records with a progressive training curriculum spanning medical pretraining, staged supervised fine-tuning, and adaptive reinforcement learning. Across this curriculum, progressive supervised refinement and adaptive",
+   "lang": "en",
+   "signal": "Hugging Face: 56 رأی",
+   "signal_value": 56,
+   "discussion_url": "https://github.com/Sage-Med/Sage-Med-Preview",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34575.png",
+     "origin": "hf"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 4,
+   "category": "research",
+   "story_key": "sage-med-medical-mllms",
+   "topic_key": "medical-ai",
+   "already_reported": false,
+   "viral": 3,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "6717576b97"
+  },
+  {
+   "title": "VibeVideoAgent: Closing the Perceptual Loop for Code-Driven Video Generation",
+   "url": "https://huggingface.co/papers/2611.34237",
+   "source": "Hugging Face Papers",
+   "published": "2026-11-24T19:00:00+00:00",
+   "origin": "Hugging Face Papers",
+   "summary": "Code-driven video generation asks a coding agent to write and run rendering programs. This gives exact control over typography, data visualizations, synchronized audio, and multi-shot scenes, and it leaves an editable project behind. A program that exits cleanly can still render overlapping labels, a camera aimed away from its subject, broken object interactions, or narration that drifts out of sync, and none of these raise a runtime error. Feeding rendered frames and audio back into the coding session bloats its long-horizon context, while critiquing only the finished full-resolution render turns early design mistakes into costly rewrites. We introduce VibeVideoAgent, a training-free framework that lets coding agents inspect their drafts throughout production. Multimodal perception runs in short-lived contexts kept apart from the coder and returns compact, grounded Findings. Seven primi",
+   "lang": "en",
+   "signal": "Hugging Face: 50 رأی",
+   "signal_value": 50,
+   "discussion_url": "https://github.com/Kling-Keye/VibeVideoAgent",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34237/gradient.png",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34237.png",
+     "origin": "hf"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 6,
+   "category": "research",
+   "story_key": "vibevideoagent-code-driven-video",
+   "topic_key": "ai-video-generation",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "معرفی VibeVideoAgent: نسل جدید تولید ویدیو با کدنویسی و بازخورد بینایی هوش مصنوعی",
+   "one_liner_fa": "",
+   "deep": {
+    "id": "e44c65cf42",
+    "title_fa": "معرفی VibeVideoAgent: نسل جدید تولید ویدیو با کدنویسی و بازخورد بینایی هوش مصنوعی",
+    "summary_fa": "محققان فریم‌ورک متن‌باز جدیدی به نام VibeVideoAgent معرفی کرده‌اند که فرآیند ساخت ویدیو بر پایه کدنویسی (Code-Driven Video Generation) را متحول می‌کند. در روش‌های فعلی، نوشتن کد رندرینگ ممکن است بدون خطا اجرا شود اما خروجی نهایی دچار ناهماهنگی صدا و تصویر، جابجایی سوژه یا تداخل متن باشد. این فریم‌ورک بدون نیاز به بازآموزی مدل (Training-Free)، امکانی فراهم می‌کند تا ایجنت هوش مصنوعی پیش‌نویس‌های ویدیو را در حین کار بازبینی و با ادراک چندوجهی عیب‌یابی کند. نتایج آزمایش روی بنچمارک VibeVideoBench نشان داده کیفیت صدا و تصویر در مدل‌هایی مثل Claude Opus 5.5 و GPT-6 Astra رشد چشمگیری یافته است.",
+    "key_points_fa": [
+     "معرفی فریم‌ورک بدون نیاز به آموزش (Training-Free) برای ساخت ویدیو با کد",
+     "حل مشکل ناهماهنگی متن، صدا و کادر تصویر با سیستم بازخورد چندوجهی چندمرحله‌ای",
+     "بهبود کیفیت صوتی و تصویری (L3) در مدل کلود اپوس ۵.۵ (Claude Opus 5.5) از ۴.۰۳ به ۴.۴۳",
+     "افزایش هماهنگی صوت و تصویر تا حداکثر ۰.۵۶+ نمره در ارزیابی‌ها",
+     "انتشار رسمی کد منبع و پروژه در گیت‌هاب توسط تیم Kling-Keye"
+    ],
+    "why_it_matters_fa": "تولید ویدیو از طریق کدنویسی به کاربر کنترل دقیق روی تایپوگرافی، همگام‌سازی صدا و انیمیشن می‌دهد و این ایجنت جدید، خطاهای رایج رندر را به شکل خودکار رفع می‌کند.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "ساخت ویدیو با هوش مصنوعی و کدنویسی متحول شد!",
+      "hook_fa": "دیگه لازم نیست برای هماهنگ کردن صدا و تصویر توی هوش مصنوعی ساعت‌ها کلنجار بری!",
+      "angle_fa": "معرفی یک راهکار انقلابی در ادیت ویدیو با کمک ایجنت‌های کدنویس هوشمند.",
+      "outline_fa": [
+       "نمایش مشکل رایج ابزارهای ویدیو (به‌هم‌ریختگی متن و ناهماهنگی لب‌زدن یا صدا)",
+       "معرفی ابزار VibeVideoAgent و ایده هوشمندانه ادراک ویدیو حین نوشتن کد",
+       "نمایش نمونه‌های خروجی و ارتقای چشمگیر کیفیت در مقایسه با روش‌های سنتی",
+       "دعوت به بررسی مخزن گیت‌هاب پروژه"
+      ],
+      "visual_tip_fa": "استفاده از تصاویر مقاله و بنچمارک، مقایسه خروجی رندر شده معیوب و نسخه تصحیح‌شده توسط ایجنت."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "بررسی VibeVideoAgent: وقتی هوش مصنوعی ویدیوی خودش را تصحیح می‌کند",
+      "hook_fa": "چرا آینده تولید محتوای ویدیویی در دست Code-to-Video است؟",
+      "angle_fa": "آموزش عمیق نحوه کار بازخورد تصویری بدون نیاز به ترین مجدد مدل.",
+      "outline_fa": [
+       "اسلاید ۱: تولید ویدیو با کد چیه و چرا از پرامپت متنی دقیق‌تره؟",
+       "اسلاید ۲: باگ بزرگ ایجنت‌های کدنویس (کد بدون خطا اجرا می‌شه ولی ویدیو خرابه!)",
+       "اسلاید ۳: مکانیزم حلقه ادراکی VibeVideoAgent چطور کار می‌کنه؟",
+       "اسلاید ۴: تست روی مدل‌های Claude Opus 5.5 و GPT-6 Astra",
+       "اسلاید ۵: چطور می‌توانیم از این پروژه گیت‌هاب استفاده کنیم؟"
+      ],
+      "visual_tip_fa": "دیاگرام‌های معماری چندمرحله‌ای موجود در مقاله و اسلایدهای قبل/بعد ویدیوها."
+     }
+    ],
+    "hashtags": [
+     "#هوش_مصنوعی",
+     "#ساخت_ویدیو",
+     "#تولید_محتوا",
+     "#برنامه_نویسی",
+     "#VibeVideoAgent",
+     "#AIvideo"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "e44c65cf42"
+  },
+  {
+   "title": "Mixture-of-Loops Transformer",
+   "url": "https://huggingface.co/papers/2611.34923",
+   "source": "Hugging Face Papers",
+   "published": "2026-11-24T19:00:00+00:00",
+   "origin": "Hugging Face Papers",
+   "summary": "Looped Transformers boost expressivity by reusing shared layers across loops, yet at the cost of efficiency. Pushing their expressivity-efficiency frontier requires rethinking the core mechanism connecting adjacent loops: What should be passed as a Transformer loops? We introduce Mixture-of-Loops Transformer (MoLT), whose Mixture-of-Loops Attention (MoLA) uses keys and values (KV) as memory for selective reuse across depths and loops. Under loop residual, MoLT-R retains the residual stream and reads local KV across loops for expressivity. Under loop KV, MoLT-KV instead restarts from embeddings and reads current-loop local KV with preceding-loop memory KV at earlier positions for efficiency. MoLT-KV eliminates same-position cross-loop dependence and, paired with loop forcing for parallel training, unlocks single-traversal Mixture-of-Loops (MoL) decoding beyond the training loop horizon. T",
+   "lang": "en",
+   "signal": "Hugging Face: 49 رأی",
+   "signal_value": 49,
+   "discussion_url": "https://github.com/hustvl/MoLT",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34923.png",
+     "origin": "hf"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 5,
+   "category": "research",
+   "story_key": "mixture-of-loops-transformer",
+   "topic_key": "loop-transformer-architecture",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "7fc61acd4d"
+  },
+  {
+   "title": "Improving and Expanding Video Editing Capabilities Without Videos",
+   "url": "https://huggingface.co/papers/2611.34941",
+   "source": "Hugging Face Papers",
+   "published": "2026-11-24T19:00:00+00:00",
+   "origin": "Hugging Face Papers",
+   "summary": "Image editing models can follow a wide range of instructions, but video editing models still lag behind, limited in part by the difficulty of collecting paired source and edited videos. Is it possible to transfer advanced image editing capabilities to video editors without new paired videos? We introduce Image-to-Video Transfer (I2VT), which improves pretrained video editors and expands them to new editing tasks using an image editor. It enables efficient post-training with no architectural changes and no new videos, using only individual images. Our key idea is to let the video editor role-play as an image editor: it edits an image as a one-frame video, with the image editor guiding the video editor's predictions at each denoising step. Although the video editor sees only single images during training, at test time it applies the improved and expanded capabilities to whole video clips w",
+   "lang": "en",
+   "signal": "Hugging Face: 35 رأی",
+   "signal_value": 35,
+   "discussion_url": "https://github.com/HorizonWind2004/i2v-transfer",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34941.png",
+     "origin": "hf"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 5,
+   "category": "research",
+   "story_key": "video-editing-without-videos",
+   "topic_key": "ai-video-generation",
+   "already_reported": false,
+   "viral": 3,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "79b8f27116"
+  }
+ ],
+ "failed_sources": [],
+ "models": [
+  "gemini-3.8-flash",
+  "gemini-3.8-flash"
+ ]
+}
