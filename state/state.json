@@ -793,7 +793,20 @@
   "https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan": "2026-11-27",
   "https://techstackups.com/articles/google-workspace-ai-agents-mcp": "2026-11-27",
   "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud": "2026-11-27",
-  "https://github.com/gary23w/f-ck_data_brokers": "2026-11-27"
+  "https://github.com/gary23w/f-ck_data_brokers": "2026-11-27",
+  "https://engadget.com/2329389/google-will-soon-share-android-developers-addresses-publicly": "2026-11-27",
+  "https://lia.mg/posts/measuring-company-culture-with-slack-emoji": "2026-11-27",
+  "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up": "2026-11-27",
+  "https://construct22.com/": "2026-11-27",
+  "https://themouseless.dev/vim": "2026-11-27",
+  "https://blainehansen.me/post/mainstream-verifiable-language": "2026-11-27",
+  "https://economictimes.indiatimes.com/nri/work/ibm-gives-h-1b-green-card-holders-3-weeks-to-relocate-from-us-or-leave-company-december-31-deadline-set/articleshow/136180168.cms?from=mdr": "2026-11-27",
+  "https://huggingface.co/papers/2611.34051": "2026-11-27",
+  "https://huggingface.co/papers/2611.34232": "2026-11-27",
+  "https://huggingface.co/papers/2611.34457": "2026-11-27",
+  "https://huggingface.co/papers/2611.28732": "2026-11-27",
+  "https://huggingface.co/papers/2611.34852": "2026-11-27",
+  "https://huggingface.co/papers/2611.34290": "2026-11-27"
  },
  "reported": [
   {
@@ -1311,6 +1324,12 @@
    "title": "Show HN: Fuck_data_brokers.py",
    "title_fa": "انتقام از دلالان اطلاعات: اسکریپت پایتونی که داده‌های شما را حذف می‌کند",
    "url": "https://github.com/gary23w/f-ck_data_brokers"
+  },
+  {
+   "date": "2026-11-27",
+   "title": "Google will soon share Android developers' addresses publicly",
+   "title_fa": "زنگ خطر برای توسعه‌دهندگان اندروید: گوگل آدرس و شماره تلفن برنامه‌نویس‌ها را عمومی می‌کند!",
+   "url": "https://engadget.com/2329389/google-will-soon-share-android-developers-addresses-publicly"
   }
  ],
  "telegram_chat_id": "925911315"

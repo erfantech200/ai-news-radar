@@ -1,0 +1,471 @@
+{
+ "content": [
+  {
+   "title": "Google will soon share Android developers' addresses publicly",
+   "url": "https://www.engadget.com/2329389/google-will-soon-share-android-developers-addresses-publicly/",
+   "source": "Engadget",
+   "published": "2026-11-27T09:38:33+00:00",
+   "origin": "Engadget",
+   "summary": "Google is getting flak for its decision to publish Android developers' identifying information around the world to comply with European laws.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/google-will-soon-share-android-developers-addresses-publicly/l-intro-1795772169.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/google-will-soon-share-android-developers-addresses-publicly/intro-1795772169.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "policy_regulation",
+   "story_key": "google-android-dev-addresses",
+   "topic_key": "app-store-regulation",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "زنگ خطر برای توسعه‌دهندگان اندروید: گوگل آدرس و شماره تلفن برنامه‌نویس‌ها را عمومی می‌کند!",
+   "one_liner_fa": "گوگل به‌دلیل تطابق با قوانین اتحادیه اروپا تصمیم گرفته اطلاعات هویتی و آدرس فیزیکی توسعه‌دهندگان اندروید در گوگل پلی را عمومی کند که موجی از انتقاد را به همراه داشته است.",
+   "deep": {
+    "id": "7cdcb059f2",
+    "title_fa": "زنگ خطر برای توسعه‌دهندگان اندروید: گوگل آدرس و شماره تلفن برنامه‌نویس‌ها را عمومی می‌کند!",
+    "summary_fa": "گوگل (Google) اعلام کرده است که از ۱ مارس ۲۰۲۷ (March 1, 2027) شماره تلفن و آدرس توسعه‌دهندگان اندروید را به‌صورت عمومی در کنار برنامه‌هایشان در پلی استور (Play Store) برای همه کاربران جهان نمایش می‌دهد. این اقدام به دلیل تبعیت از قوانین بریتانیا و قانون خدمات دیجیتال اتحادیه اروپا (EU Digital Services Act) انجام می‌شود و شامل تمام توسعه‌دهندگانی است که به‌طور مستمر از اپلیکیشن‌های خود درآمد کسب می‌کنند. برنامه‌نویسان تا ۱ فوریه ۲۰۲۷ مهلت دارند وضعیت تجاری خود را ثبت کنند؛ در غیر این صورت امکان انتشار آپدیت را از دست داده و در نهایت اپلیکیشن آن‌ها در سطح جهانی حذف خواهد شد. این تصمیم با انتقاد شدید توسعه‌دهندگان مستقل و خانگی به دلیل نقض حریم خصوصی روبه‌رو شده است.",
+    "key_points_fa": [
+     "شروع نمایش عمومی آدرس و شماره تلفن برنامه‌نویس‌ها در پلی استور از ۱ مارس ۲۰۲۷.",
+     "مهلت اعلام وضعیت تجاری به عنوان «کاسب/فروشنده» (Trader) تا ۱ فوریه ۲۰۲۷.",
+     "اجباری بودن این قانون برای تمام سازندگانی که درآمدزایی منظم یا تراکنش‌های مستمر از اپلیکیشن دارند.",
+     "مجازات تخلف: مسدود شدن ارسال به‌روزرسانی‌ها و نهایتاً حذف جهانی اپلیکیشن از گوگل پلی.",
+     "گوگل برخلاف اپل (Apple) صندوق پستی (PO Box) را نمی‌پذیرد و اطلاعات را برای تمام دنیا نمایش می‌دهد، در حالی که اپل فقط اطلاعات را به کاربران اروپایی نشان می‌دهد."
+    ],
+    "why_it_matters_fa": "این تصمیم ضربه بزرگی به حریم خصوصی توسعه‌دهندگان مستقل و فریلنسرهایی است که از خانه کار می‌کنند و آن‌ها را مجبور می‌کند یا هزینه اجاره دفتر تجاری را بپردازند یا قید کسب درآمد از پلی استور را بزنند.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "کابوس جدید برنامه‌نویس‌های اندروید!",
+      "hook_fa": "اگه برنامه‌نویس اندرویدی و از توی خونه کار می‌کنی، این ویدیو رو با دقت ببین چون قراره آدرس خونت برای همه پابلیک بشه!",
+      "angle_fa": "هشدار فوری و پرانرژی درباره تصمیم سخت‌گیرانه گوگل و بررسی ضرب‌الاجل‌ها و عواقب خطرناک آن برای استقلال توسعه‌دهندگان.",
+      "outline_fa": [
+       "طرح شوک اولیه: پابلیک شدن شماره و آدرس منزل دولوپرهای اندروید در پلی استور.",
+       "توضیح دلیل ماجرا: قوانین بریتانیا و اتحادیه اروپا (DSA) برای کسانی که درآمد دارند.",
+       "مقایسه گوگل و اپل: چرا تصمیم گوگل بدتر است؟ (عدم قبول صندوق پستی و نمایش در کل دنیا).",
+       "عواقب عدم ثبت‌نام (حذف اپلیکیشن) و راهکار توسعه‌دهنده‌ها مثل اجاره دفاتر صوری."
+      ],
+      "visual_tip_fa": "تصویر آیکون گوگل پلی روی نقشه همراه با افکت‌های زوم روی فیلدهای حساس آدرس و تماس، همراه با اینفوگرافیک مقایسه لوگوی اپل و گوگل."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "پایان حریم خصوصی دولوپرهای گوگل پلی؟",
+      "hook_fa": "چرا گوگل تصمیم گرفته آدرس دقیق محل زندگی سازنده‌های اپلیکیشن رو به همه نشون بده؟",
+      "angle_fa": "بررسی تحلیلی و اسلایدی سیاست جدید گوگل، تاریخ‌های کلیدی، و مقایسه رویکرد گوگل با اپل.",
+      "outline_fa": [
+       "اسلاید ۱: کاور جنجالی با عنوان «افشای آدرس سازندگان اپلیکیشن توسط گوگل».",
+       "اسلاید ۲: قانون جدید چیست و چه کسانی «Trader» محسوب می‌شوند؟",
+       "اسلاید ۳: تقویم زمانی ماجرا (مهلت اول فوریه و اجرای نهایی در اول مارس ۲۰۲۷).",
+       "اسلاید ۴: تفاوت رفتار گوگل با اپل؛ چرا برنامه‌نویس‌ها عصبانی هستند؟",
+       "اسلاید ۵: جمع‌بندی، بررسی سرنوشت دولوپرهای مستقل و طرح سؤال تعاملی برای کامنت‌ها."
+      ],
+      "visual_tip_fa": "طراحی اسلایدهای تیره با هایلایت‌های هشدار زرد و قرمز، درج اسکرین‌شات متن خبر و المان‌های گرافیکی مربوط به حریم خصوصی (قفل شکسته و موقعیت مکانی)."
+     }
+    ],
+    "hashtags": [
+     "#برنامه_نویسی",
+     "#اندروید",
+     "#گوگل_پلی",
+     "#حریم_خصوصی",
+     "#توسعه_دهنده",
+     "#اخبار_تکنولوژی",
+     "#GooglePlay",
+     "#AndroidDev"
+    ],
+    "caution_fa": "حتماً به مخاطبان یادآوری شود که این تغییر مربوط به سال ۲۰۲۷ است و قرار نیست همین فردا اعمال شود تا موجب نگرانی و وحشت بی‌مورد توسعه‌دهندگان نشود."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "7cdcb059f2"
+  }
+ ],
+ "others": [],
+ "scored": [
+  {
+   "title": "Google will soon share Android developers' addresses publicly",
+   "url": "https://www.engadget.com/2329389/google-will-soon-share-android-developers-addresses-publicly/",
+   "source": "Engadget",
+   "published": "2026-11-27T09:38:33+00:00",
+   "origin": "Engadget",
+   "summary": "Google is getting flak for its decision to publish Android developers' identifying information around the world to comply with European laws.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/google-will-soon-share-android-developers-addresses-publicly/l-intro-1795772169.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/google-will-soon-share-android-developers-addresses-publicly/intro-1795772169.jpg",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "policy_regulation",
+   "story_key": "google-android-dev-addresses",
+   "topic_key": "app-store-regulation",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "زنگ خطر برای توسعه‌دهندگان اندروید: گوگل آدرس و شماره تلفن برنامه‌نویس‌ها را عمومی می‌کند!",
+   "one_liner_fa": "گوگل به‌دلیل تطابق با قوانین اتحادیه اروپا تصمیم گرفته اطلاعات هویتی و آدرس فیزیکی توسعه‌دهندگان اندروید در گوگل پلی را عمومی کند که موجی از انتقاد را به همراه داشته است.",
+   "deep": {
+    "id": "7cdcb059f2",
+    "title_fa": "زنگ خطر برای توسعه‌دهندگان اندروید: گوگل آدرس و شماره تلفن برنامه‌نویس‌ها را عمومی می‌کند!",
+    "summary_fa": "گوگل (Google) اعلام کرده است که از ۱ مارس ۲۰۲۷ (March 1, 2027) شماره تلفن و آدرس توسعه‌دهندگان اندروید را به‌صورت عمومی در کنار برنامه‌هایشان در پلی استور (Play Store) برای همه کاربران جهان نمایش می‌دهد. این اقدام به دلیل تبعیت از قوانین بریتانیا و قانون خدمات دیجیتال اتحادیه اروپا (EU Digital Services Act) انجام می‌شود و شامل تمام توسعه‌دهندگانی است که به‌طور مستمر از اپلیکیشن‌های خود درآمد کسب می‌کنند. برنامه‌نویسان تا ۱ فوریه ۲۰۲۷ مهلت دارند وضعیت تجاری خود را ثبت کنند؛ در غیر این صورت امکان انتشار آپدیت را از دست داده و در نهایت اپلیکیشن آن‌ها در سطح جهانی حذف خواهد شد. این تصمیم با انتقاد شدید توسعه‌دهندگان مستقل و خانگی به دلیل نقض حریم خصوصی روبه‌رو شده است.",
+    "key_points_fa": [
+     "شروع نمایش عمومی آدرس و شماره تلفن برنامه‌نویس‌ها در پلی استور از ۱ مارس ۲۰۲۷.",
+     "مهلت اعلام وضعیت تجاری به عنوان «کاسب/فروشنده» (Trader) تا ۱ فوریه ۲۰۲۷.",
+     "اجباری بودن این قانون برای تمام سازندگانی که درآمدزایی منظم یا تراکنش‌های مستمر از اپلیکیشن دارند.",
+     "مجازات تخلف: مسدود شدن ارسال به‌روزرسانی‌ها و نهایتاً حذف جهانی اپلیکیشن از گوگل پلی.",
+     "گوگل برخلاف اپل (Apple) صندوق پستی (PO Box) را نمی‌پذیرد و اطلاعات را برای تمام دنیا نمایش می‌دهد، در حالی که اپل فقط اطلاعات را به کاربران اروپایی نشان می‌دهد."
+    ],
+    "why_it_matters_fa": "این تصمیم ضربه بزرگی به حریم خصوصی توسعه‌دهندگان مستقل و فریلنسرهایی است که از خانه کار می‌کنند و آن‌ها را مجبور می‌کند یا هزینه اجاره دفتر تجاری را بپردازند یا قید کسب درآمد از پلی استور را بزنند.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "کابوس جدید برنامه‌نویس‌های اندروید!",
+      "hook_fa": "اگه برنامه‌نویس اندرویدی و از توی خونه کار می‌کنی، این ویدیو رو با دقت ببین چون قراره آدرس خونت برای همه پابلیک بشه!",
+      "angle_fa": "هشدار فوری و پرانرژی درباره تصمیم سخت‌گیرانه گوگل و بررسی ضرب‌الاجل‌ها و عواقب خطرناک آن برای استقلال توسعه‌دهندگان.",
+      "outline_fa": [
+       "طرح شوک اولیه: پابلیک شدن شماره و آدرس منزل دولوپرهای اندروید در پلی استور.",
+       "توضیح دلیل ماجرا: قوانین بریتانیا و اتحادیه اروپا (DSA) برای کسانی که درآمد دارند.",
+       "مقایسه گوگل و اپل: چرا تصمیم گوگل بدتر است؟ (عدم قبول صندوق پستی و نمایش در کل دنیا).",
+       "عواقب عدم ثبت‌نام (حذف اپلیکیشن) و راهکار توسعه‌دهنده‌ها مثل اجاره دفاتر صوری."
+      ],
+      "visual_tip_fa": "تصویر آیکون گوگل پلی روی نقشه همراه با افکت‌های زوم روی فیلدهای حساس آدرس و تماس، همراه با اینفوگرافیک مقایسه لوگوی اپل و گوگل."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "پایان حریم خصوصی دولوپرهای گوگل پلی؟",
+      "hook_fa": "چرا گوگل تصمیم گرفته آدرس دقیق محل زندگی سازنده‌های اپلیکیشن رو به همه نشون بده؟",
+      "angle_fa": "بررسی تحلیلی و اسلایدی سیاست جدید گوگل، تاریخ‌های کلیدی، و مقایسه رویکرد گوگل با اپل.",
+      "outline_fa": [
+       "اسلاید ۱: کاور جنجالی با عنوان «افشای آدرس سازندگان اپلیکیشن توسط گوگل».",
+       "اسلاید ۲: قانون جدید چیست و چه کسانی «Trader» محسوب می‌شوند؟",
+       "اسلاید ۳: تقویم زمانی ماجرا (مهلت اول فوریه و اجرای نهایی در اول مارس ۲۰۲۷).",
+       "اسلاید ۴: تفاوت رفتار گوگل با اپل؛ چرا برنامه‌نویس‌ها عصبانی هستند؟",
+       "اسلاید ۵: جمع‌بندی، بررسی سرنوشت دولوپرهای مستقل و طرح سؤال تعاملی برای کامنت‌ها."
+      ],
+      "visual_tip_fa": "طراحی اسلایدهای تیره با هایلایت‌های هشدار زرد و قرمز، درج اسکرین‌شات متن خبر و المان‌های گرافیکی مربوط به حریم خصوصی (قفل شکسته و موقعیت مکانی)."
+     }
+    ],
+    "hashtags": [
+     "#برنامه_نویسی",
+     "#اندروید",
+     "#گوگل_پلی",
+     "#حریم_خصوصی",
+     "#توسعه_دهنده",
+     "#اخبار_تکنولوژی",
+     "#GooglePlay",
+     "#AndroidDev"
+    ],
+    "caution_fa": "حتماً به مخاطبان یادآوری شود که این تغییر مربوط به سال ۲۰۲۷ است و قرار نیست همین فردا اعمال شود تا موجب نگرانی و وحشت بی‌مورد توسعه‌دهندگان نشود."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "7cdcb059f2"
+  },
+  {
+   "title": "Hard Drive pricing has gotten bad",
+   "url": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
+   "source": "blog.ktz.me",
+   "published": "2026-11-27T01:13:49+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 370 امتیاز، 280 کامنت",
+   "signal_value": 370,
+   "discussion_url": "https://news.ycombinator.com/item?id=50661646",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 4,
+   "category": "hardware_chips",
+   "story_key": "hard-drive-prices-rising",
+   "topic_key": "hardware-market",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "f809947e58"
+  },
+  {
+   "title": "The group chat where your AI talks behind your back",
+   "url": "https://construct22.com/",
+   "source": "construct22.com",
+   "published": "2026-11-27T06:44:34+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 278 امتیاز، 112 کامنت",
+   "signal_value": 278,
+   "discussion_url": "https://news.ycombinator.com/item?id=50663595",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 5,
+   "category": "safety_ethics",
+   "story_key": "ai-agents-talking-behind-back",
+   "topic_key": "ai-agents-autonomy",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "48b0d8d3f8"
+  },
+  {
+   "title": "IBM ends immigration sponsorship for most positions in its consulting division",
+   "url": "https://economictimes.indiatimes.com/nri/work/ibm-gives-h-1b-green-card-holders-3-weeks-to-relocate-from-us-or-leave-company-december-31-deadline-set/articleshow/136180168.cms?from=mdr",
+   "source": "economictimes.indiatimes.com",
+   "published": "2026-11-26T18:35:37+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 156 امتیاز، 118 کامنت",
+   "signal_value": 156,
+   "discussion_url": "https://news.ycombinator.com/item?id=50658170",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 4,
+   "category": "business_funding",
+   "story_key": "ibm-ends-visa-sponsorship",
+   "topic_key": "tech-labor-market",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "88a6993cfc"
+  },
+  {
+   "title": "Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instability",
+   "url": "https://huggingface.co/papers/2611.34051",
+   "source": "Hugging Face Papers",
+   "published": "2026-11-24T19:00:00+00:00",
+   "origin": "Hugging Face Papers",
+   "summary": "Linear attention offers an efficient solution for long-sequence modeling via linear complexity and fixed-size recurrent states. Gated DeltaNet-2 (GDN-2) introduces independent channel-wise control over erasure and writing, enhancing state-update expressiveness and in-context retrieval, yet it suffers from training failures during long-context training. We trace these failures to the asymmetry between reading and modification directions during erasure, which yields non-normal erase operators whose directional gains accumulate across tokens, triggering exponential state growth even without new writes. To resolve this, we propose , employing symmetric erasure to ensure non-expansive state propagation and decay-regulated residual writing to preserve writing flexibility. Theoretically, we establish an O(T) upper bound on recurrent state growth while retaining chunkwise parallel computation. E",
+   "lang": "en",
+   "signal": "Hugging Face: 104 رأی",
+   "signal_value": 104,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34051.png",
+     "origin": "hf"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 4,
+   "category": "research",
+   "story_key": "gated-deltanet-2-stability",
+   "topic_key": "linear-attention-architectures",
+   "already_reported": false,
+   "viral": 3,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "ec4696bbb0"
+  },
+  {
+   "title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
+   "url": "https://huggingface.co/papers/2611.34232",
+   "source": "Hugging Face Papers",
+   "published": "2026-11-24T19:00:00+00:00",
+   "origin": "Hugging Face Papers",
+   "summary": "Computer-using agents are increasingly expected to complete realistic user goals rather than isolated GUI actions. However, existing benchmarks typically isolate web, mobile, or desktop environments, leaving it unclear whether a single generalist agent can execute long-horizon workflows that span multiple operating systems and persistent application states. We introduce OS-Omni, a live cross-platform benchmark and execution environment for evaluating computer-using agents across Windows, Ubuntu, macOS, iOS, Android, and Web environments. OS-Omni is released in versioned waves of 300 tasks each; this paper focuses on the first release, v1, which contains 48 tasks per platform and 12 cross-platform workflows that pair a desktop with an Android phone. OS-Omni provides reproducible initialization, platform-specific adapters, trajectory logging, and executable final-state evaluators, and incl",
+   "lang": "en",
+   "signal": "Hugging Face: 94 رأی",
+   "signal_value": 94,
+   "discussion_url": "https://github.com/OS-Copilot/OS-Omni",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34232.png",
+     "origin": "hf"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 5,
+   "category": "research",
+   "story_key": "os-omni-benchmark",
+   "topic_key": "computer-using-agents",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "ea247b47b5"
+  },
+  {
+   "title": "ProxyGenBench: Benchmarking Proxy-Guided Video Generation",
+   "url": "https://huggingface.co/papers/2611.34457",
+   "source": "Hugging Face Papers",
+   "published": "2026-11-24T19:00:00+00:00",
+   "origin": "Hugging Face Papers",
+   "summary": "Recent video generators produce realistic videos, yet controlling how scenes unfold remains challenging. Structural proxies, such as animated 3D blockouts, guide generation by specifying scene layout, motion, camera behavior, and event order. However, these coarse inputs leave details unspecified and may contain artifacts that should not be reproduced. Successful proxy-guided generation must therefore Preserve intended structure, Complete missing content and correct proxy artifacts, and Bind text, image, and audio conditions to the right entities and events. We introduce ProxyGenBench to study these interacting requirements, with 312 evaluation cases from 60 scenes across three scene tasks and controlled variations in proxy fidelity, text detail, and multimodal inputs. We evaluate five video generators using verified, case-specific checklists. Experiments show that proxies improve spatio",
+   "lang": "en",
+   "signal": "Hugging Face: 35 رأی",
+   "signal_value": 35,
+   "discussion_url": "https://github.com/2kxx/ProxyGenBench",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34457.png",
+     "origin": "hf"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 4,
+   "category": "research",
+   "story_key": "proxygenbench-video-generation",
+   "topic_key": "ai-video-generation",
+   "already_reported": false,
+   "viral": 3,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "4342d45f5c"
+  },
+  {
+   "title": "Entangle: Scaling Human-Video In-Context World-Action Models across Unseen Tasks and Contexts",
+   "url": "https://huggingface.co/papers/2611.28732",
+   "source": "Hugging Face Papers",
+   "published": "2026-11-24T19:00:00+00:00",
+   "origin": "Hugging Face Papers",
+   "summary": "In-context learning (ICL) enables foundation models to perform unseen tasks from context without parameter updates. In robotic manipulation, a human video provides the context that specifies how a task should be performed. However, scaling human-video ICL on world-action models (WAMs) faces two challenges: task-level human-robot pairs are not temporally aligned with robot actions, and standard action losses allow policies to rely on initial-scene or task-identity shortcuts rather than tracking the context. We present Entangle, an in-context world-action model that maps a single human video and current robot observations to future visual states and executable actions. To scale temporally aligned training data, we convert recorded robot videos into matched human contexts via video-to-video generation, supplemented by real paired recordings. For model training, we combine variable-length vi",
+   "lang": "en",
+   "signal": "Hugging Face: 28 رأی",
+   "signal_value": 28,
+   "discussion_url": "https://entangle-robotics.github.io/",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.28732.png",
+     "origin": "hf"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 4,
+   "category": "research",
+   "story_key": "entangle-robotics-world-action-models",
+   "topic_key": "robotics-world-models",
+   "already_reported": false,
+   "viral": 3,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "2a15835307"
+  },
+  {
+   "title": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
+   "url": "https://huggingface.co/papers/2611.34852",
+   "source": "Hugging Face Papers",
+   "published": "2026-11-24T19:00:00+00:00",
+   "origin": "Hugging Face Papers",
+   "summary": "Deep research agents gather information from multiple sources and synthesize it into reports on complex, open-ended questions. Existing benchmarks assess report quality along several dimensions, but lack a dedicated knowledge-centric evaluation of which research directions a report covers and how deeply it explores them. We introduce DRBench Pro, a benchmark that makes structured knowledge coverage the primary evaluation target. Our automated pipeline builds local knowledge trees from Wikipedia and uses sampled subgraphs to generate research queries and evidence-grounded rubrics. Each rubric corresponds to a relation in the tree, preserving the structure of the knowledge being evaluated. Agents receive only the research query. This structure allows us to measure breadth across major research directions and depth along related knowledge chains, with their geometric mean giving overall cov",
+   "lang": "en",
+   "signal": "Hugging Face: 22 رأی",
+   "signal_value": 22,
+   "discussion_url": "https://github.com/ZJU-REAL/DRBenchPro",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34852.png",
+     "origin": "hf"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 4,
+   "category": "research",
+   "story_key": "drbench-pro-research-agents",
+   "topic_key": "deep-research-agents",
+   "already_reported": false,
+   "viral": 3,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "f7df6e6b82"
+  },
+  {
+   "title": "StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation",
+   "url": "https://huggingface.co/papers/2611.34290",
+   "source": "Hugging Face Papers",
+   "published": "2026-11-24T19:00:00+00:00",
+   "origin": "Hugging Face Papers",
+   "summary": "Modern video foundation models generate high-quality short clips, but preserving long-video consistency and correctly depicting event-driven state changes remain challenging. Existing agentic workflows face these challenges because continual planning and repair accumulate context, while reference updates remain limited. We introduce StateWeaver, which combines Active States and Hierarchical Collaboration to connect review-driven visual reference updates with cross-shot state inheritance. Active States translate state discrepancies identified during review into concrete visual asset requirements that guide reference construction, validation, and regeneration, preserving identity and already-correct content while repairing target attributes. Confirmed generation results are linked to the corresponding asset states, story time, and reference versions for verification and reuse by subsequent",
+   "lang": "en",
+   "signal": "Hugging Face: 22 رأی",
+   "signal_value": 22,
+   "discussion_url": "https://github.com/ghost233lism/StateWeaver",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34290.png",
+     "origin": "hf"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 4,
+   "category": "research",
+   "story_key": "stateweaver-long-video-generation",
+   "topic_key": "ai-video-generation",
+   "already_reported": false,
+   "viral": 3,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "cf71a125cc"
+  }
+ ],
+ "failed_sources": [],
+ "models": [
+  "gemini-3.8-flash",
+  "gemini-3.8-flash"
+ ]
+}
