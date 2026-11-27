@@ -1,0 +1,1015 @@
+{
+ "content": [
+  {
+   "title": "OpenAI may be in cost control mode",
+   "url": "https://micjm.com/blog/openai-is-in-cost-control-mode/",
+   "source": "micjm.com",
+   "published": "2026-11-26T07:33:12+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 285 امتیاز، 285 کامنت",
+   "signal_value": 285,
+   "discussion_url": "https://news.ycombinator.com/item?id=50652527",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://micjm.com/blog/openai-is-in-cost-control-mode/cost.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://micjm.com/blog/openai-is-in-cost-control-mode/cost-intervals.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://micjm.com/blog/openai-is-in-cost-control-mode/reasoning-tokens-vs-opponents.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://micjm.com/blog/openai-is-in-cost-control-mode/output-tokens-vs-opponents.png",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "big_tech",
+   "story_key": "openai-cost-control-mode",
+   "topic_key": "openai-compute-limits",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "چرا مدل‌های جدید OpenAI خنگ‌تر شدند؟ شواهدی از تلاش برای کاهش هزینه‌ها",
+   "one_liner_fa": "تحلیل‌گران و کاربران متوجه شده‌اند اوپن‌ای‌آی (OpenAI) هم‌زمان با ادغام بخش‌های چت و کاربری، محدودیت‌های مصرف مدل‌های پیشرفته را به شکل بی‌سابقه‌ای سخت‌گیرانه‌تر کرده است.",
+   "deep": {
+    "id": "82a13b62ff",
+    "title_fa": "چرا مدل‌های جدید OpenAI خنگ‌تر شدند؟ شواهدی از تلاش برای کاهش هزینه‌ها",
+    "summary_fa": "بررسی‌های جدید روی مدل‌های Astra 6.2 و Sol 6.2 از اوپن‌ای‌آی (OpenAI) که با انتقادات زیادی مواجه شده بودند، نشان می‌دهد دلیل افت کیفیت، دستکاری مدل‌ها برای کاهش هزینه‌ها بوده است. طبق داده‌های آماری منتشر شده، تعداد توکن‌های خروجی و توکن‌های استدلال (Reasoning) این مدل‌ها نسبت به نسخه‌های قبلی افت چشمگیری داشته است. این تحلیل نشان می‌دهد این مدل‌ها نسبت به رقبای خود در بنچمارک‌ها به طور غیرعادی کمتر فکر می‌کنند تا در هزینه‌های پردازش صرفه‌جویی شود.",
+    "key_points_fa": [
+     "بررسی داده‌های مدل‌های Astra 6.2 و Sol 6.2 از شرکت OpenAI پس از انتقادات گسترده کاربران",
+     "کاهش معنادار توکن‌های استدلال (Reasoning Tokens) و توکن‌های خروجی در هر تسک",
+     "مقدار P-value برای افت توکن خروجی ۰.۰۰۵۵ برای Sol و ۰.۰۲۲ برای Astra ثبت شده است",
+     "مقدار P-value برای افت استدلال ۰.۰۰۰۱۳ برای Sol و ۰.۰۰۶۴ برای Astra است که از نظر آماری کاملاً معنادار است",
+     "مدل‌های قبلی مثل Astra 6 و Sol 6.1 رفتار نرمالی داشتند اما نسخه‌های 6.2 تبدیل به داده پرت (Underthinking outliers) شده‌اند"
+    ],
+    "why_it_matters_fa": "اگر احساس می‌کنید پاسخ‌های نسخه‌های جدید هوش مصنوعی سطحی‌تر شده یا کمتر تحلیل می‌کنند، حس شما درست بوده؛ شرکت‌ها برای کاهش هزینه‌های سرسام‌آور سرورها، هوش مدل‌ها را عملاً محدود می‌کنند.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "راز خنگ شدن چت‌جی‌پی‌تی فاش شد!",
+      "hook_fa": "شما هم حس کردید هوش مصنوعی این روزها کم‌حوصله شده و سطحی جواب میده؟ داده‌ها ثابت کردن توهم نزدید!",
+      "angle_fa": "روایت ماجرای کاهش هزینه‌های OpenAI و افت توکن‌های استدلال با لحنی افشاگرانه و جذاب",
+      "outline_fa": [
+       "طرح سوال: چرا آپدیت‌های جدید بجای باهوش‌تر شدن، جواب‌های کوتاه‌تر و ضعیف‌تر میدن؟",
+       "معرفی آمار و ارقام لو رفته از بنچمارک‌های مدل‌های 6.2 و افت شدید توکن‌های ریزنینگ",
+       "توضیح پشت پرده: هزینه سرسام‌آور پردازش و کلک غول‌های فناوری برای ارزان‌تر تمام شدن چت‌ها",
+       "پرسش پایانی از مخاطب: آیا شما هم اخیراً متوجه افت کیفیت شدید یا نه؟"
+      ],
+      "visual_tip_fa": "نمایش نمودارهای آماری مقاله که افت شدید توکن‌ها و ضریب Elo را نشان می‌دهند با افکت زوم و هایلایت قرمز روی نقاط سقوط."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "پشت پرده آپدیت‌های جدید: چرا مدل‌ها کمتر فکر می‌کنند؟",
+      "hook_fa": "آیا OpenAI برای سود بیشتر، هوش مدل‌هایش را فدا کرده است؟",
+      "angle_fa": "بررسی فنی و تحلیلی آمار منتشر شده در مورد توکن‌های استدلال همراه با نمودارها",
+      "outline_fa": [
+       "اسلاید ۱: مقدمه و نارضایتی‌های اخیر کاربران از پاسخ‌ها",
+       "اسلاید ۲: مفهوم Reasoning Token و هزینه پردازش هر استدلال",
+       "اسلاید ۳: بررسی داده‌ها و نمودار مقایسه Astra 6.2 و Sol 6.2 با نسل قبلی",
+       "اسلاید ۴: معنای اعداد آماری و اثبات کاهش عمدی پردازش توسط اوپن‌ای‌آی",
+       "اسلاید ۵: نتیجه‌گیری و تأثیر این سیاست روی آینده اشتراک‌های هوش مصنوعی"
+      ],
+      "visual_tip_fa": "اسلایدهای تر و تمیز با تم تاریک، قرار دادن اسکرین‌شات نمودارهای مقاله اصلی و فلش‌های مقایسه‌ای بین نسخه ۶ و ۶.۲."
+     }
+    ],
+    "hashtags": [
+     "#هوش_مصنوعی",
+     "#اوپن_ای_ای",
+     "#چت_جی_پی_تی",
+     "#OpenAI",
+     "#تکنولوژی",
+     "#اخبار_فناوری",
+     "#AI"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "82a13b62ff"
+  },
+  {
+   "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+   "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+   "source": "techstackups.com",
+   "published": "2026-11-26T09:44:23+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 259 امتیاز، 218 کامنت",
+   "signal_value": 259,
+   "discussion_url": "https://news.ycombinator.com/item?id=50653477",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "big_tech",
+   "story_key": "google-adopts-mcp-servers-gmail",
+   "topic_key": "model-context-protocol",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "اجبار گوگل برای استفاده از سرورهای MCP در هوش مصنوعی؛ جیمیل حتی ایمیل هم نمی‌فرستد!",
+   "one_liner_fa": "گوگل سرورهای رسمی پروتکل متنی (MCP) را برای اتصال مدل‌های هوش مصنوعی به سرویس‌هایش عرضه کرد، اما برای جلوگیری از اشتباهات ناخواسته، امکان ارسال ایمیل از جیمیل را مسدود نگه داشته است.",
+   "deep": {
+    "id": "6f6a6b07f1",
+    "title_fa": "اجبار گوگل برای استفاده از سرورهای MCP در هوش مصنوعی؛ جیمیل حتی ایمیل هم نمی‌فرستد!",
+    "summary_fa": "گوگل ظاهراً قصد دارد هوش مصنوعی و ایجنت‌های خود را به سمت پروتکل MCP (Model Context Protocol) سوق دهد. با این حال، گزارش‌ها حاکی از آن است که سرور مربوط به جیمیل (Gmail) در این پیاده‌سازی هنوز نقص‌های عجیبی دارد و حتی قادر به ارسال مستقیم ایمیل نیست. این موضوع نشان‌دهنده چالش‌ها و محدودیت‌های اولیه در امن‌سازی و پیاده‌سازی پروتکل‌های ارتباطی ایجنت‌ها در محیط Workspace است.",
+    "key_points_fa": [
+     "سیاست گوگل برای اجبار ایجنت‌های هوش مصنوعی به استفاده از سرورهای اختصاصی پروتکل کانتکست مدل (MCP)",
+     "محدودیت عجیب سرور MCP جیمیل که در حال حاضر امکان ارسال ایمیل را ندارد",
+     "تمرکز روی کنترل دسترسی‌ها و امنیت در اکوسیستم گوگل ورک‌اسپیس (Google Workspace)"
+    ],
+    "why_it_matters_fa": "پروتکل MCP استاندارد جدید دنیای هوش مصنوعی برای اتصال ایجنت‌ها به ابزارهاست؛ ورود غول‌هایی مثل گوگل به این فضا نحوه کار خودکار دستیارهای هوشمند با ایمیل و فایل‌های ما را دگرگون می‌کند.",
+    "content_ideas": [
+     {
+      "format": "استوری",
+      "title_fa": "سوتی جدید گوگل در هوش مصنوعی جیمیل",
+      "hook_fa": "ایجنت هوش مصنوعی ساختی ولی نمیتونه یه ایمیل بفرسته؟! شاهکار جدید گوگل!",
+      "angle_fa": "نگاهی طنزآمیز به ورود پر سر و صدای گوگل به پروتکل MCP و محدودیت‌های خنده‌دار فعلی آن",
+      "outline_fa": [
+       "استوری ۱: خبر اجبار هوش مصنوعی‌های گوگل به استفاده از سرورهای MCP",
+       "استوری ۲: تناقض ماجرا؛ سرور جیمیل قابلیت ارسال ایمیل نداره!",
+       "استوری ۳: توضیح خیلی ساده اینکه MCP چیه و چرا آینده اتوماسیون با هوش مصنوعیه"
+      ],
+      "visual_tip_fa": "استفاده از لوگوی جیمیل و پروتکل MCP در کنار یک میم واکنشی طنز به ناتوانی ارسال ایمیل."
+     },
+     {
+      "format": "پست",
+      "title_fa": "گوگل و پروتکل MCP: قدم بزرگ بعدی ایجنت‌های هوش مصنوعی",
+      "hook_fa": "پروتکل MCP چیست و چرا گوگل همه ابزارهایش را به آن مجهز می‌کند؟",
+      "angle_fa": "آموزشی و تحلیلی درباره نحوه کارکرد پروتکل MCP و نقش آن در دستیارهای کاری آینده",
+      "outline_fa": [
+       "معرفی مفهوم پروتکل کانتکست مدل (MCP) به زبان ساده",
+       "تصمیم گوگل برای اکوسیستم ورک‌اسپیس و جیمیل",
+       "چالش‌های امنیتی که باعث شده فعلاً دسترسی ارسال ایمیل بسته باشد",
+       "این تغییر چه اثری روی نرم‌افزارهای روزمره ما می‌گذارد؟"
+      ],
+      "visual_tip_fa": "اینفوگرافیک دیاگرام ارتباط ایجنت هوش مصنوعی با سرورهای MCP و سرویس‌های گوگل."
+     }
+    ],
+    "hashtags": [
+     "#گوگل",
+     "#هوش_مصنوعی",
+     "#جیمیل",
+     "#گوگل_ورک_اسپیس",
+     "#MCP",
+     "#GoogleAI",
+     "#تکنولوژی"
+    ],
+    "caution_fa": "متن مقاله در منبع اصلی بسیار کوتاه یا خالی بود؛ اطلاعات صرفاً بر اساس تیتر و کانتکست عمومی MCP ارائه شده است."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "6f6a6b07f1"
+  },
+  {
+   "title": "YouTube Ad Punisher – Auto-reloads YouTube pages when an ad plays",
+   "url": "https://github.com/antonpictures/youtube-punisher",
+   "source": "github.com",
+   "published": "2026-11-26T17:36:47+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 283 امتیاز، 354 کامنت",
+   "signal_value": 283,
+   "discussion_url": "https://news.ycombinator.com/item?id=50657530",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://opengraph.githubassets.com/eea4b18a943597fa6a3db2db1d232da6505d86216b223a956763ced5886387e0/antonpictures/youtube-punisher",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://camo.githubusercontent.com/e2ec9f9b84cbfa4a84d3c943ea5dcaf295c8cee0c665120898bd30ca552b1e39/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4d49542d79656c6c6f772e737667",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://camo.githubusercontent.com/2d1a9a68b35753ba29f778cdca1676d77957b365564d5a09e369be00d7603299/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4368726f6d652d457874656e73696f6e2d626c75652e737667",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://camo.githubusercontent.com/e58111e712826acc9ada72f8c6025b57bf12cff8a9b3650c87fdd5059c70ca5d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d616e69666573742d56332d677265656e2e737667",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 7,
+   "category": "other_tech",
+   "story_key": "youtube-ad-punisher",
+   "topic_key": "youtube-adblocking",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "انتقام از تبلیغات یوتیوب: ابزاری که هنگام پخش تبلیغ، صفحه را رفرش می‌کند!",
+   "one_liner_fa": "",
+   "deep": {
+    "id": "9ca28a7fec",
+    "title_fa": "انتقام از تبلیغات یوتیوب: ابزاری که هنگام پخش تبلیغ، صفحه را رفرش می‌کند!",
+    "summary_fa": "در پاسخ به سخت‌گیری‌های شدید یوتیوب علیه افزونه‌های مسدودکننده تبلیغات، پروژه‌ای متن‌باز در گیت‌هاب به نام YouTube Ad Punisher منتشر شده است. روش کار این افزونه متفاوت است؛ به جای مسدود کردن مستقیم که یوتیوب آن را تشخیص می‌دهد، به محض شروع تبلیغ صفحه را به صورت خودکار رفرش می‌کند. این پروژه با استقبال بالایی در گیت‌هاب و ردیت مواجه شده است.",
+    "key_points_fa": [
+     "پروژه متن‌باز و اکستنشن مرورگر کروم با عنوان YouTube Ad Punisher",
+     "سازوکار ابزار: بارگذاری مجدد (Reload) خودکار صفحه یوتیوب دقیقاً در لحظه شروع تبلیغات",
+     "توسعه داده شده توسط antonpictures بر روی گیت‌هاب با بیش از ۱۲۶ ستاره و بحث داغ در هکرنیوز",
+     "روشی جایگزین برای دور زدن سیستم ضد ادبلاکر یوتیوب بدون بلاک کردن مستقیم اسکریپت تبلیغ"
+    ],
+    "why_it_matters_fa": "جنگ یوتیوب با مسدودکننده‌های تبلیغات به اوج رسیده و این راه‌حل‌های خلاقانه به کاربران کمک می‌کند بدون پرداخت هزینه پریمیوم، تبلیغات آزاردهنده را دور بزنند.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "روشی عجیب برای خلاص شدن از تبلیغات یوتیوب!",
+      "hook_fa": "یوتیوب ادبلاکرت رو از کار انداخته؟ این افزونه جدید با یه حقه ساده تبلیغات رو کلافه می‌کنه!",
+      "angle_fa": "معرفی سریع، کاربردی و هیجان‌انگیز ابزار برای کاربران کلافه از تبلیغات یوتیوب",
+      "outline_fa": [
+       "نمایش اعصاب‌خردکن بودن تبلیغ‌های ۲تایی و غیرقابل رد شدن یوتیوب",
+       "معرفی ابزار متن‌باز YouTube Ad Punisher و ایده خنده‌دار ولی هوشمندانه‌اش",
+       "توضیح عملکرد: ریفرش آنی صفحه درست موقع تبلیغ به جای بلاک کردن کد تبلیغ",
+       "نحوه پیدا کردنش در گیت‌هاب و تست آن"
+      ],
+      "visual_tip_fa": "ضبط ویدیوی اسکرین از کارکرد واقعی افزونه در مرورگر کروم و لود شدن مجدد صفحه بدون پخش تبلیغ."
+     },
+     {
+      "format": "استوری",
+      "title_fa": "معرفی ابزار گیت‌هاب: Ad Punisher",
+      "hook_fa": "انتقام خلاقانه برنامه‌نویس‌ها از سیستم ضد ادبلاکر یوتیوب!",
+      "angle_fa": "معرفی مستقیم و اشتراک لینک ریپازیتوری برای کاربران پیگیر ابزارهای گیک‌طور",
+      "outline_fa": [
+       "استوری ۱: اسکرین‌شات از ریپازیتوری گیت‌هاب پروژه",
+       "استوری ۲: توضیح مکانیزم جالب ریلود کردن صفحه به جای مسدودسازی",
+       "استوری ۳: قرار دادن استیکر لینک گیت‌هاب antonpictures/youtube-punisher"
+      ],
+      "visual_tip_fa": "اسکرین‌شات تمیز از صفحه گیت‌هاب همراه با آیکون کروم و یوتیوب."
+     }
+    ],
+    "hashtags": [
+     "#یوتیوب",
+     "#ادبلاکر",
+     "#ترفند",
+     "#گیت_هاب",
+     "#اوپن_سورس",
+     "#YouTube",
+     "#آموزش"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "9ca28a7fec"
+  },
+  {
+   "title": "AMD-specific fork of llama.cpp",
+   "url": "https://devnull.land/amd-specific-llama-cpp",
+   "source": "devnull.land",
+   "published": "2026-11-26T17:11:29+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 294 امتیاز، 73 کامنت",
+   "signal_value": 294,
+   "discussion_url": "https://news.ycombinator.com/item?id=50657265",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 6,
+   "category": "open_source",
+   "story_key": "amd-fork-llama-cpp",
+   "topic_key": "open-source-llm-tools",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "انقلاب سرعت در اجرای مدل‌های زبانی روی کارت‌های گرافیک AMD با یک فورک جدید",
+   "one_liner_fa": "",
+   "deep": {
+    "id": "1d45997e49",
+    "title_fa": "انقلاب سرعت در اجرای مدل‌های زبانی روی کارت‌های گرافیک AMD با یک فورک جدید",
+    "summary_fa": "توسعه‌دهندگان پروژه‌ای به نام llama-cpp-rdna-boosts ایجاد کرده‌اند که یک فورک بهینه‌شده از llama.cpp مخصوص پردازنده‌های گرافیکی ای‌ام‌دی (AMD) است. این بهینه‌سازی‌ها بر خلاف برخی پروژه‌ها که به قیمت تغییر ساختار مدل سرعت می‌گیرند، کاملاً متمرکز بر معماری سخت‌افزار است و سرعت تولید توکن را از ۳۵ به ۵۵ توکن بر ثانیه و سرعت پیش‌پردازش (Prefill) را از ۷۰۰ به ۱۳۰۰ توکن رسانده است. این بسته به شکل ایمیج داکر/پودمن آماده در دسترس قرار گرفته است.",
+    "key_points_fa": [
+     "معرفی فورک بهینه‌سازی شده به نام llama-cpp-rdna-boosts ویژه کارت‌های گرافیک معماری RDNA",
+     "افزایش سرعت تولید توکن از ۳۵ به ۵۵ توکن بر ثانیه (تست شده روی پردازنده گرافیکی AMD R9700)",
+     "افزایش چشمگیر سرعت Prefill از ۷۰۰ به ۱۳۰۰ توکن در ثانیه",
+     "عدم استفاده از ترفندهای مخرب کیفیت مدل (مثل آنچه در موتورهایی چون Strata رخ می‌دهد)",
+     "عرضه شده به صورت ایمیج پودمن (Podman) با پشتیبانی از کتابخانه‌های ROCm 10.1"
+    ],
+    "why_it_matters_fa": "کاربرانی که کارت گرافیک AMD دارند معمولاً در اجرای مدل‌های هوش مصنوعی محلی با کندی مواجه بودند؛ این ابزار جهش بزرگی برای اجرای سریع و آفلاین مدل‌ها روی سیستم‌های شخصی است.",
+    "content_ideas": [
+     {
+      "format": "پست",
+      "title_fa": "دارندگان کارت‌های گرافیک AMD این ابزار را از دست ندهند!",
+      "hook_fa": "بالاخره کارت‌های AMD هم در اجرای هوش مصنوعی موشک شدند؛ افزایش سرعت تولید متن تا ۵۰ درصد!",
+      "angle_fa": "راهنمای فنی اما کاربردی برای اجرای سریع‌تر مدل‌های لوکال هوش مصنوعی روی سخت‌افزار AMD",
+      "outline_fa": [
+       "بیان مشکل قدیمی سرعت پایین کارت‌های گرافیک AMD در پردازش LLM در مقایسه با انویدیا",
+       "معرفی فورک جدید llama-cpp-rdna-boosts و تفاوتش با نسخه‌های دستکاری شده",
+       "بررسی بنچمارک‌ها: جهش از ۳۵ به ۵۵ توکن بر ثانیه و دوبرابر شدن سرعت Prefill",
+       "نحوه راه‌اندازی سریع با ایمیج Podman برای علاقه‌مندان به مدل‌های محلی"
+      ],
+      "visual_tip_fa": "طراحی کاور با مقایسه سرعت قبل و بعد، لوگوی AMD و llama.cpp و نمودار میله‌ای بنچمارک توکن‌ها."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "چگونه مدل‌های هوش مصنوعی را روی سیستم خودمان با حداکثر سرعت اجرا کنیم؟",
+      "hook_fa": "اجرای مدل‌های سنگین روی سیستم خانگی بدون کندی ممکن شد؟",
+      "angle_fa": "آموزش اکوسیستم اجرای محلی مدل‌ها و معرفی موتورهای استنتاج جدید",
+      "outline_fa": [
+       "اسلاید ۱: چرا اجرای محلی مدل‌ها (Local LLM) ترند شده است؟",
+       "اسلاید ۲: معرفی llama.cpp و چرایی نیاز به بهینه‌سازی‌های سخت‌افزاری",
+       "اسلاید ۳: فورک جدید مخصوص معماری RDNA کارت‌های گرافیک AMD",
+       "اسلاید ۴: اعداد و ارقام تست واقعی روی مدل‌های کوانتیز شده Qwen",
+       "اسلاید ۵: راهکار دانلود و استفاده از طریق مخازن پودمن و گیت‌هاب"
+      ],
+      "visual_tip_fa": "اسلایدهای گام‌به‌گام با ترمینال لینوکس، کدهای pull کردن ایمیج و نمایش تسک منیجر حین پردازش."
+     }
+    ],
+    "hashtags": [
+     "#هوش_مصنوعی",
+     "#ای_ام_دی",
+     "#کارت_گرافیک",
+     "#AMD",
+     "#llamacpp",
+     "#سخت_افزار",
+     "#MachineLearning"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "1d45997e49"
+  },
+  {
+   "title": "Show HN: Fuck_data_brokers.py",
+   "url": "https://github.com/gary23w/f-ck_data_brokers",
+   "source": "github.com",
+   "published": "2026-11-26T18:37:21+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 223 امتیاز، 45 کامنت",
+   "signal_value": 223,
+   "discussion_url": "https://news.ycombinator.com/item?id=50658191",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://opengraph.githubassets.com/7ac0235a62972991faeb7810caf7c5ca3068b2e5c29f9c8e2c039898bbe5193c/gary23w/f-ck_data_brokers",
+     "origin": "og"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 6,
+   "category": "open_source",
+   "story_key": "fuck-data-brokers-script",
+   "topic_key": "privacy-tools",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "انتقام از دلالان اطلاعات: اسکریپت پایتونی که داده‌های شما را حذف می‌کند",
+   "one_liner_fa": "",
+   "deep": {
+    "id": "91b0d57339",
+    "title_fa": "انتقام از دلالان اطلاعات: اسکریپت پایتونی که داده‌های شما را حذف می‌کند",
+    "summary_fa": "اسکریپت متن‌باز و رایگانی در پایتون با نام fck_data_brokers منتشر شده که فرآیند درخواست خروج (Opt-out) و حذف اطلاعات شخصی از وب‌سایت‌های دلال داده (Data Brokers) را به طور خودکار انجام می‌دهد. این ابزار به کاربران کمک می‌کند تا ردپای دیجیتال، شماره تلفن و اطلاعات هویتی خود را از بانک‌های اطلاعاتی تجاری پاک کنند و ترند هکرنیوز شده است.",
+    "key_points_fa": [
+     "انتشار اسکریپت رایگان و متن‌باز به زبان پایتون با نام f-ck_data_brokers در گیت‌هاب",
+     "ارسال خودکار فرم‌ها و درخواست‌های حذف اطلاعات و انصراف (Opt-out/Deletion) به دلالان داده",
+     "جلب توجه گسترده جامعه متن‌باز با بیش از ۴۲۰ ستاره در گیت‌هاب و ۲۰۰ امتیاز در هکرنیوز",
+     "جایگزینی رایگان برای سرویس‌های اشتراکی گران‌قیمت پاکسازی ردپای اینترنتی"
+    ],
+    "why_it_matters_fa": "دلالان داده اطلاعات شخصی، ایمیل و شماره‌های شما را بدون اجازه جمع‌آوری کرده و می‌فروشند؛ این اسکریپت کاری که شرکت‌های امنیتی بابتش اشتراک‌های ماهانه سنگین می‌گیرند را مجانی انجام می‌دهد.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "چطور شماره و آدرست رو از گوگل و سایت‌ها پاک کنی؟",
+      "hook_fa": "می‌دونستی شرکت‌هایی هستن که شماره تلفن و آدرست رو می‌فروشن؟ این ابزار مجانی همه‌شون رو برات پاک می‌کنه!",
+      "angle_fa": "حفظ حریم خصوصی و امنیت دیجیتال شخصی با معرفی یک ابزار متن‌باز پایتونی",
+      "outline_fa": [
+       "توضیح کوتاه اینکه دیتا بروکرها کی هستن و چطور شماره‌مون دست شرکت‌های تبلیغاتی میفته",
+       "سرویس‌های خارجی برای پاک کردن این داده‌ها سالی ۱۰۰ دلار می‌گیرن!",
+       "معرفی اسکریپت پایتون fck_data_brokers که به طور خودکار ایمیل درخواست حذف می‌فرسته",
+       "دعوت به کامنت برای دریافت لینک ریپازیتوری پروژه"
+      ],
+      "visual_tip_fa": "تصویرسازی گرافیکی از لو رفتن دیتابیس‌ها و اجرای اسکریپت در محیط ترمینال پایتون که پیام‌های موفقیت ارسال پاکسازی را نشان می‌دهد."
+     },
+     {
+      "format": "استوری",
+      "title_fa": "معرفی پروژه گیت‌هاب برای امنیت اطلاعات",
+      "hook_fa": "ردپای خودت رو از اینترنت پاک کن، کاملاً رایگان!",
+      "angle_fa": "استوری‌های گام‌به‌گام معرفی ابزار و هشدار درباره حریم خصوصی آنلاین",
+      "outline_fa": [
+       "استوری ۱: سوال تعاملی: تابه‌حال پیامک تبلیغاتی عجیب با اسم خودتون گرفتید؟",
+       "استوری ۲: معرفی مخزن gary23w/f-ck_data_brokers در گیت‌هاب",
+       "استوری ۳: قرار دادن استیکر لینک برای کسانی که می‌خوان کد پایتونش رو اجرا کنن"
+      ],
+      "visual_tip_fa": "استفاده از پس‌زمینه دارک هکری و اسکرین‌شات از خطوط کد پایتون و صفحه گیت‌هاب."
+     }
+    ],
+    "hashtags": [
+     "#حریم_خصوصی",
+     "#امنیت_سایبری",
+     "#پایتون",
+     "#تکنولوژی",
+     "#گیت_هاب",
+     "#اوپن_سورس",
+     "#DataPrivacy"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "91b0d57339"
+  }
+ ],
+ "others": [],
+ "scored": [
+  {
+   "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+   "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+   "source": "TechCrunch",
+   "published": "2026-11-26T20:03:54+00:00",
+   "origin": "TechCrunch",
+   "summary": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 7,
+   "worthiness": 6,
+   "category": "hardware_chips",
+   "story_key": "nvidia-halts-sea-chip-shipments",
+   "topic_key": "us-china-chip-war",
+   "already_reported": true,
+   "viral": 6,
+   "title_fa": "توقف ارسال تراشه‌های هوش مصنوعی انویدیا به کشورهای جنوب شرق آسیا",
+   "one_liner_fa": "انویدیا برای پایبندی به فشارهای دولت آمریکا و جلوگیری از دور زدن تحریم‌ها توسط چین، ارسال سرورهای هوش مصنوعی به مالزی، سنگاپور، تایلند و اندونزی را متوقف کرد.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "c881f1e711"
+  },
+  {
+   "title": "1Password says it was hacked but users' vaults are safe",
+   "url": "https://www.engadget.com/2329013/1password-hacked-but-users-vaults-are-safe/",
+   "source": "Engadget",
+   "published": "2026-11-26T20:00:00+00:00",
+   "origin": "Engadget",
+   "summary": "1Password assures customers that their logins and other sensitive information were not compromised in a recent data breach.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/1password-says-it-was-hacked-but-users-vaults-are-safe/l-intro-1795678680.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 5,
+   "category": "safety_ethics",
+   "story_key": "1password-security-incident",
+   "topic_key": "1password-hack",
+   "already_reported": true,
+   "viral": 5,
+   "title_fa": "بیانیه رسمی 1Password درباره نفوذ سایبری: گاوصندوق رمزهای کاربران کاملاً امن است",
+   "one_liner_fa": "سرویس مدیریت رمز عبور ۱پاسورد (1Password) اعلام کرد با وجود نفوذ هکرها به محیط توسعه این شرکت، هیچ آسیبی به داده‌ها و رمزهای کاربران نرسیده است.",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "7ef295d092"
+  },
+  {
+   "title": "Amazon workers around the world plan strikes and protests on Black Friday and Cyber Monday",
+   "url": "https://www.engadget.com/2329231/amazon-workers-plan-protests-on-black-friday-and-cyber-monday/",
+   "source": "Engadget",
+   "published": "2026-11-26T19:44:49+00:00",
+   "origin": "Engadget",
+   "summary": "A campaign demanding that Amazon recognize and bargain with unions will see workers in more than 20 countries mobilize.",
+   "lang": "en",
+   "signal": "",
+   "signal_value": 0,
+   "discussion_url": "",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://www.engadget.com/img/gallery/amazon-workers-around-the-world-plan-strikes-and-protests-on-black-friday-and-cyber-monday/l-intro-1795728490.jpg",
+     "origin": "rss"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 5,
+   "category": "big_tech",
+   "story_key": "amazon-black-friday-strikes",
+   "topic_key": "amazon-labor-unions",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "d2c8febf88"
+  },
+  {
+   "title": "AI made self-hosting fun again",
+   "url": "https://janlukas.blog/posts/ai-self-hosting",
+   "source": "janlukas.blog",
+   "published": "2026-11-26T21:47:45+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 359 امتیاز، 198 کامنت",
+   "signal_value": 359,
+   "discussion_url": "https://news.ycombinator.com/item?id=50660180",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 6,
+   "category": "open_source",
+   "story_key": "ai-makes-self-hosting-fun",
+   "topic_key": "local-ai-self-hosting",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "19dd464158"
+  },
+  {
+   "title": "AMD-specific fork of llama.cpp",
+   "url": "https://devnull.land/amd-specific-llama-cpp",
+   "source": "devnull.land",
+   "published": "2026-11-26T17:11:29+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 294 امتیاز، 73 کامنت",
+   "signal_value": 294,
+   "discussion_url": "https://news.ycombinator.com/item?id=50657265",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 6,
+   "category": "open_source",
+   "story_key": "amd-fork-llama-cpp",
+   "topic_key": "open-source-llm-tools",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "انقلاب سرعت در اجرای مدل‌های زبانی روی کارت‌های گرافیک AMD با یک فورک جدید",
+   "one_liner_fa": "",
+   "deep": {
+    "id": "1d45997e49",
+    "title_fa": "انقلاب سرعت در اجرای مدل‌های زبانی روی کارت‌های گرافیک AMD با یک فورک جدید",
+    "summary_fa": "توسعه‌دهندگان پروژه‌ای به نام llama-cpp-rdna-boosts ایجاد کرده‌اند که یک فورک بهینه‌شده از llama.cpp مخصوص پردازنده‌های گرافیکی ای‌ام‌دی (AMD) است. این بهینه‌سازی‌ها بر خلاف برخی پروژه‌ها که به قیمت تغییر ساختار مدل سرعت می‌گیرند، کاملاً متمرکز بر معماری سخت‌افزار است و سرعت تولید توکن را از ۳۵ به ۵۵ توکن بر ثانیه و سرعت پیش‌پردازش (Prefill) را از ۷۰۰ به ۱۳۰۰ توکن رسانده است. این بسته به شکل ایمیج داکر/پودمن آماده در دسترس قرار گرفته است.",
+    "key_points_fa": [
+     "معرفی فورک بهینه‌سازی شده به نام llama-cpp-rdna-boosts ویژه کارت‌های گرافیک معماری RDNA",
+     "افزایش سرعت تولید توکن از ۳۵ به ۵۵ توکن بر ثانیه (تست شده روی پردازنده گرافیکی AMD R9700)",
+     "افزایش چشمگیر سرعت Prefill از ۷۰۰ به ۱۳۰۰ توکن در ثانیه",
+     "عدم استفاده از ترفندهای مخرب کیفیت مدل (مثل آنچه در موتورهایی چون Strata رخ می‌دهد)",
+     "عرضه شده به صورت ایمیج پودمن (Podman) با پشتیبانی از کتابخانه‌های ROCm 10.1"
+    ],
+    "why_it_matters_fa": "کاربرانی که کارت گرافیک AMD دارند معمولاً در اجرای مدل‌های هوش مصنوعی محلی با کندی مواجه بودند؛ این ابزار جهش بزرگی برای اجرای سریع و آفلاین مدل‌ها روی سیستم‌های شخصی است.",
+    "content_ideas": [
+     {
+      "format": "پست",
+      "title_fa": "دارندگان کارت‌های گرافیک AMD این ابزار را از دست ندهند!",
+      "hook_fa": "بالاخره کارت‌های AMD هم در اجرای هوش مصنوعی موشک شدند؛ افزایش سرعت تولید متن تا ۵۰ درصد!",
+      "angle_fa": "راهنمای فنی اما کاربردی برای اجرای سریع‌تر مدل‌های لوکال هوش مصنوعی روی سخت‌افزار AMD",
+      "outline_fa": [
+       "بیان مشکل قدیمی سرعت پایین کارت‌های گرافیک AMD در پردازش LLM در مقایسه با انویدیا",
+       "معرفی فورک جدید llama-cpp-rdna-boosts و تفاوتش با نسخه‌های دستکاری شده",
+       "بررسی بنچمارک‌ها: جهش از ۳۵ به ۵۵ توکن بر ثانیه و دوبرابر شدن سرعت Prefill",
+       "نحوه راه‌اندازی سریع با ایمیج Podman برای علاقه‌مندان به مدل‌های محلی"
+      ],
+      "visual_tip_fa": "طراحی کاور با مقایسه سرعت قبل و بعد، لوگوی AMD و llama.cpp و نمودار میله‌ای بنچمارک توکن‌ها."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "چگونه مدل‌های هوش مصنوعی را روی سیستم خودمان با حداکثر سرعت اجرا کنیم؟",
+      "hook_fa": "اجرای مدل‌های سنگین روی سیستم خانگی بدون کندی ممکن شد؟",
+      "angle_fa": "آموزش اکوسیستم اجرای محلی مدل‌ها و معرفی موتورهای استنتاج جدید",
+      "outline_fa": [
+       "اسلاید ۱: چرا اجرای محلی مدل‌ها (Local LLM) ترند شده است؟",
+       "اسلاید ۲: معرفی llama.cpp و چرایی نیاز به بهینه‌سازی‌های سخت‌افزاری",
+       "اسلاید ۳: فورک جدید مخصوص معماری RDNA کارت‌های گرافیک AMD",
+       "اسلاید ۴: اعداد و ارقام تست واقعی روی مدل‌های کوانتیز شده Qwen",
+       "اسلاید ۵: راهکار دانلود و استفاده از طریق مخازن پودمن و گیت‌هاب"
+      ],
+      "visual_tip_fa": "اسلایدهای گام‌به‌گام با ترمینال لینوکس، کدهای pull کردن ایمیج و نمایش تسک منیجر حین پردازش."
+     }
+    ],
+    "hashtags": [
+     "#هوش_مصنوعی",
+     "#ای_ام_دی",
+     "#کارت_گرافیک",
+     "#AMD",
+     "#llamacpp",
+     "#سخت_افزار",
+     "#MachineLearning"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "1d45997e49"
+  },
+  {
+   "title": "OpenAI may be in cost control mode",
+   "url": "https://micjm.com/blog/openai-is-in-cost-control-mode/",
+   "source": "micjm.com",
+   "published": "2026-11-26T07:33:12+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 285 امتیاز، 285 کامنت",
+   "signal_value": 285,
+   "discussion_url": "https://news.ycombinator.com/item?id=50652527",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://micjm.com/blog/openai-is-in-cost-control-mode/cost.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://micjm.com/blog/openai-is-in-cost-control-mode/cost-intervals.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://micjm.com/blog/openai-is-in-cost-control-mode/reasoning-tokens-vs-opponents.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://micjm.com/blog/openai-is-in-cost-control-mode/output-tokens-vs-opponents.png",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "big_tech",
+   "story_key": "openai-cost-control-mode",
+   "topic_key": "openai-compute-limits",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "چرا مدل‌های جدید OpenAI خنگ‌تر شدند؟ شواهدی از تلاش برای کاهش هزینه‌ها",
+   "one_liner_fa": "تحلیل‌گران و کاربران متوجه شده‌اند اوپن‌ای‌آی (OpenAI) هم‌زمان با ادغام بخش‌های چت و کاربری، محدودیت‌های مصرف مدل‌های پیشرفته را به شکل بی‌سابقه‌ای سخت‌گیرانه‌تر کرده است.",
+   "deep": {
+    "id": "82a13b62ff",
+    "title_fa": "چرا مدل‌های جدید OpenAI خنگ‌تر شدند؟ شواهدی از تلاش برای کاهش هزینه‌ها",
+    "summary_fa": "بررسی‌های جدید روی مدل‌های Astra 6.2 و Sol 6.2 از اوپن‌ای‌آی (OpenAI) که با انتقادات زیادی مواجه شده بودند، نشان می‌دهد دلیل افت کیفیت، دستکاری مدل‌ها برای کاهش هزینه‌ها بوده است. طبق داده‌های آماری منتشر شده، تعداد توکن‌های خروجی و توکن‌های استدلال (Reasoning) این مدل‌ها نسبت به نسخه‌های قبلی افت چشمگیری داشته است. این تحلیل نشان می‌دهد این مدل‌ها نسبت به رقبای خود در بنچمارک‌ها به طور غیرعادی کمتر فکر می‌کنند تا در هزینه‌های پردازش صرفه‌جویی شود.",
+    "key_points_fa": [
+     "بررسی داده‌های مدل‌های Astra 6.2 و Sol 6.2 از شرکت OpenAI پس از انتقادات گسترده کاربران",
+     "کاهش معنادار توکن‌های استدلال (Reasoning Tokens) و توکن‌های خروجی در هر تسک",
+     "مقدار P-value برای افت توکن خروجی ۰.۰۰۵۵ برای Sol و ۰.۰۲۲ برای Astra ثبت شده است",
+     "مقدار P-value برای افت استدلال ۰.۰۰۰۱۳ برای Sol و ۰.۰۰۶۴ برای Astra است که از نظر آماری کاملاً معنادار است",
+     "مدل‌های قبلی مثل Astra 6 و Sol 6.1 رفتار نرمالی داشتند اما نسخه‌های 6.2 تبدیل به داده پرت (Underthinking outliers) شده‌اند"
+    ],
+    "why_it_matters_fa": "اگر احساس می‌کنید پاسخ‌های نسخه‌های جدید هوش مصنوعی سطحی‌تر شده یا کمتر تحلیل می‌کنند، حس شما درست بوده؛ شرکت‌ها برای کاهش هزینه‌های سرسام‌آور سرورها، هوش مدل‌ها را عملاً محدود می‌کنند.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "راز خنگ شدن چت‌جی‌پی‌تی فاش شد!",
+      "hook_fa": "شما هم حس کردید هوش مصنوعی این روزها کم‌حوصله شده و سطحی جواب میده؟ داده‌ها ثابت کردن توهم نزدید!",
+      "angle_fa": "روایت ماجرای کاهش هزینه‌های OpenAI و افت توکن‌های استدلال با لحنی افشاگرانه و جذاب",
+      "outline_fa": [
+       "طرح سوال: چرا آپدیت‌های جدید بجای باهوش‌تر شدن، جواب‌های کوتاه‌تر و ضعیف‌تر میدن؟",
+       "معرفی آمار و ارقام لو رفته از بنچمارک‌های مدل‌های 6.2 و افت شدید توکن‌های ریزنینگ",
+       "توضیح پشت پرده: هزینه سرسام‌آور پردازش و کلک غول‌های فناوری برای ارزان‌تر تمام شدن چت‌ها",
+       "پرسش پایانی از مخاطب: آیا شما هم اخیراً متوجه افت کیفیت شدید یا نه؟"
+      ],
+      "visual_tip_fa": "نمایش نمودارهای آماری مقاله که افت شدید توکن‌ها و ضریب Elo را نشان می‌دهند با افکت زوم و هایلایت قرمز روی نقاط سقوط."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "پشت پرده آپدیت‌های جدید: چرا مدل‌ها کمتر فکر می‌کنند؟",
+      "hook_fa": "آیا OpenAI برای سود بیشتر، هوش مدل‌هایش را فدا کرده است؟",
+      "angle_fa": "بررسی فنی و تحلیلی آمار منتشر شده در مورد توکن‌های استدلال همراه با نمودارها",
+      "outline_fa": [
+       "اسلاید ۱: مقدمه و نارضایتی‌های اخیر کاربران از پاسخ‌ها",
+       "اسلاید ۲: مفهوم Reasoning Token و هزینه پردازش هر استدلال",
+       "اسلاید ۳: بررسی داده‌ها و نمودار مقایسه Astra 6.2 و Sol 6.2 با نسل قبلی",
+       "اسلاید ۴: معنای اعداد آماری و اثبات کاهش عمدی پردازش توسط اوپن‌ای‌آی",
+       "اسلاید ۵: نتیجه‌گیری و تأثیر این سیاست روی آینده اشتراک‌های هوش مصنوعی"
+      ],
+      "visual_tip_fa": "اسلایدهای تر و تمیز با تم تاریک، قرار دادن اسکرین‌شات نمودارهای مقاله اصلی و فلش‌های مقایسه‌ای بین نسخه ۶ و ۶.۲."
+     }
+    ],
+    "hashtags": [
+     "#هوش_مصنوعی",
+     "#اوپن_ای_ای",
+     "#چت_جی_پی_تی",
+     "#OpenAI",
+     "#تکنولوژی",
+     "#اخبار_فناوری",
+     "#AI"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "82a13b62ff"
+  },
+  {
+   "title": "YouTube Ad Punisher – Auto-reloads YouTube pages when an ad plays",
+   "url": "https://github.com/antonpictures/youtube-punisher",
+   "source": "github.com",
+   "published": "2026-11-26T17:36:47+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 283 امتیاز، 354 کامنت",
+   "signal_value": 283,
+   "discussion_url": "https://news.ycombinator.com/item?id=50657530",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://opengraph.githubassets.com/eea4b18a943597fa6a3db2db1d232da6505d86216b223a956763ced5886387e0/antonpictures/youtube-punisher",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://camo.githubusercontent.com/e2ec9f9b84cbfa4a84d3c943ea5dcaf295c8cee0c665120898bd30ca552b1e39/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4d49542d79656c6c6f772e737667",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://camo.githubusercontent.com/2d1a9a68b35753ba29f778cdca1676d77957b365564d5a09e369be00d7603299/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4368726f6d652d457874656e73696f6e2d626c75652e737667",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://camo.githubusercontent.com/e58111e712826acc9ada72f8c6025b57bf12cff8a9b3650c87fdd5059c70ca5d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d616e69666573742d56332d677265656e2e737667",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 7,
+   "category": "other_tech",
+   "story_key": "youtube-ad-punisher",
+   "topic_key": "youtube-adblocking",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "انتقام از تبلیغات یوتیوب: ابزاری که هنگام پخش تبلیغ، صفحه را رفرش می‌کند!",
+   "one_liner_fa": "",
+   "deep": {
+    "id": "9ca28a7fec",
+    "title_fa": "انتقام از تبلیغات یوتیوب: ابزاری که هنگام پخش تبلیغ، صفحه را رفرش می‌کند!",
+    "summary_fa": "در پاسخ به سخت‌گیری‌های شدید یوتیوب علیه افزونه‌های مسدودکننده تبلیغات، پروژه‌ای متن‌باز در گیت‌هاب به نام YouTube Ad Punisher منتشر شده است. روش کار این افزونه متفاوت است؛ به جای مسدود کردن مستقیم که یوتیوب آن را تشخیص می‌دهد، به محض شروع تبلیغ صفحه را به صورت خودکار رفرش می‌کند. این پروژه با استقبال بالایی در گیت‌هاب و ردیت مواجه شده است.",
+    "key_points_fa": [
+     "پروژه متن‌باز و اکستنشن مرورگر کروم با عنوان YouTube Ad Punisher",
+     "سازوکار ابزار: بارگذاری مجدد (Reload) خودکار صفحه یوتیوب دقیقاً در لحظه شروع تبلیغات",
+     "توسعه داده شده توسط antonpictures بر روی گیت‌هاب با بیش از ۱۲۶ ستاره و بحث داغ در هکرنیوز",
+     "روشی جایگزین برای دور زدن سیستم ضد ادبلاکر یوتیوب بدون بلاک کردن مستقیم اسکریپت تبلیغ"
+    ],
+    "why_it_matters_fa": "جنگ یوتیوب با مسدودکننده‌های تبلیغات به اوج رسیده و این راه‌حل‌های خلاقانه به کاربران کمک می‌کند بدون پرداخت هزینه پریمیوم، تبلیغات آزاردهنده را دور بزنند.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "روشی عجیب برای خلاص شدن از تبلیغات یوتیوب!",
+      "hook_fa": "یوتیوب ادبلاکرت رو از کار انداخته؟ این افزونه جدید با یه حقه ساده تبلیغات رو کلافه می‌کنه!",
+      "angle_fa": "معرفی سریع، کاربردی و هیجان‌انگیز ابزار برای کاربران کلافه از تبلیغات یوتیوب",
+      "outline_fa": [
+       "نمایش اعصاب‌خردکن بودن تبلیغ‌های ۲تایی و غیرقابل رد شدن یوتیوب",
+       "معرفی ابزار متن‌باز YouTube Ad Punisher و ایده خنده‌دار ولی هوشمندانه‌اش",
+       "توضیح عملکرد: ریفرش آنی صفحه درست موقع تبلیغ به جای بلاک کردن کد تبلیغ",
+       "نحوه پیدا کردنش در گیت‌هاب و تست آن"
+      ],
+      "visual_tip_fa": "ضبط ویدیوی اسکرین از کارکرد واقعی افزونه در مرورگر کروم و لود شدن مجدد صفحه بدون پخش تبلیغ."
+     },
+     {
+      "format": "استوری",
+      "title_fa": "معرفی ابزار گیت‌هاب: Ad Punisher",
+      "hook_fa": "انتقام خلاقانه برنامه‌نویس‌ها از سیستم ضد ادبلاکر یوتیوب!",
+      "angle_fa": "معرفی مستقیم و اشتراک لینک ریپازیتوری برای کاربران پیگیر ابزارهای گیک‌طور",
+      "outline_fa": [
+       "استوری ۱: اسکرین‌شات از ریپازیتوری گیت‌هاب پروژه",
+       "استوری ۲: توضیح مکانیزم جالب ریلود کردن صفحه به جای مسدودسازی",
+       "استوری ۳: قرار دادن استیکر لینک گیت‌هاب antonpictures/youtube-punisher"
+      ],
+      "visual_tip_fa": "اسکرین‌شات تمیز از صفحه گیت‌هاب همراه با آیکون کروم و یوتیوب."
+     }
+    ],
+    "hashtags": [
+     "#یوتیوب",
+     "#ادبلاکر",
+     "#ترفند",
+     "#گیت_هاب",
+     "#اوپن_سورس",
+     "#YouTube",
+     "#آموزش"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "9ca28a7fec"
+  },
+  {
+   "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+   "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+   "source": "techstackups.com",
+   "published": "2026-11-26T09:44:23+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 259 امتیاز، 218 کامنت",
+   "signal_value": 259,
+   "discussion_url": "https://news.ycombinator.com/item?id=50653477",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 7,
+   "category": "big_tech",
+   "story_key": "google-adopts-mcp-servers-gmail",
+   "topic_key": "model-context-protocol",
+   "already_reported": false,
+   "viral": 6,
+   "title_fa": "اجبار گوگل برای استفاده از سرورهای MCP در هوش مصنوعی؛ جیمیل حتی ایمیل هم نمی‌فرستد!",
+   "one_liner_fa": "گوگل سرورهای رسمی پروتکل متنی (MCP) را برای اتصال مدل‌های هوش مصنوعی به سرویس‌هایش عرضه کرد، اما برای جلوگیری از اشتباهات ناخواسته، امکان ارسال ایمیل از جیمیل را مسدود نگه داشته است.",
+   "deep": {
+    "id": "6f6a6b07f1",
+    "title_fa": "اجبار گوگل برای استفاده از سرورهای MCP در هوش مصنوعی؛ جیمیل حتی ایمیل هم نمی‌فرستد!",
+    "summary_fa": "گوگل ظاهراً قصد دارد هوش مصنوعی و ایجنت‌های خود را به سمت پروتکل MCP (Model Context Protocol) سوق دهد. با این حال، گزارش‌ها حاکی از آن است که سرور مربوط به جیمیل (Gmail) در این پیاده‌سازی هنوز نقص‌های عجیبی دارد و حتی قادر به ارسال مستقیم ایمیل نیست. این موضوع نشان‌دهنده چالش‌ها و محدودیت‌های اولیه در امن‌سازی و پیاده‌سازی پروتکل‌های ارتباطی ایجنت‌ها در محیط Workspace است.",
+    "key_points_fa": [
+     "سیاست گوگل برای اجبار ایجنت‌های هوش مصنوعی به استفاده از سرورهای اختصاصی پروتکل کانتکست مدل (MCP)",
+     "محدودیت عجیب سرور MCP جیمیل که در حال حاضر امکان ارسال ایمیل را ندارد",
+     "تمرکز روی کنترل دسترسی‌ها و امنیت در اکوسیستم گوگل ورک‌اسپیس (Google Workspace)"
+    ],
+    "why_it_matters_fa": "پروتکل MCP استاندارد جدید دنیای هوش مصنوعی برای اتصال ایجنت‌ها به ابزارهاست؛ ورود غول‌هایی مثل گوگل به این فضا نحوه کار خودکار دستیارهای هوشمند با ایمیل و فایل‌های ما را دگرگون می‌کند.",
+    "content_ideas": [
+     {
+      "format": "استوری",
+      "title_fa": "سوتی جدید گوگل در هوش مصنوعی جیمیل",
+      "hook_fa": "ایجنت هوش مصنوعی ساختی ولی نمیتونه یه ایمیل بفرسته؟! شاهکار جدید گوگل!",
+      "angle_fa": "نگاهی طنزآمیز به ورود پر سر و صدای گوگل به پروتکل MCP و محدودیت‌های خنده‌دار فعلی آن",
+      "outline_fa": [
+       "استوری ۱: خبر اجبار هوش مصنوعی‌های گوگل به استفاده از سرورهای MCP",
+       "استوری ۲: تناقض ماجرا؛ سرور جیمیل قابلیت ارسال ایمیل نداره!",
+       "استوری ۳: توضیح خیلی ساده اینکه MCP چیه و چرا آینده اتوماسیون با هوش مصنوعیه"
+      ],
+      "visual_tip_fa": "استفاده از لوگوی جیمیل و پروتکل MCP در کنار یک میم واکنشی طنز به ناتوانی ارسال ایمیل."
+     },
+     {
+      "format": "پست",
+      "title_fa": "گوگل و پروتکل MCP: قدم بزرگ بعدی ایجنت‌های هوش مصنوعی",
+      "hook_fa": "پروتکل MCP چیست و چرا گوگل همه ابزارهایش را به آن مجهز می‌کند؟",
+      "angle_fa": "آموزشی و تحلیلی درباره نحوه کارکرد پروتکل MCP و نقش آن در دستیارهای کاری آینده",
+      "outline_fa": [
+       "معرفی مفهوم پروتکل کانتکست مدل (MCP) به زبان ساده",
+       "تصمیم گوگل برای اکوسیستم ورک‌اسپیس و جیمیل",
+       "چالش‌های امنیتی که باعث شده فعلاً دسترسی ارسال ایمیل بسته باشد",
+       "این تغییر چه اثری روی نرم‌افزارهای روزمره ما می‌گذارد؟"
+      ],
+      "visual_tip_fa": "اینفوگرافیک دیاگرام ارتباط ایجنت هوش مصنوعی با سرورهای MCP و سرویس‌های گوگل."
+     }
+    ],
+    "hashtags": [
+     "#گوگل",
+     "#هوش_مصنوعی",
+     "#جیمیل",
+     "#گوگل_ورک_اسپیس",
+     "#MCP",
+     "#GoogleAI",
+     "#تکنولوژی"
+    ],
+    "caution_fa": "متن مقاله در منبع اصلی بسیار کوتاه یا خالی بود؛ اطلاعات صرفاً بر اساس تیتر و کانتکست عمومی MCP ارائه شده است."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "6f6a6b07f1"
+  },
+  {
+   "title": "CTO of 'RansomwareHelp' indicted for wire fraud",
+   "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+   "source": "krebsonsecurity.com",
+   "published": "2026-11-26T17:47:45+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 224 امتیاز، 95 کامنت",
+   "signal_value": 224,
+   "discussion_url": "https://news.ycombinator.com/item?id=50657645",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 5,
+   "category": "safety_ethics",
+   "story_key": "ransomwarehelp-cto-indicted",
+   "topic_key": "cybercrime-fraud",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "669406732a"
+  },
+  {
+   "title": "Show HN: Fuck_data_brokers.py",
+   "url": "https://github.com/gary23w/f-ck_data_brokers",
+   "source": "github.com",
+   "published": "2026-11-26T18:37:21+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 223 امتیاز، 45 کامنت",
+   "signal_value": 223,
+   "discussion_url": "https://news.ycombinator.com/item?id=50658191",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://opengraph.githubassets.com/7ac0235a62972991faeb7810caf7c5ca3068b2e5c29f9c8e2c039898bbe5193c/gary23w/f-ck_data_brokers",
+     "origin": "og"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 4,
+   "worthiness": 6,
+   "category": "open_source",
+   "story_key": "fuck-data-brokers-script",
+   "topic_key": "privacy-tools",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "انتقام از دلالان اطلاعات: اسکریپت پایتونی که داده‌های شما را حذف می‌کند",
+   "one_liner_fa": "",
+   "deep": {
+    "id": "91b0d57339",
+    "title_fa": "انتقام از دلالان اطلاعات: اسکریپت پایتونی که داده‌های شما را حذف می‌کند",
+    "summary_fa": "اسکریپت متن‌باز و رایگانی در پایتون با نام fck_data_brokers منتشر شده که فرآیند درخواست خروج (Opt-out) و حذف اطلاعات شخصی از وب‌سایت‌های دلال داده (Data Brokers) را به طور خودکار انجام می‌دهد. این ابزار به کاربران کمک می‌کند تا ردپای دیجیتال، شماره تلفن و اطلاعات هویتی خود را از بانک‌های اطلاعاتی تجاری پاک کنند و ترند هکرنیوز شده است.",
+    "key_points_fa": [
+     "انتشار اسکریپت رایگان و متن‌باز به زبان پایتون با نام f-ck_data_brokers در گیت‌هاب",
+     "ارسال خودکار فرم‌ها و درخواست‌های حذف اطلاعات و انصراف (Opt-out/Deletion) به دلالان داده",
+     "جلب توجه گسترده جامعه متن‌باز با بیش از ۴۲۰ ستاره در گیت‌هاب و ۲۰۰ امتیاز در هکرنیوز",
+     "جایگزینی رایگان برای سرویس‌های اشتراکی گران‌قیمت پاکسازی ردپای اینترنتی"
+    ],
+    "why_it_matters_fa": "دلالان داده اطلاعات شخصی، ایمیل و شماره‌های شما را بدون اجازه جمع‌آوری کرده و می‌فروشند؛ این اسکریپت کاری که شرکت‌های امنیتی بابتش اشتراک‌های ماهانه سنگین می‌گیرند را مجانی انجام می‌دهد.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "چطور شماره و آدرست رو از گوگل و سایت‌ها پاک کنی؟",
+      "hook_fa": "می‌دونستی شرکت‌هایی هستن که شماره تلفن و آدرست رو می‌فروشن؟ این ابزار مجانی همه‌شون رو برات پاک می‌کنه!",
+      "angle_fa": "حفظ حریم خصوصی و امنیت دیجیتال شخصی با معرفی یک ابزار متن‌باز پایتونی",
+      "outline_fa": [
+       "توضیح کوتاه اینکه دیتا بروکرها کی هستن و چطور شماره‌مون دست شرکت‌های تبلیغاتی میفته",
+       "سرویس‌های خارجی برای پاک کردن این داده‌ها سالی ۱۰۰ دلار می‌گیرن!",
+       "معرفی اسکریپت پایتون fck_data_brokers که به طور خودکار ایمیل درخواست حذف می‌فرسته",
+       "دعوت به کامنت برای دریافت لینک ریپازیتوری پروژه"
+      ],
+      "visual_tip_fa": "تصویرسازی گرافیکی از لو رفتن دیتابیس‌ها و اجرای اسکریپت در محیط ترمینال پایتون که پیام‌های موفقیت ارسال پاکسازی را نشان می‌دهد."
+     },
+     {
+      "format": "استوری",
+      "title_fa": "معرفی پروژه گیت‌هاب برای امنیت اطلاعات",
+      "hook_fa": "ردپای خودت رو از اینترنت پاک کن، کاملاً رایگان!",
+      "angle_fa": "استوری‌های گام‌به‌گام معرفی ابزار و هشدار درباره حریم خصوصی آنلاین",
+      "outline_fa": [
+       "استوری ۱: سوال تعاملی: تابه‌حال پیامک تبلیغاتی عجیب با اسم خودتون گرفتید؟",
+       "استوری ۲: معرفی مخزن gary23w/f-ck_data_brokers در گیت‌هاب",
+       "استوری ۳: قرار دادن استیکر لینک برای کسانی که می‌خوان کد پایتونش رو اجرا کنن"
+      ],
+      "visual_tip_fa": "استفاده از پس‌زمینه دارک هکری و اسکرین‌شات از خطوط کد پایتون و صفحه گیت‌هاب."
+     }
+    ],
+    "hashtags": [
+     "#حریم_خصوصی",
+     "#امنیت_سایبری",
+     "#پایتون",
+     "#تکنولوژی",
+     "#گیت_هاب",
+     "#اوپن_سورس",
+     "#DataPrivacy"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "91b0d57339"
+  }
+ ],
+ "failed_sources": [],
+ "models": [
+  "gemini-3.8-flash",
+  "gemini-3.8-flash"
+ ]
+}
