@@ -806,51 +806,27 @@
   "https://huggingface.co/papers/2611.34457": "2026-11-27",
   "https://huggingface.co/papers/2611.28732": "2026-11-27",
   "https://huggingface.co/papers/2611.34852": "2026-11-27",
-  "https://huggingface.co/papers/2611.34290": "2026-11-27"
+  "https://huggingface.co/papers/2611.34290": "2026-11-27",
+  "https://huggingface.co/blog/video-trainium3": "2026-11-28",
+  "https://engadget.com/2329586/hackers-reportedly-infiltrated-the-air-force-cloud-systems": "2026-11-28",
+  "https://engadget.com/2329581/costco-electronics-deep-discounts-black-friday-2026": "2026-11-28",
+  "https://engadget.com/2329553/whatsapp-adds-support-for-travel-esims": "2026-11-28",
+  "https://twitter.com/RealAstropulse/status/2126119408997466389": "2026-11-28",
+  "https://buynothingday.co.uk/": "2026-11-28",
+  "https://bouncemarket.minhanhday.com/": "2026-11-28",
+  "https://news.sky.com/story/us-air-forces-cloud-computing-platform-hacked-13617163": "2026-11-28",
+  "https://eprint.iacr.org/2026/3020.pdf": "2026-11-28",
+  "https://infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer": "2026-11-28",
+  "https://support.google.com/googleplay/android-developer/answer/17594752?hl=en": "2026-11-28",
+  "https://open-web-advocacy.org/es/blog/commission-responds-declares-browser-competition-a-dma-priority": "2026-11-28",
+  "https://kimi.ai/news/kimi-for-science-program": "2026-11-28",
+  "https://github.com/eisenzopf/rvoip": "2026-11-28",
+  "https://eff.org/deeplinks/2026/11/new-york-and-california-age-gating-rules-go-effect-new-year": "2026-11-28",
+  "https://huggingface.co/papers/2611.34813": "2026-11-28",
+  "https://huggingface.co/papers/2611.34466": "2026-11-28",
+  "https://huggingface.co/papers/2611.34929": "2026-11-28"
  },
  "reported": [
-  {
-   "date": "2026-11-23",
-   "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
-   "title_fa": "پشت‌پرده تاریک هوش مصنوعی: ۸۷ درصد برق آنتروپیک تا سال ۲۰۲۸ از سوخت‌های فسیلی تأمین می‌شود!",
-   "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power"
-  },
-  {
-   "date": "2026-11-23",
-   "title": "Perplexity and Intelligence",
-   "title_fa": "افشاگری دانشمند ارشد اوپن‌ای‌آی: هوش مدل‌ها دقیقاً چگونه سنجیده می‌شود؟",
-   "url": "https://openai.com/index/perplexity-and-intelligence"
-  },
-  {
-   "date": "2026-11-23",
-   "title": "Show HN: I built a game where you are an LLM's subagent",
-   "title_fa": "این بازی عجیب شما را کارمند زیردست هوش مصنوعی می‌کند!",
-   "url": "https://github.com/gulivan/worker755"
-  },
-  {
-   "date": "2026-11-23",
-   "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
-   "title_fa": "چگونه چت‌جی‌پی‌تی خانگی و کاملاً رایگان بسازیم؟ (بدون کدنویسی)",
-   "url": "https://gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth"
-  },
-  {
-   "date": "2026-11-23",
-   "title": "XNU Linux: Full OS X GUI Userspace on Linux",
-   "title_fa": "اجرای مستقیم رابط گرافیکی مک روی لینوکس با پروژه متن‌باز XNU Linux",
-   "url": "https://github.com/AFK-surf/xnulinux"
-  },
-  {
-   "date": "2026-11-23",
-   "title": "Progress map for the Lean formalization of Alessandro Masullo's manuscript",
-   "title_fa": "نقشه تعاملی رسمی‌سازی اثبات ریاضی ماسولو با ابزار Lean روی کلود",
-   "url": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3"
-  },
-  {
-   "date": "2026-11-23",
-   "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
-   "title_fa": "اسپلانکر تی‌وی؛ شبکه تلویزیونی رایگان از ویدیوهای گمشده تاریخ اینترنت",
-   "url": "https://spelunkr.tv/"
-  },
   {
    "date": "2026-11-24",
    "title": "Jensen Huang Reinstated as Nvidia CEO",
@@ -1330,6 +1306,54 @@
    "title": "Google will soon share Android developers' addresses publicly",
    "title_fa": "زنگ خطر برای توسعه‌دهندگان اندروید: گوگل آدرس و شماره تلفن برنامه‌نویس‌ها را عمومی می‌کند!",
    "url": "https://engadget.com/2329389/google-will-soon-share-android-developers-addresses-publicly"
+  },
+  {
+   "date": "2026-11-28",
+   "title": "Claude sabotaging ML research tasks?",
+   "title_fa": "آیا هوش مصنوعی کلود کارهای پژوهشی یادگیری ماشین را خرابکاری می‌کند؟",
+   "url": "https://twitter.com/RealAstropulse/status/2126119408997466389"
+  },
+  {
+   "date": "2026-11-28",
+   "title": "US Air Force's cloud computing platform hacked",
+   "title_fa": "پلتفرم رایانش ابری نیروی هوایی آمریکا هک شد",
+   "url": "https://news.sky.com/story/us-air-forces-cloud-computing-platform-hacked-13617163"
+  },
+  {
+   "date": "2026-11-28",
+   "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
+   "title_fa": "کشف اسکریپت‌های سرقت کارت بانکی با وب‌آرتی‌سی در سایت‌های محبوب خرید آنلاین",
+   "url": "https://infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer"
+  },
+  {
+   "date": "2026-11-28",
+   "title": "New York and California age gating rules go into effect in the new year",
+   "title_fa": "قوانین جدید احراز سن در کالیفرنیا و نیویورک؛ پایان اسکرول بی‌پایان برای نوجوانان",
+   "url": "https://eff.org/deeplinks/2026/11/new-york-and-california-age-gating-rules-go-effect-new-year"
+  },
+  {
+   "date": "2026-11-28",
+   "title": "Kimi for Science: More scientific ideas, made possible",
+   "title_fa": "برنامه «Kimi for Science» معرفی شد؛ گرنت ۲۰ هزار دلاری هوش مصنوعی کیمی برای پژوهشگران",
+   "url": "https://kimi.ai/news/kimi-for-science-program"
+  },
+  {
+   "date": "2026-11-28",
+   "title": "A Deterministic Subexponential-Time Algorithm for the Discrete Logarithm Problem [pdf]",
+   "title_fa": "دستاورد جدید در رمزنگاری: الگوریتم زیرنمایی قطعی برای مسئله لگاریتم گسسته",
+   "url": "https://eprint.iacr.org/2026/3020.pdf"
+  },
+  {
+   "date": "2026-11-28",
+   "title": "European Commission Declares Browser Competition a Digital Markets Act Priority",
+   "title_fa": "اتحادیه اروپا رقابت میان مرورگرها را اولویت اصلی قانون بازارهای دیجیتال قرار داد",
+   "url": "https://open-web-advocacy.org/es/blog/commission-responds-declares-browser-competition-a-dma-priority"
+  },
+  {
+   "date": "2026-11-28",
+   "title": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
+   "title_fa": "ایجنت‌های کدنویس، مدل‌های تولید ویدیو را در درک بصری شکست دادند!",
+   "url": "https://huggingface.co/papers/2611.34813"
   }
  ],
  "telegram_chat_id": "925911315"
