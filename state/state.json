@@ -824,7 +824,21 @@
   "https://eff.org/deeplinks/2026/11/new-york-and-california-age-gating-rules-go-effect-new-year": "2026-11-28",
   "https://huggingface.co/papers/2611.34813": "2026-11-28",
   "https://huggingface.co/papers/2611.34466": "2026-11-28",
-  "https://huggingface.co/papers/2611.34929": "2026-11-28"
+  "https://huggingface.co/papers/2611.34929": "2026-11-28",
+  "https://engadget.com/2329878/gta-6-performance-ways-make-sure-console-not-holding-back": "2026-11-28",
+  "https://engadget.com/2329851/la-school-district-blocks-google-ai-search-features": "2026-11-28",
+  "https://engadget.com/2329765/samsung-is-reportedly-giving-its-camera-app-an-ai-mode": "2026-11-28",
+  "https://engadget.com/2329748/restricted-nvidia-chips-were-installed-at-a-chinese-data-center-linked-to-alice-huang": "2026-11-28",
+  "https://engadget.com/2329747/openai-countersues-apple-and-accuses-it-of-stealing-trade-secrets": "2026-11-28",
+  "https://simonwillison.net/2026/Nov/27/datasette-charts": "2026-11-28",
+  "https://neuralnetworksanddeeplearning.com/": "2026-11-28",
+  "https://oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform": "2026-11-28",
+  "https://github.com/convex/convex-backend-skill/issues/64": "2026-11-28",
+  "https://thesoapbox.email/archive/3": "2026-11-28",
+  "https://cr.yp.to/proofs/falseccp.html": "2026-11-28",
+  "https://herecomesthemoon.net/2026/11/whats-claudes-fursona": "2026-11-28",
+  "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical": "2026-11-28",
+  "https://theguardian.com/books/2026/nov/27/careless-people-author-sarah-wynn-williams-the-silence-is-mine-it-doesnt-have-to-be-yours": "2026-11-28"
  },
  "reported": [
   {
@@ -1354,6 +1368,36 @@
    "title": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
    "title_fa": "ایجنت‌های کدنویس، مدل‌های تولید ویدیو را در درک بصری شکست دادند!",
    "url": "https://huggingface.co/papers/2611.34813"
+  },
+  {
+   "date": "2026-11-28",
+   "title": "OpenAI countersues Apple and accuses it of stealing trade secrets",
+   "title_fa": "جنگ تمام‌عیار هوش مصنوعی و سخت‌افزار: شکایت متقابل اوپن‌ای‌آی از اپل به اتهام سرقت اسرار تجاری",
+   "url": "https://engadget.com/2329747/openai-countersues-apple-and-accuses-it-of-stealing-trade-secrets"
+  },
+  {
+   "date": "2026-11-28",
+   "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
+   "title_fa": "شکایت دادستان‌های آمریکا از اسپیس‌ایکس؛ گروک متهم به ساخت تصاویر غیراخلاقی و سوءاستفاده از کودکان",
+   "url": "https://oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform"
+  },
+  {
+   "date": "2026-11-28",
+   "title": "Restricted NVIDIA chips were installed at a Chinese data center linked to Alice Huang",
+   "title_fa": "جنجال تراشه‌های ممنوعه؛ رک‌های بلک‌ول انویدیا در دیتاسنتری در شانگهای کشف شد",
+   "url": "https://engadget.com/2329748/restricted-nvidia-chips-were-installed-at-a-chinese-data-center-linked-to-alice-huang"
+  },
+  {
+   "date": "2026-11-28",
+   "title": "GPT 6.2 Astra solves a historical mystery",
+   "title_fa": "مدل هوش مصنوعی GPT 6.2 Astra یک معمای تاریخی را حل کرد",
+   "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical"
+  },
+  {
+   "date": "2026-11-28",
+   "title": "Samsung is reportedly giving its camera app an AI mode",
+   "title_fa": "دوربین گلکسی اس۲۷ هوشمندتر می‌شود؛ اضافه شدن حالت اختصاصی هوش مصنوعی Vision به گوشی‌های سامسونگ",
+   "url": "https://engadget.com/2329765/samsung-is-reportedly-giving-its-camera-app-an-ai-mode"
   }
  ],
  "telegram_chat_id": "925911315"
