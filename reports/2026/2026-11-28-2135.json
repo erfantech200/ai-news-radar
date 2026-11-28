@@ -1,0 +1,417 @@
+{
+ "content": [
+  {
+   "title": "Woman evicted after landlord's AI assistant told her she could delay rent",
+   "url": "https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai",
+   "source": "drmahfouz.substack.com",
+   "published": "2026-11-28T01:32:56+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 176 امتیاز، 128 کامنت",
+   "signal_value": 176,
+   "discussion_url": "https://news.ycombinator.com/item?id=50673521",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 8,
+   "category": "safety_ethics",
+   "story_key": "ai-landlord-assistant-eviction",
+   "topic_key": "ai-hallucination-real-world-harm",
+   "already_reported": false,
+   "viral": 8,
+   "title_fa": "تخلیه خانه یک مستأجر پس از تأیید تعویق اجاره توسط هوش مصنوعی صاحب‌خانه!",
+   "one_liner_fa": "دستیار هوش مصنوعی صاحب‌خانه به یک مستأجر اجازه پرداخت با تأخیر اجاره را داد، اما این پاسخ اشتباه در نهایت منجر به حکم تخلیه و آوارگی او شد.",
+   "deep": {
+    "id": "4e825df2be",
+    "title_fa": "تخلیه خانه یک مستأجر پس از تأیید تعویق اجاره توسط هوش مصنوعی صاحب‌خانه!",
+    "summary_fa": "بر اساس گزارش‌های منتشرشده، زنی پس از آنکه دستیار هوش مصنوعی صاحب‌خانه‌اش به او اعلام کرده بود امکان به تعویق انداختن پرداخت اجاره وجود دارد، از خانه اخراج شد و با حکم تخلیه مواجه گردید. این مستأجر با اتکا به تأیید رسمیِ این دستیار خودکار پرداختی خود را عقب انداخت، اما مالک قرارداد بدون توجه به گفت‌وگوی چت‌بات فرایند تخلیه را اجرایی کرد. این حادثه نمونه‌ای بارز از پیامدهای عملی و خلاءهای قانونی در اعتماد کورکورانه به پاسخ‌های سیستم‌های هوش مصنوعی است.",
+    "key_points_fa": [
+     "اخراج و صدور حکم تخلیه برای مستأجر زن به دلیل عدم پرداخت به موقع اجاره",
+     "تأیید مجوز تأخیر پرداخت از طرف دستیار هوش مصنوعی (AI Assistant) صاحب‌خانه",
+     "بی‌اعتنایی به قول و توافق ایجادشده توسط چت‌بات در جریان روند قانونی تخلیه",
+     "ایجاد بحث‌های حقوقی داغ در جوامع فناوری درباره میزان مسئولیت قانونی پاسخ‌های چت‌بات‌ها"
+    ],
+    "why_it_matters_fa": "این ماجرا نشان می‌دهد وعده‌ها و راهنمایی‌های چت‌بات‌ها در مراجع قانونی یا تصمیمات دنیای واقعی هنوز هیچ ضمانت اجرایی ندارند و اعتماد به آن‌ها می‌تواند زیان‌های جبران‌ناپذیری برای افراد ایجاد کند.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "وقتی هوش مصنوعی باعث بی‌خانمان شدنت میشه!",
+      "hook_fa": "فکر کن چت‌بات صاحب‌خونه بهت بگه عیب نداره اجاره رو دیر بده، ولی فردا وسایلت رو بریزن تو کوچه!",
+      "angle_fa": "روایت داستانی و هشدارآمیز درباره خطرات اعتماد حقوقی به هوش مصنوعی",
+      "outline_fa": [
+       "تعریف ماجرای مستأجری که از هوش مصنوعی اجازه گرفت",
+       "اتفاقی که در عمل افتاد و صاحب‌خانه زیر بار حرف بات نرفت",
+       "درس مهم: چرا نباید توافق مالی یا قانونی رو با هوش مصنوعی بست؟",
+       "دعوت به کامنت: اگه جای مستأجره بودید شکایت می‌کردید؟"
+      ],
+      "visual_tip_fa": "شروع با یک سناریوی نمایشی کوتاه از چت با هوش مصنوعی و سپس تصویر نمادین کارتن‌های اسباب‌کشی روی پیاده‌رو."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "آیا هوش مصنوعی در برابر قانون مسئول است؟",
+      "hook_fa": "چت‌بات قول داد، اما مستأجر تاوانش رو با بی‌خانمان شدن داد!",
+      "angle_fa": "بررسی ابعاد مسئولیت شرکت‌ها و افراد در قبال تصمیم‌گیری‌های عامل‌های هوشمند",
+      "outline_fa": [
+       "اسلاید ۱: شرح خلاصه خبر اخراج مستأجر",
+       "اسلاید ۲: مقصر کیست؟ شرکت سازنده بات، صاحب‌خانه یا مستأجر؟",
+       "اسلاید ۳: قوانین فعلی درباره توافقات چت‌بات‌ها چه می‌گویند؟",
+       "اسلاید ۴: ۳ کاری که باید قبل از اعتماد به چت‌بات‌های پشتیبانی انجام بدید"
+      ],
+      "visual_tip_fa": "اسلایدهای مینیمال تیره با اسکرین‌شات ساختگی از پیام‌های چت مبنی بر تعویق اجاره و چکش دادگاه."
+     }
+    ],
+    "hashtags": [
+     "#هوش_مصنوعی",
+     "#چالش_هوش_مصنوعی",
+     "#اخبار_هوش_مصنوعی",
+     "#AIEthics",
+     "#ArtificialIntelligence",
+     "#تکنولوژی"
+    ],
+    "caution_fa": "متن تفصیلی این گزارش در منبع محدود بوده و جزئیات حقوقی دادگاه مشخص نشده است؛ بدون بزرگ‌نمایی حقوقی و صرفاً بر اساس کلیات رویداد بازگو شود."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "4e825df2be"
+  },
+  {
+   "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
+   "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+   "source": "research.google",
+   "published": "2026-11-27T23:06:29+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 407 امتیاز، 154 کامنت",
+   "signal_value": 407,
+   "discussion_url": "https://news.ycombinator.com/item?id=50672565",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://storage.googleapis.com/gweb-research2023-media/images/HO_previewImage1.width-800.format-jpeg.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/DeepCrossAttention1_Banner.gif",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://storage.googleapis.com/gweb-research2023-media/images/DeepCrossAttention2_NetworkComparison.width-1250.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://storage.googleapis.com/gweb-research2023-media/images/DeepCrossAttention3_BenchmarkResults.width-1250.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://storage.googleapis.com/gweb-research2023-media/images/DeepCrossAttention4_ConnectionsPerplexityResu.width-1250.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/DiffusionController_hero.gif",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/middle-mile_logistics2-LifeOfShipment.png",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 6,
+   "category": "research",
+   "story_key": "google-deep-cross-attention",
+   "topic_key": "efficient-ai-architectures",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "شاهکار جدید گوگل: مدل‌های هوش مصنوعی تا ۳ برابر سریع‌تر و ۴۰٪ سبک‌تر می‌شوند!",
+   "one_liner_fa": "گوگل از تکنیک جدیدی به نام DeepCrossAttention رونمایی کرد که مدل‌های هوش مصنوعی را با همان کیفیت اما تا ۳ برابر سریع‌تر اجرا می‌کند.",
+   "deep": {
+    "id": "77ab3d65a2",
+    "title_fa": "شاهکار جدید گوگل: مدل‌های هوش مصنوعی تا ۳ برابر سریع‌تر و ۴۰٪ سبک‌تر می‌شوند!",
+    "summary_fa": "تیم تحقیقاتی گوگل ریسرچ (Google Research) از یک معماری نوآورانه به نام دیپ‌کراس‌اتنشن (DeepCrossAttention یا DCA) برای شبکه‌های ترنسفورمر رونمایی کرده که یادگیری مدل‌ها را تا ۳ برابر سریع‌تر می‌کند. در ترنسفورمرهای مرسوم، اتصالات میان‌بر (Residual Connections) داده‌های لایه‌ها را بدون اولویت‌بندی ترکیب می‌کنند که به کم‌رنگ شدن جزئیات اولیه منجر می‌شود. معماری DCA این مشکل را با استفاده از مسیریابی پویا و توجه میان‌لایه‌ای حل کرده و امکان کاهش ۳۰ تا ۴۰ درصدی پارامترها بدون افت کیفیت را فراهم می‌سازد.",
+    "key_points_fa": [
+     "معرفی توسط محققان گوگل ریسرچ (Kyriakos Axiotis و Thomas Fu) در کنفرانس ICML 2025",
+     "دستیابی به همان سطح کیفیت مدل‌های ترنسفورمر، تا ۳ برابر سریع‌تر",
+     "کاهش ۳۰ تا ۴۰ درصدی تعداد پارامترهای مدل در مقایسه با ساختارهای استاندارد قبلی",
+     "رسیدن به عملکرد مدل‌های استاندارد با ۵ برابر استپ‌های (Steps) آموزشی کمتر روی دیتاست‌های C4 و LM1B",
+     "کاهش لایه‌های شبکه از ۴۲ به ۳۰ لایه (۲۹ درصد عمق کمتر) برای ثبت پرپلکسیتی زیر ۱۴ در دیتاست LM1B",
+     "حل مشکل رقیق‌شدن اطلاعات (Information Dilution) از طریق مسیریابی پویا (Dynamic layer routing) و توجه عمقی (Depth-wise cross-attention)"
+    ],
+    "why_it_matters_fa": "ترنسفورمرها پایه و اساس تمام مدل‌های زبانی مدرن از جمله چت‌جی‌پی‌تی و جمینای هستند؛ این بهینه‌سازی عظیم هزینه هنگفت دیتاسنترها و زمان چندماهه آموزش مدل‌های بزرگ هوش مصنوعی را به شدت پایین می‌آورد.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "گوگل دوباره ترنسفورمر رو زیر و رو کرد!",
+      "hook_fa": "گوگل فرمول اصلی ساخت چت‌جی‌پی‌تی رو تغییر داد؛ هوش مصنوعی ۳ برابر سریع‌تر شد!",
+      "angle_fa": "توضیح معماری پیچیده DCA با مثال بازی تلفن‌بازی (Telephone Game) برای مخاطب عام",
+      "outline_fa": [
+       "قلب تپنده هوش مصنوعی چیه؟ شبکه ترنسفورمر که سال ۲۰۱۷ خود گوگل داد",
+       "مشکل بزرگ لایه‌های عمیق: اطلاعات مثل بازی تلفن‌بازی خراب می‌شن",
+       "معرفی DCA: سیستم جدید گوگل که لایه‌های مهم رو هوشمندانه وصل می‌کنه",
+       "نتیجه: ۴۰ درصد مدل سبک‌تر، ۳ برابر سریع‌تر و مصرف سرور خیلی کمتر!"
+      ],
+      "visual_tip_fa": "استفاده از نمودارهای مقاله گوگل در پس‌زمینه (نمودار مقایسه اتصال استاندارد با DCA و نمودار Perplexity) همراه با انیمیشن‌های متنی جذاب."
+     },
+     {
+      "format": "پست",
+      "title_fa": "انقلاب DCA در گوگل ریسرچ؛ مرگ معماری سنتی ترنسفورمر؟",
+      "hook_fa": "چگونه گوگل توانست با ۴۰٪ پارامتر کمتر، کیفیت مدل‌های آینده را حفظ کند؟",
+      "angle_fa": "بررسی فنی‌تر و ساختاریافته ویژه دنبال‌کنندگان تخصصی‌تر هوش مصنوعی و ماشین لرنینگ",
+      "outline_fa": [
+       "توضیح نقص Skip Connections ساده و مشکل Information Dilution",
+       "مکانیزم دوگانه DeepCrossAttention: مسیریابی پویا + Split Q/K/V بین لایه‌ها",
+       "نتایج آزمایش‌ها روی C4 و LM1B و برتری نسبت به LAUREL-PA و DenseFormer",
+       "چشم‌انداز این معماری در ساخت نسخه‌های بعدی جمینای"
+      ],
+      "visual_tip_fa": "طراحی اسلایدهای شیک فنی شامل دیاگرام دیاگرام مقایسه لایه‌ای استاندارد در برابر DCA که در بلاگ گوگل ریسرچ ارائه شده است."
+     }
+    ],
+    "hashtags": [
+     "#گوگل",
+     "#ترنسفورمر",
+     "#GoogleResearch",
+     "#هوش_مصنوعی",
+     "#یادگیری_عمیق",
+     "#Transformer",
+     "#تکنولوژی"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": true,
+   "id": "77ab3d65a2"
+  }
+ ],
+ "others": [],
+ "scored": [
+  {
+   "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
+   "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+   "source": "research.google",
+   "published": "2026-11-27T23:06:29+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 407 امتیاز، 154 کامنت",
+   "signal_value": 407,
+   "discussion_url": "https://news.ycombinator.com/item?id=50672565",
+   "media": [
+    {
+     "kind": "image",
+     "url": "https://storage.googleapis.com/gweb-research2023-media/images/HO_previewImage1.width-800.format-jpeg.jpg",
+     "origin": "og"
+    },
+    {
+     "kind": "image",
+     "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/DeepCrossAttention1_Banner.gif",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://storage.googleapis.com/gweb-research2023-media/images/DeepCrossAttention2_NetworkComparison.width-1250.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://storage.googleapis.com/gweb-research2023-media/images/DeepCrossAttention3_BenchmarkResults.width-1250.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://storage.googleapis.com/gweb-research2023-media/images/DeepCrossAttention4_ConnectionsPerplexityResu.width-1250.png",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/DiffusionController_hero.gif",
+     "origin": "article"
+    },
+    {
+     "kind": "image",
+     "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/middle-mile_logistics2-LifeOfShipment.png",
+     "origin": "article"
+    }
+   ],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 6,
+   "category": "research",
+   "story_key": "google-deep-cross-attention",
+   "topic_key": "efficient-ai-architectures",
+   "already_reported": false,
+   "viral": 5,
+   "title_fa": "شاهکار جدید گوگل: مدل‌های هوش مصنوعی تا ۳ برابر سریع‌تر و ۴۰٪ سبک‌تر می‌شوند!",
+   "one_liner_fa": "گوگل از تکنیک جدیدی به نام DeepCrossAttention رونمایی کرد که مدل‌های هوش مصنوعی را با همان کیفیت اما تا ۳ برابر سریع‌تر اجرا می‌کند.",
+   "deep": {
+    "id": "77ab3d65a2",
+    "title_fa": "شاهکار جدید گوگل: مدل‌های هوش مصنوعی تا ۳ برابر سریع‌تر و ۴۰٪ سبک‌تر می‌شوند!",
+    "summary_fa": "تیم تحقیقاتی گوگل ریسرچ (Google Research) از یک معماری نوآورانه به نام دیپ‌کراس‌اتنشن (DeepCrossAttention یا DCA) برای شبکه‌های ترنسفورمر رونمایی کرده که یادگیری مدل‌ها را تا ۳ برابر سریع‌تر می‌کند. در ترنسفورمرهای مرسوم، اتصالات میان‌بر (Residual Connections) داده‌های لایه‌ها را بدون اولویت‌بندی ترکیب می‌کنند که به کم‌رنگ شدن جزئیات اولیه منجر می‌شود. معماری DCA این مشکل را با استفاده از مسیریابی پویا و توجه میان‌لایه‌ای حل کرده و امکان کاهش ۳۰ تا ۴۰ درصدی پارامترها بدون افت کیفیت را فراهم می‌سازد.",
+    "key_points_fa": [
+     "معرفی توسط محققان گوگل ریسرچ (Kyriakos Axiotis و Thomas Fu) در کنفرانس ICML 2025",
+     "دستیابی به همان سطح کیفیت مدل‌های ترنسفورمر، تا ۳ برابر سریع‌تر",
+     "کاهش ۳۰ تا ۴۰ درصدی تعداد پارامترهای مدل در مقایسه با ساختارهای استاندارد قبلی",
+     "رسیدن به عملکرد مدل‌های استاندارد با ۵ برابر استپ‌های (Steps) آموزشی کمتر روی دیتاست‌های C4 و LM1B",
+     "کاهش لایه‌های شبکه از ۴۲ به ۳۰ لایه (۲۹ درصد عمق کمتر) برای ثبت پرپلکسیتی زیر ۱۴ در دیتاست LM1B",
+     "حل مشکل رقیق‌شدن اطلاعات (Information Dilution) از طریق مسیریابی پویا (Dynamic layer routing) و توجه عمقی (Depth-wise cross-attention)"
+    ],
+    "why_it_matters_fa": "ترنسفورمرها پایه و اساس تمام مدل‌های زبانی مدرن از جمله چت‌جی‌پی‌تی و جمینای هستند؛ این بهینه‌سازی عظیم هزینه هنگفت دیتاسنترها و زمان چندماهه آموزش مدل‌های بزرگ هوش مصنوعی را به شدت پایین می‌آورد.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "گوگل دوباره ترنسفورمر رو زیر و رو کرد!",
+      "hook_fa": "گوگل فرمول اصلی ساخت چت‌جی‌پی‌تی رو تغییر داد؛ هوش مصنوعی ۳ برابر سریع‌تر شد!",
+      "angle_fa": "توضیح معماری پیچیده DCA با مثال بازی تلفن‌بازی (Telephone Game) برای مخاطب عام",
+      "outline_fa": [
+       "قلب تپنده هوش مصنوعی چیه؟ شبکه ترنسفورمر که سال ۲۰۱۷ خود گوگل داد",
+       "مشکل بزرگ لایه‌های عمیق: اطلاعات مثل بازی تلفن‌بازی خراب می‌شن",
+       "معرفی DCA: سیستم جدید گوگل که لایه‌های مهم رو هوشمندانه وصل می‌کنه",
+       "نتیجه: ۴۰ درصد مدل سبک‌تر، ۳ برابر سریع‌تر و مصرف سرور خیلی کمتر!"
+      ],
+      "visual_tip_fa": "استفاده از نمودارهای مقاله گوگل در پس‌زمینه (نمودار مقایسه اتصال استاندارد با DCA و نمودار Perplexity) همراه با انیمیشن‌های متنی جذاب."
+     },
+     {
+      "format": "پست",
+      "title_fa": "انقلاب DCA در گوگل ریسرچ؛ مرگ معماری سنتی ترنسفورمر؟",
+      "hook_fa": "چگونه گوگل توانست با ۴۰٪ پارامتر کمتر، کیفیت مدل‌های آینده را حفظ کند؟",
+      "angle_fa": "بررسی فنی‌تر و ساختاریافته ویژه دنبال‌کنندگان تخصصی‌تر هوش مصنوعی و ماشین لرنینگ",
+      "outline_fa": [
+       "توضیح نقص Skip Connections ساده و مشکل Information Dilution",
+       "مکانیزم دوگانه DeepCrossAttention: مسیریابی پویا + Split Q/K/V بین لایه‌ها",
+       "نتایج آزمایش‌ها روی C4 و LM1B و برتری نسبت به LAUREL-PA و DenseFormer",
+       "چشم‌انداز این معماری در ساخت نسخه‌های بعدی جمینای"
+      ],
+      "visual_tip_fa": "طراحی اسلایدهای شیک فنی شامل دیاگرام دیاگرام مقایسه لایه‌ای استاندارد در برابر DCA که در بلاگ گوگل ریسرچ ارائه شده است."
+     }
+    ],
+    "hashtags": [
+     "#گوگل",
+     "#ترنسفورمر",
+     "#GoogleResearch",
+     "#هوش_مصنوعی",
+     "#یادگیری_عمیق",
+     "#Transformer",
+     "#تکنولوژی"
+    ],
+    "caution_fa": ""
+   },
+   "alert": {},
+   "alerted": true,
+   "id": "77ab3d65a2"
+  },
+  {
+   "title": "Unkernel: Real Linux kernel, compiled to WebAssembly",
+   "url": "https://unkernel.dev",
+   "source": "unkernel.dev",
+   "published": "2026-11-28T03:19:20+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 326 امتیاز، 78 کامنت",
+   "signal_value": 326,
+   "discussion_url": "https://news.ycombinator.com/item?id=50674218",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 5,
+   "worthiness": 5,
+   "category": "open_source",
+   "story_key": "unkernel-linux-webassembly",
+   "topic_key": "webassembly-innovations",
+   "already_reported": false,
+   "viral": 4,
+   "title_fa": "",
+   "one_liner_fa": "",
+   "deep": {},
+   "alert": {},
+   "alerted": false,
+   "id": "7d5642ecb0"
+  },
+  {
+   "title": "Woman evicted after landlord's AI assistant told her she could delay rent",
+   "url": "https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai",
+   "source": "drmahfouz.substack.com",
+   "published": "2026-11-28T01:32:56+00:00",
+   "origin": "Hacker News",
+   "summary": "",
+   "lang": "en",
+   "signal": "Hacker News: 176 امتیاز، 128 کامنت",
+   "signal_value": 176,
+   "discussion_url": "https://news.ycombinator.com/item?id=50673521",
+   "media": [],
+   "also_covered_by": [],
+   "importance": 6,
+   "worthiness": 8,
+   "category": "safety_ethics",
+   "story_key": "ai-landlord-assistant-eviction",
+   "topic_key": "ai-hallucination-real-world-harm",
+   "already_reported": false,
+   "viral": 8,
+   "title_fa": "تخلیه خانه یک مستأجر پس از تأیید تعویق اجاره توسط هوش مصنوعی صاحب‌خانه!",
+   "one_liner_fa": "دستیار هوش مصنوعی صاحب‌خانه به یک مستأجر اجازه پرداخت با تأخیر اجاره را داد، اما این پاسخ اشتباه در نهایت منجر به حکم تخلیه و آوارگی او شد.",
+   "deep": {
+    "id": "4e825df2be",
+    "title_fa": "تخلیه خانه یک مستأجر پس از تأیید تعویق اجاره توسط هوش مصنوعی صاحب‌خانه!",
+    "summary_fa": "بر اساس گزارش‌های منتشرشده، زنی پس از آنکه دستیار هوش مصنوعی صاحب‌خانه‌اش به او اعلام کرده بود امکان به تعویق انداختن پرداخت اجاره وجود دارد، از خانه اخراج شد و با حکم تخلیه مواجه گردید. این مستأجر با اتکا به تأیید رسمیِ این دستیار خودکار پرداختی خود را عقب انداخت، اما مالک قرارداد بدون توجه به گفت‌وگوی چت‌بات فرایند تخلیه را اجرایی کرد. این حادثه نمونه‌ای بارز از پیامدهای عملی و خلاءهای قانونی در اعتماد کورکورانه به پاسخ‌های سیستم‌های هوش مصنوعی است.",
+    "key_points_fa": [
+     "اخراج و صدور حکم تخلیه برای مستأجر زن به دلیل عدم پرداخت به موقع اجاره",
+     "تأیید مجوز تأخیر پرداخت از طرف دستیار هوش مصنوعی (AI Assistant) صاحب‌خانه",
+     "بی‌اعتنایی به قول و توافق ایجادشده توسط چت‌بات در جریان روند قانونی تخلیه",
+     "ایجاد بحث‌های حقوقی داغ در جوامع فناوری درباره میزان مسئولیت قانونی پاسخ‌های چت‌بات‌ها"
+    ],
+    "why_it_matters_fa": "این ماجرا نشان می‌دهد وعده‌ها و راهنمایی‌های چت‌بات‌ها در مراجع قانونی یا تصمیمات دنیای واقعی هنوز هیچ ضمانت اجرایی ندارند و اعتماد به آن‌ها می‌تواند زیان‌های جبران‌ناپذیری برای افراد ایجاد کند.",
+    "content_ideas": [
+     {
+      "format": "ریلز",
+      "title_fa": "وقتی هوش مصنوعی باعث بی‌خانمان شدنت میشه!",
+      "hook_fa": "فکر کن چت‌بات صاحب‌خونه بهت بگه عیب نداره اجاره رو دیر بده، ولی فردا وسایلت رو بریزن تو کوچه!",
+      "angle_fa": "روایت داستانی و هشدارآمیز درباره خطرات اعتماد حقوقی به هوش مصنوعی",
+      "outline_fa": [
+       "تعریف ماجرای مستأجری که از هوش مصنوعی اجازه گرفت",
+       "اتفاقی که در عمل افتاد و صاحب‌خانه زیر بار حرف بات نرفت",
+       "درس مهم: چرا نباید توافق مالی یا قانونی رو با هوش مصنوعی بست؟",
+       "دعوت به کامنت: اگه جای مستأجره بودید شکایت می‌کردید؟"
+      ],
+      "visual_tip_fa": "شروع با یک سناریوی نمایشی کوتاه از چت با هوش مصنوعی و سپس تصویر نمادین کارتن‌های اسباب‌کشی روی پیاده‌رو."
+     },
+     {
+      "format": "کاروسل",
+      "title_fa": "آیا هوش مصنوعی در برابر قانون مسئول است؟",
+      "hook_fa": "چت‌بات قول داد، اما مستأجر تاوانش رو با بی‌خانمان شدن داد!",
+      "angle_fa": "بررسی ابعاد مسئولیت شرکت‌ها و افراد در قبال تصمیم‌گیری‌های عامل‌های هوشمند",
+      "outline_fa": [
+       "اسلاید ۱: شرح خلاصه خبر اخراج مستأجر",
+       "اسلاید ۲: مقصر کیست؟ شرکت سازنده بات، صاحب‌خانه یا مستأجر؟",
+       "اسلاید ۳: قوانین فعلی درباره توافقات چت‌بات‌ها چه می‌گویند؟",
+       "اسلاید ۴: ۳ کاری که باید قبل از اعتماد به چت‌بات‌های پشتیبانی انجام بدید"
+      ],
+      "visual_tip_fa": "اسلایدهای مینیمال تیره با اسکرین‌شات ساختگی از پیام‌های چت مبنی بر تعویق اجاره و چکش دادگاه."
+     }
+    ],
+    "hashtags": [
+     "#هوش_مصنوعی",
+     "#چالش_هوش_مصنوعی",
+     "#اخبار_هوش_مصنوعی",
+     "#AIEthics",
+     "#ArtificialIntelligence",
+     "#تکنولوژی"
+    ],
+    "caution_fa": "متن تفصیلی این گزارش در منبع محدود بوده و جزئیات حقوقی دادگاه مشخص نشده است؛ بدون بزرگ‌نمایی حقوقی و صرفاً بر اساس کلیات رویداد بازگو شود."
+   },
+   "alert": {},
+   "alerted": false,
+   "id": "4e825df2be"
+  }
+ ],
+ "failed_sources": [],
+ "models": [
+  "gemini-3.8-flash",
+  "gemini-3.8-flash"
+ ]
+}

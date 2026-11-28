@@ -838,7 +838,11 @@
   "https://cr.yp.to/proofs/falseccp.html": "2026-11-28",
   "https://herecomesthemoon.net/2026/11/whats-claudes-fursona": "2026-11-28",
   "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical": "2026-11-28",
-  "https://theguardian.com/books/2026/nov/27/careless-people-author-sarah-wynn-williams-the-silence-is-mine-it-doesnt-have-to-be-yours": "2026-11-28"
+  "https://theguardian.com/books/2026/nov/27/careless-people-author-sarah-wynn-williams-the-silence-is-mine-it-doesnt-have-to-be-yours": "2026-11-28",
+  "https://research.google/blog/supercharging-transformer-residual-connections": "2026-11-28",
+  "https://unkernel.dev/": "2026-11-28",
+  "https://forums.atariage.com/topic/394894-atari-homebrew-awards-cancelled": "2026-11-28",
+  "https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai": "2026-11-28"
  },
  "reported": [
   {
@@ -1398,6 +1402,18 @@
    "title": "Samsung is reportedly giving its camera app an AI mode",
    "title_fa": "دوربین گلکسی اس۲۷ هوشمندتر می‌شود؛ اضافه شدن حالت اختصاصی هوش مصنوعی Vision به گوشی‌های سامسونگ",
    "url": "https://engadget.com/2329765/samsung-is-reportedly-giving-its-camera-app-an-ai-mode"
+  },
+  {
+   "date": "2026-11-28",
+   "title": "Woman evicted after landlord's AI assistant told her she could delay rent",
+   "title_fa": "تخلیه خانه یک مستأجر پس از تأیید تعویق اجاره توسط هوش مصنوعی صاحب‌خانه!",
+   "url": "https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai"
+  },
+  {
+   "date": "2026-11-28",
+   "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
+   "title_fa": "شاهکار جدید گوگل: مدل‌های هوش مصنوعی تا ۳ برابر سریع‌تر و ۴۰٪ سبک‌تر می‌شوند!",
+   "url": "https://research.google/blog/supercharging-transformer-residual-connections"
   }
  ],
  "telegram_chat_id": "925911315"
